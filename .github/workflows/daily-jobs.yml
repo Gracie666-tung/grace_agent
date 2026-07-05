@@ -1,0 +1,34 @@
+name: daily-jobs
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # 01:00 UTC = 09:00 台北（GitHub cron 熱門時段可能延遲 10-20 分鐘）
+  workflow_dispatch: {} # 允許在 GitHub 網頁上手動觸發，方便測試
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 執行後要把 data/seen_jobs.json 提交回 repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Scrape and notify
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python src/daily_jobs.py
+
+      - name: Persist seen jobs
+        run: |
+          git config user.name "daily-jobs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/seen_jobs.json
+          git diff --cached --quiet || git commit -m "chore: update seen jobs [skip ci]"
+          git push
