@@ -1,0 +1,21 @@
+{
+  "_說明": "台股 AI 投資顧問設定。watchlist 只是「首次執行」的種子清單，之後watchlist 實際存放在 data/stock_state.json，用 Telegram 指令「觀察／移除」增減。code 用純數字或 ETF 代碼（不含 .TW，程式會自動加）。stop_loss_pct 與 trailing_stop_pct 為負值/正值百分比門檻，用於持股賣出警示。rss_feeds 已實測（見 README），全部失效時日報會註明「今日新聞源異常」。",
+  "watchlist": [
+    { "code": "2330", "name": "台積電" },
+    { "code": "2317", "name": "鴻海" },
+    { "code": "0050", "name": "元大台灣50" },
+    { "code": "2454", "name": "聯發科" },
+    { "code": "2603", "name": "長榮" }
+  ],
+  "model": "claude-opus-4-8",
+  "history_days": 180,
+  "stop_loss_pct": -8,
+  "trailing_stop_pct": 10,
+  "rss_feeds": [
+    "https://news.cnyes.com/rss/v1/news/category/tw_stock"
+  ],
+  "news_lookback_hours": 24,
+  "news_fetch_max": 20,
+  "news_pick_for_ai": 15,
+  "telegram_msg_limit": 4096
+}
