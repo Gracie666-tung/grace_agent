@@ -696,7 +696,7 @@ def send_telegram(token: str, chat_id: str, text: str) -> None:
 def build_dashboard_data(all_series: dict, metrics_by_code: dict, name_map: dict, category_map: dict,
                           correlation: dict, forecast_by_code: dict, failed: list[str], cfg: dict,
                           source_by_code: dict, last_updated_by_code: dict,
-                          cross_check_by_code: dict) -> dict:
+                          cross_check_by_code: dict, ai_report: dict | None = None) -> dict:
     # dashboard 的 sparkline 只需近一年走勢；完整歷史（原油/天然氣可達上萬筆）留在
     # data/commodity_history.json，不塞進 data.json，避免 Actions 每日 commit 灌爆 git 歷史。
     spark_points = cfg.get("dashboard_history_points", 260)
@@ -727,6 +727,7 @@ def build_dashboard_data(all_series: dict, metrics_by_code: dict, name_map: dict
         "correlation": correlation,
         "failed_symbols": failed,
         "cross_check": cross_check_by_code,
+        "ai_report": ai_report,
     }
 
 
@@ -852,9 +853,15 @@ def main() -> None:
 
     should_write_dashboard = args.write_dashboard or not args.dry_run
     if should_write_dashboard:
+        # dashboard 也顯示判讀：有 API key 走 AI 版，否則放規則版摘要（與 Telegram 報告一致）
+        if ai_used and ai_text:
+            ai_report = {"text": ai_text, "source": "ai"}
+        else:
+            threshold = cfg.get("zscore_alert_threshold", 2.0)
+            ai_report = {"text": rule_based_summary(metrics_by_code, name_map, threshold), "source": "rule"}
         dash = build_dashboard_data(
             all_series, metrics_by_code, name_map, category_map, correlation, forecast_by_code, failed, cfg,
-            source_by_code, last_updated_by_code, cross_check_by_code,
+            source_by_code, last_updated_by_code, cross_check_by_code, ai_report,
         )
         save_dashboard_data(dash)
         print(f"[info] dashboard data 已寫入 {DASHBOARD_DATA_PATH}")

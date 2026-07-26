@@ -137,6 +137,8 @@
   .callout li { margin-bottom: 4px; }
 
   .empty { padding: 20px; color: var(--muted); font-size: 13px; text-align: center; }
+  .ai-body { white-space: pre-wrap; line-height: 1.7; font-size: 14.5px; color: var(--text-primary);
+    background: var(--surface-2, rgba(127,127,127,0.06)); border-radius: 10px; padding: 16px 18px; }
   footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 40px; }
   a { color: var(--series-1); }
 </style>
@@ -150,6 +152,12 @@
     <span id="generated-at">資料載入中…</span>
     <span id="symbol-count"></span>
   </div>
+
+  <section id="ai-section" style="display:none">
+    <h2>本日判讀 <span id="ai-badge" class="badge badge-src"></span></h2>
+    <p class="section-note" id="ai-note"></p>
+    <div id="ai-body" class="ai-body"></div>
+  </section>
 
   <section>
     <h2>價格走勢</h2>
@@ -369,6 +377,21 @@
     const symbols = data.symbols || [];
     genEl.textContent = data.generated_at ? `最後更新：${data.generated_at}` : '';
     countEl.textContent = `追蹤品項：${symbols.length} 檔${(data.failed_symbols || []).length ? `（本輪 ${data.failed_symbols.length} 檔資料取得失敗）` : ''}`;
+
+    // 本日判讀：AI 版（設了 ANTHROPIC_API_KEY）或免費規則版摘要
+    const aiSection = document.getElementById('ai-section');
+    const ai = data.ai_report;
+    if (ai && ai.text) {
+      const isAI = ai.source === 'ai';
+      document.getElementById('ai-badge').textContent = isAI ? 'Claude AI' : '規則版';
+      document.getElementById('ai-note').textContent = isAI
+        ? 'Claude 讀取本日指標後的判讀：本日重點、異常波動警示、對採購的意涵。非投資或採購建議。'
+        : '未啟用 AI（未設定 ANTHROPIC_API_KEY），以下為規則式摘要。設定金鑰後此區會變成 Claude 判讀。';
+      document.getElementById('ai-body').textContent = ai.text;   // 純文字插入，不當 HTML
+      aiSection.style.display = '';
+    } else {
+      aiSection.style.display = 'none';
+    }
 
     const grid = document.getElementById('chart-grid');
     const metricsBody = document.getElementById('metrics-body');
