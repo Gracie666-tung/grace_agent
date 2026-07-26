@@ -20,5 +20,6 @@
   "forecast_horizon_days": 30,
   "model": "claude-opus-4-8",
   "telegram_msg_limit": 4096,
-  "cross_check_threshold_pct": 2.0
+  "cross_check_threshold_pct": 2.0,
+  "dashboard_url": "https://gracie666-tung.github.io/grace_agent/commodity/"
 }

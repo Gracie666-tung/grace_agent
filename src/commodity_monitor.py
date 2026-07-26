@@ -657,6 +657,11 @@ def build_report_blocks(metrics_by_code: dict, name_map: dict, cfg: dict, correl
             + html.escape(fallback)
         )
 
+    dashboard_url = cfg.get("dashboard_url")
+    if dashboard_url:
+        safe_url = html.escape(dashboard_url)
+        blocks.append(f'📊 <b>完整互動 dashboard</b>（走勢圖／熱圖／預測）：\n<a href="{safe_url}">{safe_url}</a>')
+
     blocks.append(DISCLAIMER)
     return blocks
 
