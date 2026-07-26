@@ -1,0 +1,36 @@
+name: commodity-monitor
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 00:00 UTC = 08:00 台北，每天一次（原物料期貨含跨時區交易，不分盤前/收盤後）
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 執行後要把 data/commodity_history.json 與 docs/commodity/data.json 提交回 repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch, analyze and notify
+        env:
+          COMMODITY_TELEGRAM_BOT_TOKEN: ${{ secrets.COMMODITY_TELEGRAM_BOT_TOKEN }} # 原物料監控專用 bot，與職缺/股票推播分開
+          COMMODITY_TELEGRAM_CHAT_ID: ${{ secrets.COMMODITY_TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python src/commodity_monitor.py
+
+      - name: Persist history and dashboard data
+        run: |
+          git config user.name "commodity-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/commodity_history.json docs/commodity/data.json
+          git diff --cached --quiet || git commit -m "chore: update commodity data [skip ci]"
+          git pull --rebase # 先 commit 再 rebase，避免 dirty tree；同日多個 workflow 都會 commit
+          git push

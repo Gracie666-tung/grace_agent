@@ -93,6 +93,71 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=xxx ANTHROPIC_API_KEY=xxx \
   python src/stock_advisor.py --mode close
 ```
 
+## 全球原物料價格監控
+
+第三個推播工具：每天 08:00（台北）抓銅、鋁、原油、天然氣、黃金、白銀、玉米期貨，
+以及台股原物料期貨 ETF 對照組（00715L），推一份分析日報到 Telegram，並更新一個
+GitHub Pages 靜態 dashboard。
+
+```
+GitHub Actions cron (00:00 UTC = 08:00 台北)
+  → src/commodity_monitor.py 打 Yahoo Finance chart API（query1.finance.yahoo.com/
+    v8/finance/chart/{symbol}）為主資料源，首次執行回補約 2 年日線，之後每天累積進
+    data/commodity_history.json
+  → 單一品項 Yahoo 抓取失敗時，若有 FRED（美國聖路易聯準銀行公開 CSV，免 API key）
+    對照數列就自動改用 FRED 備援；兩者皆失敗但有歷史資料則沿用舊值並標示「今日
+    未更新」，絕不用空白覆蓋既有好資料
+  → 算日/週/月/年變動率、MA20/60 乖離率、30日年化波動度、相對 250 日報酬分布的
+    z-score（判定異常波動）、60日品項間相關係數矩陣、naive／移動平均／線性趨勢外推
+    三種成本預測 baseline；同時有 Yahoo＋FRED 日頻資料的品項會做兩來源收盤價交叉驗證
+  → Claude API 判讀（沒有 API key 或呼叫失敗 → 自動降級為規則版摘要，不會中斷）
+  → 推播到 Telegram → 把歷史資料與 docs/commodity/data.json 提交回 repo
+  → GitHub Pages 讀 docs/commodity/data.json 畫出 dashboard（純 SVG/表格，無外部函式庫）
+```
+
+### 方法論重點
+
+- 週/月/年變動率、波動度、z-score 都用**交易日數**估算（5/21/252/30/250），不是
+  日曆天數 —— 金融資料常見近似，跟看盤軟體「近1年」可能差幾天。
+- 「異常波動」= 當日對數報酬相對近 250 個交易日報酬分布的 z-score，`|z| ≥ 2`
+  才標記，避免把正常波動也標成異常。
+- 60 日相關係數矩陣用**兩品項皆有報價的重疊交易日**計算，不是各自最近 60 筆
+  —— 不同交易所行事曆不同，直接對齊會時間錯位。共同交易日不足 10 筆就不計算。
+- 成本預測是 baseline，不是模型：naive（沿用今日收盤）、移動平均、對近期收盤做
+  最小平方法線性迴歸外推 30 個交易日，區間用該迴歸窗口的歷史殘差標準差
+  （±1 倍），不是信賴區間，只反映「歷史配適誤差多大」。**不構成採購或投資建議。**
+- **多資料源與交叉驗證**：Yahoo 為主、FRED 為備援。FRED 的原油/天然氣為日頻，
+  銅/鋁（IMF 商品價格數列）只有**月頻**——月頻品項只算月/年變動率，不套用日頻的
+  波動度／z-score／日變動率公式，dashboard 與報告會標「月頻」。對同時有兩來源
+  日頻資料的品項，比較最近共同交易日的收盤價差：Yahoo 是期貨、FRED 多為現貨，
+  本有價差屬預期，差異超過門檻只是提示「可能抓錯／單位換算錯／快取過期」的資料
+  品質檢查，不是套利訊號。
+
+### 本機測試
+
+```bash
+pip install -r requirements.txt
+python src/commodity_monitor.py --dry-run                    # 只印報告，不推播、不寫歷史
+python src/commodity_monitor.py --dry-run --write-dashboard  # 同上，另外產生
+                                                                docs/commodity/data.json
+                                                                方便本機用瀏覽器預覽 dashboard
+                                                                （需要用本機伺服器開，file://
+                                                                會被瀏覽器擋 fetch）
+python src/commodity_monitor.py --dry-run --source fred      # 跳過 Yahoo、只走 FRED 備援
+                                                                （Yahoo 被限流時用來驗證備援路徑）
+
+# 真的推一次
+COMMODITY_TELEGRAM_BOT_TOKEN=xxx COMMODITY_TELEGRAM_CHAT_ID=xxx ANTHROPIC_API_KEY=xxx \
+  python src/commodity_monitor.py
+```
+
+### 新增 secret
+
+Repo → Settings → Secrets and variables → Actions → 新增：
+`COMMODITY_TELEGRAM_BOT_TOKEN`、`COMMODITY_TELEGRAM_CHAT_ID`（獨立 bot，與職缺/
+股票推播分開）。`ANTHROPIC_API_KEY` 若已為股票顧問設定過可直接共用，不設也能跑
+（規則版摘要降級）。
+
 ## 已知限制（誠實聲明）
 
 - 104 的 `jobs/search/api/jobs` 是非官方公開端點（2026-07-06 實測可用），104 改版
@@ -104,3 +169,19 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=xxx ANTHROPIC_API_KEY=xxx \
   台股資料偶有延遲或缺漏（程式會砍掉尾端 Volume=0 的未完成 bar）。技術指標為
   常見公式的近似實作（KD 用 ewm 遞迴），數值可能與看盤軟體有小數差異。
   賣出警示是機械規則，不構成投資建議。
+- 原物料監控：Yahoo Finance 的 `v8/finance/chart` 是非官方端點，2026-07-20 實測
+  發現它會依 IP＋User-Agent 組合做**短時間高頻請求限流（429）**，不是永久封鎖 ——
+  單一 symbol 重試幾秒內通常會過，但短時間內對同一個 UA 打滿 8 個 symbol 有機會
+  整輪被限流；程式已內建重試 backoff 與 symbol 間延遲，仍可能在極端狀況下整輪抓
+  不到資料，此時報告會誠實列出「資料取得失敗」品項，不會中斷或推播假資料。
+- 原物料監控的備援設計：原本規劃用 Stooq 當 fallback，2026-07-20 實測發現 Stooq
+  已改為 JavaScript proof-of-work 驗證頁（不再直接回 CSV），繞過它屬對抗反爬蟲機制，
+  故不採用，改用 FRED。FRED 免 API key、資料官方且穩定，但代價是：銅、鋁只有**月頻**
+  （IMF 商品價格數列），黃金、白銀、玉米、台股 ETF 在 FRED **沒有對應數列**（這幾項
+  只靠 Yahoo 單一來源，Yahoo 掛了就只能沿用歷史）；且 FRED 的原油/天然氣日頻數列
+  通常**落後約 5 個營業日**，不是即時報價。
+- 原物料監控刻意不納入晶片（DRAM/NAND）與塑化（PE/PP）：這兩類沒有可靠的免費
+  公開數列來源（多半鎖在付費終端如 Bloomberg/DRAMeXchange 訂閱），寧可不做也
+  不要用假資料充數。
+- 原物料監控的各品項為原幣別報價（期貨多為美元，00715L 為新台幣），沒有做匯率
+  轉換，跨品項比較時請留意幣別不同。

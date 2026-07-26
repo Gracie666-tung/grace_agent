@@ -1,0 +1,498 @@
+<title>全球原物料價格監控</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11, 11, 11, 0.10);
+    --series-1: #2a78d6;
+    --series-1-fill: rgba(42, 120, 214, 0.12);
+    --diverge-pos: #2a78d6;
+    --diverge-neg: #e34948;
+    --diverge-mid: #f0efec;
+    --good: #0ca30c;
+    --warning: #fab219;
+    --critical: #d03b3b;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255, 255, 255, 0.10);
+      --series-1: #3987e5;
+      --series-1-fill: rgba(57, 135, 229, 0.16);
+      --diverge-pos: #3987e5;
+      --diverge-neg: #e66767;
+      --diverge-mid: #383835;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --series-1: #3987e5;
+    --series-1-fill: rgba(57, 135, 229, 0.16);
+    --diverge-pos: #3987e5;
+    --diverge-neg: #e66767;
+    --diverge-mid: #383835;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 24px 16px 64px;
+  }
+  main { max-width: 1080px; margin: 0 auto; }
+
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; margin: 0 0 20px; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 8px 20px; color: var(--muted); font-size: 12.5px; margin-bottom: 20px; }
+
+  section { margin-bottom: 32px; }
+  h2 { font-size: 16px; margin: 0 0 12px; }
+  .section-note { color: var(--text-secondary); font-size: 13px; margin: -6px 0 14px; }
+
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+  }
+  .chart-card { padding: 12px 14px 10px; position: relative; }
+  .chart-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+  .chart-title { font-size: 13.5px; font-weight: 600; }
+  .chart-price { font-size: 13px; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+  .chart-sub { font-size: 11.5px; color: var(--muted); margin-bottom: 6px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 5px;
+    margin-left: 6px;
+  }
+  .badge-warn { background: rgba(250, 178, 25, 0.16); color: var(--warning); }
+  .badge-crit { background: rgba(208, 59, 59, 0.14); color: var(--critical); }
+  .badge-src { background: var(--diverge-mid); color: var(--text-secondary); }
+  .stale-note { font-size: 11px; color: var(--warning); margin-top: 2px; }
+  svg.spark { width: 100%; height: 96px; display: block; overflow: visible; }
+  .spark-line { fill: none; stroke: var(--series-1); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .spark-fill { fill: var(--series-1-fill); stroke: none; }
+  .spark-axis { stroke: var(--baseline); stroke-width: 1; }
+  .crosshair { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 2; opacity: 0; pointer-events: none; }
+  .hover-dot { fill: var(--series-1); opacity: 0; pointer-events: none; }
+  .tooltip {
+    position: absolute; pointer-events: none; opacity: 0; transition: opacity .08s;
+    background: var(--text-primary); color: var(--surface-1);
+    font-size: 11.5px; padding: 4px 7px; border-radius: 6px; white-space: nowrap;
+    transform: translate(-50%, -120%); z-index: 5; font-variant-numeric: tabular-nums;
+  }
+
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 13px; }
+  th, td { padding: 7px 10px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align: left; font-variant-numeric: normal; }
+  thead th { color: var(--muted); font-weight: 500; font-size: 11.5px; text-transform: uppercase; letter-spacing: .02em; border-bottom: 1px solid var(--grid); }
+  tbody tr { border-bottom: 1px solid var(--grid); }
+  tbody tr:last-child { border-bottom: none; }
+  .pos { color: var(--diverge-pos); }
+  .neg { color: var(--diverge-neg); }
+  .cell-muted { color: var(--muted); }
+
+  .heat-cell { text-align: center; font-size: 12px; font-variant-numeric: tabular-nums; padding: 6px 8px; }
+  .heat-label { text-align: left; font-size: 12px; color: var(--text-secondary); padding-right: 10px; }
+
+  .legend { display: flex; align-items: center; gap: 14px; font-size: 11.5px; color: var(--text-secondary); margin-top: 10px; }
+  .legend-swatch { display: inline-block; width: 26px; height: 8px; border-radius: 3px; vertical-align: middle; margin-right: 5px; }
+
+  .callout {
+    padding: 12px 14px; font-size: 13px; color: var(--text-secondary);
+    border-left: 3px solid var(--baseline);
+  }
+  .callout b { color: var(--text-primary); }
+  .callout ul { margin: 8px 0 0; padding-left: 18px; }
+  .callout li { margin-bottom: 4px; }
+
+  .empty { padding: 20px; color: var(--muted); font-size: 13px; text-align: center; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 40px; }
+  a { color: var(--series-1); }
+</style>
+
+<main>
+  <h1>全球原物料價格監控</h1>
+  <p class="subtitle">每日追蹤銅、鋁、原油、天然氣、黃金、白銀、玉米期貨與台股原物料 ETF 對照組，
+    自動計算變動率、移動平均乖離率、波動度與異常判定。主資料源 Yahoo Finance 失敗時
+    自動改用 FRED（美國聖路易聯準銀行公開數列）備援，各品項的資料來源會標示在下方。</p>
+  <div class="meta-row">
+    <span id="generated-at">資料載入中…</span>
+    <span id="symbol-count"></span>
+  </div>
+
+  <section>
+    <h2>價格走勢</h2>
+    <p class="section-note">近一年收盤價（藍線），資料來源 Yahoo Finance 期貨/ETF 日線。滑過線圖可看單日收盤。</p>
+    <div id="chart-grid" class="chart-grid"></div>
+  </section>
+
+  <section>
+    <h2>變動率與指標</h2>
+    <p class="section-note">週/月/年變動率以慣用交易日數（5/21/252 個交易日）估算，非日曆天數。乖離率 = (收盤 − 移動平均) ÷ 移動平均。
+      月頻品項（FRED 金屬數列）沒有日/週變動率、波動度、z-score，只算月對月／年對年變動率——這是預期行為，不是資料缺漏。</p>
+    <div class="card table-scroll">
+      <table id="metrics-table">
+        <thead>
+          <tr>
+            <th>品項</th><th>來源</th><th>收盤</th><th>日</th><th>週</th><th>月</th><th>年</th>
+            <th>乖離MA20</th><th>乖離MA60</th><th>30日年化波動</th><th>報酬z-score</th>
+          </tr>
+        </thead>
+        <tbody id="metrics-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="cross-check-section" style="display:none">
+    <h2>資料源交叉驗證（Yahoo vs FRED）</h2>
+    <p class="section-note">同時有 Yahoo 與 FRED 日頻資料的品項（原油、天然氣），比較兩來源最近共同交易日的收盤價差異。
+      Yahoo 是期貨、FRED 多為現貨，本有價差屬預期現象；差異 &gt; 門檻只是提示可能的資料異常，不是套利訊號。</p>
+    <div class="card table-scroll">
+      <table id="cross-check-table">
+        <thead><tr><th>品項</th><th>共同交易日</th><th>Yahoo 收盤</th><th>FRED 收盤</th><th>差異</th></tr></thead>
+        <tbody id="cross-check-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>成本預測 baseline</h2>
+    <p class="section-note">naive＝沿用最新收盤；MA＝移動平均；趨勢外推＝對近期收盤做線性迴歸外推，區間為歷史殘差 ±1 個標準差。
+      三者都是統計 baseline，不是預測保證。</p>
+    <div class="card table-scroll">
+      <table id="forecast-table">
+        <thead>
+          <tr><th>品項</th><th>naive</th><th>移動平均</th><th>趨勢外推</th><th>區間（±1 殘差標準差）</th></tr>
+        </thead>
+        <tbody id="forecast-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>60 日相關係數矩陣</h2>
+    <p class="section-note">以兩品項皆有報價的重疊交易日計算日報酬相關係數，避免不同交易所行事曆造成時間錯位。共同交易日不足 10 筆不計算。</p>
+    <div class="card table-scroll">
+      <table id="corr-table"></table>
+    </div>
+    <div class="legend">
+      <span><span class="legend-swatch" style="background:var(--diverge-neg)"></span>負相關 −1</span>
+      <span><span class="legend-swatch" style="background:var(--diverge-mid)"></span>無相關 0</span>
+      <span><span class="legend-swatch" style="background:var(--diverge-pos)"></span>正相關 +1</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="card callout">
+      <b>方法論與已知限制</b>
+      <ul>
+        <li>主資料源為 Yahoo Finance 非官方 <code>v8/finance/chart</code> 端點，非官方 API 有中斷或改版風險；
+          失敗時自動改用 FRED（美國聖路易聯準銀行）公開 CSV 備援，兩者同時可用時會做交叉驗證。</li>
+        <li>Stooq 曾評估作為第二資料源，但其下載端點已改為需要瀏覽器互動的 JS 驗證頁，不繞過反爬機制，故未採用。</li>
+        <li>FRED 的銅、鋁數列（IMF 商品價格）只有<b>月頻</b>，不是每日更新；這兩項在本 dashboard 只顯示月/年變動率，
+          不套用日頻的波動度／z-score／日變動率公式。FRED 的原油、天然氣數列為日頻，但通常落後約 5 個營業日（一週）。</li>
+        <li>晶片（DRAM/NAND）與塑化（PE/PP）等原物料無可靠免費公開數列來源，故未納入本工具。</li>
+        <li>各品項為原幣別報價（多為美元，00715L 為新台幣），未做匯率轉換；FRED 的銅/鋁單位是 USD/公噸，
+          與 Yahoo 期貨的 USD/lb 尺度不同，跨來源切換時價格數字會跳動屬正常現象，不是錯誤。</li>
+        <li>週/月/年變動率、波動度、z-score 皆以交易日數估算（5/21/252/30/250 個交易日），非日曆天數。</li>
+        <li>某品項若當日所有資料源都失敗，會沿用既有歷史資料繼續分析並標示「今日未更新」，不會用空白覆蓋掉好資料。</li>
+        <li>成本預測（naive／移動平均／線性趨勢外推）為統計 baseline，非價格預測保證，不構成採購或投資建議；
+          月頻品項不提供這項預測（交易日單位換算到月頻資料上沒有意義）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>grace_agent · 原物料監控 dashboard · 資料每日由 GitHub Actions 更新</footer>
+</main>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+(function () {
+  const CHART_W = 320, CHART_H = 96, PAD = 4;
+
+  function fmtPct(v) {
+    if (v === null || v === undefined) return '<span class="cell-muted">N/A</span>';
+    const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : '';
+    return `<span class="${cls}">${v > 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
+  }
+  function fmtNum(v, digits) {
+    if (v === null || v === undefined) return '<span class="cell-muted">N/A</span>';
+    return v.toFixed(digits === undefined ? 2 : digits);
+  }
+  function fmtZ(v) {
+    if (v === null || v === undefined) return '<span class="cell-muted">N/A</span>';
+    const cls = Math.abs(v) >= 2 ? 'neg' : '';
+    return `<span class="${cls}">${v > 0 ? '+' : ''}${v.toFixed(2)}</span>`;
+  }
+
+  function buildSpark(container, history) {
+    const points = history.slice(-260); // 近一年交易日
+    if (points.length < 2) {
+      container.innerHTML = '<div class="empty">資料不足</div>';
+      return;
+    }
+    const closes = points.map(p => p.close);
+    const min = Math.min(...closes), max = Math.max(...closes);
+    const range = max - min || 1;
+    const n = points.length;
+    const x = i => PAD + (i / (n - 1)) * (CHART_W - PAD * 2);
+    const y = v => CHART_H - PAD - ((v - min) / range) * (CHART_H - PAD * 2);
+
+    const coords = points.map((p, i) => [x(i), y(p.close)]);
+    const linePath = coords.map((c, i) => (i === 0 ? 'M' : 'L') + c[0].toFixed(1) + ',' + c[1].toFixed(1)).join(' ');
+    const fillPath = linePath + ` L${coords[coords.length - 1][0].toFixed(1)},${CHART_H - PAD} L${coords[0][0].toFixed(1)},${CHART_H - PAD} Z`;
+
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(svgNS, 'svg');
+    svg.setAttribute('viewBox', `0 0 ${CHART_W} ${CHART_H}`);
+    svg.setAttribute('class', 'spark');
+    svg.setAttribute('preserveAspectRatio', 'none');
+
+    const axis = document.createElementNS(svgNS, 'line');
+    axis.setAttribute('x1', PAD); axis.setAttribute('x2', CHART_W - PAD);
+    axis.setAttribute('y1', CHART_H - PAD); axis.setAttribute('y2', CHART_H - PAD);
+    axis.setAttribute('class', 'spark-axis');
+    svg.appendChild(axis);
+
+    const fill = document.createElementNS(svgNS, 'path');
+    fill.setAttribute('d', fillPath);
+    fill.setAttribute('class', 'spark-fill');
+    svg.appendChild(fill);
+
+    const line = document.createElementNS(svgNS, 'path');
+    line.setAttribute('d', linePath);
+    line.setAttribute('class', 'spark-line');
+    svg.appendChild(line);
+
+    const crosshair = document.createElementNS(svgNS, 'line');
+    crosshair.setAttribute('y1', PAD); crosshair.setAttribute('y2', CHART_H - PAD);
+    crosshair.setAttribute('class', 'crosshair');
+    svg.appendChild(crosshair);
+
+    const dot = document.createElementNS(svgNS, 'circle');
+    dot.setAttribute('r', 3);
+    dot.setAttribute('class', 'hover-dot');
+    svg.appendChild(dot);
+
+    const tooltip = document.getElementById('tooltip');
+    svg.addEventListener('mousemove', (ev) => {
+      const rect = svg.getBoundingClientRect();
+      const relX = (ev.clientX - rect.left) / rect.width * CHART_W;
+      let idx = Math.round(((relX - PAD) / (CHART_W - PAD * 2)) * (n - 1));
+      idx = Math.max(0, Math.min(n - 1, idx));
+      const [px, py] = coords[idx];
+      crosshair.setAttribute('x1', px); crosshair.setAttribute('x2', px);
+      crosshair.setAttribute('opacity', 1);
+      dot.setAttribute('cx', px); dot.setAttribute('cy', py); dot.setAttribute('opacity', 1);
+      tooltip.style.opacity = 1;
+      tooltip.style.left = ev.clientX + 'px';
+      tooltip.style.top = ev.clientY + window.scrollY + 'px';
+      tooltip.textContent = `${points[idx].date}  ${points[idx].close}`;
+    });
+    svg.addEventListener('mouseleave', () => {
+      crosshair.setAttribute('opacity', 0);
+      dot.setAttribute('opacity', 0);
+      tooltip.style.opacity = 0;
+    });
+
+    container.appendChild(svg);
+  }
+
+  function corrColor(v) {
+    if (v === null || v === undefined) return 'var(--diverge-mid)';
+    const t = Math.max(-1, Math.min(1, v));
+    const alpha = Math.abs(t) * 0.55 + (t === 0 ? 0 : 0.08);
+    return t >= 0
+      ? `color-mix(in srgb, var(--diverge-pos) ${Math.round(alpha * 100)}%, var(--surface-1))`
+      : `color-mix(in srgb, var(--diverge-neg) ${Math.round(alpha * 100)}%, var(--surface-1))`;
+  }
+
+  const SOURCE_LABEL = { yahoo: 'Yahoo', fred: 'FRED', history: '沿用歷史' };
+
+  function sourceBadges(s, m) {
+    let badges = '';
+    if (s.source && s.source !== 'yahoo') {
+      badges += `<span class="badge badge-src">${SOURCE_LABEL[s.source] || s.source}</span>`;
+    }
+    if (m.freq === 'monthly') {
+      badges += '<span class="badge badge-src">月頻</span>';
+    }
+    if (m.anomaly) {
+      badges += '<span class="badge badge-warn">⚠ 異常波動</span>';
+    }
+    return badges;
+  }
+
+  function sourceCell(s, m) {
+    let cell = SOURCE_LABEL[s.source] || s.source || 'Yahoo';
+    if (m.freq === 'monthly') cell += '<br><span class="cell-muted">月頻</span>';
+    if (s.source === 'history' && s.last_updated) {
+      cell += `<div class="stale-note">今日未更新<br>最後 ${s.last_updated}</div>`;
+    }
+    return cell;
+  }
+
+  function render(data) {
+    const genEl = document.getElementById('generated-at');
+    const countEl = document.getElementById('symbol-count');
+    const symbols = data.symbols || [];
+    genEl.textContent = data.generated_at ? `最後更新：${data.generated_at}` : '';
+    countEl.textContent = `追蹤品項：${symbols.length} 檔${(data.failed_symbols || []).length ? `（本輪 ${data.failed_symbols.length} 檔資料取得失敗）` : ''}`;
+
+    const grid = document.getElementById('chart-grid');
+    const metricsBody = document.getElementById('metrics-body');
+    const forecastBody = document.getElementById('forecast-body');
+
+    if (!symbols.length) {
+      grid.innerHTML = '<div class="empty">目前沒有可顯示的資料，等下一輪排程更新後再回來看。</div>';
+      metricsBody.innerHTML = '<tr><td colspan="11" class="empty">— 無資料 —</td></tr>';
+      forecastBody.innerHTML = '<tr><td colspan="5" class="empty">— 無資料 —</td></tr>';
+    }
+
+    symbols.forEach(s => {
+      const m = s.metrics || {};
+      const f = s.forecast || {};
+      const isMonthly = m.freq === 'monthly';
+      const isStale = s.source === 'history';
+
+      const card = document.createElement('div');
+      card.className = 'card chart-card';
+      const badges = sourceBadges(s, m);
+      const subLine = isMonthly
+        ? `月 ${fmtPct(m.change_1m_pct)} ・ 年 ${fmtPct(m.change_1y_pct)}`
+        : `日 ${m.change_1d_pct !== undefined ? fmtPct(m.change_1d_pct) : 'N/A'} ・ 年 ${m.change_1y_pct !== undefined ? fmtPct(m.change_1y_pct) : 'N/A'}`;
+      const staleLine = isStale ? `<div class="stale-note">今日未更新，最後更新 ${s.last_updated || '?'}</div>` : '';
+      card.innerHTML = `
+        <div class="chart-head">
+          <span class="chart-title">${s.name}${badges}</span>
+          <span class="chart-price">${m.close !== undefined ? m.close : ''}</span>
+        </div>
+        <div class="chart-sub">${subLine}</div>
+        ${staleLine}
+      `;
+      const sparkHolder = document.createElement('div');
+      card.appendChild(sparkHolder);
+      grid.appendChild(card);
+      buildSpark(sparkHolder, s.history || []);
+
+      const mrow = document.createElement('tr');
+      mrow.innerHTML = `
+        <td>${s.name}</td>
+        <td>${sourceCell(s, m)}</td>
+        <td>${m.close !== undefined ? m.close : '<span class="cell-muted">N/A</span>'}</td>
+        <td>${fmtPct(m.change_1d_pct)}</td>
+        <td>${fmtPct(m.change_1w_pct)}</td>
+        <td>${fmtPct(m.change_1m_pct)}</td>
+        <td>${fmtPct(m.change_1y_pct)}</td>
+        <td>${fmtPct(m.dev_ma20_pct)}</td>
+        <td>${fmtPct(m.dev_ma60_pct)}</td>
+        <td>${m.volatility_30d_annualized_pct !== undefined && m.volatility_30d_annualized_pct !== null ? m.volatility_30d_annualized_pct.toFixed(2) + '%' : '<span class="cell-muted">N/A</span>'}</td>
+        <td>${fmtZ(m.zscore_return)}</td>
+      `;
+      metricsBody.appendChild(mrow);
+
+      const frow = document.createElement('tr');
+      const range = (f.trend_low !== undefined && f.trend_low !== null && f.trend_high !== undefined && f.trend_high !== null)
+        ? `${fmtNum(f.trend_low, 2)} ~ ${fmtNum(f.trend_high, 2)}` : '<span class="cell-muted">N/A</span>';
+      frow.innerHTML = `
+        <td>${s.name}</td>
+        <td>${fmtNum(f.naive, 2)}</td>
+        <td>${fmtNum(f.ma_baseline, 2)}</td>
+        <td>${fmtNum(f.trend_forecast, 2)}</td>
+        <td>${range}</td>
+      `;
+      forecastBody.appendChild(frow);
+    });
+
+    const corrTable = document.getElementById('corr-table');
+    const codes = Object.keys(data.correlation || {}).sort();
+    const nameByCode = {};
+    symbols.forEach(s => { nameByCode[s.code] = s.name; });
+    if (!codes.length) {
+      corrTable.innerHTML = '<tr><td class="empty">— 品項數不足，無法計算相關係數 —</td></tr>';
+    } else {
+      let html = '<thead><tr><th></th>' + codes.map(c => `<th>${(nameByCode[c] || c).slice(0, 4)}</th>`).join('') + '</tr></thead><tbody>';
+      codes.forEach(a => {
+        html += `<tr><td class="heat-label">${nameByCode[a] || a}</td>`;
+        codes.forEach(b => {
+          const v = (data.correlation[a] || {})[b];
+          const label = (v === null || v === undefined) ? 'N/A' : v.toFixed(2);
+          html += `<td class="heat-cell" style="background:${corrColor(v)}">${label}</td>`;
+        });
+        html += '</tr>';
+      });
+      html += '</tbody>';
+      corrTable.innerHTML = html;
+    }
+
+    // 資料源交叉驗證（Yahoo vs FRED）：僅在有 Yahoo＋FRED 同時可比對的品項時顯示
+    const crossSection = document.getElementById('cross-check-section');
+    const crossBody = document.getElementById('cross-check-body');
+    const crossData = data.cross_check || {};
+    const crossCodes = Object.keys(crossData);
+    const crossThreshold = (data.config && data.config.cross_check_threshold_pct) || 2.0;
+    if (crossCodes.length) {
+      crossBody.innerHTML = crossCodes.map(code => {
+        const cc = crossData[code] || {};
+        const diff = cc.diff_pct;
+        const flagged = diff !== undefined && diff !== null && Math.abs(diff) > crossThreshold;
+        const diffCell = (diff === undefined || diff === null)
+          ? '<span class="cell-muted">N/A</span>'
+          : `${diff > 0 ? '+' : ''}${diff.toFixed(2)}%${flagged ? ' <span class="badge badge-warn">⚠ 差異偏大</span>' : ''}`;
+        return `<tr>
+          <td>${nameByCode[code] || code}</td>
+          <td>${cc.date || '<span class="cell-muted">N/A</span>'}</td>
+          <td>${cc.yahoo_close !== undefined && cc.yahoo_close !== null ? cc.yahoo_close : '<span class="cell-muted">N/A</span>'}</td>
+          <td>${cc.fred_close !== undefined && cc.fred_close !== null ? cc.fred_close : '<span class="cell-muted">N/A</span>'}</td>
+          <td>${diffCell}</td>
+        </tr>`;
+      }).join('');
+      crossSection.style.display = '';
+    } else {
+      crossSection.style.display = 'none';
+    }
+  }
+
+  fetch('data.json', { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(err => {
+      document.getElementById('generated-at').textContent = '資料載入失敗：' + err.message + '（若用 file:// 開啟，瀏覽器會擋 fetch，請改用本機伺服器或直接透過 GitHub Pages 開啟）';
+      document.getElementById('chart-grid').innerHTML = '<div class="empty">無法載入 data.json</div>';
+    });
+})();
+</script>

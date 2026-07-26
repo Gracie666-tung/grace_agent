@@ -1,0 +1,24 @@
+{
+  "_說明": "全球原物料價格監控設定。symbols 是 Yahoo Finance 期貨/ETF 代碼（v8/finance/chart 端點，不含國別後綴的美式期貨用 =F，台股用 .TW）為主資料源；fred 是 FRED（美國聖路易聯準銀行）公開 CSV 端點 https://fred.stlouisfed.org/graph/fredgraph.csv?id={id} 的對應數列代碼，不需要 API key，Yahoo 抓取失敗時的備援與交叉驗證來源，null 表示無對應數列。fred_freq 是該 FRED 數列的頻率：daily（日頻，約落後 5 個營業日）或 monthly（月頻，IMF 商品價格數列），null 表示無 FRED 對照。history_days 是首次執行時回補的歷史天數。ma_windows/vol_window/zscore_window/corr_window/trend_window_days 都是交易日數，不是日曆天數 — 金融資料常見近似，週=5、月=21、年=252 個交易日；這些日頻假設不適用於 fred_freq=monthly 的品項。zscore_alert_threshold 是「異常波動」判定門檻（|z|超過此值視為異常）。",
+  "symbols": [
+    { "code": "HG=F", "name": "銅期貨（COMEX）", "category": "工業金屬", "fred": "PCOPPUSDM", "fred_freq": "monthly" },
+    { "code": "ALI=F", "name": "鋁期貨（COMEX）", "category": "工業金屬", "fred": "PALUMUSDM", "fred_freq": "monthly" },
+    { "code": "CL=F", "name": "原油期貨 WTI（NYMEX）", "category": "能源", "fred": "DCOILWTICO", "fred_freq": "daily" },
+    { "code": "NG=F", "name": "天然氣期貨（NYMEX）", "category": "能源", "fred": "DHHNGSP", "fred_freq": "daily" },
+    { "code": "GC=F", "name": "黃金期貨（COMEX）", "category": "貴金屬", "fred": null, "fred_freq": null },
+    { "code": "SI=F", "name": "白銀期貨（COMEX）", "category": "貴金屬", "fred": null, "fred_freq": null },
+    { "code": "ZC=F", "name": "玉米期貨（CBOT）", "category": "農產品", "fred": null, "fred_freq": null },
+    { "code": "00715L.TW", "name": "街口S&P布蘭特原油正2（00715L，台股原物料期貨ETF對照組）", "category": "台股對照組", "fred": null, "fred_freq": null }
+  ],
+  "history_days": 400,
+  "ma_windows": [20, 60],
+  "vol_window": 30,
+  "zscore_window": 250,
+  "zscore_alert_threshold": 2.0,
+  "corr_window": 60,
+  "trend_window_days": 60,
+  "forecast_horizon_days": 30,
+  "model": "claude-opus-4-8",
+  "telegram_msg_limit": 4096,
+  "cross_check_threshold_pct": 2.0
+}
