@@ -3,3 +3,7 @@ __pycache__/
 *.bak-*
 .DS_Store
 .claude/settings.local.json
+
+# IG 匯出檔（含個人資料，不進版控）
+data/ig_export/
+data/ig_classified.json

@@ -1,0 +1,33 @@
+{
+  "_comment": "IG 收藏分類工具設定。Notion token 與 parent page 走環境變數，不寫在這裡。",
+
+  "export_path": "data/ig_export/saved_posts.json",
+  "state_path": "data/ig_classified.json",
+
+  "categories": ["數據分析", "AI", "Finance", "其他"],
+
+  "category_hints": {
+    "數據分析": "資料清理、統計方法、SQL、視覺化、BI 工具（Power BI/Tableau）、A/B test、文字探勘、實驗設計、Excel 進階分析",
+    "AI": "LLM、prompt engineering、RAG、agent、機器學習/深度學習、AI 工具與產品、AI 應用案例",
+    "Finance": "投資與估值、財報分析、量化交易、金融科技、銀行與法遵、總體經濟、風險管理、個人理財",
+    "其他": "與上述三類都無關，或資訊不足以判斷"
+  },
+
+  "owner_context": "使用者 Grace：財金系背景，IBMBA 碩士生，2026 秋赴法國 KEDGE 讀 Master in Management（Finance track）。實習經歷在銀行 Technology & Operations 與數位行銷。技能有 R、Python、SPSS、SAS、Excel Solver、文字探勘（LDA/BERTopic）、SmartPLS。職涯方向是從 Finance 往 Data / AI / Business Analytics / Digital Finance 跨域移動。",
+
+  "model": "claude-opus-5",
+  "classify_batch_size": 15,
+  "max_subtags": 3,
+
+  "enrich": {
+    "enabled": true,
+    "timeout_sec": 15,
+    "delay_sec": 2.0,
+    "max_retries": 2
+  },
+
+  "notion": {
+    "database_title": "IG 收藏分類",
+    "summary_page_title": "收藏分析 Summary"
+  }
+}

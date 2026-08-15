@@ -158,8 +158,73 @@ Repo → Settings → Secrets and variables → Actions → 新增：
 股票推播分開）。`ANTHROPIC_API_KEY` 若已為股票顧問設定過可直接共用，不設也能跑
 （規則版摘要降級）。
 
+## IG 收藏分類（Notion 看板）
+
+把 Instagram 收藏的貼文/影片分成 **數據分析 / AI / Finance / 其他** 四類加自動
+子標籤，同步到 Notion database，並產生一份整體分析。
+
+`src/ig_curator.py`、`ig_config.json`。
+
+### 先決條件：IG 官方資料匯出
+
+**IG 的「收藏」沒有任何 API、webhook 或通知**，官方資料匯出是唯一合規的出口。
+所以這是手動觸發的工具，不是排程。
+
+IG App → 設定 → 帳號中心 → 你的資訊與權限 → 下載你的資訊 → 選「部分資訊」→
+勾**已儲存的內容** → 格式選 **JSON** → 日期選全部。等它產生（幾小時到一天），
+下載後解壓縮，整個資料夾放到 `data/ig_export/`。
+
+匯出檔**只有貼文網址和收藏時間，沒有內文**。程式會逐筆去抓公開貼文的
+`og:description` 來補，抓不到的（私人帳號、已刪除、登入牆）會標成「需人工補」，
+分類多半會落在「其他」，需要你在 Notion 手動修。
+
+如果你在 IG 建過收藏夾，`saved_collections.json` 也會被讀進來——那是你自己分的
+類，程式會拿它當分類依據，比模型猜的準。
+
+### Notion 設定
+
+1. notion.so/my-integrations → New integration → 拿 token（`ntn_` 開頭）
+2. 到你要放資料庫的 Notion 頁面 → 右上 ⋯ → 連結 → 加入該 integration
+3. 設環境變數：
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+export NOTION_TOKEN=ntn_...
+export NOTION_PARENT_PAGE='https://www.notion.so/你的頁面網址'
+```
+
+第一次跑會自動建資料庫並印出 `NOTION_DATABASE_ID`，設起來之後就不會重建。
+
+### 本機測試
+
+```bash
+# 不碰 Notion，只看分類結果
+python src/ig_curator.py --dry-run
+
+# 先試 20 筆再全跑（分類要花錢，先確認品質）
+python src/ig_curator.py --limit 20 --dry-run
+
+# 完整跑
+python src/ig_curator.py
+```
+
+### 不會覆寫你手改的東西
+
+程式用貼文網址當唯一鍵做 upsert，而且**對已存在的頁面只填空欄位**。你在 Notion
+把分類從 AI 改成 Finance、或在「我的筆記」寫了東西，重跑都不會被蓋掉。
+
+「我的筆記」欄位程式永遠不寫。整體分析每次跑會以當天日期為標題附加在 parent
+頁面後面，保留歷次紀錄。
+
 ## 已知限制（誠實聲明）
 
+- IG 收藏分類：**沒辦法做到「按收藏就自動分類」**——IG 對收藏完全沒開放介面，
+  只能靠手動匯出，所以這是手動工具。匯出檔沒有內文，補內容靠抓公開貼文的 og
+  tag，成功率取決於你收藏的帳號有多少是公開的，私人帳號一定抓不到。
+  Notion API 版本釘在 `2022-06-28`（最後一個不需要解析 data source 層的版本）。
+  建立資料庫的 request body 形狀是依該版慣例組的，**尚未對真實 API 驗證過**；
+  若第一次跑報 400，改用 Notion UI 手動建好資料庫、設 `NOTION_DATABASE_ID` 即可
+  繞過。分類與 summary 的實際輸出品質也還沒用真資料驗證過。
 - 104 的 `jobs/search/api/jobs` 是非官方公開端點（2026-07-06 實測可用），104 改版
   就會壞 — 壞的症狀是 Actions 跑失敗，GitHub 會寄信通知。
 - User-Agent 必須是完整瀏覽器字串，太短會被 Cloudflare 403。
