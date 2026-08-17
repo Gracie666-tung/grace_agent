@@ -1,0 +1,22 @@
+{
+  "whisper": {
+    "model": "medium",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 4,
+    "language": "zh",
+    "beam_size": 5,
+    "vad_filter": true,
+    "initial_prompt": "以下是繁體中文的錄音內容，可能夾雜英文專業術語。",
+    "to_traditional": true,
+    "opencc_config": "s2tw"
+  },
+  "claude": {
+    "model": "claude-opus-5",
+    "max_tokens": 16000,
+    "effort": "high",
+    "chunk_chars": 60000
+  },
+  "output_dir": "data/audio_notes",
+  "default_profile": "lecture"
+}

@@ -7,3 +7,7 @@ __pycache__/
 # IG 匯出檔（含個人資料，不進版控）
 data/ig_export/
 data/ig_classified.json
+
+# 錄音逐字稿與筆記（個人內容，不進版控）
+data/audio_notes/
+data/audio_uploads/

@@ -29,5 +29,11 @@ files it routes to. Do not restate global rules here; this file only points.
   以 FRED（免 API key，銅/鋁僅月頻、貴金屬與玉米無對應）備援並做兩來源交叉驗證。
   Stooq 已改 JS proof-of-work 驗證頁故不採用。細節見 README「全球原物料價格監控」
   一節與 memory `commodity-data-sources`。
+- **第五個工具：音檔轉文字＋摘要**（`src/audio_notes.py` CLI、`src/audio_web.py`
+  網頁版、`src/audio_deliver.py` 投遞、`web/audio_notes.html`、`audio_config.json`、
+  `requirements-audio.txt`、`tests/`）。純本機不進 Actions：faster-whisper 轉錄
+  （CPU int8，Apple Silicon 無 GPU）＋ `claude-opus-5` 摘要；PyAV 解碼故免 ffmpeg；
+  opencc 用 `s2tw` 非 `s2twp`（後者把「循環」誤轉「迴圈」）；Notion 層沿用
+  `ig_curator`，只加表格轉換；網頁版單執行緒、綁 `0.0.0.0` 讓手機可連。見 README。
 - Project memory: `~/.claude/projects/-Users-yutong-Desktop-grace-agent/memory/` —
   check `MEMORY.md` there for handoffs before asking the user about prior work.

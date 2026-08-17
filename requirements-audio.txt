@@ -1,0 +1,11 @@
+# 音檔轉文字工具（src/audio_notes.py、src/audio_web.py）專用。
+# 只在本機跑，不進 GitHub Actions——這幾個套件加起來約 200MB，所以跟
+# requirements.txt 分開。
+faster-whisper>=1.1
+opencc-python-reimplemented>=0.1.7
+anthropic>=0.40
+
+# 網頁版（src/audio_web.py）才需要；只用 CLI 的話可以不裝
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9

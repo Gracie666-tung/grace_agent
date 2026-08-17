@@ -216,6 +216,139 @@ python src/ig_curator.py
 「我的筆記」欄位程式永遠不寫。整體分析每次跑會以當天日期為標題附加在 parent
 頁面後面，保留歷次紀錄。
 
+## 音檔轉文字 + 摘要（TAKEAWAY / SUMMARY）
+
+把錄音變成「逐字稿 + 可直接用的筆記」。轉錄在**本機離線**跑（faster-whisper），
+摘要走 Claude API。錄音不會上傳到任何地方，只有逐字稿文字會送給 Claude。
+
+```bash
+pip install -r requirements-audio.txt
+
+# 課程／講座（預設）：TL;DR、TAKEAWAYS、概念架構、SUMMARY、可複習清單、關鍵名詞
+python src/audio_notes.py ~/Desktop/財管第三週.m4a
+
+# 會議／實習工作：TL;DR、TAKEAWAYS、決策表、待辦事項（負責人/期限）、風險與未解
+python src/audio_notes.py ~/Desktop/週會.m4a --type meeting
+
+# 只轉錄不摘要 / 換小模型換速度 / 英文錄音
+python src/audio_notes.py 錄音.m4a --no-llm
+python src/audio_notes.py 錄音.m4a --model medium
+python src/audio_notes.py lecture.mp3 --lang en
+
+# 已經有逐字稿，只要摘要
+python src/audio_notes.py data/audio_notes/週會.transcript.txt --from-text --type meeting
+```
+
+輸出在 `data/audio_notes/`（可用 `--out` 改）：
+
+| 檔案 | 內容 |
+|---|---|
+| `<名稱>.md` | 主要成果：摘要 + 重點 + 完整逐字稿 |
+| `<名稱>.transcript.txt` | 純逐字稿（每行帶 `[mm:ss]` 時間戳） |
+| `<名稱>.segments.json` | 逐段時間戳原始資料，要做剪輯或對照時用 |
+
+支援 mp3 / m4a / wav / aac / flac / mp4 / mov 等（用 PyAV 解碼，**不需要另外裝
+ffmpeg**）。
+
+### 速度與模型選擇（實測：Apple M1，CPU int8，4 執行緒）
+
+faster-whisper 在 Apple Silicon 上只跑 CPU（CTranslate2 沒有 Metal 後端）。
+同一個 45 秒中文音檔實測：
+
+| 模型 | 速度 | 一小時錄音約需 | 這段測試的品質 |
+|---|---|---|---|
+| `small` | 3.9x 實時 | 約 15 分鐘 | 內容對，但把 Excel 聽成 Xcel |
+| `medium`（**預設**） | 1.0x 實時 | 約 1 小時 | 全對，含 Excel、台積電、聯發科、數字 |
+| `large-v3` | 未實測（下載失敗，見下方限制） | 推估 2–3 小時 | — |
+
+`cpu_threads` 預設 4：M1 是 4 效能核 + 4 節能核，實測開 8 執行緒**反而更慢**
+（3.9x → 2.5x），因為工作被排到節能核上。
+
+建議流程：**先用 `--model small` 跑一次**確認音檔沒問題（15 分鐘就有結果），
+再決定要不要花時間跑 `medium`。趕時間的短錄音直接 `small` 通常就夠用。
+模型第一次用會下載（`small` 約 460MB、`medium` 約 1.4GB），存在
+`~/.cache/huggingface`，之後不用再下載。
+
+副作用要知道：`medium` 的斷句比 `small` 粗（實測 30 秒一段 vs 12 秒一段），
+時間戳精度較低。要精細時間戳做剪輯的話用 `small`。
+
+### 中文品質
+
+- `initial_prompt` 已設成繁體中文提示，加上 opencc 做簡→繁字形轉換（`s2tw`）。
+- 刻意**不用** `s2twp`：它雖然會把「軟件」轉成「軟體」，但也會把「循環」誤轉成
+  「迴圈」，對財金內容弊大於利。要改在 `audio_config.json` 的 `opencc_config`。
+- 專有名詞、數字、英文縮寫最容易錯，所以每份筆記最後都有「待確認」章節，
+  由 Claude 標出可疑處與時間戳，回去核對用。
+
+### 網頁版：上傳錄音 → Notion／Telegram
+
+不想打指令的話用網頁版。它跑在你自己的 Mac 上，**同一個 Wi-Fi 下手機也能連**，
+所以手機錄完直接用瀏覽器上傳就好。
+
+```bash
+pip install -r requirements-audio.txt
+python src/audio_web.py
+```
+
+啟動後會印兩個網址：
+
+```
+  電腦： http://localhost:8000/
+  手機： http://192.168.x.x:8000/   （需同一個 Wi-Fi）
+```
+
+網頁上可以選筆記模式、轉錄模型、語言，勾要不要摘要、要不要送 Notion／Telegram，
+然後看即時進度（轉到第幾分鐘、Claude 在做哪一步）。轉完直接在頁面上看整理好的
+筆記，也能複製或下載 `.md`／逐字稿。多個檔案會排隊依序處理——轉錄很吃 CPU，
+同時跑只會互相拖慢。
+
+```bash
+python src/audio_web.py --local-only     # 只綁 localhost，手機連不到
+python src/audio_web.py --port 9000      # 換 port
+export AUDIO_WEB_TOKEN=隨便一組密碼        # 加一道密碼（見下方安全性）
+```
+
+**安全性**：預設綁 `0.0.0.0`，也就是**同網段的人都能開這個網址、上傳檔案、讀你
+的筆記**。家裡 Wi-Fi 大致無妨，學校／公司／咖啡廳的網路請設 `AUDIO_WEB_TOKEN`
+（設了之後網址要帶 `?token=你的密碼`），或改用 `--local-only`。
+
+上傳的原始錄音留在 `data/audio_uploads/`（不會自動刪，會佔空間，已排除版控）。
+
+### Notion 與 Telegram 設定
+
+Notion：每個錄音在資料庫建一頁，屬性有標題、類型、錄音日期、長度、TL;DR、
+轉錄模型，內文放完整摘要，逐字稿收在可摺疊的區塊裡。另有一個「我的筆記」欄位，
+程式永遠不寫，留給你自己補。
+
+```bash
+export NOTION_TOKEN=ntn_...
+export NOTION_PARENT_PAGE='https://www.notion.so/你要放資料庫的頁面'
+# 第一次跑會自動建資料庫並在 log 印出 id，設起來之後就不會重建：
+export AUDIO_NOTION_DATABASE_ID=...
+```
+
+Telegram：沿用職缺／台股工具的同一組 bot，摘要當訊息、完整筆記當 `.md` 附件。
+
+```bash
+export TELEGRAM_BOT_TOKEN=...
+export TELEGRAM_CHAT_ID=...
+```
+
+沒設的目的地在網頁上會顯示「未設定」並自動變灰，不會讓你勾了才失敗。投遞失敗
+（token 過期、頁面沒授權）也**不會弄丟筆記**——本機檔案照寫，網頁上顯示錯誤原因。
+
+### 設定
+
+`audio_config.json` 調 whisper 模型／語言／輸出資料夾，以及 Claude 的模型與
+`chunk_chars`（逐字稿超過這個字數會先分段做中繼筆記再合併，避免一次塞太長）。
+摘要需要 `ANTHROPIC_API_KEY`：
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+```
+
+沒設 key 也能用 —— 程式會照常轉錄存檔，只跳過摘要，並印出補做摘要的指令。
+
 ## 已知限制（誠實聲明）
 
 - IG 收藏分類：**沒辦法做到「按收藏就自動分類」**——IG 對收藏完全沒開放介面，
@@ -225,6 +358,29 @@ python src/ig_curator.py
   建立資料庫的 request body 形狀是依該版慣例組的，**尚未對真實 API 驗證過**；
   若第一次跑報 400，改用 Notion UI 手動建好資料庫、設 `NOTION_DATABASE_ID` 即可
   繞過。分類與 summary 的實際輸出品質也還沒用真資料驗證過。
+- 音檔轉文字：**沒有語者分離（speaker diarization）**，多人會議的逐字稿不會標
+  「誰講的」，只有時間順序。要區分講者得自己聽著補，或改用付費 API（如
+  AssemblyAI）。
+- 音檔轉文字：Apple Silicon 上 faster-whisper 只跑 CPU（CTranslate2 沒有 Metal
+  後端），所以預設的 `medium` 就是 1x 實時 —— 一小時的錄音要跑一小時。這不是設定
+  問題，是套件限制。要更快只能換更小的模型（`small` 約 4x 實時），或改用付費 API。
+- `large-v3` **在這台機器上沒實測過**：模型檔（約 1.5GB）從 Hugging Face 下載
+  失敗兩次（xet CDN 回 connection reset / File reconstruction error）。README 裡
+  它的速度是推估值。要試的話重跑就會續傳，或加 `HF_HUB_DISABLE_XET=1` 走傳統
+  下載路徑。
+- 音檔轉文字的 Claude 摘要路徑**尚未用真實 API 驗證**（開發機沒設
+  `ANTHROPIC_API_KEY`）：`tests/test_audio_notes.py` 用假的 client 驗證了分段、
+  prompt 組裝與輸出格式，但實際回應品質要你第一次跑才知道。轉錄路徑則已用真音檔
+  端到端驗證過（CLI 與網頁版都測過）。
+- 同理，**Notion 與 Telegram 也沒有用真 token 驗證過**（開發機沒有）。測試驗的是
+  送出去的資料結構正確（Markdown 表格轉成 Notion 表格、逐字稿在 Notion 區塊上限
+  內、Telegram 訊息不超過 4096 字且切割不漏字），不是「對方真的收到」。第一次跑
+  若 Notion 回 400，多半是 integration 沒被加到那個頁面。
+- 網頁版預設綁 `0.0.0.0`（為了手機能連），**同網段的人都能存取**。不在自家 Wi-Fi
+  就設 `AUDIO_WEB_TOKEN` 或用 `--local-only`。這是本機工具，沒有帳號系統。
+- 網頁版的任務狀態存在記憶體＋`data/audio_notes/jobs.json`，**伺服器重開，跑到
+  一半的任務不會續跑**（會標成失敗），已完成的紀錄則保留。上傳的原始錄音不會自動
+  清除。
 - 104 的 `jobs/search/api/jobs` 是非官方公開端點（2026-07-06 實測可用），104 改版
   就會壞 — 壞的症狀是 Actions 跑失敗，GitHub 會寄信通知。
 - User-Agent 必須是完整瀏覽器字串，太短會被 Cloudflare 403。

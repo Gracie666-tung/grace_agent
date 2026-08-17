@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>音檔筆記</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #fff; --ink: #1c1b19; --muted: #6b6862;
+    --line: #e2ded6; --accent: #1f6f5c; --accent-soft: #e6f0ec;
+    --warn: #a2571c; --err: #a32c2c; --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a; --card: #1f1f24; --ink: #ece9e4; --muted: #9c988f;
+      --line: #33333a; --accent: #56b79c; --accent-soft: #1e3a33;
+      --warn: #d99a53; --err: #e07070;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.65 -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+  }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .3px; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 18px; margin-bottom: 16px;
+  }
+  .drop {
+    border: 2px dashed var(--line); border-radius: var(--radius);
+    padding: 28px 16px; text-align: center; cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .drop.hot { border-color: var(--accent); background: var(--accent-soft); }
+  .drop strong { display: block; font-size: 16px; margin-bottom: 4px; }
+  .drop span { color: var(--muted); font-size: 13px; }
+  .opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 16px; }
+  label.f { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  select, input[type=text] {
+    width: 100%; padding: 8px 10px; border-radius: 9px; font: inherit;
+    border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+  }
+  .checks { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+  .chk { display: flex; align-items: center; gap: 6px; font-size: 14px; }
+  .chk input { width: 17px; height: 17px; accent-color: var(--accent); }
+  .chk.off { opacity: .45; }
+  button {
+    font: inherit; font-weight: 600; padding: 10px 20px; border-radius: 10px;
+    border: 0; background: var(--accent); color: #fff; cursor: pointer;
+  }
+  button:disabled { opacity: .5; cursor: default; }
+  button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--line); font-weight: 500; padding: 6px 12px; font-size: 13px; }
+  .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; margin-bottom: 14px; }
+  .badge { padding: 3px 9px; border-radius: 20px; border: 1px solid var(--line); color: var(--muted); }
+  .badge.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+  .job { border-top: 1px solid var(--line); padding: 12px 0; cursor: pointer; }
+  .job:first-of-type { border-top: 0; }
+  .job-h { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .job-name { font-weight: 600; overflow-wrap: anywhere; }
+  .job-meta { color: var(--muted); font-size: 12px; }
+  .bar { height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 8px; }
+  .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .4s; }
+  .st { font-size: 12px; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .st.queued { background: var(--line); color: var(--muted); }
+  .st.running { background: var(--accent-soft); color: var(--accent); }
+  .st.done { background: var(--accent); color: #fff; }
+  .st.error { background: var(--err); color: #fff; }
+  .log { font: 12px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
+         padding: 10px; max-height: 210px; overflow: auto; white-space: pre-wrap; }
+  .log b { color: var(--muted); font-weight: 400; }
+  .note h2 { font-size: 17px; margin: 22px 0 8px; padding-bottom: 5px; border-bottom: 1px solid var(--line); }
+  .note h3 { font-size: 15px; margin: 16px 0 6px; }
+  .note ul, .note ol { padding-left: 22px; margin: 8px 0; }
+  .note li { margin: 3px 0; }
+  .note p { margin: 8px 0; }
+  .note table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 10px 0; }
+  .note th, .note td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; vertical-align: top; }
+  .note th { background: var(--accent-soft); font-weight: 600; }
+  .tablewrap { overflow-x: auto; }
+  .note hr { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
+  .tx { white-space: pre-wrap; font-size: 13px; color: var(--muted); max-height: 320px; overflow: auto;
+        border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+  .err { color: var(--err); font-size: 13px; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  a { color: var(--accent); }
+  .hide { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>音檔筆記</h1>
+  <div class="sub">上傳錄音 → 本機轉文字 → Claude 整理成 TAKEAWAY 與 SUMMARY → 送到 Notion／Telegram。錄音不會離開這台電腦。</div>
+
+  <div class="badges" id="badges"></div>
+
+  <div class="card">
+    <div class="drop" id="drop">
+      <strong id="dropTitle">點這裡選錄音檔</strong>
+      <span id="dropHint">或直接把檔案拖進來．mp3 / m4a / wav / mp4 / mov…</span>
+      <input type="file" id="file" class="hide" accept="audio/*,video/*">
+    </div>
+
+    <div class="opts">
+      <div>
+        <label class="f" for="profile">筆記模式</label>
+        <select id="profile"></select>
+      </div>
+      <div>
+        <label class="f" for="model">轉錄模型</label>
+        <select id="model"></select>
+      </div>
+      <div>
+        <label class="f" for="lang">語言</label>
+        <select id="lang">
+          <option value="zh">中文</option>
+          <option value="en">英文</option>
+          <option value="ja">日文</option>
+          <option value="fr">法文</option>
+          <option value="auto">自動偵測</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="checks">
+      <label class="chk" id="c-sum"><input type="checkbox" id="summarize" checked><span>用 Claude 產摘要</span></label>
+      <label class="chk" id="c-notion"><input type="checkbox" id="toNotion"><span>存到 Notion</span></label>
+      <label class="chk" id="c-tg"><input type="checkbox" id="toTelegram"><span>推到 Telegram</span></label>
+    </div>
+
+    <div class="row">
+      <button id="go" disabled>開始處理</button>
+      <span class="job-meta" id="speedHint"></span>
+    </div>
+    <div class="err hide" id="upErr"></div>
+  </div>
+
+  <div class="card">
+    <div class="job-h"><strong>處理紀錄</strong><button class="ghost" id="refresh">重新整理</button></div>
+    <div id="jobs" class="job-meta" style="margin-top:10px">還沒有任務。</div>
+  </div>
+
+  <div class="card hide" id="detail"></div>
+</div>
+
+<script>
+const TOKEN = new URLSearchParams(location.search).get('token') || '';
+const H = TOKEN ? {'X-Auth-Token': TOKEN} : {};
+let STATUS = null, openJob = null, timer = null;
+
+const $ = id => document.getElementById(id);
+const esc = s => (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function api(path, opts) {
+  const res = await fetch(path, Object.assign({headers: H}, opts || {}));
+  if (!res.ok) {
+    let detail = res.statusText;
+    try { detail = (await res.json()).detail || detail; } catch (e) {}
+    throw new Error(detail);
+  }
+  return res.json();
+}
+
+/* --- 極簡 Markdown → HTML（只處理筆記會用到的語法） --- */
+function inline(t) {
+  return esc(t)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>');
+}
+function renderMd(md) {
+  const lines = (md || '').split('\n');
+  let html = '', list = null, table = null;
+  const closeList = () => { if (list) { html += `</${list}>`; list = null; } };
+  const closeTable = () => {
+    if (table) {
+      html += '<div class="tablewrap"><table><thead><tr>' +
+        table[0].map(c => `<th>${inline(c)}</th>`).join('') + '</tr></thead><tbody>' +
+        table.slice(1).map(r => '<tr>' + r.map(c => `<td>${inline(c)}</td>`).join('') + '</tr>').join('') +
+        '</tbody></table></div>';
+      table = null;
+    }
+  };
+  for (const raw of lines) {
+    const s = raw.trim();
+    const isRow = s.startsWith('|') && s.endsWith('|') && (s.match(/\|/g) || []).length >= 2;
+    if (isRow) {
+      closeList();
+      if (/^\|[\s:|-]+\|$/.test(s)) continue;
+      const cells = s.slice(1, -1).split('|').map(c => c.trim());
+      table = table || []; table.push(cells);
+      continue;
+    }
+    closeTable();
+    if (!s) { closeList(); continue; }
+    if (s.startsWith('### ')) { closeList(); html += `<h3>${inline(s.slice(4))}</h3>`; }
+    else if (s.startsWith('## ')) { closeList(); html += `<h2>${inline(s.slice(3))}</h2>`; }
+    else if (s.startsWith('# ')) { closeList(); html += `<h2>${inline(s.slice(2))}</h2>`; }
+    else if (s === '---') { closeList(); html += '<hr>'; }
+    else if (s.startsWith('> ')) { closeList(); html += `<p class="job-meta">${inline(s.slice(2))}</p>`; }
+    else if (/^[-*] /.test(s)) { if (list !== 'ul') { closeList(); html += '<ul>'; list = 'ul'; } html += `<li>${inline(s.slice(2))}</li>`; }
+    else if (/^\d+\.\s/.test(s)) { if (list !== 'ol') { closeList(); html += '<ol>'; list = 'ol'; } html += `<li>${inline(s.replace(/^\d+\.\s/, ''))}</li>`; }
+    else { closeList(); html += `<p>${inline(s)}</p>`; }
+  }
+  closeList(); closeTable();
+  return html;
+}
+
+/* --- 初始化 --- */
+async function init() {
+  try { STATUS = await api('/api/status'); }
+  catch (e) { $('badges').innerHTML = `<span class="badge">讀不到伺服器狀態：${esc(e.message)}</span>`; return; }
+
+  $('profile').innerHTML = Object.entries(STATUS.profiles)
+    .map(([k, v]) => `<option value="${k}"${k === STATUS.default_profile ? ' selected' : ''}>${esc(v)}</option>`).join('');
+  $('model').innerHTML = STATUS.models
+    .map(m => `<option value="${m}"${m === STATUS.default_model ? ' selected' : ''}>${m}${m === STATUS.default_model ? '（預設）' : ''}</option>`).join('');
+  $('lang').value = STATUS.default_lang || 'zh';
+
+  const b = [];
+  b.push(`<span class="badge ${STATUS.claude_ready ? 'on' : ''}">Claude 摘要 ${STATUS.claude_ready ? '可用' : '未設 API key'}</span>`);
+  b.push(`<span class="badge ${STATUS.notion_ready ? 'on' : ''}">Notion ${STATUS.notion_ready ? '已設定' : '未設定'}</span>`);
+  b.push(`<span class="badge ${STATUS.telegram_ready ? 'on' : ''}">Telegram ${STATUS.telegram_ready ? '已設定' : '未設定'}</span>`);
+  $('badges').innerHTML = b.join('');
+
+  if (!STATUS.claude_ready) { $('summarize').checked = false; $('summarize').disabled = true; $('c-sum').classList.add('off'); }
+  if (!STATUS.notion_ready) { $('toNotion').disabled = true; $('c-notion').classList.add('off'); }
+  else { $('toNotion').checked = true; }
+  if (!STATUS.telegram_ready) { $('toTelegram').disabled = true; $('c-tg').classList.add('off'); }
+  updateHint();
+  loadJobs();
+}
+
+function updateHint() {
+  const m = $('model').value;
+  const rate = {tiny: 12, base: 8, small: 4, medium: 1, 'large-v3': 0.35}[m];
+  $('speedHint').textContent = rate
+    ? `${m}：約 ${rate}x 實時，1 小時錄音約需 ${rate >= 1 ? Math.round(60 / rate) + ' 分鐘' : Math.round(1 / rate) + ' 小時'}`
+    : '';
+}
+$('model').addEventListener('change', updateHint);
+
+/* --- 選檔與上傳 --- */
+const drop = $('drop'), fileInput = $('file');
+drop.addEventListener('click', () => fileInput.click());
+drop.addEventListener('dragover', e => { e.preventDefault(); drop.classList.add('hot'); });
+drop.addEventListener('dragleave', () => drop.classList.remove('hot'));
+drop.addEventListener('drop', e => {
+  e.preventDefault(); drop.classList.remove('hot');
+  if (e.dataTransfer.files.length) { fileInput.files = e.dataTransfer.files; onPick(); }
+});
+fileInput.addEventListener('change', onPick);
+
+function onPick() {
+  const f = fileInput.files[0];
+  if (!f) return;
+  $('dropTitle').textContent = f.name;
+  $('dropHint').textContent = (f.size / 1048576).toFixed(1) + ' MB — 點這裡可換檔案';
+  $('go').disabled = false;
+}
+
+$('go').addEventListener('click', async () => {
+  const f = fileInput.files[0];
+  if (!f) return;
+  $('go').disabled = true; $('go').textContent = '上傳中…'; $('upErr').classList.add('hide');
+  const fd = new FormData();
+  fd.append('file', f);
+  fd.append('profile', $('profile').value);
+  fd.append('model', $('model').value);
+  fd.append('lang', $('lang').value);
+  fd.append('summarize', $('summarize').checked ? '1' : '0');
+  fd.append('to_notion', $('toNotion').checked ? '1' : '0');
+  fd.append('to_telegram', $('toTelegram').checked ? '1' : '0');
+  try {
+    const r = await api('/api/jobs', {method: 'POST', body: fd});
+    openJob = r.id;
+    $('dropTitle').textContent = '點這裡選錄音檔';
+    $('dropHint').textContent = '或直接把檔案拖進來．mp3 / m4a / wav / mp4 / mov…';
+    fileInput.value = '';
+    loadJobs(); loadDetail();
+  } catch (e) {
+    $('upErr').textContent = '上傳失敗：' + e.message;
+    $('upErr').classList.remove('hide');
+  }
+  $('go').textContent = '開始處理'; $('go').disabled = !fileInput.files[0];
+});
+
+/* --- 任務列表與詳情 --- */
+const STAGE = {queued: '排隊中', running: '處理中', done: '完成', error: '失敗'};
+const STEP = {queued: '等待中', transcribe: '轉錄中', summarize: 'Claude 摘要中',
+              notion: '寫入 Notion', telegram: '推 Telegram', done: '完成', error: '失敗'};
+
+async function loadJobs() {
+  let jobs;
+  try { jobs = await api('/api/jobs'); } catch (e) { return; }
+  if (!jobs.length) { $('jobs').textContent = '還沒有任務。'; return; }
+  $('jobs').innerHTML = jobs.map(j => `
+    <div class="job" data-id="${j.id}">
+      <div class="job-h">
+        <span class="job-name">${esc(j.filename)}</span>
+        <span class="st ${j.stage}">${STAGE[j.stage] || j.stage}</span>
+      </div>
+      <div class="job-meta">${esc(STEP[j.step] || j.step || '')} · ${esc(j.last_log || '')}</div>
+      ${j.ratio != null ? `<div class="bar"><i style="width:${Math.round(j.ratio * 100)}%"></i></div>` : ''}
+    </div>`).join('');
+  document.querySelectorAll('.job').forEach(el =>
+    el.addEventListener('click', () => { openJob = el.dataset.id; loadDetail(); }));
+  const busy = jobs.some(j => j.stage === 'queued' || j.stage === 'running');
+  clearTimeout(timer);
+  timer = setTimeout(() => { loadJobs(); if (openJob) loadDetail(); }, busy ? 2000 : 15000);
+}
+
+async function loadDetail() {
+  if (!openJob) return;
+  let j;
+  try { j = await api('/api/jobs/' + openJob); } catch (e) { return; }
+  const d = $('detail');
+  d.classList.remove('hide');
+  const links = [];
+  if (j.notion_url) links.push(`<a href="${esc(j.notion_url)}" target="_blank" rel="noopener">在 Notion 開啟</a>`);
+  if (j.telegram_ok) links.push('已推到 Telegram');
+  const errs = [];
+  if (j.error) errs.push('錯誤：' + j.error);
+  if (j.notion_error) errs.push('Notion：' + j.notion_error);
+  if (j.telegram_error) errs.push('Telegram：' + j.telegram_error);
+
+  d.innerHTML = `
+    <div class="job-h">
+      <strong class="job-name">${esc(j.filename)}</strong>
+      <span class="st ${j.stage}">${STAGE[j.stage] || j.stage}</span>
+    </div>
+    <div class="job-meta">${esc(STEP[j.step] || '')}${j.meta && j.meta.duration_sec
+        ? ' · 長度 ' + fmt(j.meta.duration_sec) + ' · ' + esc(j.meta.whisper_model || '') +
+          (j.meta.realtime_factor ? ' · ' + j.meta.realtime_factor + 'x 實時' : '') : ''}</div>
+    ${j.ratio != null ? `<div class="bar"><i style="width:${Math.round(j.ratio * 100)}%"></i></div>` : ''}
+    ${errs.length ? `<p class="err">${esc(errs.join(' ／ '))}</p>` : ''}
+    ${links.length ? `<p class="job-meta">${links.join(' · ')}</p>` : ''}
+    <div class="row">
+      <button class="ghost" id="copyBtn">複製筆記</button>
+      <button class="ghost" onclick="dl('md')">下載 .md</button>
+      <button class="ghost" onclick="dl('txt')">下載逐字稿</button>
+      <button class="ghost" id="logBtn">顯示／隱藏 log</button>
+    </div>
+    <div class="log hide" id="logBox">${(j.log || []).map(l => `<b>${esc(l.t)}</b>  ${esc(l.msg)}`).join('\n')}</div>
+    ${j.note_markdown ? `<div class="note">${renderMd(j.note_markdown.split('\n## 逐字稿')[0])}</div>` : ''}
+    ${j.transcript ? `<h3 style="margin-top:20px">逐字稿</h3><div class="tx">${esc(j.transcript)}</div>` : ''}`;
+
+  $('logBtn').addEventListener('click', () => $('logBox').classList.toggle('hide'));
+  $('copyBtn').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(j.note_markdown || j.transcript || ''); $('copyBtn').textContent = '已複製'; }
+    catch (e) { $('copyBtn').textContent = '複製失敗'; }
+    setTimeout(() => { $('copyBtn').textContent = '複製筆記'; }, 1500);
+  });
+}
+
+function fmt(sec) {
+  sec = Math.round(sec);
+  const h = Math.floor(sec / 3600), m = Math.floor(sec % 3600 / 60), s = sec % 60;
+  const p = n => String(n).padStart(2, '0');
+  return h ? `${h}:${p(m)}:${p(s)}` : `${p(m)}:${p(s)}`;
+}
+function dl(kind) {
+  const q = TOKEN ? `&token=${encodeURIComponent(TOKEN)}` : '';
+  location.href = `/api/jobs/${openJob}/download?kind=${kind}${q}`;
+}
+$('refresh').addEventListener('click', () => { loadJobs(); loadDetail(); });
+
+init();
+</script>
+</body>
+</html>
