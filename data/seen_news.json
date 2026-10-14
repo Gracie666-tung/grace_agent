@@ -194,6 +194,11 @@
   "title": "Here’s the Bull Case for NVIDIA, Micron, and SanDisk for 2027 - 24/7 Wall St.",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "056877837d7f020a": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab stock falls after delaying Neutron rocket to 2027 By Investing.com - Investing.com Australia",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "059cd8e4e6303af4": {
   "ticker": "SNDK",
   "title": "Zacks Investment Ideas feature highlights: Meta Platform, Micron, SK Hynix, SanDisk and and ASML - The Globe and Mail",
@@ -1714,6 +1719,11 @@
   "title": "Should You Buy Netflix Stock Before Oct. 20? - The Globe and Mail",
   "ts": "2026-10-14T16:44:14.219087+00:00"
  },
+ "3b0197e7d0fd1bd3": {
+  "ticker": "MACRO",
+  "title": "U.S. inflation heats up as Fed rate hike returns to the table - Honolulu Star-Advertiser",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "3b1592eeebd65e7a": {
   "ticker": "MACRO",
   "title": "Oil prices near $107 per barrel amid Saudi Arabia-Houthi clashes - Pakistan Observer",
@@ -2024,6 +2034,11 @@
   "title": "Tesla Q3 deliveries beat expectations but face margin, pricing, and investment risks ahead - Pluang",
   "ts": "2026-10-14T17:01:43.969374+00:00"
  },
+ "4578f9c30f1c906c": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab delays Neutron rocket debut to 2027 By Investing.com - Investing.com India",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "4591a56a5c380001": {
   "ticker": "MU",
   "title": "$Micron Technology (MU.US)$ - Moomoo",
@@ -2048,6 +2063,11 @@
   "ticker": "TSLA",
   "title": "Tesla stock pre-market at EUR 335.28 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "467cd5c750bfd8e8": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab delays Neutron rocket debut to 2027 By Investing.com - Investing.com UK",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
  },
  "46b93c5c66e7516e": {
   "ticker": "MACRO",
@@ -2954,6 +2974,11 @@
   "title": "Micron Stock Falls Another 4% as China Memory Competition Fears Grow - TradingView",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "61d88ebb3a7f05e2": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab delays Neutron rocket's first launch to 2027, updating its development timeline. - Pluang",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "61dd7ec4cf6c0812": {
   "ticker": "NFLX",
   "title": "‘Love Is Blind’ Season 11: [Spoiler] Quits Netflix Show After Meeting New Fiance, He Reacts - IMDb",
@@ -2998,6 +3023,11 @@
   "ticker": "TSLA",
   "title": "PIX RoboBus Debuts: 6 Seats vs Tesla Robovan’s 20 [2026] - https://tech-insider.org/",
   "ts": "2026-10-14T18:23:06.361647+00:00"
+ },
+ "63093f6f7fd67899": {
+  "ticker": "MACRO",
+  "title": "September’s Hot CPI Report Shows Price Pressures Broadening - Morningstar",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
  },
  "633f189ff34c794f": {
   "ticker": "MACRO",
@@ -4674,6 +4704,11 @@
   "title": "Netflix (NFLX) to Lay Off 1,000 Employees Amid Growth Challenges - GuruFocus",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "9cdf8a5c500b2b38": {
+  "ticker": "NFLX",
+  "title": "Netflix Reveals New Trailers, Cast for ‘Cyberpunk,’ ‘Bass X Machina’ and ‘Blue Eye Samurai’ - Animation Magazine",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "9ce13614dd6b03aa": {
   "ticker": "MACRO",
   "title": "US CPI above expectations!🔥📈 - XTB.com",
@@ -4951,6 +4986,16 @@
     "ticker": "IONQ",
     "title": "IonQ Stock Tumbles on $2 Billion Equity Offering. Why Other Quantum Names Are Falling Just as Hard. - Barron's",
     "ts": "2026-10-14T20:27:00+00:00"
+   },
+   {
+    "key": "3b0197e7d0fd1bd3",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR01ZSjN4RmpZc2J3S3IyX0ViWWFDZ3ZaQXhsbjVuQWhZcUdORWU4V2xvLXNZZ2NQdHlGZ21LYTFEcy1Sc0FHX2MyaGJxTVlOQnNFeG8taUxFeERNdm53anZhMFdmcW5VcmRCZnVlWWFac3F1MklGVkZDTkVKb092QXNNal9FMWZnck41SHplQktKMW5ZWFhwRzBDQ2RYaFFlOWsyN25ER3d0RjZJbThiYUZNd2czY3RuZlZ5MUs1ZnctZllVLXBpM3JjTQ?oc=5",
+    "name": "",
+    "source": "Honolulu Star-Advertiser",
+    "ticker": "MACRO",
+    "title": "U.S. inflation heats up as Fed rate hike returns to the table - Honolulu Star-Advertiser",
+    "ts": "2026-10-14T20:48:45+00:00"
    }
   ]
  },
@@ -5399,6 +5444,11 @@
   "title": "SanDisk Caught in Memory-Wide Retreat as Rating Upgrade and Raised Target Point the Other Way - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "b045571cba53437e": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab stock falls after delaying Neutron rocket to 2027 By Investing.com - Investing.com UK",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "b08e51281643ab17": {
   "ticker": "MACRO",
   "title": "Bitcoin risks another leverage shakeout if US CPI runs hot, analysts warn - Crypto News",
@@ -5739,6 +5789,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Big Rapids Pioneer",
   "ts": "2026-10-14T18:58:05.155427+00:00"
  },
+ "ba9b6d1b2a7df119": {
+  "ticker": "NFLX",
+  "title": "Netflix to cut 1,000 jobs in the company’s largest reduction since 2022 as competition rises - Chicago Star Media",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "bae1123f0bc14e44": {
   "ticker": "MACRO",
   "title": "U.S. September Inflation: 3.7% CPI and the Gasoline Squeeze - آسیانیوز ایران",
@@ -5909,6 +5964,11 @@
   "title": "News Review: 20% VAT on Netflix & Spotify, Headmaster Suspended After JoyNews Investigation - Modern Ghana",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "bec270da8ef33ea6": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Stock Stumbles Despite Big Space Ambitions - TipRanks",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
+ },
  "befc8cd2e9f448c8": {
   "ticker": "NFLX",
   "title": "Check Out the Trailer for Netflix’s Arabic Psychological Horror Series “Obsess” - news.newonnetflix.info",
@@ -5958,6 +6018,11 @@
   "ticker": "SNDK",
   "title": "Sandisk Stocks Fall 4.8% Although AI Flash Roadmap Gains a January Deadline - TradingView",
   "ts": "2026-10-14T19:50:26.225177+00:00"
+ },
+ "c0d02c2db087a167": {
+  "ticker": "PLTR",
+  "title": "PLTR Stock Falls to $100 as AI Financing Risks Spread Across Tech and Analysts Review Palantir Technologies Valuation an",
+  "ts": "2026-10-14T21:00:23.864476+00:00"
  },
  "c0e94799b5bfb30c": {
   "ticker": "IONQ",
