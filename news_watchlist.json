@@ -1,5 +1,5 @@
 {
-  "_說明": "新聞監測 watchlist。改這個檔即可增減標的，不用動程式。aliases 為標題/摘要必須出現其一的字串（不分大小寫、整詞比對）；status: held|candidate；weight_pct/entry_price/stop_pct 不知道就 null；locales 可選 en-US/de-DE；yahoo_symbol 可選（預設用 ticker）。 目前 23 檔，尚未進場，全部標為候選；10/15 進場後請填入實際持股的 status=held、weight_pct、entry_price、stop_pct。起手配置見個股報告（ANET 12、HAG 10、AMD 8、HOOD 6、LITE 5、COHR 5、PLTR 5、CORT 4）。",
+  "_說明": "新聞監測 watchlist。改這個檔即可增減標的，不用動程式。aliases 為標題/摘要必須出現其一的字串（不分大小寫、整詞比對）；status: held|candidate；weight_pct/entry_price/stop_pct 不知道就 null；locales 可選 en-US/de-DE；yahoo_symbol 可選（預設用 ticker）。 目前 23 檔，尚未進場，全部標為候選；10/15 進場後請填入實際持股的 status=held、weight_pct、entry_price、stop_pct。起手配置見個股報告（ANET 12、HAG 10、AMD 8、HOOD 6、LITE 5、COHR 5、PLTR 5、CORT 4）。 aliases_zh 為簡體中文別名（只給 Jin10 金十快訊比對，子字串比對；沒把握的標的留空陣列，仍會以 ticker/英文 aliases 比對）。macro 區塊為不綁個股的總經快訊：google_queries 為 Google News 英文查詢，keywords_zh/keywords_en 為 Jin10 快訊的候選過濾（exclude_zh 排除例行報價），候選還要命中程式內的硬觸發（CPI/Fed/非農/PCE/原油/收益率/加息降息/關稅）才會推；每輪最多一則『📊 總經快訊』、最多 8 則，無命中則靜默。Jin10 為非公開介面，可能失效或被擋，失敗只略過。",
   "end_date": "2026-11-13",
   "timezone": "Asia/Taipei",
   "timezone_note": "end_date 以 Asia/Taipei 日期判定；該日結束後程式直接 exit 0。",
@@ -14,6 +14,7 @@
         "HCL Technologies",
         "HCL Tech"
       ],
+      "aliases_zh": [],
       "queries": [
         "HCLTech",
         "HCL Technologies stock"
@@ -35,6 +36,7 @@
       "aliases": [
         "Hensoldt"
       ],
+      "aliases_zh": [],
       "queries": [
         "Hensoldt",
         "Hensoldt Aktie"
@@ -65,6 +67,7 @@
       "aliases": [
         "Corcept"
       ],
+      "aliases_zh": [],
       "queries": [
         "Corcept Therapeutics",
         "CORT stock Corcept"
@@ -90,6 +93,10 @@
       "currency": "USD",
       "aliases": [
         "Arista"
+      ],
+      "aliases_zh": [
+        "阿里斯塔网络",
+        "阿里斯塔"
       ],
       "queries": [
         "Arista Networks",
@@ -121,6 +128,9 @@
       "aliases": [
         "Lumentum"
       ],
+      "aliases_zh": [
+        "朗美通"
+      ],
       "queries": [
         "Lumentum Holdings",
         "LITE stock Lumentum"
@@ -149,6 +159,9 @@
         "Robinhood shares",
         "Robinhood stock",
         "NASDAQ: HOOD"
+      ],
+      "aliases_zh": [
+        "罗宾汉"
       ],
       "queries": [
         "Robinhood Markets",
@@ -180,6 +193,10 @@
         "NASDAQ: AMD",
         "Lisa Su"
       ],
+      "aliases_zh": [
+        "超威半导体",
+        "超微半导体"
+      ],
       "queries": [
         "AMD stock",
         "Advanced Micro Devices"
@@ -206,6 +223,9 @@
       "aliases": [
         "Palantir"
       ],
+      "aliases_zh": [
+        "帕兰提尔"
+      ],
       "queries": [
         "Palantir Technologies",
         "PLTR stock Palantir"
@@ -231,6 +251,9 @@
       "currency": "USD",
       "aliases": [
         "Tesla"
+      ],
+      "aliases_zh": [
+        "特斯拉"
       ],
       "queries": [
         "Tesla stock",
@@ -259,6 +282,9 @@
         "Super Micro",
         "Supermicro"
       ],
+      "aliases_zh": [
+        "超微电脑"
+      ],
       "queries": [
         "Super Micro Computer",
         "SMCI stock Supermicro"
@@ -285,6 +311,10 @@
       "aliases": [
         "Micron"
       ],
+      "aliases_zh": [
+        "美光科技",
+        "美光"
+      ],
       "queries": [
         "Micron Technology",
         "MU stock Micron"
@@ -307,6 +337,9 @@
         "Sandisk",
         "SanDisk"
       ],
+      "aliases_zh": [
+        "闪迪"
+      ],
       "queries": [
         "Sandisk stock",
         "SNDK Sandisk"
@@ -328,6 +361,7 @@
       "aliases": [
         "AppLovin"
       ],
+      "aliases_zh": [],
       "queries": [
         "AppLovin",
         "APP stock AppLovin"
@@ -354,6 +388,7 @@
       "aliases": [
         "Cloudflare"
       ],
+      "aliases_zh": [],
       "queries": [
         "Cloudflare",
         "NET stock Cloudflare"
@@ -379,6 +414,10 @@
       "currency": "USD",
       "aliases": [
         "Netflix"
+      ],
+      "aliases_zh": [
+        "奈飞",
+        "网飞"
       ],
       "queries": [
         "Netflix",
@@ -409,6 +448,7 @@
         "Reddit shares",
         "NYSE: RDDT"
       ],
+      "aliases_zh": [],
       "queries": [
         "Reddit Inc earnings",
         "RDDT stock Reddit"
@@ -435,6 +475,9 @@
       "aliases": [
         "Rocket Lab"
       ],
+      "aliases_zh": [
+        "火箭实验室"
+      ],
       "queries": [
         "Rocket Lab",
         "RKLB stock Rocket Lab"
@@ -456,6 +499,7 @@
       "aliases": [
         "IonQ"
       ],
+      "aliases_zh": [],
       "queries": [
         "IonQ",
         "IONQ stock IonQ"
@@ -482,6 +526,7 @@
       "aliases": [
         "Kodiak Sciences"
       ],
+      "aliases_zh": [],
       "queries": [
         "Kodiak Sciences",
         "KOD stock Kodiak"
@@ -508,6 +553,7 @@
       "aliases": [
         "Summit Therapeutics"
       ],
+      "aliases_zh": [],
       "queries": [
         "Summit Therapeutics",
         "SMMT stock Summit"
@@ -536,6 +582,7 @@
         "NYSE: COHR",
         "Coherent stock"
       ],
+      "aliases_zh": [],
       "queries": [
         "Coherent Corp",
         "COHR stock Coherent"
@@ -563,6 +610,7 @@
         "Applied Optoelectronics",
         "NASDAQ: AAOI"
       ],
+      "aliases_zh": [],
       "queries": [
         "Applied Optoelectronics",
         "AAOI stock Applied Optoelectronics"
@@ -590,6 +638,7 @@
         "AXT Inc",
         "NASDAQ: AXTI"
       ],
+      "aliases_zh": [],
       "queries": [
         "AXT Inc",
         "AXTI stock AXT"
@@ -608,5 +657,54 @@
       ],
       "thesis": "InP 基板供應商（LITE 長約）；中國出口許可風險，建議避開或財報後再評估"
     }
-  ]
+  ],
+  "macro": {
+    "google_queries": [
+      "US CPI inflation report",
+      "FOMC Fed rate decision",
+      "oil prices Brent WTI",
+      "Treasury yields 10-year",
+      "jobs report nonfarm payrolls",
+      "PCE inflation",
+      "Fed Chair speech"
+    ],
+    "keywords_zh": [
+      "美联储",
+      "联储",
+      "鲍威尔",
+      "加息",
+      "降息",
+      "升息",
+      "非农",
+      "通胀",
+      "核心CPI",
+      "核心PCE",
+      "原油",
+      "美债收益率",
+      "国债收益率",
+      "美元指数",
+      "纳指",
+      "标普",
+      "道指",
+      "美股",
+      "关税",
+      "英伟达",
+      "FOMC"
+    ],
+    "keywords_en": [
+      "CPI",
+      "PCE",
+      "FOMC",
+      "Fed",
+      "nonfarm",
+      "payrolls",
+      "WTI",
+      "Brent",
+      "Treasury yield"
+    ],
+    "exclude_zh": [
+      "现报",
+      "汇市"
+    ]
+  }
 }

@@ -20,6 +20,26 @@ import news_monitor as nm  # noqa: E402
 
 NOW = datetime(2026, 10, 14, 12, 0, tzinfo=timezone.utc)
 
+# 舊測試不該連網：run() 會呼叫 collect_jin10，預設換成空清單；Jin10 相關測試自行 patch。
+_REAL_COLLECT_JIN10 = nm.collect_jin10
+nm.collect_jin10 = lambda since_hours, now: []
+
+# 依實際觀察到的 flash-api.jin10.com/get_flash_list 形狀，內容為虛構。
+JIN10_JSON = {"status": 200, "message": "OK", "data": [
+    {"id": "20261014200000000001", "time": "2026-10-14 19:30:00", "type": 0, "important": 1, "channel": [1, 2],
+     "data": {"content": "【美国9月CPI高于预期】金十数据10月14日讯，美国9月CPI同比超预期，美联储加息风险上升。",
+              "title": "", "pic": "", "source": "", "source_link": "", "exclusive_to": []}, "extras": {"ad": False}},
+    {"id": "20261014200000000002", "time": "2026-10-14 19:20:00", "type": 0, "important": 0,
+     "data": {"content": "特斯拉(TSLA.O)盘前大涨5%。", "title": "", "exclusive_to": []}},
+    {"id": "20261014200000000003", "time": "2026-10-14 19:10:00", "type": 2, "important": 1,
+     "data": {"content": "文章摘要。", "title": "某某事件", "link": "https://xnews.jin10.com/details/1"}},
+    {"id": "20261014200000000004", "time": "2026-10-14 19:00:00", "type": 0, "important": 0,
+     "data": {"content": "VIP 內容", "lock": True}},
+    {"id": "20261014200000000005", "time": "bad", "type": 0, "important": 0, "data": {"content": ""}},
+]}
+MACRO_CFG = {"google_queries": ["US CPI inflation report"], "keywords_zh": ["美联储", "CPI", "非农", "美股"],
+             "keywords_en": ["CPI", "Fed"], "exclude_zh": ["现报"]}
+
 RSS = """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <item><title>Arista beats estimates, raises guidance - Reuters</title>
@@ -274,6 +294,132 @@ def test_rule_view_direction_and_types():
 
 def test_escape_does_not_double_escape_entities():
     assert nm._e("AMD&#39;s <b>push</b>") == "AMD&#39;s &lt;b&gt;push&lt;/b&gt;"
+
+
+def test_parse_jin10_fixture():
+    items = nm.parse_jin10(JIN10_JSON)
+    assert [i["link"] for i in items] == [
+        "https://flash.jin10.com/detail/20261014200000000001",
+        "https://flash.jin10.com/detail/20261014200000000002",
+        "https://xnews.jin10.com/details/1"]  # lock、空內容被略過
+    a = items[0]
+    assert a["origin"] == "Jin10" and a["source"] == "Jin10" and "高于预期" in a["title"]  # 簡體原樣保留
+    assert a["published"] == datetime(2026, 10, 14, 11, 30, tzinfo=timezone.utc)  # 北京時間 -> UTC
+    assert items[2]["title"].startswith("某某事件：")
+    assert nm.parse_jin10({"status": 200, "data": None}) == [] and nm.parse_jin10("x") == []
+    long = nm.parse_jin10({"data": [{"id": "1", "time": "2026-10-14 10:00:00", "type": 0, "data": {"content": "字" * 500}}]})
+    assert len(long[0]["title"]) == nm.JIN10_TITLE_MAX + 1
+
+
+def test_alias_zh_matching():
+    tsla = {"ticker": "TSLA", "aliases": ["Tesla"], "aliases_zh": ["特斯拉"]}
+    mu = {"ticker": "MU", "aliases": ["Micron"], "aliases_zh": ["美光科技"]}
+    net = {"ticker": "NET", "aliases": ["Cloudflare"], "aliases_zh": []}
+    j = lambda t: {"title": t, "snippet": t}  # noqa: E731
+    assert nm.is_relevant_jin10(j("特斯拉盘前大涨"), tsla)
+    assert nm.is_relevant_jin10(j("现货(TSLA.O)上涨"), tsla)
+    assert nm.is_relevant_jin10(j("美股Tesla财报"), tsla)  # 中文緊鄰英文別名仍可比對
+    assert nm.is_relevant_jin10(j("美光科技发布财报"), mu)
+    assert not nm.is_relevant_jin10(j("MU 是缩写，美光未提及"), mu)  # 短代號不裸比對
+    assert nm.is_relevant_jin10(j("美光(MU.O)涨3%"), mu)
+    assert not nm.is_relevant_jin10(j("the internet NET income rose"), net)
+    assert not nm.is_relevant_jin10(j("特斯拉"), mu)
+
+
+def test_macro_keyword_filter_and_hard_trigger():
+    items = nm.parse_jin10(JIN10_JSON)
+    cands = [i["title"][:6] for i in items if nm.macro_candidate_jin10(i, MACRO_CFG)]
+    assert len(cands) == 1  # 只有 CPI 那則
+    fx = {"title": "美元/日元现报150，美联储", "snippet": "美元/日元现报150，美联储"}
+    assert not nm.macro_candidate_jin10(fx, MACRO_CFG)  # exclude_zh
+    stock_only = {"title": "美股收盘涨", "snippet": "美股收盘涨", "origin": "Jin10", "published": NOW, "link": "u1"}
+    cpi = dict(items[0], key=None)
+    got = nm.select_macro([stock_only, cpi], [], MACRO_CFG, {}, set(), NOW, 48)
+    assert [g["link"] for g in got] == [cpi["link"]]  # 美股候選但沒有硬觸發 -> 不推
+    g = {"title": "Oil prices jump as Brent tops $90 - Reuters", "link": "https://g.example/1", "source": "Reuters",
+         "published": NOW, "snippet": "", "origin": "Google News"}
+    assert nm.select_macro([], [g], MACRO_CFG, {}, set(), NOW, 48)
+    g2 = dict(g, title="Dividend yield stocks to buy", link="https://g.example/2")
+    assert not nm.select_macro([], [g2], MACRO_CFG, {}, set(), NOW, 48)
+
+
+def test_macro_view_direction():
+    v = lambda t: nm.macro_view({"title": t, "snippet": ""})["label"]  # noqa: E731
+    assert v("美国9月CPI高于预期，花旗预计美联储加息") == nm.MACRO_BEAR_LABEL
+    assert v("美国CPI不及预期，市场押注降息") == nm.MACRO_BULL_LABEL
+    assert v("美联储暂停加息，按兵不动") == "➖ 看不出"
+    assert v("Hot September CPI sends rate-hike bets soaring") == nm.MACRO_BEAR_LABEL
+    assert v("核心CPI环比上涨0.3%，通胀超预期") == nm.MACRO_BEAR_LABEL
+    assert v("WTI原油大涨5%") == nm.MACRO_BEAR_LABEL  # 油價上漲對風險資產偏空
+    assert v("10-year Treasury yields fall sharply") == nm.MACRO_BULL_LABEL
+    assert v("非农就业数据超预期") == "➖ 看不出"  # 方向不明，不硬判
+    assert v("Fed Chair to speak Friday") == "➖ 看不出"
+    # 個股用的 rule_view 也吃簡體詞
+    assert nm.rule_view({"title": "特斯拉大涨，利好", "snippet": ""})["label"] == "📈 偏多"
+    assert nm.rule_view({"title": "某股暴跌", "snippet": ""})["label"] == "📉 偏空"
+
+
+def test_macro_message_format_and_escape():
+    rows = [{"title": f"美联储<b>加息</b> & CPI {i} " + "字" * 190, "link": f"https://x.example/a?x=1&y={i}",
+             "source": "Jin10", "origin": "Jin10", "snippet": "", "published": NOW} for i in range(nm.MACRO_MAX_ITEMS)]
+    msg = nm.build_macro_message(rows)
+    assert msg.startswith("📊 <b>總經快訊</b>")
+    assert "<b>加息</b>" not in msg and "&lt;b&gt;加息&lt;/b&gt; &amp; CPI" in msg and "&amp;y=1" in msg
+    parts = nm.split_message(msg)
+    assert all(len(p) <= nm.TG_LIMIT for p in parts)
+
+
+def _run_macro_cfg(tmp, entries=None):
+    cfg = Path(tmp) / "cfg.json"
+    cfg.write_text(json.dumps({"entries": entries if entries is not None else [], "macro": MACRO_CFG}), encoding="utf-8")
+    return cfg
+
+
+def test_jin10_failure_does_not_break_run():
+    with tempfile.TemporaryDirectory() as tmp:
+        cfg = _run_macro_cfg(tmp, [ANET])
+        printed = []
+        with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(Path(tmp) / "s.json")}), \
+                mock.patch.object(nm, "collect_jin10", _REAL_COLLECT_JIN10), \
+                mock.patch.object(nm, "fetch_jin10", side_effect=nm.requests.ConnectionError("blocked")), \
+                mock.patch.object(nm, "collect_for_entry", return_value=[_item("Arista beats earnings estimates")]), \
+                mock.patch.object(nm, "fetch_macro_google", return_value=[]), \
+                mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+            assert nm.run(_args(cfg, dry_run=True, no_llm=True), now=NOW) == 0
+        out = "\n".join(printed)
+        assert "Jin10 失敗（略過）：ConnectionError" in out and "Arista beats" in out
+        assert "總經快訊" not in out  # 沒命中 -> 靜默
+
+
+def test_run_jin10_ticker_and_macro_dedup_across_runs():
+    flashes = nm.parse_jin10(JIN10_JSON)
+    with tempfile.TemporaryDirectory() as tmp:
+        sp = Path(tmp) / "s.json"
+        tsla = {"ticker": "TSLA", "name": "Tesla", "aliases": ["Tesla"], "aliases_zh": ["特斯拉"], "status": "candidate"}
+        cfg = _run_macro_cfg(tmp, [tsla])
+        env = {"NEWS_STATE_PATH": str(sp), "NEWS_ALLOW_UNSENT_STATE": "1"}
+
+        def once(dry=False):
+            printed = []
+            with mock.patch.dict(os.environ, env), mock.patch.object(nm, "collect_jin10", lambda h, n: list(flashes)), \
+                    mock.patch.object(nm, "collect_for_entry", return_value=[]), \
+                    mock.patch.object(nm, "fetch_macro_google", return_value=[]), \
+                    mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+                os.environ.pop("ANTHROPIC_API_KEY", None)
+                nm.run(_args(cfg, dry_run=dry, no_llm=True), now=NOW)
+            return "\n".join(printed)
+
+        out = once(dry=True)
+        assert "特斯拉(TSLA.O)盘前大涨5%" in out and "📊 <b>總經快訊</b> — 1 則" in out
+        assert "判讀：📈 偏多" in out and "對風險資產偏空" in out
+        assert not sp.exists()  # dry-run 不寫狀態
+        once()  # 正式（無 Telegram，允許寫狀態）
+        saved = json.loads(sp.read_text(encoding="utf-8"))
+        assert {v["ticker"] for v in saved.values()} == {"TSLA", "MACRO"}
+        out2 = once()
+        assert "特斯拉(TSLA.O)" not in out2 and "總經快訊" not in out2  # 第二輪全已見
+        # 同一則不會同時當個股與總經：CPI 那則只進總經，特斯拉那則只進個股
+        assert out.count("盘前大涨5%") == 1
 
 
 def main() -> None:

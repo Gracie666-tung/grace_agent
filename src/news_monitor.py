@@ -13,6 +13,9 @@
 
 可選環境變數：NEWS_UA（SEC EDGAR 要求的描述性 User-Agent）、NEWS_MODEL（覆蓋模型 id）、
 NEWS_STATE_PATH（覆蓋去重狀態檔路徑，測試用）。
+
+另有兩條旁路：Jin10（金十數據）快訊來源（非公開介面，可能失效/被擋，失敗只略過）與
+「📊 總經快訊」（news_watchlist.json 的 macro 區塊，不綁個股，每輪最多一則訊息）。
 """
 
 import argparse
@@ -267,6 +270,220 @@ def fetch_yahoo(entry: dict, since_hours: int) -> list[dict]:
     return parse_feed(_get(url).text, "Yahoo Finance")  # best-effort：不重試，429 就放棄
 
 
+# ---------------------------------------------------------------------------
+# Jin10（金十數據）快訊 — 非公開介面，失敗一律略過
+# ---------------------------------------------------------------------------
+# 端點如何找到：jin10.com 首頁 HTML 只有 ~6KB 外殼，載入 //www.jin10.com/new/js/index.*.js；
+# 該 bundle 內建立 axios 實例 baseURL "//flash-api.jin10.com"，呼叫 get("/get_flash_list",{params})，
+# header 為 x-app-id（網站 JS 內寫死的公開前端 id）與 x-version（bundle 內 flashXVersion = "1.0.0"）。
+# 我們照網站 JS 送同樣的 header 加上 Referer/Origin，且只打「最新一頁」一次（不帶參數時回最新 20 則），
+# 不分頁、不重試。若網站改版/擋掉，只會得到非 200 或空資料 -> 記 log 並略過，不影響其他來源。
+# 回傳 JSON：{"status":200,"data":[{"id","time"(北京時間 "YYYY-MM-DD HH:MM:SS"),"type"(0=快訊,2=文章卡),
+#   "important","data":{"content","title","link","lock",...}}]}
+JIN10_URL = "https://flash-api.jin10.com/get_flash_list"
+JIN10_HEADERS = {
+    "User-Agent": UA,
+    "Accept": "application/json, text/plain, */*",
+    "x-app-id": "bVBF4FyRTn5NJF5n",
+    "x-version": "1.0.0",
+    "Referer": "https://www.jin10.com/",
+    "Origin": "https://www.jin10.com",
+}
+JIN10_DETAIL = "https://flash.jin10.com/detail/"
+JIN10_TZ = timezone(timedelta(hours=8))
+JIN10_TITLE_MAX = 200
+MACRO_MAX_ITEMS = 8
+
+
+def parse_jin10(payload: dict) -> list[dict]:
+    """把 get_flash_list 回傳解析成標準 item dict；略過 VIP 鎖定、空內容、非快訊/文章卡。"""
+    rows = payload.get("data") if isinstance(payload, dict) else None
+    if not isinstance(rows, list):
+        return []
+    items = []
+    for row in rows:
+        if not isinstance(row, dict) or row.get("type") not in (0, 2):
+            continue
+        d = row.get("data") or {}
+        if d.get("lock") or (row.get("extras") or {}).get("ad"):
+            continue
+        content = strip_tags(d.get("content") or "")
+        title_raw = strip_tags(d.get("title") or "")
+        text = (title_raw + "：" + content) if (title_raw and content and row.get("type") == 2) else (content or title_raw)
+        if not text or not row.get("id"):
+            continue
+        published = None
+        try:
+            published = datetime.strptime(row["time"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=JIN10_TZ).astimezone(timezone.utc)
+        except (KeyError, TypeError, ValueError):
+            pass
+        title = text if len(text) <= JIN10_TITLE_MAX else text[:JIN10_TITLE_MAX] + "…"
+        items.append({
+            "title": title,
+            "link": (d.get("link") or "").strip() or JIN10_DETAIL + str(row["id"]),
+            "source": "Jin10",
+            "published": published,
+            "snippet": text,
+            "origin": "Jin10",
+        })
+    return items
+
+
+def fetch_jin10() -> list[dict]:
+    resp = requests.get(JIN10_URL, headers=JIN10_HEADERS, timeout=TIMEOUT)  # 單次請求，不重試
+    resp.raise_for_status()
+    payload = resp.json()
+    if not isinstance(payload, dict) or payload.get("status") != 200:
+        raise ValueError("Jin10 回應 status 非 200")
+    return parse_jin10(payload)
+
+
+def collect_jin10(since_hours: int, now: datetime) -> list[dict]:
+    """全 run 只抓一次；失敗回傳 []（不影響其他來源）。"""
+    try:
+        items = fetch_jin10()
+    except Exception as e:  # noqa: BLE001
+        print(f"Jin10 失敗（略過）：{type(e).__name__}")
+        return []
+    cutoff = now - timedelta(hours=since_hours)
+    kept = [it for it in items if it["published"] is None or it["published"] >= cutoff]
+    print(f"Jin10：原始快訊 {len(items)} 則，時間窗內 {len(kept)} 則")
+    return kept
+
+
+def _asc(term: str) -> str:
+    """ASCII 邊界：中文字會被 regex 當成單字字元，所以不能用 word-boundary；英數字緊鄰才算不同詞。"""
+    return rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])"
+
+
+def is_relevant_jin10(item: dict, entry: dict) -> bool:
+    """Jin10 比對：aliases_zh（子字串）、英文 aliases（ASCII 邊界）、ticker（大小寫敏感，
+    短代號只認 'TSLA.O' 這種交易所後綴寫法，避免 MU/NET/APP 誤中）。"""
+    text = item.get("snippet") or item.get("title") or ""
+    for a in entry.get("aliases_zh", []) or []:
+        if a and a in text:
+            return True
+    for a in entry.get("aliases", []):
+        if re.search(_asc(a), text, re.IGNORECASE):
+            return True
+    t = entry["ticker"]
+    if re.search(rf"(?<![A-Za-z0-9]){re.escape(t)}\.[A-Z]{{1,2}}(?![A-Za-z])", text):
+        return True
+    return len(t) >= 4 and re.search(rf"(?<![A-Za-z0-9]){re.escape(t)}(?![A-Za-z0-9])", text) is not None
+
+
+# ---------------------------------------------------------------------------
+# 總經快訊
+# ---------------------------------------------------------------------------
+
+# 硬觸發：Jin10 快訊與 Google 總經新聞都必須命中其一才推（keywords_zh/en 只是第一層候選過濾）。
+MACRO_HARD = re.compile(
+    r"(?<![A-Za-z])(?:CPI|PCE|FOMC|Fed|nonfarm|non-farm|payrolls|Brent|WTI|Powell)(?![A-Za-z])"
+    r"|Federal Reserve|oil prices?|crude oil|(?:treasury|bond|10-year|2-year) yields?"
+    r"|yields? (?:rise|rises|fall|falls|jump|jumps|surge|surges|drop|drops|climb|climbs)"
+    r"|rate (?:hike|hikes|cut|cuts)|(?<![A-Za-z])hikes?(?![A-Za-z])|tariffs?"
+    r"|美联储|联储|鲍威尔|非农|通胀|原油|油价|收益率|加息|降息|升息|关税",
+    re.IGNORECASE,
+)
+INVERSE_ASSET = re.compile(r"收益率|原油|油价|汽油|美元指数|WTI|Brent|(?:oil|treasury|bond)\b|yields?|dollar index", re.IGNORECASE)
+INFLATION_DATA = re.compile(r"(?<![A-Za-z])(?:CPI|PCE|PPI)(?![A-Za-z])|通胀|inflation", re.IGNORECASE)
+JOBS_DATA = re.compile(r"非农|失业|nonfarm|non-farm|payrolls|jobs report|unemployment", re.IGNORECASE)
+# 否定式（不加息/暂停降息…）先移除，避免被當成加降息訊號
+MACRO_NEGATED = re.compile(r"(?:不会|不|未|无需|暂停|暂缓|否认)(?:再)?(?:加息|升息|降息)|按兵不动|维持利率不变|hold rates? steady")
+MACRO_UP = re.compile(r"大涨|上涨|涨超|飙升|攀升|走高|创新高|拉升|\b(?:surge\w*|jump\w*|soar\w*|climb\w*|rall(?:y|ies|ied)|rises?|rose|gains?)\b", re.IGNORECASE)
+MACRO_DOWN = re.compile(r"大跌|下跌|暴跌|跌超|重挫|下挫|走低|\b(?:plung\w*|tumbl\w*|slump\w*|sinks?|slid\w*|falls?|fell|drops?|dropped|declin\w*)\b", re.IGNORECASE)
+MACRO_HAWK = re.compile(r"加息|升息|鹰派|rate hikes?|hawkish|(?<![A-Za-z])hikes?(?![A-Za-z])", re.IGNORECASE)
+MACRO_DOVE = re.compile(r"降息|鸽派|rate cuts?|dovish", re.IGNORECASE)
+TARIFF_ON = re.compile(r"加征|征收|提高关税|imposes? tariffs?|raises? tariffs?|new tariffs?|tariffs? (?:on|hit)", re.IGNORECASE)
+TARIFF_OFF = re.compile(r"取消关税|豁免|降低关税|暂停关税|cuts? tariffs?|tariff (?:relief|pause|exemption)", re.IGNORECASE)
+HOT = re.compile(r"超预期|高于预期|hotter|(?<![A-Za-z])hot(?![A-Za-z])|above expectations|beats? expectations", re.IGNORECASE)
+COOL = re.compile(r"不及预期|低于预期|cooler|below expectations|misses? expectations|softer", re.IGNORECASE)
+MACRO_BULL_LABEL, MACRO_BEAR_LABEL = "📈 對風險資產偏多", "📉 對風險資產偏空"
+
+
+def macro_view(item: dict) -> dict:
+    """總經規則判讀（對風險資產）：只做方向，不給幅度。通膨類資料「超預期」=偏熱=偏空；
+    非農/失業的超預期方向不明（強勁可能被解讀為升息壓力），不計分。原油/收益率/美元上漲對風險資產偏空。"""
+    text = MACRO_NEGATED.sub(" ", f"{item.get('title', '')} {item.get('snippet', '') or ''}")
+    inverse = bool(INVERSE_ASSET.search(text))
+    score, words = 0, []
+
+    def add(pat, delta):
+        nonlocal score
+        for m in pat.finditer(text):
+            score += delta
+            words.append(m.group(0).lower())
+
+    if inverse or not INFLATION_DATA.search(text):  # 「CPI 環比上漲」是數據本身，不是市場漲跌
+        add(MACRO_UP, -1 if inverse else 1)
+        add(MACRO_DOWN, 1 if inverse else -1)
+    add(MACRO_HAWK, -1)
+    add(MACRO_DOVE, 1)
+    add(TARIFF_ON, -1)
+    add(TARIFF_OFF, 1)
+    if INFLATION_DATA.search(text):
+        add(HOT, -1)
+        add(COOL, 1)
+    elif not JOBS_DATA.search(text):
+        add(HOT, 1)
+        add(COOL, -1)
+    label = MACRO_BULL_LABEL if score > 0 else MACRO_BEAR_LABEL if score < 0 else "➖ 看不出"
+    return {"label": label, "score": score, "words": list(dict.fromkeys(words))[:4]}
+
+
+def macro_candidate_jin10(item: dict, macro: dict) -> bool:
+    text = item.get("snippet") or item.get("title") or ""
+    if any(x and x in text for x in macro.get("exclude_zh", [])):
+        return False
+    if any(k and k in text for k in macro.get("keywords_zh", [])):
+        return True
+    return any(re.search(_asc(k), text, re.IGNORECASE) for k in macro.get("keywords_en", []) if k)
+
+
+def fetch_macro_google(macro: dict, since_hours: int) -> list[dict]:
+    out = []
+    for q in macro.get("google_queries", []):
+        try:
+            out += parse_feed(_get(google_news_url(q, "en-US", since_hours)).text, "Google News")
+        except Exception as e:  # noqa: BLE001
+            print(f"  [總經] Google News「{q}」失敗（略過）：{type(e).__name__}")
+        time.sleep(0.4)
+    return out
+
+
+def select_macro(jin10_items: list[dict], google_items: list[dict], macro: dict, state: dict, claimed: set,
+                 now: datetime, since_hours: int) -> list[dict]:
+    """候選 -> 硬觸發 -> 未見過、不與個股新聞/彼此重複。回傳由新到舊，不截斷（截斷在呼叫端）。"""
+    cutoff = now - timedelta(hours=since_hours)
+    cands = [it for it in jin10_items if macro_candidate_jin10(it, macro)]
+    cands += [it for it in google_items if it["published"] is None or it["published"] >= cutoff]
+    fresh = []
+    for it in sorted(cands, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
+        if not MACRO_HARD.search(f"{it['title']} {it.get('snippet') or ''}" if it["origin"] == "Jin10" else it["title"]):
+            continue
+        if OPTIONS_SPAM.search(it["title"]):
+            continue
+        key = item_key(it)
+        tkey = "t:" + _norm_title(it["title"])
+        if key in state or key in claimed or tkey in claimed:
+            continue
+        claimed.update({key, tkey})
+        it["key"] = key
+        fresh.append(it)
+    return fresh
+
+
+def build_macro_message(rows: list[dict]) -> str:
+    body = []
+    for i, it in enumerate(rows, 1):
+        v = macro_view(it)
+        meta = f"判讀：{v['label']}" + (f"（依據：{', '.join(v['words'])}）" if v["words"] else "")
+        body.append(f"{i}. {_e(it['title'])}\n{_e(meta)}\n{_link(it)}")
+    note = "判讀為關鍵字規則（對風險資產的粗略方向，不含幅度），請點連結確認；Jin10 為簡體原文。"
+    msg = f"📊 <b>總經快訊</b> — {len(rows)} 則\n\n" + "\n\n".join(body) + f"\n\n<i>{note}{DISCLAIMER}</i>"
+    return msg
+
+
 SOURCES = (("Google News", fetch_google), ("SEC EDGAR", fetch_sec), ("Yahoo Finance", fetch_yahoo))
 
 
@@ -467,7 +684,7 @@ def parse_analysis(text: str, n_items: int, body_ok: list[bool]) -> dict[int, di
 def should_send(item: dict, analysis: dict | None) -> bool:
     if analysis and analysis["material"] and analysis["value"] in ("high", "medium"):
         return True
-    return bool(HARD_TRIGGERS.search(item["title"]))
+    return item.get("origin") == "Jin10" or bool(HARD_TRIGGERS.search(item["title"]))  # Jin10 已先比對過個股名
 
 
 # ---------------------------------------------------------------------------
@@ -504,14 +721,16 @@ def format_item_analyzed(i: int, item: dict, a: dict | None) -> str:
 BULL_WORDS = re.compile(
     r"\b(?:beats?|tops?|surg\w*|soar\w*|jump\w*|rall(?:y|ies|ied)|record|raises?|raised|boosts?|"
     r"upgrad\w*|outperform\w*|approv\w*|wins?|won|accelerat\w*|lifts?|climbs?|gains?|strong\w*)\b"
-    r"|超預期|調升|上修|大漲|創高|核准|獲准",
+    r"|超預期|調升|上修|大漲|創高|核准|獲准"
+    r"|利好|大涨|暴涨|飙升|创新高|超预期|上调|上修|获批|获准|涨超|拉升|走高",
     re.IGNORECASE,
 )
 BEAR_WORDS = re.compile(
     r"\b(?:miss(?:es|ed)?|falls?|fell|drops?|dropped|plung\w*|slump\w*|tumbl\w*|sinks?|slid\w*|slides?|"
     r"cuts?|lowers?|downgrad\w*|warns?|probe|investigation|lawsuit|sued|recall\w*|halts?|delay\w*|"
     r"rejects?|weak\w*|sell-?off|dilut\w*|offering|layoffs?|fraud|short seller)\b"
-    r"|不如預期|調降|下修|大跌|訴訟|召回",
+    r"|不如預期|調降|下修|大跌|訴訟|召回"
+    r"|利空|大跌|暴跌|重挫|下挫|不及预期|低于预期|下调|下修|诉讼|召回|跌超|走低|被调查",
     re.IGNORECASE,
 )
 EVENT_TYPES = [
@@ -617,6 +836,41 @@ def analyze_entry(entry: dict, items: list[dict], api_key: str, model: str) -> d
     return result
 
 
+def run_macro(cfg: dict, args, jin10_items: list[dict], state: dict, claimed: set, new_state: dict,
+              now: datetime, token: str, chat_id: str, can_send: bool) -> int:
+    """總經快訊：每輪最多一則訊息；沒有命中就完全靜默。回傳實際列出的則數。"""
+    macro = cfg["macro"]
+    try:
+        google_items = fetch_macro_google(macro, args.since_hours)
+        fresh = select_macro(jin10_items, google_items, macro, state, claimed, now, args.since_hours)
+    except Exception as e:  # noqa: BLE001 - 總經失敗不影響個股結果
+        print(f"[總經] 失敗（略過）：{type(e).__name__}")
+        return 0
+    j_n = sum(1 for it in fresh if it["origin"] == "Jin10")
+    print(f"[總經] Jin10 命中 {j_n} 則、Google News 命中 {len(fresh) - j_n} 則（硬觸發、未見過）")
+    if not fresh:
+        return 0
+    rows = fresh[:MACRO_MAX_ITEMS]
+    run_macro.jin10_listed = sum(1 for it in rows if it["origin"] == "Jin10")
+    if len(rows) < len(fresh):
+        print(f"[總經] 共 {len(fresh)} 則，僅列最新 {len(rows)} 則（其餘記為已見）")
+    sent_ok = True
+    for part in split_message(build_macro_message(rows)):
+        if args.dry_run or not can_send:
+            print("-" * 40 + f"\n{part}\n" + "-" * 40)
+        else:
+            try:
+                send_telegram(token, chat_id, part)
+            except Exception as e:  # noqa: BLE001 - 不印 URL（含 token）
+                print(f"[總經] Telegram 傳送失敗：{type(e).__name__}，不標記已見，下輪重試")
+                sent_ok = False
+                break
+    if sent_ok:
+        for it in fresh:
+            new_state[it["key"]] = {"ts": now.isoformat(), "ticker": "MACRO", "title": it["title"][:120]}
+    return len(rows)
+
+
 def run(args, now: datetime | None = None) -> int:
     now = now or datetime.now(timezone.utc)
     cfg = load_config(Path(args.config))
@@ -646,9 +900,16 @@ def run(args, now: datetime | None = None) -> int:
     claimed: set = set()
     new_state: dict = {}
     total_new = total_sent = total_suppressed = 0
+    jin10_items = collect_jin10(args.since_hours, now)  # 全 run 只打一次
+    jin10_ticker_hits = 0
     for entry in entries:
         print(f"[{entry['ticker']}] {entry.get('name', '')}")
         items = collect_for_entry(entry, args.since_hours, now)
+        j_hits = [dict(it, trusted=True) for it in jin10_items if is_relevant_jin10(it, entry)]
+        if j_hits:
+            print(f"  [{entry['ticker']}] Jin10: {len(j_hits)} 則比對到")
+            jin10_ticker_hits += len(j_hits)
+        items += j_hits
         fresh = select_new(items, entry, state, claimed)
         total_new += len(fresh)
         # LLM 每檔每輪只一次呼叫，批次上限 MAX_ITEMS_PER_ENTRY（取最新）；摘要版不設上限。
@@ -665,7 +926,7 @@ def run(args, now: datetime | None = None) -> int:
             total_suppressed += len(batch) - len(rows)
             msg = build_message(entry, rows, True) if rows else None
         else:  # 無 LLM 或解析失敗：摘要版；只列硬觸發關鍵字的標題並設上限，避免洗版
-            hits = [it for it in batch if HARD_TRIGGERS.search(it["title"])]
+            hits = [it for it in batch if it.get("origin") == "Jin10" or HARD_TRIGGERS.search(it["title"])]
             rows = [(it, None) for it in hits[:MAX_DIGEST_ITEMS]]
             total_suppressed += len(batch) - len(rows)
             msg = build_message(entry, rows, False) if rows else None
@@ -687,7 +948,11 @@ def run(args, now: datetime | None = None) -> int:
             for it in fresh:
                 new_state[it["key"]] = {"ts": now.isoformat(), "ticker": entry["ticker"], "title": it["title"][:120]}
 
-    print(f"\n完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}）")
+    run_macro.jin10_listed = 0
+    macro_sent = run_macro(cfg, args, jin10_items, state, claimed, new_state, now, token, chat_id, can_send) \
+        if cfg.get("macro") and not args.ticker else 0
+    print(f"\nJin10 彙總：原始 {len(jin10_items)} 則、比對到個股 {jin10_ticker_hits} 則、列入總經訊息 {run_macro.jin10_listed} 則")
+    print(f"完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}；總經 {macro_sent} 則）")
     if args.dry_run:
         return 0
     if not can_send and not os.environ.get("NEWS_ALLOW_UNSENT_STATE"):
