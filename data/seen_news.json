@@ -594,6 +594,11 @@
   "title": "Super Micro, Applied Digital, Benchmark, Planet Labs, and Ingram Micro Shares Are Falling, What You Need To Know - Tradi",
   "ts": "2026-10-14T17:59:52.262386+00:00"
  },
+ "1ad3087793f553a7": {
+  "ticker": "MU",
+  "title": "Elon Musk Backs Micron As MU Stock Falls 25%: Is This Memory ETF an AI Stock Bargain? - Benzinga",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "1b0e34c9ac83b973": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Reporter-Herald",
@@ -1229,6 +1234,11 @@
   "title": "Netflix releases first trailer for new ‘Narnia’ film by ‘Barbie’ director - Kursiv Media",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "365ff098ae308c84": {
+  "ticker": "NFLX",
+  "title": "Everything Announced at Netflix’s First French Upfront: 'Under Paris 2', 'Lupin', 2 Reality Renewals & More - What's on ",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "366ca0a10759bbf5": {
   "ticker": "MU",
   "title": "Chip Stocks Down As Intel, Micron Nvidia Trade Lower On ASML Upgrade, China's CXMT Progress - NDTV Profit",
@@ -1468,6 +1478,11 @@
   "ticker": "MU",
   "title": "SK Hynix Sinks 5% as China's CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3% - 24/7 Wall St.",
   "ts": "2026-10-14T18:05:42.399699+00:00"
+ },
+ "4049e2b9976380d0": {
+  "ticker": "MACRO",
+  "title": "Gas Prices Jumped 9.1% in 1 Month, and CPI Inflation Hit 3.7%. Here’s What It Means for Consumer Stocks. - Yahoo Finance",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
  },
  "4065391bedbe7150": {
   "ticker": "MU",
@@ -1709,6 +1724,11 @@
   "title": "Netflix’s ‘Temptation Island’ Needs Talent + More Reality TV Series Casting Now - Backstage",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "4b1776d4c2820672": {
+  "ticker": "MU",
+  "title": "SK Hynix Sinks 5% as China’s CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3% - AOL.com",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "4b260a7c9f757098": {
   "ticker": "TSLA",
   "title": "Why Wall Street Is Cautious About Tesla, and Why I'm Not Worried - Yahoo Finance",
@@ -1898,6 +1918,11 @@
   "ticker": "APP",
   "title": "AppLovin Estimates Reset as Advertiser Checks Point to Stable Share, Wedbush Says - Yahoo Finance",
   "ts": "2026-10-14T16:03:21.875466+00:00"
+ },
+ "5270aba1af0c39c4": {
+  "ticker": "TSLA",
+  "title": "Tesla's Long-Delayed Roadster Finally Debuts Into a Brutal EV Market - BigGo Finance",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
  },
  "52874a1bbfa571f5": {
   "ticker": "AAOI",
@@ -2129,6 +2154,11 @@
   "title": "Robinhood shares fall on Wolfe downgrade, Wells Fargo cut - StreetInsider",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "5c8a0e5c2747c9f5": {
+  "ticker": "MACRO",
+  "title": "US Consumer Prices Accelerate in September on Gasoline Surge, Keeping October Fed Hike on Table - Yahoo Finance",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "5cb663b7e4d56cfa": {
   "ticker": "MACRO",
   "title": "US CPI Comes in Hotter Than Expected: How Could This Impact XRP? - Cryptonews.net",
@@ -2163,6 +2193,11 @@
   "ticker": "NFLX",
   "title": "Netflix Cuts About 1,000 Jobs in Biggest Layoff Since 2022 - GuruFocus",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "5d62660e6d286000": {
+  "ticker": "MACRO",
+  "title": "Gold crashes below $4,100 as hot CPI revives October Fed hike bets - FXStreet",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
  },
  "5d8a635c842119e0": {
   "ticker": "NFLX",
@@ -3089,6 +3124,11 @@
   "title": "Hot CPI Revives the Case for Sticky Inflation and Higher Fed Rate Risk - Investing.com UK",
   "ts": "2026-10-14T17:59:52.262386+00:00"
  },
+ "847a25b565d1992a": {
+  "ticker": "IONQ",
+  "title": "Innodata vs. IONQ: A Look at Revenue Trends Between Artificial Intelligence and Quantum Computing Innovators - The Motle",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "84a7fb8d1ba5fa61": {
   "ticker": "MACRO",
   "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KMTR",
@@ -3661,6 +3701,16 @@
     "ticker": "MACRO",
     "title": "Oil Prices Rise, Middle East Tensions Continue to Threaten Global Supply - Morocco World News",
     "ts": "2026-10-14T18:06:40+00:00"
+   },
+   {
+    "key": "e1639d3d0f976a1d",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFAzZWI4eWJLeDdrRU9ySzV1OE0xVFplSkctZHR5TUN6Z2x4S09DbjkxSGE0Q0RfMFg2UkJTaWhXcnZSZTZINzNGT0NWc3h0Ni0zTDJCS1UzWi1kd0x2bzdoXzdSVlR5SlhULWdLamV0VzNCZUwySVpNWmhqdFE1YUlvUTJDT0R6MzBDdUV2b2xFbDI0Ni01NDZJRkl6V0NWNkdXNEVSWnBpU09fWXBoNmFn?oc=5",
+    "name": "",
+    "source": "The Daily Star",
+    "ticker": "MACRO",
+    "title": "Oil prices settle higher as more production shut ahead of hurricane - The Daily Star",
+    "ts": "2026-10-14T17:11:07+00:00"
    }
   ]
  },
@@ -4549,6 +4599,11 @@
   "title": "Swiss Bond Yields Reach Two-Week High - TradingView",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "c487c048f34359a7": {
+  "ticker": "NFLX",
+  "title": "'The Diplomat' Season 3 Recap: What To Remember Before Netflix's Political Thriller Returns - Collider",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
  "c48f3d9e093eaaa3": {
   "ticker": "NFLX",
   "title": "‘Love Is Blind’ Season 11: [Spoiler] Quits Netflix Show After Meeting New Fiance, He Reacts - Just Jared",
@@ -5188,6 +5243,11 @@
   "ticker": "NFLX",
   "title": "Netflix (NFLX) Plans 6% Workforce Reduction Amid Viewership Chal - GuruFocus",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "e1639d3d0f976a1d": {
+  "ticker": "MACRO",
+  "title": "Oil prices settle higher as more production shut ahead of hurricane - The Daily Star",
+  "ts": "2026-10-14T18:17:20.446112+00:00"
  },
  "e17b807c8aa45ad8": {
   "ticker": "MACRO",
