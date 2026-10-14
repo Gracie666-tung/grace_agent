@@ -344,6 +344,11 @@
   "title": "IonQ (NYSE:IONQ) Shares Gap Down - What's Next? - MarketBeat",
   "ts": "2026-10-14T18:05:42.399699+00:00"
  },
+ "0dbed8ea1a4800bc": {
+  "ticker": "NFLX",
+  "title": "Latest OTT releases of the week: The Diplomat to Tenzing, new shows and movies to watch on Netflix, Hulu, - The Economic",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "0de1614fc7ad2a77": {
   "ticker": "MACRO",
   "title": "US Stock Futures Edge Higher as Bank Stocks Slide Ahead of US CPI Report - Analytics Insight",
@@ -813,6 +818,11 @@
   "ticker": "PLTR",
   "title": "Palantir analysts put average target at USD 199.84: stock pre-market at EUR 187.34 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "205beb8fee27b9b7": {
+  "ticker": "NFLX",
+  "title": "Netflix TV Executives Lisa Lang McMullen, James Oh, Carolina Garcia and Andrew McQuinn Among Layoffs - The Hollywood Rep",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "20a1765c8e121fdc": {
   "ticker": "AMD",
@@ -1364,6 +1374,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Stamford Advocate",
   "ts": "2026-10-14T16:15:05.736883+00:00"
  },
+ "35c334d87d734515": {
+  "ticker": "NFLX",
+  "title": "'Love is Blind' Boston season just premiered on Netflix. How to watch - Cape Cod Times",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "35f907c2588c89e9": {
   "ticker": "MU",
   "title": "Micron's $600 Million Patent Tab and a Strike Vote in Taiwan Test the Bull Case - ad-hoc-news.de",
@@ -1718,6 +1733,11 @@
   "ticker": "HCLTECH",
   "title": "HCLTech wins AI-led IT transformation deal with M Group. How it works in practice - Diginomica",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "424a444cc32ebf80": {
+  "ticker": "PLTR",
+  "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - 101 WIXX",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "429fc1d3678f674e": {
   "ticker": "APP",
@@ -2204,6 +2224,11 @@
   "title": "Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever? - Yahoo Finance",
   "ts": "2026-10-14T12:08:20.352127+00:00"
  },
+ "5478be55ba4c0341": {
+  "ticker": "APP",
+  "title": "AppLovin (APP) Following Strong Q2 Results Has Its Valuation Story Changed - Yahoo Finance",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "5482f7a3c04fd8de": {
   "ticker": "MU",
   "title": "Intel, Micron Urge Taiwanese Chip Suppliers to Invest in US - www.thelec.net",
@@ -2473,6 +2498,11 @@
   "ticker": "MACRO",
   "title": "Gold crashes below $4,100 as hot CPI revives October Fed hike bets - FXStreet",
   "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
+ "5d71b64a9d9cdb2e": {
+  "ticker": "NFLX",
+  "title": "Netflix said to cut 6% of workforce - AzerNews",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "5d8a635c842119e0": {
   "ticker": "NFLX",
@@ -3644,6 +3674,11 @@
   "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch",
   "ts": "2026-10-14T17:19:15.493891+00:00"
  },
+ "87b7608a53d40b51": {
+  "ticker": "TSLA",
+  "title": "Tesla Wants to Make Its Own Chips—What Could Go Wrong? - inkl",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "87ea05eaa911d85f": {
   "ticker": "MACRO",
   "title": "Oil prices rise amid regional tensions - mezha.net",
@@ -3733,6 +3768,11 @@
   "ticker": "MACRO",
   "title": "US Oil Exports Seen Rising as WTI Discount to Brent Hits Widest in 11 Years - EnergyNow",
   "ts": "2026-10-14T19:09:37.864025+00:00"
+ },
+ "8cb024cf1380350e": {
+  "ticker": "NFLX",
+  "title": "Netflix Does Its Biggest Layoff in Years - Vulture",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "8d0f7f4223fd2829": {
   "ticker": "NFLX",
@@ -4296,6 +4336,16 @@
     "ticker": "MACRO",
     "title": "Inflation surges in September, possible fed rate hike back on table - The San Joaquin Valley Sun",
     "ts": "2026-10-14T17:43:25+00:00"
+   },
+   {
+    "key": "424a444cc32ebf80",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRThsSmhTQ21KMU00eFRpWVFyTlpvQmZZa2JBWFJIcTlhcVBtbFVLVUQ2cFEzRDZvWDJIVlBDM3c0VzF6c2NyVjJoX3JUOG1ZNVdpeGozTGNkTUFSUEtJUkJSNTFjXzlfY1dWS2gySkRDakZ1c3B0YUd6SFBDVXNJY1Vnek1oWlV4MWxlUlFoX3V5ZGpvZ2dnMmwzUi1GNGRKYVpn?oc=5",
+    "name": "Palantir",
+    "source": "101 WIXX",
+    "ticker": "PLTR",
+    "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - 101 WIXX",
+    "ts": "2026-10-14T17:00:29+00:00"
    }
   ]
  },
@@ -4348,6 +4398,11 @@
   "ticker": "HOOD",
   "title": "Truist raises target for Robinhood Markets stock to USD 134.00 - ad-hoc-news.de",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "a247c7ad337202d6": {
+  "ticker": "MACRO",
+  "title": "Red hot CPI report fuels AI rout - WSAU",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "a29a5830b950cc0d": {
   "ticker": "NFLX",
@@ -4538,6 +4593,11 @@
   "ticker": "MU",
   "title": "Micron Stock Drops Even as Elon Musk Applauds Its ‘Smart Move’ — What’s Behind the Sell-Off? - TipRanks",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "a95cb23bcf3690c0": {
+  "ticker": "TSLA",
+  "title": "First Shift: Tesla pauses China-built Model 3 imports to Canada - Automotive News",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "a9855f7e02908ca0": {
   "ticker": "MACRO",
@@ -4969,6 +5029,11 @@
   "title": "Netflix cuts about 6% of jobs in biggest layoff since 2022, WSJ reports - KSL News",
   "ts": "2026-10-14T17:19:15.493891+00:00"
  },
+ "b9aca96586d84cb3": {
+  "ticker": "MACRO",
+  "title": "Wall Street tumbles as hot inflation data feeds worries about Fed rate hikes - Reuters",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "b9c2bd00094524f7": {
   "ticker": "MACRO",
   "title": "美联储巴尔金：CPI报告高于我的预期。",
@@ -5088,6 +5153,11 @@
   "ticker": "SMCI",
   "title": "Super Micro, Applied Digital, Benchmark, Planet Labs, and Ingram Micro Shares Are Falling, What You Need To Know - Finan",
   "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
+ "bd6acfc7b4abab3e": {
+  "ticker": "PLTR",
+  "title": "Ondas, Palantir Launch Regna AI in West Palm Beach - Hoodline",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "bd6ec5abdf92e0d1": {
   "ticker": "NFLX",
@@ -5539,6 +5609,11 @@
   "title": "Netflix cuts about 6% of jobs, WSJ reports - 1470 & 100.3 WMBD",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "ccc9ce6e97f9390f": {
+  "ticker": "NFLX",
+  "title": "Netflix secures 2030 FIFA World Cup broadcasting rights in Spain and Andorra - Mundo Deportivo",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
+ },
  "cd0cf66a6067d6b3": {
   "ticker": "NFLX",
   "title": "How to watch 'Spider-Man: Brand New Day': Streaming details, Netflix deals, and more - Mashable",
@@ -5758,6 +5833,11 @@
   "ticker": "APP",
   "title": "AppLovin Estimates Reset as Advertiser Checks Point to Stable Share, Wedbush Says - www.marketscreener.com",
   "ts": "2026-10-14T17:48:17.864808+00:00"
+ },
+ "d4b5e2860d978ef7": {
+  "ticker": "TSLA",
+  "title": "Amazon Is the Most Crowded Stock for Hedge Funds. Tesla, Not So Much. -- Barrons.com - Moomoo",
+  "ts": "2026-10-14T19:32:55.420992+00:00"
  },
  "d54a8e41d6cc9df3": {
   "ticker": "MACRO",
