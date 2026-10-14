@@ -1,0 +1,527 @@
+{
+  "_說明": "新聞監測 watchlist。改這個檔即可增減標的，不用動程式。aliases 為標題/摘要必須出現其一的字串（不分大小寫、整詞比對）；status: held|candidate；weight_pct/entry_price/stop_pct 不知道就 null；locales 可選 en-US/de-DE；yahoo_symbol 可選（預設用 ticker）。 目前 20 檔：5 檔持股（LITE/HOOD/TSLA/AMD/PLTR，weight_pct 為計畫權重、entry_price 待進場後填）、隊友 4 檔、其餘為 16 檔候選名單。",
+  "end_date": "2026-11-13",
+  "timezone": "Asia/Taipei",
+  "timezone_note": "end_date 以 Asia/Taipei 日期判定；該日結束後程式直接 exit 0。",
+  "entries": [
+    {
+      "ticker": "HCLTECH",
+      "name": "HCL Technologies",
+      "market": "NSE",
+      "currency": "INR",
+      "aliases": [
+        "HCLTech",
+        "HCL Technologies",
+        "HCL Tech"
+      ],
+      "queries": [
+        "HCLTech",
+        "HCL Technologies stock"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "HCLTECH.NS",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "Q2 業績 10/12 公布後單日 +8.4%，等待拉回再評估進場"
+    },
+    {
+      "ticker": "HAG",
+      "name": "HENSOLDT",
+      "market": "XETRA",
+      "currency": "EUR",
+      "aliases": [
+        "Hensoldt"
+      ],
+      "queries": [
+        "Hensoldt",
+        "Hensoldt Aktie"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "HAG.DE",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-05",
+          "label": "Q3 Statement"
+        }
+      ],
+      "thesis": "歐洲國防電子龍頭，受惠歐洲國防預算擴張",
+      "locales": [
+        "en-US",
+        "de-DE"
+      ]
+    },
+    {
+      "ticker": "CORT",
+      "name": "Corcept Therapeutics",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Corcept"
+      ],
+      "queries": [
+        "Corcept Therapeutics",
+        "CORT stock Corcept"
+      ],
+      "sec_cik": 1088856,
+      "yahoo_symbol": "CORT",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-03",
+          "label": "Q3 財報（預估日，未確認）"
+        }
+      ],
+      "thesis": "（待團隊補 thesis）"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Arista"
+      ],
+      "queries": [
+        "Arista Networks",
+        "ANET stock Arista"
+      ],
+      "sec_cik": 1596532,
+      "yahoo_symbol": "ANET",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-21",
+          "label": "Meta 財報（AI capex 風向）"
+        },
+        {
+          "date": "2026-11-03",
+          "label": "ANET Q3 財報"
+        }
+      ],
+      "thesis": "AI 資料中心網路設備，Meta 等大客戶 capex 是主要驅動"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Lumentum"
+      ],
+      "queries": [
+        "Lumentum Holdings",
+        "LITE stock Lumentum"
+      ],
+      "sec_cik": 1633978,
+      "yahoo_symbol": "LITE",
+      "status": "held",
+      "weight_pct": 20,
+      "entry_price": null,
+      "stop_pct": 15,
+      "next_events": [
+        {
+          "date": "2026-11-05",
+          "label": "Q1 FY27 財報"
+        }
+      ],
+      "thesis": "AI 光通訊動能最強；11/5 財報（公司 IR 已確認）"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Robinhood Markets",
+        "Robinhood shares",
+        "Robinhood stock",
+        "NASDAQ: HOOD"
+      ],
+      "queries": [
+        "Robinhood Markets",
+        "HOOD stock Robinhood"
+      ],
+      "sec_cik": 1783879,
+      "yahoo_symbol": "HOOD",
+      "status": "held",
+      "weight_pct": 20,
+      "entry_price": null,
+      "stop_pct": 15,
+      "next_events": [
+        {
+          "date": "2026-10-27",
+          "label": "Q3 財報"
+        }
+      ],
+      "thesis": "10/27 財報；與 AI 主線相關性較低，注意加密幣成交量"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "AMD",
+        "Advanced Micro Devices"
+      ],
+      "queries": [
+        "AMD stock",
+        "Advanced Micro Devices"
+      ],
+      "sec_cik": 2488,
+      "yahoo_symbol": "AMD",
+      "status": "held",
+      "weight_pct": 15,
+      "entry_price": null,
+      "stop_pct": 15,
+      "next_events": [
+        {
+          "date": "2026-11-03",
+          "label": "Q3 財報"
+        }
+      ],
+      "thesis": "11/3 財報已確認；共識目標價僅高於現價約 5%，上次超預期仍跌約 10%"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Palantir"
+      ],
+      "queries": [
+        "Palantir Technologies",
+        "PLTR stock Palantir"
+      ],
+      "sec_cik": 1321655,
+      "yahoo_symbol": "PLTR",
+      "status": "held",
+      "weight_pct": 15,
+      "entry_price": null,
+      "stop_pct": 15,
+      "next_events": [
+        {
+          "date": "2026-11-02",
+          "label": "Q3 財報（約略日期，未驗證）"
+        }
+      ],
+      "thesis": "全年指引大幅上調，但股價已高於共識目標價"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Tesla"
+      ],
+      "queries": [
+        "Tesla stock",
+        "Tesla Inc"
+      ],
+      "sec_cik": 1318605,
+      "yahoo_symbol": "TSLA",
+      "status": "held",
+      "weight_pct": 15,
+      "entry_price": null,
+      "stop_pct": 15,
+      "next_events": [
+        {
+          "date": "2026-10-21",
+          "label": "Q3 財報"
+        }
+      ],
+      "thesis": "10/21 財報最早；預估動能偏弱、分析師意見分歧，看結果決定續抱或換股"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Super Micro",
+        "Supermicro"
+      ],
+      "queries": [
+        "Super Micro Computer",
+        "SMCI stock Supermicro"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "SMCI",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-03",
+          "label": "Q1 FY27 財報（彙整網站，未確認）"
+        }
+      ],
+      "thesis": "AI 伺服器；財報歷史波動大，有毛利率與會計爭議前科"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Micron"
+      ],
+      "queries": [
+        "Micron Technology",
+        "MU stock Micron"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "MU",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "9/30 已公布財報；窗口內無財報，報酬主要來自記憶體族群"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "queries": [
+        "Sandisk stock",
+        "SNDK Sandisk"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "SNDK",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "記憶體/儲存；從 9/22 高點回檔，財報日未確認"
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "AppLovin"
+      ],
+      "queries": [
+        "AppLovin",
+        "APP stock AppLovin"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "APP",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-04",
+          "label": "Q3 財報（彙整網站，未確認）"
+        }
+      ],
+      "thesis": "AI 廣告；從 8/5 高點下跌約 34%，趨勢向下"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Cloudflare"
+      ],
+      "queries": [
+        "Cloudflare",
+        "NET stock Cloudflare"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "NET",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-29",
+          "label": "Q3 財報（彙整網站，未確認）"
+        }
+      ],
+      "thesis": "AI 軟體/網路；財報歷史 12 季中有 11 季超預期"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Netflix"
+      ],
+      "queries": [
+        "Netflix",
+        "NFLX stock Netflix"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "NFLX",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-20",
+          "label": "Q3 財報（公司已確認）"
+        }
+      ],
+      "thesis": "波動最小，作為對照用"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Reddit Inc",
+        "Reddit stock",
+        "Reddit shares",
+        "NYSE: RDDT"
+      ],
+      "queries": [
+        "Reddit Inc earnings",
+        "RDDT stock Reddit"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "RDDT",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-04",
+          "label": "Q3 財報（彙整網站，未確認）"
+        }
+      ],
+      "thesis": "社群平台；依賴搜尋流量，單次財報跳空"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Rocket Lab"
+      ],
+      "queries": [
+        "Rocket Lab",
+        "RKLB stock Rocket Lab"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "RKLB",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "太空；區間盤整，財報日未確認、可能晚於 11/13"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "IonQ"
+      ],
+      "queries": [
+        "IonQ",
+        "IONQ stock IonQ"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "IONQ",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-03",
+          "label": "Q3 財報（彙整網站，未確認）"
+        }
+      ],
+      "thesis": "量子運算；樂透型，族群偏弱"
+    },
+    {
+      "ticker": "KOD",
+      "name": "Kodiak Sciences",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Kodiak Sciences"
+      ],
+      "queries": [
+        "Kodiak Sciences",
+        "KOD stock Kodiak"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "KOD",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-12",
+          "label": "財報（單一來源，未確認）"
+        }
+      ],
+      "thesis": "9/28 Phase 3 成功後兩週漲超過 100%，增資與反轉風險高"
+    },
+    {
+      "ticker": "SMMT",
+      "name": "Summit Therapeutics",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Summit Therapeutics"
+      ],
+      "queries": [
+        "Summit Therapeutics",
+        "SMMT stock Summit"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "SMMT",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-14",
+          "label": "ivonescimab BLA PDUFA（彙整網站，晚比賽結束一天）"
+        }
+      ],
+      "thesis": "生技；日成交值偏低"
+    }
+  ]
+}

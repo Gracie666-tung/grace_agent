@@ -1,0 +1,53 @@
+name: news-monitor
+
+on:
+  schedule:
+    - cron: "*/30 4-21 * * 1-5" # 每 30 分鐘、週一到週五 04:00-21:00 UTC（涵蓋印度/歐洲/美股盤前盤後；GitHub cron 可能延遲 10-20 分鐘）
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只印出訊息，不推播、不寫狀態"
+        required: false
+        default: false
+        type: boolean
+      since_hours:
+        description: "回溯小時數（首輪補抓窗口）"
+        required: false
+        default: "6"
+
+concurrency:
+  group: news-monitor # 避免上一輪還沒跑完、下一輪又開始，兩邊同時改 data/seen_news.json
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 執行後要把 data/seen_news.json 提交回 repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests # 本工具只依賴 requests，不必裝 yfinance/pandas 等
+
+      - name: Fetch, analyze and notify
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          SINCE_HOURS: ${{ github.event.inputs.since_hours }}
+        run: |
+          python src/news_monitor.py --since-hours "${SINCE_HOURS:-36}" $([ "$DRY_RUN" = "true" ] && echo --dry-run)
+
+      - name: Persist seen news
+        run: |
+          git config user.name "news-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/seen_news.json
+          git diff --cached --quiet || git commit -m "chore: update seen news [skip ci]"
+          git pull --rebase # 先 commit 再 rebase，避免 dirty tree；其他 workflow 也會 commit
+          git push

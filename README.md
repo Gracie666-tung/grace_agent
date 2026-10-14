@@ -406,3 +406,22 @@ export ANTHROPIC_API_KEY=sk-ant-...
   不要用假資料充數。
 - 原物料監控的各品項為原幣別報價（期貨多為美元，00715L 為新台幣），沒有做匯率
   轉換，跨品項比較時請留意幣別不同。
+
+## 新聞監測 Agent
+
+盯 `news_watchlist.json` 裡的股票（比賽到 2026-11-13），每 30 分鐘（GitHub Actions，週一到五
+04:00–21:00 UTC）掃 Google News RSS、SEC EDGAR 申報（美股）、Yahoo Finance headline（best-effort，常 429），
+只對**新**消息用 Telegram 通知。有 `ANTHROPIC_API_KEY` 時由 Claude 判斷重要性、預估股價影響（標示為估計）、
+是否已 price in，以及加倉/持有/減倉/出場/觀察；沒有 key 或加 `--no-llm` 時只送「無分析」標題＋連結摘要。
+沒有重要消息的那一輪完全不發訊息。比賽結束日之後程式直接 exit 0。
+
+- **改標的**：直接編輯 `news_watchlist.json` 的 `entries`。`aliases`（標題或摘要須出現其一，整詞、不分大小寫）
+  最關鍵，別名太泛（如 Robinhood）會混進不相關的新聞；`queries` 是搜尋字串；美股可填 `sec_cik`；
+  `status` 填 `held`/`candidate`，`weight_pct`、`entry_price`、`stop_pct`、`next_events`、`thesis` 會餵給 Claude 當判斷脈絡。
+- **Secrets**：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`（必要）、`ANTHROPIC_API_KEY`（可選）。
+  可選環境變數：`NEWS_UA`（SEC 要求的描述性 User-Agent）、`NEWS_MODEL`（預設 `claude-sonnet-5-5`）。
+- **本機測試**：`python src/news_monitor.py --dry-run --no-llm --since-hours 72`（只印出，不送、不寫狀態）；
+  `--ticker ANET` 只看單一標的；測試 `python tests/test_news_monitor.py`。
+- 去重狀態在 `data/seen_news.json`（Actions 每輪 commit 回來，保留 30 天）。首次上線建議先手動 dispatch 並把
+  `since_hours` 設小（如 6），避免一次補抓 36 小時的舊聞。
+- 限制：新聞標題相關性靠別名比對，會有雜訊；預估僅供參考，非投資建議。
