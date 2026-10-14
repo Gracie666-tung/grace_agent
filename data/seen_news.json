@@ -619,6 +619,11 @@
   "title": "GRA Commissioner-General Clarifies 20% VAT on Netflix, Spotify & Other Online Transactions - Modern Ghana",
   "ts": "2026-10-14T12:08:20.352127+00:00"
  },
+ "2011f7ff2b6c1b77": {
+  "ticker": "MACRO",
+  "title": "US September CPI Inflation Rises 3.7% To Hit Six-Month High On Fuel Prices - NDTV Profit",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "203ec4ec08e396cd": {
   "ticker": "PLTR",
   "title": "Palantir analysts put average target at USD 199.84: stock pre-market at EUR 187.34 - ad-hoc-news.de",
@@ -984,6 +989,11 @@
   "title": "Netflix Layoffs - WV News",
   "ts": "2026-10-14T16:15:05.736883+00:00"
  },
+ "338b455acf362cc9": {
+  "ticker": "MACRO",
+  "title": "US yields jump as hot consumer inflation boosts rate hike bets - The Economic Times",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "33a5adf1c83fd4c2": {
   "ticker": "TSLA",
   "title": "The Tesla Roadster could have stayed vaporware - The Verge",
@@ -1234,6 +1244,11 @@
   "title": "IonQ Has Lost 56% Since Last October: Rosenblatt Sees 176% Upside - Yahoo Finance",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "41336f03020a967f": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce in biggest round of job cuts at streaming giant in years - ABC7 Bay Area",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "4156dde66911beb0": {
   "ticker": "NFLX",
   "title": "Netflix Cuts 1,000 Jobs as Stock Sinks 40%: Is a Bottom Near? - CryptoRank",
@@ -1283,6 +1298,11 @@
   "ticker": "NFLX",
   "title": "Hit K-Drama 'Lovely Runner' Is Coming to Netflix on August 1 - Metro.Style",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "4531021246bc3b6e": {
+  "ticker": "TSLA",
+  "title": "Tesla Q3 deliveries beat expectations but face margin, pricing, and investment risks ahead - Pluang",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
  },
  "4591a56a5c380001": {
   "ticker": "MU",
@@ -2499,6 +2519,11 @@
   "title": "IonQ Announces Pricing of $2.0 Billion Equity Offering - The Quantum Insider",
   "ts": "2026-10-14T16:20:58.343020+00:00"
  },
+ "82b2ad8d935810aa": {
+  "ticker": "MACRO",
+  "title": "CPI Report Live Updates: New Insights on Inflation, U.S. Economy and the Fed - The New York Times",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "83b8d6449fc3f027": {
   "ticker": "TSLA",
   "title": "Tesla's Q3 deliveries exceeded expectations; could this serv... - Futubull Community - 富途牛牛",
@@ -2583,6 +2608,11 @@
   "ticker": "MACRO",
   "title": "Gold Tests $4,200-$4,000 Demand Zone as CPI Revives Inflation Concerns - FXEmpire",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "8a696318a65be34a": {
+  "ticker": "TSLA",
+  "title": "Tesla shares Roadster unveiling live-stream timings, \"Timing is everything,\" says Musk - Tesla Oracle",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
  },
  "8bc6aa87844e7b3b": {
   "ticker": "MACRO",
@@ -2744,6 +2774,11 @@
   "title": "Micron Stock Keeps Sliding but Musk Says It’s Making a ‘Smart Move’ - Barron's",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "97907ff6f5044587": {
+  "ticker": "MACRO",
+  "title": "USD/JPY forecast: hot US CPI lifts the pair above its 200-day average - FOREX.com",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "97aa25eec1ba356e": {
   "ticker": "MACRO",
   "title": "PPF rate hike after 6 years? What rising bond yields mean for small savings investors - The Financial Express",
@@ -2886,7 +2921,28 @@
  },
  "_digest": {
   "last_sent": "2026-10-14T16:55:52.574268+00:00",
-  "pending": []
+  "pending": [
+   {
+    "key": "e82136600b9b035f",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORngycjVwQW9ocG5FRXEteWtxcUpSUVl4Umlmbl9weElpcjFzZ1hqckw2emcxOUNFWUt0QUdGSjNkaWdQZjRRSWVocGxEV0ZlNUpFNGdCRFNkdjB6OUFlMXEyZExuT19ZMmJsMWMyX0NmbnlPTlNhd2pWYnlIdjBSeWNILWpsYUtYdDBKQw?oc=5",
+    "name": "",
+    "source": "The Mighty 790 KFGO",
+    "ticker": "MACRO",
+    "title": "AI infrastructure firms slump as US rate hike bets rise - The Mighty 790 KFGO",
+    "ts": "2026-10-14T16:55:38+00:00"
+   },
+   {
+    "key": "338b455acf362cc9",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmZpSE5hZW9fWWxxQ0FJUzkyR1BFbi1QNXZiSTJISEhJemxMZVVUNm05UlpiQXVqTkgyT0pZaTZHdVR2NGRaa3ZadFR1c3c1NkJOVUNuOWxhbnhaSllRcGdEZy1rcjhMbV8tRjNFWDhYaFIza3dJaTBzdjlWc2I1eTVDeUJ4MHBacXVHRk56OG94QmszUzJkS1RoaElDc0RWWk4tWmZSZURRaTNMSkZXdmlXWFlXSndMOGVwaEllT3hqNU5SRmhUdHV5d0JERVR5d1ViUk9ZbGt4VnhadmI1TnZ30gHbAUFVX3lxTE1ZT19ZeGp5NUNLMXdVMmFDdk9fbVIwMHRxWEpLQkctZHFtX0IyeUlaYVRmR3BKT2NOV0lPcUFIVWk5MXlSa3pQVnBqY1laNnZjVW5pam9EMzBGaFd0US1KVTRNd2VsVW1TTGZnU3dhVEtyYWJrbGV2T0Q3V3BHRFk3V2JUR184cVlPS2ZuNDItWWMzU0Fkc09Fa1pxVjFmNFpMd1VvdWI0d1R0cFpuQ0NBVzZsZUp2dUZSRU5aOW9IMFZXSkY0OVdDTnNkSDdxVWtMMlloZno2T1hPUQ?oc=5",
+    "name": "",
+    "source": "The Economic Times",
+    "ticker": "MACRO",
+    "title": "US yields jump as hot consumer inflation boosts rate hike bets - The Economic Times",
+    "ts": "2026-10-14T14:08:53+00:00"
+   }
+  ]
  },
  "a021720e8b60353c": {
   "ticker": "MACRO",
@@ -2937,6 +2993,11 @@
   "ticker": "PLTR",
   "title": "Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results - 24/7 Wall St.",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "a31d6d42c53c068d": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off about 1,000 employees in its biggest round of cuts since 2022, a person familiar with the plans co",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
  },
  "a378f8445d3aa219": {
   "ticker": "NFLX",
@@ -3093,6 +3154,11 @@
   "title": "GRA Commissioner-General Clarifies 20% VAT on Netflix, Spotify & Other Online Transactions - Modern Ghana",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "a9d9dcc83b270886": {
+  "ticker": "MACRO",
+  "title": "XRP Falls After Hot US CPI Report as Inflation Fears Pressure Crypto Markets - Hokanews",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "a9ff1861c333accf": {
   "ticker": "MU",
   "title": "Musk Says Micron Is Being Fair on Memory Prices. He Called Its Rivals \"Extortionate\" - 24/7 Wall St.",
@@ -3147,6 +3213,11 @@
   "ticker": "NFLX",
   "title": "Love is Blind season 14 full release schedule, as the new season drops today on Netflix - The Tab",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "ae7152aa44a48efb": {
+  "ticker": "NFLX",
+  "title": "Lisa Lang McMullen, James Oh, Andrew McQuinn & Carolina Garcia Among Netflix TV Execs Impacted By Layoffs - Deadline",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
  },
  "aea976882372efd5": {
   "ticker": "TSLA",
@@ -3948,6 +4019,11 @@
   "title": "Netflix Cuts 1,000 Jobs as Growth Cools: “On Track to Deliver Full-Year Forecast” - TIKR.com",
   "ts": "2026-10-14T16:32:38.898107+00:00"
  },
+ "d6a3e63a4edf946f": {
+  "ticker": "MACRO",
+  "title": "Inflation climbs in September as energy prices soar, CPI report shows - CBS News",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "d6cc10661dd063ca": {
   "ticker": "MACRO",
   "title": "Rising Government Debt Extends Gold’s Appeal Beyond Fed Rate Cuts - Crux Investor",
@@ -4198,6 +4274,11 @@
   "title": "Netflix Is Reportedly Cutting 1,000 Jobs – Co-CEOs Say Company Must Be ‘Disciplined’ With Resources - Stocktwits",
   "ts": "2026-10-14T16:38:26.309423+00:00"
  },
+ "e82136600b9b035f": {
+  "ticker": "MACRO",
+  "title": "AI infrastructure firms slump as US rate hike bets rise - The Mighty 790 KFGO",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
  "e8225c49e49cd5a0": {
   "ticker": "NFLX",
   "title": "Review of Turkish Netflix series 'Not a Stranger' - Daily Sabah",
@@ -4372,6 +4453,11 @@
   "ticker": "MACRO",
   "title": "EUR/USD Bounce Hits a Wall of Fed Hawks and French Finances - StoneX",
   "ts": "2026-10-14T15:57:30.197535+00:00"
+ },
+ "efbc4be48b840868": {
+  "ticker": "NFLX",
+  "title": "Netflix to cut 1,000 jobs worldwide - BBC",
+  "ts": "2026-10-14T17:01:43.969374+00:00"
  },
  "efc44db75ca043ca": {
   "ticker": "NFLX",
