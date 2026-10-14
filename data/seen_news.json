@@ -249,6 +249,11 @@
   "title": "TD Cowen raises target for Cloudflare stock from USD 355.00 to USD 375.00 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "0ba602277d3910d1": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 1,000 Employees - Yahoo Finance",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "0bb4f7919ac48c55": {
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs, WSJ reports - Fort Worth Star-Telegram",
@@ -1004,6 +1009,11 @@
   "title": "US CPI data comes hotter than expected: will Fed hike rates in October or December? - Invezz",
   "ts": "2026-10-14T15:57:30.197535+00:00"
  },
+ "2b46a74a48be49c0": {
+  "ticker": "NFLX",
+  "title": "Netflix France Announces Two Unscripted Renewals At Its First Upfront And Shows Off Brand-New Footage Of Upcoming Progra",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "2b4e52d9c74cb410": {
   "ticker": "MACRO",
   "title": "U.S. September CPI Exceeds Expectations, Bitcoin Drops $1,000 - KuCoin",
@@ -1133,6 +1143,16 @@
   "ticker": "PLTR",
   "title": "Palantir Billionaire Peter Thiel Buys 2 Brilliant AI Stocks (Hint: Not Nvidia or Micron) - Yahoo Finance",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "32444b79f29a504f": {
+  "ticker": "AMD",
+  "title": "Advanced Micro Devices Stock Surges 183% YTD: Time to Hold or Exit? - The Globe and Mail",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
+ "32676c6769d716d6": {
+  "ticker": "TSLA",
+  "title": "Tesla's Long-Delayed Roadster Finally Debuts Into a Brutal EV Market - finance.biggo.com",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "33764779c658f1c7": {
   "ticker": "NFLX",
@@ -1358,6 +1378,11 @@
   "ticker": "NFLX",
   "title": "Netflix Film VP Doug Belgrad Among Company Layoffs - Media Play News",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "3cf06781484cdd1b": {
+  "ticker": "MACRO",
+  "title": "Why is US Stock Market Down Today? Dow Jones Falls 0.17%, S&P 500 Drops 0.94% & Nasdaq Slumps 1.30% as Hot US CPI Inflat",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "3d37485aec34cb7f": {
   "ticker": "MACRO",
@@ -1598,6 +1623,11 @@
   "ticker": "NFLX",
   "title": "Netflix’s November 2026 Exodus: The Dark Knight & Weeds Exit Stage Left - DailyDrama",
   "ts": "2026-10-14T12:08:20.352127+00:00"
+ },
+ "4976c224abf69b0a": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - The Press-Enterpri",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "499e0278ecd05bf7": {
   "ticker": "MACRO",
@@ -2779,6 +2809,11 @@
   "title": "Super Micro, Applied Digital, Benchmark, Planet Labs, and Ingram Micro Shares Are Falling, What You Need To Know - Stock",
   "ts": "2026-10-14T17:48:17.864808+00:00"
  },
+ "789268f05de0f1fe": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Oskaloosa Herald",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "78c48c40e213664e": {
   "ticker": "NFLX",
   "title": "Netflix Lays Off Around 1,000 Employees In Largest Cuts Since 2022 - The Hollywood Reporter",
@@ -2843,6 +2878,11 @@
   "ticker": "SMCI",
   "title": "Super Micro Computer (NASDAQ: SMCI) Falls Sharply As Market Holds Steady, But Strong Earnings Growth Expected - Foreign ",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "7b5d3230cb7cc750": {
+  "ticker": "NFLX",
+  "title": "Netflix Film VP Doug Belgrad Is Out Amid Layoffs - IMDb",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "7ba85b9eab20b569": {
   "ticker": "NFLX",
@@ -3519,6 +3559,11 @@
   "title": "Tesla: The Robotaxi Dream Meets An Earnings Reality Check (NASDAQ:TSLA) - Seeking Alpha",
   "ts": "2026-10-14T16:38:26.309423+00:00"
  },
+ "9f51764568035b35": {
+  "ticker": "NFLX",
+  "title": "Netflix Layoffs: TV Execs Lisa Lang McMullen, Andrew McQuinn and Carolina Garcia Among Cuts - TheWrap",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "9f89335630a14cfe": {
   "ticker": "NFLX",
   "title": "Netflix to cut around 1,000 jobs as growth slows - Yahoo Finance",
@@ -3596,6 +3641,26 @@
     "ticker": "MACRO",
     "title": "Bitcoin falls below $82K as hotter US inflation fuels Fed rate hike bets - Crypto Briefing",
     "ts": "2026-10-14T15:48:48+00:00"
+   },
+   {
+    "key": "d54a8e41d6cc9df3",
+    "label": "📉 對風險資產偏空",
+    "link": "https://flash.jin10.com/detail/20261015020727707800",
+    "name": "",
+    "source": "Jin10",
+    "ticker": "MACRO",
+    "title": "【美联储褐皮书：高油价冲击全美12个辖区 企业预计物价进一步上涨】金十数据10月15日讯，美联储最新褐皮书显示，美国经济总体保持增长，但多数行业增长乏力。12个联储辖区中，两个报告经济温和增长，三个小幅增长，四个轻微增长，三个基本持平。制造业表现相对强劲，但多数辖区消费支出变化不大，超过半数辖区表示消费主要由高收入家庭推动。通胀方面，三个辖区报告物价强劲上涨，八个辖区报告温和上涨，四个辖区表示物价…",
+    "ts": "2026-10-14T18:07:27+00:00"
+   },
+   {
+    "key": "d19d1003524ace43",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdTRhYi1ZMzBLaVZTUF9iQ3lrZ1B3MUM5aWdYVzJLOWVmaWZzemF4bkh5VzBtenZFVVdLU2lNRW9TMTVGdDA4SVpXNElYeDUwbVNCMW5HaXVRd093LVNPX0huYzJoTEJzZG5rZGstVndyZ203TVZ4eWxqWmlOSzl1YWFEazNLWVVNOHh1aVN1anpZMUp6Y2RBYW5hVzdpSjBkVG9KdDRZZHhhZWtBYlJubkNBSDQ5OEt3SHprQw?oc=5",
+    "name": "",
+    "source": "Morocco World News",
+    "ticker": "MACRO",
+    "title": "Oil Prices Rise, Middle East Tensions Continue to Threaten Global Supply - Morocco World News",
+    "ts": "2026-10-14T18:06:40+00:00"
    }
   ]
  },
@@ -4294,6 +4359,11 @@
   "title": "IonQ seeks nearly $2B in net proceeds from stock, warrant offering - TradingView",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "bd47e872d6deb30d": {
+  "ticker": "NFLX",
+  "title": "Netflix announces layoffs: another sign of distress? - Invezz",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "bd4ee1d96e818eff": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Yahoo Finance",
@@ -4413,6 +4483,11 @@
   "ticker": "MACRO",
   "title": "U.S. September CPI: Inflation Is Back, And Stocks Are Not Ready (SPX) - Seeking Alpha",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "c28517c03db539e3": {
+  "ticker": "IONQ",
+  "title": "Why IonQ Stock Just Crashed - The Motley Fool",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "c29b70988814e5e1": {
   "ticker": "PLTR",
@@ -4819,6 +4894,11 @@
   "title": "Should You Buy Sandisk Stock Before Oct. 29? - The Motley Fool",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "d19d1003524ace43": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rise, Middle East Tensions Continue to Threaten Global Supply - Morocco World News",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
  "d1f0b6bad5317382": {
   "ticker": "TSLA",
   "title": "Tesla's Roadster event is back on for Thursday night. Here's what to expect. - Yahoo Finance",
@@ -4873,6 +4953,11 @@
   "ticker": "APP",
   "title": "AppLovin Estimates Reset as Advertiser Checks Point to Stable Share, Wedbush Says - www.marketscreener.com",
   "ts": "2026-10-14T17:48:17.864808+00:00"
+ },
+ "d54a8e41d6cc9df3": {
+  "ticker": "MACRO",
+  "title": "【美联储褐皮书：高油价冲击全美12个辖区 企业预计物价进一步上涨】金十数据10月15日讯，美联储最新褐皮书显示，美国经济总体保持增长，但多数行业增长乏力。12个联储辖区中，两个报告经济温和增长，三个小幅增长，四个轻微增长，三个基本持平。制造",
+  "ts": "2026-10-14T18:11:31.110628+00:00"
  },
  "d58771143112eff5": {
   "ticker": "MU",
