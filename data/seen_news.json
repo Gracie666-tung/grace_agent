@@ -4,6 +4,11 @@
   "title": "Why Netflix bought 2030 World Cup rights in Spain and what it means for its sporting ambitions - SportsPro",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "00405980f8272e65": {
+  "ticker": "NFLX",
+  "title": "Netflix Is Cutting 6% of Staff Amid Slowing Growth, Stock Slump - Yahoo Finance",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
+ },
  "0078ac91fe255b5c": {
   "ticker": "LITE",
   "title": "Lumentum Is Sold Out Through 2029. Could Tower Semiconductor Be the Next Big Winner? - Barchart.com",
@@ -2739,6 +2744,11 @@
   "title": "Netflix Lands World Cup 2030 Rights In Spain And Andorra - TheRichest",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "681529539ec81ae7": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stocks Fall 4.8% Although AI Flash Roadmap Gains a January Deadline - GuruFocus",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
+ },
  "682535c3a62447a3": {
   "ticker": "LITE",
   "title": "BNP Paribas Adjusts Price Target on Lumentum Holdings to $1,425 From $1,380 - marketscreener.com",
@@ -2763,6 +2773,11 @@
   "ticker": "PLTR",
   "title": "Palantir Stock: Buy, Sell, or Hold? - The Motley Fool",
   "ts": "2026-10-14T18:40:33.922980+00:00"
+ },
+ "688ea582718b63ff": {
+  "ticker": "MACRO",
+  "title": "Fed rate hike call seen tight as inflation heats up - KELO-AM",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "68ba9836926ec313": {
   "ticker": "APP",
@@ -3238,6 +3253,11 @@
   "ticker": "MACRO",
   "title": "US Stock Market Today LIVE: Dow Jones Falls 0.16%, S&P 500 Drops 0.40% & Nasdaq Slides 0.63% as Hot CPI Inflation Fuels ",
   "ts": "2026-10-14T16:03:21.875466+00:00"
+ },
+ "7a9b4ac50d826ee4": {
+  "ticker": "MACRO",
+  "title": "EUR/USD Price Forecast: Strong US CPI keeps bears in control despite oversold RSI - FXStreet",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "7acbc1216c10ff47": {
   "ticker": "NFLX",
@@ -4186,6 +4206,26 @@
     "ticker": "MACRO",
     "title": "At This Price… Algerian Crude Oil Listed As The Most Expensive In The Arab World In September – الشروق أونلاين - الشروق أونلاين",
     "ts": "2026-10-14T17:18:10+00:00"
+   },
+   {
+    "key": "688ea582718b63ff",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRVNjcFZaeUM0dmtVQ0thUkFaR0RNc0U2OEpTRkpUV0ctaXFqUkZUV0pvWmxTWlMtRjRkSk9pVURWNXNBSnk5QWRSVG80NDdLeUlSZDAydi0yUGtZa0V2QlI0aGVuSFI2WUZPenl0Vm5nZW9hcUJZRzBmSldBOGJTbGk3eDZQeFU?oc=5",
+    "name": "",
+    "source": "KELO-AM",
+    "ticker": "MACRO",
+    "title": "Fed rate hike call seen tight as inflation heats up - KELO-AM",
+    "ts": "2026-10-14T16:49:03+00:00"
+   },
+   {
+    "key": "a3aabedd9a4f9a82",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb01tYTVEZ1hOM1FvanRlQXBUbzA2V2dfLWFGWGw0SUtXWDNPQWRzS0tzMmc1QjltR2dkVFRSM19WT0RsX01mb1RuQmw5dEJBbEJ2SWVIempyM3JEQm9yenpxNkhnSThlU0Z5dkV0emRyd2lvMU1KdDk2Q3JkaEV0QzFOU1FfdElyWGl6dmtsTy1EZzBpRVRCbHJ4dXpsQQ?oc=5",
+    "name": "",
+    "source": "Vietnam.vn",
+    "ticker": "MACRO",
+    "title": "US inflation rose to 3.7% in September: Fed could raise interest rates as early as October. - Vietnam.vn",
+    "ts": "2026-10-14T16:27:24+00:00"
    }
   ]
  },
@@ -4268,6 +4308,11 @@
   "ticker": "NFLX",
   "title": "Netflix Layoffs - The Herald Journal",
   "ts": "2026-10-14T16:15:05.736883+00:00"
+ },
+ "a3aabedd9a4f9a82": {
+  "ticker": "MACRO",
+  "title": "US inflation rose to 3.7% in September: Fed could raise interest rates as early as October. - Vietnam.vn",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "a3cf1629ce2bf435": {
   "ticker": "MACRO",
@@ -5434,6 +5479,11 @@
   "title": "US CPI TODAY: GOLD BREAKOUT OR ANOTHER SELLOFF? for OANDA:XAUUSD by VertexQore - TradingView",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "cdb9aefab150fe21": {
+  "ticker": "IONQ",
+  "title": "IonQ secures another $2B equity stake from Heights Capital - The Business Journals",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
+ },
  "cdd5bb698ce11738": {
   "ticker": "NFLX",
   "title": "Netflix to cut roughly 1,000 employees in biggest workforce reduction since 2022 - AOL.com",
@@ -5458,6 +5508,11 @@
   "ticker": "MACRO",
   "title": "US inflation heats up in September; Fed rate hike in October back on table - The Straits Times",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "ce5a35e527c866b0": {
+  "ticker": "NFLX",
+  "title": "Sex, Love and War: How the Racy Gay Epic ‘La Bola Negra’ Could Win Netflix’s First Best Picture Oscar - IMDb",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "ce7a84c8dc6e858e": {
   "ticker": "NFLX",
@@ -5663,6 +5718,11 @@
   "ticker": "NFLX",
   "title": "Netflix lays off 6% of workforce - KYMA",
   "ts": "2026-10-14T18:28:57.279706+00:00"
+ },
+ "d83a17efccd0467a": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Oroville Mercury-R",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "d8727334a272abb0": {
   "ticker": "HCLTECH",
@@ -6563,6 +6623,11 @@
   "ticker": "SNDK",
   "title": "Here’s the Bull Case for NVIDIA, Micron, and SanDisk for 2027 - Yahoo Finance",
   "ts": "2026-10-14T16:03:21.875466+00:00"
+ },
+ "fd655c05325a1dc5": {
+  "ticker": "NFLX",
+  "title": "Netflix (NFLX) Plans To Cut About 6% Of Its Workforce - Yahoo Finance",
+  "ts": "2026-10-14T19:21:18.917748+00:00"
  },
  "fdf74c00b75c1b25": {
   "ticker": "MACRO",
