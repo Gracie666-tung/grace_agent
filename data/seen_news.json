@@ -364,6 +364,11 @@
   "title": "GoDaddy, Google, Cloudflare demo AI agent transaction system By Investing.com - Investing.com Canada",
   "ts": "2026-10-14T15:57:30.197535+00:00"
  },
+ "10c3b080d51f6fdb": {
+  "ticker": "PLTR",
+  "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - WTVB",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
  "10eb999bd90e056c": {
   "ticker": "ANET",
   "title": "Sanford Bernstein sets USD 250.00 target for Arista Networks stock - ad-hoc-news.de",
@@ -1254,6 +1259,11 @@
   "title": "US CPI Meets RBI’s Rupee Defence: Why Bitcoin and XRP Prices in India Could Diverge - Cryptonews.net",
   "ts": "2026-10-14T17:25:02.734150+00:00"
  },
+ "3d77ad42ead2c041": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Red Bluff Daily Ne",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
  "3d8b6898c3741f36": {
   "ticker": "TSLA",
   "title": "Sunrun, Tesla home batteries deliver record 745 MW to California grid - Investing.com India",
@@ -1868,6 +1878,11 @@
   "ticker": "IONQ",
   "title": "Why IonQ (IONQ) Shares Are Plunging Today - StockStory",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "59b3aa9390980e2b": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Audacy",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "5a019c19e1e779ac": {
   "ticker": "PLTR",
@@ -2789,6 +2804,11 @@
   "title": "Netflix Release Puts a Timely Twist on 34-Year-Old Kevin Costner Thriller Classic - MovieWeb",
   "ts": "2026-10-14T17:19:15.493891+00:00"
  },
+ "84a7fb8d1ba5fa61": {
+  "ticker": "MACRO",
+  "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KMTR",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
  "84da78e83559bae2": {
   "ticker": "NFLX",
   "title": "Netflix Stock Edges Up After Job Cuts -- WSJ - Moomoo",
@@ -2863,6 +2883,11 @@
   "ticker": "APP",
   "title": "Applovin stock hits 52-week low at 266.41 USD By Investing.com - Investing.com UK",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "89190a4cc6be6a81": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz - EnergyNow.com",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "892229623b865904": {
   "ticker": "MU",
@@ -3411,6 +3436,56 @@
     "ticker": "MACRO",
     "title": "US inflation heats up in September; Fed rate hike this month back on table - Yahoo Finance",
     "ts": "2026-10-14T17:25:30+00:00"
+   },
+   {
+    "key": "10c3b080d51f6fdb",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVzBWcmxTYVdBS254WTJkdkxYRkdJaFJhNEZGNTFDZEVSa1dQUUE2WHQtY0d0ejBRTjE2Q3VKQ250bklCX0lNUlh4UktxOHA1YV9sVDh5Z0VHRkVIeWtaeUZkRnA1MDdTcUliYzFXX3NuRkppYm9KcEpZSzk3OGFxM2hmeFlRNzhPOTFNenZ6bWVvR0RXcmZ2SHMwWVJ5OHRWa2tmLVJB?oc=5",
+    "name": "Palantir",
+    "source": "WTVB",
+    "ticker": "PLTR",
+    "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - WTVB",
+    "ts": "2026-10-14T14:53:50+00:00"
+   },
+   {
+    "key": "bb85550ef55c48a7",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeE81M05vZnJYUzktNWNyZ2x2UVpFa09ocFdLb1dmMDZjWkhuRl9ob0I1RVlNVE9HWXg0Q3hpT0NsaFJlRl9LaDZzNFNpa1VldDR0ZHpwUTAyUHBMaDk5QW82NmtJV25ib2J3T2VrWkIyXzhFaXhZWFZnYl9Bajg3UzRzblpPNnZmUF82TURSanVncmpCUTdZdmtoOXFZWUpfeksydmVxaGNtNldJeU5ObjVPcmphNEE?oc=5",
+    "name": "IonQ",
+    "source": "GuruFocus",
+    "ticker": "IONQ",
+    "title": "IonQ (IONQ) Announces $2 Billion Equity Offering with Warrants a - GuruFocus",
+    "ts": "2026-10-14T17:39:25+00:00"
+   },
+   {
+    "key": "84a7fb8d1ba5fa61",
+    "label": "📈 對風險資產偏多",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV08xSjBUNWJDU1RVNWlDSTlHZkhRUkd6LVBlbWVGd2F4eWRmeVFKQms2bko1ZUZoZ1hUbVZNTmg0TTU3emNvbTVOMTd4enlqWmFpRElDNmRuLUp4MVg5enM5VVY1Q21lc0Uzb09rbmFELXBfYjh2TmFyMGZscHBLS2RrNV9PbmtaRHI0eFlMeVRDQjB4MzF2YkZRRV9qMmlSa3dkZ2hZT0Q?oc=5",
+    "name": "",
+    "source": "KMTR",
+    "ticker": "MACRO",
+    "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KMTR",
+    "ts": "2026-10-14T17:20:17+00:00"
+   },
+   {
+    "key": "a7cbe0e2003b00e0",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUJyRDVOZ2FiYlNzcWl2V0dyYXpnWXU3T3A1N3ctb2ZUMThQdWpyTGhTbXBSVFo5M2s2UXp6UDg0a3BLSWNCVVpyY1NsSE5OZVRsbVBmWnNfeExvQXlnTDRhem53UmE4VzNhNmxYcnVXdjVwZkxEcUx2Z0tmRVlwaUplOV9TOGFUckl1WnF4bjdxN1NzQTgxMFNPY9IBoAFBVV95cUxQU1pDTW1RNEpidW85SmlxN01MaDEzeXI2eWsyN0JsTlZlNmNjbXpjc1FoMWtZQXlYcEtEb3JVOENXdFVBQmlNaVFXWm9XejljSWVjZEZPTXlxZ2ZuVWh4U3VIUE4waldGY3R5WG5UWm5Jb1ZPS0VTOVVRUm90ZmJzN3FNUHBfbUNZSWpKMXBtWUtDbzdiTnB2YVFMcTdUMXZL?oc=5",
+    "name": "",
+    "source": "The Korea Times",
+    "ticker": "MACRO",
+    "title": "Fed rate hike call seen tight as inflation heats up - The Korea Times",
+    "ts": "2026-10-14T15:49:00+00:00"
+   },
+   {
+    "key": "89190a4cc6be6a81",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMDkwVmRyeVVoMDB2N3dYVFFmeERKajZmVWJLWWRaM2ZKMV8zODdGSGFEOHpqWEpHSG1wM1JpOW5CMUV3angxLUtSNzRTMGFwSmJPQUNuUzFnZWUwTlIwRFNpcWk4OE9nZ1l0N2ZvamxZVl9zSE1lVWpyNWthdmJEUXlpeDQtaWd0R0lTbXZ5OWhzbTBNbVd5bC1sTVk2T3dvazFMWTZvUzlybTNOTmRGYWlTM280Ynl5?oc=5",
+    "name": "",
+    "source": "EnergyNow.com",
+    "ticker": "MACRO",
+    "title": "Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz - EnergyNow.com",
+    "ts": "2026-10-14T15:37:58+00:00"
    }
   ]
  },
@@ -3588,6 +3663,11 @@
   "ticker": "PLTR",
   "title": "London Mayor’s office resolves legal dispute with AI giant Palantir over £50m contract - Yahoo News UK",
   "ts": "2026-10-14T16:26:47.704189+00:00"
+ },
+ "a7cbe0e2003b00e0": {
+  "ticker": "MACRO",
+  "title": "Fed rate hike call seen tight as inflation heats up - The Korea Times",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "a7e794090d8ec9a6": {
   "ticker": "MACRO",
@@ -4019,6 +4099,11 @@
   "title": "US Inflation Latest News: September CPI Rises 3.7% as Core Inflation Beats Forecasts, S&P 500 Futures Fall and Treasury ",
   "ts": "2026-10-14T15:57:30.197535+00:00"
  },
+ "bb85550ef55c48a7": {
+  "ticker": "IONQ",
+  "title": "IonQ (IONQ) Announces $2 Billion Equity Offering with Warrants a - GuruFocus",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
  "bbbe9c4e0e702085": {
   "ticker": "TSLA",
   "title": "The Tesla Story Is Falling Apart, And A Flying Roadster Won’t Save It (NASDAQ:TSLA) - Seeking Alpha",
@@ -4073,6 +4158,11 @@
   "ticker": "MACRO",
   "title": "Stocks Struggling With Another Bond Yield Spike - Schaeffer's Investment Research",
   "ts": "2026-10-14T16:03:21.875466+00:00"
+ },
+ "bd50918e3ab26620": {
+  "ticker": "SMCI",
+  "title": "Super Micro, Applied Digital, Benchmark, Planet Labs, and Ingram Micro Shares Are Falling, What You Need To Know - Finan",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "bd6ec5abdf92e0d1": {
   "ticker": "NFLX",
@@ -4324,6 +4414,11 @@
   "title": "Why Led Zeppelin said yes to Netflix’s $280m Narnia nightmare - The Telegraph",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "c87fb16852797279": {
+  "ticker": "MU",
+  "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
  "c8cf293968a61257": {
   "ticker": "MACRO",
   "title": "Energy Stocks Rose As Oil Prices Diverged - Finimize",
@@ -4363,6 +4458,11 @@
   "ticker": "AMD",
   "title": "AMD introduces Helion as AMD stock trades at EUR 537.40 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "ca08efc0103e00fc": {
+  "ticker": "MACRO",
+  "title": "EUR/USD Analysis: Euro Loses Ground After a Stronger-Than-Expected U.S. CPI Report - StoneX",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "ca10c97e995efcef": {
   "ticker": "MU",
@@ -4738,6 +4838,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts 1,000 jobs as streaming giant seeks to boost engagement - Investing.com",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "dd4d6e930f586aa8": {
+  "ticker": "MACRO",
+  "title": "Stocks on Watch After CPI-Fueled Breakdown: SPX, Nasdaq, NVDA - StoneX",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "dd910cf2e70a6b2d": {
   "ticker": "MU",
@@ -5118,6 +5223,11 @@
   "ticker": "NFLX",
   "title": "‘Love Is Blind’ Season 11: [Spoiler] Quits Netflix Show After Meeting New Fiance, He Reacts - IMDb",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "f239b368e8e1a828": {
+  "ticker": "MACRO",
+  "title": "Wall St tumbles as hot CPI boosts rate-hike bets; banks, AI stocks weigh - Reuters",
+  "ts": "2026-10-14T17:42:30.302899+00:00"
  },
  "f259eaa70fdd005a": {
   "ticker": "NET",
