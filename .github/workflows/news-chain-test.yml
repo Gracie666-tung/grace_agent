@@ -1,0 +1,62 @@
+name: news-chain-test
+
+# 測試「自我接力」：每一輪在自己的 job 裡跑幾分鐘，結束前用 GITHUB_TOKEN 觸發下一輪（workflow_dispatch）。
+# 只做計時與紀錄，不呼叫新聞監測、不碰 Telegram、不寫任何狀態。
+on:
+  workflow_dispatch:
+    inputs:
+      link:
+        description: "目前是第幾輪"
+        required: false
+        default: "1"
+      max_links:
+        description: "最多接力幾輪"
+        required: false
+        default: "3"
+      minutes:
+        description: "每輪跑幾分鐘"
+        required: false
+        default: "3"
+
+concurrency:
+  group: news-chain-test
+  cancel-in-progress: false
+
+permissions:
+  actions: write # 用來觸發下一輪
+  contents: read
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 本輪迴圈
+        env:
+          LINK: ${{ github.event.inputs.link }}
+          MIN: ${{ github.event.inputs.minutes }}
+        run: |
+          echo "link=${LINK} 開始 $(date -u +%H:%M:%S) UTC"
+          end=$(( $(date +%s) + MIN * 60 ))
+          i=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            i=$((i+1))
+            echo "link=${LINK} tick ${i} $(date -u +%H:%M:%S) UTC"
+            sleep 60
+          done
+          echo "link=${LINK} 結束 $(date -u +%H:%M:%S) UTC"
+
+      - name: 觸發下一輪
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LINK: ${{ github.event.inputs.link }}
+          MAX: ${{ github.event.inputs.max_links }}
+          MIN: ${{ github.event.inputs.minutes }}
+        run: |
+          if [ "${LINK}" -lt "${MAX}" ]; then
+            next=$((LINK+1))
+            echo "觸發第 ${next} 輪 $(date -u +%H:%M:%S) UTC"
+            gh workflow run news-chain-test.yml --repo "${{ github.repository }}" -f link="${next}" -f max_links="${MAX}" -f minutes="${MIN}"
+          else
+            echo "已達最大輪數 ${MAX}，不再接力。"
+          fi
