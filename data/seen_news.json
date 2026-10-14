@@ -1034,6 +1034,11 @@
   "title": "Report: Netflix lays off 1,000 workers amid slower growth - TheDesk.net",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "2a5f873d7d70c4a0": {
+  "ticker": "NFLX",
+  "title": "From: The First Three Seasons are Coming to Netflix - IMDb",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
  "2ae5f0ac8f7e89ac": {
   "ticker": "COHR",
   "title": "Argus sets USD 406 target for Coherent stock - ad-hoc-news.de",
@@ -1168,6 +1173,11 @@
   "ticker": "AMD",
   "title": "Advanced Micro Devices Stock Surges 183% YTD: Time to Hold or Exit? - Yahoo Finance",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "3127835065ee52df": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Yahoo! Finance Can",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
  },
  "313362ae08f4fdee": {
   "ticker": "MU",
@@ -1619,6 +1629,11 @@
   "title": "Bond Yields at 5.2% Flash Recession Warning as Defensive ETFs Gain Appeal - BigGo Finance",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "41d8e36917a00ae1": {
+  "ticker": "NFLX",
+  "title": "Rich Greenfield on Netflix: They need a breakout hit - CNBC",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
  "41de49ee514e544f": {
   "ticker": "NFLX",
   "title": "Netflix Is Reportedly Cutting 1,000 Jobs – Co-CEOs Say Company Must Be ‘Disciplined’ With Resources - Yahoo Finance",
@@ -1703,6 +1718,11 @@
   "ticker": "TSLA",
   "title": "Tesla Wants to Make Its Own Chips—What Could Go Wrong? - MarketBeat",
   "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
+ "46e1209685663a8d": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Falls Below $83,000 as US Inflation Hits 3.7% and Fed Rate Hike Odds Rise - Hokanews",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
  },
  "47c8d129d66ad731": {
   "ticker": "MACRO",
@@ -3624,6 +3644,11 @@
   "title": "Netflix Layoffs Underway, Streamer Cutting 1,000 Jobs, 6% Of Workforce - Deadline",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "92ee25b80de127e9": {
+  "ticker": "MU",
+  "title": "Elon Musk Says Micron Is Making a 'Smart Move' on Memory. Micron Stock Falls Anyway. -- Barrons.com - Moomoo",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
  "930c8ea7c5d14769": {
   "ticker": "NFLX",
   "title": "Netflix To Lay Off 1,000 Employees Amid Slower Growth - KFBK News Radio",
@@ -4141,6 +4166,26 @@
     "ticker": "MACRO",
     "title": "US inflation heats up in September; Fed rate hike this month back on table - Business Recorder",
     "ts": "2026-10-14T16:47:45+00:00"
+   },
+   {
+    "key": "d2b56aab012d6de1",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZkhpVGl1T08xcHlwZW11a2pZTk9iT21GdHg4TnZzX0RPUE5qR3dUcGZVeFo0SEVGTVpROWVkNnBmdFFHN0lBZUZnaFlvTFpKTmR6UGs4SVVFUEtQNWNUcnhvT3lmODRZR0dLbFZUYnZqWHVXTmZNZXFmVFhkTXYwY1dJMFN4VDZCTEpuSzNBVTVOOEppWkdrVDZqSzBWSmJGMnBHOVNjVUtyMnJUdnZQT3ZjME96c2t1?oc=5",
+    "name": "",
+    "source": "FXEmpire",
+    "ticker": "MACRO",
+    "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Tests Weekly Highs - FXEmpire",
+    "ts": "2026-10-14T18:55:44+00:00"
+   },
+   {
+    "key": "46e1209685663a8d",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15Q1dwTTZSQk9WZWtHODljc3RtT2xySTYwalhJTkJFbXIwZENjOVRDY1hmUUt0d3pTTWdWOWNVdFJVVGpKSE9WUE9FN2x1WkRyMzJiNjJoZXFyb09QSEtpQnNWeHRaUXQ5UHFteU9rSGhpT1RvZllHdQ?oc=5",
+    "name": "",
+    "source": "Hokanews",
+    "ticker": "MACRO",
+    "title": "Bitcoin Falls Below $83,000 as US Inflation Hits 3.7% and Fed Rate Hike Odds Rise - Hokanews",
+    "ts": "2026-10-14T17:46:00+00:00"
    }
   ]
  },
@@ -4793,6 +4838,11 @@
   "ticker": "PLTR",
   "title": "Palantir drops legal fight over blocked Met Police software deal - BBC",
   "ts": "2026-10-14T16:26:47.704189+00:00"
+ },
+ "ba6a62ca44c17da8": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Big Rapids Pioneer",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
  },
  "bb2ccb043bb67a11": {
   "ticker": "MACRO",
@@ -5469,6 +5519,11 @@
   "title": "Popular Social Media Shorts “Minimum Wage” Continues on Netflix Soon – Here’s the Trailer - news.newonnetflix.info",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "d2b56aab012d6de1": {
+  "ticker": "MACRO",
+  "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Tests Weekly Highs - FXEmpire",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
  "d2db1894487e8a32": {
   "ticker": "MACRO",
   "title": "US Stock Market Today LIVE: NASDAQ, S&P 500 Falls As CPI Inflation Rises Above Street Estimates; Dollar Climbs - Goodret",
@@ -5834,6 +5889,11 @@
   "title": "WTI holds near $96 as geopolitical risks offset weaker demand outlook - Traders Union",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "e49d68bde54ab50a": {
+  "ticker": "MU",
+  "title": "Why are Micron, SK Hynix, SanDisk stocks falling on Wednesday? - Invezz",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
  "e4d6786897a75d0d": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, marking its biggest round of job cuts in years - mypanhandle.com",
@@ -5943,6 +6003,11 @@
   "ticker": "SNDK",
   "title": "SanDisk Stock (SNDK) Drops 4% Despite a Data Storage Partnership with Meta - TipRanks",
   "ts": "2026-10-14T17:07:34.941843+00:00"
+ },
+ "e8e5f89152e2eb34": {
+  "ticker": "MACRO",
+  "title": "October Fed Rate Hike Odds Surge to 43% as U.S. CPI Inflation Hits 3.7% - Blockonomi",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
  },
  "e8eac0f4202f57a0": {
   "ticker": "NFLX",
@@ -6083,6 +6148,11 @@
   "ticker": "NFLX",
   "title": "How Could TSMC (NYSE:TSM), Netflix (NASDAQ:NFLX) and XLY (NYSEARCA:XLY) Shape the Week Ahead? - kalkine.ca",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "ee01804566ff4ddf": {
+  "ticker": "NFLX",
+  "title": "Netflix Layoffs - TelegraphHerald.com",
+  "ts": "2026-10-14T18:58:05.155427+00:00"
  },
  "ee1cfb31ebf703c8": {
   "ticker": "NET",
