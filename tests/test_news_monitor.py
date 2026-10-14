@@ -139,8 +139,8 @@ def test_no_api_key_fallback_and_second_run_empty():
                 mock.patch.object(nm, "call_claude", side_effect=AssertionError("無 key 不該呼叫 LLM")), \
                 mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
             os.environ.pop("ANTHROPIC_API_KEY", None)
-            os.environ.pop("TELEGRAM_BOT_TOKEN", None)
-            os.environ.pop("TELEGRAM_CHAT_ID", None)
+            os.environ.pop("NEWS_TELEGRAM_BOT_TOKEN", None)
+            os.environ.pop("NEWS_TELEGRAM_CHAT_ID", None)
             assert nm.run(_args(cfg), now=NOW) == 0
             out1 = "\n".join(printed)
             assert "無分析" in out1 and "新聞 1 則" in out1
@@ -226,7 +226,7 @@ def test_unsent_run_does_not_write_state_and_fails_in_actions():
         with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(sp)}, clear=False), \
                 mock.patch.object(nm, "collect_for_entry", return_value=nm.parse_feed(RSS, "Google News")), \
                 mock.patch("builtins.print"):
-            for k in ("ANTHROPIC_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "NEWS_ALLOW_UNSENT_STATE", "GITHUB_ACTIONS"):
+            for k in ("ANTHROPIC_API_KEY", "NEWS_TELEGRAM_BOT_TOKEN", "NEWS_TELEGRAM_CHAT_ID", "NEWS_ALLOW_UNSENT_STATE", "GITHUB_ACTIONS"):
                 os.environ.pop(k, None)
             assert nm.run(_args(cfg), now=NOW) == 0
             assert not sp.exists()

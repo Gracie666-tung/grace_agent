@@ -418,7 +418,7 @@ export ANTHROPIC_API_KEY=sk-ant-...
 - **改標的**：直接編輯 `news_watchlist.json` 的 `entries`。`aliases`（標題或摘要須出現其一，整詞、不分大小寫）
   最關鍵，別名太泛（如 Robinhood）會混進不相關的新聞；`queries` 是搜尋字串；美股可填 `sec_cik`；
   `status` 填 `held`/`candidate`，`weight_pct`、`entry_price`、`stop_pct`、`next_events`、`thesis` 會餵給 Claude 當判斷脈絡。
-- **Secrets**：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`（必要）、`ANTHROPIC_API_KEY`（可選）。
+- **Secrets**：`NEWS_TELEGRAM_BOT_TOKEN`、`NEWS_TELEGRAM_CHAT_ID`（獨立 bot，不與職缺共用）（必要）、`ANTHROPIC_API_KEY`（可選）。
   可選環境變數：`NEWS_UA`（SEC 要求的描述性 User-Agent）、`NEWS_MODEL`（預設 `claude-sonnet-5-5`）。
 - **本機測試**：`python src/news_monitor.py --dry-run --no-llm --since-hours 72`（只印出，不送、不寫狀態）；
   `--ticker ANET` 只看單一標的；測試 `python tests/test_news_monitor.py`。

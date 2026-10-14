@@ -35,8 +35,8 @@ jobs:
 
       - name: Fetch, analyze and notify
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NEWS_TELEGRAM_BOT_TOKEN: ${{ secrets.NEWS_TELEGRAM_BOT_TOKEN }}
+          NEWS_TELEGRAM_CHAT_ID: ${{ secrets.NEWS_TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           SINCE_HOURS: ${{ github.event.inputs.since_hours }}

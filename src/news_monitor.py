@@ -6,8 +6,8 @@
     python src/news_monitor.py --dry-run --no-llm --since-hours 72   # 只印出訊息，不推播、不寫狀態
     python src/news_monitor.py --ticker ANET --dry-run               # 只看單一標的
     python src/news_monitor.py                                       # 正式執行（需要環境變數
-                                                                     # TELEGRAM_BOT_TOKEN、
-                                                                     # TELEGRAM_CHAT_ID；
+                                                                     # NEWS_TELEGRAM_BOT_TOKEN、
+                                                                     # NEWS_TELEGRAM_CHAT_ID；
                                                                      # ANTHROPIC_API_KEY 可選，
                                                                      # 沒有就走「無分析」摘要降級）
 
@@ -584,8 +584,8 @@ def run(args, now: datetime | None = None) -> int:
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     use_llm = bool(api_key) and not args.no_llm
     model = os.environ.get("NEWS_MODEL") or cfg.get("model") or DEFAULT_MODEL
-    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    token = os.environ.get("NEWS_TELEGRAM_BOT_TOKEN", "").strip()
+    chat_id = os.environ.get("NEWS_TELEGRAM_CHAT_ID", "").strip()
     can_send = bool(token and chat_id) and not args.dry_run
     print(f"模式：{'LLM 分析' if use_llm else '無分析摘要'}"
           f"{'（--no-llm）' if args.no_llm else '（無 ANTHROPIC_API_KEY）' if not api_key else ''}；"
