@@ -424,6 +424,17 @@ export ANTHROPIC_API_KEY=sk-ant-...
   `--ticker ANET` 只看單一標的；測試 `python tests/test_news_monitor.py`。
 - 去重狀態在 `data/seen_news.json`（Actions 每輪 commit 回來，保留 30 天）。首次上線建議先手動 dispatch 並把
   `since_hours` 設小（如 6），避免一次補抓 36 小時的舊聞。
+- **分級推播（避免洗版）**：只有 **持有**（`status: "held"`）或標了 `"priority": true` 的標的、以及 **CPI 類總經**會即時推。
+  其餘候選股與非 CPI 總經（FOMC/Fed/非農/PCE/油價/殖利率/關稅…）不即時推，進狀態檔 `data/seen_news.json` 的保留鍵
+  `_digest`（佇列上限 200、不受 30 天清理），每滿 60 分鐘合併成**一則**「🗞 每小時摘要（候選股與一般總經）」：
+  依代號分組、總經獨立一組、最多列 15 則（新到舊，其餘寫「另有 K 則未列出」），每行 = 規則判讀標籤＋標題＋連結。傳送失敗則佇列保留、下輪重試。
+  候選股摘要走規則判讀（不呼叫 LLM），只收硬觸發關鍵字或 Jin10 命中的標題。
+- **標記持股/重點股**：在 `news_watchlist.json` 該檔把 `status` 改 `held`（並填 `weight_pct`、`entry_price`、`stop_pct`、`next_events`），
+  或只加 `"priority": true`（不是持股也要即時看）。即時通知標題下會多一行決策卡：
+  `持有 12% · 成本 $204.52 · 停損 $173.84（−15%）· 下個事件 11/03 ANET Q3 財報（19 天後）`（null 欄位略過；停損價 = 成本×(1−stop_pct)；
+  沒有報價來源，所以不顯示現價與離停損距離）。
+- **CPI-only 常數**：即時總經範圍是 `src/news_monitor.py` 的 `IMMEDIATE_MACRO`（正則）。要把 FOMC 或非農升級成即時，在該正則尾端加
+  `|FOMC` 或 `|非农|nonfarm|non-farm`。dry-run 示範摘要時可設 `NEWS_FORCE_DIGEST=1` 略過 60 分鐘間隔。
 - 限制：新聞標題相關性靠別名比對，會有雜訊；預估僅供參考，非投資建議。
 - **Jin10（金十數據）快訊**：每輪單次請求 `flash-api.jin10.com/get_flash_list`（最新 20 則，簡體中文 1–3 句摘要），
   用 `aliases_zh`（簡體別名，沒把握的標的留空）、英文 aliases、`TSLA.O` 式代號比對個股，命中就併入該檔通知。

@@ -14,6 +14,10 @@
 可選環境變數：NEWS_UA（SEC EDGAR 要求的描述性 User-Agent）、NEWS_MODEL（覆蓋模型 id）、
 NEWS_STATE_PATH（覆蓋去重狀態檔路徑，測試用）。
 
+分級推播：持有（status=held）或 priority=true 的標的、以及 CPI 類總經 -> 即時推播（持股附「決策卡」）；
+其餘候選股與一般總經 -> 只進佇列，每小時合併成一則「🗞 每小時摘要」。NEWS_FORCE_DIGEST=1 可在 dry-run
+示範時略過 60 分鐘間隔。
+
 另有兩條旁路：Jin10（金十數據）快訊來源（非公開介面，可能失效/被擋，失敗只略過）與
 「📊 總經快訊」（news_watchlist.json 的 macro 區塊，不綁個股，每輪最多一則訊息）。
 """
@@ -51,6 +55,11 @@ SEC_UA = os.environ.get("NEWS_UA", "grace-agent-news-monitor research@example.in
 
 TIMEOUT = 15
 STATE_RETENTION_DAYS = 30
+DIGEST_KEY = "_digest"  # seen_news.json 內的保留鍵：{"last_sent": ISO, "pending": [...]}，不是新聞紀錄
+DIGEST_INTERVAL_MIN = 60
+DIGEST_MAX_LISTED = 15  # 每則摘要最多列幾則，其餘只寫「另有 K 則未列出」
+DIGEST_MAX_PENDING = 200  # 佇列上限（保留最新）
+DIGEST_TITLE_MAX = 110
 MAX_ITEMS_PER_ENTRY = 10  # 每檔每輪最多送進分析/推播的新聞數，其餘只記為已見
 BODY_MAX_CHARS = 4000
 BODY_TIMEOUT = 8  # 抓內文的逾時；20 檔 × 多則循序抓，不能拖過 30 分鐘排程間隔
@@ -119,9 +128,23 @@ def load_state(path: Path) -> dict:
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
-        return data if isinstance(data, dict) else {}
+        if not isinstance(data, dict):
+            return {}
+        if DIGEST_KEY in data and not isinstance(data[DIGEST_KEY], dict):
+            del data[DIGEST_KEY]  # 壞掉的保留鍵直接重建
+        return data
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
+
+
+def get_digest(state: dict) -> dict:
+    """取得（必要時建立）保留鍵 _digest，並確保欄位型別正確。"""
+    d = state.setdefault(DIGEST_KEY, {})
+    if not isinstance(d.get("pending"), list):
+        d["pending"] = []
+    if not isinstance(d.get("last_sent"), str):
+        d["last_sent"] = None
+    return d
 
 
 def save_state(path: Path, state: dict) -> None:
@@ -135,6 +158,10 @@ def prune_state(state: dict, now: datetime, days: int = STATE_RETENTION_DAYS) ->
     cutoff = now - timedelta(days=days)
     kept = {}
     for key, rec in state.items():
+        if key == DIGEST_KEY:  # 摘要佇列不套 30 天規則，原樣保留
+            if isinstance(rec, dict):
+                kept[key] = rec
+            continue
         try:
             ts = datetime.fromisoformat(rec["ts"])
         except (KeyError, TypeError, ValueError):
@@ -399,6 +426,14 @@ TARIFF_OFF = re.compile(r"取消关税|豁免|降低关税|暂停关税|cuts? ta
 HOT = re.compile(r"超预期|高于预期|hotter|(?<![A-Za-z])hot(?![A-Za-z])|above expectations|beats? expectations", re.IGNORECASE)
 COOL = re.compile(r"不及预期|低于预期|cooler|below expectations|misses? expectations|softer", re.IGNORECASE)
 MACRO_BULL_LABEL, MACRO_BEAR_LABEL = "📈 對風險資產偏多", "📉 對風險資產偏空"
+
+# 即時推播的總經範圍（目前只有 CPI 類）。其他命中硬觸發的總經（FOMC/Fed/非農/PCE/油價/殖利率/關稅…）
+# 一律進每小時摘要。想把 FOMC 或非農升級成即時：在下面 pattern 尾端加 |FOMC 或 |非农|nonfarm|non-farm。
+IMMEDIATE_MACRO = re.compile(
+    r"(?<![A-Za-z])CPI(?![A-Za-z])|消费者物价|消費者物價|consumer price"
+    r"|inflation (?:report|data|numbers|print)|通胀数据|通胀报告|通脹數據",
+    re.IGNORECASE,
+)
 
 
 def macro_view(item: dict) -> dict:
@@ -769,7 +804,7 @@ def format_item_digest(i: int, item: dict) -> str:
     return f"{i}. {_e(item['title'])}\n{_e(' · '.join(meta))}\n{_link(item)}"
 
 
-def build_message(entry: dict, rows: list[tuple[dict, dict | None]], analyzed: bool) -> str:
+def build_message(entry: dict, rows: list[tuple[dict, dict | None]], analyzed: bool, today=None) -> str:
     """rows: [(item, analysis|None)]。analyzed=False 代表無分析的摘要版。"""
     head = f"🔔 <b>{_e(entry['ticker'])} {_e(entry.get('name', ''))}</b> — {len(rows)} 則新消息"
     meta = []
@@ -779,10 +814,124 @@ def build_message(entry: dict, rows: list[tuple[dict, dict | None]], analyzed: b
         meta.append(f"權重 {entry['weight_pct']}%")
     if meta:
         head += f"\n<i>{_e(' · '.join(meta))}</i>"
+    if is_immediate(entry):
+        head += f"\n🧭 {_e(decision_card(entry, today or datetime.now(timezone.utc).date()))}"
     body = [format_item_analyzed(i, it, a) if analyzed else format_item_digest(i, it)
             for i, (it, a) in enumerate(rows, 1)]
     note = "" if analyzed else "判讀為標題關鍵字的粗略規則，請點連結看內文。"
     return head + "\n\n" + "\n\n".join(body) + f"\n\n<i>{note}{DISCLAIMER}</i>"
+
+
+def is_immediate(entry: dict) -> bool:
+    """持有或標了 priority 的標的即時推播；其餘（候選）進每小時摘要。"""
+    return entry.get("status") == "held" or bool(entry.get("priority"))
+
+
+def is_immediate_macro(item: dict) -> bool:
+    return bool(IMMEDIATE_MACRO.search(f"{item.get('title', '')} {item.get('snippet', '') or ''}"))
+
+
+def decision_card(entry: dict, today) -> str:
+    """持股即時通知的一行決策卡；未知欄位（null）直接略過。不含現價/離停損距離（沒有報價來源）。"""
+    parts = []
+    w, ep, sp = entry.get("weight_pct"), entry.get("entry_price"), entry.get("stop_pct")
+    if w is not None:
+        parts.append(f"持有 {w:g}%")
+    if ep is not None:
+        parts.append(f"成本 ${ep:,.2f}")
+    if ep is not None and sp is not None:
+        parts.append(f"停損 ${ep * (1 - sp / 100):,.2f}（−{sp:g}%）")
+    elif sp is not None:
+        parts.append(f"停損 −{sp:g}%")
+    upcoming = []
+    for ev in entry.get("next_events") or []:
+        try:
+            d = datetime.strptime(str(ev.get("date")), "%Y-%m-%d").date()
+        except (TypeError, ValueError, AttributeError):
+            continue
+        if d >= today:
+            upcoming.append((d, ev.get("label") or ""))
+    if upcoming:
+        d, label = min(upcoming, key=lambda x: x[0])
+        parts.append(f"下個事件 {d.month:02d}/{d.day:02d} {label}（{(d - today).days} 天後）")
+    else:
+        parts.append("無已排定事件")
+    return " · ".join(parts)
+
+
+def queue_digest(state: dict, ticker: str, name: str, it: dict, label: str, now: datetime) -> bool:
+    """把一則加進摘要佇列（以 item key 去重）。回傳是否真的新增。"""
+    d = get_digest(state)
+    if any(p.get("key") == it["key"] for p in d["pending"]):
+        return False
+    ts = (it.get("published") or now).astimezone(timezone.utc).isoformat()
+    d["pending"].append({"key": it["key"], "ticker": ticker, "name": name, "title": it["title"],
+                         "link": it["link"], "source": it.get("source") or "", "label": label, "ts": ts})
+    if len(d["pending"]) > DIGEST_MAX_PENDING:
+        d["pending"] = sorted(d["pending"], key=lambda p: p.get("ts", ""))[-DIGEST_MAX_PENDING:]
+    return True
+
+
+def digest_due(state: dict, now: datetime) -> bool:
+    d = get_digest(state)
+    if not d["pending"]:
+        return False
+    if os.environ.get("NEWS_FORCE_DIGEST"):
+        return True
+    if not d["last_sent"]:
+        return True
+    try:
+        last = datetime.fromisoformat(d["last_sent"])
+    except ValueError:
+        return True
+    if last.tzinfo is None:
+        last = last.replace(tzinfo=timezone.utc)
+    return now - last >= timedelta(minutes=DIGEST_INTERVAL_MIN)
+
+
+def build_digest_message(pending: list[dict]) -> str:
+    rows = sorted(pending, key=lambda p: p.get("ts", ""), reverse=True)
+    shown, rest = rows[:DIGEST_MAX_LISTED], len(rows) - DIGEST_MAX_LISTED
+    groups: dict[str, list[dict]] = {}
+    for p in shown:
+        groups.setdefault(p["ticker"], []).append(p)
+    order = [t for t in groups if t != "MACRO"] + (["MACRO"] if "MACRO" in groups else [])
+    blocks = []
+    for t in order:
+        if t == "MACRO":
+            head = "📊 <b>總經</b>"
+        else:
+            head = f"<b>{_e(t)} {_e(groups[t][0].get('name') or '')}</b>".rstrip()
+        lines = []
+        for p in groups[t]:
+            title = p["title"] if len(p["title"]) <= DIGEST_TITLE_MAX else p["title"][:DIGEST_TITLE_MAX] + "…"
+            lines.append(f"• {_e(p.get('label') or '')} {_e(title)} {_link(p)}")
+        blocks.append(head + "\n" + "\n".join(lines))
+    msg = f"🗞 <b>每小時摘要（候選股與一般總經）— {len(rows)} 則</b>\n\n" + "\n\n".join(blocks)
+    if rest > 0:
+        msg += f"\n\n另有 {rest} 則未列出"
+    return msg + f"\n\n<i>判讀為標題關鍵字的粗略規則，請點連結看內文。{DISCLAIMER}</i>"
+
+
+def flush_digest(state: dict, now: datetime, token: str, chat_id: str, can_send: bool, dry_run: bool) -> int:
+    """到期就送一則摘要；成功才清佇列並更新 last_sent。回傳送出（或 dry-run 印出）的則數。"""
+    if not digest_due(state, now):
+        return 0
+    d = get_digest(state)
+    n = len(d["pending"])
+    for part in split_message(build_digest_message(d["pending"])):
+        if dry_run or not can_send:
+            print("-" * 40 + f"\n{part}\n" + "-" * 40)
+        else:
+            try:
+                send_telegram(token, chat_id, part)
+            except Exception as e:  # noqa: BLE001 - 不印 URL（含 token）
+                print(f"[摘要] Telegram 傳送失敗：{type(e).__name__}，保留佇列，下輪重試")
+                return 0
+    if not dry_run:
+        d["pending"] = []
+        d["last_sent"] = now.isoformat()
+    return n
 
 
 def split_message(text: str, limit: int = TG_LIMIT) -> list[str]:
@@ -850,6 +999,16 @@ def run_macro(cfg: dict, args, jin10_items: list[dict], state: dict, claimed: se
     print(f"[總經] Jin10 命中 {j_n} 則、Google News 命中 {len(fresh) - j_n} 則（硬觸發、未見過）")
     if not fresh:
         return 0
+    imm = [it for it in fresh if is_immediate_macro(it)]
+    for it in fresh:
+        if it in imm:
+            continue
+        queue_digest(state, "MACRO", "", it, macro_view(it)["label"], now)  # 非 CPI 總經：進每小時摘要
+        new_state[it["key"]] = {"ts": now.isoformat(), "ticker": "MACRO", "title": it["title"][:120]}
+    print(f"[總經] 即時（CPI 類）{len(imm)} 則、轉入每小時摘要 {len(fresh) - len(imm)} 則")
+    if not imm:
+        return 0
+    fresh = imm
     rows = fresh[:MACRO_MAX_ITEMS]
     run_macro.jin10_listed = sum(1 for it in rows if it["origin"] == "Jin10")
     if len(rows) < len(fresh):
@@ -899,7 +1058,7 @@ def run(args, now: datetime | None = None) -> int:
 
     claimed: set = set()
     new_state: dict = {}
-    total_new = total_sent = total_suppressed = 0
+    total_new = total_sent = total_suppressed = total_queued = 0
     jin10_items = collect_jin10(args.since_hours, now)  # 全 run 只打一次
     jin10_ticker_hits = 0
     for entry in entries:
@@ -912,6 +1071,17 @@ def run(args, now: datetime | None = None) -> int:
         items += j_hits
         fresh = select_new(items, entry, state, claimed)
         total_new += len(fresh)
+        if fresh and not is_immediate(entry):
+            # 候選股：不即時推，也不呼叫 LLM；硬觸發/Jin10 的進摘要佇列，全部標為已見
+            hits = [it for it in fresh if it.get("origin") == "Jin10" or HARD_TRIGGERS.search(it["title"])]
+            added = sum(queue_digest(state, entry["ticker"], entry.get("name", ""), it, rule_view(it)["label"], now)
+                        for it in hits)
+            total_queued += added
+            total_suppressed += len(fresh) - len(hits)
+            print(f"  [{entry['ticker']}] 候選股：{len(fresh)} 則新聞，{added} 則進每小時摘要佇列（不即時推播）")
+            for it in fresh:
+                new_state[it["key"]] = {"ts": now.isoformat(), "ticker": entry["ticker"], "title": it["title"][:120]}
+            continue
         # LLM 每檔每輪只一次呼叫，批次上限 MAX_ITEMS_PER_ENTRY（取最新）；摘要版不設上限。
         batch = fresh[:MAX_ITEMS_PER_ENTRY] if use_llm else fresh
         if len(batch) < len(fresh):
@@ -924,12 +1094,12 @@ def run(args, now: datetime | None = None) -> int:
             rows = [(it, analysis.get(i)) for i, it in enumerate(batch)]
             rows = [(it, a) for it, a in rows if should_send(it, a)]
             total_suppressed += len(batch) - len(rows)
-            msg = build_message(entry, rows, True) if rows else None
+            msg = build_message(entry, rows, True, now.date()) if rows else None
         else:  # 無 LLM 或解析失敗：摘要版；只列硬觸發關鍵字的標題並設上限，避免洗版
             hits = [it for it in batch if it.get("origin") == "Jin10" or HARD_TRIGGERS.search(it["title"])]
             rows = [(it, None) for it in hits[:MAX_DIGEST_ITEMS]]
             total_suppressed += len(batch) - len(rows)
-            msg = build_message(entry, rows, False) if rows else None
+            msg = build_message(entry, rows, False, now.date()) if rows else None
 
         sent_ok = True
         if msg:
@@ -951,8 +1121,9 @@ def run(args, now: datetime | None = None) -> int:
     run_macro.jin10_listed = 0
     macro_sent = run_macro(cfg, args, jin10_items, state, claimed, new_state, now, token, chat_id, can_send) \
         if cfg.get("macro") and not args.ticker else 0
+    digest_sent = flush_digest(state, now, token, chat_id, can_send, args.dry_run)
     print(f"\nJin10 彙總：原始 {len(jin10_items)} 則、比對到個股 {jin10_ticker_hits} 則、列入總經訊息 {run_macro.jin10_listed} 則")
-    print(f"完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}；總經 {macro_sent} 則）")
+    print(f"完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}；總經 {macro_sent} 則；入摘要佇列 {total_queued}，本輪摘要送出 {digest_sent} 則，佇列剩 {len(get_digest(state)['pending'])} 則）")
     if args.dry_run:
         return 0
     if not can_send and not os.environ.get("NEWS_ALLOW_UNSENT_STATE"):

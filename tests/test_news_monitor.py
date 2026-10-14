@@ -63,6 +63,11 @@ ANET = {"ticker": "ANET", "name": "Arista Networks", "aliases": ["Arista"], "sta
         "weight_pct": None, "thesis": "AI networking"}
 
 
+HELD = dict(ANET, status="held", weight_pct=12, entry_price=204.5, stop_pct=15,
+            next_events=[{"date": "2026-10-20", "label": "過去/較晚事件"}, {"date": "2026-11-03", "label": "ANET Q3 財報"},
+                         {"date": "2026-10-01", "label": "已過期"}])
+
+
 def _item(title="Arista beats", link="https://x.com/a", **kw):
     d = {"title": title, "link": link, "source": "Reuters", "published": NOW, "snippet": "", "origin": "Google News"}
     d.update(kw)
@@ -127,8 +132,8 @@ def test_split_message_limit_and_escape():
     assert all(len(p) <= nm.TG_LIMIT for p in nm.split_message("y" * 10000))  # 病態超長單段
 
 
-def _write_cfg(tmp, end_date="2026-11-13"):
-    cfg = {"end_date": end_date, "timezone": "Asia/Taipei", "entries": [ANET]}
+def _write_cfg(tmp, end_date="2026-11-13", entry=None):
+    cfg = {"end_date": end_date, "timezone": "Asia/Taipei", "entries": [entry or ANET]}
     p = Path(tmp) / "wl.json"
     p.write_text(json.dumps(cfg), encoding="utf-8")
     return p
@@ -226,7 +231,7 @@ def test_llm_pipeline_with_stub_http_and_parse_failure():
 
 def test_llm_parse_failure_falls_back_to_digest_in_run():
     with tempfile.TemporaryDirectory() as tmp:
-        cfg = _write_cfg(tmp)
+        cfg = _write_cfg(tmp, entry=HELD)
         printed = []
         env = {"NEWS_STATE_PATH": str(Path(tmp) / "s.json"), "ANTHROPIC_API_KEY": "sk-test"}
         with mock.patch.dict(os.environ, env), \
@@ -261,7 +266,7 @@ def test_digest_only_hard_triggers_and_capped():
     items += [{"title": f"Arista raises guidance {i}", "link": f"https://y.example/{i}", "origin": "Google News", "source": "Reuters",
                "snippet": "Arista", "published": NOW, "key": f"g{i}"} for i in range(12)]
     with tempfile.TemporaryDirectory() as tmp:
-        cfg = _write_cfg(tmp)
+        cfg = _write_cfg(tmp, entry=HELD)  # 候選股改走摘要佇列，上限測試要用即時（持有）標的
         printed = []
         env = {"NEWS_STATE_PATH": str(Path(tmp) / "s.json")}
         with mock.patch.dict(os.environ, env, clear=False), \
@@ -411,15 +416,203 @@ def test_run_jin10_ticker_and_macro_dedup_across_runs():
 
         out = once(dry=True)
         assert "特斯拉(TSLA.O)盘前大涨5%" in out and "📊 <b>總經快訊</b> — 1 則" in out
-        assert "判讀：📈 偏多" in out and "對風險資產偏空" in out
+        assert "🗞 <b>每小時摘要" in out and "• 📈 偏多" in out and "對風險資產偏空" in out  # 候選股改進摘要，行內只有判讀標籤
         assert not sp.exists()  # dry-run 不寫狀態
         once()  # 正式（無 Telegram，允許寫狀態）
         saved = json.loads(sp.read_text(encoding="utf-8"))
-        assert {v["ticker"] for v in saved.values()} == {"TSLA", "MACRO"}
+        assert {v["ticker"] for k, v in saved.items() if k != "_digest"} == {"TSLA", "MACRO"}
         out2 = once()
         assert "特斯拉(TSLA.O)" not in out2 and "總經快訊" not in out2  # 第二輪全已見
         # 同一則不會同時當個股與總經：CPI 那則只進總經，特斯拉那則只進個股
         assert out.count("盘前大涨5%") == 1
+
+
+# ---------------------------------------------------------------------------
+# 分級推播 / 每小時摘要
+# ---------------------------------------------------------------------------
+
+def _quiet_env(tmp):
+    return {"NEWS_STATE_PATH": str(Path(tmp) / "s.json"), "NEWS_ALLOW_UNSENT_STATE": "1"}
+
+
+def _clear_env():
+    for k in ("ANTHROPIC_API_KEY", "NEWS_TELEGRAM_BOT_TOKEN", "NEWS_TELEGRAM_CHAT_ID", "NEWS_FORCE_DIGEST", "GITHUB_ACTIONS"):
+        os.environ.pop(k, None)
+
+
+def _qitem(i, title=None, **kw):
+    d = {"key": f"k{i}", "title": title or f"Arista raises guidance {i}", "link": f"https://x.example/{i}",
+         "source": "Reuters", "published": NOW - timedelta(minutes=i), "snippet": "", "origin": "Google News"}
+    d.update(kw)
+    return d
+
+
+def test_tier_selection():
+    assert nm.is_immediate(dict(ANET, status="held"))
+    assert nm.is_immediate(dict(ANET, priority=True))
+    assert not nm.is_immediate(ANET)
+    assert not nm.is_immediate(dict(ANET, priority=False))
+
+
+def test_candidate_queued_not_sent_and_dedups():
+    with tempfile.TemporaryDirectory() as tmp:
+        cfg = _write_cfg(tmp)
+        sp = Path(tmp) / "s.json"
+        printed = []
+        env = _quiet_env(tmp)
+        sent = []
+        feed = [_qitem(1), _qitem(2, "Arista opens new office")]
+        for _ in range(2):
+            with mock.patch.dict(os.environ, env), mock.patch.object(nm, "collect_for_entry", return_value=feed), \
+                    mock.patch.object(nm, "send_telegram", side_effect=lambda *a: sent.append(a)), \
+                    mock.patch.object(nm, "DIGEST_INTERVAL_MIN", 60), \
+                    mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+                _clear_env()
+                nm.run(_args(cfg, no_llm=True), now=NOW)  # 無 Telegram 憑證：只印出
+                printed.append("=====")
+            saved = json.loads(sp.read_text(encoding="utf-8"))
+            if _ == 0:
+                # 第一輪：last_sent 缺 -> 摘要到期，印出並清空；兩則都已標為已見
+                assert "🗞 <b>每小時摘要" in "\n".join(printed) and "🔔" not in "\n".join(printed)
+                assert saved["_digest"]["pending"] == [] and saved["_digest"]["last_sent"] == NOW.isoformat()
+                assert len([k for k in saved if k != "_digest"]) == 2
+                printed.clear()
+        assert "每小時摘要" not in "\n".join(printed)  # 第二輪：全是已見，沒東西可排
+        assert sent == []
+    # 佇列內以 key 去重
+    st = {}
+    assert nm.queue_digest(st, "ANET", "A", _qitem(1), "x", NOW) and not nm.queue_digest(st, "ANET", "A", _qitem(1), "x", NOW)
+    assert len(st["_digest"]["pending"]) == 1
+    for i in range(300):
+        nm.queue_digest(st, "ANET", "A", _qitem(100 + i), "x", NOW)
+    pend = st["_digest"]["pending"]
+    assert len(pend) == nm.DIGEST_MAX_PENDING and any(p["key"] == "k100" for p in pend)  # 保留最新（i 小=較新）
+    assert not any(p["key"] == "k399" for p in pend)
+
+
+def test_reserved_key_survives_prune_load_save():
+    old = (NOW - timedelta(days=90)).isoformat()
+    dg = {"last_sent": old, "pending": [{"key": "a", "ticker": "X", "title": "t", "link": "l", "source": "s", "label": "l", "ts": old}]}
+    out = nm.prune_state({"_digest": dg, "old": {"ts": old}, "new": {"ts": NOW.isoformat()}}, NOW)
+    assert out["_digest"] == dg and set(out) == {"_digest", "new"}  # 90 天前的佇列不被 30 天規則清掉
+    with tempfile.TemporaryDirectory() as tmp:
+        p = Path(tmp) / "x" / "s.json"
+        nm.save_state(p, out)
+        assert nm.load_state(p) == out
+        p.write_text(json.dumps({"_digest": "壞掉", "k": {"ts": NOW.isoformat()}}), encoding="utf-8")
+        assert "_digest" not in nm.load_state(p)
+        assert nm.get_digest({"_digest": {"pending": "x"}}) == {"pending": [], "last_sent": None}
+    assert nm.prune_state({"_digest": "bad"}, NOW) == {}  # 型別錯的保留鍵不 crash
+
+
+def test_hourly_gating_and_clear_and_failure():
+    def state_at(minutes_ago):
+        st = {}
+        nm.queue_digest(st, "ANET", "Arista", _qitem(1), "📈 偏多", NOW)
+        if minutes_ago is not None:
+            st["_digest"]["last_sent"] = (NOW - timedelta(minutes=minutes_ago)).isoformat()
+        return st
+
+    os.environ.pop("NEWS_FORCE_DIGEST", None)
+    sent = []
+    with mock.patch.object(nm, "send_telegram", side_effect=lambda *a: sent.append(a[2])), mock.patch("builtins.print"):
+        st = state_at(59)
+        assert nm.flush_digest(st, NOW, "t", "c", True, False) == 0 and sent == [] and len(st["_digest"]["pending"]) == 1
+        st = state_at(60)
+        assert nm.flush_digest(st, NOW, "t", "c", True, False) == 1 and len(sent) == 1
+        assert st["_digest"]["pending"] == [] and st["_digest"]["last_sent"] == NOW.isoformat()  # 送出後清空
+        st = state_at(None)  # 沒有 last_sent 且佇列非空 -> 送
+        assert nm.flush_digest(st, NOW, "t", "c", True, False) == 1
+        st = {}
+        assert nm.flush_digest(st, NOW, "t", "c", True, False) == 0  # 空佇列不送
+    old_last = (NOW - timedelta(minutes=90)).isoformat()
+    st = state_at(90)
+    with mock.patch.object(nm, "send_telegram", side_effect=RuntimeError("down")), mock.patch("builtins.print"):
+        assert nm.flush_digest(st, NOW, "t", "c", True, False) == 0
+    assert len(st["_digest"]["pending"]) == 1 and st["_digest"]["last_sent"] == old_last  # 失敗：佇列與 last_sent 不變
+
+
+def test_digest_formatting_size_and_escape():
+    pend = []
+    for i in range(40):
+        pend.append({"key": f"k{i}", "ticker": "ANET" if i % 2 else "MACRO", "name": "A<b>&Co",
+                     "title": f"<script>x</script> & {i} " + "字" * 200, "link": f"https://x.example/a?x=1&y={i}",
+                     "source": "Rou<ters>", "label": "📈 偏多", "ts": (NOW - timedelta(minutes=i)).isoformat()})
+    msg = nm.build_digest_message(pend)
+    assert msg.startswith("🗞 <b>每小時摘要（候選股與一般總經）— 40 則</b>")
+    assert msg.count("• ") == nm.DIGEST_MAX_LISTED and "另有 25 則未列出" in msg
+    assert "📊 <b>總經</b>" in msg and "<b>ANET A&lt;b&gt;&amp;Co</b>" in msg
+    assert "<script>" not in msg and "&lt;script&gt;" in msg and "x=1&amp;y=0" in msg
+    assert "字" * 111 not in msg and "…" in msg  # 標題截到 110 字
+    assert msg.index("&amp; 0 ") < msg.index("&amp; 2 ")  # 新到舊
+    assert all(len(p) <= nm.TG_LIMIT for p in nm.split_message(msg))
+    assert "另有" not in nm.build_digest_message(pend[:3])
+
+
+def test_cpi_immediate_fomc_to_digest():
+    assert nm.is_immediate_macro({"title": "美国9月核心CPI同比上涨3.1%"})
+    assert nm.is_immediate_macro({"title": "US consumer price index rises 0.3%"})
+    assert nm.is_immediate_macro({"title": "Inflation report due Friday"})
+    assert not nm.is_immediate_macro({"title": "FOMC holds rates; Powell speaks"})
+    assert not nm.is_immediate_macro({"title": "非农就业超预期，美联储降息预期降温"})
+    assert not nm.is_immediate_macro({"title": "Oil prices jump as Brent tops $90"})
+    assert not nm.is_immediate_macro({"title": "PCE inflation steady"})  # 只認 CPI 類
+    with tempfile.TemporaryDirectory() as tmp:
+        cfg = _run_macro_cfg(tmp, [])
+        printed = []
+        g = lambda t, n: {"title": t, "link": f"https://g.example/{n}", "source": "Reuters", "published": NOW,  # noqa: E731
+                          "snippet": "", "origin": "Google News"}
+        google = [g("US CPI hotter than expected - Reuters", 1), g("FOMC signals rate cut, Fed Powell says - Reuters", 2)]
+        with mock.patch.dict(os.environ, _quiet_env(tmp)), mock.patch.object(nm, "fetch_macro_google", return_value=google), \
+                mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+            _clear_env()
+            assert nm.run(_args(cfg, no_llm=True), now=NOW) == 0
+        out = "\n".join(printed)
+        immediate, digest = out.split("🗞 <b>每小時摘要")
+        assert "📊 <b>總經快訊</b> — 1 則" in immediate and "CPI hotter" in immediate and "FOMC" not in immediate
+        assert "📊 <b>總經</b>" in digest and "FOMC signals" in digest and "CPI hotter" not in digest
+
+
+def test_decision_card_full_and_partial():
+    today = NOW.date()
+    full = nm.decision_card(HELD, today)
+    assert full.startswith("持有 12% · 成本 $204.50 · 停損 $173.82（−15%） · 下個事件")
+    assert "下個事件 10/20 過去/較晚事件（6 天後）" in full  # 取 >= 今天的最早事件；已過期的略過
+    held2 = dict(HELD, next_events=[{"date": "2026-11-03", "label": "ANET Q3 財報"}])
+    assert "下個事件 11/03 ANET Q3 財報（20 天後）" in nm.decision_card(held2, today)
+    partial = nm.decision_card(dict(HELD, weight_pct=None, entry_price=None, next_events=[]), today)
+    assert partial == "停損 −15% · 無已排定事件" and "成本" not in partial and "$" not in partial
+    only_entry = nm.decision_card(dict(HELD, stop_pct=None, weight_pct=None), today)
+    assert "停損" not in only_entry and "成本 $204.50" in only_entry
+    assert nm.decision_card({"status": "held"}, today) == "無已排定事件"
+    msg = nm.build_message(held2, [(_item("Arista beats earnings"), None)], False, today)
+    assert "🧭 持有 12% · 成本 $204.50" in msg.split("\n\n")[0]
+    assert "🧭" not in nm.build_message(ANET, [(_item("Arista beats earnings"), None)], False, today)
+    assert "🧭" in nm.build_message(dict(ANET, priority=True), [(_item("Arista beats earnings"), None)], False, today)
+
+
+def test_held_entry_immediate_and_dry_run_writes_nothing_with_queue():
+    with tempfile.TemporaryDirectory() as tmp:
+        cfg = _write_cfg(tmp, entry=HELD)
+        sp = Path(tmp) / "s.json"
+        printed = []
+        with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(sp)}), \
+                mock.patch.object(nm, "collect_for_entry", return_value=[_qitem(1)]), \
+                mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+            _clear_env()
+            nm.run(_args(cfg, dry_run=True, no_llm=True), now=NOW)
+        out = "\n".join(printed)
+        assert "🔔" in out and "🧭" in out and "每小時摘要" not in out and not sp.exists()
+        # 候選股 dry-run：印出摘要但不寫檔
+        cfg2 = _write_cfg(tmp, entry=ANET)
+        printed.clear()
+        with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(sp)}), \
+                mock.patch.object(nm, "collect_for_entry", return_value=[_qitem(1)]), \
+                mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+            _clear_env()
+            nm.run(_args(cfg2, dry_run=True, no_llm=True), now=NOW)
+        out = "\n".join(printed)
+        assert "🗞" in out and "🔔" not in out and not sp.exists()
 
 
 def main() -> None:
