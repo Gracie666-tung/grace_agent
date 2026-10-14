@@ -99,6 +99,11 @@
   "title": "US CPI Report Today: September Inflation Expectations and Market Impact - Coinpedia",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "024aa193ab28a58b": {
+  "ticker": "MACRO",
+  "title": "Hot September CPI sends rate-hike bets soaring - WKZO",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
+ },
  "029d7428d3c9b78c": {
   "ticker": "NFLX",
   "title": "3.6% COLA Announced, Netflix Layoffs and More of Today’s Top Money News - AOL.com",
@@ -203,6 +208,11 @@
   "ticker": "MACRO",
   "title": "Wall Street tumbles as hot inflation data feeds worries about Fed rate hikes - Yahoo Finance",
   "ts": "2026-10-14T18:23:06.361647+00:00"
+ },
+ "08a7cf8cc059c613": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Falls Below $82,000 as US Inflation and Oil Prices Rise - TechJuice",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "08aaef2a6238d0eb": {
   "ticker": "MACRO",
@@ -523,6 +533,11 @@
   "ticker": "MACRO",
   "title": "US Stock Futures Edge Higher as Bank Stocks Slide Ahead of US CPI Report - Analytics Insight",
   "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
+ "1422cf1f948a4175": {
+  "ticker": "NFLX",
+  "title": "GRA denies imposing new 20% tax on Netflix, Google and Amazon subscriptions - Modern Ghana",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "1426a960af9c835b": {
   "ticker": "TSLA",
@@ -1103,6 +1118,11 @@
   "ticker": "NFLX",
   "title": "Report: Netflix lays off 1,000 workers amid slower growth - TheDesk.net",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "2a45076391e0992b": {
+  "ticker": "NFLX",
+  "title": "‘Below’ Sets Netflix Record for a Canadian Original - Rolling Stone Canada",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "2a5f873d7d70c4a0": {
   "ticker": "NFLX",
@@ -2313,6 +2333,11 @@
   "ticker": "NFLX",
   "title": "Netflix, Google VAT already exists; new system targets collection – GRA - GhanaWeb",
   "ts": "2026-10-14T12:08:20.352127+00:00"
+ },
+ "56bdd775c2018542": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 1,000 Jobs Ahead of Earnings as Growth Concerns Build - GuruFocus",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "573347bcbd8b318c": {
   "ticker": "MACRO",
@@ -3564,6 +3589,11 @@
   "title": "Dow Jones outlook: CPI, oil and yields put the rally to the test - FOREX.com",
   "ts": "2026-10-14T17:07:34.941843+00:00"
  },
+ "81765ba75a5b703b": {
+  "ticker": "NFLX",
+  "title": "Netflix to Reportedly Cut About 1,000 Roles as Streamer Reallocates Resources - Yahoo Finance",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
+ },
  "81851299fcf1740e": {
   "ticker": "IONQ",
   "title": "IonQ seeks nearly $2B in net proceeds from stock, warrant offering (IONQ:NYSE) - Seeking Alpha",
@@ -4381,6 +4411,46 @@
     "ticker": "MACRO",
     "title": "【国际油价14日上涨】金十数据10月15日讯，截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨95美分，收于每桶95.09美元，涨幅为1.01%；12月交货的伦敦布伦特原油期货价格上涨37美分，收于每桶106.06美元，涨幅为0.35%。",
     "ts": "2026-10-14T19:36:16+00:00"
+   },
+   {
+    "key": "c9f098fdb8945e67",
+    "label": "➖ 看不出方向",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFlvWU4ySVh5Zy1JcktfUy1CcXdqc0Rqd0UxMEpCcm4wYVlKQkZuUmxzMWFKQUE3bi03cTBBeUYtSWVuSWdMeHlMQllycS1GVWprUlZDUlJCV050S3Bkb3N4cjM3QlY4bFdiWUR0Mlk5emg1cTBGSi0zQXVLc3FxTnFabGp5YUJQZ0dHc3NpdGtjSmJmMDgxNG5GRl9udTNvejFGc3FxS3lPb1RKQU5CWg?oc=5",
+    "name": "Palantir",
+    "source": "Sky News",
+    "ticker": "PLTR",
+    "title": "Tech giant Palantir and Sadiq Khan settle legal battle over police contract - Sky News",
+    "ts": "2026-10-14T19:38:11+00:00"
+   },
+   {
+    "key": "56bdd775c2018542",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcElBZlFBbGJaOWtuWmRESldGcmM0VWxTM2J3NlVFeUY3ejNsYTVVR25zR0xWVFNXQTFGNGEwZmxIbGUzTzBiR0hST0Z0b05udlR2Z1NIQ0xvTlZxRk93OV9PZGN1c3U2MTJvNkRKMVNtS2xaMC1KZ0l3Nk9waHc2MTFSbXF6c2k2ZVF6dEZCY0ozVlBQbDdDclRKcW9HVWlVNVVNc0ExQQ?oc=5",
+    "name": "Netflix",
+    "source": "GuruFocus",
+    "ticker": "NFLX",
+    "title": "Netflix Cuts 1,000 Jobs Ahead of Earnings as Growth Concerns Build - GuruFocus",
+    "ts": "2026-10-14T18:33:21+00:00"
+   },
+   {
+    "key": "b487b88060d9d745",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2pRM09jNTd3UXF2a1dPTjFBYWhOejlnSG04b25pRng1MWNrd1lQQnBfeTI5WEI4UmNSX3J2d01iYkNFX1JONWFaX2ZOQjdVbi1xTGd1N1ZtSjVjaVdmVkxVQU1VR0Z5a3RYRHl3eDNvU1ZFZkx6T3JkSXhUUVBGcy0xV2M0aWMyVE92X2ZaN1ptUkYzUnEzdlhR?oc=5",
+    "name": "IonQ",
+    "source": "TipRanks",
+    "ticker": "IONQ",
+    "title": "IonQ announces pricing of $2B equity offering - TipRanks",
+    "ts": "2026-10-14T17:14:02+00:00"
+   },
+   {
+    "key": "08a7cf8cc059c613",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ1BCNnBYRnVwRTBHbTlFR1NmN2d3ZVJ4X0JNekdMMjkzRlIzWEpXa0hFZlh2Y080N2hOT3IxS251cUVXN3NaYXU5TGdma0JOb0t4c3JwYmFITW4ybE1FQnNpTmljNk9TNFIzNW5LeUlQN1M1WUJNYVJYajBLcGlMNC1BZ085RnRNN3UzaDgxZVA?oc=5",
+    "name": "",
+    "source": "TechJuice",
+    "ticker": "MACRO",
+    "title": "Bitcoin Falls Below $82,000 as US Inflation and Oil Prices Rise - TechJuice",
+    "ts": "2026-10-14T18:50:58+00:00"
    }
   ]
  },
@@ -4953,6 +5023,11 @@
   "ticker": "NFLX",
   "title": "Ben Affleck's New Netflix 108-Minute Crime Thriller Debuts as the No. 1 Movie in the World - IMDb",
   "ts": "2026-10-14T17:36:38.400888+00:00"
+ },
+ "b487b88060d9d745": {
+  "ticker": "IONQ",
+  "title": "IonQ announces pricing of $2B equity offering - TipRanks",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "b48e09852e6a96b8": {
   "ticker": "RKLB",
@@ -5544,6 +5619,11 @@
   "title": "Zacks Investment Ideas feature highlights: Sandisk, Lumentum and Jabil - Zacks Investment Research",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "c9f098fdb8945e67": {
+  "ticker": "PLTR",
+  "title": "Tech giant Palantir and Sadiq Khan settle legal battle over police contract - Sky News",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
+ },
  "ca037785ffba4161": {
   "ticker": "AMD",
   "title": "AMD introduces Helion as AMD stock trades at EUR 537.40 - ad-hoc-news.de",
@@ -5643,6 +5723,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs, WSJ reports - 1470 & 100.3 WMBD",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "ccb9c1276430d7bf": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts Nearly 1,000 Jobs in Biggest Layoff Round Since 2022 - Techweez",
+  "ts": "2026-10-14T19:44:35.452063+00:00"
  },
  "ccc9ce6e97f9390f": {
   "ticker": "NFLX",
