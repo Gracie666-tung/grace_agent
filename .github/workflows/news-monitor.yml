@@ -2,7 +2,7 @@ name: news-monitor
 
 on:
   schedule:
-    - cron: "*/30 4-21 * * 1-5" # 每 30 分鐘、週一到週五 04:00-21:00 UTC（涵蓋印度/歐洲/美股盤前盤後；GitHub cron 可能延遲 10-20 分鐘）
+    - cron: "3,13,23,33,43,53 4-21 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
