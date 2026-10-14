@@ -1104,6 +1104,11 @@
   "title": "Lisa Lang McMullen, James Oh, Andrew McQuinn & Carolina Garcia Among Netflix TV Execs Impacted By Layoffs - IMDb",
   "ts": "2026-10-14T18:23:06.361647+00:00"
  },
+ "2f39e082204840fa": {
+  "ticker": "NFLX",
+  "title": "Netflix lays off about 1,000 employees, 6% of workforce - upi",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "2f52172acde42fd6": {
   "ticker": "PLTR",
   "title": "Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? - Yahoo Finance",
@@ -1238,6 +1243,11 @@
   "ticker": "NFLX",
   "title": "When Do New Episodes of ‘Love Is Blind: Boston’ Come Out on Netflix? - Decider",
   "ts": "2026-10-14T18:05:42.399699+00:00"
+ },
+ "352327890b76cf06": {
+  "ticker": "PLTR",
+  "title": "Palantir drops legal fight over blocked Met Police software deal - BBC",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "35656511493b078b": {
   "ticker": "PLTR",
@@ -1649,6 +1659,11 @@
   "title": "Cryptos Plunge Across the Board, Bitcoin Drops Below $83,000 as US September CPI Exceeds Expectations, Triggering Sellof",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "46cc361a17ebcfd9": {
+  "ticker": "TSLA",
+  "title": "Tesla Wants to Make Its Own Chips—What Could Go Wrong? - MarketBeat",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "47c8d129d66ad731": {
   "ticker": "MACRO",
   "title": "CPI records 8.1% annualized monthly inflation in Sep 2026, David Andolfatto notes - Traders Union",
@@ -1893,6 +1908,11 @@
   "ticker": "MACRO",
   "title": "Stock Market Today: S&P 500 -0.8%, Nasdaq -1.1%, Dow -0.1% on Hot 3.7% CPI; BAC -7.9% - TradingNEWS",
   "ts": "2026-10-14T16:09:19.262589+00:00"
+ },
+ "4f8d994fb80f45a1": {
+  "ticker": "MACRO",
+  "title": "Consumer inflation rose faster than expected in September, CPI report shows - AOL.com",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "4fe3604f9af54fbf": {
   "ticker": "MACRO",
@@ -2894,6 +2914,11 @@
   "title": "CBS' 3-Part 'Lincoln Lawyer' Rival Officially Takes Over Netflix - IMDb",
   "ts": "2026-10-14T18:05:42.399699+00:00"
  },
+ "77bc95b8993e37c1": {
+  "ticker": "MACRO",
+  "title": "Reaction roundup: Experts, analysts weigh in on September CPI report - Yahoo Finance",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "77eb911992b5b33f": {
   "ticker": "NFLX",
   "title": "Streaming today, October 14: All the news on Netflix, Prime Video, Disney+ and other platforms - Napolike.com",
@@ -3168,6 +3193,11 @@
   "ticker": "IONQ",
   "title": "IonQ Announces Pricing of $2.0 Billion Equity Offering - The Quantum Insider",
   "ts": "2026-10-14T16:20:58.343020+00:00"
+ },
+ "82701d08f77a2ad5": {
+  "ticker": "MU",
+  "title": "Micron Stocks Fall 3.2% Although Musk Backs Its Memory Pricing - GuruFocus",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "82b2ad8d935810aa": {
   "ticker": "MACRO",
@@ -3554,6 +3584,11 @@
   "title": "US consumer prices accelerate in September on costlier gasoline; core CPI firmer - WTVB",
   "ts": "2026-10-14T15:57:30.197535+00:00"
  },
+ "98316180f28ebc1d": {
+  "ticker": "MACRO",
+  "title": "September Inflation Reaccelerates: CPI Hits 3.7%, Core at 2.6% - Rate Hike Odds Rise - News and Statistics - IndexBox",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "98333edf2080752b": {
   "ticker": "TSLA",
   "title": "Tesla rated Strong Sell despite Q2 revenue grow... - Pluang",
@@ -3801,6 +3836,36 @@
     "ticker": "MACRO",
     "title": "Oil prices settle higher as more production shut ahead of hurricane - The Daily Star",
     "ts": "2026-10-14T17:11:07+00:00"
+   },
+   {
+    "key": "d96c8fcd9653f326",
+    "label": "➖ 看不出",
+    "link": "https://flash.jin10.com/detail/20261015023119725800",
+    "name": "",
+    "source": "Jin10",
+    "ticker": "MACRO",
+    "title": "【夜盘主力合约收盘】金十数据10月15日讯，截至2:30收盘，沪金主力合约收跌1.61%，报886元/克，沪银主力合约收跌6.29%，报13523元/千克，SC原油主力合约收跌2.95%，报734元/桶。",
+    "ts": "2026-10-14T18:31:19+00:00"
+   },
+   {
+    "key": "df391d23c47feaab",
+    "label": "📉 對風險資產偏空",
+    "link": "https://flash.jin10.com/detail/20261015023111589800",
+    "name": "",
+    "source": "Jin10",
+    "ticker": "MACRO",
+    "title": "美国原油期货结算价为每桶95.09美元，上涨95美分，涨幅1.01%。",
+    "ts": "2026-10-14T18:31:11+00:00"
+   },
+   {
+    "key": "a11803d914f28614",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm5TbTljZE1JSEFDWTZTY2U2V2cybU9ZX1BnZDZyVDh2ck1lbHZBQWNiYXpXZ0x5eC1DLVd6VjhqcjJCTkdkMDMzbkZ3LWZfdTl4ZUp2eF8xUWExRVR4dXpqeG5mNVAxVTh2R1ZWaFk0R3NDYWZ2N0FMME5NV3oyaVJHNUhFR3lpdURXVC1SQUVYY0Zxa25VR2RJWlllbUttOUE?oc=5",
+    "name": "",
+    "source": "Yahoo Finance",
+    "ticker": "MACRO",
+    "title": "Crypto Market Slips as Hotter-Than-Expected Inflation Raises Rate Hike Bets - Yahoo Finance",
+    "ts": "2026-10-14T16:16:00+00:00"
    }
   ]
  },
@@ -3823,6 +3888,11 @@
   "ticker": "NFLX",
   "title": "Netflix streams into big league with 2030 World Cup rights coup - Daily Sabah",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "a11803d914f28614": {
+  "ticker": "MACRO",
+  "title": "Crypto Market Slips as Hotter-Than-Expected Inflation Raises Rate Hike Bets - Yahoo Finance",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "a1368d7c190543d9": {
   "ticker": "NFLX",
@@ -4409,6 +4479,11 @@
   "title": "Netflix confirms layoffs of about 1,000 staff, 6% of its workforce - tbreak.com",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "b981f5c0b6f37709": {
+  "ticker": "NFLX",
+  "title": "Netflix Faces a Brutal Wall Street Verdict. Analyst Slaps with 'Sell' rating - Yahoo Finance",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "b98b8a3de9e02bc5": {
   "ticker": "NFLX",
   "title": "Alphabet, Netflix among communication services stocks with top profitability grades (XLC:NYSEARCA) - Seeking Alpha",
@@ -4478,6 +4553,11 @@
   "ticker": "MACRO",
   "title": "Morgan Stanley raises Q4 Brent forecast to $105/b - Quantum Commodity Intelligence",
   "ts": "2026-10-14T16:50:04.203467+00:00"
+ },
+ "bc52583a5261671b": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stocks Fall 4.8% Although AI Flash Roadmap Gains a Janua - GuruFocus",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "bc7b56af3e7995ae": {
   "ticker": "NFLX",
@@ -5124,6 +5204,11 @@
   "title": "Netflix buys 2030 World Cup broadcast rights in co-host and defending champion Spain - Black Hills Pioneer",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "d442abfe5f05b46f": {
+  "ticker": "MU",
+  "title": "Elon Musk Praises Micron's Memory Pricing as AI Demand Stays Red Hot - GuruFocus",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "d4a8d38e8b1b242e": {
   "ticker": "APP",
   "title": "AppLovin Estimates Reset as Advertiser Checks Point to Stable Share, Wedbush Says - www.marketscreener.com",
@@ -5218,6 +5303,11 @@
   "ticker": "MACRO",
   "title": "【策略师：美国3%至4%的通胀率或已成为新常态】金十数据10月14日讯，One Point BFG Wealth Partners首席投资官Peter Boockvar表示：“我仍然认为，3%至4%的整体通胀率已经成为新常态，物价持续上涨的",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "d96c8fcd9653f326": {
+  "ticker": "MACRO",
+  "title": "【夜盘主力合约收盘】金十数据10月15日讯，截至2:30收盘，沪金主力合约收跌1.61%，报886元/克，沪银主力合约收跌6.29%，报13523元/千克，SC原油主力合约收跌2.95%，报734元/桶。",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "d9ae6793b36ea394": {
   "ticker": "TSLA",
@@ -5338,6 +5428,11 @@
   "ticker": "NFLX",
   "title": "One Piece Returns To Netflix And Immediately Replaces Luffy - ScreenRant",
   "ts": "2026-10-14T17:59:52.262386+00:00"
+ },
+ "df391d23c47feaab": {
+  "ticker": "MACRO",
+  "title": "美国原油期货结算价为每桶95.09美元，上涨95美分，涨幅1.01%。",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "dffdfb95b389d3dd": {
   "ticker": "PLTR",
@@ -5473,6 +5568,11 @@
   "ticker": "MACRO",
   "title": "US inflation rises to 3.7% in September, raising odds of a Fed rate hike in October - The Financial Express",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "e74dd17415c6e62b": {
+  "ticker": "NFLX",
+  "title": "‘Blue Eye Samurai’ Season 2 Adds Jonathan Pryce, Joel Kim Booster and Sherry Cola to Voice Cast - What's on Netflix",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "e76ee3a111548558": {
   "ticker": "MACRO",
@@ -5814,6 +5914,11 @@
   "title": "Dow Jones futures advance as US Treasury yields, oil prices ease | FXStreet - شبكة تواصل الإخبارية",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "f68c682d445d1627": {
+  "ticker": "LITE",
+  "title": "Why is Lumentum stock sliding today? By Investing.com - Investing.com Nigeria",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
  "f6bee988779d48be": {
   "ticker": "NFLX",
   "title": "Netflix Makes Biggest Job Cut in Years as Growth Cools - TradingView",
@@ -5883,6 +5988,11 @@
   "ticker": "NFLX",
   "title": "Netflix eliminates roughly 6% of workforce amid slowing growth concerns - The Business Journals",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "f9f89330a70783f6": {
+  "ticker": "MACRO",
+  "title": "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields - WSJ",
+  "ts": "2026-10-14T18:34:45.000305+00:00"
  },
  "fa45d5328928a446": {
   "ticker": "MACRO",
