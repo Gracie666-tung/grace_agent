@@ -422,19 +422,29 @@ export ANTHROPIC_API_KEY=sk-ant-...
   可選環境變數：`NEWS_UA`（SEC 要求的描述性 User-Agent）、`NEWS_MODEL`（預設 `claude-sonnet-5-5`）。
 - **本機測試**：`python src/news_monitor.py --dry-run --no-llm --since-hours 72`（只印出，不送、不寫狀態）；
   `--ticker ANET` 只看單一標的；測試 `python tests/test_news_monitor.py`。
-- 去重狀態在 `data/seen_news.json`（Actions 每輪 commit 回來，保留 30 天）。首次上線建議先手動 dispatch 並把
+- 去重狀態在 `data/seen_news.json`（Actions 每輪 commit 回來，保留 30 天）；歸檔在 `data/news_archive/`。首次上線建議先手動 dispatch 並把
   `since_hours` 設小（如 6），避免一次補抓 36 小時的舊聞。
-- **分級推播（避免洗版）**：只有 **持有**（`status: "held"`）或標了 `"priority": true` 的標的、以及 **CPI 類總經**會即時推。
-  其餘候選股與非 CPI 總經（FOMC/Fed/非農/PCE/油價/殖利率/關稅…）不即時推，進狀態檔 `data/seen_news.json` 的保留鍵
-  `_digest`（佇列上限 200、不受 30 天清理），每滿 60 分鐘合併成**一則**「🗞 每小時摘要（候選股與一般總經）」：
-  依代號分組、總經獨立一組、最多列 15 則（新到舊，其餘寫「另有 K 則未列出」），每行 = 規則判讀標籤＋標題＋連結。傳送失敗則佇列保留、下輪重試。
-  候選股摘要走規則判讀（不呼叫 LLM），只收硬觸發關鍵字或 Jin10 命中的標題。
+- **分級推播（避免洗版）**：Telegram **只**即時推 **持有**（`status: "held"`）或 `"priority": true` 的標的、以及 **CPI 類總經**。
+  其餘候選股與非 CPI 總經（FOMC/Fed/非農/PCE/油價/殖利率/關稅…）**不推播，只歸檔**（見下）。
+  **每小時摘要預設關閉**（`src/news_monitor.py` 的 `DIGEST_ENABLED = False`）：不組訊息、不寫入 `_digest` 佇列；
+  狀態檔裡殘留的舊 `_digest.pending` 會在第一輪被清空（不送出）。想臨時開回來：環境變數 `NEWS_DIGEST=1`
+  （workflow 的 env 加一行即可），或把常數改 `True`；開啟後行為同舊版（每滿 60 分鐘一則「🗞 每小時摘要」，最多 15 則）。
+- **歸檔（給每日分析師）**：每次**非 dry-run** 執行（寫狀態的同一條件），把每則「相關且新」的新聞（個股過別名/灌水濾除後、
+  硬觸發與分級**之前**；加上總經候選與 Jin10）追加到 `data/news_archive/YYYY-MM-DD.json`（日期 = 該則發佈時間的 UTC 日期，
+  未知則為抓取當天）。每檔是 JSON 陣列，欄位：`ts, ticker`（總經為 `MACRO`）`, name, title, link, source, origin, label`
+  （規則判讀）`, types, hard`（命中硬觸發）`, immediate`（有/會即時推播）`, key`。同檔以 `key` 去重、依 `ts` 排序、
+  原子寫入（暫存檔再 rename）、壞檔自動重建、每日上限 2000 則（丟最舊）。總經的非硬觸發候選也歸檔（`hard=false`）。
+  `news-chain.yml` 每輪會把 `data/seen_news.json` 與 `data/news_archive` 一併 commit。測試/示範可設 `NEWS_ARCHIVE_DIR` 改目錄。
+- **每日簡報輸入 `src/news_brief.py`**（不連網）：`python src/news_brief.py --since-hours 24`（預設）或 `--date 2026-10-14`，
+  可加 `--ticker ANET`、`--max-per-ticker 12`、`--repo <路徑>`。輸出依代號分組（持有/priority → 其他 → MACRO），
+  每組附 watchlist 背景（狀態/權重/成本/停損/下個事件），每則一行 `[HH:MM UTC] 判讀 | 標題 | 連結`，硬觸發排前。
+  用法：在 Claude 對話裡貼這份輸出，請它寫盤前簡報。
 - **標記持股/重點股**：在 `news_watchlist.json` 該檔把 `status` 改 `held`（並填 `weight_pct`、`entry_price`、`stop_pct`、`next_events`），
   或只加 `"priority": true`（不是持股也要即時看）。即時通知標題下會多一行決策卡：
   `持有 12% · 成本 $204.52 · 停損 $173.84（−15%）· 下個事件 11/03 ANET Q3 財報（19 天後）`（null 欄位略過；停損價 = 成本×(1−stop_pct)；
   沒有報價來源，所以不顯示現價與離停損距離）。
 - **CPI-only 常數**：即時總經範圍是 `src/news_monitor.py` 的 `IMMEDIATE_MACRO`（正則）。要把 FOMC 或非農升級成即時，在該正則尾端加
-  `|FOMC` 或 `|非农|nonfarm|non-farm`。dry-run 示範摘要時可設 `NEWS_FORCE_DIGEST=1` 略過 60 分鐘間隔。
+  `|FOMC` 或 `|非农|nonfarm|non-farm`。（摘要開啟時）dry-run 示範可設 `NEWS_FORCE_DIGEST=1` 略過 60 分鐘間隔。
 - 限制：新聞標題相關性靠別名比對，會有雜訊；預估僅供參考，非投資建議。
 - **Jin10（金十數據）快訊**：每輪單次請求 `flash-api.jin10.com/get_flash_list`（最新 20 則，簡體中文 1–3 句摘要），
   用 `aliases_zh`（簡體別名，沒把握的標的留空）、英文 aliases、`TSLA.O` 式代號比對個股，命中就併入該檔通知。

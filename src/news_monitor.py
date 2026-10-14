@@ -12,11 +12,14 @@
                                                                      # 沒有就走「無分析」摘要降級）
 
 可選環境變數：NEWS_UA（SEC EDGAR 要求的描述性 User-Agent）、NEWS_MODEL（覆蓋模型 id）、
-NEWS_STATE_PATH（覆蓋去重狀態檔路徑，測試用）。
+NEWS_STATE_PATH（覆蓋去重狀態檔路徑，測試用）、NEWS_ARCHIVE_DIR、NEWS_DIGEST。
 
-分級推播：持有（status=held）或 priority=true 的標的、以及 CPI 類總經 -> 即時推播（持股附「決策卡」）；
-其餘候選股與一般總經 -> 只進佇列，每小時合併成一則「🗞 每小時摘要」。NEWS_FORCE_DIGEST=1 可在 dry-run
-示範時略過 60 分鐘間隔。
+分級推播：持有（status=held）或 priority=true 的標的、以及 CPI 類總經 -> 即時推播（持股附「決策卡」）。
+其餘候選股與一般總經不推播，只歸檔。每小時摘要預設關閉（DIGEST_ENABLED=False；設環境變數 NEWS_DIGEST=1 可開，
+開啟後 NEWS_FORCE_DIGEST=1 可在 dry-run 示範時略過 60 分鐘間隔）。
+
+歸檔：非 dry-run 執行時，把每則「相關且新」的新聞（含候選股、持股、總經、Jin10）寫進
+data/news_archive/YYYY-MM-DD.json（NEWS_ARCHIVE_DIR 可覆蓋目錄，測試用），供每日分析師（src/news_brief.py）讀取。
 
 另有兩條旁路：Jin10（金十數據）快訊來源（非公開介面，可能失效/被擋，失敗只略過）與
 「📊 總經快訊」（news_watchlist.json 的 macro 區塊，不綁個股，每輪最多一則訊息）。
@@ -43,6 +46,8 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "news_watchlist.json"
 STATE_PATH = ROOT / "data" / "seen_news.json"
+ARCHIVE_DIR = ROOT / "data" / "news_archive"
+ARCHIVE_MAX_PER_DAY = 2000  # 每日檔上限（超過丟最舊），避免 repo 無限長大
 
 # 沿用其他工具已驗證的完整瀏覽器 UA（短 UA 容易被 Cloudflare 類反爬擋掉）。
 UA = (
@@ -56,6 +61,7 @@ SEC_UA = os.environ.get("NEWS_UA", "grace-agent-news-monitor research@example.in
 TIMEOUT = 15
 STATE_RETENTION_DAYS = 30
 DIGEST_KEY = "_digest"  # seen_news.json 內的保留鍵：{"last_sent": ISO, "pending": [...]}，不是新聞紀錄
+DIGEST_ENABLED = False  # 每小時摘要預設關閉（太吵）；環境變數 NEWS_DIGEST=1 可臨時開啟
 DIGEST_INTERVAL_MIN = 60
 DIGEST_MAX_LISTED = 15  # 每則摘要最多列幾則，其餘只寫「另有 K 則未列出」
 DIGEST_MAX_PENDING = 200  # 佇列上限（保留最新）
@@ -185,6 +191,76 @@ def _norm_title(title: str) -> str:
 def item_key(item: dict) -> str:
     raw = _norm_url(item.get("link", "")) + "|" + _norm_title(item.get("title", ""))
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def digest_enabled() -> bool:
+    return bool(DIGEST_ENABLED) or os.environ.get("NEWS_DIGEST", "").strip() == "1"
+
+
+# ---------------------------------------------------------------------------
+# 歸檔：每日 JSON 陣列，供每日分析師讀整天新聞
+# ---------------------------------------------------------------------------
+
+def archive_dir() -> Path:
+    return Path(os.environ.get("NEWS_ARCHIVE_DIR") or ARCHIVE_DIR)
+
+
+def archive_record(item: dict, ticker: str, name: str, hard: bool, immediate: bool, now: datetime) -> dict:
+    ts = (item.get("published") or now).astimezone(timezone.utc).isoformat()
+    if ticker == "MACRO":
+        label, types = macro_view(item)["label"], []
+    else:
+        v = rule_view(item)
+        label, types = v["label"], v["types"]
+    return {"ts": ts, "ticker": ticker, "name": name or "", "title": item["title"], "link": item["link"],
+            "source": item.get("source") or "", "origin": item.get("origin") or "", "label": label,
+            "types": types, "hard": bool(hard), "immediate": bool(immediate), "key": item.get("key") or item_key(item)}
+
+
+def _load_archive_file(path: Path) -> list[dict]:
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return []  # 缺檔或壞檔：從頭開始，絕不 crash
+    return [r for r in data if isinstance(r, dict) and r.get("key") and isinstance(r.get("ts"), str)] \
+        if isinstance(data, list) else []
+
+
+def write_archive(records: list[dict], directory: Path | None = None) -> int:
+    """依 ts 的 UTC 日期分檔寫入；同檔以 key 去重（先到者保留）、依 ts 排序、超過上限丟最舊。
+    原子寫入（同目錄暫存檔 -> os.replace）。回傳新增筆數。單檔失敗只記 log。"""
+    directory = directory or archive_dir()
+    by_day: dict[str, list[dict]] = {}
+    for r in records:
+        try:
+            day = datetime.fromisoformat(r["ts"]).astimezone(timezone.utc).strftime("%Y-%m-%d")
+        except (KeyError, ValueError):
+            continue
+        by_day.setdefault(day, []).append(r)
+    added = 0
+    for day, recs in sorted(by_day.items()):
+        path = directory / f"{day}.json"
+        try:
+            existing = _load_archive_file(path)
+            have = {r["key"] for r in existing}
+            new = []
+            for r in recs:
+                if r["key"] not in have:
+                    have.add(r["key"])
+                    new.append(r)
+            if not new:
+                continue
+            merged = sorted(existing + new, key=lambda r: r["ts"])[-ARCHIVE_MAX_PER_DAY:]
+            directory.mkdir(parents=True, exist_ok=True)
+            tmp = path.with_name(path.name + ".tmp")
+            with open(tmp, "w", encoding="utf-8") as f:
+                f.write("[\n" + ",\n".join(json.dumps(r, ensure_ascii=False) for r in merged) + "\n]\n")  # 一則一行：diff/壓縮友善
+            os.replace(tmp, path)
+            added += len(new)
+        except Exception as e:  # noqa: BLE001 - 歸檔失敗不影響推播與狀態
+            print(f"[歸檔] {day} 寫入失敗（略過）：{type(e).__name__}")
+    return added
 
 
 # ---------------------------------------------------------------------------
@@ -487,16 +563,16 @@ def fetch_macro_google(macro: dict, since_hours: int) -> list[dict]:
 
 
 def select_macro(jin10_items: list[dict], google_items: list[dict], macro: dict, state: dict, claimed: set,
-                 now: datetime, since_hours: int) -> list[dict]:
-    """候選 -> 硬觸發 -> 未見過、不與個股新聞/彼此重複。回傳由新到舊，不截斷（截斷在呼叫端）。"""
+                 now: datetime, since_hours: int, soft: list | None = None) -> list[dict]:
+    """候選 -> 硬觸發 -> 未見過、不與個股新聞/彼此重複。回傳由新到舊，不截斷（截斷在呼叫端）。
+    soft 給定時，沒命中硬觸發但未見過的候選（供歸檔）也會放進去並認領 key；不影響回傳值。"""
     cutoff = now - timedelta(hours=since_hours)
     cands = [it for it in jin10_items if macro_candidate_jin10(it, macro)]
     cands += [it for it in google_items if it["published"] is None or it["published"] >= cutoff]
     fresh = []
     for it in sorted(cands, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
-        if not MACRO_HARD.search(f"{it['title']} {it.get('snippet') or ''}" if it["origin"] == "Jin10" else it["title"]):
-            continue
-        if OPTIONS_SPAM.search(it["title"]):
+        is_hard = bool(MACRO_HARD.search(f"{it['title']} {it.get('snippet') or ''}" if it["origin"] == "Jin10" else it["title"]))
+        if (not is_hard and soft is None) or OPTIONS_SPAM.search(it["title"]):
             continue
         key = item_key(it)
         tkey = "t:" + _norm_title(it["title"])
@@ -504,7 +580,7 @@ def select_macro(jin10_items: list[dict], google_items: list[dict], macro: dict,
             continue
         claimed.update({key, tkey})
         it["key"] = key
-        fresh.append(it)
+        (fresh if is_hard else soft).append(it)
     return fresh
 
 
@@ -986,26 +1062,33 @@ def analyze_entry(entry: dict, items: list[dict], api_key: str, model: str) -> d
 
 
 def run_macro(cfg: dict, args, jin10_items: list[dict], state: dict, claimed: set, new_state: dict,
-              now: datetime, token: str, chat_id: str, can_send: bool) -> int:
+              now: datetime, token: str, chat_id: str, can_send: bool, archive: list | None = None) -> int:
     """總經快訊：每輪最多一則訊息；沒有命中就完全靜默。回傳實際列出的則數。"""
     macro = cfg["macro"]
     try:
         google_items = fetch_macro_google(macro, args.since_hours)
-        fresh = select_macro(jin10_items, google_items, macro, state, claimed, now, args.since_hours)
+        soft: list = []
+        fresh = select_macro(jin10_items, google_items, macro, state, claimed, now, args.since_hours, soft)
     except Exception as e:  # noqa: BLE001 - 總經失敗不影響個股結果
         print(f"[總經] 失敗（略過）：{type(e).__name__}")
         return 0
     j_n = sum(1 for it in fresh if it["origin"] == "Jin10")
-    print(f"[總經] Jin10 命中 {j_n} 則、Google News 命中 {len(fresh) - j_n} 則（硬觸發、未見過）")
+    print(f"[總經] Jin10 命中 {j_n} 則、Google News 命中 {len(fresh) - j_n} 則（硬觸發、未見過）；非硬觸發僅歸檔 {len(soft)} 則")
+    imm = [it for it in fresh if is_immediate_macro(it)]
+    if archive is not None:
+        archive += [archive_record(it, "MACRO", "", True, it in imm, now) for it in fresh]
+        archive += [archive_record(it, "MACRO", "", False, False, now) for it in soft]
+    for it in soft:  # 非硬觸發：只歸檔，標為已見避免每輪重複處理
+        new_state[it["key"]] = {"ts": now.isoformat(), "ticker": "MACRO", "title": it["title"][:120]}
     if not fresh:
         return 0
-    imm = [it for it in fresh if is_immediate_macro(it)]
     for it in fresh:
         if it in imm:
             continue
-        queue_digest(state, "MACRO", "", it, macro_view(it)["label"], now)  # 非 CPI 總經：進每小時摘要
+        if digest_enabled():
+            queue_digest(state, "MACRO", "", it, macro_view(it)["label"], now)  # 非 CPI 總經：進每小時摘要
         new_state[it["key"]] = {"ts": now.isoformat(), "ticker": "MACRO", "title": it["title"][:120]}
-    print(f"[總經] 即時（CPI 類）{len(imm)} 則、轉入每小時摘要 {len(fresh) - len(imm)} 則")
+    print(f"[總經] 即時（CPI 類）{len(imm)} 則、其餘 {len(fresh) - len(imm)} 則{'轉入每小時摘要' if digest_enabled() else '僅歸檔'}")
     if not imm:
         return 0
     fresh = imm
@@ -1059,6 +1142,7 @@ def run(args, now: datetime | None = None) -> int:
     claimed: set = set()
     new_state: dict = {}
     total_new = total_sent = total_suppressed = total_queued = 0
+    archive: list[dict] = []
     jin10_items = collect_jin10(args.since_hours, now)  # 全 run 只打一次
     jin10_ticker_hits = 0
     for entry in entries:
@@ -1071,14 +1155,17 @@ def run(args, now: datetime | None = None) -> int:
         items += j_hits
         fresh = select_new(items, entry, state, claimed)
         total_new += len(fresh)
+        archive += [archive_record(it, entry["ticker"], entry.get("name", ""),
+                                   bool(HARD_TRIGGERS.search(it["title"])), False, now) for it in fresh]
         if fresh and not is_immediate(entry):
-            # 候選股：不即時推，也不呼叫 LLM；硬觸發/Jin10 的進摘要佇列，全部標為已見
+            # 候選股：不即時推，也不呼叫 LLM；全部歸檔並標為已見（摘要開啟時，硬觸發/Jin10 的另進摘要佇列）
             hits = [it for it in fresh if it.get("origin") == "Jin10" or HARD_TRIGGERS.search(it["title"])]
             added = sum(queue_digest(state, entry["ticker"], entry.get("name", ""), it, rule_view(it)["label"], now)
-                        for it in hits)
+                        for it in hits) if digest_enabled() else 0
             total_queued += added
             total_suppressed += len(fresh) - len(hits)
-            print(f"  [{entry['ticker']}] 候選股：{len(fresh)} 則新聞，{added} 則進每小時摘要佇列（不即時推播）")
+            print(f"  [{entry['ticker']}] 候選股：{len(fresh)} 則新聞，歸檔不推播"
+                  + (f"，{added} 則進每小時摘要佇列" if digest_enabled() else ""))
             for it in fresh:
                 new_state[it["key"]] = {"ts": now.isoformat(), "ticker": entry["ticker"], "title": it["title"][:120]}
             continue
@@ -1101,6 +1188,9 @@ def run(args, now: datetime | None = None) -> int:
             total_suppressed += len(batch) - len(rows)
             msg = build_message(entry, rows, False, now.date()) if rows else None
 
+        sent_keys = {it["key"] for it, _ in rows}
+        for r in archive[-len(fresh):]:  # 剛加入的這檔紀錄：標記哪些是（會）即時推播的
+            r["immediate"] = r["key"] in sent_keys
         sent_ok = True
         if msg:
             total_sent += len(rows)
@@ -1119,11 +1209,25 @@ def run(args, now: datetime | None = None) -> int:
                 new_state[it["key"]] = {"ts": now.isoformat(), "ticker": entry["ticker"], "title": it["title"][:120]}
 
     run_macro.jin10_listed = 0
-    macro_sent = run_macro(cfg, args, jin10_items, state, claimed, new_state, now, token, chat_id, can_send) \
+    macro_sent = run_macro(cfg, args, jin10_items, state, claimed, new_state, now, token, chat_id, can_send, archive) \
         if cfg.get("macro") and not args.ticker else 0
-    digest_sent = flush_digest(state, now, token, chat_id, can_send, args.dry_run)
+    if digest_enabled():
+        digest_sent = flush_digest(state, now, token, chat_id, can_send, args.dry_run)
+        digest_note = f"入摘要佇列 {total_queued}，本輪摘要送出 {digest_sent} 則，佇列剩 {len(get_digest(state)['pending'])} 則"
+    else:
+        old = state.get(DIGEST_KEY)
+        if isinstance(old, dict) and old.get("pending"):
+            print(f"[摘要] 已關閉：清除殘留佇列 {len(old['pending'])} 則（不送出）")
+            old["pending"] = []
+        digest_note = "摘要已關閉"
+    will_write = not args.dry_run and (can_send or bool(os.environ.get("NEWS_ALLOW_UNSENT_STATE")))
+    if will_write:
+        archived = write_archive(archive)
+        arch_note = f"歸檔新增 {archived} 則（本輪相關新聞 {len(archive)} 則）"
+    else:
+        arch_note = f"歸檔 {len(archive)} 則（本次不寫入）"
     print(f"\nJin10 彙總：原始 {len(jin10_items)} 則、比對到個股 {jin10_ticker_hits} 則、列入總經訊息 {run_macro.jin10_listed} 則")
-    print(f"完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}；總經 {macro_sent} 則；入摘要佇列 {total_queued}，本輪摘要送出 {digest_sent} 則，佇列剩 {len(get_digest(state)['pending'])} 則）")
+    print(f"完成：新聞 {total_new} 則（待推播 {total_sent}，低價值靜默 {total_suppressed}，持股灌水文濾除 {noise_count[0]}；總經 {macro_sent} 則；{digest_note}；{arch_note}）")
     if args.dry_run:
         return 0
     if not can_send and not os.environ.get("NEWS_ALLOW_UNSENT_STATE"):

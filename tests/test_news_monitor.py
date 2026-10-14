@@ -20,6 +20,9 @@ import news_monitor as nm  # noqa: E402
 
 NOW = datetime(2026, 10, 14, 12, 0, tzinfo=timezone.utc)
 
+# 非 dry-run 的測試會歸檔：預設導到暫存目錄，絕不碰真的 data/news_archive。
+os.environ["NEWS_ARCHIVE_DIR"] = tempfile.mkdtemp(prefix="news_archive_test_")
+
 # 舊測試不該連網：run() 會呼叫 collect_jin10，預設換成空清單；Jin10 相關測試自行 patch。
 _REAL_COLLECT_JIN10 = nm.collect_jin10
 nm.collect_jin10 = lambda since_hours, now: []
@@ -382,7 +385,7 @@ def _run_macro_cfg(tmp, entries=None):
 
 def test_jin10_failure_does_not_break_run():
     with tempfile.TemporaryDirectory() as tmp:
-        cfg = _run_macro_cfg(tmp, [ANET])
+        cfg = _run_macro_cfg(tmp, [HELD])  # 候選股摘要預設關閉、不印訊息；改用持股才看得到個股訊息
         printed = []
         with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(Path(tmp) / "s.json")}), \
                 mock.patch.object(nm, "collect_jin10", _REAL_COLLECT_JIN10), \
@@ -407,6 +410,7 @@ def test_run_jin10_ticker_and_macro_dedup_across_runs():
         def once(dry=False):
             printed = []
             with mock.patch.dict(os.environ, env), mock.patch.object(nm, "collect_jin10", lambda h, n: list(flashes)), \
+                    mock.patch.object(nm, "DIGEST_ENABLED", True), \
                     mock.patch.object(nm, "collect_for_entry", return_value=[]), \
                     mock.patch.object(nm, "fetch_macro_google", return_value=[]), \
                     mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
@@ -465,7 +469,7 @@ def test_candidate_queued_not_sent_and_dedups():
         for _ in range(2):
             with mock.patch.dict(os.environ, env), mock.patch.object(nm, "collect_for_entry", return_value=feed), \
                     mock.patch.object(nm, "send_telegram", side_effect=lambda *a: sent.append(a)), \
-                    mock.patch.object(nm, "DIGEST_INTERVAL_MIN", 60), \
+                    mock.patch.object(nm, "DIGEST_INTERVAL_MIN", 60), mock.patch.object(nm, "DIGEST_ENABLED", True), \
                     mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
                 _clear_env()
                 nm.run(_args(cfg, no_llm=True), now=NOW)  # 無 Telegram 憑證：只印出
@@ -564,6 +568,7 @@ def test_cpi_immediate_fomc_to_digest():
                           "snippet": "", "origin": "Google News"}
         google = [g("US CPI hotter than expected - Reuters", 1), g("FOMC signals rate cut, Fed Powell says - Reuters", 2)]
         with mock.patch.dict(os.environ, _quiet_env(tmp)), mock.patch.object(nm, "fetch_macro_google", return_value=google), \
+                mock.patch.object(nm, "DIGEST_ENABLED", True), \
                 mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
             _clear_env()
             assert nm.run(_args(cfg, no_llm=True), now=NOW) == 0
@@ -606,13 +611,206 @@ def test_held_entry_immediate_and_dry_run_writes_nothing_with_queue():
         # 候選股 dry-run：印出摘要但不寫檔
         cfg2 = _write_cfg(tmp, entry=ANET)
         printed.clear()
-        with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(sp)}), \
+        with mock.patch.dict(os.environ, {"NEWS_STATE_PATH": str(sp)}), mock.patch.object(nm, "DIGEST_ENABLED", True), \
                 mock.patch.object(nm, "collect_for_entry", return_value=[_qitem(1)]), \
                 mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
             _clear_env()
             nm.run(_args(cfg2, dry_run=True, no_llm=True), now=NOW)
         out = "\n".join(printed)
         assert "🗞" in out and "🔔" not in out and not sp.exists()
+
+
+# ---------------------------------------------------------------------------
+# 歸檔 / 摘要關閉 / news_brief
+# ---------------------------------------------------------------------------
+
+import news_brief as nb  # noqa: E402
+
+
+def _rec(i, ts=None, **kw):
+    d = {"ts": (ts or NOW + timedelta(minutes=i)).isoformat(), "ticker": "ANET", "name": "Arista", "title": f"t{i}",
+         "link": f"https://x.example/{i}", "source": "Reuters", "origin": "Google News", "label": "➖ 看不出方向",
+         "types": [], "hard": False, "immediate": False, "key": f"key{i}"}
+    d.update(kw)
+    return d
+
+
+def test_archive_write_dedup_sort_atomic_cap():
+    with tempfile.TemporaryDirectory() as tmp:
+        d = Path(tmp) / "arch"
+        assert nm.write_archive([_rec(3), _rec(1), _rec(2)], d) == 3
+        f = d / "2026-10-14.json"
+        rows = json.loads(f.read_text(encoding="utf-8"))
+        assert [r["key"] for r in rows] == ["key1", "key2", "key3"]  # 依 ts 排序
+        assert set(rows[0]) == {"ts", "ticker", "name", "title", "link", "source", "origin", "label", "types", "hard", "immediate", "key"}
+        assert nm.write_archive([_rec(2, title="改過"), _rec(4)], d) == 1  # 同 key 去重，先到者保留
+        rows = json.loads(f.read_text(encoding="utf-8"))
+        assert len(rows) == 4 and [r for r in rows if r["key"] == "key2"][0]["title"] == "t2"
+        assert not list(d.glob("*.tmp"))  # 原子寫入：沒有殘留暫存檔
+        # 原子性：寫入中途失敗時，原檔不變
+        before = f.read_text(encoding="utf-8")
+        with mock.patch.object(nm.os, "replace", side_effect=OSError("disk")), mock.patch("builtins.print"):
+            assert nm.write_archive([_rec(9)], d) == 0
+        assert f.read_text(encoding="utf-8") == before
+        # 上限：丟最舊
+        with mock.patch.object(nm, "ARCHIVE_MAX_PER_DAY", 5):
+            nm.write_archive([_rec(i) for i in range(10, 20)], d)
+        rows = json.loads(f.read_text(encoding="utf-8"))
+        assert len(rows) == 5 and rows[0]["key"] == "key15" and rows[-1]["key"] == "key19"
+
+
+def test_archive_corrupt_or_missing_file_recovers():
+    with tempfile.TemporaryDirectory() as tmp:
+        d = Path(tmp)
+        (d / "2026-10-14.json").write_text("{壞掉", encoding="utf-8")
+        assert nm.write_archive([_rec(1)], d) == 1
+        assert [r["key"] for r in json.loads((d / "2026-10-14.json").read_text(encoding="utf-8"))] == ["key1"]
+        (d / "2026-10-14.json").write_text(json.dumps({"not": "list"}), encoding="utf-8")
+        assert nm.write_archive([_rec(2)], d) == 1
+        (d / "2026-10-14.json").write_text(json.dumps([1, "x", {"no": "key"}, _rec(5)]), encoding="utf-8")
+        assert nm.write_archive([_rec(6)], d) == 1
+        assert [r["key"] for r in json.loads((d / "2026-10-14.json").read_text(encoding="utf-8"))] == ["key5", "key6"]
+        assert nm.write_archive([], d / "none") == 0 and not (d / "none").exists()
+
+
+def test_archive_per_day_file_naming_utc():
+    with tempfile.TemporaryDirectory() as tmp:
+        d = Path(tmp)
+        late = datetime(2026, 10, 13, 23, 30, tzinfo=timezone.utc)
+        taipei = datetime(2026, 10, 15, 1, 0, tzinfo=timezone(timedelta(hours=8)))  # = 10/14 17:00 UTC
+        nm.write_archive([_rec(1, ts=late), _rec(2, ts=taipei), _rec(3)], d)
+        assert sorted(p.name for p in d.glob("*.json")) == ["2026-10-13.json", "2026-10-14.json"]
+        rec = nm.archive_record(_item("Arista beats earnings", published=None, key="k"), "ANET", "A", True, False, NOW)
+        assert rec["ts"] == NOW.isoformat()  # 無發佈時間 -> 抓取時間
+
+
+def _run_collect(tmp, entry, items, dry=False, jin10=None, google=None, macro=False, extra_env=None):
+    cfg = _run_macro_cfg(tmp, [entry]) if macro else _write_cfg(tmp, entry=entry)
+    sent, printed = [], []
+    env = {"NEWS_STATE_PATH": str(Path(tmp) / "s.json"), "NEWS_ALLOW_UNSENT_STATE": "1",
+           "NEWS_ARCHIVE_DIR": str(Path(tmp) / "arch")}
+    env.update(extra_env or {})
+    with mock.patch.dict(os.environ, env), mock.patch.object(nm, "collect_for_entry", return_value=items), \
+            mock.patch.object(nm, "collect_jin10", lambda h, n: list(jin10 or [])), \
+            mock.patch.object(nm, "fetch_macro_google", return_value=list(google or [])), \
+            mock.patch.object(nm, "send_telegram", side_effect=lambda *a: sent.append(a[2])), \
+            mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
+        _clear_env()
+        os.environ.update(extra_env or {})  # _clear_env 會清掉 Telegram 憑證，要在清完之後再補回
+        nm.run(_args(cfg, dry_run=dry, no_llm=True), now=NOW)
+    return "\n".join(printed), sent
+
+
+def _read_arch(tmp, day="2026-10-14"):
+    p = Path(tmp) / "arch" / f"{day}.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+
+
+def test_dry_run_archives_nothing_but_reports_count():
+    with tempfile.TemporaryDirectory() as tmp:
+        out, _ = _run_collect(tmp, ANET, [_qitem(1), _qitem(2, "Arista opens new office")], dry=True)
+        assert not (Path(tmp) / "arch").exists() and "歸檔 2 則（本次不寫入）" in out
+
+
+def test_digest_off_candidate_archived_not_queued_or_sent():
+    assert nm.DIGEST_ENABLED is False
+    with tempfile.TemporaryDirectory() as tmp:
+        # 殘留的舊佇列：第一輪就清掉，且不會被送出
+        Path(tmp, "s.json").write_text(json.dumps({"_digest": {"last_sent": None, "pending": [
+            {"key": "old", "ticker": "X", "title": "t", "link": "l", "source": "s", "label": "l", "ts": NOW.isoformat()}]}}),
+            encoding="utf-8")
+        out, sent = _run_collect(tmp, ANET, [_qitem(1), _qitem(2, "Arista opens new office")])
+        assert "🗞" not in out and "🔔" not in out and sent == []
+        saved = json.loads(Path(tmp, "s.json").read_text(encoding="utf-8"))
+        assert saved["_digest"]["pending"] == [] and len([k for k in saved if k != "_digest"]) == 2
+        rows = _read_arch(tmp)
+        assert {r["title"] for r in rows} == {"Arista raises guidance 1", "Arista opens new office"}
+        hard = {r["title"]: r["hard"] for r in rows}
+        assert hard["Arista raises guidance 1"] is True and hard["Arista opens new office"] is False
+        assert all(r["immediate"] is False and r["ticker"] == "ANET" for r in rows)
+        assert "歸檔新增 2 則" in out and "摘要已關閉" in out
+        # 第二輪：已見，不再重複歸檔
+        out2, _ = _run_collect(tmp, ANET, [_qitem(1), _qitem(2, "Arista opens new office")])
+        assert "歸檔新增 0 則" in out2 and len(_read_arch(tmp)) == 2
+        # NEWS_DIGEST=1 可重新開啟
+        with tempfile.TemporaryDirectory() as tmp2:
+            out3, _ = _run_collect(tmp2, ANET, [_qitem(1)], extra_env={"NEWS_DIGEST": "1"})
+            assert "🗞 <b>每小時摘要" in out3
+
+
+def test_held_entry_still_immediate_and_archived_with_flag():
+    with tempfile.TemporaryDirectory() as tmp:
+        out, sent = _run_collect(tmp, HELD, [_qitem(1), _qitem(2, "Arista opens new office")],
+                                 extra_env={"NEWS_TELEGRAM_BOT_TOKEN": "t", "NEWS_TELEGRAM_CHAT_ID": "c"})
+        assert len(sent) == 1 and "🔔" in sent[0] and "🧭" in sent[0] and "🗞" not in sent[0]
+        rows = {r["title"]: r for r in _read_arch(tmp)}
+        assert len(rows) == 2  # 持股的所有相關新聞都歸檔（含沒推的）
+        assert rows["Arista raises guidance 1"]["immediate"] is True and rows["Arista raises guidance 1"]["hard"] is True
+        assert rows["Arista opens new office"]["immediate"] is False
+
+
+def test_cpi_still_immediate_other_macro_archived_only():
+    g = lambda t, n: {"title": t, "link": f"https://g.example/{n}", "source": "Reuters", "published": NOW,  # noqa: E731
+                      "snippet": "", "origin": "Google News"}
+    google = [g("US CPI hotter than expected - Reuters", 1), g("FOMC signals rate cut, Fed Powell says - Reuters", 2),
+              g("Local bakery wins award - Reuters", 3)]
+    with tempfile.TemporaryDirectory() as tmp:
+        out, sent = _run_collect(tmp, ANET, [], google=google, macro=True,
+                                 extra_env={"NEWS_TELEGRAM_BOT_TOKEN": "t", "NEWS_TELEGRAM_CHAT_ID": "c"})
+        assert len(sent) == 1 and "總經快訊" in sent[0] and "CPI hotter" in sent[0] and "FOMC" not in sent[0]
+        rows = {r["title"]: r for r in _read_arch(tmp)}
+        assert rows["US CPI hotter than expected - Reuters"]["immediate"] is True
+        fomc = rows["FOMC signals rate cut, Fed Powell says - Reuters"]
+        assert fomc["immediate"] is False and fomc["hard"] is True and fomc["ticker"] == "MACRO"
+        bak = rows["Local bakery wins award - Reuters"]
+        assert bak["hard"] is False and bak["immediate"] is False
+
+
+def _fixture_repo(tmp):
+    root = Path(tmp)
+    (root / "data" / "news_archive").mkdir(parents=True)
+    (root / "news_watchlist.json").write_text(json.dumps({"entries": [
+        {"ticker": "ANET", "name": "Arista", "status": "held", "weight_pct": 12, "entry_price": 200, "stop_pct": 10,
+         "next_events": [{"date": "2026-11-03", "label": "Q3 財報"}]},
+        {"ticker": "CAND", "name": "Cand Co", "status": "candidate"},
+        {"ticker": "PRIO", "name": "Prio", "status": "candidate", "priority": True}]}), encoding="utf-8")
+    recs = [
+        _rec(1, title="ANET routine note", hard=False),
+        _rec(2, title="ANET raises guidance", hard=True, label="📈 偏多", immediate=True),
+        _rec(3, ticker="CAND", name="Cand Co", title="Cand opens office", key="c1"),
+        _rec(4, ticker="MACRO", name="", title="FOMC signals cut", key="m1", hard=True),
+        _rec(5, ticker="PRIO", name="Prio", title="Prio wins contract " + "x" * 200, key="p1", hard=True),
+        _rec(6, ticker="CAND", name="Cand Co", title="old news", key="c0", ts=NOW - timedelta(hours=30)),
+    ]
+    (root / "data" / "news_archive" / "2026-10-14.json").write_text(json.dumps(recs[:5]), encoding="utf-8")
+    (root / "data" / "news_archive" / "2026-10-13.json").write_text(json.dumps(recs[5:]), encoding="utf-8")
+    return root
+
+
+def test_news_brief_grouping_and_ordering():
+    with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(os.environ):
+        os.environ.pop("NEWS_ARCHIVE_DIR", None)  # 本檔頂端把它導向暫存目錄；brief 要讀 fixture 的 data/news_archive
+        root = _fixture_repo(tmp)
+        out = nb.build_brief(root, since_hours=24, now=NOW + timedelta(hours=1))
+        lines = out.splitlines()
+        assert "共 5 則" in lines[0] and "old news" not in out  # 30 小時前那則（在前一天檔）被 since 濾掉
+        idx = {t: out.index(f"== {t}") for t in ("ANET", "PRIO", "CAND", "MACRO")}
+        assert idx["ANET"] < idx["PRIO"] < idx["CAND"] < idx["MACRO"]  # 持股、priority 先，其次候選，最後總經
+        assert "持有 · 權重 12%" in out and "成本 200" in out and "停損 180.00" in out and "2026-11-03 Q3 財報" in out
+        anet = out[idx["ANET"]:idx["PRIO"]].splitlines()
+        items = [l for l in anet if l.startswith("[")]
+        assert "raises guidance" in items[0] and "routine note" in items[1]  # 硬觸發先
+        assert items[0].startswith("[12:02 UTC] 📈 偏多 | ANET raises guidance | https://x.example/2")
+        prio_line = [l for l in out.splitlines() if "Prio wins" in l][0]
+        assert len(prio_line.split(" | ")[1]) <= 130
+        assert anet[0].startswith("== ANET Arista — 2 則（硬觸發 1，即時推播 1）")
+        only = nb.build_brief(root, since_hours=24, now=NOW + timedelta(hours=1), ticker="CAND")
+        assert "== CAND" in only and "== ANET" not in only
+        k1 = nb.build_brief(root, since_hours=24, now=NOW + timedelta(hours=1), max_per_ticker=1)
+        assert "ANET raises guidance" in k1 and "ANET routine note" not in k1 and "另 1 則" in k1
+        by_date = nb.build_brief(root, date="2026-10-14")
+        assert "共 5 則" in by_date and "old news" not in by_date  # --date 只取該 UTC 日期
+        assert "沒有資料" in nb.build_brief(root, date="2026-01-01")
 
 
 def main() -> None:

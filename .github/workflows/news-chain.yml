@@ -35,7 +35,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write # 每次執行後把 data/seen_news.json 提交回 repo
+  contents: write # 每次執行後把 data/seen_news.json 與 data/news_archive 提交回 repo
   actions: write # 觸發下一輪
 
 jobs:
@@ -75,11 +75,14 @@ jobs:
             echo "::group::link=${LINK} 第 ${n} 次 $(date -u +%H:%M:%S) UTC"
             git pull -q --rebase || echo "pull 失敗，沿用現有檔案"
             python src/news_monitor.py ${flag} --since-hours 3 || echo "news_monitor 回傳非 0，繼續下一次"
-            if [ "${DRY}" != "true" ] && ! git diff --quiet data/seen_news.json; then
+            if [ "${DRY}" != "true" ]; then
               git add data/seen_news.json
-              git commit -q -m "chore: update seen news [skip ci]"
-              git pull -q --rebase || true
-              git push -q || echo "push 失敗，下一次再試"
+              if [ -d data/news_archive ]; then git add data/news_archive; fi
+              if ! git diff --cached --quiet; then
+                git commit -q -m "chore: update seen news and archive [skip ci]"
+                git pull -q --rebase || true
+                git push -q || echo "push 失敗，下一次再試"
+              fi
             fi
             echo "::endgroup::"
             sleep "${INTERVAL}"
