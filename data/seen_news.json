@@ -1684,6 +1684,11 @@
   "title": "Evening digest: US CPI lifts Fed bets as oil rises and gold, bitcoin fall - Invezz",
   "ts": "2026-10-14T20:25:13.566947+00:00"
  },
+ "3bed9c844e8fb5cc": {
+  "ticker": "MACRO",
+  "title": "US inflation heats up in September; Fed rate hike this month back on table - WHBL News",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
+ },
  "3c92e3d35c7a3bf9": {
   "ticker": "TSLA",
   "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World - WIRED",
@@ -2479,6 +2484,11 @@
   "title": "Phuong Mai Nguyen on Turning the Graphic Novel In Waves Into a Film - Netflix",
   "ts": "2026-10-14T19:03:49.996414+00:00"
  },
+ "56794c58ea7c3df2": {
+  "ticker": "IONQ",
+  "title": "IonQ vs. Nebius Group: Which Technology Stock Is a Better Buy in 2026? - The Globe and Mail",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
+ },
  "569498fd20a501bf": {
   "ticker": "NFLX",
   "title": "Netflix, Google VAT already exists; new system targets collection – GRA - GhanaWeb",
@@ -2753,6 +2763,11 @@
   "ticker": "MACRO",
   "title": "Brent Crude Holds Above $106 as Houthi-Saudi Hostilities Revive Supply Fears: What It Means for Indian Equities, Rupee &",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "5e1b0eff92eba0fc": {
+  "ticker": "MACRO",
+  "title": "US inflation heats up in September; Fed rate hike this month back on table - WTVB",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
  },
  "5e2b50fde586ff0d": {
   "ticker": "NFLX",
@@ -3819,6 +3834,11 @@
   "title": "Get a first look at Netflix's 'Narnia: The Magician's Nephew' - IMDb",
   "ts": "2026-10-14T18:23:06.361647+00:00"
  },
+ "7fe3e65c421e7420": {
+  "ticker": "MACRO",
+  "title": "Red hot CPI report fuels AI rout - Livemint",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
+ },
  "800b0792a5f15280": {
   "ticker": "MACRO",
   "title": "Treasury Yields at 5.35% Favor Funded Gold Developers - Crux Investor",
@@ -4294,6 +4314,11 @@
   "title": "Taylor Sheridan's Intense 40-Episode Crime Thriller Series Becomes One of the Biggest Shows on Netflix - MovieWeb",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "93753c7d4d865a6b": {
+  "ticker": "NFLX",
+  "title": "Netflix to Lay Off 1,000 Employees in Major Workforce Cuts - LAmag",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
+ },
  "9376839f374dd6f5": {
   "ticker": "AMD",
   "title": "$Advanced Micro Devices (AMD.US)$ - Moomoo",
@@ -4676,6 +4701,36 @@
     "ticker": "MACRO",
     "title": "WRAPUP 4-US inflation heats up in September; Fed rate hike this month back on table - Devdiscourse",
     "ts": "2026-10-14T17:26:07+00:00"
+   },
+   {
+    "key": "af0a2e909ccdf944",
+    "label": "➖ 看不出方向",
+    "link": "https://flash.jin10.com/detail/20261015042555115800",
+    "name": "Tesla",
+    "source": "Jin10",
+    "ticker": "TSLA",
+    "title": "巴克莱：特斯拉(TSLA.O)与SpaceX(SPCX.O)的合并可能在12月之前宣布。",
+    "ts": "2026-10-14T20:25:55+00:00"
+   },
+   {
+    "key": "5e1b0eff92eba0fc",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjlNZVMtbmx1ZnBYZzlzanN3OG5INFBKSlNneVRNemJUR2J2ZmdJdmpMTjRUdmo4TmdydEs4UHBXN3o0Ry14OWsyaXlIMFJpNHhsdWtiNUNmN2VqTlBKYWF2eDVFT1cwT2w3ZS1IdDkzdkxsMy12UXY1VTUzTlZyQ3RPOG80Q05hU040TkRmR01rWk5hcVExUk5ZQzBJNzlkcUZpdDdtYnFqVjR0RXR3?oc=5",
+    "name": "",
+    "source": "WTVB",
+    "ticker": "MACRO",
+    "title": "US inflation heats up in September; Fed rate hike this month back on table - WTVB",
+    "ts": "2026-10-14T18:11:46+00:00"
+   },
+   {
+    "key": "3bed9c844e8fb5cc",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1RkNkdjYTROY0Q3M0pEcjU0ekd3X2RGVHV1N0Y4cGd5TGc2c1NyNEQ5NVZzdlZxdjJTSGJybDVBNWtHYUszUzF5cXR3Vk55ZHNwM0FJekZXOXQyLU1XYkZnaU8tQ0lYTlNxSFp1bHVKSjM5QVg3Yi01NzM0cDI1TU5heUlDb3F5c0RtM1RZU2lraER4M1hnVFdQUGZzS0ludFNyY3lHa0V1VHZJ?oc=5",
+    "name": "",
+    "source": "WHBL News",
+    "ticker": "MACRO",
+    "title": "US inflation heats up in September; Fed rate hike this month back on table - WHBL News",
+    "ts": "2026-10-14T17:39:21+00:00"
    }
   ]
  },
@@ -5078,6 +5133,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs in biggest layoff since 2022, WSJ reports By Reuters - Investing.com",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "af0a2e909ccdf944": {
+  "ticker": "TSLA",
+  "title": "巴克莱：特斯拉(TSLA.O)与SpaceX(SPCX.O)的合并可能在12月之前宣布。",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
  },
  "af66c8427dc2d7af": {
   "ticker": "PLTR",
@@ -6509,6 +6569,11 @@
   "title": "Stocks on Watch After CPI-Fueled Breakdown: SPX, Nasdaq, NVDA - StoneX",
   "ts": "2026-10-14T17:42:30.302899+00:00"
  },
+ "dd665e5277e94cf0": {
+  "ticker": "NFLX",
+  "title": "'Love is Blind' Boston season just premiered on Netflix. How to watch - Enterprise News",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
+ },
  "dd889d2dcc6e9567": {
   "ticker": "NFLX",
   "title": "Get a first look at Netflix's 'Narnia: The Magician's Nephew' - IMDb",
@@ -6678,6 +6743,11 @@
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, marking its biggest round of job cuts in years - mypanhandle.com",
   "ts": "2026-10-14T16:26:47.704189+00:00"
+ },
+ "e4eb87982018ca62": {
+  "ticker": "NFLX",
+  "title": "Everything Announced at Netflix’s First French Upfront: ‘Under Paris 2’, ‘Lupin’, 2 Reality Renewals & More - IMDb",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
  },
  "e565d8e11269d308": {
   "ticker": "NFLX",
@@ -7108,6 +7178,11 @@
   "ticker": "NFLX",
   "title": "Netflix’s ‘Untold’ announces Daejon Love film after fake 49ers player’s indictment - Yahoo",
   "ts": "2026-10-14T20:25:13.566947+00:00"
+ },
+ "f49c097b30ff7649": {
+  "ticker": "NET",
+  "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move - Cloudflare Blog",
+  "ts": "2026-10-14T20:31:08.866721+00:00"
  },
  "f4efcb83652a398f": {
   "ticker": "MACRO",
