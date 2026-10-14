@@ -656,6 +656,72 @@
         }
       ],
       "thesis": "InP 基板供應商（LITE 長約）；中國出口許可風險，建議避開或財報後再評估"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Apple Inc",
+        "NASDAQ: AAPL",
+        "Apple stock",
+        "Apple shares"
+      ],
+      "aliases_zh": [
+        "苹果公司",
+        "苹果(AAPL"
+      ],
+      "queries": [
+        "Apple Inc",
+        "AAPL stock Apple"
+      ],
+      "sec_cik": 320193,
+      "yahoo_symbol": "AAPL",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-02",
+          "label": "FQ4 財報（媒體報導，未取得 Apple 官方公告）"
+        }
+      ],
+      "thesis": "大型科技，朋友提議加入觀察；尚未進場"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet (Google)",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Alphabet",
+        "NASDAQ: GOOGL",
+        "Google parent",
+        "Google stock"
+      ],
+      "aliases_zh": [
+        "谷歌",
+        "Alphabet"
+      ],
+      "queries": [
+        "Alphabet Inc",
+        "GOOGL stock Alphabet Google"
+      ],
+      "sec_cik": 1652044,
+      "yahoo_symbol": "GOOGL",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-28",
+          "label": "Q3 財報（日期有 10/27 與 10/28 兩說，未取得官方公告）"
+        }
+      ],
+      "thesis": "大型科技與 AI 資本支出指標，朋友提議加入觀察；尚未進場"
     }
   ],
   "macro": {
