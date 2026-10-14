@@ -1429,6 +1429,11 @@
   "title": "Netflix bet big on AI with new movie — but did it help or hinder? - The Independent",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "486652bf2f858c7b": {
+  "ticker": "PLTR",
+  "title": "Palantir drops City Hall legal fight over Met deal - BBC",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
+ },
  "48eab19aab196d27": {
   "ticker": "NFLX",
   "title": "Netflix layoffs to reportedly affect 6% of company’s workforce - KRON4",
@@ -2099,6 +2104,11 @@
   "title": "Netflix, National Youth Theatre renew IGNITE Your Creativity programme - Advanced Television",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "65a8a8a4a36eeb7a": {
+  "ticker": "NFLX",
+  "title": "Netflix Film VP Doug Belgrad Is Out Amid Layoffs - IMDb",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
+ },
  "65bdc9a8c72a4344": {
   "ticker": "NFLX",
   "title": "Netflix (NFLX) Announces Major Layoffs Amid User Growth Challenges - GuruFocus",
@@ -2393,6 +2403,11 @@
   "ticker": "IONQ",
   "title": "IONQ261016C00043500 Interactive Stock Chart | IONQ Oct 2026 43.500 call Stock - Yahoo Finance",
   "ts": "2026-10-14T17:19:15.493891+00:00"
+ },
+ "742dd657d66d611d": {
+  "ticker": "NFLX",
+  "title": "Aziz Ansari's next comedy special lands at Netflix, as is tradition - A.V. Club",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
  },
  "746ae404e18f8a74": {
   "ticker": "NFLX",
@@ -2834,6 +2849,11 @@
   "title": "Forget ‘John Wick,’ Denzel Washington’s $192M Action Hit Is Now on Netflix - Collider",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "8d1d12180795085d": {
+  "ticker": "MACRO",
+  "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KVAL",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
+ },
  "8d4854062b385c93": {
   "ticker": "NFLX",
   "title": "The New Maritime Mystery Is Netflix’s Most-Watched Show of the Week - IMDb",
@@ -3246,6 +3266,36 @@
     "ticker": "MACRO",
     "title": "Fed rate hike call seen tight as inflation heats up - The Korea Times",
     "ts": "2026-10-14T15:49:03+00:00"
+   },
+   {
+    "key": "cdf7d2b2332c2de4",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSF9VSkhsNU5ZTzJCTHoySUcxNFlEdG1JdlJDZ2thS2EzdU9JaFlEb3ZGOEt1Smo0ZTNUZmxhbTBkLURQclU0eTdLSzdlcksxdDhuRkpwT2dUVU9PbTE2UjkzVDYtSURLcElSTDg0dDFrODlLVkNnTmpWVzhia1JnZE53?oc=5",
+    "name": "",
+    "source": "Arbiterz",
+    "ticker": "MACRO",
+    "title": "Oil Prices Today: Brent Crude Rises to $106.7 Per Barrel - Arbiterz",
+    "ts": "2026-10-14T17:25:32+00:00"
+   },
+   {
+    "key": "8d1d12180795085d",
+    "label": "📈 對風險資產偏多",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd05ieFRieVZQalNLZTBEcVNYV2VBOUkwNXQ4QndqZjAwNU1fNE5iWVRGMWM3OUZXdWRiWWNDSHd0amVWelV6TjhuMW81b0ltU0t4TlhRMmNURVNIdUVUbDdwbUFwMGI2ZVVEekVKRXVCUkppRUJ1NkpjYXlEZVpxd0p5bHpoTnZ5aUt3a3V5ei1VdFVCU09nMm9lZnhRSk1BN3lEOWRjVQ?oc=5",
+    "name": "",
+    "source": "KVAL",
+    "ticker": "MACRO",
+    "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KVAL",
+    "ts": "2026-10-14T17:17:58+00:00"
+   },
+   {
+    "key": "c3988c335337373f",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNejB4NzJHMmlqRXlIYWJ5X2gxQ3FPWS1WQkJydVN5c3poV1pUQlJ6bjlJTjlSSXQ1Q0NwaFJseTZfbXhVeHlxY2U5N2tDay1mckwyTWtBcXFfX0F6MllNOVJKM0hyYzdkYU1MaDhVOFo4N2o3c1hiZDRKNVBRUmNhOENJWWdNU3BFWXROODhxcjZXaE9GSzhFdlFnU1VBZnhuR3U3MXlic1dYcGZrNzVFYmhn?oc=5",
+    "name": "",
+    "source": "The Globe and Mail",
+    "ticker": "MACRO",
+    "title": "U.S. Fed rate hike call seen tight as inflation heats up - The Globe and Mail",
+    "ts": "2026-10-14T14:38:45+00:00"
    }
   ]
  },
@@ -4024,6 +4074,11 @@
   "title": "Micron stock prediction: $953.19, Bull $1,725.58, Bear $613.63 - FinanceFeeds",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "c3988c335337373f": {
+  "ticker": "MACRO",
+  "title": "U.S. Fed rate hike call seen tight as inflation heats up - The Globe and Mail",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
+ },
  "c411e82d3f14682a": {
   "ticker": "MACRO",
   "title": "【今日重点关注的财经数据与事件：2026年10月15日 周四】 ① 待定 国内成品油开启新一轮调价窗口 ② 待定 20国集团财长和央行行长会议 ③ 01:30 美联储巴尔金参加谈话 ④ 02:00 美联储公布经济状况褐皮书 ⑤ 04:30 ",
@@ -4274,6 +4329,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Washington Times H",
   "ts": "2026-10-14T16:55:52.574268+00:00"
  },
+ "cdf7d2b2332c2de4": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Today: Brent Crude Rises to $106.7 Per Barrel - Arbiterz",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
+ },
  "ce2b3adedd766a50": {
   "ticker": "MACRO",
   "title": "US inflation heats up in September; Fed rate hike in October back on table - The Straits Times",
@@ -4408,6 +4468,11 @@
   "ticker": "HCLTECH",
   "title": "LKP Research cuts HCL Tech stock rating to Hold at INR 1,360 target - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "d882e39a2f55def7": {
+  "ticker": "NFLX",
+  "title": "‘The Trap’ on Netflix: Cast, Plot & How to Watch the New Thriller - Hollywood Life",
+  "ts": "2026-10-14T17:30:52.658080+00:00"
  },
  "d8b7d97478d6041e": {
   "ticker": "NFLX",
