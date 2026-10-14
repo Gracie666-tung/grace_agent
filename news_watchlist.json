@@ -525,6 +525,88 @@
         }
       ],
       "thesis": "生技；日成交值偏低"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Coherent Corp",
+        "NYSE: COHR",
+        "Coherent stock"
+      ],
+      "queries": [
+        "Coherent Corp",
+        "COHR stock Coherent"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "COHR",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-04",
+          "label": "FQ1 FY27 財報（估計，公司未公告）"
+        }
+      ],
+      "thesis": "光通訊第二檔，與 LITE 同向；個股報告建議小倉 4–6%"
+    },
+    {
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Applied Optoelectronics",
+        "NASDAQ: AAOI"
+      ],
+      "queries": [
+        "Applied Optoelectronics",
+        "AAOI stock Applied Optoelectronics"
+      ],
+      "sec_cik": 1158114,
+      "yahoo_symbol": "AAOI",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-05",
+          "label": "Q3 財報（估計 11/5–11/9，公司未公告）"
+        }
+      ],
+      "thesis": "光通訊小型股；今年三次增資、客戶極度集中，個股報告建議避開"
+    },
+    {
+      "ticker": "AXTI",
+      "name": "AXT Inc",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "AXT Inc",
+        "NASDAQ: AXTI"
+      ],
+      "queries": [
+        "AXT Inc",
+        "AXTI stock AXT"
+      ],
+      "sec_cik": 1051627,
+      "yahoo_symbol": "AXTI",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-29",
+          "label": "Q3 財報（公司已確認）"
+        }
+      ],
+      "thesis": "InP 基板供應商（LITE 長約）；中國出口許可風險，建議避開或財報後再評估"
     }
   ]
 }
