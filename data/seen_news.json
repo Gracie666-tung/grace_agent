@@ -1614,6 +1614,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Castanet",
   "ts": "2026-10-14T19:50:26.225177+00:00"
  },
+ "399411b175ec12d2": {
+  "ticker": "MACRO",
+  "title": "EUR/USD Analysis: Euro Loses Ground After a Stronger-Than-Expected U.S. CPI Report - FOREX.com",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
+ },
  "39a24f6a5a1e5a33": {
   "ticker": "MACRO",
   "title": "美国至10月9日当周API原油库存将于十分钟后公布。",
@@ -2218,6 +2223,11 @@
   "ticker": "MACRO",
   "title": "2027年FOMC票委、里奇蒙联储主席巴尔金将于十分钟后参加一场炉边谈话。",
   "ts": "2026-10-14T17:25:02.734150+00:00"
+ },
+ "4d50c5638c2d8e55": {
+  "ticker": "MACRO",
+  "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
  },
  "4d6eaba6a87a52ae": {
   "ticker": "NFLX",
@@ -3839,6 +3849,11 @@
   "title": "D-Wave Quantum Slips as Soaring Treasury Yields and IonQ's $1.3 Billion Stock Deal Test the Sector's - ad-hoc-news.de",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "7eaee5b5b648b387": {
+  "ticker": "NFLX",
+  "title": "Netflix reportedly plans about 1,000 job cuts in 2026 - NeoTeo",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
+ },
  "7ec40b9c24d74532": {
   "ticker": "MU",
   "title": "Micron pledges $50M to support DOE’s Genesis Mission - Manufacturing Dive",
@@ -4249,6 +4264,11 @@
   "title": "Netflix To Lay Off Roughly 1,000 Employees In Biggest Round Of Job Cuts Since 2022 - Engadget",
   "ts": "2026-10-14T16:44:14.219087+00:00"
  },
+ "8f0969bc82c9a2b8": {
+  "ticker": "MACRO",
+  "title": "U.S. inflation heats up in September; Fed rate hike this month back on table - Honolulu Star-Advertiser",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
+ },
  "8f2a6e77b00198fe": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - myMotherLode.com",
@@ -4263,6 +4283,11 @@
   "ticker": "TSLA",
   "title": "Robinhood launches tokenized stocks on Hedera, enabling 24/7 trading of Apple, Tesla, Nvidia, and SPY. - Pluang",
   "ts": "2026-10-14T19:56:13.904369+00:00"
+ },
+ "8f6a6a292ae90272": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Provides Update on Neutron Development and Adjusts Target Launch Timing - StreetInsider",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
  },
  "8fa0c95ec82c9f19": {
   "ticker": "MU",
@@ -4831,6 +4856,16 @@
     "ticker": "MACRO",
     "title": "美国至10月9日当周API投产原油量 11.8万桶/日，前值9.2万桶/日。",
     "ts": "2026-10-14T20:31:24+00:00"
+   },
+   {
+    "key": "8f0969bc82c9a2b8",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR01ZSjN4RmpZc2J3S3IyX0ViWWFDZ3ZaQXhsbjVuQWhZcUdORWU4V2xvLXNZZ2NQdHlGZ21LYTFEcy1Sc0FHX2MyaGJxTVlOQnNFeG8taUxFeERNdm53anZhMFdmcW5VcmRCZnVlWWFac3F1MklGVkZDTkVKb092QXNNal9FMWZnck41SHplQktKMW5ZWFhwRzBDQ2RYaFFlOWsyN25ER3d0RjZJbThiYUZNd2czY3RuZlZ5MUs1ZnctZllVLXBpM3JjTQ?oc=5",
+    "name": "",
+    "source": "Honolulu Star-Advertiser",
+    "ticker": "MACRO",
+    "title": "U.S. inflation heats up in September; Fed rate hike this month back on table - Honolulu Star-Advertiser",
+    "ts": "2026-10-14T20:40:15+00:00"
    }
   ]
  },
@@ -6009,6 +6044,11 @@
   "title": "Oil Prices Rise as Attacks on Saudi Energy Facilities and Middle East Tankers Heighten Supply Fears - EnergyNow.com",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "c7a9579263a5cc32": {
+  "ticker": "NFLX",
+  "title": "Netflix to lay off roughly 1,000 employees - Yahoo Finance",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
+ },
  "c7c882141bb2492f": {
   "ticker": "MU",
   "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027",
@@ -6388,6 +6428,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Rise, Middle East Tensions Continue to Threaten Global Supply - Morocco World News",
   "ts": "2026-10-14T18:11:31.110628+00:00"
+ },
+ "d1de77d0a0388048": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab delays Neutron rocket debut to 2027 - StreetInsider",
+  "ts": "2026-10-14T20:42:47.349303+00:00"
  },
  "d1f0b6bad5317382": {
   "ticker": "TSLA",
