@@ -139,6 +139,11 @@
   "title": "US inflation rises before midterm elections, fuelling rate hike fears - Al Jazeera",
   "ts": "2026-10-14T16:55:52.574268+00:00"
  },
+ "04f1cb5b3014e2ff": {
+  "ticker": "AMD",
+  "title": "Why Is AMD Stock Falling on Wednesday? - Benzinga",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
  "050bd2aa725af89f": {
   "ticker": "NFLX",
   "title": "Netflix Confirms It's Laying Off 6% of Staff - ADWEEK",
@@ -473,6 +478,11 @@
   "ticker": "MACRO",
   "title": "BlackRock Cuts US Stock Exposure, Says Fed Hike Bets Gone Too Far - BlackRock (NYSE:BLK) - Benzinga",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "141a522c9205494a": {
+  "ticker": "MACRO",
+  "title": "US Stock Futures Edge Higher as Bank Stocks Slide Ahead of US CPI Report - Analytics Insight",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "1426a960af9c835b": {
   "ticker": "TSLA",
@@ -968,6 +978,11 @@
   "ticker": "NFLX",
   "title": "Netflix secures streaming rights for 2030 FIFA World Cup - htxt.co.za",
   "ts": "2026-10-14T12:08:20.352127+00:00"
+ },
+ "2848a94227f45ff5": {
+  "ticker": "NFLX",
+  "title": "Netflix laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - The Tribune-Democrat",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "284968946c6adee7": {
   "ticker": "MACRO",
@@ -1473,6 +1488,11 @@
   "ticker": "PLTR",
   "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - SRN News",
   "ts": "2026-10-14T17:48:17.864808+00:00"
+ },
+ "3e2abd50d28c1c52": {
+  "ticker": "MACRO",
+  "title": "WRAPUP 4-US inflation heats up in September; Fed rate hike this month back on table - Devdiscourse",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "3e64def7b96822ba": {
   "ticker": "TSLA",
@@ -2189,6 +2209,11 @@
   "title": "Palantir settles lawsuit with London mayor over police contract By Investing.com - Investing.com India",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "5a47edca72e0df0c": {
+  "ticker": "MU",
+  "title": "Why are Micron, SK Hynix, SanDisk stocks falling on Wednesday? - Invezz",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
  "5a498f5d7eb65e70": {
   "ticker": "MACRO",
   "title": "Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today - CoinDesk",
@@ -2443,6 +2468,11 @@
   "ticker": "TSLA",
   "title": "PIX RoboBus Debuts: 6 Seats vs Tesla Robovan’s 20 [2026] - https://tech-insider.org/",
   "ts": "2026-10-14T18:23:06.361647+00:00"
+ },
+ "633f189ff34c794f": {
+  "ticker": "MACRO",
+  "title": "How far will the Fed go? - T. Rowe Price",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "641b8179806293d8": {
   "ticker": "MACRO",
@@ -2733,6 +2763,11 @@
   "ticker": "AMD",
   "title": "Advanced Micro Devices Inc Stock (AMD) Moved Down by 3.47% on Oct 14: Drivers Behind the Movement - TradingKey",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "6ede389e0a379a2f": {
+  "ticker": "NFLX",
+  "title": "Netflix plans major staff cuts amid competition for viewers - Українські Національні Новини (УНН)",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "6f10e83e3082a267": {
   "ticker": "MACRO",
@@ -3039,10 +3074,20 @@
   "title": "Nasdaq Composite Eases 0.22% to 27,538.69 After Record Close as Micron Gains Offset Meta Losses - BBN Times",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "7b28affbb454feaf": {
+  "ticker": "NFLX",
+  "title": "Netflix TV Layoffs Include Director of Original Series Carolina Garcia, Who Exits After 10 Years - IMDb",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
  "7b436dfa509b2d87": {
   "ticker": "NFLX",
   "title": "Netflix picks up YouTube preschool series Lumo the Lapland Reindeer - C21media",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "7b46d814d549c80c": {
+  "ticker": "SNDK",
+  "title": "$SanDisk (SNDK.US)$ alllllllllllll market redddddddddd yeahhhhhhhhhhh - Moomoo",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "7b5b103eff0a468f": {
   "ticker": "SMCI",
@@ -3488,6 +3533,11 @@
   "ticker": "MACRO",
   "title": "CPI inflation heats up in September, fueled by jump in gasoline prices - Seeking Alpha",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "90ec635209d92d94": {
+  "ticker": "MACRO",
+  "title": "美联储巴尔金：明天的PPI数据将有助于我判断通货膨胀的走势。",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "90f32b6991f48cb9": {
   "ticker": "PLTR",
@@ -3966,6 +4016,56 @@
     "ticker": "MACRO",
     "title": "Oil Royalty Rollercoaster – Alberta Projects C$9.4 Billion Deficit on Lower Oil Prices - EnergyNow",
     "ts": "2026-10-14T16:04:48+00:00"
+   },
+   {
+    "key": "90ec635209d92d94",
+    "label": "➖ 看不出",
+    "link": "https://flash.jin10.com/detail/20261015024026757800",
+    "name": "",
+    "source": "Jin10",
+    "ticker": "MACRO",
+    "title": "美联储巴尔金：明天的PPI数据将有助于我判断通货膨胀的走势。",
+    "ts": "2026-10-14T18:40:26+00:00"
+   },
+   {
+    "key": "c6e6e65de7b14b89",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONkI5cHZJc3NlOVpxZ05HTGt6WXBZeF9ad2JNa3RrVVdEZWVrcUo5RHZsNThtNndROWhBSUM0Q1RUZDFtNmRjVGpYcWpMenhyLTNOQjJuSHN0RmlSX3g3YXJQdGpnbXhVLUtIYktoaTVtZGs4T1FWVGhUM3dnMjRmVkFpZkhFLUN4X1JuVklDbVoyc0JxekYzZzJQS2txdHRVYU9FaDlrc1pjaFZHM25VTXJLUHhHRUtIY3hiM1JMMXdGb1FGMThUdjR2RFJEanZ2b21SSGpzQmRMaDdGM0ZEdg?oc=5",
+    "name": "",
+    "source": "marketscreener.com",
+    "ticker": "MACRO",
+    "title": "November WTI Crude Oil Contract Closes up $0.95, or 1%, Settles at $95.09 per Barrel. December Brent Oil Was Last Seen Up $0.51, or 0.5%, to $106.20 - marketscreener.com",
+    "ts": "2026-10-14T18:36:19+00:00"
+   },
+   {
+    "key": "3e2abd50d28c1c52",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQlBsazZFOUc1Z0pMTVgtSjB4N20xRU9BOHFfS3MtU2Z2anlmcGFjTTZnakc3cWpYLVhfVTU5dWZtX1E0NlF2dVdqc3NuRUppLTM3WjVqM09aX280Z2FMMEVISWk3QTVJVllra1hhblluYzVpVWs2a09WZG84b3BwZEFoRnpLb2gwcWZUSndydnRxanB4b21yU2RIVWI4a19GYUMzZDV1VzBNbGJDa01zdGVpNU45WnlBdHlQSEFTRllVZTZpX3g5bTZtUVU2NE1rN3NhQWptZFpqa001akHSAd4BQVVfeXFMUEJQbGs2RTlHNWdKTE1YLUoweDdtMUVPQThxX0tzLVNmdmp5ZnBhY002Z2pHN3FqWC1YX1U1OXVmbV9RNDZRdnVXanNzbkVKaS0zN1o1ajNPWl9vNGdhTDBFSElpN0E1SVZZa2tYYW5ZbmM1aVVrNmtPVmRvOG9wcGRBaEZ6S29oMHFmVEp3cnZ0cWpweG9tclNkSFViOGtfRmFDM2Q1dVcwTWxiQ2tNc3RlaTVOOVp5QXR5UEhBU0ZZVWU2aV94OW02bVFVNjRNazdzYUFqbWRaamtNNWpB?oc=5",
+    "name": "",
+    "source": "Devdiscourse",
+    "ticker": "MACRO",
+    "title": "WRAPUP 4-US inflation heats up in September; Fed rate hike this month back on table - Devdiscourse",
+    "ts": "2026-10-14T17:26:07+00:00"
+   },
+   {
+    "key": "e116b62ccabc4abd",
+    "label": "📉 對風險資產偏空",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yb2dTN0JKczZUbkFiN1lhVS1TZF9ORTI3MEU4ZGFGaWloaGZBYzZ2NkVraU9wNVJMbXFUNW9ocnppUnRMSWdqTmQzbUhPV1JDQmVFaU9B0gFWQVVfeXFMTXJvZ1M3QkpzNlRuQWI3WWFVLVNkX05FMjcwRThkYUZpaWhoZkFjNnY2RWtpT3A1UkxtcVQ1b2hyemlSdExJZ2pOZDNtSE9XUkNCZUVpT0E?oc=5",
+    "name": "",
+    "source": "Business Recorder",
+    "ticker": "MACRO",
+    "title": "US inflation heats up in September; Fed rate hike this month back on table - Business Recorder",
+    "ts": "2026-10-14T16:47:45+00:00"
+   },
+   {
+    "key": "633f189ff34c794f",
+    "label": "➖ 看不出",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRzFNd19JSG9sdTlrT3VVdWhPOVhVSXgzQTBORTZMcEl2ckF3ZFcwODhhOTJHa2tHUGlYX053RFdkanM1NTZJSlpoOXZVUENMZkZ6dUgyblVZQU5vRlQtQmg4Z2cyMkZDaUVEWEdEQlM3NTBUaXQyU0N0dDdvY0dtZWJTd09nQl9ld0IwQTBTYXVDbUdET0liZU9MLTgzZzQtUngzSGJWeVJnYzZmMnk0?oc=5",
+    "name": "",
+    "source": "T. Rowe Price",
+    "ticker": "MACRO",
+    "title": "How far will the Fed go? - T. Rowe Price",
+    "ts": "2026-10-14T16:44:24+00:00"
    }
   ]
  },
@@ -4929,6 +5029,11 @@
   "title": "Why Is Crude Oil Price Rising Today? Is the Saudi Attack the Reason? - Coin Gabbar",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "c6e6e65de7b14b89": {
+  "ticker": "MACRO",
+  "title": "November WTI Crude Oil Contract Closes up $0.95, or 1%, Settles at $95.09 per Barrel. December Brent Oil Was Last Seen U",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
  "c76510e8308d5258": {
   "ticker": "SNDK",
   "title": "Sandisk Expands AI Memory Business Ahead of Oct. 29 Results - SuaraGarut.ID",
@@ -5238,6 +5343,16 @@
   "ticker": "IONQ",
   "title": "IonQ Stock Falls Amid Quantum Firm's $2 Billion Equity Offering - Investor's Business Daily",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "d0be1cdc899661d6": {
+  "ticker": "NFLX",
+  "title": "Get an Exclusive First Look at the Incredible New Cast Joining Netflix's Emmy-Winning Blue Eye Samurai Season 2 - IGN",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
+ "d0f5e1ccbaac037c": {
+  "ticker": "NFLX",
+  "title": "Harlan Coben's next Netflix thriller just moved closer to its debut - Netflix Life",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "d183f57d99dcb5aa": {
   "ticker": "NFLX",
@@ -5568,6 +5683,11 @@
   "ticker": "MU",
   "title": "Micron's Customer Contracts Just Took the Memory Cycle Off the Table - Yahoo Finance",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "e116b62ccabc4abd": {
+  "ticker": "MACRO",
+  "title": "US inflation heats up in September; Fed rate hike this month back on table - Business Recorder",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "e12667a93c819cf8": {
   "ticker": "NFLX",
@@ -6118,6 +6238,11 @@
   "ticker": "MU",
   "title": "Why Are Micron (NASDAQ:MU) and Storage Shares Under Pressure Again? - kalkine.ca",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "f9d7e4ba052fb6ad": {
+  "ticker": "NFLX",
+  "title": "Netflix is laying off 6% of its workforce, marking its biggest round of job cuts in years - DC News Now",
+  "ts": "2026-10-14T18:46:22.687972+00:00"
  },
  "f9e182314018ebfb": {
   "ticker": "MACRO",
