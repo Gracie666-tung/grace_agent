@@ -1,5 +1,5 @@
 {
-  "_說明": "新聞監測 watchlist。改這個檔即可增減標的，不用動程式。aliases 為標題/摘要必須出現其一的字串（不分大小寫、整詞比對）；status: held|candidate；weight_pct/entry_price/stop_pct 不知道就 null；locales 可選 en-US/de-DE；yahoo_symbol 可選（預設用 ticker）。 目前 20 檔：5 檔持股（LITE/HOOD/TSLA/AMD/PLTR，weight_pct 為計畫權重、entry_price 待進場後填）、隊友 4 檔、其餘為 16 檔候選名單。",
+  "_說明": "新聞監測 watchlist。改這個檔即可增減標的，不用動程式。aliases 為標題/摘要必須出現其一的字串（不分大小寫、整詞比對）；status: held|candidate；weight_pct/entry_price/stop_pct 不知道就 null；locales 可選 en-US/de-DE；yahoo_symbol 可選（預設用 ticker）。 目前 23 檔，尚未進場，全部標為候選；10/15 進場後請填入實際持股的 status=held、weight_pct、entry_price、stop_pct。起手配置見個股報告（ANET 12、HAG 10、AMD 8、HOOD 6、LITE 5、COHR 5、PLTR 5、CORT 4）。",
   "end_date": "2026-11-13",
   "timezone": "Asia/Taipei",
   "timezone_note": "end_date 以 Asia/Taipei 日期判定；該日結束後程式直接 exit 0。",
@@ -127,10 +127,10 @@
       ],
       "sec_cik": 1633978,
       "yahoo_symbol": "LITE",
-      "status": "held",
-      "weight_pct": 20,
+      "status": "candidate",
+      "weight_pct": null,
       "entry_price": null,
-      "stop_pct": 15,
+      "stop_pct": null,
       "next_events": [
         {
           "date": "2026-11-05",
@@ -156,10 +156,10 @@
       ],
       "sec_cik": 1783879,
       "yahoo_symbol": "HOOD",
-      "status": "held",
-      "weight_pct": 20,
+      "status": "candidate",
+      "weight_pct": null,
       "entry_price": null,
-      "stop_pct": 15,
+      "stop_pct": null,
       "next_events": [
         {
           "date": "2026-10-27",
@@ -186,10 +186,10 @@
       ],
       "sec_cik": 2488,
       "yahoo_symbol": "AMD",
-      "status": "held",
-      "weight_pct": 15,
+      "status": "candidate",
+      "weight_pct": null,
       "entry_price": null,
-      "stop_pct": 15,
+      "stop_pct": null,
       "next_events": [
         {
           "date": "2026-11-03",
@@ -212,10 +212,10 @@
       ],
       "sec_cik": 1321655,
       "yahoo_symbol": "PLTR",
-      "status": "held",
-      "weight_pct": 15,
+      "status": "candidate",
+      "weight_pct": null,
       "entry_price": null,
-      "stop_pct": 15,
+      "stop_pct": null,
       "next_events": [
         {
           "date": "2026-11-02",
@@ -238,10 +238,10 @@
       ],
       "sec_cik": 1318605,
       "yahoo_symbol": "TSLA",
-      "status": "held",
-      "weight_pct": 15,
+      "status": "candidate",
+      "weight_pct": null,
       "entry_price": null,
-      "stop_pct": 15,
+      "stop_pct": null,
       "next_events": [
         {
           "date": "2026-10-21",
