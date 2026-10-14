@@ -1,0 +1,33 @@
+name: news-chain-watchdog
+
+# 備援：接力若因故中斷，這個排程會在發現「沒有任何一輪在跑或排隊」時重新啟動接力。
+# GitHub 的 cron 在這個 repo 常延遲數小時，所以它只是保險，不是主力。
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 沒有接力在跑就重新啟動
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          if [[ "$today" > "2026-11-13" ]]; then echo "比賽已結束，不重啟。"; exit 0; fi
+          alive=0
+          for st in in_progress queued waiting pending requested; do
+            c=$(gh run list --repo "${{ github.repository }}" --workflow news-chain.yml --status "$st" --json databaseId --jq 'length')
+            alive=$((alive + c))
+          done
+          echo "目前接力中的 run 數：${alive}"
+          if [ "$alive" -eq 0 ]; then
+            echo "重新啟動接力"
+            gh workflow run news-chain.yml --repo "${{ github.repository }}"
+          fi

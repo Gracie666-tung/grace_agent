@@ -1,0 +1,109 @@
+name: news-chain
+
+# 新聞監測「接力版」：GitHub 的 cron 排程在這個 repo 常被延遲數小時，所以改成
+# 一個 job 跑約 5.5 小時、內部每 5 分鐘執行一次 src/news_monitor.py，結束前用
+# GITHUB_TOKEN 以 workflow_dispatch 觸發下一輪。手動觸發實測在數秒內就會開始。
+# 停止方法：停用本 workflow（gh workflow disable news-chain.yml）或取消目前這一輪；
+# 比賽結束日（2026-11-13，UTC）之後不再接力。
+on:
+  workflow_dispatch:
+    inputs:
+      link:
+        description: "目前是第幾輪"
+        required: false
+        default: "1"
+      max_links:
+        description: "最多接力幾輪（0 = 不限，直到比賽結束）"
+        required: false
+        default: "0"
+      minutes:
+        description: "每輪跑幾分鐘"
+        required: false
+        default: "330"
+      interval:
+        description: "每次執行間隔秒數"
+        required: false
+        default: "300"
+      dry_run:
+        description: "只印出訊息，不推播、不寫狀態"
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: news-chain
+  cancel-in-progress: false
+
+permissions:
+  contents: write # 每次執行後把 data/seen_news.json 提交回 repo
+  actions: write # 觸發下一輪
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: 本輪迴圈
+        env:
+          LINK: ${{ github.event.inputs.link }}
+          MIN: ${{ github.event.inputs.minutes }}
+          INTERVAL: ${{ github.event.inputs.interval }}
+          DRY: ${{ github.event.inputs.dry_run }}
+          NEWS_TELEGRAM_BOT_TOKEN: ${{ secrets.NEWS_TELEGRAM_BOT_TOKEN }}
+          NEWS_TELEGRAM_CHAT_ID: ${{ secrets.NEWS_TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          git config user.name "news-monitor-bot"
+          git config user.email "news-monitor-bot@users.noreply.github.com"
+          echo "link=${LINK} 開始 $(date -u +%H:%M:%S) UTC"
+          end=$(( $(date +%s) + MIN * 60 ))
+          flag=""
+          if [ "${DRY}" = "true" ]; then flag="--dry-run"; fi
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            n=$((n+1))
+            echo "::group::link=${LINK} 第 ${n} 次 $(date -u +%H:%M:%S) UTC"
+            git pull -q --rebase || echo "pull 失敗，沿用現有檔案"
+            python src/news_monitor.py ${flag} --since-hours 3 || echo "news_monitor 回傳非 0，繼續下一次"
+            if [ "${DRY}" != "true" ] && ! git diff --quiet data/seen_news.json; then
+              git add data/seen_news.json
+              git commit -q -m "chore: update seen news [skip ci]"
+              git pull -q --rebase || true
+              git push -q || echo "push 失敗，下一次再試"
+            fi
+            echo "::endgroup::"
+            sleep "${INTERVAL}"
+          done
+          echo "link=${LINK} 結束 $(date -u +%H:%M:%S) UTC"
+
+      - name: 觸發下一輪
+        if: ${{ success() || failure() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LINK: ${{ github.event.inputs.link }}
+          MAX: ${{ github.event.inputs.max_links }}
+          MIN: ${{ github.event.inputs.minutes }}
+          INTERVAL: ${{ github.event.inputs.interval }}
+          DRY: ${{ github.event.inputs.dry_run }}
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          if [[ "$today" > "2026-11-13" ]]; then
+            echo "已超過比賽結束日（${today}），不再接力。"; exit 0
+          fi
+          if [ "${MAX}" != "0" ] && [ "${LINK}" -ge "${MAX}" ]; then
+            echo "已達最大輪數 ${MAX}，不再接力。"; exit 0
+          fi
+          next=$((LINK+1))
+          echo "觸發第 ${next} 輪 $(date -u +%H:%M:%S) UTC"
+          gh workflow run news-chain.yml --repo "${{ github.repository }}" \
+            -f link="${next}" -f max_links="${MAX}" -f minutes="${MIN}" -f interval="${INTERVAL}" -f dry_run="${DRY}"

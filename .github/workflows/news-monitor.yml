@@ -1,8 +1,7 @@
 name: news-monitor
 
 on:
-  schedule:
-    - cron: "3,13,23,33,43,53 4-21 * * 1-5"
+  # 排程已停用：GitHub cron 在這個 repo 常延遲數小時，改由 news-chain.yml 接力執行（此檔保留手動觸發）
   workflow_dispatch:
     inputs:
       dry_run:
