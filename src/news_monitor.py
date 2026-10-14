@@ -77,6 +77,12 @@ NOISE = re.compile(
     r"\b(acquires|buys|sells|boosts|trims|raises|lowers|cuts|lifts|purchases)\b.*\bshares of\b",
     re.IGNORECASE,
 )
+# 期權成交量/量化選股類灌水文：不是公司新聞，即使標題含 contract/earnings 等字也一律濾掉。
+OPTIONS_SPAM = re.compile(
+    r"contracts were traded|options income daily|options spot-on|unusual options|quant picks|"
+    r"call bet|put bet|options? (flow|activity|alert)",
+    re.IGNORECASE,
+)
 
 VALUES = ("high", "medium", "low")
 DIRECTIONS = ("up", "down", "neutral")
@@ -297,7 +303,7 @@ def select_new(items: list[dict], entry: dict, state: dict, claimed: set) -> lis
     for it in sorted(items, key=lambda x: x["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True):
         if not is_relevant(it, entry):
             continue
-        if NOISE.search(it["title"]) and not HARD_TRIGGERS.search(it["title"]):
+        if OPTIONS_SPAM.search(it["title"]) or (NOISE.search(it["title"]) and not HARD_TRIGGERS.search(it["title"])):
             noise_count[0] += 1
             continue
         key = item_key(it)
@@ -469,7 +475,8 @@ def should_send(item: dict, analysis: dict | None) -> bool:
 # ---------------------------------------------------------------------------
 
 def _e(s) -> str:
-    return html.escape(str(s), quote=True).replace("&#x27;", "&#39;")
+    # RSS 標題常已含 &#39; 之類實體，先還原再跳脫，避免 Telegram 顯示成亂碼
+    return html.escape(html.unescape(str(s)), quote=True).replace("&#x27;", "&#39;")
 
 
 def _link(item: dict) -> str:
@@ -493,8 +500,54 @@ def format_item_analyzed(i: int, item: dict, a: dict | None) -> str:
     return "\n".join(lines)
 
 
+# 無 LLM 時的粗略判讀：只看標題/摘要裡的關鍵字，不是完整分析。
+BULL_WORDS = re.compile(
+    r"\b(?:beats?|tops?|surg\w*|soar\w*|jump\w*|rall(?:y|ies|ied)|record|raises?|raised|boosts?|"
+    r"upgrad\w*|outperform\w*|approv\w*|wins?|won|accelerat\w*|lifts?|climbs?|gains?|strong\w*)\b"
+    r"|超預期|調升|上修|大漲|創高|核准|獲准",
+    re.IGNORECASE,
+)
+BEAR_WORDS = re.compile(
+    r"\b(?:miss(?:es|ed)?|falls?|fell|drops?|dropped|plung\w*|slump\w*|tumbl\w*|sinks?|slid\w*|slides?|"
+    r"cuts?|lowers?|downgrad\w*|warns?|probe|investigation|lawsuit|sued|recall\w*|halts?|delay\w*|"
+    r"rejects?|weak\w*|sell-?off|dilut\w*|offering|layoffs?|fraud|short seller)\b"
+    r"|不如預期|調降|下修|大跌|訴訟|召回",
+    re.IGNORECASE,
+)
+EVENT_TYPES = [
+    (r"earnings|財報", "財報"), (r"guidance|財測|展望", "財測"),
+    (r"\bFDA\b|\bEMA\b|PDUFA", "監管審批"), (r"upgrade|downgrade|評等", "分析師評等"),
+    (r"offering|增資", "增資"), (r"lawsuit|\bprobe\b|investigation|訴訟", "訴訟/調查"),
+    (r"contract|合約", "合約"), (r"acquisition|to acquire|併購", "併購"), (r"recall|召回", "召回"),
+]
+
+
+def rule_view(item: dict) -> dict:
+    """標題關鍵字判讀：回傳 {label, types[], words[]}。粗略訊號，不取代閱讀內文。"""
+    text = f"{item.get('title', '')} {item.get('snippet', '') or ''}"
+    bull = [m.group(0).lower() for m in BULL_WORDS.finditer(text)]
+    bear = [m.group(0).lower() for m in BEAR_WORDS.finditer(text)]
+    if bull and not bear:
+        label = "📈 偏多"
+    elif bear and not bull:
+        label = "📉 偏空"
+    elif bull and bear:
+        label = "⚖️ 多空混雜" if len(bull) == len(bear) else ("📈 略偏多" if len(bull) > len(bear) else "📉 略偏空")
+    else:
+        label = "➖ 看不出方向"
+    types = [name for pat, name in EVENT_TYPES if re.search(pat, text, re.IGNORECASE)]
+    words = list(dict.fromkeys(bull + bear))[:4]
+    return {"label": label, "types": types, "words": words}
+
+
 def format_item_digest(i: int, item: dict) -> str:
-    return f"{i}. {_e(item['title'])}\n{_link(item)}"
+    v = rule_view(item)
+    meta = [f"判讀：{v['label']}"]
+    if v["types"]:
+        meta.append("類型：" + "、".join(v["types"]))
+    if v["words"]:
+        meta.append("依據：" + ", ".join(v["words"]))
+    return f"{i}. {_e(item['title'])}\n{_e(' · '.join(meta))}\n{_link(item)}"
 
 
 def build_message(entry: dict, rows: list[tuple[dict, dict | None]], analyzed: bool) -> str:
@@ -507,11 +560,10 @@ def build_message(entry: dict, rows: list[tuple[dict, dict | None]], analyzed: b
         meta.append(f"權重 {entry['weight_pct']}%")
     if meta:
         head += f"\n<i>{_e(' · '.join(meta))}</i>"
-    if not analyzed:
-        head += "\n⚠️ 無分析（未啟用 AI 判讀），僅列標題與連結"
     body = [format_item_analyzed(i, it, a) if analyzed else format_item_digest(i, it)
             for i, (it, a) in enumerate(rows, 1)]
-    return head + "\n\n" + "\n\n".join(body) + f"\n\n<i>{DISCLAIMER}</i>"
+    note = "" if analyzed else "判讀為標題關鍵字的粗略規則，請點連結看內文。"
+    return head + "\n\n" + "\n\n".join(body) + f"\n\n<i>{note}{DISCLAIMER}</i>"
 
 
 def split_message(text: str, limit: int = TG_LIMIT) -> list[str]:

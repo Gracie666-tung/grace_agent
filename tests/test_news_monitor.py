@@ -216,7 +216,7 @@ def test_llm_parse_failure_falls_back_to_digest_in_run():
                 mock.patch("builtins.print", side_effect=lambda *a, **k: printed.append(" ".join(map(str, a)))):
             assert nm.run(_args(cfg, dry_run=True), now=NOW) == 0
         out = "\n".join(printed)
-        assert "無法解析" in out and "無分析" in out
+        assert "無法解析" in out and "判讀：" in out
 
 
 def test_unsent_run_does_not_write_state_and_fails_in_actions():
@@ -258,6 +258,22 @@ def test_digest_only_hard_triggers_and_capped():
 def test_fetch_body_skips_google_links():
     with mock.patch.object(nm.requests, "get", side_effect=AssertionError("不該請求 Google 連結")):
         assert nm.fetch_body({"link": "https://news.google.com/rss/articles/AAA", "origin": "Google News"}) is None
+
+
+def test_rule_view_direction_and_types():
+    v = nm.rule_view({"title": "Arista beats estimates, raises guidance", "snippet": ""})
+    assert v["label"] == "📈 偏多" and "財測" in v["types"] and "beats" in v["words"]
+    v = nm.rule_view({"title": "Tesla misses on earnings, shares tumble", "snippet": ""})
+    assert v["label"] == "📉 偏空" and "財報" in v["types"]
+    v = nm.rule_view({"title": "Palantir to hold annual meeting", "snippet": ""})
+    assert v["label"] == "➖ 看不出方向"
+    msg = nm.format_item_digest(1, {"title": "Arista beats estimates, raises guidance", "snippet": "",
+                                    "link": "https://x.example/a", "source": "Reuters"})
+    assert "判讀：📈 偏多" in msg and "無分析" not in msg
+
+
+def test_escape_does_not_double_escape_entities():
+    assert nm._e("AMD&#39;s <b>push</b>") == "AMD&#39;s &lt;b&gt;push&lt;/b&gt;"
 
 
 def main() -> None:

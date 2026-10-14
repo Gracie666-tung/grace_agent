@@ -174,8 +174,11 @@
       "market": "NASDAQ",
       "currency": "USD",
       "aliases": [
-        "AMD",
-        "Advanced Micro Devices"
+        "Advanced Micro Devices",
+        "AMD stock",
+        "AMD shares",
+        "NASDAQ: AMD",
+        "Lisa Su"
       ],
       "queries": [
         "AMD stock",
