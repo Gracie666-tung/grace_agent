@@ -124,6 +124,11 @@
   "title": "3.6% COLA Announced, Netflix Layoffs and More of Today’s Top Money News - AOL.com",
   "ts": "2026-10-14T18:05:42.399699+00:00"
  },
+ "02f20f5db1e54848": {
+  "ticker": "IONQ",
+  "title": "IonQ Stock Tumbles on $2 Billion Equity Offering. Why Other Quantum Names Are Falling Just as Hard. - Barron's",
+  "ts": "2026-10-14T20:48:36.002003+00:00"
+ },
  "03ccc82f3e7ab90a": {
   "ticker": "MACRO",
   "title": "US September CPI Rises 3.7%, Beating Forecasts and Raising Rate-Hike Pressure - bloomingbit",
@@ -213,6 +218,11 @@
   "ticker": "MACRO",
   "title": "Fed rate hike call seen tight as inflation heats up - Reuters",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "06b6105f85a6f04a": {
+  "ticker": "NFLX",
+  "title": "Netflix cuts 1,000 jobs in company's biggest layoffs ever, despite strong revenue growth - Yahoo Finance",
+  "ts": "2026-10-14T20:48:36.002003+00:00"
  },
  "07d3e4e29b2294e0": {
   "ticker": "NFLX",
@@ -598,6 +608,11 @@
   "ticker": "IONQ",
   "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4% - 24/7 Wall St.",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "14c525990b773942": {
+  "ticker": "AAOI",
+  "title": "Applied optoelectronics CFO Murry sells $411,480 shares. By Investing.com - Investing.com Canada",
+  "ts": "2026-10-14T20:48:36.002003+00:00"
  },
  "15531eeec128356c": {
   "ticker": "RKLB",
@@ -4866,6 +4881,26 @@
     "ticker": "MACRO",
     "title": "U.S. inflation heats up in September; Fed rate hike this month back on table - Honolulu Star-Advertiser",
     "ts": "2026-10-14T20:40:15+00:00"
+   },
+   {
+    "key": "bf1b1d2c21797b1d",
+    "label": "➖ 看不出方向",
+    "link": "https://flash.jin10.com/detail/20261015044610401800",
+    "name": "Rocket Lab",
+    "source": "Jin10",
+    "ticker": "RKLB",
+    "title": "市场消息：美国私营航空航天公司火箭实验室（Rocket Lab）将其“中子”火箭的首飞推迟至2027年。",
+    "ts": "2026-10-14T20:46:10+00:00"
+   },
+   {
+    "key": "02f20f5db1e54848",
+    "label": "📉 偏空",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTG1WZG1RbWU3cFNNcXBUTnEzLUZZZGpvTDlldUlpQkJCLUFqckxYVWc4cXNPTUllY29QYWZCWEtpbWZMR0xwcWJCSjZNZk02SmtYaHhEd3l0c3g3bGIxd1FpelVpM2JrVUdsbnFubHJYUXBqTWNiWTFqYkl1LXJNU280RVZpQTBtNUE?oc=5",
+    "name": "IonQ",
+    "source": "Barron's",
+    "ticker": "IONQ",
+    "title": "IonQ Stock Tumbles on $2 Billion Equity Offering. Why Other Quantum Names Are Falling Just as Hard. - Barron's",
+    "ts": "2026-10-14T20:27:00+00:00"
    }
   ]
  },
@@ -5784,6 +5819,11 @@
   "title": "Columbia College Acting Student Talks Netflix’s Reboot of ‘A Different World’ - WGN-TV",
   "ts": "2026-10-14T16:09:19.262589+00:00"
  },
+ "be21d2fa611ee9ed": {
+  "ticker": "IONQ",
+  "title": "Why Did IonQ (NYSE:IONQ) Shares Fall on the NYSE? - Kalkine Media",
+  "ts": "2026-10-14T20:48:36.002003+00:00"
+ },
  "be2ecc328a33cdab": {
   "ticker": "MACRO",
   "title": "Oil rises, Brent crude crosses $106 - ارقام",
@@ -5818,6 +5858,11 @@
   "ticker": "NFLX",
   "title": "Check Out the Trailer for Netflix’s Arabic Psychological Horror Series “Obsess” - https://news.newonnetflix.info/",
   "ts": "2026-10-14T12:08:20.352127+00:00"
+ },
+ "bf1b1d2c21797b1d": {
+  "ticker": "RKLB",
+  "title": "市场消息：美国私营航空航天公司火箭实验室（Rocket Lab）将其“中子”火箭的首飞推迟至2027年。",
+  "ts": "2026-10-14T20:48:36.002003+00:00"
  },
  "bf260cf2f76b5db5": {
   "ticker": "IONQ",
