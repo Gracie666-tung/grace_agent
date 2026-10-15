@@ -244,6 +244,11 @@
   "title": "Dow Jones Forecast: DJIA cautious as oil jumps & earnings loom - FOREX.com",
   "ts": "2026-10-15T06:37:48.485305+00:00"
  },
+ "03b108f0b9ffdea5": {
+  "ticker": "MU",
+  "title": "Taiwan president calls for Micron, workers to negotiate ‘sincerely’ ahead of possible strike - Internazionale",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
  "03b15ed0cb7ed8cb": {
   "ticker": "MACRO",
   "title": "Shafaq News..Oil prices dip on easing US shipping sanctions - شفق نيوز",
@@ -2634,6 +2639,11 @@
   "title": "Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? - Yahoo Finance",
   "ts": "2026-10-14T17:48:17.864808+00:00"
  },
+ "2f90b7ecb71223f7": {
+  "ticker": "NFLX",
+  "title": "\"Terrible Movie\": Netflix Disappointed with New \"Narnia\" from \"Barbie\" Director - Insider - iXBT.games",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
  "2fb949273bc3a1b9": {
   "ticker": "NFLX",
   "title": "Phuong Mai Nguyen on Turning the Graphic Novel In Waves Into a Film - Netflix",
@@ -2768,6 +2778,11 @@
   "ticker": "CORT",
   "title": "Corcept Therapeutics (CORT) Draws Options Attention, Is It Still 18% Below Fair Value? - Yahoo Finance",
   "ts": "2026-10-15T02:45:51.082819+00:00"
+ },
+ "33104dbac46bfd6c": {
+  "ticker": "MACRO",
+  "title": "国际金4000关口将是重中之重！美债收益率已现筑顶信号？| Live分析更新中：美联储10月利率决议成为高不确定性博弈，国际现货黄金4000关口再临考验，沃什讲话是关键风向标！强通胀数据反成美元空头反扑推手.......",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
  },
  "331e22a79a3ef18f": {
   "ticker": "HCLTECH",
@@ -5003,6 +5018,11 @@
   "ticker": "MACRO",
   "title": "布伦特原油期货结算价为每桶106.06美元，上涨37美分，涨幅0.35%。",
   "ts": "2026-10-14T18:52:12.612803+00:00"
+ },
+ "5987ce1972fdadf5": {
+  "ticker": "MACRO",
+  "title": "Silver ETFs fall up to 5% as high oil prices weigh on sentiment. What should investors do? - The Economic Times",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
  },
  "599537785fd24de0": {
   "ticker": "IONQ",
@@ -9443,6 +9463,11 @@
   "title": "US Inflation 3.7%: The Level That Counts for Bitcoin - CryptoTicker",
   "ts": "2026-10-14T21:12:08.305827+00:00"
  },
+ "a8cce149fff4e58c": {
+  "ticker": "NFLX",
+  "title": "Netflix to cut 1,000 jobs, or six percent of its workforce - Film Stories",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
  "a8f0255e799c6b01": {
   "ticker": "MACRO",
   "title": "United States Dollar Index weakens to near 102.00 ahead of US CPI release - www.tmgm.com",
@@ -11353,6 +11378,11 @@
   "title": "美国国债全线上涨，10年期国债收益率下降3个基点至5.15%，2年期国债收益率下降3个基点至4.76%，30年期国债收益率下降3个基点至5.50%。",
   "ts": "2026-10-15T00:25:53.716950+00:00"
  },
+ "c938e74451bdb685": {
+  "ticker": "MACRO",
+  "title": "Gold sticks to gains below $4,150 on weak USD; bulls seem hesitant amid Fed hike bets - FXStreet",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
  "c958c9cd63352b85": {
   "ticker": "MACRO",
   "title": "Crude Oil Futures Rise on Positive Global Trends - Rediff MoneyWiz",
@@ -11673,6 +11703,11 @@
   "title": "Palantir settles lawsuit with London mayor over police contract By Investing.com - Investing.com Nigeria",
   "ts": "2026-10-14T17:36:38.400888+00:00"
  },
+ "cedd292083b1e72e": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Fall as Investors Weigh Hormuz Risks and Global Supply Outlook - https://newsalert.com.pk/",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
  "cedf4adbe89ac58e": {
   "ticker": "MACRO",
   "title": "Red hot CPI report fuels AI rout - SRN News",
@@ -11972,6 +12007,16 @@
   "ticker": "MU",
   "title": "Micron's $35 Billion Buyback Has a December Start Date — and Plenty of Fine Print - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "d5b9f925c328d3ab": {
+  "ticker": "MACRO",
+  "title": "Oil falls despite two tanker sinkings and 11.1M-barrel draw: what is market seeing? - Invezz",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
+ },
+ "d5d2383d501dfecf": {
+  "ticker": "MU",
+  "title": "Taiwan president calls for Micron workers to negotiate ‘sincerely’ ahead of possible strike - The Straits Times",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
  },
  "d608b7c94610b5a8": {
   "ticker": "MACRO",
@@ -13077,6 +13122,11 @@
   "ticker": "PLTR",
   "title": "PLTR Stock Is Just $8 Away From Making Another Record High, Goldman Sees A ‘Step Function Change’ In Palantir’s AI Oppor",
   "ts": "2026-10-15T01:35:48.704818+00:00"
+ },
+ "eb819436f7073b11": {
+  "ticker": "ANET",
+  "title": "Cliftonlarsonallen Wealth Advisors LLC Purchases New Stake in Arista Networks, Inc. $ANET - MarketBeat",
+  "ts": "2026-10-15T07:30:03.954307+00:00"
  },
  "eb8290b1bc1362d4": {
   "ticker": "RKLB",
