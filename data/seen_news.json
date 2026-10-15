@@ -14,6 +14,11 @@
   "title": "【特朗普称其通胀工作做得好】金十数据10月15日讯，在被问及是否与美联储主席沃什讨论了通胀报告以及市场正加码对加息的押注时，美国总统特朗普表示：“我们做得很好。过去三个月通胀率为1.7%。我们从拜登那里接手时，面临着极其糟糕的通胀局面。我们",
   "ts": "2026-10-14T23:33:33.570815+00:00"
  },
+ "00392dd431933ccd": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Slips Under $81,000 After Hotter U.S. Inflation And Deepening AI Selloff: 5 outlets compared - NewsCord",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "003b6240bca3b66d": {
   "ticker": "MACRO",
   "title": "Bund yields fall as investors seek safe havens amid AI concerns - The Economic Times",
@@ -83,6 +88,11 @@
   "ticker": "APP",
   "title": "AppLovin Q3 seen by Wedbush as key test of model update - Proactive financial news",
   "ts": "2026-10-14T20:07:41.696978+00:00"
+ },
+ "00d15a099703211a": {
+  "ticker": "MACRO",
+  "title": "US 10-year Treasury yield levels not unprecedented, BNY CEO says - Reuters",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "00db17a4fec34dc1": {
   "ticker": "MACRO",
@@ -234,6 +244,16 @@
   "title": "TSMC explores role in Elon Musk’s proposed Texas chip complex - South China Morning Post",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "020ddf75b1a07f32": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Sees Sequential Fourth-Quarter Gross Margin Decline; Issues Upbeat Revenue Outlook - Yahoo Finance",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
+ "021aa867ae300fe5": {
+  "ticker": "MACRO",
+  "title": "Starknet Opens Seven-Day Vote On Ethereum L2 Exit Over Quantum Risks: 5 outlets compared - NewsCord",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "021e323ccc1b2b70": {
   "ticker": "MACRO",
   "title": "WEEKLY FUEL REPORT - KBOE Radio",
@@ -303,6 +323,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Rebound Amid Persistent Middle East Supply Risks - WSJ",
   "ts": "2026-10-15T06:14:38.913833+00:00"
+ },
+ "02da43b983b9db17": {
+  "ticker": "NVDA",
+  "title": "Nvidia Shares Gain 0.97 Percent as Chip Stocks Diverge - SuaraGarut.ID",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "02db4f38ef83aacd": {
   "ticker": "MACRO",
@@ -529,6 +554,11 @@
   "title": "​Manufacturing problems delay key rocket milestone - Rocket Lab shares plunge 8%: What’s behind the selloff? - The Econo",
   "ts": "2026-10-15T07:35:50.222532+00:00"
  },
+ "05e2868104799668": {
+  "ticker": "MACRO",
+  "title": "Gold holds below $4,150 as softer dollar offsets hot US CPI and Middle East risks - VT Markets",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "05ea77356ef294ea": {
   "ticker": "MU",
   "title": "Micron's 26 Contracts Stretch to 2030 as Wall Street Debates Whether CXMT Is a Real Threat - ad-hoc-news.de",
@@ -558,6 +588,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab Delays Neutron Rocket’s First Launch to 2027 - Technology Org",
   "ts": "2026-10-15T10:01:37.517694+00:00"
+ },
+ "067c946a339eba13": {
+  "ticker": "TSLA",
+  "title": "Tesla Mass-Recruits In Nevada For Electric Semi Truck Production Push - Stocktwits",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "068454cee71e7619": {
   "ticker": "MACRO",
@@ -883,6 +918,11 @@
   "ticker": "NET",
   "title": "TD Cowen raises target for Cloudflare stock from USD 355.00 to USD 375.00 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "0ba4b89718520d1f": {
+  "ticker": "MACRO",
+  "title": "Silver rebounds sharply from three-month low – what's driving the recovery? - Economies.com",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "0ba602277d3910d1": {
   "ticker": "NFLX",
@@ -3349,6 +3389,11 @@
   "title": "Bitcoin slid $1,655.92, or 1.98%, to $81,776 after September CPI rose 3.7% versus a 3.6% forecast. - TradingNEWS",
   "ts": "2026-10-14T16:09:19.262589+00:00"
  },
+ "2c43ab09ab4b8970": {
+  "ticker": "NFLX",
+  "title": "Jefferies assumes coverage on Netflix stock with buy rating By Investing.com - Investing.com Canada",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "2c597f016af0a679": {
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs, WSJ reports - WTVB",
@@ -4664,6 +4709,11 @@
   "title": "Daily 4: Social Security Increases, Netflix Job Cuts and more - KWTX",
   "ts": "2026-10-14T23:21:50.387464+00:00"
  },
+ "3f6a4c54d97440f9": {
+  "ticker": "MACRO",
+  "title": "US 10-year Treasury yields fall to three-week low as Fed remarks ease rate hike bets - Economies.com",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "3f776aaf2ec46104": {
   "ticker": "MACRO",
   "title": "Silver Analysis: XAG/USD Falls Back to Annual Lows - FOREX.com",
@@ -5108,6 +5158,11 @@
   "ticker": "MACRO",
   "title": "Gold Rate Today In India, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
   "ts": "2026-10-15T11:47:59.273293+00:00"
+ },
+ "463c9d1cd76bb51f": {
+  "ticker": "MACRO",
+  "title": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease - CNBC",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "463d40432574d713": {
   "ticker": "TSLA",
@@ -5583,6 +5638,11 @@
   "ticker": "MU",
   "title": "Chinese memory company CXMT announced it will release DDR5 RDIMMs for data centers with a 4F² design by the end of 2026,",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "4c1a560722ac9db5": {
+  "ticker": "MU",
+  "title": "Micron CEO Says AI ‘Can’t Scale’ Without Memory – MU Stock Jumps On $10B Research Lab Initiative - Stocktwits",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "4c20d5c711cccd74": {
   "ticker": "NFLX",
@@ -6379,6 +6439,11 @@
   "title": "After Elon Musk’s Invitation, TSMC CEO Reportedly Says Open To Working On Terafab But Must Run It - Yahoo Finance",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "57544dad1290db6f": {
+  "ticker": "TSM",
+  "title": "Taiwan chipmaker TSMC explores Texas investment to expand production in the US - ClickOnDetroit | WDIV Local 4",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "575511179ae4f18f": {
   "ticker": "MACRO",
   "title": "The Trump administration's favorite economic scorecard is heading in the wrong direction weeks before the midterms - Bus",
@@ -7113,6 +7178,11 @@
   "ticker": "MACRO",
   "title": "Is the AI rout making bonds safe again? - hi99.com",
   "ts": "2026-10-15T09:32:27.698357+00:00"
+ },
+ "6129d5913dc76058": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Tests $81,000 as Rate Hike Fears Linger After Hot Inflation Data - Decrypt",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "6143427a62a18ff6": {
   "ticker": "NFLX",
@@ -7919,6 +7989,11 @@
   "title": "The Bond Market Just Reached a Dangerous Milestone. Here's What It Means for Stock Investors. - The Globe and Mail",
   "ts": "2026-10-15T03:49:50.838920+00:00"
  },
+ "6ad00f53fdd23ac7": {
+  "ticker": "NFLX",
+  "title": "Forget ‘Carrie’, Netflix’s Near Perfect Series Is Your Next Weekend Binge - Collider",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "6ad3ca0b6a414205": {
   "ticker": "NFLX",
   "title": "Netflix To Lay Off 1,000 Employees Amid Slower Growth - 1150 WIMA",
@@ -8183,6 +8258,11 @@
   "ticker": "NFLX",
   "title": "US Media: Netflix to cut 1,000 jobs globally - Myanmar Digital News",
   "ts": "2026-10-15T08:45:43.274526+00:00"
+ },
+ "6e35f0c7cd2dffb6": {
+  "ticker": "MU",
+  "title": "Micron Stock Falls Again as Memory-Chip Slump Persists. What Can Turn It Around. - Barron's",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "6e40085748dcbb64": {
   "ticker": "NFLX",
@@ -11064,6 +11144,11 @@
   "title": "欧洲央行管委Dolenc：目前尚未看到通胀的第二轮效应。劳动力市场不再那么紧俏。必须对通胀数据保持警惕。我们正在迈向限制性货币政策立场。",
   "ts": "2026-10-15T00:43:23.312480+00:00"
  },
+ "989a80d1d684cb18": {
+  "ticker": "NFLX",
+  "title": "Netflix to Cut 1,000 Jobs as Streaming Competition Intensifies - ColombiaOne.com",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "98b01c31c6eed70d": {
   "ticker": "MACRO",
   "title": "USD/JPY forecast: hot US CPI lifts the pair above its 200-day average - FOREX.com",
@@ -12518,6 +12603,11 @@
   "title": "Netflix cuts 1,000 jobs as CEOs tell employees ‘business is strong and growing’ - The Independent",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "ad62307af754c5a0": {
+  "ticker": "MACRO",
+  "title": "Ethereum dips below $2,400 as hot inflation fuels selling and long liquidations - Cryptonews.net",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "ad796f8106ef3180": {
   "ticker": "MACRO",
   "title": "Bitcoin Price Today: Hot CPI Sends BTC Below $81,000. Is $80K Next - The Crypto Times",
@@ -12682,6 +12772,11 @@
   "ticker": "TSLA",
   "title": "Tesla-SpaceX Deal News Possible This Year, Barclays Analyst Says - Bloomberg.com",
   "ts": "2026-10-14T21:36:04.498818+00:00"
+ },
+ "afda7940c6e4cabf": {
+  "ticker": "SNDK",
+  "title": "Sandisk partners with Meta for the upcoming VR Glasses - The Times of India",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "aff568c558cb4e8d": {
   "ticker": "RKLB",
@@ -13267,6 +13362,11 @@
   "ticker": "AMD",
   "title": "Form 4 Advanced Micro Devices For: 15 October By Investing.com - Investing.com India",
   "ts": "2026-10-15T06:55:11.497864+00:00"
+ },
+ "b764c40de7f423b7": {
+  "ticker": "MACRO",
+  "title": "US Dollar: Inflation data keeps Fed risks alive – Rabobank - FXStreet",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "b76b5cee405eb527": {
   "ticker": "MACRO",
@@ -13942,6 +14042,11 @@
   "ticker": "MACRO",
   "title": "Oil futures: Crude lower as US weighs easing tanker sanctions - Quantum Commodity Intelligence",
   "ts": "2026-10-15T09:09:04.300346+00:00"
+ },
+ "c00fd6f10220f730": {
+  "ticker": "TSM",
+  "title": "TSMC Q3 profit surges to record high on AI demand; says considering Texas fab By Investing.com - Investing.com South Afr",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "c01ba49566dda21d": {
   "ticker": "MACRO",
@@ -15298,6 +15403,11 @@
   "title": "Popular Social Media Shorts “Minimum Wage” Continues on Netflix Soon – Here’s the Trailer - news.newonnetflix.info",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "d2b0a29819d9efc7": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Stock: VMS Asset Management Limited Lowers Position - MarketBeat",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "d2b56aab012d6de1": {
   "ticker": "MACRO",
   "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Tests Weekly Highs - FXEmpire",
@@ -15427,6 +15537,11 @@
   "ticker": "APP",
   "title": "AppLovin Estimates Reset as Advertiser Checks Point to Stable Share, Wedbush Says - www.marketscreener.com",
   "ts": "2026-10-14T17:48:17.864808+00:00"
+ },
+ "d4ab65a02ffc04b6": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 1,000 Jobs Including Film Exec - The Source Magazine",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "d4b5e2860d978ef7": {
   "ticker": "TSLA",
@@ -15612,6 +15727,11 @@
   "ticker": "MACRO",
   "title": "Oil edges lower after hot U.S. CPI; IEA meeting in focus - Investing.com India",
   "ts": "2026-10-15T00:37:30.070465+00:00"
+ },
+ "d835a1464cc7144e": {
+  "ticker": "GOOGL",
+  "title": "【黑石集团全面加码人工智能 2000亿美元数据中心投资成核心布局】金十数据10月15日讯，据悉，黑石集团(BX.N)已建立起规模达2000亿美元的数据中心投资组合，并正与谷歌合作打造云计算业务。黑石还投资了OpenAI等人工智能实验室，以博",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "d83a17efccd0467a": {
   "ticker": "NFLX",
@@ -16928,6 +17048,11 @@
   "title": "$SanDisk (SNDK.US)$ More to come after CPI report ~U.S. inflation sped up more than expected in September, perhaps putti",
   "ts": "2026-10-14T19:27:03.563806+00:00"
  },
+ "eb3e0122d1f466e2": {
+  "ticker": "TSM",
+  "title": "TSMC's Third-Quarter Profit Beats Expectations - Moomoo",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
  "eb45c858d068235d": {
   "ticker": "NVDA",
   "title": "Britain NVIDIA - Goshen News",
@@ -17672,6 +17797,11 @@
   "ticker": "IONQ",
   "title": "IonQ prices $2 billion equity offering with Heights Capital By Investing.com - Investing.com Canada",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "f664e9ec54be1aab": {
+  "ticker": "NFLX",
+  "title": "Emily Rudd's New One Piece Officially Conquers Netflix With Nearly 4M Views Before Season 3 - FandomWire",
+  "ts": "2026-10-15T11:53:59.558884+00:00"
  },
  "f67992d0fca251c7": {
   "ticker": "MACRO",
