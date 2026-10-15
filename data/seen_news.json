@@ -724,6 +724,11 @@
   "title": "Today’s Market Recap: September CPI Beat Ignites Rate-Hike Concerns; U.S. Stocks Fall Broadly, Oracle Drops Over 8%, SK ",
   "ts": "2026-10-15T00:49:17.829642+00:00"
  },
+ "05478863193416c8": {
+  "ticker": "AMD",
+  "title": "After an $8.68M September sale, AMD (NASDAQ: AMD) officer Norrod proposes another. - Stock Titan",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "054e5126bd0e0435": {
   "ticker": "MU",
   "title": "Here’s the Bull Case for NVIDIA, Micron, and SanDisk for 2027 - 24/7 Wall St.",
@@ -1658,6 +1663,11 @@
   "ticker": "MACRO",
   "title": "Atlanta Fed GDPNow holds at 3.6% for Q3 as consumer spending outlook improves - investingLive",
   "ts": "2026-10-15T19:13:27.796286+00:00"
+ },
+ "0d792ca4b86b448c": {
+  "ticker": "RDDT",
+  "title": "Reddit Inc. Q3FY26 Results: Earnings release set for Oct 29, 2026 - scanx.trade",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "0d7be9017d5beeba": {
   "ticker": "MACRO",
@@ -3559,6 +3569,11 @@
   "title": "Inflation Guy’s US CPI Summary - Forex Factory",
   "ts": "2026-10-14T16:44:14.219087+00:00"
  },
+ "1cb87038e6088f86": {
+  "ticker": "MACRO",
+  "title": "US Dollar Technical Outlook: DXY, Treasury Yields Retreat Despite Hot CPI - FOREX.com",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "1cc3b111625ec1ad": {
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs in biggest layoff since 2022 - The Spokesman-Review",
@@ -5434,6 +5449,11 @@
   "title": "Here’s why the crypto market is going down today (Oct. 15) - Invezz",
   "ts": "2026-10-15T11:41:57.528077+00:00"
  },
+ "2cc0e0ff6410a947": {
+  "ticker": "NFLX",
+  "title": "Netflix expands Worst Ever true-crime franchise with two new series - C21media",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "2cc12735edd0aa1a": {
   "ticker": "NVDA",
   "title": "Nvidia’s Jensen Huang Says US ‘Absolutely Must’ Work With China On ‘Potentially Dangerous’ AI - TradingView",
@@ -7189,6 +7209,11 @@
   "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World - WIRED",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "3ca66652b94be216": {
+  "ticker": "MACRO",
+  "title": "Risk-off sentiment has overshadowed inflation concerns, driving a broad rally in European and U.S. government bonds, whi",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "3caf71ec93bb2293": {
   "ticker": "MACRO",
   "title": "Gold rebounds sharply as Fed remarks shift market expectations - Economies.com",
@@ -8524,6 +8549,16 @@
   "title": "Gold Prices Rebound Above $4,100 as Rising US Inflation Brings Rate-Hike Risks Back to Market - TradingKey",
   "ts": "2026-10-15T03:38:11.133743+00:00"
  },
+ "496c093cb7f07d67": {
+  "ticker": "NVDA",
+  "title": "Volvo Cars expands automated driving partnership with Nvidia - 104.1 WIKY",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
+ "496c2d6b70d2c19f": {
+  "ticker": "TSM",
+  "title": "TSMC Confirms Terafab Talks, Fab Must Be Run by TSMC - TeslaNorth.com",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "4976c224abf69b0a": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - The Press-Enterpri",
@@ -8988,6 +9023,11 @@
   "ticker": "NFLX",
   "title": "Skydance Rebounds 5% as Warrant Adjustment Selloff Fades; Netflix Rises 3%, Disney Advances 2% - 24/7 Wall St.",
   "ts": "2026-10-15T16:03:44.933283+00:00"
+ },
+ "4d01683a60d623b5": {
+  "ticker": "NFLX",
+  "title": "MGM+’s Hit Horror Series “FROM” is Coming to Netflix - HorrorFuel.com",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "4d22c7e4699f3316": {
   "ticker": "NFLX",
@@ -10599,6 +10639,11 @@
   "title": "Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today - CoinDesk",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "5a607f41f9d2c81e": {
+  "ticker": "TSLA",
+  "title": "Tesla-SpaceX Merger could be announced before December, Barclays says By Investing.com - Investing.com Canada",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "5a64d11fe151fc3a": {
   "ticker": "PLTR",
   "title": "Palantir's 250-Dollar Bull Case Meets a Multiple That Leaves No Room for Error - ad-hoc-news.de",
@@ -10608,6 +10653,11 @@
   "ticker": "MACRO",
   "title": "Silver Price Forecast: XAG/USD recovers to near 56.50 amid weakness in USD, bond yields | FXStreet - شبكة تواصل الإخباري",
   "ts": "2026-10-15T08:57:22.249264+00:00"
+ },
+ "5a810296d1ca860b": {
+  "ticker": "IBKR",
+  "title": "Interactive Brokers’ Profit Climbs, But Customer Stock Trading Slows - Barron's",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "5a857ad1bc811748": {
   "ticker": "MACRO",
@@ -12519,6 +12569,11 @@
   "title": "Jefferies assumes coverage on Netflix stock with buy rating By Investing.com - Investing.com India",
   "ts": "2026-10-15T08:51:32.870495+00:00"
  },
+ "6a29575761977a5b": {
+  "ticker": "P",
+  "title": "Everpure Revenues Surge 38% in Q2: Can Growth Momentum Last? - The Globe and Mail",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "6a319d7fe0b4f5d6": {
   "ticker": "NFLX",
   "title": "Manoj Bajpayee and Neeraj Pandey’s thriller renamed Gajab Raat ahead of Netflix release - The News Mill",
@@ -13518,6 +13573,11 @@
   "ticker": "NFLX",
   "title": "NFLX Stock Dips Overnight: Netflix Faces Analyst Downgrade As Margin Concerns Persist Ahead Of Earnings - Yahoo Finance",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "7351d311544add2c": {
+  "ticker": "CORT",
+  "title": "Canaccord keeps USD 161.00 target for Corcept Therapeutics stock - ad-hoc-news.de",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "735f51dcd97e4203": {
   "ticker": "MACRO",
@@ -17324,6 +17384,11 @@
   "title": "Why Rocket Lab (RKLB) Shares Are Sliding Today - The Globe and Mail",
   "ts": "2026-10-15T17:29:27.652198+00:00"
  },
+ "962cb8f231d71043": {
+  "ticker": "NFLX",
+  "title": "Netflix prepares to cut 800 jobs days before earnings as YouTube keeps winning - Startup Fortune",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "962e757a89f31d8a": {
   "ticker": "MACRO",
   "title": "Euro rebounds as falling US yields outweigh hotter-than-expected PPI | FXStreet - شبكة تواصل الإخبارية",
@@ -18818,6 +18883,11 @@
   "title": "新西兰联储首席经济学家康威：新西兰正感受到油价冲击的影响。",
   "ts": "2026-10-15T01:47:40.564569+00:00"
  },
+ "a352266a3c5ddc5e": {
+  "ticker": "MACRO",
+  "title": "ServisFirst Bancshares, Arbor Realty Trust, Franklin BSP Realty Trust, Rocket Companies, and Walker & Dunlop Shares Are ",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "a378f8445d3aa219": {
   "ticker": "NFLX",
   "title": "Netflix Layoffs - The Herald Journal",
@@ -19843,6 +19913,11 @@
   "title": "Lumentum Holdings Inc. (LITE) Stock Forecasts - Yahoo Finance",
   "ts": "2026-10-14T23:56:46.236283+00:00"
  },
+ "ac432a0da89ba79f": {
+  "ticker": "MACRO",
+  "title": "Oil News: WTI Rallies on U.S. Draw as Brent Stalls on Shadow Fleet Talk - FXEmpire",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "ac43814a8975a537": {
   "ticker": "TSLA",
   "title": "Barclays: \"Tesla and SpaceX Could Announce Merger This Year\" - 아시아경제",
@@ -19962,6 +20037,11 @@
   "ticker": "NFLX",
   "title": "Netflix to Cut 6% of Workforce, in Biggest Layoffs Since 2022 | Vantage on Firstpost - Firstpost",
   "ts": "2026-10-15T18:30:35.513803+00:00"
+ },
+ "ad5f91c457bce4d3": {
+  "ticker": "NFLX",
+  "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More - IMDb",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "ad62307af754c5a0": {
   "ticker": "MACRO",
@@ -21418,6 +21498,11 @@
   "title": "ORANGE JUICE Appoints Former NVIDIA Engineer Elias Martinez Cohen Chief Technology Officer - citybiz",
   "ts": "2026-10-15T14:31:48.290805+00:00"
  },
+ "b9884f6e795344a7": {
+  "ticker": "NFLX",
+  "title": "‘Hollywood Arts’ (2026) Netflix Series Review - Nostalgia Doesn't Get You Into the Spotlight | MOVIESR.NET - Midgard Tim",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
+ },
  "b9890b61a863eb0b": {
   "ticker": "MACRO",
   "title": "日本5年期国债收益率下降3.5个基点，至2.335%。",
@@ -22327,6 +22412,11 @@
   "ticker": "MU",
   "title": "Unfortunate News for Micron Stock and Sandisk Stock Investors - The Globe and Mail",
   "ts": "2026-10-15T04:24:43.726849+00:00"
+ },
+ "c0bccffd65e7e562": {
+  "ticker": "NFLX",
+  "title": "BLACKPINK’s JENNIE Records ‘Someone to Hold’ for Netflix’s ‘Steps’ Cinderella Spin-Off - Yardbarker",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "c0c4159274bcf66d": {
   "ticker": "MACRO",
@@ -23942,6 +24032,11 @@
   "ticker": "MACRO",
   "title": "Bank of America sees another interest-rate surprise - TheStreet",
   "ts": "2026-10-15T16:28:16.638051+00:00"
+ },
+ "ce11cb637269935a": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Price Rebounds Above $82K After Brief Dip Below $80K - Cryptonews.net",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "ce11ff0f78b93f55": {
   "ticker": "MU",
@@ -25852,6 +25947,11 @@
   "ticker": "MU",
   "title": "Nvidia, Broadcom and Micron Could Drive 40% of S&P 500 Earnings Growth - CryptoRank",
   "ts": "2026-10-15T04:53:38.089599+00:00"
+ },
+ "e0a4785a17b95b72": {
+  "ticker": "TSLA",
+  "title": "Why Tesla is falling ahead of Roadster sports car launch? - Invezz",
+  "ts": "2026-10-15T20:57:58.563266+00:00"
  },
  "e0a931c1ff1bf60a": {
   "ticker": "MU",
