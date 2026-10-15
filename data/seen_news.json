@@ -2509,6 +2509,11 @@
   "title": "NY Forex: Euro hits 17-month low as hotter-than-expected U.S. CPI accelerates dollar buying - BigGo Finance",
   "ts": "2026-10-14T23:45:09.649933+00:00"
  },
+ "3631fe65aa7ff4d0": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide? - A",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
+ },
  "365ff098ae308c84": {
   "ticker": "NFLX",
   "title": "Everything Announced at Netflix’s First French Upfront: 'Under Paris 2', 'Lupin', 2 Reality Renewals & More - What's on ",
@@ -3159,6 +3164,11 @@
   "title": "Rocket Lab Targets 2027 for Neutron First Launch After Dome Defect - Securities.io",
   "ts": "2026-10-14T21:06:14.754912+00:00"
  },
+ "4220730ee539643a": {
+  "ticker": "NFLX",
+  "title": "Netflix Doubles Down on Adult Animation: New Trailers & Voice Casts Revealed for Cyberpunk: Edgerunners 2, Bass X Machin",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
+ },
  "424a444cc32ebf80": {
   "ticker": "PLTR",
   "title": "Palantir and London mayor’s office settle lawsuit over UK police contract - 101 WIXX",
@@ -3388,6 +3398,11 @@
   "ticker": "NFLX",
   "title": "Netflix’s November 2026 Exodus: The Dark Knight & Weeds Exit Stage Left - DailyDrama",
   "ts": "2026-10-14T12:08:20.352127+00:00"
+ },
+ "496a9df8243d32fb": {
+  "ticker": "MACRO",
+  "title": "Gold Prices Rebound Above $4,100 as Rising US Inflation Brings Rate-Hike Risks Back to Market - TradingKey",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
  },
  "4976c224abf69b0a": {
   "ticker": "NFLX",
@@ -5184,6 +5199,11 @@
   "title": "Netflix to lay off roughly 1,000 employees - Axios",
   "ts": "2026-10-14T19:03:49.996414+00:00"
  },
+ "6b8dd3d3b64638ad": {
+  "ticker": "MACRO",
+  "title": "【分析师：Anthropic三季度业绩可能有助于IPO，但对AI交易影响甚微】金十数据10月15日讯，据外媒报道，一些投资者和分析师认为，Anthropic三季度的业绩可能增强其IPO的可行性，但不太可能消除人们对全球人工智能贸易的疑虑。据",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
+ },
  "6b9aaf098e20a12c": {
   "ticker": "SMCI",
   "title": "Super Micro stock drops 8% amid supply chain pr... - Pluang",
@@ -5218,6 +5238,11 @@
   "ticker": "NFLX",
   "title": "Netflix's #1 Movie Is a Tense Political Thriller About a Prominent Family Thrown Into Chaos - Yahoo",
   "ts": "2026-10-14T18:05:42.399699+00:00"
+ },
+ "6caa473d174e0211": {
+  "ticker": "MACRO",
+  "title": "U.S. Inflation Rebounds; Federal Reserve Faces Dilemma Over Oil-Driven Price Pressures - BigGo Finance",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
  },
  "6cc55c42bbefa11c": {
   "ticker": "NFLX",
@@ -5814,6 +5839,11 @@
   "title": "Netflix lays off 6% of its workforce: Employee shares why he feels ‘relieved’: ‘I have no idea…’ - The Economic Times",
   "ts": "2026-10-14T19:03:49.996414+00:00"
  },
+ "797994df9265d29b": {
+  "ticker": "MACRO",
+  "title": "火热CPI重写10月剧本，金价三连跌后这一区域成关键！：美国9月CPI再度升温，原本接近确定的预期突然松动，市场对10月加息的押注升温，金价三连跌后这一区域已越来越重要！今晚PPI会否再推空头一把？",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
+ },
  "79b40a7708e4aa2a": {
   "ticker": "MACRO",
   "title": "[New York Stock Market] U.S. September CPI Tops Expectations, Treasury Yields Rise... Stocks Mixed - 아시아경제",
@@ -5988,6 +6018,11 @@
   "ticker": "NFLX",
   "title": "Four Pages of Lorca’s Last Play Became La Bola Negra - Netflix",
   "ts": "2026-10-14T17:13:24.148583+00:00"
+ },
+ "7c9da15754757515": {
+  "ticker": "NFLX",
+  "title": "Netflix Lays Off About 1,000 Employees, Largest Cut Since 2022 - https://www.ababnews.com/",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
  },
  "7cbb4c68d9075a92": {
   "ticker": "IONQ",
@@ -6168,6 +6203,11 @@
   "ticker": "MACRO",
   "title": "US Equity Markets End Lower on Renewed Inflation Concerns, Tech Slump - Yahoo Finance",
   "ts": "2026-10-14T23:15:53.606594+00:00"
+ },
+ "7ff38efb25e2e26d": {
+  "ticker": "MACRO",
+  "title": "Why is the Canadian Dollar rising despite lower oil prices? - FXStreet",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
  },
  "800b0792a5f15280": {
   "ticker": "MACRO",
@@ -8272,6 +8312,11 @@
   "ticker": "NFLX",
   "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect - IMDb",
   "ts": "2026-10-15T02:45:51.082819+00:00"
+ },
+ "af623ebcd07ca775": {
+  "ticker": "MACRO",
+  "title": "Hot US CPI Data Sends Dollar Surging While Gold And Yen Face Heavy Pressure - Foreign Policy Journal",
+  "ts": "2026-10-15T03:38:11.133743+00:00"
  },
  "af66c8427dc2d7af": {
   "ticker": "PLTR",
