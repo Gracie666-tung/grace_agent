@@ -599,6 +599,11 @@
   "title": "CPI Report Today: US Inflation Rises 3.7% as Fed Rate Hike Odds Jump From 22% to 45% - Coinpaper",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "08ab8a4c11a5f936": {
+  "ticker": "MACRO",
+  "title": "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April - TradingView",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
  "08c1d19fb3d3c168": {
   "ticker": "NFLX",
   "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022 - MyJoyOnline",
@@ -678,6 +683,11 @@
   "ticker": "AMD",
   "title": "Advanced Micro Devices Stock Surges 183% YTD: Time to Hold or Exit? - Zacks Investment Research",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "0a38aa352887d548": {
+  "ticker": "MACRO",
+  "title": "航运数据及一名消息人士显示，波兰奥伦石油公司（Orlen）将在10月接收4船沙特原油。",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
  },
  "0a56982c0a7ef5cd": {
   "ticker": "MACRO",
@@ -1163,6 +1173,11 @@
   "ticker": "HCLTECH",
   "title": "HCLTech Q2 Net Profit Rises 21.2% To Rs 5,132 Cr, Revenue Up 11.5% - BW Businessworld",
   "ts": "2026-10-15T05:51:27.598983+00:00"
+ },
+ "10c6393d05de6bc0": {
+  "ticker": "NFLX",
+  "title": "Doctor Sleep returns to Netflix in the U.S. on October 15: Mike Flanagan’s Stephen King sequel is back - Softonic",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
  },
  "10c9fbb5b787dae5": {
   "ticker": "MACRO",
@@ -7074,6 +7089,11 @@
   "title": "Netflix to lay off around 6% of its workforce amid streaming slump - The Independent",
   "ts": "2026-10-14T20:01:57.157511+00:00"
  },
+ "6b739731d9e0a6ae": {
+  "ticker": "NFLX",
+  "title": "Netflix confirms 1,000 job cuts - Advanced Television",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
  "6b753b7a7adb5053": {
   "ticker": "NFLX",
   "title": "Netflix to lay off roughly 1,000 employees - Axios",
@@ -7889,6 +7909,11 @@
   "title": "Netflix Lays Off Around 1,000 Employees In Largest Cuts Since 2022 - The Hollywood Reporter",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "78fa82d9e23c3b1a": {
+  "ticker": "MACRO",
+  "title": "Gas Prices Jump 9.1% as Inflation Accelerates, But Trump Adviser Kevin Hassett Calls it 'Temporary’ — Says September CPI",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
  "7900e3bbd7ea0173": {
   "ticker": "NFLX",
   "title": "Netflix to cut around 1,000 jobs - Daily Observer",
@@ -8633,6 +8658,11 @@
   "ticker": "MACRO",
   "title": "Bank of America Faces More Than $100 Billion in Bond Losses - Newsmax",
   "ts": "2026-10-15T01:12:36.243183+00:00"
+ },
+ "8374385a8ad3124f": {
+  "ticker": "PLTR",
+  "title": "Cathie Wood trims Palantir to buy this AI stock after a brutal 16% crash - Invezz",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
  },
  "8386ffe83dfbc304": {
   "ticker": "MACRO",
@@ -10673,6 +10703,16 @@
   "title": "Broad Pickup in Prices Lifted Inflation to 3.7% in September - WSJ",
   "ts": "2026-10-14T21:12:08.305827+00:00"
  },
+ "a4e8f6d4237cf6bc": {
+  "ticker": "NFLX",
+  "title": "The Storm Review: A Hilariously Twisted and Absurd Netflix Comedy - Leisurebyte",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
+ "a52601c17ed50f01": {
+  "ticker": "NFLX",
+  "title": "Netflix (NASDAQ: NFLX) Cuts 6% Of Workforce In Largest Layoff Round Since 2022 - Foreign Policy Journal",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
  "a54858710f634fc1": {
   "ticker": "MACRO",
   "title": "WRAPUP 4-US inflation heats up in September; Fed rate hike this month back on table - Devdiscourse",
@@ -11278,6 +11318,11 @@
   "title": "Lisa Lang McMullen, James Oh, Andrew McQuinn & Carolina Garcia Among Netflix TV Execs Impacted By Layoffs - Deadline",
   "ts": "2026-10-14T17:01:43.969374+00:00"
  },
+ "ae73567603096a09": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 6% of Workforce: Streaming Giant Lays Off 1,000 Employees in Major Restructuring - Brandsynario",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
+ },
  "ae80c0178c220e4f": {
   "ticker": "MACRO",
   "title": "Inflation Puts Federal Reserve in a Bind; December Rate Hike Could Reach 50 Basis Points - finance.biggo.com",
@@ -11622,6 +11667,11 @@
   "ticker": "MACRO",
   "title": "Dollar retreats from 18-month high as Fed officials temper rate-hike bets - Free Malaysia Today",
   "ts": "2026-10-15T03:26:36.570604+00:00"
+ },
+ "b2c38b20f38207a9": {
+  "ticker": "TSLA",
+  "title": "Tesla And SpaceX Merger By 2027? Here's Why Wedbush Believes Odds Have Jumped Above 80% - Stocktwits",
+  "ts": "2026-10-15T10:30:51.997779+00:00"
  },
  "b2d42ab65ea60be5": {
   "ticker": "NFLX",
