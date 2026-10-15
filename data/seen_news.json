@@ -694,6 +694,11 @@
   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW - NVIDIA Blog",
   "ts": "2026-10-15T13:06:32.123911+00:00"
  },
+ "06b19cb25cf62790": {
+  "ticker": "NVDA",
+  "title": "Nvidia Stock Slips as the Chip Leader Can’t Escape the AI Selloff - Barron's",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "06b6105f85a6f04a": {
   "ticker": "NFLX",
   "title": "Netflix cuts 1,000 jobs in company's biggest layoffs ever, despite strong revenue growth - Yahoo Finance",
@@ -1178,6 +1183,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Set to Rise Further on Monday as Mideast War Escalates - EnergyNow.com",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "0d1aac3d76647e8c": {
+  "ticker": "NVDA",
+  "title": "Tech Giants Nvidia And Apple Each Committed $25 Million For Trump Ballroom- WaPo - TradingView",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "0d220850ac960de1": {
   "ticker": "IONQ",
@@ -2244,6 +2254,11 @@
   "title": "The Storm Review: A Chaotic Dinner Party Meltdown On Netflix - Flickonclick",
   "ts": "2026-10-15T10:01:37.517694+00:00"
  },
+ "18d6074dc419f1c3": {
+  "ticker": "TSM",
+  "title": "TSMC Q3 Earnings Review: A Top May Be In View (NYSE:TSM) - Seeking Alpha",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "18dfd233a69aecc1": {
   "ticker": "MACRO",
   "title": "U.S. equities trade lower after the latest CPI inflation report - TradingView",
@@ -2414,10 +2429,20 @@
   "title": "Brent Crude Slips as U.S. Considers Easing Russian Tanker Sanctions Amid Middle East Supply Threats - EnergyNow",
   "ts": "2026-10-15T14:13:24.986451+00:00"
  },
+ "1acf409c36e95be2": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Huang advocates for US and UK to work with China on AI safety - TradingView",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "1ad3087793f553a7": {
   "ticker": "MU",
   "title": "Elon Musk Backs Micron As MU Stock Falls 25%: Is This Memory ETF an AI Stock Bargain? - Benzinga",
   "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
+ "1ad30c74ff59fef5": {
+  "ticker": "MACRO",
+  "title": "Swiss Franc gains ground as US Dollar retreats despite hot inflation data - FXStreet",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "1adfdb1c53664e1c": {
   "ticker": "NFLX",
@@ -2549,6 +2574,11 @@
   "title": "S&P 500 Futures Fall in Premarket Trading; Rocket Lab, SK hynix ADR Lag - Barron's",
   "ts": "2026-10-15T11:35:52.227596+00:00"
  },
+ "1c160a15abb1cfac": {
+  "ticker": "IONQ",
+  "title": "IonQ Opens First Quantum Innovation Centre at Cambridge - IonQ",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "1c3ad93fffaf7252": {
   "ticker": "NFLX",
   "title": "Netflix Suddenly Lays Off a Thousand People Before Earnings, Highlighting Slowing Growth and Competitive Pressure - NAI5",
@@ -2563,6 +2593,11 @@
   "ticker": "MU",
   "title": "Micron Gets Musk Boost: Buy the Stock on a Dip With ETFs? - Zacks Investment Research",
   "ts": "2026-10-15T11:11:49.634608+00:00"
+ },
+ "1c7ff8b186d33d0c": {
+  "ticker": "SPCX",
+  "title": "SpaceX Is on the Verge of Making Dubious History Yet Again, and Retail Investors May Pay the Price - The Globe and Mail",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "1c8595f742c935f9": {
   "ticker": "MACRO",
@@ -3198,6 +3233,11 @@
   "ticker": "NET",
   "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug - Cloudflare Blog",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "2422dc3adfacabd5": {
+  "ticker": "TSLA",
+  "title": "Why is Tesla stock sliding today? By Investing.com - Investing.com India",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "24247b6c5ab02316": {
   "ticker": "TSLA",
@@ -5459,6 +5499,11 @@
   "title": "Netflix Reportedly Slashing Workforce As Viewership Plummets - The Daily Caller",
   "ts": "2026-10-14T23:45:09.649933+00:00"
  },
+ "3e1f060d268836b1": {
+  "ticker": "MACRO",
+  "title": "Inflation Concerns Push 10-Year Yield Further Above Fair Value - Investing.com",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "3e25534c560d3e39": {
   "ticker": "ANET",
   "title": "Cultivar Capital Inc. Acquires New Shares in Arista Networks, Inc. $ANET - MarketBeat",
@@ -5568,6 +5613,11 @@
   "ticker": "MACRO",
   "title": "Is the AI rout making bonds safe again? - WNWN-FM",
   "ts": "2026-10-15T09:20:46.577697+00:00"
+ },
+ "3f38d6e45d2072a9": {
+  "ticker": "SMCI",
+  "title": "Supermicro names Mark Long as CFO - TradingView",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "3f48e861ae1b36aa": {
   "ticker": "NFLX",
@@ -5973,6 +6023,11 @@
   "ticker": "MACRO",
   "title": "Asian markets sell off after US inflation fuels rate hike bets - CNA",
   "ts": "2026-10-15T06:08:51.047527+00:00"
+ },
+ "44f09c4fbab66d2b": {
+  "ticker": "TSLA",
+  "title": "Will Tesla's Roadster Fly Tonight? Prediction Markets Say It's Likely - Yahoo Finance",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "44f4a8a178877e17": {
   "ticker": "NFLX",
@@ -6843,6 +6898,11 @@
   "ticker": "NFLX",
   "title": "Filming for Netflix's next big thriller wraps up in Bolton - where it began in April - Yahoo News UK",
   "ts": "2026-10-14T21:24:04.101645+00:00"
+ },
+ "4edbe3e50c6f04f5": {
+  "ticker": "MACRO",
+  "title": "XRP Traders Lose $8M+ to Long Liquidations in 15 Minutes - Cryptonews.net",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "4ef29ef8157e9df4": {
   "ticker": "TSLA",
@@ -9829,6 +9889,11 @@
   "title": "Netflix to Lay Off 1,000 Employees in Biggest Job Cuts Since 2022 - Bloom Pakistan",
   "ts": "2026-10-15T10:01:37.517694+00:00"
  },
+ "6f674929c8394cfc": {
+  "ticker": "MACRO",
+  "title": "Steady Oil Prices Set for Weekly Gain as Iran War Rumbles On - EnergyNow.com",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "6f6fa721044e0cbb": {
   "ticker": "MACRO",
   "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities - FXStreet",
@@ -10528,6 +10593,11 @@
   "ticker": "MU",
   "title": "SK Hynix Sinks 5% as China's CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3% - 24/7 Wall St.",
   "ts": "2026-10-14T20:19:22.815809+00:00"
+ },
+ "785f0013aaefe12b": {
+  "ticker": "MACRO",
+  "title": "US Stock Market Today LIVE: Dow Jones Gains 0.43%, S&P 500 Falls 0.26% & Nasdaq Edges Lower as Oil Surge, Tech Sell-Off ",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "78656635dc08db16": {
   "ticker": "MACRO",
@@ -11519,6 +11589,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Eagle-Tribune",
   "ts": "2026-10-14T18:05:42.399699+00:00"
  },
+ "83a580dc03bbfab6": {
+  "ticker": "MACRO",
+  "title": "The CPI, PPI, and the so-called \"scary data\" all point to one conclusion: energy inflation is permeating the U.S. econom",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "83add2e459daac69": {
   "ticker": "COHR",
   "title": "Coherent Corp. to release Q1 FY2027 earnings on Nov 4 with a live webcast. - Pluang",
@@ -11818,6 +11893,11 @@
   "ticker": "MACRO",
   "title": "Bond trading weakens for US banks as interest rate volatility affects investors - KELO-AM",
   "ts": "2026-10-14T21:12:08.305827+00:00"
+ },
+ "873f577742137fba": {
+  "ticker": "GOOGL",
+  "title": "Alphabet pays $0.22 dividend and opens AI to Europe: Will GOOGL break out soon? - Traders Union",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "87592e86077312fd": {
   "ticker": "MACRO",
@@ -14578,6 +14658,11 @@
   "title": "Kaplan Fox Encourages Alphabet Inc. (NASDAQ: GOOGL, GOOG) Investo - The National Law Review",
   "ts": "2026-10-14T22:58:18.685589+00:00"
  },
+ "a90994caca63d8f6": {
+  "ticker": "NVDA",
+  "title": "Prediction: Broadcom Could Be the AI Winner After Nvidia - AOL.com",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "a9203deb1f358100": {
   "ticker": "MACRO",
   "title": "US consumer prices accelerate in September on costlier gasoline; core CPI firmer - Sacramento Bee",
@@ -15167,6 +15252,11 @@
   "ticker": "MACRO",
   "title": "Easy Quant | Backtesting 500 Stocks: Is There A Correlation Between 10Y Treasury Yields And Stock Prices? Which Stocks A",
   "ts": "2026-10-15T12:42:16.834095+00:00"
+ },
+ "b07e792bb5fdc265": {
+  "ticker": "IONQ",
+  "title": "IonQ, Inc. Stock 12‑Month Price Target Cut to $68.08, Implies 117% Upside - TradingView",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "b0823c3c193a26e9": {
   "ticker": "MACRO",
@@ -16007,6 +16097,11 @@
   "ticker": "NFLX",
   "title": "Netflix Faces a Brutal Wall Street Verdict. Analyst Slaps with 'Sell' rating - Yahoo Finance",
   "ts": "2026-10-14T18:34:45.000305+00:00"
+ },
+ "b983dca7d96bc1ad": {
+  "ticker": "NVDA",
+  "title": "ORANGE JUICE Appoints Former NVIDIA Engineer Elias Martinez Cohen Chief Technology Officer - citybiz",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "b9890b61a863eb0b": {
   "ticker": "MACRO",
@@ -16897,6 +16992,11 @@
   "ticker": "MACRO",
   "title": "Breaking down September's CPI report as inflation rises to 3.7% - Modern Ghana",
   "ts": "2026-10-15T01:47:40.564569+00:00"
+ },
+ "c3580ab5fb9dc977": {
+  "ticker": "NVDA",
+  "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops - The Verge",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "c3791e77f2db99c0": {
   "ticker": "SMCI",
@@ -18247,6 +18347,11 @@
   "ticker": "NVDA",
   "title": "Nvidia, AMD and Micron plunge premarket as AI stocks face a brutal new reality - Invezz",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "d2402efd71ae6783": {
+  "ticker": "NVDA",
+  "title": "Nvidia, Apple each gave $25 million for Trump’s ballroom, Washington Post reports By Reuters - Investing.com Australia",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "d271601a8380aa88": {
   "ticker": "MACRO",
@@ -19657,6 +19762,11 @@
   "ticker": "MU",
   "title": "Why are Micron, SK Hynix, SanDisk stocks falling on Wednesday? - Invezz",
   "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
+ "e4aa95762d8c1f8e": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up - Yahoo Finance",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "e4cc85612792f43e": {
   "ticker": "MACRO",
@@ -21283,6 +21393,11 @@
   "title": "SPCX Slides As SpaceX Starlink Headlines Rattle Traders - Timothy Sykes",
   "ts": "2026-10-15T14:01:12.403052+00:00"
  },
+ "f92cba1422450159": {
+  "ticker": "TSLA",
+  "title": "Tesla shares fall amid inflation data and rate concerns - StreetInsider",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
+ },
  "f9336413b5e17b59": {
   "ticker": "MACRO",
   "title": "Here’s why the crypto market is going down today (Oct. 15) - Invezz",
@@ -21742,6 +21857,11 @@
   "ticker": "NFLX",
   "title": "Netflix Lays Off 6% of Employees, Elimination About 1,000 Jobs in Biggest Cutbacks to Date - IMDb",
   "ts": "2026-10-14T17:25:02.734150+00:00"
+ },
+ "feeeba8278e6dfbc": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab's (RKLB) \"Buy\" Rating Reaffirmed at TD Cowen - MarketBeat",
+  "ts": "2026-10-15T14:31:48.290805+00:00"
  },
  "ff02b894e0ac1981": {
   "ticker": "NFLX",
