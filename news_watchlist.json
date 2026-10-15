@@ -722,6 +722,142 @@
         }
       ],
       "thesis": "大型科技與 AI 資本支出指標，朋友提議加入觀察；尚未進場"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Nvidia",
+        "NASDAQ: NVDA"
+      ],
+      "aliases_zh": [
+        "英伟达"
+      ],
+      "queries": [
+        "Nvidia",
+        "NVDA stock Nvidia"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "NVDA",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-11-18",
+          "label": "Q3 財報（估計，在比賽結束後）"
+        }
+      ],
+      "thesis": "AI 晶片龍頭，團隊加入候選；窗口內無財報"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor (TSMC)",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "TSMC",
+        "Taiwan Semiconductor",
+        "NYSE: TSM"
+      ],
+      "aliases_zh": [
+        "台积电"
+      ],
+      "queries": [
+        "TSMC",
+        "TSM stock Taiwan Semiconductor"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "TSM",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-10-15",
+          "label": "Q3 財報與法說會（台北 14:00）"
+        }
+      ],
+      "thesis": "晶圓代工，AI 需求風向；ADR"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Corning Inc",
+        "NYSE: GLW",
+        "Corning stock",
+        "Corning shares"
+      ],
+      "aliases_zh": [
+        "康宁"
+      ],
+      "queries": [
+        "Corning Inc",
+        "GLW stock Corning"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "GLW",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "光纖與玻璃材料，10/12 與光通訊族群同日下跌"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "AST SpaceMobile",
+        "NASDAQ: ASTS"
+      ],
+      "aliases_zh": [],
+      "queries": [
+        "AST SpaceMobile",
+        "ASTS stock"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "ASTS",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "衛星直連手機，高波動；團隊加入候選"
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "Interactive Brokers",
+        "NASDAQ: IBKR"
+      ],
+      "aliases_zh": [
+        "盈透证券"
+      ],
+      "queries": [
+        "Interactive Brokers",
+        "IBKR stock Interactive Brokers"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "IBKR",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "券商，與 HOOD 同屬交易活動指標；團隊加入候選"
     }
   ],
   "macro": {
