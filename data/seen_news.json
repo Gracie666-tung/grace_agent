@@ -714,6 +714,11 @@
   "title": "Oil prices hold gains near $105 as renewed attacks in Russia, West Asia threaten supply - CNBC TV18",
   "ts": "2026-10-15T01:24:12.845996+00:00"
  },
+ "0fa80e573e0e27a7": {
+  "ticker": "NFLX",
+  "title": "Netflix’s New 'Conjuring' Game Lets You Decide Who Makes It Out Alive. Here's How It Works. - VICE",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "0fbb1e6f968b9018": {
   "ticker": "AAOI",
   "title": "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7% - 24/7 Wa",
@@ -4089,6 +4094,11 @@
   "title": "Netflix announces layoffs: another sign of distress? - Invezz",
   "ts": "2026-10-14T17:54:08.634544+00:00"
  },
+ "5ce26f91ed0752d8": {
+  "ticker": "NFLX",
+  "title": "Netflix reportedly cuts 6% of workforce in biggest layoffs since 2022 - Marketing-Interactive",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "5cea2d5fe951896d": {
   "ticker": "IONQ",
   "title": "IonQ to acquire Zero Trust cybersecurity firm Elisity for up to $1.3 bn - Beinsure",
@@ -7303,6 +7313,11 @@
   "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022 - BBC",
   "ts": "2026-10-14T19:09:37.864025+00:00"
  },
+ "a6a7caa8aea690f3": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 1,000 Jobs After Record $4.7 Billion Buyback - the deep dive",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "a6cded5bbe1949d6": {
   "ticker": "MACRO",
   "title": "Dollar gains, Wall Street stocks fall after hot inflation data - AOL.com",
@@ -7848,6 +7863,11 @@
   "title": "Netflix ‘Love Is Blind’ Season 11: Where to Get All the Outfits - Femestella",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "b2d43d5326e43a09": {
+  "ticker": "MACRO",
+  "title": "US Inflation Rises to 3.7% in September Amid Surge in Gasoline Prices - Observer Voice",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "b2e32fca70664ad0": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - the-journal.com",
@@ -8218,10 +8238,20 @@
   "title": "The Tesla Story Is Falling Apart, And A Flying Roadster Won’t Save It (NASDAQ:TSLA) - Seeking Alpha",
   "ts": "2026-10-14T16:32:38.898107+00:00"
  },
+ "bbbf997ed5309787": {
+  "ticker": "NFLX",
+  "title": "Casey Bloys, the Netflix Factor and How He Beat Cindy Holland - The Ankler",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "bbc54ff6d2a4d2dc": {
   "ticker": "NFLX",
   "title": "'Love is Blind' Boston season just premiered on Netflix. How to watch - Fall River Herald News",
   "ts": "2026-10-14T21:06:14.754912+00:00"
+ },
+ "bbdda6a7cd5a4e07": {
+  "ticker": "MACRO",
+  "title": "US consumer inflation hotter than expected as midterms loom - ABS-CBN",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
  },
  "bbe23c38f7368ab0": {
   "ticker": "NFLX",
@@ -8483,6 +8513,11 @@
   "title": "Sandisk Stocks Fall 4.8% Although AI Flash Roadmap Gains a January Deadline - TradingView",
   "ts": "2026-10-14T19:50:26.225177+00:00"
  },
+ "c0c550ea2cc46a80": {
+  "ticker": "MACRO",
+  "title": "Oil prices fall as investors weigh supply outlook, Middle East tensions - The Mighty 790 KFGO",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "c0d02c2db087a167": {
   "ticker": "PLTR",
   "title": "PLTR Stock Falls to $100 as AI Financing Risks Spread Across Tech and Analysts Review Palantir Technologies Valuation an",
@@ -8497,6 +8532,11 @@
   "ticker": "MACRO",
   "title": "Oil Price Predictions: Why Paul Tudor Jones Says Crude Can Gain Another $25 - Barchart.com",
   "ts": "2026-10-14T21:24:04.101645+00:00"
+ },
+ "c110029d7243c42b": {
+  "ticker": "NET",
+  "title": "Cloudflare, Inc. (NET) Stock Forecasts - Yahoo Finance",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
  },
  "c1469c6317e85cdd": {
   "ticker": "TSLA",
@@ -8887,6 +8927,11 @@
   "ticker": "MACRO",
   "title": "Crude Oil Futures Rise on Positive Global Trends - Rediff MoneyWiz",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "c97e4ca8e6a82919": {
+  "ticker": "NFLX",
+  "title": "Netflix Cuts 1,000 Jobs Amid Free Short-Form Competition - 조선일보",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
  },
  "c9b8b1d0a5486432": {
   "ticker": "NFLX",
@@ -9322,6 +9367,11 @@
   "ticker": "MACRO",
   "title": "US Stock Market Today LIVE: NASDAQ, S&P 500 Falls As CPI Inflation Rises Above Street Estimates; Dollar Climbs - Goodret",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "d2ec7ce4e62c4c10": {
+  "ticker": "MACRO",
+  "title": "Dollar retreats from 18-month high despite hot CPI as Fed officials temper hike bets - StreetInsider",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
  },
  "d31aa0e9b2fce748": {
   "ticker": "NFLX",
@@ -9823,6 +9873,11 @@
   "title": "Tesla Robotaxi Tally Hits 739, Trails Waymo’s 1,185 [2026] - https://tech-insider.org/",
   "ts": "2026-10-15T00:55:06.315358+00:00"
  },
+ "e02e5069c43a8418": {
+  "ticker": "MACRO",
+  "title": "Iran Speaker Ghalibaf Mocks Scott Bessent Over Hot CPI Data - Benzinga",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
  "e055bb2311e993b4": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - The Joplin Globe",
@@ -10217,6 +10272,11 @@
   "ticker": "MACRO",
   "title": "US consumer prices accelerate in September on costlier gasoline; core CPI firmer - Fresno Bee",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "eae9045780b769c2": {
+  "ticker": "TSLA",
+  "title": "Tesla's Elon Musk Might Have Gone Back on His Word, but It's Working in China - The Globe and Mail",
+  "ts": "2026-10-15T01:53:28.429530+00:00"
  },
  "eafc92d7e57b932c": {
   "ticker": "IONQ",
