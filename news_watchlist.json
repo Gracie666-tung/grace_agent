@@ -858,6 +858,63 @@
       "stop_pct": null,
       "next_events": [],
       "thesis": "券商，與 HOOD 同屬交易活動指標；團隊加入候選"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "aliases": [
+        "SpaceX",
+        "NASDAQ: SPCX"
+      ],
+      "aliases_zh": [
+        "太空探索",
+        "SpaceX"
+      ],
+      "queries": [
+        "SpaceX stock SPCX",
+        "SpaceX shares"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "SPCX",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [
+        {
+          "date": "2026-12-08",
+          "label": "鎖定期屆滿（報導稱持續到 12/8，視窗外）"
+        }
+      ],
+      "thesis": "2026-06-12 上市，市值約 $2 兆；WLS 資格未驗證；團隊代號寫 SPCS，正確為 SPCX"
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure (formerly Pure Storage)",
+      "market": "NYSE",
+      "currency": "USD",
+      "aliases": [
+        "Everpure",
+        "Pure Storage",
+        "NYSE: P"
+      ],
+      "aliases_zh": [
+        "纯存储"
+      ],
+      "queries": [
+        "Everpure",
+        "Pure Storage stock Everpure"
+      ],
+      "sec_cik": null,
+      "yahoo_symbol": "P",
+      "status": "candidate",
+      "weight_pct": null,
+      "entry_price": null,
+      "stop_pct": null,
+      "next_events": [],
+      "thesis": "企業資料儲存；原 Pure Storage（PSTG），2026-04-17 起代號改為 P；10/14 單日 −9.86%，不是能源公司"
     }
   ],
   "macro": {
