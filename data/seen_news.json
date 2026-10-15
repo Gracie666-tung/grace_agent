@@ -164,6 +164,11 @@
   "title": "Netflix (NFLX) Faces Rising U.S. Churn Ahead of October Earnings - GuruFocus",
   "ts": "2026-10-14T12:08:20.352127+00:00"
  },
+ "01de45f183d24092": {
+  "ticker": "MACRO",
+  "title": "Oil prices sink on report of easing U.S. sanctions; IEA release plans in focus By Investing.com - Investing.com South Af",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "01f21157c1b667ec": {
   "ticker": "NFLX",
   "title": "Netflix TV Layoffs Include Director of Original Series Carolina Garcia, Who Exits After 10 Years - IMDb",
@@ -478,6 +483,11 @@
   "ticker": "NFLX",
   "title": "Netflix lays off 6% of its workforce: Employee shares why he feels ‘relieved’: ‘I have no idea…’ - The Economic Times",
   "ts": "2026-10-14T19:15:29.892709+00:00"
+ },
+ "07d77cf1305c76ee": {
+  "ticker": "TSLA",
+  "title": "Tesla schedules Roadster reveal and Tesla stock costs EUR 322.20 - ad-hoc-news.de",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "07e826328e40f912": {
   "ticker": "GOOGL",
@@ -1298,6 +1308,11 @@
   "ticker": "SMCI",
   "title": "Supermicro bets on open hardware to speed AI data center construction - Fierce Network",
   "ts": "2026-10-15T00:02:33.599329+00:00"
+ },
+ "161d3ef6c96d29ff": {
+  "ticker": "MACRO",
+  "title": "【美的集团进入英伟达MGX生态链】金十数据10月15日讯，从美的集团获悉，英伟达公布了面向下一代VeraRubin平台的NVIDIAMGXAIFactory生态及合作伙伴名单，美的集团进入该名单，意味着公司进入英伟达MGX生态链。随着Ver",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "162364024459c434": {
   "ticker": "NFLX",
@@ -3733,6 +3748,11 @@
   "ticker": "MACRO",
   "title": "Gold crashes below $4,100 as hot CPI revives October Fed hike bets | FXStreet - شبكة تواصل الإخبارية",
   "ts": "2026-10-14T20:54:29.163061+00:00"
+ },
+ "40e74176735e9920": {
+  "ticker": "MACRO",
+  "title": "News, Updates related to Power, Nuclear, Solar, Renewable Energy in Pakistan - Energy Update",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "40f637b9d061686c": {
   "ticker": "MACRO",
@@ -6284,6 +6304,11 @@
   "title": "Netflix Layoffs Underway, Streamer Eliminating About 1,000 Jobs, 6% Of Its Workforce - IMDb",
   "ts": "2026-10-14T15:57:30.197535+00:00"
  },
+ "6b2671450b442f04": {
+  "ticker": "MACRO",
+  "title": "【欧洲央行管委卡扎克斯：通胀上行风险仍占主导，加息方向明确但无需急于行动】金十数据10月15日讯，欧洲央行管理委员会成员卡扎克斯表示，面对全球经济中相互对立的多重力量，欧洲央行有条件花一些时间分析通胀走势，无需立即采取利率行动。这位拉脱维亚",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "6b3504fbafed413f": {
   "ticker": "MACRO",
   "title": "标普全球市场财智：甲骨文(ORCL.N)5年期信用违约掉期利差扩大26个基点，创下288个基点的纪录高位。",
@@ -7949,6 +7974,11 @@
   "title": "Tesla Just Launched the Cybercab in Austin. Here's How Many People Can Actually Hail One. - The Motley Fool",
   "ts": "2026-10-14T20:07:41.696978+00:00"
  },
+ "87dbb189d0ffe228": {
+  "ticker": "MU",
+  "title": "Lai urges Micron to negotiate with Taiwanese workers as bonus dispute escalates - Taiwan News",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "87ea05eaa911d85f": {
   "ticker": "MACRO",
   "title": "Oil prices rise amid regional tensions - mezha.net",
@@ -8053,6 +8083,11 @@
   "ticker": "TSLA",
   "title": "Tesla shares Roadster unveiling live-stream timings, \"Timing is everything,\" says Musk - Tesla Oracle",
   "ts": "2026-10-14T17:01:43.969374+00:00"
+ },
+ "8aa904fcdd0ebf75": {
+  "ticker": "MACRO",
+  "title": "瑞银：预计美联储将在2027年3月进行第三次加息，之前的预测是加息周期将在12月结束。",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "8ae7a683b4212c48": {
   "ticker": "NFLX",
@@ -9019,6 +9054,11 @@
   "title": "Musk Says China Will Mass-Produce Memory Chips by 2028, Praises Micron's Pricing While Taking Aim at Korean Rivals - Big",
   "ts": "2026-10-15T07:12:33.453138+00:00"
  },
+ "9ba01e71fedfaf16": {
+  "ticker": "ANET",
+  "title": "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation - ChartMill",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "9be7ec248a04b522": {
   "ticker": "NFLX",
   "title": "Netflix (NFLX) to Lay Off 1,000 Employees Amid Growth Challenges - GuruFocus",
@@ -9908,6 +9948,11 @@
   "title": "美国至10月9日当周API原油进口 -109.1万桶，前值119.5万桶。",
   "ts": "2026-10-14T20:36:58.834804+00:00"
  },
+ "ab2bfd2adad8f7d0": {
+  "ticker": "HCLTECH",
+  "title": "Biggest midday movers: HCLTech, Canra Bank, Reliance Industries, and others - ET Now",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "ab4b740bc57a2181": {
   "ticker": "NFLX",
   "title": "“I Don’t Think It’s a High Level”- Kayla Harrison Ridicules Ronda Rousey’s Netflix Paycheck - EssentiallySports",
@@ -10693,6 +10738,11 @@
   "title": "Breaking News - With \"Cyberpunk: Edgerunners 2,\" \"Bass X Machina\" and \"Blue Eye Samurai\" Season 2, Netflix Brings More A",
   "ts": "2026-10-15T03:49:50.838920+00:00"
  },
+ "b7bb9dfec44867e9": {
+  "ticker": "MACRO",
+  "title": "Hot Inflation Spells Bad News for Republicans Ahead of Midterms - Liberty Nation News",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "b7cefea539dc3655": {
   "ticker": "NFLX",
   "title": "Netflix releases teaser for Allen, an Aussie film from the creators of Bluey and Daley Pearson - Mediaweek",
@@ -10712,6 +10762,11 @@
   "ticker": "MACRO",
   "title": "US inflation again set to be a crucial factor for the midterms - Financial Times",
   "ts": "2026-10-15T04:36:18.396991+00:00"
+ },
+ "b8431ae74086bdf6": {
+  "ticker": "MACRO",
+  "title": "India 10Y Yield Retreats From 3-Year Highs - TradingView",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "b872d330f903f21f": {
   "ticker": "NFLX",
@@ -11232,6 +11287,11 @@
   "ticker": "AAOI",
   "title": "Applied optoelectronics CFO Murry sells $411,480 shares. - Investing.com",
   "ts": "2026-10-14T21:47:52.831280+00:00"
+ },
+ "bfa41374e8c942ed": {
+  "ticker": "MACRO",
+  "title": "【德拉吉：欧洲央行短期内不太可能出手救助法国，通胀高企令干预门槛进一步提高】金十数据10月15日讯，欧洲央行前行长德拉吉表示，欧洲央行短期内不太可能通过市场干预措施向法国提供援助。这位曾带领欧元区应对主权债务危机的前央行行长周四表示，欧元区",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "bfdf87097ff0185c": {
   "ticker": "MACRO",
@@ -13413,6 +13473,11 @@
   "title": "Streaming giant Netflix to cut six per cent of workers - The Singleton Argus",
   "ts": "2026-10-15T00:37:30.070465+00:00"
  },
+ "e86e2a4d25daf1b9": {
+  "ticker": "COHR",
+  "title": "Coherent schedules November 4 results as Coherent stock costs EUR 225.20 - ad-hoc-news.de",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "e8cc5f4931252cfa": {
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Reading Eagle",
@@ -13778,6 +13843,11 @@
   "title": "‘Bridgerton’ Spinoff TV Show Confirmed: Young Lady Violet & Edmund’s Love Story Coming to Netflix - IMDb",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "ee8c4bd28e2917fa": {
+  "ticker": "TSLA",
+  "title": "The 1 Thing I'd Want Elon Musk to Answer on Tesla's Oct. 21 Call - Yahoo Finance",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "eed5a43af0bcce3f": {
   "ticker": "COHR",
   "title": "Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year? - Yahoo! Finance Canada",
@@ -14133,6 +14203,11 @@
   "title": "Micron pledges $50M to support DOE’s Genesis Mission - Yahoo Finance",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "f7aec4384661aecb": {
+  "ticker": "HCLTECH",
+  "title": "HCL Tech declared INR 12 dividend per HCL Tech stock - ad-hoc-news.de",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
+ },
  "f7d284f329f93c8e": {
   "ticker": "HAG",
   "title": "Barclays hebt Ziel für die Hensoldt-Aktie auf 101,00 Euro an - ad-hoc-news.de",
@@ -14272,6 +14347,11 @@
   "ticker": "ANET",
   "title": "Arista Networks Inc. stock outperforms competitors despite losses on the day - MarketWatch",
   "ts": "2026-10-14T22:23:04.922848+00:00"
+ },
+ "fa942d75d240a203": {
+  "ticker": "NFLX",
+  "title": "Chae Soo-bin — Romantic Comedy Star Shares Career Worries and New Netflix Drama - The Korea Daily",
+  "ts": "2026-10-15T08:22:13.583105+00:00"
  },
  "fab0fe9953b45428": {
   "ticker": "MU",
