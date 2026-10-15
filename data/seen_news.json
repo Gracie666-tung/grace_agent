@@ -424,6 +424,11 @@
   "title": "Dow Jones Forecast: DJIA cautious as oil jumps & earnings loom - FOREX.com",
   "ts": "2026-10-15T06:37:48.485305+00:00"
  },
+ "03518589ca4d7180": {
+  "ticker": "NVDA",
+  "title": "Nvidia stock: Zesty launches tool to cut excess GPU buying - Techi",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "03659e4bb6038a2a": {
   "ticker": "MACRO",
   "title": "Gold recovers as Treasury yields fall, US PPI and Retail Sales loom | FXStreet - شبكة تواصل الإخبارية",
@@ -1454,6 +1459,11 @@
   "title": "How far will the Fed go? - T. Rowe Price",
   "ts": "2026-10-14T23:15:53.606594+00:00"
  },
+ "0ee3fd47960dd2fc": {
+  "ticker": "MACRO",
+  "title": "September Producer Prices Log Biggest Jump Since March 2022 as Energy Costs Surge - Yahoo! Finance Canada",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "0ee50f3f7516af3e": {
   "ticker": "MACRO",
   "title": "Global Market Today: Stock selloff extends to Asia as chip rout deepens - The Economic Times",
@@ -1769,6 +1779,11 @@
   "title": "台积电(TSM.N)：工具价格通胀是真实存在的。",
   "ts": "2026-10-15T06:55:11.497864+00:00"
  },
+ "10fc82f6e80df32c": {
+  "ticker": "NFLX",
+  "title": "Netflix Sentiment Seen Improving on Pricing, Content Slate, Oppenheimer Says - Yahoo Finance",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "11083c6dc87ef76a": {
   "ticker": "MACRO",
   "title": "US Treasury yields fall: 10-year drops below 5.11% as investors await inflation data | Hindustan Times - Hindustan Times",
@@ -2044,6 +2059,11 @@
   "title": "Tesla Stock Earnings Estimates Boosted by Erste Group Bank - MarketBeat",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "1458cf808ebdf519": {
+  "ticker": "SPCX",
+  "title": "Micron vs. SpaceX: Wall Street Says Only One Stock Is a Strong Buy - TipRanks",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "14703882581b3a7b": {
   "ticker": "NFLX",
   "title": "MONSTER HUNTER RISE Is Now Available on Mobile Through Netflix - GamerBraves",
@@ -2273,6 +2293,11 @@
   "ticker": "NFLX",
   "title": "Elle Duncan Says Netflix’s Strategy to ‘Eventize’ Sports Was Part of The Appeal - Yahoo Sports",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "16c16b429063860c": {
+  "ticker": "MACRO",
+  "title": "US Dollar Technical Outlook: DXY, Treasury Yields Retreat Despite Hot CPI - FOREX.com",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "16e99ffb2f534862": {
   "ticker": "IONQ",
@@ -2854,6 +2879,11 @@
   "title": "London Mayor’s office resolves £50m contract dispute with US AI giant Palantir - The Independent",
   "ts": "2026-10-14T16:20:58.343020+00:00"
  },
+ "1c9cc5b05148ef91": {
+  "ticker": "MACRO",
+  "title": "Opendoor and Zillow Surge 7% as Long-Term Rates Retreat; Compass Climbs 6% - 24/7 Wall St.",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "1cae2ebbde01567a": {
   "ticker": "MACRO",
   "title": "Inflation Guy’s US CPI Summary - Forex Factory",
@@ -3299,6 +3329,11 @@
   "title": "[MARKET ANALYSIS] Crude pressured by global risk-off sentiment and potential supply relief; gold gains on haven demand -",
   "ts": "2026-10-15T09:32:27.698357+00:00"
  },
+ "21d5e14771bc0129": {
+  "ticker": "NFLX",
+  "title": "Netflix Announces Documentary Plans Involving Daejon Love Scam After 2 Dozen Women Cheated Out of $1.3M - Yardbarker",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "21dafa2a9281c815": {
   "ticker": "MACRO",
   "title": "【美联储戴利：加息可能是必要的，但并非迫在眉睫】金十数据10月15日讯，旧金山联储主席玛丽·戴利周三表示，美联储可能需要进一步上调短期利率以遏制过高的通胀，但她同时也指出，没有必要在美联储10月27日至28日的会议上就采取这一行动。“我们很",
@@ -3464,6 +3499,11 @@
   "title": "Netflix Layoffs: Streaming Giant Cuts Jobs Amid Slow Growth - Kalkine India",
   "ts": "2026-10-15T15:08:35.175914+00:00"
  },
+ "23f10a94a80a5079": {
+  "ticker": "P",
+  "title": "SDx Studio: The changing state of storage: Sovereignty and data management with Fred Lherault, Everpure - SDxCentral",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "23f6313158c2d2e0": {
   "ticker": "MACRO",
   "title": "BNY Mellon’s CEO Shrugs At 5.25% 10-Year Yields - Finimize",
@@ -3553,6 +3593,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab Stock Tanks After Neutron Launch Officially Pushed to 2027 - Benzinga",
   "ts": "2026-10-14T21:29:59.258270+00:00"
+ },
+ "24ca9c3538eca1a2": {
+  "ticker": "NFLX",
+  "title": "Netflix Is Betting Price Hikes And Ads Will Do The Heavy Lifting - Finimize",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "24cc695b0bee8dc4": {
   "ticker": "MACRO",
@@ -6084,6 +6129,11 @@
   "title": "Supermicro names Mark Long as CFO - TradingView",
   "ts": "2026-10-15T14:31:48.290805+00:00"
  },
+ "3f48c1453a751761": {
+  "ticker": "NVDA",
+  "title": "Why is Nvidia stock falling 2% on Thursday? - Invezz",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "3f48e861ae1b36aa": {
   "ticker": "NFLX",
   "title": "Jared Padalecki's Netflix Movie Based On Best-Selling Novel Gets Official First Look - IMDb",
@@ -8374,10 +8424,20 @@
   "title": "Netflix’s Western Sci-Fi TV Show About Bounty Hunters Starring Brian Tyree Henry Gets New Trailer - AOL.com",
   "ts": "2026-10-14T22:05:30.114350+00:00"
  },
+ "58ae314faa6dfe22": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI - electronics.economictimes.indiatimes.com",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "58b88c49802d834d": {
   "ticker": "NFLX",
   "title": "Streaming giant Netflix to cut six per cent of workers - Blue Mountains Gazette",
   "ts": "2026-10-14T19:50:26.225177+00:00"
+ },
+ "58baffbfb9549af9": {
+  "ticker": "MACRO",
+  "title": "Bitcoin price drops 3.6% as hot US PPI fuels Fed rate hike concerns - Crypto News",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "58d401e1121b35ed": {
   "ticker": "NFLX",
@@ -12899,6 +12959,11 @@
   "title": "Analysts Hike Oil Forecasts Again as Energy Flows Face Slow Recovery - EnergyNow",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "88e267cb65d8dfe9": {
+  "ticker": "GOOGL",
+  "title": "Is Alphabet (GOOGL) Fully Valued After Its Unity Spark Gaming AI Push? - Yahoo Finance",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "88ec7a2c12d13588": {
   "ticker": "APP",
   "title": "Applovin stock hits 52-week low at 266.41 USD By Investing.com - Investing.com UK",
@@ -13358,6 +13423,11 @@
   "ticker": "GOOGL",
   "title": "YouTube is upending Hollywood — and Alphabet might be the best entertainment bet - Yahoo Finance",
   "ts": "2026-10-14T20:25:13.566947+00:00"
+ },
+ "8e87ceeb2e4573b7": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Just Fell Below $80,000: What Triggered the Selloff? - Yahoo Finance",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "8ea18f95d2b3159d": {
   "ticker": "AMD",
@@ -13893,6 +13963,11 @@
   "ticker": "NFLX",
   "title": "Netflix, Inc. $NFLX Stock: First Citizens Bank & Trust Co. Increases Stake - MarketBeat",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "94b4ad3268ff4d05": {
+  "ticker": "NVDA",
+  "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports - CNA",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "94b9fda57019c2cf": {
   "ticker": "NFLX",
@@ -16017,6 +16092,11 @@
   "ticker": "NVDA",
   "title": "Apple Just Made History, Joining Nvidia in the $5 Trillion Club - TradingView",
   "ts": "2026-10-15T13:54:57.975193+00:00"
+ },
+ "abb1afefecff1bac": {
+  "ticker": "NFLX",
+  "title": "The Diplomat Returns With Another Absolutely Riveting New Season On Netflix. - Scenes In Color",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "abb25b10b7ae2320": {
   "ticker": "SMCI",
@@ -19463,6 +19543,11 @@
   "title": "Netflix's KPop Demon Hunters Is Coming to Toca Boca World™ This October - AOL.com",
   "ts": "2026-10-15T15:26:56.807752+00:00"
  },
+ "ce761d66fbdbe9b7": {
+  "ticker": "MACRO",
+  "title": "Nasdaq 100 forecast: US tech stocks extend decline as AI concerns intensify - FOREX.com",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "ce7728b6e9f39d54": {
   "ticker": "MACRO",
   "title": "Dollar weakens after US Treasury yields fall — Channel NewsAsia - UA.NEWS",
@@ -21468,6 +21553,11 @@
   "title": "T-Mobile: The Overblown SpaceX Fear Is A Generational Buying Opportunity (Rating Upgrade) - Seeking Alpha",
   "ts": "2026-10-15T11:47:59.273293+00:00"
  },
+ "e5d9f43eb417735d": {
+  "ticker": "SPCX",
+  "title": "SpaceX Has Created New Subscription Bundles That Combine Grok, Cursor, and More. What This Means for SPCX. - Barchart.co",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
+ },
  "e5fde2bf0306f58c": {
   "ticker": "NFLX",
   "title": "Netflix Has New Warning Signs Ahead of Q3 Earnings as U.S. App Churn Jumps by 16.6% - TipRanks",
@@ -21477,6 +21567,11 @@
   "ticker": "MACRO",
   "title": "Oil falls despite two tanker sinkings and 11.1M-barrel draw: what is market seeing? - Invezz",
   "ts": "2026-10-15T10:19:10.430320+00:00"
+ },
+ "e61ec821dd81918c": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab stock drops below key support after Neutron delay: now what? - Invezz",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "e62f2272a3c0d5c5": {
   "ticker": "TSLA",
@@ -21687,6 +21782,11 @@
   "ticker": "PLTR",
   "title": "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
   "ts": "2026-10-15T14:43:55.993639+00:00"
+ },
+ "e87e66c11a078d15": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Nemotron 3.5 Super VL: 120B Open AI Model - https://tech-insider.org/",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "e890efbdfc9c9786": {
   "ticker": "SPCX",
@@ -22972,6 +23072,11 @@
   "ticker": "PLTR",
   "title": "Palantir Is Up 16% in a Month but It’s Falling Today: Take Profits, or Buy More? - AOL.com",
   "ts": "2026-10-14T19:15:29.892709+00:00"
+ },
+ "f6b40c48a3fc612f": {
+  "ticker": "MACRO",
+  "title": "Dow's Defensive Edge Tested as Bond Yields, Oil and Tech Concentration Flash Warning Signs - BigGo Finance",
+  "ts": "2026-10-15T15:57:40.643633+00:00"
  },
  "f6b527f2a6dad588": {
   "ticker": "MACRO",
