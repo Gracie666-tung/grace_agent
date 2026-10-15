@@ -1119,6 +1119,11 @@
   "title": "Rocket Lab pushes Neutron rocket's debut flight to 2027, shares fall - TradingView",
   "ts": "2026-10-14T22:23:04.922848+00:00"
  },
+ "0b8026ae2f53c5b6": {
+  "ticker": "NFLX",
+  "title": "Netflix to cut roughly 1,000 jobs, or 6% of workforce: Report - A News",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "0b8c9ece23628751": {
   "ticker": "P",
   "title": "Everpure (NYSE:P) Shares Down 8.6% Following Insider Selling - MarketBeat",
@@ -2293,6 +2298,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab stock drops below key support after Neutron delay: now what? - Invezz",
   "ts": "2026-10-15T13:36:49.693095+00:00"
+ },
+ "1796de8f037daed0": {
+  "ticker": "NVDA",
+  "title": "Hyperliquid Looks Beyond Bitcoin to Nvidia and Oil: Can PURR Benefit? - Benzinga",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "17a398fa848d9e96": {
   "ticker": "MU",
@@ -3759,6 +3769,11 @@
   "title": "Netflix's One Piece Season 4 Could Be Coming Much Sooner than Expected - Polygon.com",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "279b1eddf5573968": {
+  "ticker": "NVDA",
+  "title": "Wall Street Is Getting Tired Of The Bank Of Nvidia, AMD And Broadcom - The Wealth Advisor",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "27a51f5c2e7b5804": {
   "ticker": "MACRO",
   "title": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop - Forbes",
@@ -3848,6 +3863,11 @@
   "ticker": "MACRO",
   "title": "Inflation climbs in September as energy prices soar, CPI report shows (Video) - Social News XYZ",
   "ts": "2026-10-14T18:23:06.361647+00:00"
+ },
+ "2852b7b785b87fc0": {
+  "ticker": "NVDA",
+  "title": "市场消息：英伟达发布Nemotron 3.5 Super VL；发布边缘模型Nemotron 3.5 Bolt 74B-A9B（24GB）。",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "28589b429a26ed54": {
   "ticker": "TSLA",
@@ -4173,6 +4193,11 @@
   "ticker": "MACRO",
   "title": "Dow Jones Today: Dow Futures Rise 0.27% Ahead of US CPI Inflation Data as Bank Earnings, Nvidia Selloff and Oil Prices A",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "2c3a67b77a58b046": {
+  "ticker": "NVDA",
+  "title": "Nvidia, Apple each gave $25 million for Trump’s ballroom, Washington Post reports - WTVB",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "2c3c542ed07658fc": {
   "ticker": "MACRO",
@@ -5203,6 +5228,11 @@
   "ticker": "TSLA",
   "title": "Tesla prepares to unveil new Roadster in Texas: Can TSLA avoid further losses? - Traders Union",
   "ts": "2026-10-15T14:56:13.203265+00:00"
+ },
+ "38709a5c3b66130d": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Q3 Preview: Staying Ahead Of The AI Pack, Shares Fairly Valued (NASDAQ:GOOG) - Seeking Alpha",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "3884208768372314": {
   "ticker": "MACRO",
@@ -7069,6 +7099,11 @@
   "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
   "ts": "2026-10-14T20:42:47.349303+00:00"
  },
+ "4d5a24d4fcac5f12": {
+  "ticker": "MACRO",
+  "title": "S&P 500's march to 8,000 hinges on 'very, very strong' third quarter - Kitco",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "4d6eaba6a87a52ae": {
   "ticker": "NFLX",
   "title": "Casting Alert: ‘Freefall,’ Netflix’s ‘Temptation Island,’ and More Seek Talent! - Casting Networks",
@@ -7593,6 +7628,11 @@
   "ticker": "MACRO",
   "title": "Deepening tech sell-off drags stocks lower as major markets slide - Yahoo Finance UK",
   "ts": "2026-10-15T04:30:30.612801+00:00"
+ },
+ "5313580ed1c372e5": {
+  "ticker": "MACRO",
+  "title": "U.S. yields near 3-week lows as AI equities rout drives flight to safe-haven - Investing.com",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "531e0d08b36e98d2": {
   "ticker": "MACRO",
@@ -9394,6 +9434,11 @@
   "title": "Elon Musk Praises Micron's Memory Pricing as AI Demand Stays Red Hot - TradingView",
   "ts": "2026-10-14T19:50:26.225177+00:00"
  },
+ "65d9407663fc1877": {
+  "ticker": "NVDA",
+  "title": "Better Artificial Intelligence Stock for 2026: Broadcom vs. NVIDIA - The Motley Fool",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "65e36c1ae3c1ad28": {
   "ticker": "MACRO",
   "title": "【ING：AI行业债务担忧拖累美元，美债收益率回吐涨幅，瑞郎成最大受益者】金十数据10月15日讯，荷兰国际集团（ING）分析师克里斯·特纳在一份报告中表示，尽管美国周三公布的通胀数据高于预期，但随着市场对AI行业债务负担的担忧日益加剧，美元",
@@ -9844,6 +9889,11 @@
   "title": "Sadiq Khan forced to back down in row over Palantir’s ‘values’ - The Times",
   "ts": "2026-10-14T16:50:04.203467+00:00"
  },
+ "6a640d69b393e02a": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer (SMCI) Names New Chief Financial Officer - TipRanks",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "6a66093afba0c150": {
   "ticker": "NFLX",
   "title": "Netflix Stock Forecast: 1,000 Job Cuts Put Q3 Margins in Focus - TradingKey",
@@ -9998,6 +10048,11 @@
   "ticker": "MACRO",
   "title": "brent crude oil price - LatestLY",
   "ts": "2026-10-15T04:07:12.063595+00:00"
+ },
+ "6bff9dac832f0094": {
+  "ticker": "MACRO",
+  "title": "Markets Digest The Hot Inflation Update - RTTNews",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "6c00b21715f15587": {
   "ticker": "NVDA",
@@ -11279,6 +11334,11 @@
   "title": "Netflix Film VP Doug Belgrad Is Out Amid Layoffs - IMDb",
   "ts": "2026-10-14T18:11:31.110628+00:00"
  },
+ "7b6061d394594e36": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab shares slump 13% as Neutron rocket launch delayed to 2027 - Yahoo Finance",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "7b6efc01ae0b1e3a": {
   "ticker": "TSM",
   "title": "TSMC Q3 profit surges to record high on AI demand; says considering Texas fab - Investing.com Canada",
@@ -11579,6 +11639,11 @@
   "title": "Netflix (NFLX) Cuts 6% of Workforce as Streaming Wars Heat Up - TipRanks",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "7e8491c5d35d27a5": {
+  "ticker": "PLTR",
+  "title": "ServiceNow vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "7e84c5bb8102697b": {
   "ticker": "MACRO",
   "title": "Exxon’s Dividend Stays Safe Even if Oil Crashes to $79 a Barrel - 24/7 Wall St.",
@@ -11703,6 +11768,11 @@
   "ticker": "MACRO",
   "title": "US Equity Markets End Lower on Renewed Inflation Concerns, Tech Slump - Yahoo Finance",
   "ts": "2026-10-14T23:15:53.606594+00:00"
+ },
+ "7ff11972431a4d7b": {
+  "ticker": "MACRO",
+  "title": "More drops for AI stocks drag Wall Street lower after whipping around the world - BNN Bloomberg",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "7ff38efb25e2e26d": {
   "ticker": "MACRO",
@@ -12503,6 +12573,11 @@
   "ticker": "NVDA",
   "title": "Pennsylvania Rep. Daniel Meuser Sold Over $1K Worth of NVIDIA Stock: Here’s What You Should Know - Benzinga",
   "ts": "2026-10-15T15:08:35.175914+00:00"
+ },
+ "88f4b80948d37faa": {
+  "ticker": "NVDA",
+  "title": "German gov't set to unveil partnership with Nvidia for automation, robots: report (NVDA:NASDAQ) - Seeking Alpha",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "890fcacc6f25eedc": {
   "ticker": "MACRO",
@@ -13539,6 +13614,11 @@
   "title": "Rocket Lab (NASDAQ: RKLB) Shares Tumble 8% As Neutron Rocket Launch Pushed To 2027 Over Dome Manufacturing Defect - Fore",
   "ts": "2026-10-15T00:14:20.940099+00:00"
  },
+ "960fb028a67a6d2c": {
+  "ticker": "MACRO",
+  "title": "US Stock Market Today LIVE: Dow Jones Gains 0.43%, S&P 500 Falls 0.26% & Nasdaq Edges Lower as Oil Surge, Tech Sell-Off ",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "96169de0b561d5bf": {
   "ticker": "NFLX",
   "title": "Colleen Hoover’s ‘Reminders of Him’ Sets November Netflix Release Following Peacock Run - IMDb",
@@ -14014,6 +14094,11 @@
   "title": "Stifel raised target for Lumentum stock from USD 1,100 to USD 1,232 - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "9b0b8bcfbb0a4225": {
+  "ticker": "TSLA",
+  "title": "What's causing the latest AI stock sell-off? Plus, TSMC earnings and Tesla's new Roadster - Yahoo Finance",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "9b29d2d539529076": {
   "ticker": "MACRO",
   "title": "US Futures Mixed as Rate Hike and AI Concerns Hit Tech Stocks - kaohoon international",
@@ -14063,6 +14148,11 @@
   "ticker": "MACRO",
   "title": "U.S. Treasury Yields Retreat From Early Highs; Eurozone Yields Remain Elevated - WSJ",
   "ts": "2026-10-15T09:26:37.384511+00:00"
+ },
+ "9bafb54763c4916b": {
+  "ticker": "NVDA",
+  "title": "Watch These Stocks Including Bank of America, Nvidia, and SK Hynix - Baystreet.ca",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "9bb1848ddadbeb3d": {
   "ticker": "NFLX",
@@ -15387,6 +15477,11 @@
   "ticker": "NFLX",
   "title": "Netflix Reportedly Hated Greta Gerwig's \"Narnia\" Cut, Ordered Reshoots and Added 2 Editors — Director May Skip Sequel - ",
   "ts": "2026-10-15T02:40:04.199039+00:00"
+ },
+ "aabbd97f4099a935": {
+  "ticker": "NVDA",
+  "title": "Nvidia debuts three new open AI models - AOL.com",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "aad174a34ea804bf": {
   "ticker": "MACRO",
@@ -17443,6 +17538,11 @@
   "title": "1 of the Stock Market's Most Reliable Recession Warnings Just Disappeared. Here's What Usually Happens Next. - The Globe",
   "ts": "2026-10-15T07:12:33.453138+00:00"
  },
+ "c02b3d59db58910b": {
+  "ticker": "NFLX",
+  "title": "Netflix's KPop Demon Hunters Is Coming to Toca Boca World™ This October - PR Newswire",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "c02d1332156b9b41": {
   "ticker": "AAOI",
   "title": "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7% - 24/7 Wa",
@@ -18998,6 +19098,11 @@
   "title": "Will NVTS' NVIDIA Partnership Strengthen Its 800V Strategy? - Zacks Investment Research",
   "ts": "2026-10-15T13:42:52.209475+00:00"
  },
+ "d06d7159b2f0c21c": {
+  "ticker": "NFLX",
+  "title": "Everton's £800m Question, English Football's Financial Crisis and Netflix's World Cup Gamble - Original Football | David",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "d07018e158b909ba": {
   "ticker": "TSLA",
   "title": "Tesla Roadster Demo Tonight: 5 Facts Before 7:55 PM [2026] - https://tech-insider.org/",
@@ -19017,6 +19122,11 @@
   "ticker": "NFLX",
   "title": "Netflix Is Laying Off 6% of Its Workforce, in Biggest Round of Job Cuts at Streaming Giant in Years - Deccan Chronicle",
   "ts": "2026-10-14T20:19:22.815809+00:00"
+ },
+ "d09c8f36420deb0c": {
+  "ticker": "NFLX",
+  "title": "Full Trailer: Netflix’s Cinderella Spin “Steps” - Dark Horizons",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "d0a1ccacbecc7128": {
   "ticker": "IONQ",
@@ -21168,6 +21278,11 @@
   "title": "Hot CPI Revives the Case for Sticky Inflation and Higher Fed Rate Risk - Investing.com Nigeria",
   "ts": "2026-10-14T17:48:17.864808+00:00"
  },
+ "ea55ef1c671a8876": {
+  "ticker": "TSM",
+  "title": "Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers - Bloomberg.com",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
+ },
  "ea58fd3edb9de459": {
   "ticker": "NFLX",
   "title": "Netflix lays off 6% of staff in biggest job cuts since 2022 - Yahoo Finance",
@@ -21777,6 +21892,11 @@
   "ticker": "MACRO",
   "title": "Global markets trade mostly negative after US inflation accelerates - US Muslims",
   "ts": "2026-10-15T12:30:10.880529+00:00"
+ },
+ "f06db61f5e05f7d6": {
+  "ticker": "NVDA",
+  "title": "英伟达CEO黄仁勋：COREWEAVE的实力每天都在增强，COREWEAVE的资本成本“实际上在下降”。",
+  "ts": "2026-10-15T15:14:40.358519+00:00"
  },
  "f077ee775a87256e": {
   "ticker": "PLTR",
