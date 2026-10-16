@@ -4944,6 +4944,11 @@
   "title": "D-Wave Quantum (NYSE: QBTS) Signs Multiyear Foundry Deal With IonQ's (NYSE: IONQ) SkyWater Technology - Foreign Policy J",
   "ts": "2026-10-14T21:24:04.101645+00:00"
  },
+ "217445932034f839": {
+  "ticker": "NVDA",
+  "title": "Nvidia, Apple each gave US$25 million for Trump's ballroom, Washington Post reports - Awani International",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "217538f3af05540e": {
   "ticker": "NVDA",
   "title": "Germany to partner with Nvidia on AI development initiative - report - Yahoo Finance",
@@ -11363,6 +11368,11 @@
   "ticker": "MACRO",
   "title": "Today's oil price analysis shows early signs that bulls are losing steam - investingLive",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "4fe8ff96dcc7c53e": {
+  "ticker": "GOOGL",
+  "title": "J.P. Morgan Maintains Alphabet-A(GOOGL.US) With Buy Rating, Raises Target Price to $425 - Moomoo",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
  },
  "4feba138f017be8d": {
   "ticker": "MACRO",
@@ -20629,6 +20639,11 @@
   "title": "Oil Prices Fall as Market Awaits Possible US-Iran Ceasefire Deal - EnergyNow",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "931e5e32fa449039": {
+  "ticker": "MACRO",
+  "title": "Oil heads for weekly gain with Mideast supply risks - The Express Tribune",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "932c4016ab435415": {
   "ticker": "MACRO",
   "title": "Oil prices dip after 3-week high amid Middle East tensions - NewsBytes",
@@ -23288,6 +23303,11 @@
   "title": "Rocket Lab pushes Neutron rocket’s debut flight to 2027, shares fall - KSLM Radio",
   "ts": "2026-10-14T22:40:45.213981+00:00"
  },
+ "a5e9a33d53eb12d1": {
+  "ticker": "TSLA",
+  "title": "‘Future does have flying cars’: Elon Musk shares Tesla Roadster’s airborne stunt - The Economic Times",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "a5f1a137cdfc7c07": {
   "ticker": "IONQ",
   "title": "D-Wave Quantum Nears 52-Week Floor as IonQ's $1.3 Billion Stock Deal Exposes Sector's Capital Hunger - ad-hoc-news.de",
@@ -24918,6 +24938,11 @@
   "title": "Tesla, Inc. $TSLA Holdings Increased by N10 Assets LLC - MarketBeat",
   "ts": "2026-10-14T17:59:52.262386+00:00"
  },
+ "b1a095285107da66": {
+  "ticker": "MACRO",
+  "title": "Oil edges down as investors weigh possible US sanctions on ‘shadow fleet’ - MyJoyOnline",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "b1a49ceb2aaa0bba": {
   "ticker": "TSM",
   "title": "Taiwan Semiconductor Manufacturing (TSM) Weighed on Fund Returns Amid Taiwan’s Strong Performance - Yahoo! Finance Canad",
@@ -25938,6 +25963,11 @@
   "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention - Yahoo Finance",
   "ts": "2026-10-14T16:50:04.203467+00:00"
  },
+ "b89c2c4a947b6744": {
+  "ticker": "PLTR",
+  "title": "Form 4 Palantir Technologies Inc For: 16 October By Investing.com - Investing.com India",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "b8a126ef392700d9": {
   "ticker": "MACRO",
   "title": "US wholesale inflation surges to four-year high as energy prices remain elevated - Invezz",
@@ -26892,6 +26922,11 @@
   "ticker": "MACRO",
   "title": "USD/JPY Faces Heavy Upside Resistance in 158 Range Despite Hot U.S. CPI; Focus Shifts to U.S. PPI and Retail Sales - Big",
   "ts": "2026-10-15T01:06:45.227014+00:00"
+ },
+ "bece07645bd47090": {
+  "ticker": "MACRO",
+  "title": "Oil heads for second weekly gain on Middle East supply risks - Moneyweb",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
  },
  "bedabebfea47eaaa": {
   "ticker": "MACRO",
@@ -29547,6 +29582,11 @@
   "ticker": "MACRO",
   "title": "Gold jumps back above $4,150 after CPI shock: why yields are suddenly helping bulls - Invezz",
   "ts": "2026-10-15T08:34:02.704228+00:00"
+ },
+ "d1310be94ba4d6ba": {
+  "ticker": "MACRO",
+  "title": "Trump’s ‘Economic D-Day’ Has A China Problem – And Paul Krugman Says It Could Keep Iran Sanctions From Working - Stocktw",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
  },
  "d135e7d74c5fa039": {
   "ticker": "NVDA",
@@ -32403,6 +32443,11 @@
   "title": "US Consumer Prices Rise by Most Since April in Broad Advance - The Business of Fashion",
   "ts": "2026-10-14T23:15:53.606594+00:00"
  },
+ "e7907f8c749d791e": {
+  "ticker": "TSLA",
+  "title": "Tesla's Flying Roadster Clears Five Vehicles in Debut Demo - Seoul Economic Daily",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
+ },
  "e7962dd112456e5b": {
   "ticker": "MACRO",
   "title": "Gold rises towards $4,200 as bears lose their grip despite hotter US inflation - Invezz",
@@ -34437,6 +34482,11 @@
   "ticker": "TSM",
   "title": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdi",
   "ts": "2026-10-15T17:29:27.652198+00:00"
+ },
+ "f650d84e0e8b4c69": {
+  "ticker": "MACRO",
+  "title": "Silver outlook bearish; may fall to $48 if $54.50 support breaks: Analyst - Business Standard",
+  "ts": "2026-10-16T06:21:21.069600+00:00"
  },
  "f65b540940eb2627": {
   "ticker": "IONQ",
