@@ -119,6 +119,11 @@
   "title": "USD rate: Why is US Dollar down from 18-month peak? - The Economic Times",
   "ts": "2026-10-15T22:17:02.105619+00:00"
  },
+ "006eb0dfd9bbc922": {
+  "ticker": "TSLA",
+  "title": "Tesla’s new Roadster car can thrust itself in the air. But don’t expect to drive it anytime soon - The Seattle Times",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "007430c719203f22": {
   "ticker": "MACRO",
   "title": "美国10月费城联储制造业新订单指数 4.3，前值29.2。",
@@ -283,6 +288,11 @@
   "ticker": "MACRO",
   "title": "September inflation sets I Bond variable rate at 4.08%; Social Security COLA will be 3.6% - https://tipswatch.com/",
   "ts": "2026-10-14T23:15:53.606594+00:00"
+ },
+ "01208961686d7a65": {
+  "ticker": "TSLA",
+  "title": "Prediction Markets are betting on a Tesla, SpaceX merger in 2027 - Invezz",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "01231b936a77f940": {
   "ticker": "MU",
@@ -2253,6 +2263,11 @@
   "ticker": "TSM",
   "title": "TSMC Reports 41.1% Q3 Revenue Surge, Sets Strong Q4 Outlook (TSM) - GuruFocus",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "0ac446a2e150b1c0": {
+  "ticker": "NFLX",
+  "title": "Netflix cuts 1,000 jobs in sweeping restructuring - Reel 360 News",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "0acc8f2855fe23ff": {
   "ticker": "MACRO",
@@ -6009,6 +6024,11 @@
   "title": "Exclusive | Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022 - WSJ",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "1d28761ea490b3fb": {
+  "ticker": "MU",
+  "title": "Micron, SK Hynix Have an AI Boom Problem — China Could Make It Worse - TradingView",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "1d2aeead902afdcd": {
   "ticker": "NVDA",
   "title": "How Nvidia Could Stop the CoreWeave Panic - Barron's",
@@ -6259,6 +6279,11 @@
   "title": "Netflix is Finally Turning 'The Bodyguard' Into a Movie — With Your Favorite 'Gossip Girl' & 'Gilmore Girls' Stars - Bri",
   "ts": "2026-10-15T17:29:27.652198+00:00"
  },
+ "1eac803a26087f2d": {
+  "ticker": "PLTR",
+  "title": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know - FinancialContent",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "1eb9b7fbca9bf9db": {
   "ticker": "MACRO",
   "title": "Nasdaq 100 Forecast: NDX falls as oil jumps and Treasury yields rise - StoneX",
@@ -6408,6 +6433,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Expands Footprint With United Airlines Days After AAL Rollout – Starlink’s Now Available On Nearly Half Its Fligh",
   "ts": "2026-10-15T15:33:06.083226+00:00"
+ },
+ "1f5c74587deded84": {
+  "ticker": "NET",
+  "title": "Cloudflare Fedramp Dashboard and Access Issue Identified - Technobezz",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "1f5ce6bb977b6725": {
   "ticker": "MU",
@@ -7218,6 +7248,11 @@
   "ticker": "NVDA",
   "title": "Why This AI Play — An Nvidia, Amazon Supplier — Is Outpacing The S&P - Investor's Business Daily",
   "ts": "2026-10-15T12:12:04.955007+00:00"
+ },
+ "23b71f40f3cade3a": {
+  "ticker": "NVDA",
+  "title": "Nvidia's open-source ASPIRE system taught a robot to solve a Rubik's Cube - Startup Fortune",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "23cf3766d20f6ed8": {
   "ticker": "MACRO",
@@ -9438,6 +9473,11 @@
   "ticker": "MACRO",
   "title": "Despite Hot PPI, Yields Fall, Sparking Broad Rally Held Back By Tech - RealMoney Pro",
   "ts": "2026-10-15T22:59:09.248334+00:00"
+ },
+ "2eea21f67fffae50": {
+  "ticker": "MACRO",
+  "title": "Fed Meeting Lacks PCE Inflation Data as Warsh Weighs Six-Meeting Schedule - News and Statistics - IndexBox",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "2ef351e05a518c58": {
   "ticker": "NFLX",
@@ -12604,6 +12644,11 @@
   "title": "'Love is Blind' Boston season just premiered on Netflix. How to watch - The Patriot Ledger",
   "ts": "2026-10-14T19:38:46.317716+00:00"
  },
+ "3efb5239b7043df0": {
+  "ticker": "NFLX",
+  "title": "Long weekend? Check out these Netflix, Disney+ and SkyShowtime series releases - Samsung Magazine",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "3f003aa32489a226": {
   "ticker": "TSM",
   "title": "美PPI强化加息预期，A股宽基基金成交破百亿| Plus日报：美PPI全面超预期强化加息预期，A股宽基基金成交两个月来首破百亿；马斯克看多中国内存产能，台积电净利新高，Anthropic三季度实现盈利.....",
@@ -14548,6 +14593,11 @@
   "ticker": "TSM",
   "title": "TSMC Earnings Review: Even AI's Biggest Shovel Seller Can't Save Chip Stocks? - Moomoo",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "48d4e053d1f7ccc1": {
+  "ticker": "MU",
+  "title": "Entegris, Micron, AMD, Marvell Technology, and Western Digital Shares Are Falling, What You Need To Know - FinancialCont",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "48d74a9eb2711c74": {
   "ticker": "MACRO",
@@ -19638,6 +19688,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Stock Price Today: Falling $7.99 (-5.10%) – Check Market Snapshot, Trajectory, Wall Street Projections, What Inve",
   "ts": "2026-10-15T14:43:55.993639+00:00"
+ },
+ "614f823742f77021": {
+  "ticker": "MACRO",
+  "title": "Snowflake, Atlassian, Bandwidth, Five9, and Palo Alto Networks Stocks Trade Down, What You Need To Know - FinancialConte",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "61513cc892d13583": {
   "ticker": "NFLX",
@@ -29754,6 +29809,11 @@
   "title": "Tesla Flying Car Buzz Sends FTR Coin Soaring 1,458% as TSLA Rises 3.9% - Coin Gabbar",
   "ts": "2026-10-16T11:55:41.554885+00:00"
  },
+ "9542a0f1a27ea691": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile Sinks As SpaceX Competition Heats Up - TipRanks",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "9543812fab130926": {
   "ticker": "MACRO",
   "title": "Silver (XAG) Forecast: Dollar Pullback Gives Buyers Little Relief - FXEmpire",
@@ -30833,6 +30893,11 @@
   "ticker": "TSLA",
   "title": "Tesla readies flying Roadster reveal in Texas to re-energize car business By Investing.com - Investing.com South Africa",
   "ts": "2026-10-15T16:22:08.196233+00:00"
+ },
+ "99e23b1ba240770d": {
+  "ticker": "TSM",
+  "title": "Arm and AMD Fall 5% as Qualcomm Verdict Adds to Chip Selloff; Taiwan Semiconductor Slips - AOL.com",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "99f477bfaa89a02a": {
   "ticker": "NET",
@@ -33172,6 +33237,11 @@
   "ticker": "NFLX",
   "title": "What to watch tonight: 39 new shows and movies just added to Netflix, HBO Max, Peacock and more (Oct. 15) - Tom's Guide",
   "ts": "2026-10-15T16:03:44.933283+00:00"
+ },
+ "a64bf9820fa54387": {
+  "ticker": "MACRO",
+  "title": "布伦特原油期货结算价为每桶109.86美元，上涨3.94美元，涨幅3.72%。",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "a650170407c94ed3": {
   "ticker": "TSLA",
@@ -39408,6 +39478,11 @@
   "title": "Form 4 Arista Networks For: 15 October By Investing.com - Investing.com Canada",
   "ts": "2026-10-15T16:15:59.099522+00:00"
  },
+ "c5bbd07fc54f0186": {
+  "ticker": "SMCI",
+  "title": "Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search - Benzinga",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "c5c875556e0c2c1e": {
   "ticker": "NVDA",
   "title": "US tech firm Nvidia buys stake in French health platform Doctolib - Modern Ghana",
@@ -42398,6 +42473,11 @@
   "title": "Amanda Seyfried & Ali Wong Take Center Stage in Netflix’s Cinderella Movie Trailer - Crave Online",
   "ts": "2026-10-15T17:17:19.952643+00:00"
  },
+ "d50047730a9b9e52": {
+  "ticker": "MACRO",
+  "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Soars 4% As Traders Prepare For Escalation In The Middle East - FXEmpire",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "d5073fb93b7cd109": {
   "ticker": "RKLB",
   "title": "Rocket Lab delays Neutron rocket launch - Advanced Television",
@@ -44822,6 +44902,11 @@
   "ticker": "MACRO",
   "title": "3 Things We Learned About the Economy This Week | National News | U.S. News - U.S. News & World Report",
   "ts": "2026-10-16T14:52:00.726057+00:00"
+ },
+ "e2471ca33c2ee958": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Stock Slides After Neutron Launch Bombshell - TipRanks",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "e24f163dd5083fdb": {
   "ticker": "MACRO",
@@ -49093,6 +49178,11 @@
   "title": "Stocks Tick Up As Trump Downplays Ground Troops In Iran - Finimize",
   "ts": "2026-10-16T12:14:04.703883+00:00"
  },
+ "f8df2a358eb08c5e": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘Sacrifice’ Movie Ending Explained: Does the Volcano Erupt In the New Chris Evans Movie? - Decider",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
+ },
  "f8e5b610714ac12d": {
   "ticker": "MACRO",
   "title": "Bitcoin now closely tracks US 10-year real Trea... - Pluang",
@@ -49327,6 +49417,11 @@
   "ticker": "NFLX",
   "title": "NFLX Stock Dips Overnight: Retail Turns Bearish Ahead Of Earnings As Netflix Reels Under Growth Pressure - TradingView",
   "ts": "2026-10-15T05:51:27.598983+00:00"
+ },
+ "fa58c83b105ff89f": {
+  "ticker": "MACRO",
+  "title": "Oil futures: Crude in late surge amid rising Middle East tensions - Quantum Commodity Intelligence",
+  "ts": "2026-10-16T18:57:35.291327+00:00"
  },
  "fa596a6129a66e5c": {
   "ticker": "MACRO",
