@@ -5554,6 +5554,11 @@
   "title": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong - Investor's B",
   "ts": "2026-10-15T12:24:09.216437+00:00"
  },
+ "19bb4bac088ecd30": {
+  "ticker": "MACRO",
+  "title": "Colorado adds 2,400 jobs as unemployment rises to 4.1% - ColoradoBiz",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "19bd5844c39b8bf5": {
   "ticker": "SNDK",
   "title": "Should You Buy Sandisk Stock Before Oct. 29? - Yahoo Finance",
@@ -6478,6 +6483,11 @@
   "ticker": "PLTR",
   "title": "Enterprise software stocks fall as AI financing concerns hit Palantir, ServiceNow, and Salesforce. - Pluang",
   "ts": "2026-10-16T16:47:35.975347+00:00"
+ },
+ "1e2627ffc457d444": {
+  "ticker": "MACRO",
+  "title": "Gold stumbles as US yields eclipse fading October Fed hike bets - Mitrade",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "1e2be49a0c8f4132": {
   "ticker": "SMCI",
@@ -10479,6 +10489,11 @@
   "title": "Tesla is releasing three different versions of the Roadster and the cost to just reserve one is wild - Supercar Blondie",
   "ts": "2026-10-16T09:29:19.330526+00:00"
  },
+ "3202b80e789cf74d": {
+  "ticker": "NFLX",
+  "title": "'Fast Money' traders talk executive changes at Netflix ahead of earnings - CNBC",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "32046dbeb1fdc999": {
   "ticker": "MACRO",
   "title": "The bloodletting in stocks is stanched as investors buy the dip and rotate out of tech - Fortune",
@@ -11919,6 +11934,11 @@
   "title": "Netflix Gears Up to Report Q3 Earnings: Buy, Sell or Hold the Stock? - TradingView",
   "ts": "2026-10-16T14:39:48.768041+00:00"
  },
+ "38e7b88fecd53454": {
+  "ticker": "MU",
+  "title": "Micron stock continues slump, analysts are saying it's a buying opportunity - Invezz",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "38e8587f0f636e6f": {
   "ticker": "TSM",
   "title": "TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short - Asianet Newsable",
@@ -12788,6 +12808,11 @@
   "ticker": "TSLA",
   "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World - WIRED",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "3ca0ecdc0382a16f": {
+  "ticker": "TSLA",
+  "title": "Elon Musk's flying Tesla Roadster unveiling boosts tokenized TSLA - CoinDesk",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "3ca1fd83b2b88052": {
   "ticker": "MACRO",
@@ -13883,6 +13908,11 @@
   "ticker": "NVDA",
   "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady - 24/7 Wall St.",
   "ts": "2026-10-16T15:34:38.241012+00:00"
+ },
+ "417e098c96860d59": {
+  "ticker": "NFLX",
+  "title": "Netflix’s Near-Perfect New Mystery Thriller is One of the Biggest Shows of 2026 - MovieWeb",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "4181f44c64d69132": {
   "ticker": "MACRO",
@@ -16593,6 +16623,11 @@
   "ticker": "MACRO",
   "title": "Gold Climbs as Oil and Dollar Retreat - وكالة الأنباء العمانية (العمانية)",
   "ts": "2026-10-15T21:58:57.278178+00:00"
+ },
+ "4e898c1e9d4291b2": {
+  "ticker": "PLTR",
+  "title": "Palantir stock rises after strong quarter; 24/7 Wall St. sets $221.30 price target with buy rating. - Pluang",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "4e8d0ffe78e630ef": {
   "ticker": "NVDA",
@@ -24394,6 +24429,11 @@
   "title": "Gold Price Today: Here’s Why Is Gold Rising Again After the CPI Crash - CaptainAltcoin",
   "ts": "2026-10-15T10:07:28.697869+00:00"
  },
+ "73d323ada6033cb2": {
+  "ticker": "NFLX",
+  "title": "3 best new Netflix shows to binge-watch this weekend (October 16-18) - How-To Geek",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "73e7fb3c2854cc06": {
   "ticker": "MACRO",
   "title": "U.S. Inflation Reaches 3.7% in September as Gas Prices Drive CPI Increase: 13 outlets compared - NewsCord",
@@ -27794,6 +27834,11 @@
   "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KMTR",
   "ts": "2026-10-14T17:42:30.302899+00:00"
  },
+ "84a9b1831f0fb893": {
+  "ticker": "NVDA",
+  "title": "Volvo Cars and NVIDIA Boost Automated Driving Safety with AI - RS Web Solutions",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "84bcba5b0d119cf7": {
   "ticker": "MACRO",
   "title": "United States: Core CPI and PCE re-accelerate – TD Securities - Mitrade",
@@ -29759,6 +29804,11 @@
   "title": "Netflix greenlights doc on Daejon Love, the fake 49ers WR who fleeced dating app victims for $1.3M - Fox News",
   "ts": "2026-10-14T23:15:53.606594+00:00"
  },
+ "8d9e99a667b653b5": {
+  "ticker": "TSLA",
+  "title": "Uber Stock (UBER): Why Guggenheim Is Bullish Despite ‘Three-Horse Race’ with Waymo, Zoox, and Tesla - TipRanks",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "8da0ddc6914cb13c": {
   "ticker": "NFLX",
   "title": "Netflix Lands New Global Streaming Hit With Disney's Near-Perfect Fantasy Adventure Adaptation - MovieWeb",
@@ -29923,6 +29973,11 @@
   "ticker": "MACRO",
   "title": "Previous day losses: US stocks fall after hot inflation report as leading AI shares tumble - RTL Today",
   "ts": "2026-10-15T02:57:40.089492+00:00"
+ },
+ "8ea85ead69a03ec8": {
+  "ticker": "TSLA",
+  "title": "US appeals court blocks class actions over Tesla’s self-driving claims By Reuters - Investing.com",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "8eb6345a9b7869f9": {
   "ticker": "TSM",
@@ -31058,6 +31113,11 @@
   "ticker": "SPCX",
   "title": "Tesla’s new Roadster turns in air with SpaceX thrusters, won’t land until 2028 - Ceylon Daily News",
   "ts": "2026-10-16T19:51:44.936995+00:00"
+ },
+ "9474b8c12cefe035": {
+  "ticker": "TSLA",
+  "title": "Tesla Shows Off Flying Roadster: Don’t Buy the Hype - GearJunkie",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "947aa42143322bcd": {
   "ticker": "NFLX",
@@ -37002,6 +37062,11 @@
   "ticker": "TSM",
   "title": "Chip giant TSMC considers Texas for second U.S. fab - WFAA",
   "ts": "2026-10-15T20:27:33.030631+00:00"
+ },
+ "b22531d965913f2c": {
+  "ticker": "NFLX",
+  "title": "5 Best New Movies And Shows To Stream This Weekend On Netflix, Prime Video, Hulu, And More (Oct. 16-18) - SlashFilm",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "b2293be32b256f10": {
   "ticker": "NVDA",
@@ -43173,6 +43238,11 @@
   "title": "Tesla, SpaceX, CoreWeave, Netflix, and More Stocks That Explain Today’s Market - Barron's",
   "ts": "2026-10-16T10:29:40.917384+00:00"
  },
+ "cf25c0972eb05ab1": {
+  "ticker": "MACRO",
+  "title": "U.S. markets are weighed down by an extended sell-off in the tech sector - BNN Bloomberg",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
  "cf32ef22170d0546": {
   "ticker": "MU",
   "title": "Behind Micron's Rise: The Survival Battle of America's Lone Memory Champion, Capital Maneuvers, and an AI Rebirth - fina",
@@ -43182,6 +43252,11 @@
   "ticker": "MACRO",
   "title": "Fannie Mae Raises Mortgage-Rate Forecast to 7.5% for 2027 - Globest",
   "ts": "2026-10-16T09:59:33.358946+00:00"
+ },
+ "cf446ed8a173574e": {
+  "ticker": "TSLA",
+  "title": "The Week Ahead (19 Oct – 23 Oct): Tesla & Bloom Energy to Report as the AI Trade Wobbles - Stockopedia",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "cf4ec7cf82ddd743": {
   "ticker": "TSM",
@@ -44947,6 +45022,11 @@
   "ticker": "GOOGL",
   "title": "【黑石集团全面加码人工智能 2000亿美元数据中心投资成核心布局】金十数据10月15日讯，据悉，黑石集团(BX.N)已建立起规模达2000亿美元的数据中心投资组合，并正与谷歌合作打造云计算业务。黑石还投资了OpenAI等人工智能实验室，以博",
   "ts": "2026-10-15T11:53:59.558884+00:00"
+ },
+ "d838e03feb38b7f4": {
+  "ticker": "TSLA",
+  "title": "Tesla's new Roadster car can thrust itself in the air. But don't expect to drive it anytime soon - News-Times",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "d83a17efccd0467a": {
   "ticker": "NFLX",
@@ -48087,6 +48167,11 @@
   "ticker": "NFLX",
   "title": "Streaming giant Netflix to cut six per cent of workers - The Singleton Argus",
   "ts": "2026-10-15T00:37:30.070465+00:00"
+ },
+ "e869760bc9d98d16": {
+  "ticker": "SPCX",
+  "title": "Tesla unveils flying Roadster with SpaceX technology - thebusinessjournal.com",
+  "ts": "2026-10-16T22:04:14.791547+00:00"
  },
  "e86ba981948e3b79": {
   "ticker": "MU",
