@@ -689,6 +689,11 @@
   "title": "Watch CNBC's full interview with Interactive Brokers' Steve Sosnick and Fundstrat's Mark Newton - CNBC",
   "ts": "2026-10-15T18:48:57.451514+00:00"
  },
+ "02ad14aee0c97863": {
+  "ticker": "TSLA",
+  "title": "Tesla Roadster Flying Car Debuts With Thruster Flips, 2028 Target - Benzinga",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "02ad90ff61d740f7": {
   "ticker": "MACRO",
   "title": "美国能源信息署（EIA）：尽管美国原油库存增幅超出预期，布伦特原油和WTI原油期货价格仍保持稳定。",
@@ -969,10 +974,20 @@
   "title": "US Dollar Bulls Got Everything They Wanted. Except a Rally - Forex Factory",
   "ts": "2026-10-15T01:35:48.704818+00:00"
  },
+ "041d344581465fc7": {
+  "ticker": "TSLA",
+  "title": "Musk, Tesla show off flying car in Roadster viral videos - The Star Democrat",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "041f664e4fde52a4": {
   "ticker": "NVDA",
   "title": "CoreWeave Rides Rollercoaster Despite ARK's Wood, Nvidia Support - Investor's Business Daily",
   "ts": "2026-10-16T19:15:37.268048+00:00"
+ },
+ "0420fd0ec0eeb15c": {
+  "ticker": "PLTR",
+  "title": "Terminate the NHS contract with Palantir! - Howl.link",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "042979c19e83469c": {
   "ticker": "MU",
@@ -8379,6 +8394,11 @@
   "title": "Oracle Shares Drop Over 7%: September CPI Beats Expectations to Raise Rate Hike Odds, AI Infrastructure Financing Amplif",
   "ts": "2026-10-14T16:32:38.898107+00:00"
  },
+ "27fffca43710abfa": {
+  "ticker": "NFLX",
+  "title": "Netflix’s 4-Season Political Thriller Hits Streaming Top 3 After New Episodes Debut - Comic Book Resources",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "28041d92bd72e55d": {
   "ticker": "MACRO",
   "title": "Oil eases, but set for weekly gain on Mideast supply risks - KLSE Screener",
@@ -9494,6 +9514,11 @@
   "title": "Tesla to unveil redesigned Roadster, a tech sho... - Pluang",
   "ts": "2026-10-15T20:14:57.517775+00:00"
  },
+ "2d225e9fff19ba2a": {
+  "ticker": "TSM",
+  "title": "TSMC explores Texas expansion as AI chip demand outpaces production - The American Bazaar",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "2d29a226f4399a5c": {
   "ticker": "NFLX",
   "title": "Netflix’s ‘Steps’ Gets a Magical New Trailer and Release Date - IMDb",
@@ -10174,6 +10199,11 @@
   "title": "Hensoldt-Aktie: Über 40 % weniger Verlust als Rheinmetall - Börse Express",
   "ts": "2026-10-15T16:40:36.045654+00:00"
  },
+ "30e9b5f02ba8b366": {
+  "ticker": "NFLX",
+  "title": "Netflix Enters Box Office Era With ‘La Bola Negra’; ‘You Can See Everything’ & ‘Musk’ Face Off – Specialty Preview - IMD",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "30f566a06bca7742": {
   "ticker": "NFLX",
   "title": "Neha Dhupia reveals she turned down Shah Rukh Khan starrer Chak De! India and Netflix’s Operation Safed Sagar - Bollywoo",
@@ -10188,6 +10218,11 @@
   "ticker": "MACRO",
   "title": "Germany's DAX 40 Gains 0.76% to 25,277.68 as Rheinmetall Leads a Defence Rally - BBN Times",
   "ts": "2026-10-16T04:38:43.930599+00:00"
+ },
+ "3106d8a18b1a1646": {
+  "ticker": "TSLA",
+  "title": "Tesla's new Roadster car can thrust itself in the air. But don't expect to drive it anytime soon - Bay to Bay News",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "310bca08ff025e6a": {
   "ticker": "AAOI",
@@ -19749,6 +19784,11 @@
   "title": "Netflix laying off 6 percent of its workforce, marking biggest round of job cuts in years - The Hill",
   "ts": "2026-10-14T18:52:12.612803+00:00"
  },
+ "5e4ecc067ac2a64a": {
+  "ticker": "NFLX",
+  "title": "Netflix and Disney Are Scrambling to Survive - Slate",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "5e534ecafe9c7c58": {
   "ticker": "MACRO",
   "title": "How the new sovereign risk order could reach Nigeria - Businessamlive",
@@ -20343,6 +20383,11 @@
   "ticker": "NFLX",
   "title": "Gossip Girl Meets Gilmore Girls In This Cosy New Christmas Netflix Rom-Com - KISS.ie",
   "ts": "2026-10-16T12:01:44.011388+00:00"
+ },
+ "615296ae50239a71": {
+  "ticker": "TSLA",
+  "title": "Tesla’s new Roadster ‘flying car’ can thrust itself in the air - WLFI",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "615962736efc8e36": {
   "ticker": "MACRO",
@@ -23919,6 +23964,11 @@
   "title": "The Ibex 35 starts flat, holds at 19,200 points and oil yields to 104 dollars. - Demócrata",
   "ts": "2026-10-15T08:45:43.274526+00:00"
  },
+ "7347a0a9593c164b": {
+  "ticker": "TSLA",
+  "title": "Tesla Just Unveiled Its Flying Car. History Says It Might Not Work Out. - Popular Mechanics",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "7348cece6a54fb19": {
   "ticker": "NFLX",
   "title": "NFLX Stock Dips Overnight: Netflix Faces Analyst Downgrade As Margin Concerns Persist Ahead Of Earnings - Yahoo Finance",
@@ -27088,6 +27138,11 @@
   "ticker": "TSLA",
   "title": "JPMorgan reiterates Tesla stock rating, keeps $415 price target - Investing.com",
   "ts": "2026-10-16T11:19:07.812178+00:00"
+ },
+ "82ff66a6009439cb": {
+  "ticker": "NFLX",
+  "title": "Netflix Stocks Fall 2.3% as October 26 Handover Puts Content Returns in Focus - Yahoo Finance",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "830197ac97c31126": {
   "ticker": "SPCX",
@@ -35632,6 +35687,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin Price Today: Hot CPI Sends BTC Below $81,000. Is $80K Next - The Crypto Times",
   "ts": "2026-10-15T06:20:27.923543+00:00"
+ },
+ "ad7d50a665d5bbb9": {
+  "ticker": "MACRO",
+  "title": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy? - Zacks Investment Research",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "ad81e8d295862ca5": {
   "ticker": "MACRO",
@@ -44388,6 +44448,11 @@
   "title": "Treasury yields tumble despite a hot PPI print - Seeking Alpha",
   "ts": "2026-10-15T13:00:28.143570+00:00"
  },
+ "d846e9f199c2d136": {
+  "ticker": "MACRO",
+  "title": "New Bitcoin Whales’ Realized Cap Hits $78.6B, Share Rises to 33% - The Crypto Times",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
+ },
  "d856355291f9536d": {
   "ticker": "RDDT",
   "title": "User Growth And ARPU Gains Put Reddit Stock In Focus - Simply Wall Street",
@@ -45842,6 +45907,11 @@
   "ticker": "MACRO",
   "title": "Govt cuts petrol price by Rs3.93 to Rs386.30 per litre, keeps diesel unchanged - Profit by Pakistan Today",
   "ts": "2026-10-16T18:39:11.367049+00:00"
+ },
+ "dfe1f4f179ccac0f": {
+  "ticker": "TSLA",
+  "title": "Option traders moderately bearish in Tesla with shares down 2.53% - TipRanks",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "dfe20a78781c95b7": {
   "ticker": "TSLA",
@@ -50137,6 +50207,11 @@
   "ticker": "TSLA",
   "title": "Tesla Stock Has a Huge Valuation. Here’s What It Would Take to Justify It - 24/7 Wall St.",
   "ts": "2026-10-15T16:03:44.933283+00:00"
+ },
+ "f63759249334931f": {
+  "ticker": "NVDA",
+  "title": "Nvidia RTX Spark - The future of gaming laptops? - Notebookcheck",
+  "ts": "2026-10-16T21:04:00.540439+00:00"
  },
  "f6422c70b365da8e": {
   "ticker": "MACRO",
