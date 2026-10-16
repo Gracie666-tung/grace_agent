@@ -209,6 +209,11 @@
   "title": "Bovespa heads into Thursday after CPI shock and 382-point loss - ad-hoc-news.de",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "00e6e402af483f47": {
+  "ticker": "TSLA",
+  "title": "Warsh avoids rate guidance; Tesla’s Roadster turns in air - what’s moving markets - Yahoo Finance",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "00edae73a69ad600": {
   "ticker": "MACRO",
   "title": "Bitcoin slides below $81k as hot U.S. CPI spurs rate hike bets - Investing.com Nigeria",
@@ -1083,6 +1088,11 @@
   "ticker": "MACRO",
   "title": "Gold, Silver Rebound on Falling Yields and Weaker Dollar - News and Statistics - IndexBox",
   "ts": "2026-10-15T21:34:40.301635+00:00"
+ },
+ "066582f6ff43d620": {
+  "ticker": "HAG",
+  "title": "ODDO BHF cuts target for Hensoldt stock to EUR 83.50 - ad-hoc-news.de",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "0675032f7487095a": {
   "ticker": "NVDA",
@@ -2429,6 +2439,11 @@
   "title": "Cathie Wood trims Palantir to buy this AI stock after a brutal 16% crash - Invezz",
   "ts": "2026-10-15T12:18:06.805740+00:00"
  },
+ "0f6330a0c5d24541": {
+  "ticker": "MACRO",
+  "title": "日本央行行长：潜在通胀正接近2%，警惕物价进一步超出目标：交易员对年底前日本再加息的定价已飙升至82%。面对AI能耗扩张、中东油价上行及日元贬值的输入型冲击，日本央行正式将战略重心转向防范通胀持续失控。点击查看…",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "0f638a348d3a0c02": {
   "ticker": "NVDA",
   "title": "RLC Pro AI delivers top AI performance on NVIDIA DGX Spark with Enterprise Linux stability - The Manila Times",
@@ -3718,6 +3733,11 @@
   "ticker": "MACRO",
   "title": "Gold jumps back above $4,150 after CPI shock: why yields are suddenly helping bulls - Invezz",
   "ts": "2026-10-15T07:24:12.849454+00:00"
+ },
+ "1783bb027299021f": {
+  "ticker": "RKLB",
+  "title": "Analyst recommendations: Ebay, Workday, Fair Isaac, Crowdstrike, Rocket Lab… - marketscreener.com",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "178444a48389d3ec": {
   "ticker": "NVDA",
@@ -9279,6 +9299,11 @@
   "title": "Musk's Tesla-SpaceX Merger Speculation and Roadster 'Flight' Stunt Spark Market Attention - KuCoin",
   "ts": "2026-10-16T07:09:57.715517+00:00"
  },
+ "3c8a10f1b365b780": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stock Could Be Worth $4,128 in the Next Year - The Globe and Mail",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "3c92e3d35c7a3bf9": {
   "ticker": "TSLA",
   "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World - WIRED",
@@ -12818,6 +12843,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin Forecast: BTC/USD Bounces off $80K, 9-Month Highs In Play? - FOREX.com",
   "ts": "2026-10-15T23:47:24.844312+00:00"
+ },
+ "54167ea8af89204e": {
+  "ticker": "MACRO",
+  "title": "FTSE MIB Falls to 49,753.84 as Prysmian and Italian Banks Weigh; Avio Soars 5% on Lockheed Martin Deal - BBN Times",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "542cc0616f6f4cb5": {
   "ticker": "MACRO",
@@ -16694,6 +16724,11 @@
   "title": "Most Watched New Netflix Movies of 2026 So Far - IMDb",
   "ts": "2026-10-14T16:03:21.875466+00:00"
  },
+ "6ccf1499360d87b8": {
+  "ticker": "NVDA",
+  "title": "AI Debt Concerns Weigh on Nvidia, CoreWeave: Explained - JournalArta",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "6cdd514a6b5de9b5": {
   "ticker": "NFLX",
   "title": "Tenzing - ​​What to watch on OTT this weekend: 9 new movies and shows coming to Netflix, JioHotstar, Prime Video and mor",
@@ -19644,6 +19679,11 @@
   "title": "IonQ Announces Pricing of $2.0 Billion Equity Offering - The Quantum Insider",
   "ts": "2026-10-14T16:20:58.343020+00:00"
  },
+ "81b1b3a72e6183c0": {
+  "ticker": "MACRO",
+  "title": "INDIA BONDS-Indian bonds hang tight ahead of supply - bfsi.economictimes.indiatimes.com",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "81b51707d2e068e5": {
   "ticker": "SPCX",
   "title": "Elon Musk's $100 Trillion SpaceX Bet Has a Starlink Mobile Wild Card - Benzinga",
@@ -21214,6 +21254,16 @@
   "title": "Taiwan chipmaker TSMC explores Texas investment to expand production in the US - Livingston Enterprise",
   "ts": "2026-10-15T15:02:22.941713+00:00"
  },
+ "8c64d128190f6a04": {
+  "ticker": "NVDA",
+  "title": "Microsoft CEO Satya Nadella Just Shared Bad News for Nvidia and Great News for This Rival Chipmaker - The Motley Fool",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
+ "8c68aa5a967ef940": {
+  "ticker": "NFLX",
+  "title": "CII Big Picture Summit 2026: Netflix India Series Head Tanya Bami calls comedy a shared cultural experience as Netflix p",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
+ },
  "8c743851793fbbda": {
   "ticker": "MACRO",
   "title": "Phillips Curve explained: inflation, unemployment and the limits of monetary policy - www.equiti.com",
@@ -21243,6 +21293,11 @@
   "ticker": "MACRO",
   "title": "US bond yields fall amid tech stock sell-off — CNBC - UA.NEWS",
   "ts": "2026-10-15T13:24:39.820229+00:00"
+ },
+ "8c98935258b384e9": {
+  "ticker": "MACRO",
+  "title": "Gold, Silver rebound on softer Dollar and falling yields; domestic gains capped by Rupee strength - BusinessLine",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "8c99059e03007ed7": {
   "ticker": "TSM",
@@ -22073,6 +22128,11 @@
   "ticker": "MU",
   "title": "Elon Musk Says Micron Is Making a 'Smart Move' on Memory. Micron Stock Falls Anyway. -- Barrons.com - Moomoo",
   "ts": "2026-10-14T18:58:05.155427+00:00"
+ },
+ "92f72e38500dcfa0": {
+  "ticker": "MACRO",
+  "title": "RI Jobs Fell 1,600 in September as Rate Dips to 3.6% - Uprise RI",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "930c8ea7c5d14769": {
   "ticker": "NFLX",
@@ -26097,6 +26157,11 @@
   "ticker": "NVDA",
   "title": "Nvidia to open Stockholm AI hub for start-ups tackling health and climate challenges - Yahoo News Australia",
   "ts": "2026-10-15T14:56:13.203265+00:00"
+ },
+ "adb7062a4465593b": {
+  "ticker": "TSM",
+  "title": "Bitcoin News | Bitcoin Recovers to $82,000 in Two Hours as Seoul Rebounds — Though TSMC Still Fell on Good News - Binanc",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "adbad0a6548a1317": {
   "ticker": "NVDA",
@@ -31247,6 +31312,11 @@
   "ticker": "NFLX",
   "title": "Huge Netflix Talent Exits, New Replacement Announced Amid 1000 Layoffs - ComingSoon.net",
   "ts": "2026-10-16T07:03:51.664904+00:00"
+ },
+ "ce27794f921dae72": {
+  "ticker": "NFLX",
+  "title": "Netflix Appoints Peter Rice as Chief Content Officer Amid Challe - GuruFocus",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "ce2b3adedd766a50": {
   "ticker": "MACRO",
@@ -37262,6 +37332,11 @@
   "ticker": "TSLA",
   "title": "Elon Musk’s Roadster Wows Crowds, but Tesla Stock Still Falls - Coinpaper",
   "ts": "2026-10-16T05:39:04.641265+00:00"
+ },
+ "f833dca30ec3629b": {
+  "ticker": "NFLX",
+  "title": "GTA 6: Official Launch Trailer, Netflix’s Extended Look, Release Date, Gameplay And More - Man of Many",
+  "ts": "2026-10-16T08:58:59.221779+00:00"
  },
  "f83441ac421d3d11": {
   "ticker": "HAG",
