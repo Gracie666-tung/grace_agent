@@ -969,6 +969,11 @@
   "title": "S&P500: Hot CPI Puts Long-Term Yields Back in Control - FXEmpire",
   "ts": "2026-10-15T00:14:20.940099+00:00"
  },
+ "0589b3fe8edf06b5": {
+  "ticker": "RKLB",
+  "title": "Citizens cuts Rocket Lab stock price target on Neutron delay to 2027 - Investing.com Canada",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "059221ec256fff87": {
   "ticker": "NFLX",
   "title": "Netflix Cuts 6% of Workforce in Biggest Layoff Since 2022 - Yahoo News UK",
@@ -2469,6 +2474,11 @@
   "title": "September CPI: Inflation Momentum Turns In The Wrong Direction (NDX) - Seeking Alpha",
   "ts": "2026-10-14T16:20:58.343020+00:00"
  },
+ "0f5ac580c47ff7fd": {
+  "ticker": "NFLX",
+  "title": "Netflix Panel at CII Summit 2026: Comedy in Shared Culture - Dadasaheb Phalke International Film Festival | DPIFF",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "0f5eee528df1cfa9": {
   "ticker": "IONQ",
   "title": "FIU Gets Florida's First Quantum Computer From IonQ - Hoodline",
@@ -2948,6 +2958,11 @@
   "ticker": "TSLA",
   "title": "\"flying cars are real\" Tesla shows off the new Roadster. - Star 102.7",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "123506eb7b1201bd": {
+  "ticker": "TSM",
+  "title": "Samsung's foundry catch-up drive put to test as TSMC doubles 2-nanometer production capacity - 머니투데이",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
  },
  "123b90d47f64c64c": {
   "ticker": "ANET",
@@ -10109,6 +10124,11 @@
   "title": "Gas Prices Jumped 9.1% in 1 Month, and CPI Inflation Hit 3.7%. Here’s What It Means for Consumer Stocks. - Yahoo Finance",
   "ts": "2026-10-14T18:17:20.446112+00:00"
  },
+ "405a9ea908990c74": {
+  "ticker": "RKLB",
+  "title": "Citizens cuts Rocket Lab stock price target on Neutron delay to 2027 - Investing.com UK",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "405af22c7d5136c8": {
   "ticker": "TSM",
   "title": "TSMC CEO C.C. Wei sees no slowdown as chip foundry posts record profit - Crypto Briefing",
@@ -13494,6 +13514,11 @@
   "title": "The Rate Hike Lands Where the Lease and the Loan Disagree - Global Data Center Hub",
   "ts": "2026-10-15T02:05:18.306616+00:00"
  },
+ "565c802512052e74": {
+  "ticker": "TSM",
+  "title": "NVIDIA CEO gives 5 reasons TSMC beating Samsung chip manufacturing - Sammy Fans",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "565dd6e093f56d06": {
   "ticker": "TSLA",
   "title": "Tesla to livestream delayed Roadster event on Thursday - Quartz",
@@ -16359,6 +16384,11 @@
   "title": "Netflix to Cut 6% of Its Workforce - Barron's",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "6826f7401afb4126": {
+  "ticker": "NFLX",
+  "title": "The Disciple: A Wu-Tang Fable review – Netflix doc on ‘secret album’ is strictly for super fans - IMDb",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "6834210c1915d913": {
   "ticker": "PLTR",
   "title": "Palantir and London mayor's office settle lawsuit over UK police contract - marketscreener.com",
@@ -18094,6 +18124,11 @@
   "title": "Nvidia valuation analysis points to narrower upside than Wall Street targets - Traders Union",
   "ts": "2026-10-15T12:24:09.216437+00:00"
  },
+ "747e226dae77f53f": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Ships Its Own Open-Source Model for Its Own Hardware. The Compute Landlord Gets Vertical. - Forkast News",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "7480efcb18b86d00": {
   "ticker": "MACRO",
   "title": "Canadian Dollar Technical Outlook: USD/CAD Five-Week Rally Sets Up Major Breakout Test - StoneX",
@@ -19308,6 +19343,11 @@
   "ticker": "NFLX",
   "title": "Netflix Lays Off About 1,000 Employees, Largest Cut Since 2022 - https://www.ababnews.com/",
   "ts": "2026-10-15T03:38:11.133743+00:00"
+ },
+ "7caba72da114d73a": {
+  "ticker": "MACRO",
+  "title": "Oil supply is rising, but Brent still won’t crack below $105: here’s why - Invezz",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
  },
  "7cbb4c68d9075a92": {
   "ticker": "IONQ",
@@ -21989,6 +22029,11 @@
   "title": "TSMC assesses US data center readiness for chipmaking expansion - ET Datacenters",
   "ts": "2026-10-16T04:38:43.930599+00:00"
  },
+ "8ebed40f855e2a4a": {
+  "ticker": "NVDA",
+  "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity - Benzinga",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "8ecb6b470f5ff2d6": {
   "ticker": "MACRO",
   "title": "The Bond Market Just Reached a Dangerous Milestone. Here's What It Means for Stock Investors. - The Motley Fool",
@@ -23474,6 +23519,11 @@
   "title": "Netflix to Cut 1,000 Jobs as Streaming Competition Intensifies - ColombiaOne.com",
   "ts": "2026-10-15T11:53:59.558884+00:00"
  },
+ "98a237f0dda831f8": {
+  "ticker": "MACRO",
+  "title": "Where do traders get interest rate expectations for central banks? - investingLive",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "98a3ee50fce852f9": {
   "ticker": "MACRO",
   "title": "Fed Chair Warsh’s Bangkok Speech: 4 Key Takeaways and What They Mean for Bitcoin - CryptoPotato",
@@ -24103,6 +24153,11 @@
   "ticker": "MACRO",
   "title": "US stocks drop to their worst day since July as inflation worsens - The Washington Post",
   "ts": "2026-10-15T00:20:07.035029+00:00"
+ },
+ "9cc9bd539752d39d": {
+  "ticker": "MACRO",
+  "title": "Eurozone yields languish near multi-week lows as safe-haven inflows - Yahoo Finance",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
  },
  "9cd532df7af6ad44": {
   "ticker": "MACRO",
@@ -30628,6 +30683,11 @@
   "title": "What SpaceX and Anthropic IPOs mean for passive investors - News24",
   "ts": "2026-10-15T13:12:34.816821+00:00"
  },
+ "c5f8dc99f0e4b1c6": {
+  "ticker": "NVDA",
+  "title": "Arete Research Adjusts Price Target on Nvidia to $369 From $283 - Moomoo",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "c5fdf1ed092e9e24": {
   "ticker": "IONQ",
   "title": "IonQ and Cavendish Lab open Quantum innovation Centre - Electronics Weekly",
@@ -34218,6 +34278,11 @@
   "title": "The Long-Term Investment Case for Lumentum (LITE) - Yahoo Finance",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "de8debfe3844ee18": {
+  "ticker": "MACRO",
+  "title": "Oil prices are falling but the Strait of Hormuz keeps supply risks on the table - المتداول العربي",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "de93d5d853c1010c": {
   "ticker": "NVDA",
   "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs - AiThority",
@@ -34437,6 +34502,11 @@
   "ticker": "MACRO",
   "title": "日本央行审议委员小枝淳子：基础通胀正在稳定在2%左右。",
   "ts": "2026-10-15T05:51:27.598983+00:00"
+ },
+ "e04effc3377d11c8": {
+  "ticker": "NVDA",
+  "title": "Arete Research Adjusts Price Target on Nvidia to $369 From $283 - marketscreener.com",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
  },
  "e055bb2311e993b4": {
   "ticker": "NFLX",
@@ -36618,6 +36688,11 @@
   "title": "Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year? - Yahoo! Finance Canada",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "eeeae47cd6e2b38b": {
+  "ticker": "MACRO",
+  "title": "Rates will keep going up for one major reason related to the AI boom, a top economist says - Business Insider",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
+ },
  "eeeb04cf10d0f77f": {
   "ticker": "PLTR",
   "title": "Why Palantir Just Dropped Its High Stakes Legal Fight With S - ИФЗ РАН",
@@ -38152,6 +38227,11 @@
   "ticker": "SMCI",
   "title": "Super Micro Computer expands AI portfolio: what it means for Super Micro Computer stock - ad-hoc-news.de",
   "ts": "2026-10-15T11:41:57.528077+00:00"
+ },
+ "f96bd465566fba18": {
+  "ticker": "TSM",
+  "title": "[News] After TSMC’s 3Q26 Earnings: Key Brokerage Takeaways as 2028 Capex Forecasts Reach US$105B - TrendForce",
+  "ts": "2026-10-16T09:41:24.628352+00:00"
  },
  "f976d1630eea00a7": {
   "ticker": "NFLX",
