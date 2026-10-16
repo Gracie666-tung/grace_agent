@@ -1634,6 +1634,11 @@
   "title": "“巨型牛市”正在标普500指数内部酝酿？对冲基金大佬押注“其余493只股票”：对冲基金大佬预计AI投资主线将迎来切换，下一阶段机会或在于运用AI改善生产、抬升利润率的企业，而非持续烧钱的基建厂商。点击查看...",
   "ts": "2026-10-16T08:46:52.336275+00:00"
  },
+ "079fce209c17bd41": {
+  "ticker": "NVDA",
+  "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark - NVIDIA Developer",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "07a222871dffd692": {
   "ticker": "AMD",
   "title": "美国芯片相关公司股票在盘前交易中下跌，英伟达(NVDA.O)下跌1.9%，AMD(AMD.O)下跌3.7%，英特尔(INTC.O)下跌3.6%，迈威尔科技(MRVL.O)下跌3.7%，应用材料(AMAT.O)下跌3%，博通(AVGO.O)下",
@@ -2063,6 +2068,11 @@
   "ticker": "NVDA",
   "title": "Where Winds Meet Gets NVIDIA DLSS 5 in November - Sirus Gaming",
   "ts": "2026-10-16T00:41:37.705884+00:00"
+ },
+ "09b5cc70f7b2e2d2": {
+  "ticker": "TSLA",
+  "title": "Fact File: Tesla says Canadian demand used up import quota; numbers suggest otherwise - 650 CKOM",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "09b8cb99b8abaa46": {
   "ticker": "MACRO",
@@ -3779,6 +3789,11 @@
   "title": "If you think mortgage rates are high, just wait - ConsumerAffairs",
   "ts": "2026-10-15T13:06:32.123911+00:00"
  },
+ "12cf8dee6fa92bf4": {
+  "ticker": "GOOGL",
+  "title": "The Next $5 Trillion Dollar Company: Alphabet or Microsoft? - Yahoo Finance",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "12d43689991b05e7": {
   "ticker": "MACRO",
   "title": "Crude Oil Slips but Stays Elevated Above $105 - HDFC Sky",
@@ -4183,6 +4198,11 @@
   "ticker": "NVDA",
   "title": "Nvidia’s new Nemotron 3.5 Super VL is another step forward for US open-weight AI - ZDNET",
   "ts": "2026-10-15T15:02:22.941713+00:00"
+ },
+ "14b14c1fd3ca0013": {
+  "ticker": "NFLX",
+  "title": "Netflix's 4-Part Sci-Fi Horror Masterpiece Is So Good, You'll Spend the Whole Weekend Watching It - MovieWeb",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "14b485e92885a5ae": {
   "ticker": "MACRO",
@@ -4783,6 +4803,11 @@
   "ticker": "NVDA",
   "title": "Nvidia and Cisco Launch USFP Pluggable Optics Standard to Quadruple AI Networking Bandwidth - Tech Times",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "1787c9d2581f7ce9": {
+  "ticker": "MACRO",
+  "title": "Global FX Market Summary: Warsh Sinks USD, BoE Eyes Hikes, & Inflation Keeps Markets Cautious, 16 October 2026 - Finance",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "178c8780226347e7": {
   "ticker": "GOOGL",
@@ -8584,6 +8609,11 @@
   "title": "Goldman projects $600 billion in equity offerings next year - CFO Brew",
   "ts": "2026-10-15T22:05:00.700852+00:00"
  },
+ "2b2da28d4b84641d": {
+  "ticker": "TSLA",
+  "title": "US Stock Market: S&P 500, Nasdaq Head for Weekly Losses as Tesla Stock Climbs on Roadster Reveal - Analytics Insight",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "2b2e3a6106514df1": {
   "ticker": "MU",
   "title": "Do Micron, Samsung, SK Hynix stocks really face a threat from CXMT? Analysts answer - Invezz",
@@ -9228,6 +9258,11 @@
   "ticker": "NVDA",
   "title": "Nvidia claims RTX Spark is by far the fastest single Windows chip ever made. - The Verge",
   "ts": "2026-10-15T12:06:03.614808+00:00"
+ },
+ "2e753dee531d616d": {
+  "ticker": "MACRO",
+  "title": "Oil set for weekly gain as supply constraints keep prices elevated - Invezz",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "2e781aa7d18c3101": {
   "ticker": "APP",
@@ -11434,6 +11469,11 @@
   "title": "US stocks fall after hot inflation report as leading AI shares tumble - AFP.com",
   "ts": "2026-10-15T01:00:52.695100+00:00"
  },
+ "3a137bc93e9a1457": {
+  "ticker": "APP",
+  "title": "APP UPCOMING DEADLINE: Levi & Korsinsky Alerts AppLovin Corporation Stockholders of Securities Class Action - Contact th",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "3a282d12e355c2ed": {
   "ticker": "NFLX",
   "title": "Netflix Makes Big Football Move, Lands FIFA World Cup 2030 Rights In Spain - Times Now",
@@ -13533,6 +13573,11 @@
   "ticker": "NVDA",
   "title": "The AI Supercycle Isn’t Slowing Down, and Nvidia’s Compute Moat Just Got Deeper. - 24/7 Wall St.",
   "ts": "2026-10-16T16:11:03.548648+00:00"
+ },
+ "4492ac33a3e4cdd2": {
+  "ticker": "AMD",
+  "title": "Form 4 Advanced Micro Devices For: 16 October By Investing.com - Investing.com India",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "4493d3f07acbd08c": {
   "ticker": "MACRO",
@@ -15774,6 +15819,11 @@
   "title": "Mahima Kaul exits Netflix after leading public policy in India - Storyboard18",
   "ts": "2026-10-16T10:59:52.921154+00:00"
  },
+ "4f95653c3ecb7300": {
+  "ticker": "MACRO",
+  "title": "How a 52-Year-Old Can Turn $425,000 Into a Monthly Paycheck Machine by 62 - AOL.com",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "4fa26957ee812848": {
   "ticker": "TSM",
   "title": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdi",
@@ -16624,6 +16674,11 @@
   "title": "SpaceX’s Transformative Catalysts Are Closer Than They Appear, Says Evercore – Sees 87% Upside Potential - Asianet Newsa",
   "ts": "2026-10-16T18:02:51.318144+00:00"
  },
+ "53841d7c9ee43880": {
+  "ticker": "NET",
+  "title": "Cloudflare Investigating Fed Dashboard Access Issues - Technobezz",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "53870517588130fc": {
   "ticker": "NVDA",
   "title": "A GeForce RTX 5090 connected to a MacBook with an M4 Max outperformed two NVIDIA DGX Sparks in text generation. - GameGP",
@@ -16959,6 +17014,11 @@
   "title": "Top 20 by trading volume | Palantir's stock hits a new high, with bullish views from Goldman Sachs and Barclays; Lumentu",
   "ts": "2026-10-15T12:06:03.614808+00:00"
  },
+ "54f517fd8ddd66df": {
+  "ticker": "MACRO",
+  "title": "Gold Price Forecast: The Final Washout into an October Bottom - Gold Eagle",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "54f7501f4fde0ea6": {
   "ticker": "GOOGL",
   "title": "谷歌量子人工智能（Google Quantum AI）公布一项量子计算领域的突破性成果，其Willow芯片突破了一项关键资源瓶颈。",
@@ -17113,6 +17173,11 @@
   "ticker": "MU",
   "title": "Form 4 Micron Technology Inc: MaryAnn Wright (Director) For: 13 October - Investing.com Canada",
   "ts": "2026-10-16T00:23:37.461890+00:00"
+ },
+ "55b5241c429b0f98": {
+  "ticker": "NFLX",
+  "title": "Netflix Officially Announces the Return of Its Superior 'Rick and Morty' Replacement - IMDb",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "55deeb74f1dc9c78": {
   "ticker": "LITE",
@@ -17853,6 +17918,11 @@
   "ticker": "NFLX",
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Audacy",
   "ts": "2026-10-14T17:42:30.302899+00:00"
+ },
+ "59cd3fb71f6cd262": {
+  "ticker": "PLTR",
+  "title": "Armies, healthcare systems and intelligence services: 11 European countries already have multimillion-dollar contracts w",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "59d5caf172d9e86e": {
   "ticker": "MU",
@@ -20784,6 +20854,11 @@
   "title": "Netflix Replaces Content Chief as It Struggles to Engage Viewers - WSJ",
   "ts": "2026-10-15T22:47:06.040093+00:00"
  },
+ "68de999683f0e77f": {
+  "ticker": "MACRO",
+  "title": "Health Care and Crude Led the Week While Tech Lost Its Grip - Cantech Letter",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "68e2106e981843f9": {
   "ticker": "TSM",
   "title": "Taiwan Semiconductor: Excellent Growth, Buy The Sell-Off - Seeking Alpha",
@@ -21808,6 +21883,11 @@
   "ticker": "MACRO",
   "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Yahoo Finance",
   "ts": "2026-10-14T20:54:29.163061+00:00"
+ },
+ "6de5f1645be4a347": {
+  "ticker": "TSLA",
+  "title": "Tesla analysis: stock falls after Roadster reveal fails to hold gains - Investing.com India",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "6df08cfb435eb8a3": {
   "ticker": "TSLA",
@@ -23014,6 +23094,11 @@
   "title": "Netflix’s ‘Untold’ To Cover Daejon Love’s Alleged $1.3M 49ers Scam - Cassius Life",
   "ts": "2026-10-15T20:14:57.517775+00:00"
  },
+ "750d0c1c23a40a6c": {
+  "ticker": "NFLX",
+  "title": "Can Florence Pugh redeem Steinbeck’s cruelest villain in Netflix’s ‘East of Eden’? - America Magazine",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "7523537ae3e91ead": {
   "ticker": "TSM",
   "title": "TSMC confirms Terafab talks, but clashes with Musk over who runs the fab - Dealroom",
@@ -23308,6 +23393,11 @@
   "ticker": "IONQ",
   "title": "IonQ (IONQ) Upgraded to Buy: Here's What You Should Know - Yahoo! Finance Canada",
   "ts": "2026-10-14T16:26:47.704189+00:00"
+ },
+ "768085a89becf4b9": {
+  "ticker": "NFLX",
+  "title": "What's New to Watch on Netflix the Week of Oct. 16, 2026 - PCMag Australia",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "768e170648bfeb8a": {
   "ticker": "RKLB",
@@ -24314,6 +24404,11 @@
   "title": "Netflix Releases Norm Macdonald Documentary and Soundtrack - SuaraGarut.ID",
   "ts": "2026-10-16T04:44:45.441381+00:00"
  },
+ "7b910e801dbe1d39": {
+  "ticker": "MACRO",
+  "title": "洲际交易所：截至10月13日当周，布伦特原油投机者净多头头寸增加31,977手，至233,029手。",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "7ba85b9eab20b569": {
   "ticker": "NFLX",
   "title": "Newfoundland thriller 'Below' reels in record audience for a Canadian Netflix title - CBC",
@@ -24734,6 +24829,11 @@
   "title": "Analysts Offer Insights on Industrial Goods Companies: GFL Environmental (GFL), Rocket Lab USA (RKLB) and CAE (CAE) - Th",
   "ts": "2026-10-16T12:50:29.037205+00:00"
  },
+ "7dd9b0f104e79c51": {
+  "ticker": "TSLA",
+  "title": "Was Tesla's Roadster reveal just a big marketing stunt? - Yahoo Finance",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "7de208dedc24e319": {
   "ticker": "PLTR",
   "title": "Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results - AOL.com",
@@ -25138,6 +25238,11 @@
   "ticker": "MACRO",
   "title": "US Equity Markets End Lower on Renewed Inflation Concerns, Tech Slump - Yahoo Finance",
   "ts": "2026-10-14T23:15:53.606594+00:00"
+ },
+ "7fef8b6da9162844": {
+  "ticker": "MACRO",
+  "title": "美国财政部：2026财年净关税收入为1732.2亿美元，2025财年为1948.7亿美元。",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "7ff11972431a4d7b": {
   "ticker": "MACRO",
@@ -26039,6 +26144,11 @@
   "title": "Cantor Fitzgerald reiterates Rocket Lab stock rating after launch delay By Investing.com - Investing.com India",
   "ts": "2026-10-15T12:24:09.216437+00:00"
  },
+ "849a7a5f18321a57": {
+  "ticker": "AAOI",
+  "title": "Why Applied Optoelectronics Stock Plummeted This Week - The Globe and Mail",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "84a7fb8d1ba5fa61": {
   "ticker": "MACRO",
   "title": "Oregon unemployment rate holds at 5.0% in September as payrolls rise 5,800 jobs - KMTR",
@@ -26893,6 +27003,11 @@
   "ticker": "MACRO",
   "title": "Gold Holds Above $4,100 as Hot PPI Report Limits Recovery - IndexBox",
   "ts": "2026-10-15T17:05:03.887929+00:00"
+ },
+ "88d5a26300ffa5ba": {
+  "ticker": "MACRO",
+  "title": "US stock indexes are mostly losing ground as the tech sector weighs on the market - The Globe and Mail",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "88d64d06bcad6ccd": {
   "ticker": "MACRO",
@@ -28629,6 +28744,11 @@
   "title": "Bitcoin, Ethereum, XRP Gain, but Dogecoin Slips Amid Spike in Rate Hike Odds: Analyst Says Everything Is ‘Fine’ for BTC ",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "91bd1969ef75c82b": {
+  "ticker": "NFLX",
+  "title": "Transformers 104-Minute Overlooked Prequel Quietly Becomes Netflix Hit Ahead of Franchise Reset - Comic Book Resources",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "91c012eea72cee5f": {
   "ticker": "MACRO",
   "title": "GBP/USD, DAX Forecast Two trades to watch 81026 - StoneX",
@@ -30058,6 +30178,11 @@
   "ticker": "NVDA",
   "title": "据德国商报援引政府及行业消息人士报道称，德国政府计划与英伟达建立合作伙伴关系。",
   "ts": "2026-10-15T14:50:06.490117+00:00"
+ },
+ "98d3213965be3dab": {
+  "ticker": "NFLX",
+  "title": "Will Forte & Skyler Gisondo’s Spooky Netflix Horror Show Scores Great Season 3 Update - ComingSoon.net",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "98d98dc441829200": {
   "ticker": "MACRO",
@@ -32128,6 +32253,11 @@
   "title": "Nvidia Expands Automated Driving Partnerships With Mercedes-Benz, Volvo Cars - AI Insider",
   "ts": "2026-10-16T10:47:46.003100+00:00"
  },
+ "a3c8022bb35bf348": {
+  "ticker": "NFLX",
+  "title": "3 award-winning Netflix movies to watch this weekend (October 16-18) - How-To Geek",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "a3cae59c25a96af1": {
   "ticker": "MACRO",
   "title": "日本央行审议委员小枝淳子：（在被问及连续加息时）将在每次会议上评估经济、物价和金融状况。",
@@ -32557,6 +32687,11 @@
   "ticker": "IONQ",
   "title": "D-Wave Quantum Nears 52-Week Floor as IonQ's $1.3 Billion Stock Deal Exposes Sector's Capital Hunger - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "a60c51b70dcf6a78": {
+  "ticker": "NFLX",
+  "title": "What's New to Watch on Netflix the Week of Oct. 16, 2026 - PCMag UK",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "a60e04f58fcc0b54": {
   "ticker": "TSLA",
@@ -35108,6 +35243,11 @@
   "title": "Bank of America lifts target to USD 180 for Pure Storage stock - ad-hoc-news.de",
   "ts": "2026-10-15T20:51:51.835993+00:00"
  },
+ "b37ab2ea455c0e31": {
+  "ticker": "PLTR",
+  "title": "‘A new kind of power’: investigation reveals spread of Palantir’s influence across Europe - The Nerve",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "b38869f26a514c22": {
   "ticker": "NFLX",
   "title": "Video: \"Obsess\" - Official Trailer - Netflix - The Futon Critic",
@@ -36122,6 +36262,11 @@
   "ticker": "AAOI",
   "title": "Under a trading plan, Applied Optoelectronics (AAOI) CFO sells 4,000 shares. - Stock Titan",
   "ts": "2026-10-14T20:25:13.566947+00:00"
+ },
+ "b8e41b6df7d174e8": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rise By More Than 3% - Marine Link",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "b8e48579f80bc63f": {
   "ticker": "NFLX",
@@ -38188,6 +38333,11 @@
   "title": "Indian Bond Yields Ease As US Treasury Rally Offers Relief - BW Businessworld",
   "ts": "2026-10-15T07:41:36.359718+00:00"
  },
+ "c31f5cf549b726bb": {
+  "ticker": "MACRO",
+  "title": "美国财政部：9月净关税收入为59.1亿美元，关税总收入为252.7亿美元，退税额为193.6亿美元。",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "c3267575886f87a7": {
   "ticker": "NFLX",
   "title": "Netflix to Cut 6% of Global Staff, About 1,000 Jobs, WSJ Says - Bloomberg.com",
@@ -39192,6 +39342,11 @@
   "ticker": "NFLX",
   "title": "Netflix reportedly cutting about 1,000 jobs in largest round of layoffs since 2022 - Fox Business",
   "ts": "2026-10-14T16:20:58.343020+00:00"
+ },
+ "c801bc438ce9edef": {
+  "ticker": "MACRO",
+  "title": "Tokenized Stocks Reach $3.8B as DEX Trading Volume Rises 55x - The Crypto Times",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "c80d76ccab458eec": {
   "ticker": "AMD",
@@ -43593,6 +43748,11 @@
   "title": "Bank of England's Bailey says second-round inflation pressures look subdued so far - Business Recorder",
   "ts": "2026-10-16T04:38:43.930599+00:00"
  },
+ "df7ef4feb5182c58": {
+  "ticker": "NVDA",
+  "title": "Germany Plans Nvidia Agreement to Expand AI Across Industrial Sector - The420.in",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
+ },
  "df8b8e4fde163346": {
   "ticker": "HCLTECH",
   "title": "TCS vs HCL Tech vs Tech Mahindra vs Wipro: Which IT stock won Q2 results 2026? AI revenue, deal wins compared - TradingV",
@@ -44907,6 +45067,11 @@
   "ticker": "NVDA",
   "title": "Nvidia, Penske Automotive, ManpowerGroup - TradingView",
   "ts": "2026-10-15T14:37:51.670676+00:00"
+ },
+ "e7016eab9d5577d1": {
+  "ticker": "MACRO",
+  "title": "Petrol Price dips to Rs386.30 Per Litre; Diesel remains at Rs396.96 - Pakistan Observer",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "e70fca1eeb26fb94": {
   "ticker": "NFLX",
@@ -46787,6 +46952,11 @@
   "ticker": "MACRO",
   "title": "美联储主席沃什：未来100天内将尽力对美联储的其他工作领域给予同等重视。",
   "ts": "2026-10-16T04:00:15.784136+00:00"
+ },
+ "f0b018ca9b9e224a": {
+  "ticker": "MACRO",
+  "title": "Gold Is Rising Despite Hot Inflation. Is the Bond Market Warning of Something Worse? - InvestingHaven",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "f0b088a4843862b8": {
   "ticker": "TSLA",
@@ -49207,6 +49377,11 @@
   "ticker": "TSM",
   "title": "TSMC’s global buildout faces crucial capital efficiency test - Asia Times",
   "ts": "2026-10-16T12:44:28.722593+00:00"
+ },
+ "fdbcdbe6a9124a24": {
+  "ticker": "NFLX",
+  "title": "Scarlett Johansson's Explosive Sci-Fi Movie Instantly Becomes Netflix Hit Ahead Of Genre Return - ScreenRant",
+  "ts": "2026-10-16T18:08:55.820943+00:00"
  },
  "fdc0429250a16857": {
   "ticker": "NFLX",
