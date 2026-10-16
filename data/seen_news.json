@@ -4829,6 +4829,11 @@
   "title": "Inflation Guy’s US CPI Summary - Forex Factory",
   "ts": "2026-10-14T16:44:14.219087+00:00"
  },
+ "1cb726ee31614a5a": {
+  "ticker": "NVDA",
+  "title": "NVIDIA RTX Spark Overview: I Saw Blackwell Meet Windows on Arm, and It Changed How I See the PC - MySmartPrice",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "1cb87038e6088f86": {
   "ticker": "MACRO",
   "title": "US Dollar Technical Outlook: DXY, Treasury Yields Retreat Despite Hot CPI - FOREX.com",
@@ -6529,6 +6534,11 @@
   "title": "15 TV Shows Like 'Ransom Canyon' To Watch After Netflix's Western Drama - Ranker",
   "ts": "2026-10-15T21:10:14.538440+00:00"
  },
+ "27e0b8c3eb3fda8f": {
+  "ticker": "NVDA",
+  "title": "德国政府消息人士：预计德国下周将宣布与英伟达达成协议，重点关注工业人工智能。",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "27e9194d7b85dd8e": {
   "ticker": "NFLX",
   "title": "Classic pages come to life in Netflix’s ‘East of Eden’ - The Suffolk Journal",
@@ -7198,6 +7208,11 @@
   "ticker": "TSLA",
   "title": "Tesla's Elon Musk Might Have Gone Back on His Word, but It's Working in China - The Globe and Mail",
   "ts": "2026-10-15T02:05:18.306616+00:00"
+ },
+ "2c2233000d7eeca8": {
+  "ticker": "TSLA",
+  "title": "Alef flying car takes on Tesla Roadster with new flight demonstration - Interesting Engineering",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "2c22f3f074eb405e": {
   "ticker": "HCLTECH",
@@ -7918,6 +7933,11 @@
   "ticker": "AMD",
   "title": "AMD Challenges Nvidia in AI Inference, SemiAnalysis Finds - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "316a86492e6a895a": {
+  "ticker": "NVDA",
+  "title": "Nvidia adds Super VL and Bolt to Nemotron 3.5 open model range - Yahoo Finance",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "317992d68c305ac6": {
   "ticker": "MACRO",
@@ -12134,6 +12154,11 @@
   "title": "Gold Price Forecast: Softer Dollar Fuels Rebound After Hot CPI - FXEmpire",
   "ts": "2026-10-15T11:00:04.025126+00:00"
  },
+ "4bcaba30f7e11e39": {
+  "ticker": "TSLA",
+  "title": "Tesla Has Built a Flying Car. It May Blow Your Mind. - Barron's",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "4bcc66d321eb2bbd": {
   "ticker": "NFLX",
   "title": "Netflix was riding high—what happened? It plans to cut 1,000 jobs - 매일경제",
@@ -13463,6 +13488,11 @@
   "ticker": "PLTR",
   "title": "Palantir and Sadiq Khan End Legal Fight Over £50m Police AI Contract - Innovation Village",
   "ts": "2026-10-14T18:05:42.399699+00:00"
+ },
+ "5396835d4da70537": {
+  "ticker": "NFLX",
+  "title": "New OTT Releases This Weekend: Koffee With Karan Season 9, The Diplomat 4 And More To Watch On Netflix, Prime Video - Es",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "53e33a79db3247c8": {
   "ticker": "MU",
@@ -15773,6 +15803,11 @@
   "ticker": "RKLB",
   "title": "Why is Rocket Lab stock tumbling today? By Investing.com - Investing.com Australia",
   "ts": "2026-10-15T00:37:30.070465+00:00"
+ },
+ "61a687c7bc2f792a": {
+  "ticker": "NFLX",
+  "title": "Netflix fires Bela Bajaria, woman who greenlit Bridgerton, Beef, Stranger Things - ThePrint",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "61b9024363e533d0": {
   "ticker": "TSLA",
@@ -19304,6 +19339,11 @@
   "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years - Spectrum News",
   "ts": "2026-10-14T20:54:29.163061+00:00"
  },
+ "78b9162c3f0ab114": {
+  "ticker": "IONQ",
+  "title": "IonQ And Cambridge Open Quantum Research Centre At Cavendish Labs - Quantum Zeitgeist",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "78bd3b8a94c34472": {
   "ticker": "TSM",
   "title": "TSMC Optimism Fails to Extinguish AI Concerns - Bloomberg.com",
@@ -22508,6 +22548,11 @@
   "ticker": "NFLX",
   "title": "Netflix replaces Bela Bajaria with Peter Rice as chief content officer after 1,000 layoffs - The Eastern Herald",
   "ts": "2026-10-16T09:23:16.512022+00:00"
+ },
+ "8cee465140de5018": {
+  "ticker": "IBKR",
+  "title": "Interactive Brokers raises dividend to USD 0.15 for Interactive Brokers stock - ad-hoc-news.de",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "8cf23bf9c535a9df": {
   "ticker": "TSLA",
@@ -28463,6 +28508,11 @@
   "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborati",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "b2b8e5a8cbf4dfbb": {
+  "ticker": "NVDA",
+  "title": "Nvidia-Backed AI Biotech Iambic Up 16% After $150 Million IPO - Yahoo Finance",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "b2c38b20f38207a9": {
   "ticker": "TSLA",
   "title": "Tesla And SpaceX Merger By 2027? Here's Why Wedbush Believes Odds Have Jumped Above 80% - Stocktwits",
@@ -29923,6 +29973,11 @@
   "title": "TSMC forecasts up to a 61% increase in fourth-quarter revenue - portalcripto.com.br",
   "ts": "2026-10-16T04:50:47.336380+00:00"
  },
+ "bc04fd2381e0d62e": {
+  "ticker": "NVDA",
+  "title": "ServiceNow Stock Trending: Employees Build AI Agents with Nvidia Oversight - Benzinga",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "bc0fcd2f8ba02d08": {
   "ticker": "NFLX",
   "title": "Netflix plans to cut about 1,000 jobs amid risi... - Pluang",
@@ -30762,6 +30817,11 @@
   "ticker": "MACRO",
   "title": "Fed's Hammack warns inflation expectations deterioration could require Fed response - AOL.com",
   "ts": "2026-10-15T22:10:58.991897+00:00"
+ },
+ "c0fc118645992245": {
+  "ticker": "TSLA",
+  "title": "Tesla stock climbs over 4% after high-profile Roadster presentation - Traders Union",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "c0fd3241ed3c472d": {
   "ticker": "NVDA",
@@ -31953,6 +32013,11 @@
   "title": "Oil prices fall as US weighs easing sanctions on West Asian crude supply - Business Standard",
   "ts": "2026-10-15T02:51:40.546882+00:00"
  },
+ "c827689af6c5afa2": {
+  "ticker": "TSLA",
+  "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Tesla to Advance, CoreWeave to Decline - marketscreener.com",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "c827a0b88fb9cbfd": {
   "ticker": "TSM",
   "title": "Amid TSMC-Terafab Talks, Taiwan Said To Be Mulling Greater Curbs On AI Chip Sales To China - Yahoo Finance",
@@ -32367,6 +32432,11 @@
   "ticker": "MACRO",
   "title": "Treasury, Eurozone Bond Yields Fall to Multiweek Lows as U.S. Inflation Shock Fades - WSJ",
   "ts": "2026-10-15T09:14:54.794267+00:00"
+ },
+ "ca380a755f5e2915": {
+  "ticker": "NFLX",
+  "title": "See Every ‘Victorious’ Actor Who Returned for Netflix’s Spinoff ‘Hollywood Arts’ - People.com",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "ca38c5155542feb5": {
   "ticker": "NVDA",
@@ -33423,6 +33493,11 @@
   "title": "Indian bonds breathe easy as Treasury yields decline - bfsi.economictimes.indiatimes.com",
   "ts": "2026-10-15T09:26:37.384511+00:00"
  },
+ "d17d9e5196205fdd": {
+  "ticker": "NFLX",
+  "title": "Pratik Gandhi and Shefali Shah To Headline Netflix 'Scoop' Season 2 as Series Shifts to Anthology Format - What's on Net",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "d17ea21c2c2374c2": {
   "ticker": "MACRO",
   "title": "BNY CEO says U.S. 10-year yield move reflects market normalization - Traders Union",
@@ -33873,6 +33948,11 @@
   "title": "Ethereum Price Prediction: Interactive Brokers Opens ETH Staking as Remittix’s $0.28 Entry Faces a November Countdown - ",
   "ts": "2026-10-15T16:34:23.683832+00:00"
  },
+ "d45747cda6d0a162": {
+  "ticker": "NFLX",
+  "title": "Who Is Bela Bajaria, the Netflix Content Chief Fired Amid Growth Concerns? - Mashable India",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "d4791b8ed2789273": {
   "ticker": "MACRO",
   "title": "Wall Street ended deep in the red after the latest CPI print - Seeking Alpha",
@@ -34052,6 +34132,11 @@
   "ticker": "MACRO",
   "title": "US 10-year Treasury yield levels not unprecedented, BNY CEO says - Y100 WNCY",
   "ts": "2026-10-15T14:43:55.993639+00:00"
+ },
+ "d5ac1126ab4539b2": {
+  "ticker": "NVDA",
+  "title": "Mercedes-Benz and Nvidia Expand Collaboration on Advanced Driver Assistance and Automated Driving - Yahoo Autos",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "d5ad75cd41ad0ace": {
   "ticker": "NVDA",
@@ -37803,6 +37888,11 @@
   "title": "RBI OMO sale fears spur bond sell-off; 10-year G-Sec hits three year high - BusinessLine",
   "ts": "2026-10-16T08:34:48.135271+00:00"
  },
+ "eeb7d8267b45fd0e": {
+  "ticker": "NVDA",
+  "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - AOL.com",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
+ },
  "eec3510debd63d88": {
   "ticker": "SNDK",
   "title": "Sandisk valued attractively at ~7x FY27 EPS wit... - Pluang",
@@ -39077,6 +39167,11 @@
   "ticker": "LITE",
   "title": "Zacks downgrades Lumentum as Lumentum stock trades at EUR 785.40 - ad-hoc-news.de",
   "ts": "2026-10-16T07:46:22.582716+00:00"
+ },
+ "f75afb0478c65604": {
+  "ticker": "TSLA",
+  "title": "Musk’s flying Roadster demo triggers a rush of Tesla (TSLA) bets on crypto exchange Hyperliquid - CoinDesk",
+  "ts": "2026-10-16T10:53:46.902369+00:00"
  },
  "f75d43c0e72df10d": {
   "ticker": "TSLA",
