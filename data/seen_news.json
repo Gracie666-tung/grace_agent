@@ -2749,6 +2749,11 @@
   "title": "US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales By Reuters - Investing.com",
   "ts": "2026-10-15T21:28:33.753026+00:00"
  },
+ "0e21a05834051dad": {
+  "ticker": "NFLX",
+  "title": "TV licence could soon be needed to watch Netflix and YouTube under new plans - Largs and Millport News",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "0e26a1bb4f1f1ac0": {
   "ticker": "NFLX",
   "title": "Netflix Leadership Change Triggers Price Target Cuts - Intellectia AI",
@@ -4483,6 +4488,11 @@
   "ticker": "MACRO",
   "title": "Gold Price Forecast: Higher-Than-Expected CPI Weighs on Gold, Can PPI Push Gold Back to $4,200? - TradingKey",
   "ts": "2026-10-15T09:38:18.990864+00:00"
+ },
+ "17515cdd12cbe4fd": {
+  "ticker": "NVDA",
+  "title": "NVIDIA stock could rise 80% to $400 by 2027 wit... - Pluang",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "17652d139170f1c4": {
   "ticker": "MACRO",
@@ -6818,6 +6828,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts about 6 per cent of jobs in biggest layoff since 2022 - The Financial Express",
   "ts": "2026-10-15T04:30:30.612801+00:00"
+ },
+ "245c609948a70c93": {
+  "ticker": "TSLA",
+  "title": "'There's no point': Tesla Roadster's splashy reveal doesn't mean a merger with SpaceX - Yahoo Finance",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "245fb4828f8666fd": {
   "ticker": "NFLX",
@@ -9434,6 +9449,11 @@
   "title": "ORCA Computing launches PT-3 photonic quantum computer with NVIDIA for AI science - Data Centre Solutions",
   "ts": "2026-10-15T13:48:55.337769+00:00"
  },
+ "32cb78f705ccd541": {
+  "ticker": "TSLA",
+  "title": "Tesla's new Roadster car can thrust itself in the air. But don't expect to drive it anytime soon - Bozeman Daily Chronic",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "32f416b4ca380a86": {
   "ticker": "NVDA",
   "title": "Microsoft Surface Laptop Ultra: NVIDIA RTX Spark means business - Computerworld",
@@ -10058,6 +10078,11 @@
   "ticker": "NFLX",
   "title": "Netflix lays off 6% of its workforce - Al-Bawaba",
   "ts": "2026-10-15T08:57:22.249264+00:00"
+ },
+ "3653cef3ff0689cd": {
+  "ticker": "MACRO",
+  "title": "Oil Price Today: WTI Gains 6.5% as US Crude Inventories Drop 8.6 Million Barrels, Brent Tops $105 - CryptoRank",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "365f502c209ac721": {
   "ticker": "NVDA",
@@ -13119,6 +13144,11 @@
   "title": "On the Chain: Bitcoin slides towards US$81,000 as hot US inflation sparks fresh crypto sell-off - Yahoo Finance Australi",
   "ts": "2026-10-15T01:06:45.227014+00:00"
  },
+ "4681a44426b4cd11": {
+  "ticker": "MACRO",
+  "title": "Biweekly Investment Insights: Another “show me” moment for earnings (but what’s new?) - Nasdaq",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "468b64503240569c": {
   "ticker": "IBKR",
   "title": "Interactive Brokers Group Inc reports results for the quarter ended September 30 - Earnings Summary - TradingView",
@@ -14859,6 +14889,11 @@
   "title": "Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders' - CNBC",
   "ts": "2026-10-16T05:14:57.041807+00:00"
  },
+ "4fa74225e19596dc": {
+  "ticker": "MACRO",
+  "title": "U.S. yields edge up after rally as markets digest AI debt worries - Investing.com Nigeria",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "4fa9b8d268ece4c6": {
   "ticker": "IONQ",
   "title": "Innodata vs. IONQ: A Look at Revenue Trends Between Artificial Intelligence and Quantum Computing Innovators - Yahoo Fin",
@@ -15168,6 +15203,11 @@
   "ticker": "MU",
   "title": "Micron Technology stock drops on China chip news and labor dispute - StreetInsider",
   "ts": "2026-10-16T14:27:43.199718+00:00"
+ },
+ "5174e6ca2efdfc33": {
+  "ticker": "SMCI",
+  "title": "Hewlett Packard Enterprise Falls 5% as AI Financing Worries Extend Hardware Selloff; Super Micro Sinks 7%, Dell Drops 3%",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "51840643f0096e5f": {
   "ticker": "MU",
@@ -20489,6 +20529,11 @@
   "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
   "ts": "2026-10-16T07:52:23.901616+00:00"
  },
+ "6d4a7706fb4db9f2": {
+  "ticker": "TSLA",
+  "title": "Can the new Tesla Roadster fly? Elon Musk unveils what he says is a flying car - 6abc Philadelphia",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "6d58d26f1c3db68d": {
   "ticker": "NFLX",
   "title": "Netflix Cuts 1,000 Jobs as Stock Sinks 40%: Is a Bottom Near? - Mitrade",
@@ -21148,6 +21193,11 @@
   "ticker": "AMD",
   "title": "Gangnam goes all out to attract AMD AI research center to Suseo Station - The Korea Herald",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "71448537d8404c56": {
+  "ticker": "MACRO",
+  "title": "Defense ETFs in Spotlight Ahead of Q3 Earnings Season - The Globe and Mail",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "7147bbe2ea80db2b": {
   "ticker": "NVDA",
@@ -21843,6 +21893,11 @@
   "ticker": "NFLX",
   "title": "A day after Netflix’s major layoffs, Chief Content Officer Bela Bajaria leaves - Los Angeles Times",
   "ts": "2026-10-15T22:10:58.991897+00:00"
+ },
+ "75b9c984d4768f7a": {
+  "ticker": "NFLX",
+  "title": "Netflix’s Odd Alien Comedy From the Makers of ‘Bluey’ Gets a Release Date and Teaser - IMDb",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "75c68c08d3248345": {
   "ticker": "MACRO",
@@ -22809,6 +22864,11 @@
   "title": "Tesla Gets Competition From Nvidia In Self Driving Cars - AOL.com",
   "ts": "2026-10-16T15:40:40.526955+00:00"
  },
+ "7b0c15987c05fbe4": {
+  "ticker": "NFLX",
+  "title": "Cyberpunk: Edgerunners 2 - V's Perspective Fan Trailer (Netflix) - YouTube",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "7b100f330c05e1f6": {
   "ticker": "HAG",
   "title": "Hensoldt AG (HAG.F) Stock Price, News, Quote & History - Yahoo! Finance Canada",
@@ -23183,6 +23243,11 @@
   "ticker": "TSM",
   "title": "G Sachs Raises Taiwan Semiconductor Manufacturing Company Ltd. 2026 Revenue Growth Forecast to Approx. 44% on AI Demand…",
   "ts": "2026-10-16T09:05:06.128951+00:00"
+ },
+ "7d06d33dca5b0a58": {
+  "ticker": "TSLA",
+  "title": "Tesla Unveils New Roadster Electric Vehicle - Baystreet.ca",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "7d08ba256b02d01f": {
   "ticker": "SPCX",
@@ -25193,6 +25258,11 @@
   "ticker": "NFLX",
   "title": "Netflix (NFLX) Names Peter Rice as Chief Content Officer Amid Wo - GuruFocus",
   "ts": "2026-10-16T07:16:02.312849+00:00"
+ },
+ "880d919301631db2": {
+  "ticker": "HOOD",
+  "title": "Implied Volatility Surging for Robinhood Stock Options - TradingView",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "8811397b39e82ca6": {
   "ticker": "NFLX",
@@ -28759,6 +28829,11 @@
   "title": "What's causing the latest AI stock sell-off? Plus, TSMC earnings and Tesla's new Roadster - Yahoo Finance",
   "ts": "2026-10-15T15:14:40.358519+00:00"
  },
+ "9b1ae0346056ced0": {
+  "ticker": "MACRO",
+  "title": "Australian Jobs Report Hammers Another Nail into the Coffin for RBA Hikes - FOREX.com",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "9b29d2d539529076": {
   "ticker": "MACRO",
   "title": "US Futures Mixed as Rate Hike and AI Concerns Hit Tech Stocks - kaohoon international",
@@ -29028,6 +29103,11 @@
   "ticker": "HCLTECH",
   "title": "Zensar, HCL Technologies rebounded from 100-month EMA support, says analyst - Business Standard",
   "ts": "2026-10-16T07:40:18.080178+00:00"
+ },
+ "9cbdd8f9a54e6d05": {
+  "ticker": "NFLX",
+  "title": "☀️ NETFLIX’s Peter Rice Priorities - The Ankler",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "9cc43085124faae1": {
   "ticker": "LITE",
@@ -29838,6 +29918,11 @@
   "title": "Micro Micron Technology Inc Sto (XMU00H27.CME) Latest Stock News & Headlines - Yahoo Finance - Yahoo! Finance Canada",
   "ts": "2026-10-14T22:17:10.232038+00:00"
  },
+ "a155331b56c4f76c": {
+  "ticker": "MACRO",
+  "title": "US stock indexes off to mixed start as tech sector weighs on market - The Globe and Mail",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "a15e1543b70ea48e": {
   "ticker": "TSLA",
   "title": "SpaceX Stock Price Forecast: Barclays Sees Tesla Merger Proposal Announced in Late October to Early November, Technicals",
@@ -30157,6 +30242,11 @@
   "ticker": "SPCX",
   "title": "SpaceX CEO Elon Musk Teases ‘X Shop’ After Amazon Shuts Out Grok Agents - Stocktwits",
   "ts": "2026-10-16T06:27:22.606546+00:00"
+ },
+ "a31662685ed5cb30": {
+  "ticker": "TSLA",
+  "title": "Tesla Stocks Jump After Roadster Launch - BusinessToday Malaysia",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "a318cc50da945950": {
   "ticker": "PLTR",
@@ -33423,6 +33513,11 @@
   "title": "Tesla Set to Release Q3 2026 Earnings Report on October 21 - SSBCrack",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "b5362d2a979a0863": {
+  "ticker": "TSLA",
+  "title": "Tesla Roadster - yoursun.com",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "b537bc668442a9e1": {
   "ticker": "TSLA",
   "title": "Tesla’s Space-Age Car Creates Awe, the Chart Pattern Creates Opportunity - RealMoney Pro",
@@ -33997,6 +34092,11 @@
   "ticker": "NFLX",
   "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention - Yahoo Finance",
   "ts": "2026-10-14T16:50:04.203467+00:00"
+ },
+ "b880146b6aa08b97": {
+  "ticker": "MACRO",
+  "title": "Morning Bid: Tipping Point - The Mighty 790 KFGO",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "b891d196ecc9963d": {
   "ticker": "MU",
@@ -42393,6 +42493,11 @@
   "title": "Nvidia, Penske Automotive, ManpowerGroup - TradingView",
   "ts": "2026-10-15T14:37:51.670676+00:00"
  },
+ "e711018f042d9f3f": {
+  "ticker": "MACRO",
+  "title": "Dow Jones Forecast: DJIA falls with oil and treasury yields in focus - StoneX",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "e72d5ff5530406b2": {
   "ticker": "MACRO",
   "title": "Silver's 6% COMEX Slide Leaves Traders Parsing US Data and Mine Output - ad-hoc-news.de",
@@ -43528,6 +43633,11 @@
   "title": "Netflix star Maitreyi Ramakrishnan shares her favourite Toronto restaurants - blogTO",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "ed3d81e0a96921a8": {
+  "ticker": "MU",
+  "title": "Micron's strong pricing and AI-driven demand bo... - Pluang",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
  "ed45884590fd2ae2": {
   "ticker": "NFLX",
   "title": "Netflix secures exclusive rights to 2030 FIFA World Cup in Spain, Andorra - ANI News",
@@ -44437,6 +44547,11 @@
   "ticker": "NFLX",
   "title": "Netflix Is Laying Off 6% Of Its Workforce In Biggest Round Of Job Cuts In Years - Patch",
   "ts": "2026-10-15T00:55:06.315358+00:00"
+ },
+ "f2535e6b649951b4": {
+  "ticker": "NFLX",
+  "title": "\"Tense True-Crime\": Day of the Jackal Star Eddie Redmayne's \"Stealthy\" Medical Thriller is on Netflix Now - Esquire",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "f255aa62da8961b2": {
   "ticker": "IONQ",
@@ -45962,6 +46077,11 @@
   "ticker": "MU",
   "title": "Why Is Micron Stock Still Dropping? - AOL.com",
   "ts": "2026-10-15T15:26:56.807752+00:00"
+ },
+ "faff6e6b75a000d9": {
+  "ticker": "NVDA",
+  "title": "NVIDIA RTX Spark PCs Available Today—A New Beginning for Windows PCs - TechPowerUp",
+  "ts": "2026-10-16T15:46:46.327571+00:00"
  },
  "fb0447810dcad27f": {
   "ticker": "NFLX",
