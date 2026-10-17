@@ -1279,6 +1279,11 @@
   "title": "The Week Ahead: US CPI, eurozone CPI, JPMorgan earnings - Forex Factory",
   "ts": "2026-10-15T11:29:50.596713+00:00"
  },
+ "051802587b5d1273": {
+  "ticker": "MACRO",
+  "title": "加拿大央行行长麦克勒姆：高油价提振了加拿大的投资。油价上涨引发广泛通胀的风险有所上升。",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
+ },
  "0518e6e470f5ab9f": {
   "ticker": "MACRO",
   "title": "【德国商业银行：英国经济韧性增强加息预期，但财政风险仍可能拖累英镑】金十数据10月16日讯，德国商业银行分析师Thu Lan Nguyen在报告中表示，尽管英国近期经济数据表现积极，推动市场提高对英国央行加息的预期，但英国财政风险仍可能成为",
@@ -9564,6 +9569,11 @@
   "title": "TSMC's 69% Profit Surge Meets a Choppy Tape as Vanguard's All-World ETF Slips 2.2% - ad-hoc-news.de",
   "ts": "2026-10-17T07:01:21.816303+00:00"
  },
+ "28934452b55713bb": {
+  "ticker": "TSLA",
+  "title": "Are videos of Tesla's 'flying' Roadster real? - Snopes.com",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
+ },
  "28a7377ca3a3eaf8": {
   "ticker": "NFLX",
   "title": "Beyond the Punchline, Netflix India Puts the Spotlight on Comedy That Connects at CII Big Picture Summit 2026 - Passiona",
@@ -17143,6 +17153,11 @@
   "ticker": "TSM",
   "title": "Taiwan chipmaker TSMC explores Texas investment to expand production in the US - The Washington Post",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "49bf9d666f5f7354": {
+  "ticker": "TSM",
+  "title": "TSMC Stock Forecast: Record AI Quarter Fails to Lift TSM as Shares Defend $412 Support - TradingKey",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "49bff55affbac436": {
   "ticker": "NFLX",
@@ -24739,6 +24754,11 @@
   "title": "美光科技(MU.O)盘中转涨，此前跌超6%。",
   "ts": "2026-10-15T15:20:47.801644+00:00"
  },
+ "691b7db06ff47ca9": {
+  "ticker": "NVDA",
+  "title": "NVIDIA has released updates to the DLSS 310.9.16 and Streamline 2.14.16 libraries. - GameGPU",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
+ },
  "691baaa828e4c5e8": {
   "ticker": "MU",
   "title": "$Micron Technology (MU.US)$ crashing again[Onlooker][Onlooker] - Moomoo",
@@ -24993,6 +25013,11 @@
   "ticker": "NFLX",
   "title": "Akka Teaser: Radhika Apte vs Keerthy Suresh In This Female-Led Thriller Netflix Series - MensXP",
   "ts": "2026-10-17T10:56:03.047490+00:00"
+ },
+ "6a222ee491aee251": {
+  "ticker": "NVDA",
+  "title": "SpaceX’s AI Pivot Hides a 1.44M-GPU Nvidia Bet [2026] - https://tech-insider.org/",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "6a29575761977a5b": {
   "ticker": "P",
@@ -25848,6 +25873,11 @@
   "ticker": "MACRO",
   "title": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know - TradingView",
   "ts": "2026-10-15T16:28:16.638051+00:00"
+ },
+ "6da51b86e989df1a": {
+  "ticker": "NFLX",
+  "title": "Netflix’s 'KPop Demon Hunters' and Walmart Bring HUNTR/X to Life With a Free NYC Pop-Up - fashionista.com",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "6daa081e2456d804": {
   "ticker": "MACRO",
@@ -32574,6 +32604,11 @@
   "title": "‘LEGO Friends: Heartlake the Musical’ (2026) Netflix Movie Review - Friendship and Four Songs | MOVIESR.NET - Midgard Ti",
   "ts": "2026-10-16T23:04:20.666446+00:00"
  },
+ "8c156765d2b2737d": {
+  "ticker": "NFLX",
+  "title": "‘Disciple’ doc about Wu-Tang Clan’s secret $2 million album debuts this weekend on Netflix - SILive.com",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
+ },
  "8c159e7382cbd773": {
   "ticker": "LITE",
   "title": "Why is Lumentum stock sliding today? By Investing.com - Investing.com Canada",
@@ -36303,6 +36338,11 @@
   "ticker": "NVDA",
   "title": "Micron, Nvidia face renewed pressure as AI spending fears swell - Crypto Briefing",
   "ts": "2026-10-15T14:01:12.403052+00:00"
+ },
+ "9bc512f7e4a974c7": {
+  "ticker": "MU",
+  "title": "EXCLUSIVE: Forget China — Samsung Is The Bigger Threat To Micron, SanDisk Investors, Says Nicholas Mugall - Benzinga",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "9bd40eb3c9ec0c6a": {
   "ticker": "NVDA",
@@ -49878,6 +49918,11 @@
   "title": "Kaspa Drops 5% Amid Macro Selloff, Not Project News - CoinMarketCap",
   "ts": "2026-10-15T14:25:41.008215+00:00"
  },
+ "d7ef3aa87bb64c7f": {
+  "ticker": "SPCX",
+  "title": "How SpaceX Starlink cuts hobbled Ukraine before Russian bombardment - Moneycontrol.com",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
+ },
  "d7f1a1599e816e70": {
   "ticker": "TSLA",
   "title": "Tesla receives approval for self-driving tech in Slovakia - marketscreener.com",
@@ -51022,6 +51067,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet's Constellation Energy (NASDAQ: CEG) Deal Sends Oklo (NYSE: OKLO) and NuScale (NYSE: SMR) Shares Soaring Despit",
   "ts": "2026-10-14T22:11:20.211106+00:00"
+ },
+ "dcd9ba5786ba9d19": {
+  "ticker": "NFLX",
+  "title": "Netflix’s 'Dealies' Will Be a More Comedy-Focused Joe Bennet Series - Polygon.com",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "dcd9fe40cb13a2f6": {
   "ticker": "MACRO",
@@ -55167,6 +55217,11 @@
   "ticker": "MACRO",
   "title": "Seoul Metro Labor Union Declares Dispute, Demands 3.5% Pay Rise, Threatens Strike: 12 outlets compared - NewsCord",
   "ts": "2026-10-15T12:48:20.138000+00:00"
+ },
+ "f02776ea4745dde2": {
+  "ticker": "NFLX",
+  "title": "Why Is Netflix (NFLX) Stock Falling? 3 Key Factors to Watch - Coinpedia",
+  "ts": "2026-10-17T13:07:36.806088+00:00"
  },
  "f028afbe4221159c": {
   "ticker": "SMCI",
