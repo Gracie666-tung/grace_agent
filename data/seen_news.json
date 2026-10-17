@@ -3589,6 +3589,11 @@
   "title": "Volvo Cars and NVIDIA expand partnership to advance safe automated driving - Volvo",
   "ts": "2026-10-15T21:52:51.957169+00:00"
  },
+ "0e9a5791a71233b2": {
+  "ticker": "MACRO",
+  "title": "Hong Kong Stock Exchange: Hang Seng Index Edges Down to 24,314.17 as Banks and Tech Offset Meituan and Xiaomi Rally - BB",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
+ },
  "0e9af36b3c67e53c": {
   "ticker": "MACRO",
   "title": "Bitcoin Reclaims $83,000 After Hot PPI Data - KuCoin",
@@ -5319,6 +5324,11 @@
   "title": "Netflix’s ‘Victorious’ Spin-Off ‘Hollywood Arts’ Is a Disappointing Lifeless Nostalgia Grab - What's on Netflix",
   "ts": "2026-10-15T10:25:00.696741+00:00"
  },
+ "1603652754155489": {
+  "ticker": "NFLX",
+  "title": "Forget ‘John Wick,’ Denzel Washington’s $192M Action Hit Is Now on Netflix - IMDb",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
+ },
  "160f704dead3476f": {
   "ticker": "TSLA",
   "title": "Tesla Stock May Share Even More Bad Earnings News Next Week (NASDAQ:TSLA) - Seeking Alpha",
@@ -6383,6 +6393,11 @@
   "ticker": "TSLA",
   "title": "Tesla Roadster can actually fly says Musk - Carsales",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "1adbb8b769ec0d3a": {
+  "ticker": "NFLX",
+  "title": "Taylor Sheridan's Intense 40-Episode Crime Thriller Series Becomes One of the Biggest Shows on Netflix - IMDb",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "1adfdb1c53664e1c": {
   "ticker": "NFLX",
@@ -20369,10 +20384,20 @@
   "title": "Netflix Officially Announces the Return of Its Superior 'Rick and Morty' Replacement - IMDb",
   "ts": "2026-10-16T18:08:55.820943+00:00"
  },
+ "55b919fa0fdd954a": {
+  "ticker": "NFLX",
+  "title": "Akka Teaser: Keerthy Suresh and Radhika Apte Clash in Netflix’s Female Gangster Thriller - Social News XYZ",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
+ },
  "55c4fd914dc4fa4f": {
   "ticker": "NVDA",
   "title": "Taiwan to invest $4B in Texas AI complex with Nvidia partners - Communications Today",
   "ts": "2026-10-17T08:25:37.174007+00:00"
+ },
+ "55c74f34ffdcb279": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Manufacturing Company Limited Shows 2-Nanometer Growth - www.tokenpost.com",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "55deeb74f1dc9c78": {
   "ticker": "LITE",
@@ -23494,6 +23519,11 @@
   "title": "Micron vs. NVIDIA: Which AI Stock Is the Better Buy After Earnings? - TradingView",
   "ts": "2026-10-15T20:27:33.030631+00:00"
  },
+ "62ff5705b72044c6": {
+  "ticker": "NFLX",
+  "title": "Scarlett Johansson and Chris Hemsworth's Underrated 104-Minute Sci-fi Prequel Finds New Life on Netflix - Polygon.com",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
+ },
  "62ffb0a9dae594be": {
   "ticker": "MACRO",
   "title": "VIEW Hot September CPI sends rate-hike bets soaring - Reuters",
@@ -24858,6 +24888,11 @@
   "ticker": "MU",
   "title": "Netlist's $600 Million Micron Deal Comes With a Payment Calendar — and a Fresh Legal Front - ad-hoc-news.de",
   "ts": "2026-10-16T15:10:17.966526+00:00"
+ },
+ "68e85d6f593f67cc": {
+  "ticker": "NFLX",
+  "title": "The Child Movie 2026 | Review, Cast, Trailer, Posters, Watch Online at Netflix, News & Videos | eTimes - The Times of In",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "68f349b7819194d4": {
   "ticker": "NET",
@@ -27899,6 +27934,11 @@
   "title": "Gold bulls stay cautious as firm USD and yields cap gains before Warsh | FXStreet - شبكة تواصل الإخبارية",
   "ts": "2026-10-16T05:33:01.441526+00:00"
  },
+ "7663e61546082e30": {
+  "ticker": "MACRO",
+  "title": "Cardano (ADA) Price Down 68% in One Year: Can 'Uptober' Reverse Trend? - Cryptonews.net",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
+ },
  "7667d5fc39643f15": {
   "ticker": "IONQ",
   "title": "IonQ (IONQ) Upgraded to Buy: Here's What You Should Know - Yahoo! Finance Canada",
@@ -29718,6 +29758,11 @@
   "ticker": "NFLX",
   "title": "Netflix Layoffs: Employee Who Lost Job After 12 Years Helps Colleagues Plan Next Steps - Times Now",
   "ts": "2026-10-15T11:35:52.227596+00:00"
+ },
+ "7e6a6d7bbd327366": {
+  "ticker": "NVDA",
+  "title": "https://www.cowcotland.com/images/news/2026/10/big/prix-gpu-amd-intel-nvidia-13.jpg - Cowcotland.com",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "7e6ed53846f1eeda": {
   "ticker": "MACRO",
@@ -34013,6 +34058,11 @@
   "ticker": "NET",
   "title": "Cloudflare Inc (NET) Shares Fall 6.7% -- What GF Score of 67 Tel - GuruFocus",
   "ts": "2026-10-14T21:36:04.498818+00:00"
+ },
+ "9143d72a0ecf4ccd": {
+  "ticker": "NVDA",
+  "title": "6 Top NVIDIA RTX Spark Laptops Now On Sale At Best Buy - HotHardware",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "9148ad7b66867280": {
   "ticker": "MACRO",
@@ -55327,6 +55377,11 @@
   "ticker": "NFLX",
   "title": "Viral Daejon Love romance scam to be at center of Netflix 'Untold' doc - Central Oregon Daily",
   "ts": "2026-10-15T20:21:17.974166+00:00"
+ },
+ "ef434a2b92ce5e6d": {
+  "ticker": "MU",
+  "title": "Micron Technology (NASDAQ:MU) Screens as a Decent Value Stock Backed by Strong Profitability - ChartMill",
+  "ts": "2026-10-17T14:26:05.484720+00:00"
  },
  "ef4e7fe8eacff8ab": {
   "ticker": "NVDA",
