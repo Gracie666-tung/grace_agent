@@ -1879,6 +1879,11 @@
   "title": "FX option expiries for 16 October 10am New York cut - investingLive",
   "ts": "2026-10-16T04:26:38.577240+00:00"
  },
+ "06f02b38b50613d0": {
+  "ticker": "MU",
+  "title": "Micron's Full Order Books Meet a Market in No Mood to Celebrate - ad-hoc-news.de",
+  "ts": "2026-10-18T03:07:17.598038+00:00"
+ },
  "06f4b4399144b1f7": {
   "ticker": "MACRO",
   "title": "Fannie Mae Raises Mortgage-Rate Forecast Sharply for 2027 - themortgagepoint.com",
@@ -12003,6 +12008,11 @@
   "ticker": "IBKR",
   "title": "Interactive Brokers (IBKR) Earnings Call Q3 2026: Zinsüberschuss steigt um 19 %, Dividende erhöht - TradingKey",
   "ts": "2026-10-16T00:47:52.972273+00:00"
+ },
+ "30754821ea8d22bf": {
+  "ticker": "TSM",
+  "title": "TSMC: The AI Boom Is Bigger And Longer Than Expected - Seeking Alpha",
+  "ts": "2026-10-18T03:07:17.598038+00:00"
  },
  "30772455ed77517e": {
   "ticker": "TSM",
@@ -26453,6 +26463,11 @@
   "ticker": "SPCX",
   "title": "SpaceX (NASDAQ:SPCX) Stock Falls 2.3% - What's Next? - MarketBeat",
   "ts": "2026-10-15T21:28:33.753026+00:00"
+ },
+ "69fa672a1433701f": {
+  "ticker": "NFLX",
+  "title": "Hollywood Arts | Born for This | Music Video | Netflix - NickALive!",
+  "ts": "2026-10-18T03:07:17.598038+00:00"
  },
  "69fe2b142348beb0": {
   "ticker": "NFLX",
