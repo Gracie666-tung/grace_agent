@@ -3504,6 +3504,11 @@
   "title": "Bitcoin rebounds near $82,000 after hot PPI inflation - FXStreet",
   "ts": "2026-10-15T19:01:11.951864+00:00"
  },
+ "0cd43fce65acbcaf": {
+  "ticker": "TSLA",
+  "title": "The Week Ahead: Oil, Meta and Tesla earnings - CMC Markets",
+  "ts": "2026-10-18T22:39:18.226151+00:00"
+ },
  "0cd7dd153d868d01": {
   "ticker": "NVDA",
   "title": "Volvo Cars Expands NVIDIA Partnership for Door-to-Door Automated Driving - Unite.AI",
@@ -7263,6 +7268,11 @@
   "ticker": "MACRO",
   "title": "US Crude Oil Inventories See Massive Drop Off - Crude Oil Prices Today | OilPrice.com",
   "ts": "2026-10-15T00:08:24.414745+00:00"
+ },
+ "1b41f73a3983083c": {
+  "ticker": "MACRO",
+  "title": "Anna Wong: Questions whether AI contribution to PCE inflation has peaked - Traders Union",
+  "ts": "2026-10-18T22:39:18.226151+00:00"
  },
  "1b45766094c3d33f": {
   "ticker": "NFLX",
@@ -42118,6 +42128,11 @@
   "last_sent": "2026-10-14T20:07:41.696978+00:00",
   "pending": []
  },
+ "a00c58073573e755": {
+  "ticker": "MACRO",
+  "title": "BOJ Interest Rate Forecast: December Hike in Focus Ahead of Japan CPI - FXEmpire",
+  "ts": "2026-10-18T22:39:18.226151+00:00"
+ },
  "a00ea06688550883": {
   "ticker": "MACRO",
   "title": "Economic Calendar - Final Eurozone CPI Inflation, US Manufacturing, and Regional Bank Earnings - XTB.com",
@@ -47027,6 +47042,11 @@
   "ticker": "NFLX",
   "title": "Netflix Lays Off 1,000 People as Woke Streaming Giant Struggles to Keep Viewers - The Western Journal",
   "ts": "2026-10-14T23:45:09.649933+00:00"
+ },
+ "b3e3e07ca42e2a48": {
+  "ticker": "NFLX",
+  "title": "Amanda Seyfried’s Netflix Anti-Cinderella Movie Gets First Trailer - IMDb",
+  "ts": "2026-10-18T22:39:18.226151+00:00"
  },
  "b3e5224ece3347dc": {
   "ticker": "AAPL",
@@ -65777,6 +65797,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Expands Nemotron Family With New Open Multimodal and Edge AI Models - OODA Loop",
   "ts": "2026-10-15T16:09:50.642493+00:00"
+ },
+ "fd99760a7b50a77c": {
+  "ticker": "AMD",
+  "title": "Delaware Jury Verdict Hammers Arm Holdings (NASDAQ: ARM) And AMD (NASDAQ: AMD) 5% Lower As Chip Sector Selloff Deepens -",
+  "ts": "2026-10-18T22:39:18.226151+00:00"
  },
  "fd9cdf925e42fcfb": {
   "ticker": "NVDA",
