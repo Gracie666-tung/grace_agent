@@ -9124,6 +9124,11 @@
   "title": "NVIDIA Nemotron 3.5 Bolt's LiLiCorr Drafter Shipped Unannounced: What the Repo Says - OrcaRouter",
   "ts": "2026-10-16T05:51:09.252886+00:00"
  },
+ "23eeeb5f1713ef06": {
+  "ticker": "NVDA",
+  "title": "XLAB Jumps As Exascale Labs Lands $8.2M NVIDIA Server Deal - Timothy Sykes",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
+ },
  "23eff7e6b6130be6": {
   "ticker": "NFLX",
   "title": "Netflix Layoffs: Streaming Giant Cuts Jobs Amid Slow Growth - Kalkine India",
@@ -15303,6 +15308,11 @@
   "ticker": "NFLX",
   "title": "Netflix's 33-Episode Sci-Fi Thriller Deserves Kudos For Still Being Relevant - ScreenRant",
   "ts": "2026-10-15T06:03:02.782070+00:00"
+ },
+ "3c212d3cf50131f8": {
+  "ticker": "MACRO",
+  "title": "Hormuz Mines, Russian Refinery Fires and a $25 Gas Gap: What Moved Your Fuel Bill This Week - Energy News Beat",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
  },
  "3c26fb7647ce13b8": {
   "ticker": "NVDA",
@@ -21979,6 +21989,11 @@
   "title": "Akka Teaser: Keerthy Suresh and Radhika Apte Clash in Netflix’s Female Gangster Thriller - Social News XYZ",
   "ts": "2026-10-17T14:26:05.484720+00:00"
  },
+ "55beb141e7cf84a9": {
+  "ticker": "NFLX",
+  "title": "'From' to premiere on Netflix ahead of Halloween. How to watch - USA Today",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
+ },
  "55c4fd914dc4fa4f": {
   "ticker": "NVDA",
   "title": "Taiwan to invest $4B in Texas AI complex with Nvidia partners - Communications Today",
@@ -25399,6 +25414,11 @@
   "title": "Texas Job Growth Outpaces U.S. Rate As DFW Adds Jobs - WBAP",
   "ts": "2026-10-16T19:33:46.092877+00:00"
  },
+ "63279d2e27d33a81": {
+  "ticker": "MACRO",
+  "title": "Crude oil rallies on Middle East turmoil and plunging U.S. inventories - Howl.link",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
+ },
  "63286b2242060ddd": {
   "ticker": "LITE",
   "title": "Lumentum stock pre-market at EUR 795.00 - ad-hoc-news.de",
@@ -28223,6 +28243,11 @@
   "ticker": "NFLX",
   "title": "Netflix Names Ex-Disney TV Chair Rice Chief Content Officer - Bloomberg.com",
   "ts": "2026-10-15T22:29:02.303234+00:00"
+ },
+ "6e6b3424376c234a": {
+  "ticker": "MACRO",
+  "title": "How Higher Rates Create Real Estate Bargains - Seeking Alpha",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
  },
  "6e6c2ec93e1ff072": {
   "ticker": "RKLB",
@@ -31888,6 +31913,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA's Jensen Huang urges US UK China dialogue on AI - NewsBytes",
   "ts": "2026-10-15T11:41:57.528077+00:00"
+ },
+ "7da819f8e108402b": {
+  "ticker": "MACRO",
+  "title": "Prices continue to rise in the United States: how much longer can consumers withstand it? - CiberCuba",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
  },
  "7da95d2f76e4b46e": {
   "ticker": "AAPL",
@@ -48268,6 +48298,11 @@
   "title": "US Market Wrap: Stocks recover from recent weakness as AI concerns ease - Newsquawk",
   "ts": "2026-10-15T22:17:02.105619+00:00"
  },
+ "bff4d90fbbb5528f": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Supply Struggles To Keep Pace With Explosive Demand - Yahoo Finance",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
+ },
  "bff7d0110abf479f": {
   "ticker": "SPCX",
   "title": "Video | Elon Musk's Tesla Roadster Flies, Flips Mid-Air Using SpaceX Tech: Science Explained - NDTV",
@@ -50317,6 +50352,11 @@
   "ticker": "MU",
   "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027",
   "ts": "2026-10-14T16:03:21.875466+00:00"
+ },
+ "c7cc938cdedd318b": {
+  "ticker": "MACRO",
+  "title": "Next Week’s Macro Outlook: Fed Enters Pre-FOMC Silence, Nvidia’s GTC Berlin, Meta and Tesla Earnings in Focus - KuCoin",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
  },
  "c7d578b1e1f9c477": {
   "ticker": "NFLX",
@@ -53588,6 +53628,11 @@
   "title": "Nevada unemployment falls to 4.7%, lowest since pre-pandemic as Las Vegas adds jobs - KSNV",
   "ts": "2026-10-17T01:41:55.948980+00:00"
  },
+ "d4f3226606f8b951": {
+  "ticker": "SPCX",
+  "title": "SpaceX Secures $8 Billion Spectrum Deal: Can Starlink Truly Challenge Telecom Giants? - cristinaiglesias.com",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
+ },
  "d4fc9a52a6ac9014": {
   "ticker": "NFLX",
   "title": "Amanda Seyfried & Ali Wong Take Center Stage in Netflix’s Cinderella Movie Trailer - Crave Online",
@@ -54907,6 +54952,11 @@
   "ticker": "NVDA",
   "title": "Danaher and NVIDIA Partner to Accelerate Autonomous Science - Healthcare Digital",
   "ts": "2026-10-18T08:09:15.700019+00:00"
+ },
+ "da5a73a04f4c6152": {
+  "ticker": "MU",
+  "title": "Does Micron (MU) Have an Economic Moat at All? - Insider Monkey",
+  "ts": "2026-10-18T14:37:12.351395+00:00"
  },
  "da5f9f8adbbd4146": {
   "ticker": "MACRO",
