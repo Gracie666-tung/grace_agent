@@ -1379,6 +1379,11 @@
   "title": "Mizuho lifts Palantir stock target to USD 245 from USD 215 - ad-hoc-news.de",
   "ts": "2026-10-16T13:51:15.268944+00:00"
  },
+ "04986532b77e4347": {
+  "ticker": "NFLX",
+  "title": "10 Forgotten Netflix Anime That Have Aged Like Fine Wine - Comic Book Resources",
+  "ts": "2026-10-19T02:33:19.189789+00:00"
+ },
  "049ddde9f981bb7d": {
   "ticker": "NVDA",
   "title": "NVIDIA RTX Spark PCs Are Here: A New Chip, Built with MediaTek, for AI Agents - MediaTek",
@@ -1918,6 +1923,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX Spark Elevates Windows on Arm, But Its CPU And Software Hold It Back - Howl.link",
   "ts": "2026-10-16T09:29:19.330526+00:00"
+ },
+ "0689a16eaf09036a": {
+  "ticker": "NVDA",
+  "title": "Samsung to use TSMC process for Nvidia’s next-generation memory chips - Taiwan News",
+  "ts": "2026-10-19T02:33:19.189789+00:00"
  },
  "068ad9e82808b1df": {
   "ticker": "TSLA",
@@ -5483,6 +5493,11 @@
   "ticker": "PLTR",
   "title": "Customers Bank announces collaboration with Palantir Technologies - Reading Eagle",
   "ts": "2026-10-15T20:14:57.517775+00:00"
+ },
+ "13c88907008f9ef4": {
+  "ticker": "IBKR",
+  "title": "Interactive Brokers’ Record Margins and AI-Fueled Expansion - The Globe and Mail",
+  "ts": "2026-10-19T02:33:19.189789+00:00"
  },
  "13c9ba4c932f5561": {
   "ticker": "MACRO",
@@ -59247,6 +59262,11 @@
   "ticker": "NVDA",
   "title": "Microsoft CEO on its NEW Nvidia-Powered AI Super Laptop - Thurrott.com",
   "ts": "2026-10-15T23:47:24.844312+00:00"
+ },
+ "ddf2cc10d10cd330": {
+  "ticker": "SPCX",
+  "title": "SpaceX-xAI Staff Shift: Shotwell on Hardware Gaps [2026] - https://tech-insider.org/",
+  "ts": "2026-10-19T02:33:19.189789+00:00"
  },
  "ddf489c48448498c": {
   "ticker": "AAPL",
