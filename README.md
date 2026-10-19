@@ -453,3 +453,36 @@ export ANTHROPIC_API_KEY=sk-ant-...
 - **📊 總經快訊**：`news_watchlist.json` 的 `macro` 區塊（Google News 英文查詢＋Jin10 關鍵字）。候選還須命中程式內硬觸發
   （CPI/Fed/非農/PCE/油價/收益率/加降息/關稅）才推，每輪最多一則訊息、8 則，附對風險資產的粗略多空判讀（規則式、不含幅度）；
   已推過或已歸入個股的不重複，沒命中就靜默。`--ticker` 單檔模式不跑總經。
+
+## KEDGE JobTeaser 職缺推播
+
+每天 06:00 UTC（GitHub Actions）登入學校 JobTeaser（`https://kedgebs.jobteaser.com`，需登入）抓**實習／alternance**
+新職缺：先用關鍵字粗篩（負面字只在沒有強正面字時才丟）、規則式判定法文要求（A 英文為主／B 法文加分／C B1-B2／
+D 流利以上，D 不推），再由 Claude 翻成繁中、摘要並依 Grace 的方向打 0-100 分。**≥70 即時推一則**、
+**60–69 合併成一則當日摘要**、<60 只記為已見。訊息一律顯示法文要求等級、分項分數與連結。
+
+- **Cookie 怎麼拿**：Chrome 登入 JobTeaser → DevTools（F12）→ Network 分頁 → 重新整理後點任一個
+  `job-offers` 請求 → Request Headers → 複製 `cookie:` 那一整行的值（一整串字串）。不要用 Application → Cookies
+  表格：那要手工拼接，還可能漏掉 HttpOnly cookie。貼進 GitHub repo 的
+  Settings → Secrets and variables → Actions → New repository secret，名稱 `JOBTEASER_COOKIE`。
+  cookie 只放在請求標頭，不會寫入狀態檔、log 或 Telegram。
+- **警告**：cookie 等同你的登入身分。**只能貼進 GitHub secret**，不要貼到聊天視窗、commit、或 repo 裡的任何檔案。
+- **其他 Secrets**：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`（沿用 daily-jobs 那組）、`ANTHROPIC_API_KEY`
+  （可選；沒有就只送「未評分」的標題＋連結，仍會過粗篩與法文分級）。
+- **本機試跑**：先 `read -s JOBTEASER_COOKIE; export JOBTEASER_COOKIE`（貼上後按 Enter；輸入不會顯示、
+  也不會進 shell history），再 `python src/jobteaser_monitor.py --dry-run --max-pages 1`
+  （只印出，不推播、不寫狀態；`--max-new N` 限制本輪詳情＋評分數量）；跑完建議 `unset JOBTEASER_COOKIE`。
+  不要把 cookie 直接寫在指令列（`JOBTEASER_COOKIE='…' python …`），那會留在 history。離線測試：
+  `python src/jobteaser_monitor.py --dry-run --fixture-dir tests/fixtures/jobteaser`（Claude 回應也用假資料）；
+  單元測試 `python -m pytest tests/test_jobteaser_monitor.py -q`。
+- **調整**：搜尋條件、頁數（`--max-pages` 與設定檔的 `max_pages` 一律被硬上限 50 頁截斷）、每輪上限（預設 40）、推播門檻（70／60）、關鍵字、評分 persona 與 rubric 全在
+  `jobteaser_config.json`；去重狀態在 `data/seen_jobteaser.json`（Actions 每天 commit 回來，保留 180 天）。
+- **Cookie 過期**：偵測到導向登入頁（或轉去別的主機）／HTTP 401／403 時只推**一則**提醒並結束（exit 0），更新 secret 後自動恢復；
+  403 的提醒會寫「cookie 可能過期，或被網站/Cloudflare 擋下」，因為 403 不一定是過期。第 2 頁以後的空頁只代表
+  分頁結束，不會被當成過期。
+  遇到 HTTP 429 會立刻停止請求並提醒，不重試。
+- 已知限制：列表是「依相關度」排序，網站「依日期」排序的網址參數未知，所以靠 uuid 去重而非時間；
+  第一次會有大量未見職缺，每輪最多處理 40 則，其餘留到隔天（可手動 dispatch 多跑幾次）；
+  從 GitHub Actions 的 IP 連線是否會被擋**尚未驗證**；列表頁 HTML 與詳情頁 JSON-LD 的欄位只驗證過
+  `datePosted`／`description`，其餘欄位缺漏時退回 `<h1>` 與頁面文字；分數是 AI 的估計，翻譯與摘要請以原文為準，
+  法文等級是關鍵字規則，沒寫等級的法文 JD 會標 N（未標明）而不是 D。

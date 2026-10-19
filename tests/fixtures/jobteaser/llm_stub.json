@@ -1,0 +1,59 @@
+{
+ "a0000001-0000-4000-8000-000000000001": {
+  "functional": 29,
+  "career": 19,
+  "industry": 14,
+  "skills": 9,
+  "language": 14,
+  "international": 5,
+  "location": 4,
+  "reason_zh": "供應鏈規劃，半導體，英文為主",
+  "title_zh": "供應鏈規劃實習生",
+  "summary_zh": "支援需求規劃與 S&OP\n使用 Excel 與 SQL\n國際團隊",
+  "start_date": "2027-01",
+  "contract": "internship"
+ },
+ "a0000002-0000-4000-8000-000000000002": {
+  "functional": 27,
+  "career": 17,
+  "industry": 12,
+  "skills": 8,
+  "language": 6,
+  "international": 3,
+  "location": 3,
+  "reason_zh": "數位轉型 BA，JD 為法文但未標明等級",
+  "title_zh": "商業分析實習（轉型）",
+  "summary_zh": "協助數位轉型專案\n流程盤點與 KPI 儀表板",
+  "start_date": "2027-02",
+  "contract": "internship"
+ },
+ "a0000005-0000-4000-8000-000000000005": {
+  "functional": 24,
+  "career": 14,
+  "industry": 9,
+  "skills": 5,
+  "language": 8,
+  "international": 3,
+  "location": 2,
+  "reason_zh": "專案協調，但偏社群工具導入",
+  "title_zh": "專案協調實習（社群工具導入）",
+  "summary_zh": "協調內部工具導入",
+  "start_date": "2027-03",
+  "contract": "internship"
+ },
+ "a0000006-0000-4000-8000-000000000006": {
+  "functional": 10,
+  "career": 5,
+  "industry": 6,
+  "skills": 6,
+  "language": 15,
+  "international": 2,
+  "location": 3,
+  "reason_zh": "偏行銷數據，拉向數位行銷",
+  "title_zh": "行銷數據分析實習",
+  "summary_zh": "分析行銷成效",
+  "start_date": "",
+  "contract": "internship"
+ },
+ "a0000007-0000-4000-8000-000000000007": "this is not json"
+}
