@@ -15599,6 +15599,11 @@
   "title": "Micron stock holds with modest upside amid stro... - Pluang",
   "ts": "2026-10-15T15:45:23.952660+00:00"
  },
+ "36e3bb2f226e9bf7": {
+  "ticker": "TSM",
+  "title": "Apple Prepares To Debut 1.4nm A22 Pro Chips As TSMC Scales Up In 2028 - The Mac Observer",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "36ef74861b94260a": {
   "ticker": "NVDA",
   "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell - Longbridge",
@@ -18243,6 +18248,11 @@
   "ticker": "NFLX",
   "title": "TV licence could soon be needed to watch Netflix and YouTube under new plans - Brentwood Live",
   "ts": "2026-10-16T14:03:27.730634+00:00"
+ },
+ "3fe62936476c5bce": {
+  "ticker": "MACRO",
+  "title": "Oil price falls below $108, Middle East tensions keep markets anxious - Gazeta Express",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "3fead924d999915a": {
   "ticker": "MACRO",
@@ -33659,6 +33669,11 @@
   "title": "Samsung Outsources Nvidia AI Memory Base Dies to TSMC as Foundry Yields Fall Short - Tech Times",
   "ts": "2026-10-19T07:19:01.023579+00:00"
  },
+ "766f7aae9e3442fd": {
+  "ticker": "MACRO",
+  "title": "Yields on South Korean Treasury Bonds Rise Across the Board Ahead of Rate Decision - news.sbs.co.kr",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "766f8a77225b5772": {
   "ticker": "MACRO",
   "title": "Kospi Index outlook: Headwinds pile up as the selloff deepens, what next? - Invezz",
@@ -37383,6 +37398,11 @@
   "ticker": "TSM",
   "title": "TSMC open to partnership with Elon Musk’s Terafab as chip giant's Q3 profit hits record $23.6 billion - Livemint",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "83c73e82a5ca9c29": {
+  "ticker": "MACRO",
+  "title": "US Secretary of State Marco Rubio Denies Suspending Intelligence Sharing With Ukraine - Arbiterz",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "83ce0f222ad06918": {
   "ticker": "SPCX",
@@ -50888,6 +50908,11 @@
   "title": "Ben Affleck's New Netflix 108-Minute Crime Thriller Debuts as the No. 1 Movie in the World - IMDb",
   "ts": "2026-10-14T17:36:38.400888+00:00"
  },
+ "b46eb5f0c8854acb": {
+  "ticker": "MACRO",
+  "title": "Kospi Index outlook: Headwinds pile up as the selloff deepens, what next? - Invezz",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "b46fcd02121f44b2": {
   "ticker": "MACRO",
   "title": "Thai baht/US dollar steady on Monday - Business Recorder",
@@ -51717,6 +51742,11 @@
   "ticker": "NVDA",
   "title": "Lenovo Korea Ltd. launches AI laptop equipped with NVIDIA RTX Spark - 파이낸셜뉴스",
   "ts": "2026-10-19T00:39:15.033226+00:00"
+ },
+ "b777484a6c8debf5": {
+  "ticker": "SPCX",
+  "title": "Elon Musk says he’ll give every American child a SpaceX share. - The Verge",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "b77e90521c47d44f": {
   "ticker": "NFLX",
@@ -54998,6 +55028,11 @@
   "title": "Warsh Remarks Extinguish October Rate-Hike Expectations; Gold Futures Top $4,200 as ANZ Calls for $5,000 by 2027 - BigGo",
   "ts": "2026-10-19T08:30:38.252859+00:00"
  },
+ "c30a7f9784dfc29b": {
+  "ticker": "MACRO",
+  "title": "The Bond Selloff Story Has Shifted. Here’s How That Changes the Stakes for Investors - Morningstar",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "c30ac4f178153a7a": {
   "ticker": "NFLX",
   "title": "Doug Belgrad Leaving As Netflix VP Of Film Amid Layoffs - Yahoo",
@@ -57388,6 +57423,11 @@
   "title": "Consumer prices accelerate in September on costlier gasoline; core CPI firmer - KSL News",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "cb25d3ae98d2d493": {
+  "ticker": "TSLA",
+  "title": "Tesla Roadster 2028: Should You Book One After an 8-Year Delay? | TechPulse - The Economic Times",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "cb33209c6749b82a": {
   "ticker": "MU",
   "title": "$Micron Technology (MU.US)$ - Moomoo",
@@ -58122,6 +58162,11 @@
   "ticker": "NFLX",
   "title": "STEPS | Official Trailer | Netflix - YouTube",
   "ts": "2026-10-15T15:08:35.175914+00:00"
+ },
+ "cdb35dbbfa6f3f93": {
+  "ticker": "AAPL",
+  "title": "Apple Inc. $AAPL Stock: Eclectic Associates Inc. ADV Decreases Holdings - MarketBeat",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "cdb40e86f98f9a15": {
   "ticker": "NFLX",
@@ -62068,6 +62113,11 @@
   "title": "Brent Crude Hits $110 as Global Wars Disrupt Oil Supplies - Benzinga",
   "ts": "2026-10-17T02:18:01.038440+00:00"
  },
+ "dc002bd6e48c4ccc": {
+  "ticker": "TSM",
+  "title": "Samsung collaborates with TSMC for Nvidia’s custom HBM chips - Yahoo Finance",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
+ },
  "dc00f13cf633e23e": {
   "ticker": "MACRO",
   "title": "Oil prices settle mixed, Brent at US$105.92 per barrel - Qazinform",
@@ -63157,6 +63207,11 @@
   "ticker": "TSLA",
   "title": "Tesla Robotaxi Tally Hits 739, Trails Waymo’s 1,185 [2026] - https://tech-insider.org/",
   "ts": "2026-10-15T00:55:06.315358+00:00"
+ },
+ "e022b94a640e1708": {
+  "ticker": "SPCX",
+  "title": "Elon Musk says he'll give every child in America a share in SpaceX - Business Insider Africa",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "e02350f99a05fac3": {
   "ticker": "NVDA",
@@ -67787,6 +67842,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab Updates Neutron Development Schedule, Targets Inaugural Launch in 2027 - Quiver Quantitative",
   "ts": "2026-10-14T20:54:29.163061+00:00"
+ },
+ "f1e505ebc79777d5": {
+  "ticker": "MACRO",
+  "title": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead - CoinDesk",
+  "ts": "2026-10-19T09:36:37.707602+00:00"
  },
  "f1ed3530f200b650": {
   "ticker": "MACRO",
