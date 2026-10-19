@@ -949,6 +949,11 @@
   "title": "Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy? - The Globe and Mail",
   "ts": "2026-10-16T12:50:29.037205+00:00"
  },
+ "02f78c86e5e01a10": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Slide: Brent Falls 1.30%, US Crude Dips 0.52% - MM News",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "02ff72a6a2a92f27": {
   "ticker": "NFLX",
   "title": "Netflix to Cut 6% of Workforce, in Biggest Layoffs Since 2022 | Vantage on Firstpost - Firstpost",
@@ -7954,6 +7959,16 @@
   "title": "SSE Composite Slips to 3,797.24 as Mainland Selling Outweighs Regulator Support Pledge - BBN Times",
   "ts": "2026-10-16T04:26:38.577240+00:00"
  },
+ "1c1da830229bbab2": {
+  "ticker": "MACRO",
+  "title": "十年大数据统计：金、银、油、铜、农产品期货本周展望（10月19日更新）：从季节性走势的规律来看，本周国际黄金期货、WTI原油、COMEX铜价格展望如何？一文看懂。",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
+ "1c28b94c4df7a4cc": {
+  "ticker": "MACRO",
+  "title": "法德10年期国债收益率利差扩大5个基点至143个基点。",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "1c29339ab70ce8fa": {
   "ticker": "NVDA",
   "title": "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Repor",
@@ -10939,6 +10954,11 @@
   "title": "TSMC and ASML earnings suggest chip binge is far from over - Aju Press",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "278eee9a63f45494": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Automotive Bet Gains a Second Partner as Research Commitments Pile Up - ad-hoc-news.de",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "278f189dac87b359": {
   "ticker": "P",
   "title": "Form 4 Everpure Inc: John Colgrove (Director, Chief Visionary Officer) For: 14 October - Investing.com India",
@@ -11428,6 +11448,11 @@
   "ticker": "SNDK",
   "title": "Sandisk stock has results on October 29 ahead of the Xetra open - ad-hoc-news.de",
   "ts": "2026-10-19T06:31:02.521888+00:00"
+ },
+ "291d2300e7748b80": {
+  "ticker": "MACRO",
+  "title": "India bonds rise after flat open as sharp drop in US yields spurs value buying - The Economic Times",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "291f1b3e5464190c": {
   "ticker": "NFLX",
@@ -13949,6 +13974,11 @@
   "title": "Netflix’s Bela Bajaria exit signals a content reset, but what changes for India? - Indian Television Dot Com",
   "ts": "2026-10-16T08:46:52.336275+00:00"
  },
+ "32a35e05c8ab91f8": {
+  "ticker": "MACRO",
+  "title": "法国2年期国债收益率上升10个基点至3.65%，德国2年期国债收益率上升1个基点至3.07%。",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "32acf49da137f349": {
   "ticker": "TSLA",
   "title": "TSLA Stock Price Surges by 5% on Hyperliquid After Tesla Flying Car Reveal - The Crypto Times",
@@ -14648,6 +14678,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Insists RTX 5090 Production Continues Amid Empty Shelves and $8,500 Amazon Listings - news.lavx.hu",
   "ts": "2026-10-17T21:00:27.002543+00:00"
+ },
+ "354abfcb69b9bf4a": {
+  "ticker": "MACRO",
+  "title": "Brent Crude $108: Russia Sanctions Waiver Cools Oil - FinanceFeeds",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "3551329066cbe8e0": {
   "ticker": "NVDA",
@@ -16348,6 +16383,11 @@
   "ticker": "NFLX",
   "title": "Aslan Will Remain Male in Netflix’s ‘Narnia: The Magician’s Nephew’ - Knight Edge Media",
   "ts": "2026-10-17T23:31:04.643590+00:00"
+ },
+ "3b0fbc816821d2f6": {
+  "ticker": "MACRO",
+  "title": "China's property investment falls 20.6% y/y in first 9 months - Business Recorder",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "3b14145bbb5be65a": {
   "ticker": "TSLA",
@@ -23134,6 +23174,11 @@
   "title": "Netflix Slashes 1K Jobs In Largest Layoffs Ever Despite Billions In Profits - Daily Voice",
   "ts": "2026-10-14T17:19:15.493891+00:00"
  },
+ "537d2b37f2ef2ada": {
+  "ticker": "MACRO",
+  "title": "Global oil prices under pressure, Brent falls 1% - IDNFinancials",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "537f9e1eb07c1ca8": {
   "ticker": "MACRO",
   "title": "#octoberfedhikeoddsfalltoaround17% Community Insights & Market Sentiment | Binance Square - Binance",
@@ -26458,6 +26503,11 @@
   "ticker": "MACRO",
   "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs - MarketWatch",
   "ts": "2026-10-18T15:42:06.468218+00:00"
+ },
+ "5f54dc76824a306f": {
+  "ticker": "MACRO",
+  "title": "Oil prices surge to $109/barrel as Strait of Hormuz tension worsens - streamlinefeed.co.ke",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "5f5b158e129b83fa": {
   "ticker": "SPCX",
@@ -39279,6 +39329,11 @@
   "title": "Netflix film boss in firing line amid streaming giant's layoffs and alleged fall out with Ben Affleck - Page Six",
   "ts": "2026-10-15T13:54:57.975193+00:00"
  },
+ "8ed543e25294669f": {
+  "ticker": "NVDA",
+  "title": "NVIDIA DLSS Ray Reconstruction and Multi Frame Generation now run on AMD Radeon GPUs - TweakTown",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "8ed7aa162ec3b236": {
   "ticker": "MACRO",
   "title": "US inflation accelerates as Fed rate hike returns to the table - Big News Network.com",
@@ -42753,6 +42808,11 @@
   "ticker": "NVDA",
   "title": "ByteDance ASIC Deal: Nvidia Funds Chips US Export Controls Meant to Block - Tech Times",
   "ts": "2026-10-16T06:09:15.050839+00:00"
+ },
+ "9b48242ffec451e9": {
+  "ticker": "SPCX",
+  "title": "SpaceX (Space Exploration Technologies) : Gets a Buy rating from Bernstein - marketscreener.com",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "9b4edbc4de08e990": {
   "ticker": "SNDK",
@@ -53843,6 +53903,11 @@
   "title": "A $2 trillion deficit looms over the midterms - CNN",
   "ts": "2026-10-17T00:29:18.065744+00:00"
  },
+ "c4b3651b664aad85": {
+  "ticker": "NFLX",
+  "title": "Stocktwits Tech Watch: Netflix And Meta Report Earnings As Nvidia, Oracle Product Events Loom - Stocktwits",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
  "c4b690fda37ae718": {
   "ticker": "NFLX",
   "title": "Bajaria Out, Rice In: Netflix’s Content Chief Change Signals Back-to-Basics Shift for Film and TV | Analysis - IMDb",
@@ -55617,6 +55682,11 @@
   "ticker": "HAG",
   "title": "Rheinmetall, RENK, HENSOLDT, TKMS - Freitag Knoten geplatzt? Alte Hochs wieder in Reichweite? - Nebenwerte Magazin",
   "ts": "2026-10-17T10:38:12.085546+00:00"
+ },
+ "caea33e5588fe69d": {
+  "ticker": "NVDA",
+  "title": "日本GMO Internet将斥资261亿日元采购最多116台英伟达B300服务器。",
+  "ts": "2026-10-19T06:36:59.589851+00:00"
  },
  "caf59bcce28affd5": {
   "ticker": "MACRO",
