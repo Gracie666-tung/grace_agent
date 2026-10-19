@@ -2689,6 +2689,11 @@
   "title": "Streaming giant Netflix to cut six per cent of workers - Oberon Review",
   "ts": "2026-10-14T22:46:38.861829+00:00"
  },
+ "096b40744382207f": {
+  "ticker": "NVDA",
+  "title": "Axera unveils AX8860P SoC to compete with NVIDIA DGX Spark at lower cost - Global Sources",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "096c110e32e5e00e": {
   "ticker": "MACRO",
   "title": "Oil set for weekly gain as supply constraints keep prices elevated - Invezz",
@@ -6768,6 +6773,11 @@
   "ticker": "SNDK",
   "title": "Mizuho lifts target for Sandisk stock from USD 1,875 to USD 2,050 - ad-hoc-news.de",
   "ts": "2026-10-16T08:22:45.572996+00:00"
+ },
+ "188a7b8f999efb49": {
+  "ticker": "TSM",
+  "title": "TSMC approves another 3 nm chip fab in Tainan - Taiwan News",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
  },
  "188d01c82e785b88": {
   "ticker": "MU",
@@ -15324,6 +15334,11 @@
   "title": "Rocket Lab Stock Falls After Neutron Launch Is Delayed Into 2027 - Yahoo Finance",
   "ts": "2026-10-15T16:09:50.642493+00:00"
  },
+ "38c5e942c87ff453": {
+  "ticker": "NFLX",
+  "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 17, 2026 - IMDb",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "38c60d7cb9a2f3d8": {
   "ticker": "MACRO",
   "title": "Govt Bond Yields May Face More Upward Pressure, Says UBI Report - menafn",
@@ -19193,6 +19208,11 @@
   "ticker": "TSLA",
   "title": "Watch the Tesla Roadster reveal - The Detroit News",
   "ts": "2026-10-15T23:59:28.361710+00:00"
+ },
+ "46ee004740780521": {
+  "ticker": "MACRO",
+  "title": "Gold edges higher on softer oil; Fed rate outlook in focus - Business Recorder",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
  },
  "46eea9173edfcdbd": {
   "ticker": "NFLX",
@@ -44678,6 +44698,11 @@
   "title": "US stocks fall after hot inflation report as leading AI shares tumble - AFP.com",
   "ts": "2026-10-15T00:25:53.716950+00:00"
  },
+ "a56ce8a9e31ee370": {
+  "ticker": "MACRO",
+  "title": "Crude oil prices today: Why are Brent and WTI falling after Friday's sharp rally? - Zee Business",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "a56ef2a4a46eb1ff": {
   "ticker": "TSLA",
   "title": "Tesla's \"Flying\" Roadster Sparks Buzz Among Chinese EV Chiefs — NIO's William Li: \"We Definitely Don't Have This\" - BigG",
@@ -49547,6 +49572,11 @@
   "ticker": "NFLX",
   "title": "Netflix, Inc. $NFLX Stock: B. Riley Wealth Advisors Inc. Increases Stake - MarketBeat",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "b8a2b978e004a46d": {
+  "ticker": "MACRO",
+  "title": "Gold Price Today: Yellow Metal Rate Rises As Investors Weigh Fed Rate Hike Prospects - News18",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
  },
  "b8a4be49fe5794fb": {
   "ticker": "TSLA",
@@ -60938,6 +60968,11 @@
   "title": "9 Books To Read Next If You Loved Netflix's East Of Eden - HuffPost UK",
   "ts": "2026-10-16T08:52:53.413800+00:00"
  },
+ "e336319b7de27cbf": {
+  "ticker": "MACRO",
+  "title": "Beijing's population expected to become super-aged by 2035 - Business Recorder",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "e33a37df143f34f0": {
   "ticker": "NFLX",
   "title": "Netflix Inc Stock (NFLX) Moved Down by 3.28% on Oct 16: Facts Behind the Movement - NewsBreak: Local News & Alerts",
@@ -66328,6 +66363,11 @@
   "title": "LITEON Showcases at NVIDIA MGX Ecosystem at OCP, Highlighting 800 VDC Power Technologies to Advance Next-Generation AI I",
   "ts": "2026-10-16T05:20:59.221344+00:00"
  },
+ "f914a943515baf18": {
+  "ticker": "HAG",
+  "title": "HENSOLDT TRS-4D Naval Radar: Germany’s K130 Corvette AESA Multifunction System - Envanter Medya",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "f919d02ba289b4dd": {
   "ticker": "PLTR",
   "title": "Palantir Technologies Inc. Shs Thailand Depositary Receipts Repr 1 Sh - TradingView",
@@ -66983,10 +67023,20 @@
   "title": "SpaceX Stock Price Today: Falling $7.99 (-5.10%) – Check Market Snapshot, Trajectory, Wall Street Projections, What Inve",
   "ts": "2026-10-15T13:12:34.816821+00:00"
  },
+ "fb702eda8b5562d4": {
+  "ticker": "NVDA",
+  "title": "In response to NVIDIA's standardization requirements, Samsung will collaborate with Taiwan Semiconductor for the first t",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
  "fb7161b9695a1696": {
   "ticker": "NVDA",
   "title": "Monetize360: AI Factory Monetization Now Available on NVIDIA DSX Air - Democrat and Chronicle",
   "ts": "2026-10-17T20:54:30.131076+00:00"
+ },
+ "fb73f9966fd242e5": {
+  "ticker": "NFLX",
+  "title": "‘Sacrifice’ Review: Romain Gavras Leads an A-List Cast in Frustrating Netflix Satire - IMDb",
+  "ts": "2026-10-19T03:38:46.311667+00:00"
  },
  "fb77230f55b5cc6e": {
   "ticker": "TSLA",
