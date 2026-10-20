@@ -32,9 +32,9 @@ from urllib.parse import urlsplit
 
 import requests
 
-from jobteaser_monitor import (JD_MAX_CHARS, _cap, _e, _link, build_system, call_claude, classify_french, fixture_llm,
-                               format_digest_entry, format_job, is_seen, kw_regex, norm, pack, prune_state, route,
-                               save_state, score_job, send_telegram, strip_tags)
+from jobteaser_monitor import (EN_A, FR_B, FR_C, FR_D, FR_D_GENERIC, FR_NONE, JD_MAX_CHARS, _cap, _e, _link, build_system,
+                               call_claude, fixture_llm, format_digest_entry, format_job, is_seen, kw_regex, norm, pack,
+                               prune_state, route, save_state, score_job, send_telegram, strip_tags)
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "lba_config.json"
@@ -47,6 +47,8 @@ TIMEOUT = 30
 DOWNLOAD_TIMEOUT = (10, 60)  # (連線, 兩個資料塊之間)
 RATE_LIMIT_STATUSES = (419, 429)  # swagger 的 429 說明寫 429，錯誤 schema 寫 419，兩個都當限流
 KEY_FORMAT = re.compile(r"^[\x21-\x7e]+$")  # 可印出 ASCII、無空白；不合的 key 不送出（requests 的錯誤訊息會回顯標頭值）
+DATE_ONLY = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+BLOCK_END = re.compile(r"(?i)</(?:p|li|div|h\d|ul|ol|tr)>|<br\s*/?>")  # strip_tags 會把換行壓成空白，先換成句點才分得出子句
 POSTAL = re.compile(r"\b(\d{5})\s+([^\d,][^,]*)$")
 LIST_KEYS = ("jobs", "offers", "items", "data", "results")  # 匯出檔結構未驗證：這幾個鍵底下的陣列都當職缺清單
 
@@ -98,10 +100,20 @@ def load_state(path: Path) -> dict:
 # 匯出檔：下載與串流解析
 # ---------------------------------------------------------------------------
 
+def host_label(sp) -> str:
+    """主機（非預設埠才加埠）。刻意不用 netloc：https://user:SECRET@host 的 netloc 帶著帳密。"""
+    try:
+        port = sp.port
+    except ValueError:
+        port = None
+    host = sp.hostname or ""
+    return f"{host}:{port}" if port and port != 443 else host
+
+
 def diag_line(status: int, url: str, extra: str = "") -> str:
-    """非 200 時留一行診斷：只有狀態碼與 host+path（不含 query，預簽名連結的簽章在 query），絕不含標頭或 key。"""
+    """非 200 時留一行診斷：只有狀態碼與 host+path（不含 query，預簽名連結的簽章在 query；也不含 userinfo），絕不含標頭或 key。"""
     sp = urlsplit(url)
-    return f"[診斷] HTTP {status} {sp.netloc}{sp.path}{extra}"
+    return f"[診斷] HTTP {status} {host_label(sp)}{sp.path}{extra}"
 
 
 def fetch_export(api_key: str, dest, max_bytes: int) -> dict:
@@ -130,10 +142,10 @@ def fetch_export(api_key: str, dest, max_bytes: int) -> dict:
     except Exception:  # noqa: BLE001
         raise ExportError("匯出 API 回應不是預期的 {url, lastUpdate} JSON") from None
     sp = urlsplit(url) if isinstance(url, str) else None
-    if not sp or sp.scheme != "https" or not sp.netloc:
+    if not sp or sp.scheme != "https" or not sp.hostname:
         raise ExportError("匯出下載連結不是 https，不下載")
-    print(f"匯出檔 lastUpdate={last_update}；下載主機 {sp.netloc}"
-          f"{'（與 API 不同主機，不帶 key）' if sp.netloc != API_HOST else ''}")
+    print(f"匯出檔 lastUpdate={last_update}；下載主機 {host_label(sp)}"
+          f"{'（與 API 不同主機，不帶 key）' if host_label(sp) != API_HOST else ''}")
     try:
         dl = requests.get(url, headers={"User-Agent": UA}, stream=True, timeout=DOWNLOAD_TIMEOUT, allow_redirects=False)
     except Exception as e:  # noqa: BLE001
@@ -272,6 +284,53 @@ def _g(d, *path):
     return d
 
 
+def is_recruiter(raw) -> bool:
+    return isinstance(raw, dict) and _g(raw, "identifier", "partner_label") == "recruteurs_lba"
+
+
+def _names(v) -> str:
+    """只取欄位名稱（最多兩層），不含任何值。"""
+    def clean(k) -> str:
+        return re.sub(r"[^\w.$@:-]", "?", str(k))[:40]
+    if not isinstance(v, dict):
+        return type(v).__name__
+    parts = []
+    for k, x in list(v.items())[:40]:
+        sub = f"{{{','.join(clean(c) for c in list(x)[:25])}}}" if isinstance(x, dict) else "[]" if isinstance(x, list) else ""
+        parts.append(clean(k) + sub)
+    return ", ".join(parts)
+
+
+def describe_export(fp) -> str:
+    """匯出檔結構摘要，給 Actions log 用：最外層鍵名＋第一筆職缺的鍵名（兩層）。只有名稱，沒有值。"""
+    try:
+        s = _JsonStream(fp)
+        c = s.peek()
+        if c == "[":
+            return f"最外層=陣列；第一筆：{_names(next(s.array(), None))}"[:1500]
+        if c != "{":
+            return f"最外層既不是陣列也不是物件（{c!r}）"
+        s.skip()
+        keys, first = [], {}
+        while s.peek() != "}":
+            key = s.value()
+            if s.peek() != ":":
+                raise ValueError("malformed JSON object")
+            s.skip()
+            keys.append(re.sub(r"[^\w.$@:-]", "?", str(key))[:40])
+            if s.peek() == "[":
+                for item in s.array():
+                    first.setdefault(key, item)
+            else:
+                s.value()
+            if s.peek() == ",":
+                s.skip()
+        pick = next((first[k] for k in LIST_KEYS if k in first), next(iter(first.values()), None))
+        return f"最外層鍵={keys}；第一筆：{_names(pick) if pick is not None else '（沒有陣列）'}"[:1500]
+    except (ValueError, StopIteration) as e:
+        return f"無法解析（{type(e).__name__}）"
+
+
 def offer_id(raw: dict) -> str:
     """identifier.id 在 France Travail 來源是 null（swagger），退而用 partner_label:partner_job_id。"""
     ident = raw.get("identifier") if isinstance(raw.get("identifier"), dict) else {}
@@ -289,7 +348,7 @@ def city_dept(address: str) -> tuple[str, str]:
 
 
 def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]:
-    """回傳 (job, 原因)：job 為 None 時原因是 malformed／old／expired。先做便宜的檢查再做文字處理。"""
+    """回傳 (job, 原因)：job 為 None 時原因是 malformed／old／expired／inactive。先做便宜的檢查再做文字處理。"""
     if not isinstance(raw, dict):
         return None, "malformed"
     oid, title = offer_id(raw), _g(raw, "offer", "title")
@@ -301,7 +360,13 @@ def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]
         return None, "malformed"
     if created < now - timedelta(days=recent_days):
         return None, "old"
-    expires = parse_ts(_g(raw, "offer", "publication", "expiration"))
+    status = _g(raw, "offer", "status")  # swagger enum：Active／Filled／Cancelled；沒給就當作有效
+    if isinstance(status, str) and status.strip() and status.strip().lower() != "active":
+        return None, "inactive"
+    exp_raw = _g(raw, "offer", "publication", "expiration")
+    expires = parse_ts(exp_raw)
+    if expires is not None and DATE_ONLY.match(exp_raw.strip()):
+        expires += timedelta(days=1)  # 只有日期：當天整天有效，到隔天 00:00 UTC 才算過期
     if expires is not None and expires <= now:
         return None, "expired"
     address = _g(raw, "workplace", "location", "address")
@@ -318,7 +383,7 @@ def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]
         "location": city or _cap(address, 60), "dept": dept,
         "employment_type": f"alternance（{ctypes or '未標明'}）" + (f"；預計 {start:%Y-%m} 開始" if start else ""),
         "start": f"{start:%Y-%m}" if start else "", "date_posted": created.date().isoformat(),
-        "created": created, "text": strip_tags(desc if isinstance(desc, str) else "")[:JD_MAX_CHARS],
+        "created": created, "text": strip_tags(BLOCK_END.sub(". ", desc) if isinstance(desc, str) else "")[:JD_MAX_CHARS],
     }, ""
 
 
@@ -329,17 +394,76 @@ def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]
 class Keywords:
     def __init__(self, cfg: dict):
         self.pos = kw_regex(cfg["keywords_positive"] + cfg.get("keywords_positive_extra", []))
+        self.title_only = kw_regex(cfg.get("keywords_title_only", [])) if cfg.get("keywords_title_only") else None
         self.neg = kw_regex(cfg["keywords_negative"])
         self.skills = kw_regex(cfg["keywords_skills"])
         self.priority_depts = set(cfg.get("priority_departments", []))
 
     def rank(self, job: dict) -> tuple[bool, int]:
-        """(保留?, 排序分)。保留 = 全文有正面字，且不是『標題有負面字而標題沒有任何正面字』。"""
-        title, body = norm(job["title"]), norm(job["title"] + " " + job["text"])
-        pos_all, pos_title = set(self.pos.findall(body)), set(self.pos.findall(title))
-        keep = bool(pos_all) and not (self.neg.search(title) and not pos_title)
-        score = 2 * len(pos_all) + 3 * len(pos_title) + len(set(self.skills.findall(body)))
+        """(保留?, 排序分)。保留 = 標題有正面字，或內文有 >=2 個不同的正面字；
+        而且不是『標題有負面字而標題沒有任何正面字』。title_only 的字（transformation、lean 這類在食品／醫療 JD 也常見）只算標題。"""
+        title, text = norm(job["title"]), norm(job["text"])
+        pos_title = set(self.pos.findall(title)) | (set(self.title_only.findall(title)) if self.title_only else set())
+        pos_body = set(self.pos.findall(text))
+        keep = (bool(pos_title) or len(pos_body) >= 2) and not (self.neg.search(title) and not pos_title)
+        score = 2 * len(pos_body | pos_title) + 3 * len(pos_title) + len(set(self.skills.findall(title + " " + text)))
         return keep, score + (3 if job["dept"] in self.priority_depts else 0)
+
+
+# ---------------------------------------------------------------------------
+# 法文要求分級（LBA 專用）：沿用 jobteaser 的正規式，但改成「逐子句」判斷，並把語言程度字綁在 français／French 附近。
+# jobteaser_monitor.classify_french 整段文字一起比，英文 JD 的「Anglais courant ou bilingue」會被當成 D。
+# ---------------------------------------------------------------------------
+
+CLAUSE_SPLIT = re.compile(r"[,;.!?\n•|]+")
+FR_WORD = re.compile(r"(?<![a-z])(?:francais(?:e|es)?|french|francophone)(?![a-z])")
+STANDALONE_LEVEL = re.compile(r"(?<![a-z])(?:bilingue|langue maternelle|niveau natif)(?![a-z])")
+# 等級字直接黏在 français／French 後面（中間只允許「niveau／level／de niveau」）
+LBA_D = re.compile(
+    r"(?<![a-z])(?:francais(?:e)?|french) (?:de niveau |niveau |level )?(?:c1|c2)(?![a-z0-9])|"
+    r"(?<![a-z0-9])(?:niveau |level )(?:c1|c2) (?:en |in |de )?(?:francais|french)|"
+    r"maitrise (?:(?:parfaite|totale|complete|absolue|excellente|irreprochable) )?(?:du|de la|de la langue) (?:langue )?francais|"
+    r"(?:excellente?|parfaite?|irreprochable) (?:[a-z]+ ){1,6}?(?:en|du|de la langue|de) (?:langue )?francais|"
+    r"excellent (?:[a-z]+ ){1,4}?french(?![a-z])")
+LBA_C = re.compile(
+    r"(?<![a-z])(?:francais(?:e)?|french) (?:de niveau |niveau |level )?(?:b1|b2)(?![a-z0-9])|"
+    r"(?<![a-z0-9])(?:niveau |level )(?:b1|b2) (?:en |in |de )?(?:francais|french)")
+
+
+def _near_french(t: str, m: re.Match, span: int = 5) -> bool:
+    before, after = " ".join(t[:m.start()].split()[-span:]), " ".join(t[m.end():].split()[:span])
+    return bool(FR_WORD.search(before) or FR_WORD.search(after))
+
+
+def classify_french_lba(text: str) -> str:
+    """A 英文為主／B 法文加分／C B1-B2 或商務法文／D 流利以上（不推）／N 未標明。逐子句（逗號、句點、換行分隔）判斷：
+    bilingue／langue maternelle／niveau natif 沒有 français／French 在 5 個字以內就忽略（那是在講別的語言）。"""
+    flags = {"D": False, "C": False, "B": False, "none": False}
+    for clause in CLAUSE_SPLIT.split(text or ""):
+        t = norm(clause)
+        if not t:
+            continue
+        t = STANDALONE_LEVEL.sub(lambda m: m.group(0) if _near_french(t, m) else " ", t)
+        flags["none"] |= bool(FR_NONE.search(t))
+        t = FR_NONE.sub(" ", t)
+        flags["B"] |= bool(FR_B.search(t))
+        t = FR_B.sub(" ", t)
+        if FR_D.search(t) or LBA_D.search(t):
+            flags["D"] = True
+        elif FR_C.search(t) or LBA_C.search(t):
+            flags["C"] = True
+        elif FR_D_GENERIC.search(t):
+            flags["D"] = True
+    if flags["D"]:
+        return "D"
+    if flags["C"]:
+        return "C"
+    if flags["B"]:
+        return "B"
+    english = bool(EN_A.search(norm(text)))
+    if flags["none"]:
+        return "A" if english else "B"
+    return "A" if english else "N"
 
 
 # ---------------------------------------------------------------------------
@@ -449,13 +573,18 @@ def run(args, now: datetime | None = None) -> int:
         # --- 串流篩選：年齡／過期 -> 重複 -> 已見 -> 關鍵字 -> 法文 ----------------
         kw = Keywords(cfg)
         recent = int(cfg.get("recent_days", 7))
-        counts = dict.fromkeys(("total", "malformed", "old", "expired", "dup", "seen", "keyword", "french_d"), 0)
+        counts = dict.fromkeys(("total", "recruiter", "malformed", "inactive", "old", "expired", "dup", "seen", "keyword",
+                                "french_d"), 0)
         ids: set[str] = set()
         kept: list[tuple[int, datetime, dict]] = []
         tmp.seek(0)
+        export_text = io.TextIOWrapper(tmp, encoding="utf-8")  # 留著參照：被回收時會連 tmp 一起關掉
         try:
-            for raw in iter_offers(io.TextIOWrapper(tmp, encoding="utf-8")):
+            for raw in iter_offers(export_text):
                 counts["total"] += 1
+                if is_recruiter(raw):  # 沒有職缺的企業名單（candidature spontanée 用），不是職缺也不算資料不全
+                    counts["recruiter"] += 1
+                    continue
                 job, why = parse_offer(raw, now, recent)
                 if job is None:
                     counts[why] += 1
@@ -471,7 +600,7 @@ def run(args, now: datetime | None = None) -> int:
                 if not keep:
                     counts["keyword"] += 1
                     continue
-                job["fr"] = classify_french(job["title"] + " " + job["text"])
+                job["fr"] = classify_french_lba(job["title"] + ". " + job["text"])
                 if job["fr"] == "D":  # 規則式、不花錢，不寫進狀態（狀態只放處理過的）
                     counts["french_d"] += 1
                     continue
@@ -479,9 +608,16 @@ def run(args, now: datetime | None = None) -> int:
         except ValueError as e:
             print(f"匯出檔解析失敗（{type(e).__name__}），本輪不處理、不寫狀態。")
             return 1
-    if counts["total"] == 0:
-        print("匯出檔沒有解析出任何職缺：結構可能與預期不同（見 iter_offers），本輪不處理。")
-        return 1
+        eligible = counts["total"] - counts["recruiter"]
+        if eligible == 0 or counts["malformed"] >= 0.9 * eligible:  # 欄位名稱／格式和預期差太多：靜默吞掉比報錯更糟
+            export_text.seek(0)
+            print(f"匯出結構異常：{counts['total']} 筆中 {counts['malformed']} 筆讀不出必要欄位"
+                  f"（企業名單 {counts['recruiter']} 筆不計），本輪不處理、不寫狀態。")
+            print(f"[診斷] 結構（只列欄位名稱）：{describe_export(export_text)}")
+            emit("⚠️ La Bonne Alternance：匯出檔的欄位結構和程式預期不同，本輪沒有處理任何職缺。"
+                 "請看 GitHub Actions log 裡的 [診斷] 結構 那一行。\n"
+                 "LBA export structure differs from what the parser expects; nothing processed.", content=False)
+            return 1
     kept.sort(key=lambda t: (-t[0], -t[1].timestamp()))  # 排序分高者先；同分較新者先
     max_new = args.max_new if args.max_new is not None else int(cfg.get("max_new_per_run", 30))
     cands = [j for _, _, j in kept[:max_new]]

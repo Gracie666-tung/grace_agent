@@ -8,7 +8,17 @@
   "push_threshold": 70,
   "digest_min": 60,
   "model": "claude-sonnet-5-5",
-  "priority_departments": ["75", "77", "78", "91", "92", "93", "94", "95", "33"],
+  "priority_departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "33"
+  ],
   "keywords_positive_extra": [
     "analyste financier",
     "analyste d'affaires",
@@ -17,8 +27,10 @@
     "planificateur",
     "approvisionneur",
     "gestion de projets",
-    "lean",
-    "six sigma",
-    "transformation"
+    "six sigma"
+  ],
+  "keywords_title_only": [
+    "transformation",
+    "lean"
   ]
 }

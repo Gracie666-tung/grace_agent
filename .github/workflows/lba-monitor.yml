@@ -1,10 +1,14 @@
 name: lba-monitor
 
 on:
-  schedule:
-    - cron: "0 7 * * *" # 07:00 UTC = 巴黎 08:00/09:00；LBA 匯出檔每天巴黎 03:00 更新，之後才跑（GitHub cron 熱門時段可能延遲 10-20 分鐘）
+  # 排程暫時移除：第一次用真實 key 手動跑 dry-run 並確認輸出正確後，再加回 schedule（cron "0 7 * * *"，07:00 UTC，匯出檔巴黎 03:00 更新）。
   workflow_dispatch:
     inputs:
+      dry_run:
+        description: "只印出結果，不推播、不寫狀態、不 commit（驗證完再改成 false）"
+        type: boolean
+        required: false
+        default: true
       max_new:
         description: "本輪最多評分／列入摘要幾則（留空用 lba_config.json 的預設）"
         required: false
@@ -35,15 +39,23 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MAX_NEW: ${{ github.event.inputs.max_new }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
-          python src/lba_monitor.py ${MAX_NEW:+--max-new "$MAX_NEW"}
+          args=()
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ -n "$MAX_NEW" ]; then args+=(--max-new "$MAX_NEW"); fi
+          python src/lba_monitor.py "${args[@]}"
 
       - name: Persist seen offers
-        if: always() # 就算上一步中途失敗，已推播的職缺也要記下來，避免明天重複推
+        if: always() && github.event.inputs.dry_run != 'true' # dry-run 不寫狀態，也就不 commit；就算上一步中途失敗，已推播的職缺也要記下來
         run: |
           git config user.name "lba-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/seen_lba.json
           git diff --cached --quiet || git commit -m "chore: update seen lba [skip ci]"
-          git pull --rebase # 先 commit 再 rebase，避免 dirty tree；其他 workflow 也會 commit
-          git push
+          for i in 1 2 3; do # 其他 bot 也常 push 這個 repo：rebase 後 push 失敗就重試
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            echo "push 失敗，第 $i/3 次"; sleep $((i * 5))
+          done
+          exit 1

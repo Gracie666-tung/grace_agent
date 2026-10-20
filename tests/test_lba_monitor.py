@@ -168,7 +168,7 @@ def _job(title, text, dept=""):
 
 def test_keywords_french_and_negative_context():
     kw = lba.Keywords(CFG)
-    assert kw.rank(_job("Alternant Contrôleur de gestion", "budget"))[0]  # 法文標題字
+    assert kw.rank(_job("Alternant Contrôleur de gestion", "budget"))[0]  # 法文標題字（標題命中一個就夠）
     assert kw.rank(_job("Assistant", "Pilotage de la chaîne d'approvisionnement, tableau de bord"))[0]  # 全文裡的法文字
     assert not kw.rank(_job("Aide boulanger", "pains et viennoiseries"))[0]  # 沒有任何正面字
     assert not kw.rank(_job("Community manager", "réseaux sociaux, contenu, supply chain"))[0]  # 標題負面、標題無正面
@@ -176,7 +176,7 @@ def test_keywords_french_and_negative_context():
     assert kw.rank(_job("Alternant achats", "On attend de bonnes capacités de communication et de paie"))[0]  # 全文的負面字不殺
     assert kw.rank(_job("Alternant achats", "x", dept="75"))[1] == kw.rank(_job("Alternant achats", "x"))[1] + 3  # 地點加權
     assert kw.rank(_job("Alternant achats", "x", dept="33"))[1] > kw.rank(_job("Alternant achats", "x", dept="69"))[1]
-    assert kw.rank(_job("Analyste", "S&OP, Excel, SQL"))[0]  # & 保留
+    assert kw.rank(_job("Analyste S&OP", "Excel, SQL"))[0]  # & 保留（標題命中）
 
 
 # --- 離線端到端：保留／丟棄各路徑 ---------------------------------------------------
@@ -346,8 +346,8 @@ def test_server_error_exits_nonzero_with_one_diagnostic_line_and_no_query_string
         assert "PRESIGNSECRET" not in out and "X-Amz" not in out and not sp.exists()
         code, _, out, _ = _live(sp, FakeNet(download=Resp(200, body=b'{"jobs": [{"x"')))
         assert code == 1 and "解析失敗" in out and not sp.exists()  # 壞檔：不處理、不寫狀態
-        code, _, out, _ = _live(sp, FakeNet(download=Resp(200, body=b'{"foo": 1}')))
-        assert code == 1 and "沒有解析出任何職缺" in out
+        code, texts, out, _ = _live(sp, FakeNet(download=Resp(200, body=b'{"foo": 1}')))
+        assert code == 1 and "匯出結構異常" in out and "最外層鍵=['foo']" in out and len(texts) == 1
 
 
 def test_export_size_cap():
@@ -382,6 +382,146 @@ def test_key_never_appears_anywhere():
         assert code == 1 and SENTINEL not in out and "RuntimeError" in out
 
 
+# --- 審查後新增的回歸測試 -----------------------------------------------------------
+
+def test_keyword_prefilter_title_or_two_distinct_body_words():
+    kw = lba.Keywords(CFG)
+    # 這三則在舊邏輯（全文只要一個正面字就保留）都會被放行
+    assert not kw.rank(_job("Apprenti(e) boulanger H/F", "Fabrication du pain, gestion des stocks de farine, nettoyage du fournil."))[0]
+    assert not kw.rank(_job("Aide-soignant en apprentissage", "Soins aux résidents, planification des tournées, transformation du projet d'établissement."))[0]
+    assert not kw.rank(_job("Apprenti cuisinier", "Transformation des produits frais, méthode lean en cuisine, mise en place."))[0]
+    assert kw.rank(_job("Alternance Supply Chain Analyst H/F", "Missions variées."))[0]  # 標題命中
+    assert kw.rank(_job("Alternance Assistant(e) H/F", "Vous soutenez le contrôle de gestion et le tableau de bord mensuel."))[0]  # 內文兩個不同字
+    assert not kw.rank(_job("Alternance Assistant(e) H/F", "contrôle de gestion, contrôle de gestion, contrôle de gestion"))[0]  # 同一個字重複不算
+    assert kw.rank(_job("Alternant Contrôleur de gestion", "Budget."))[0]
+    assert kw.rank(_job("Alternant Lean Manager", "Atelier."))[0] and kw.rank(_job("Chargé de transformation", "x"))[0]  # title_only 的字標題有才算
+    assert not kw.rank(_job("Alternance Assistant(e) H/F", "lean et transformation, lean, transformation"))[0]
+
+
+FRENCH_LBA_CASES = [
+    ("Anglais courant ou bilingue", "A"),  # 舊邏輯：D（bilingue 單獨就觸發）
+    ("Anglais langue maternelle ou bilingue", None),  # 只要求不是 D
+    ("Bilingue anglais apprécié", None),
+    ("Français : niveau C1 exigé.", "D"),  # 舊邏輯：N
+    ("Maîtrise parfaite de la langue française.", "D"),  # 舊邏輯：N
+    ("Excellente expression écrite et orale en français.", "D"),  # 舊邏輯：N
+    ("Français niveau B2 minimum", "C"),  # 舊邏輯：N
+    ("Français courant", "D"),
+    ("French is a plus", "B"),
+    ("Profil bilingue (français / anglais)", "D"),  # bilingue 綁在 français 旁邊才算
+    ("English C1, French B1 minimum", "C"),  # 逗號隔開：C1 是英文的
+    ("Anglais C1. Français B2 souhaité", "C"),  # C1 是英文的，B2 才是法文的
+    ("Excellent written and spoken French required", "D"),
+    ("<li>Anglais C1</li><li>Français niveau B1</li>", "C"),
+]
+
+
+def test_french_class_lba_proximity_rules():
+    wrong = []
+    for text, want in FRENCH_LBA_CASES:
+        got = lba.classify_french_lba(text)
+        if (want and got != want) or (want is None and got == "D"):
+            wrong.append((text, want, got))
+    assert not wrong, wrong
+    # jobteaser 既有的 21 個案例在 LBA 版也要同結果
+    from test_jobteaser_monitor import FRENCH_CASES
+    wrong = [(t, w, lba.classify_french_lba(t)) for t, w in FRENCH_CASES if lba.classify_french_lba(t) != w]
+    assert not wrong, wrong
+    # 描述的 HTML 區塊要變成句點，列表項目才不會黏成同一個子句
+    job, _ = lba.parse_offer(_raw_with(desc="<ul><li>Anglais C1</li><li>Français niveau B1</li></ul>"), NOW, 7)
+    assert lba.classify_french_lba(job["text"]) == "C"
+
+
+def _raw_with(desc=None, **pub):
+    raw = json.loads(json.dumps(json.loads(EXPORT)["jobs"][0]))
+    if desc is not None:
+        raw["offer"]["description"] = desc
+    raw["offer"]["publication"].update(pub)
+    return raw
+
+
+def test_offer_status_filters_inactive_but_keeps_missing_or_active():
+    for status, kept in (("Active", True), ("active", True), (None, True), ("", True), ("Filled", False), ("Cancelled", False), ("filled", False)):
+        raw = _raw_with()
+        if status is not None:
+            raw["offer"]["status"] = status
+        job, why = lba.parse_offer(raw, NOW, 7)
+        assert (job is not None) == kept and (kept or why == "inactive"), status
+    assert "status" not in json.loads(EXPORT)["jobs"][0]["offer"]  # fixture 預設沒有 status（缺欄位仍保留）
+
+
+def test_date_only_expiration_counts_as_end_of_that_day():
+    assert lba.parse_offer(_raw_with(expiration="2026-10-20"), NOW, 7)[0] is not None  # 07:00 UTC，當天還有效
+    assert lba.parse_offer(_raw_with(expiration="2026-10-19"), NOW, 7) == (None, "expired")
+    late = datetime(2026, 10, 21, 0, 0, tzinfo=timezone.utc)
+    assert lba.parse_offer(_raw_with(expiration="2026-10-20"), late, 7) == (None, "expired")
+    assert lba.parse_offer(_raw_with(expiration="2026-10-20T06:00:00Z"), NOW, 7) == (None, "expired")  # 有時間的照舊
+
+
+def test_userinfo_never_printed_for_download_url():
+    d, sp = _tmp()
+    with d:
+        url = "https://dluser:USERINFOSECRET@dl.example.net:8443/bucket/x.json?sig=QUERYSECRET"
+        net = FakeNet(api=Resp(200, json_body={"url": url, "lastUpdate": "x"}), download=Resp(500))
+        code, _, out, _ = _live(sp, net)
+        assert code == 1 and "[診斷] HTTP 500 dl.example.net:8443/bucket/x.json" in out and "USERINFOSECRET" not in out + str(net.posts)
+        assert "QUERYSECRET" not in out and "dluser" not in out
+        net = FakeNet(api=Resp(200, json_body={"url": url, "lastUpdate": "x"}))  # 成功路徑那行「下載主機」也一樣
+        code, _, out, _ = _live(sp, net, dry_run=True)
+        assert "下載主機 dl.example.net:8443（與 API 不同主機" in out and "USERINFOSECRET" not in out
+    sp_ = lba.urlsplit("https://u:p@Host.Example.com/a?b=1")
+    assert lba.host_label(sp_) == "host.example.com" and lba.diag_line(404, "https://u:p@h.io/a/b?x=1") == "[診斷] HTTP 404 h.io/a/b"
+
+
+def _export_body(jobs, extra=None):
+    return json.dumps({"jobs": jobs} | (extra or {})).encode()
+
+
+def test_unrecognised_export_structure_fails_loudly_with_key_names_only():
+    secret_value = "VALUESECRET_must_not_be_logged"
+    # 真實 API 若把日期包成 {"$date": ...}、欄位改名，舊程式會「資料不全 3、候選 0」然後 exit 0
+    jobs = [{"identifier": {"id": f"id{i}", "partner_job_id": secret_value}, "offer": {"title": secret_value, "publication": {"creation": {"$date": "2026-10-18T00:00:00Z"}}},
+             "apply": {"url": "https://x.example/" + secret_value}, "newfield": [1], "workplace": {"name": secret_value}} for i in range(3)]
+    d, sp = _tmp()
+    with d:
+        code, texts, out, net = _live(sp, FakeNet(download=Resp(200, body=_export_body(jobs, {"recruiters": []}))))
+        assert code == 1 and not sp.exists()
+        assert len(texts) == 1 and "欄位結構" in texts[0] and "[診斷]" in texts[0]
+        diag = [ln for ln in out.splitlines() if ln.startswith("[診斷] 結構")]
+        assert len(diag) == 1
+        assert "最外層鍵=['jobs', 'recruiters']" in diag[0]
+        assert "identifier{id,partner_job_id}" in diag[0] and "offer{title,publication}" in diag[0] and "newfield[]" in diag[0]
+        assert "workplace{name}" in diag[0] and "apply{url}" in diag[0]
+        for leak in (secret_value, "PRESIGNSECRET", SENTINEL, "2026-10-18"):
+            assert leak not in out + "".join(texts), leak
+        # dry-run：一樣 exit 1、印診斷，但不送 Telegram
+        code, texts, out, net = _run(_args(no_llm=True, dry_run=True), sp, env={"LBA_API_KEY": SENTINEL}, net=FakeNet(download=Resp(200, body=_export_body(jobs))))
+        assert code == 1 and net.posts == [] and "[診斷] 結構" in out
+        # 空的、只有企業名單、最外層是陣列：同樣要報
+        for body, want in ((b"[]", "最外層=陣列"), (b'[{"a": {"b": 1}}]', "a{b}"), (_export_body([], {"recruiters": [{"x": 1}]}), "最外層鍵=['jobs', 'recruiters']"),
+                           (_export_body([{"identifier": {"partner_label": "recruteurs_lba", "id": "r1"}}] * 3), "identifier{partner_label,id}")):
+            code, texts, out, _ = _live(sp, FakeNet(download=Resp(200, body=body)))
+            assert code == 1 and len(texts) == 1 and want in out, (body, out)
+
+
+def test_malformed_ratio_threshold_is_90_percent_of_non_recruiters():
+    good = json.loads(EXPORT)["jobs"][0]
+    bad = {"identifier": {"id": "bad"}, "offer": {"title": "x"}}
+    recruiter = {"identifier": {"id": "r", "partner_label": "recruteurs_lba"}}
+    d, sp = _tmp()
+    with d:
+        # 10 筆裡 8 筆壞（80%）：不到門檻，照常處理
+        code, texts, out, _ = _live(sp, FakeNet(download=Resp(200, body=_export_body([good] + [dict(bad, identifier={"id": f"b{i}"}) for i in range(8)] + [good | {"identifier": {"id": "g2"}}]))))
+        assert code == 0 and "資料不全 8" in out
+        # 9 筆壞（90%）：報錯；企業名單不計入分母，也不算資料不全
+        jobs = [good] + [dict(bad, identifier={"id": f"b{i}"}) for i in range(9)] + [recruiter] * 5
+        code, texts, out, _ = _live(sp, FakeNet(download=Resp(200, body=_export_body(jobs))))
+        assert code == 1 and "10 筆中 9" not in out and "15 筆中 9 筆讀不出必要欄位（企業名單 5 筆不計）" in out
+        # 企業名單很多、職缺本身都正常：不報錯
+        code, _, out, _ = _live(sp, FakeNet(download=Resp(200, body=_export_body([good] + [recruiter] * 50))))
+        assert code == 0 and "企業名單" not in out.split("匯出結構異常")[0]
+
+
 # --- 設定、狀態、workflow -------------------------------------------------------
 
 def test_config_inherits_jobteaser_keywords_and_scoring_text():
@@ -403,11 +543,16 @@ def test_state_default_and_committed_file():
 
 def test_workflow_references_only_known_secrets_and_inputs():
     wf = (ROOT / ".github" / "workflows" / "lba-monitor.yml").read_text(encoding="utf-8")
+    code = "\n".join(ln for ln in wf.splitlines() if not ln.lstrip().startswith("#"))
     assert set(re.findall(r"secrets\.([A-Z_]+)", wf)) == {"LBA_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "ANTHROPIC_API_KEY"}
-    assert set(re.findall(r"github\.event\.inputs\.([a-z_]+)", wf)) == {"max_new"}
-    assert 'cron: "0 7 * * *"' in wf and "workflow_dispatch" in wf and "if: always()" in wf and "[skip ci]" in wf
-    assert wf.index("git commit") < wf.index("git pull --rebase") < wf.index("git push")
-    assert "src/lba_monitor.py" in wf and "data/seen_lba.json" in wf
+    assert set(re.findall(r"github\.event\.inputs\.([a-z_]+)", wf)) == {"max_new", "dry_run"}
+    assert "workflow_dispatch" in code and "schedule" not in code and "cron" not in code  # 第一次真實 dry-run 驗證前不排程
+    assert re.search(r"dry_run:\s*\n(?:\s+.*\n)*?\s+type: boolean\n(?:\s+.*\n)*?\s+default: true", wf)
+    assert "--dry-run" in wf and "[skip ci]" in wf and "src/lba_monitor.py" in wf and "data/seen_lba.json" in wf
+    persist = wf[wf.index("Persist seen offers"):]
+    assert "if: always() && github.event.inputs.dry_run != 'true'" in persist  # dry-run 不 commit
+    assert persist.index("git commit") < persist.index("git pull --rebase") < persist.index("git push")
+    assert re.search(r"for \w+ in 1 2 3; do", persist) and "exit 1" in persist  # push 最多試 3 次
 
 
 def main() -> None:

@@ -489,10 +489,11 @@ D 流利以上，D 不推），再由 Claude 翻成繁中、摘要並依 Grace �
 
 ## La Bonne Alternance 職缺推播（官方 API）
 
-每天 07:00 UTC（GitHub Actions）從官方 La Bonne Alternance（LBA，`api.apprentissage.beta.gouv.fr`）下載**全部 alternance 職缺匯出檔**
+（GitHub Actions；**目前只有手動觸發**，第一次真實 dry-run 驗證後再加回每天 07:00 UTC 的 cron）從官方 La Bonne Alternance（LBA，`api.apprentissage.beta.gouv.fr`）下載**全部 alternance 職缺匯出檔**
 （一輪只呼叫一次 export、網站每天巴黎 03:00 更新），在本機篩出**最近 7 天新發布、尚未過期**的職缺：
-關鍵字粗篩（沿用 `jobteaser_config.json` 的中英法關鍵字與 persona／rubric，另有幾個法文補充字；負面字只看標題）、
-規則式判定法文要求（A／B／C／D，D 不推）、Paris／Île-de-France（75、77、78、91、92、93、94、95）與 Gironde（33）排序加權、
+關鍵字粗篩（沿用 `jobteaser_config.json` 的中英法關鍵字與 persona／rubric，另有幾個法文補充字；**標題有正面字，或內文有 ≥2 個不同的正面字才保留**，
+`transformation`、`lean` 只看標題；負面字只看標題；`offer.status` 不是 Active 的略過）、
+規則式判定法文要求（A／B／C／D，D 不推；逐子句判斷，bilingue／langue maternelle 要在 français／French 附近才算）、Paris／Île-de-France（75、77、78、91、92、93、94、95）與 Gironde（33）排序加權、
 其他地區不排除。有 `ANTHROPIC_API_KEY` 就由 Claude 打 0-100 分：**≥70 即時推**、**60–69 合併成一則摘要**、<60 只記錄；
 沒有就只送**一則**未評分摘要（標題、公司、城市、法文等級、連結）。訊息一律顯示法文要求等級。這個來源**只有 alternance，沒有 stage**。
 
@@ -501,6 +502,8 @@ D 流利以上，D 不推），再由 Claude 翻成繁中、摘要並依 Grace �
 - **設進 GitHub secret**（先把 key 複製到剪貼簿，這樣不會留在 shell history 也不會顯示在畫面上）：
   `pbpaste | gh secret set LBA_API_KEY --repo Gracie666-tung/grace_agent`
 - **其他 Secrets**：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`、`ANTHROPIC_API_KEY`（可選）。
+- **第一次上線**：Actions → lba-monitor → Run workflow，`dry_run` 預設勾選（只印出、不推播、不 commit）；確認 log 的統計行與訊息正確再取消勾選。
+  若匯出檔結構和預期不同會 exit 1，並在 log 印一行 `[診斷] 結構`（只有欄位名稱）＋推一則 Telegram 提醒。
 - **本機試跑**：`read -s LBA_API_KEY; export LBA_API_KEY`（貼上後按 Enter；跑完 `unset LBA_API_KEY`），再
   `python src/lba_monitor.py --dry-run`（只印出，不推播、不寫狀態；`--max-new N` 限制本輪處理數量；`--no-llm` 不呼叫 Claude）。
   離線：`python src/lba_monitor.py --dry-run --fixture-dir tests/fixtures/lba`；測試 `python -m pytest tests/test_lba_monitor.py -q`。
