@@ -2024,6 +2024,11 @@
   "title": "S&P500: Hot CPI Puts Long-Term Yields Back in Control - FXEmpire",
   "ts": "2026-10-15T00:14:20.940099+00:00"
  },
+ "05844d8c90c46fa8": {
+  "ticker": "NFLX",
+  "title": "EXCLUSIVE: Agot Isidro on Playing Rebecca in Netflix’s Balaraw - MEGA Magazine",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
+ },
  "0587c956afdba934": {
   "ticker": "NFLX",
   "title": "3 Best New Netflix Movies to Watch This Weekend (October 16-18): ‘Red Dragon’ and More - Us Weekly",
@@ -6568,6 +6573,11 @@
   "ticker": "SNDK",
   "title": "Sandisk Stock Could Be Worth $4,128 in the Next Year - The Globe and Mail",
   "ts": "2026-10-16T08:46:52.336275+00:00"
+ },
+ "12851fec9cacd89a": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab (NASDAQ:RKLB) Given Buy Rating at TD Cowen - MarketBeat",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "1285c867696bdfbf": {
   "ticker": "NVDA",
@@ -11439,6 +11449,11 @@
   "title": "Supermicro Appoints Mark Long as Chief Financial Officer - GuruFocus",
   "ts": "2026-10-15T16:09:50.642493+00:00"
  },
+ "1fabdbceb29d12b6": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Manufacturing's (TSM) \"Buy\" Rating Reiterated at DA Davidson - MarketBeat",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
+ },
  "1fac94b3c52ff147": {
   "ticker": "NFLX",
   "title": "Netflix appoints Peter Rice as chief content officer, replaces Bela Bajaria amid 1,000 job cuts - Fortune India",
@@ -16003,6 +16018,11 @@
   "ticker": "PLTR",
   "title": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir Launch AI Firm As AeroVironment Strike Four Intern",
   "ts": "2026-10-17T04:30:47.135445+00:00"
+ },
+ "2c85f7186be25704": {
+  "ticker": "SPCX",
+  "title": "Elon Musk says 73 million US kids could get a SpaceX share: 'This will be the first of many' - The Cool Down",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "2c90150ded5f68fb": {
   "ticker": "HAG",
@@ -26074,6 +26094,11 @@
   "title": "Nasdaq 100 selloff has a twist we haven't seen this year - FOREX.com",
   "ts": "2026-10-15T10:42:31.714689+00:00"
  },
+ "49998e9d9dbbf41a": {
+  "ticker": "SPCX",
+  "title": "Elon Musk pledges to gift SpaceX share to every child in America - Howl.link",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
+ },
  "499dba9fc9556a03": {
   "ticker": "NVDA",
   "title": "NVIDIA DLSS Ray Reconstruction Now Works On AMD Radeon GPUs Through New Mod, Alongside DLSS SR 4.5, MFG & DLSS 5 - Wccft",
@@ -27823,6 +27848,11 @@
   "ticker": "MACRO",
   "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared - CBS News",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "4e657e703db16df7": {
+  "ticker": "MACRO",
+  "title": "Global Market: Japan's Nikkei falls as higher yields, inflation fears weigh - The Economic Times",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "4e65d72fb0a3206f": {
   "ticker": "NFLX",
@@ -31383,6 +31413,11 @@
   "ticker": "TSLA",
   "title": "Here’s How Much Tesla Stock Is Expected to Move After Earnings - Investopedia",
   "ts": "2026-10-19T20:04:14.877714+00:00"
+ },
+ "57dd1d27c34d2c3a": {
+  "ticker": "NVDA",
+  "title": "Amazon says its AI chips will work with PyTorch coding language, challenges Nvidia - electronics.economictimes.indiatime",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "57dfdf1816a2e286": {
   "ticker": "MACRO",
@@ -66883,6 +66918,11 @@
   "title": "Lumentum (NASDAQ:LITE) Shares Down 5.2% - Here's Why - MarketBeat",
   "ts": "2026-10-16T21:52:12.262584+00:00"
  },
+ "bbd53f68b8c26831": {
+  "ticker": "NVDA",
+  "title": "Amazon unveils tool to challenge Nvidia’s AI chip dominance - Daijiworld",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
+ },
  "bbd6d69d96f31eb6": {
   "ticker": "MACRO",
   "title": "Dow opens 240 pts higher as AI stocks slide and inflation concerns weigh - Invezz",
@@ -67937,6 +67977,11 @@
   "ticker": "MACRO",
   "title": "Tech stock lead rout after US inflation fuels rate hike bets - Yahoo Finance",
   "ts": "2026-10-15T03:26:36.570604+00:00"
+ },
+ "beb717ed391c0f51": {
+  "ticker": "NVDA",
+  "title": "Chip Stocks Just Had Their Longest Losing Streak Since 2008. Should You Buy Nvidia Stock Now? - The Motley Fool",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "bebcf6d6644ac4b5": {
   "ticker": "CORT",
@@ -74192,6 +74237,11 @@
   "ticker": "SMMT",
   "title": "Summit Therapeutics Announces Opening of Global Phase II Study of Ivonescimab-Based Regimens in Advanced Clear Cell Rena",
   "ts": "2026-10-19T11:07:06.188939+00:00"
+ },
+ "d0452328b36a2f9b": {
+  "ticker": "MACRO",
+  "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street - Newsday",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "d045c2bf53bfc889": {
   "ticker": "NFLX",
@@ -87587,6 +87637,11 @@
   "ticker": "MACRO",
   "title": "Ukraine resumes strikes on Russian refineries as Zelenskiy says 'we're done' - Aaj English TV",
   "ts": "2026-10-15T08:57:22.249264+00:00"
+ },
+ "f6bad673ae3e1aaf": {
+  "ticker": "MU",
+  "title": "Micron union in Taiwan to launch strike as bonus dispute escalates - The Edge Malaysia",
+  "ts": "2026-10-20T03:31:16.051225+00:00"
  },
  "f6bee988779d48be": {
   "ticker": "NFLX",
