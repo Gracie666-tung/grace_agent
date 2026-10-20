@@ -1,7 +1,7 @@
 {
   "inherit_from": "jobteaser_config.json",
   "recent_days": 7,
-  "max_export_mb": 400,
+  "max_export_mb": 800,
   "max_new_per_run": 30,
   "max_messages_per_run": 10,
   "state_retention_days": 30,
