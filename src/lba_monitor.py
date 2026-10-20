@@ -156,6 +156,9 @@ def fetch_export(api_key: str, dest, max_bytes: int) -> dict:
             if dl.status_code in RATE_LIMIT_STATUSES:
                 raise RateLimited
             raise ExportError(f"下載匯出檔回 HTTP {dl.status_code}")
+        clen = (dl.headers or {}).get("Content-Length")
+        print(f"下載檔 Content-Length={int(clen) / (1 << 20):.1f} MB；Content-Encoding={(dl.headers or {}).get('Content-Encoding', '-')}"
+              if clen and clen.isdigit() else "下載檔未提供 Content-Length")
         total = 0
         try:
             for chunk in dl.iter_content(chunk_size=1 << 20):
