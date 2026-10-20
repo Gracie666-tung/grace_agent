@@ -1,0 +1,23 @@
+{
+  "mail_account": "KEDGE",
+  "days": 3,
+  "sync_wait_s": 20,
+  "osascript_timeout_s": 240,
+  "drop_contracts": ["cdi", "cdd"],
+  "max_messages": 6,
+  "message_limit": 3500,
+  "state_retention_days": 90,
+  "extra_title_keywords": [
+    "analyst",
+    "analyste",
+    "operations",
+    "project",
+    "projet",
+    "planner",
+    "planificateur",
+    "buyer",
+    "acheteur",
+    "approvisionneur",
+    "data"
+  ]
+}

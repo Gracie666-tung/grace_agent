@@ -515,3 +515,48 @@ D 流利以上，D 不推），再由 Claude 翻成繁中、摘要並依 Grace �
 - **安全**：key 只放在對 API 主機的 `Authorization` 標頭；匯出檔下載連結是預簽名連結，**不帶 key**、不跟轉址；key 不會寫入狀態檔、log 或 Telegram。
 - 已知限制：export 回應與匯出檔的結構是依 swagger 文件寫的，**尚未用真實 key 驗證**（解析兩種外層結構都吃，解析不到任何職缺會 exit 1）；
   匯出檔大小未知（超過 `max_export_mb` 會中止）；沒有建立日期的職缺會被略過；描述全是法文，法文等級是關鍵字規則，沒寫等級的標 N 而不是 D；分數是 AI 的估計。
+
+## KEDGE JobTeaser 通知信 → Telegram（Mac 本機）
+
+JobTeaser 網站有 Cloudflare、不能爬；但它每天會寄一封「Il y a plus de 10 offres correspondant à vos critères」提醒信（約 10 張職缺卡片）。
+這個工具**只讀 Apple Mail 裡的那封信**，解析卡片、整理成 Telegram 摘要。**完全不連 jobteaser.com、不跟信裡的追蹤連結**，連結只是原樣放進訊息讓你自己點。
+只跑在你的 Mac 上（`src/jobteaser_mail_digest.py`，用 `osascript` 讀 Mail），不進 GitHub Actions。
+
+- **前提**：學校信箱已加進「郵件」App，帳號名稱就是 **KEDGE**（要改名稱改 `jobteaser_mail_config.json` 的 `mail_account`）；JobTeaser 的職缺提醒信已開啟；
+  `pip3 install requests`（唯一的 Python 依賴）；已有 Telegram bot token 與你的 chat id。
+- **做什麼**：找 INBOX（沒有就找 Inbox）裡寄件者含 `jobteaser`、主旨含 `offres correspondant`、最近 3 天的信（其他 JobTeaser 信，例如 évènements，一律忽略）→
+  解析卡片（公司、標題、合約、城市、連結）→ **丟掉 CDI／CDD**，Stage／Alternance／VIE／Graduate／其他合約都留 →
+  標題符合 `jobteaser_config.json` 的正面關鍵字（中英法，另加 `analyst`、`operations`、`project`… 等標題用字）的標 ✅ 排前面，**沒有關鍵字的也不會丟**（標題訊息太少、你的 JobTeaser 提醒本來就先篩過類別）→ 推 Telegram。
+  信裡看不出法文要求，所以**不顯示法文等級**。沒有新職缺就什麼都不送。
+- **去重**：用 `sha1(公司｜標題｜城市)` 去重，不看連結（連結是你個人的、天天不同）；信內重複卡片、跨天重複都只推一次。
+  狀態檔 `~/Library/Application Support/jobteaser-mail/seen.json` 只存雜湊與日期（不存連結），保留 90 天，**Telegram 送成功才寫**。
+- **訊息**：每則 `✅ 標題 — 公司 · 城市 · 合約` 加「查看職缺」連結；連結約 1500 字元，所以每則訊息只塞約 2 個職缺（上限 3500 字元），
+  每次最多 6 則（`max_messages`），超出的不標記已見、下次補送。訊息開頭註明「僅標題層級、來自 JobTeaser 提醒信」。
+
+### 安裝（約 5 分鐘）
+
+1. `scripts/install_jobteaser_mail.sh`：
+   - 問 Telegram **token**（`security` 自己在終端機隱藏輸入，不會出現在指令列或 shell history）和 chat id，存進 macOS Keychain（服務名 `jobteaser-mail-telegram-token`／`-chat`）；
+   - 寫 `~/Library/LaunchAgents/com.grace.jobteaser-mail.plist`，**每天 09:30（本地時間）**用絕對路徑的 `python3` 跑一次（無 RunAtLoad），log 在 `~/Library/Logs/jobteaser-mail.log`；
+   - 用 `launchctl bootstrap gui/$UID` 載入。
+   想先看會做什麼：`DRY_RUN=1 scripts/install_jobteaser_mail.sh`；只看 plist：`scripts/install_jobteaser_mail.sh --print-plist`。
+2. **macOS 自動化授權**：第一次讀 Mail 時 macOS 會跳「『Terminal』想要控制『郵件』」，按「好」。沒跳或按錯：系統設定 → 隱私權與安全性 → **自動化** → 打開對應程式底下的「郵件」。
+   排程（launchd）在背景跑，授權對象可能是 `python3` 而不是 Terminal，所以安裝後再執行一次 `launchctl kickstart gui/$(id -u)/com.grace.jobteaser-mail` 並看 log。
+3. **測試**：`python3 src/jobteaser_mail_digest.py --dry-run`（讀真的 Mail，只印出、不推播、不寫狀態；連結預設遮蔽，`--show-urls` 才顯示）。
+   離線：`python3 src/jobteaser_mail_digest.py --dry-run --fixture-dir tests/fixtures/jobteaser_mail`（捏造資料）；單元測試 `python3 -m pytest tests/test_jobteaser_mail_digest.py -q`。
+   其他旗標：`--days N`、`--no-sync`（不先叫 Mail 收信；預設會先 `check for new mail` 再等 20 秒）、`--state-path`。
+4. **解除安裝**：`scripts/uninstall_jobteaser_mail.sh`（卸載排程、刪 plist、刪 Keychain 兩筆；去重狀態預設保留，加 `--purge` 才刪）。
+
+### 失敗時
+
+- 讀不到 Mail（沒授權 `-1743`／找不到帳號 `-1728`／逾時／其他）：log 印一行診斷（只有類別與錯誤碼），**每天最多推一則** Telegram 提醒（教你去開自動化授權），exit 1。
+- 沒有新職缺：不推播，exit 0。Telegram 傳送失敗：exit 1、不寫狀態，下次重試。診斷訊息只印例外型別，不會出現 token 或追蹤連結。
+
+### 誠實的限制
+
+- **Mac 必須開著、醒著**：排程在睡眠中錯過，醒來後 launchd 會補跑；整天關機就漏掉那天（信還在 Mail，隔天只要在 3 天視窗內就會補到）。
+- **「郵件」要能同步**：工具會叫 Mail 收信（會把 Mail 開起來），但學校信箱帳號要是連線正常的；信沒進 Mail 就讀不到。
+- **只有標題層級**：沒有 JD 全文、沒有開始日期、沒有法文要求；✅ 只是標題關鍵字比對，不是適合度評分。
+- **追蹤連結是你個人的**：別把訊息轉給別人，也不要貼到公開地方；本工具不存它們、不寫進 log。
+- 解析依賴 JobTeaser 提醒信目前的版面（卡片是「公司／標題／合約 - 城市 (國家)」的連結）；版面改了就解析不到卡片：找到通知信卻 0 張卡片時，視同失敗（每天最多一則 Telegram 提醒、exit 1）。
+- AppleScript 與 Keychain 的行為只在寫作時依文件與 `osacompile` 編譯檢查，**沒有在真實信箱／真實授權下端到端跑過**，第一次請先用 `--dry-run` 驗證。
