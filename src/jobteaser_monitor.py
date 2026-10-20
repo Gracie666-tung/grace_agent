@@ -240,6 +240,22 @@ def check_list_html(page_html: str, links: list) -> None:
         raise CookieExpired
 
 
+def diag_line(resp) -> str:
+    """被擋時留一行診斷到 log：只含狀態碼、路徑（不含 query）、Server／cf-ray 標頭與頁面 <title>；絕不含 cookie。
+    任何屬性取不到都不能讓診斷本身出錯。"""
+    try:
+        def short(u: str) -> str:
+            sp = urlsplit(u)
+            return f"{sp.netloc}{sp.path}"
+        hdr = getattr(resp, "headers", None) or {}
+        m = re.search(r"(?is)<title[^>]*>(.*?)</title>", getattr(resp, "text", "") or "")
+        title = re.sub(r"\s+", " ", m.group(1)).strip()[:80] if m else "-"
+        return (f"[診斷] HTTP {resp.status_code} {short(getattr(resp, 'url', '') or '')} → {short(hdr.get('Location') or '-')}"
+                f"｜server={hdr.get('Server', '-')}｜cf-ray={'有' if hdr.get('CF-RAY') else '無'}｜title={title}")
+    except Exception as e:  # noqa: BLE001
+        return f"[診斷] 無法產生（{type(e).__name__}）"
+
+
 class LiveSource:
     def __init__(self, cookie: str, cfg: dict):
         self.cookie, self.cfg = cookie, cfg
@@ -259,10 +275,12 @@ class LiveSource:
             if resp.status_code == 429:
                 raise RateLimited
             if resp.status_code in (401, 403) or SIGN_IN in resp.url:
+                print(diag_line(resp))
                 raise CookieExpired(resp.status_code)
             if resp.status_code in (301, 302, 303, 307, 308):
                 target = urljoin(url, resp.headers.get("Location") or "")
                 if SIGN_IN in target or urlsplit(target)[:2] != origin:
+                    print(diag_line(resp))
                     raise CookieExpired(resp.status_code)
                 url = target
                 continue
