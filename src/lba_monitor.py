@@ -350,8 +350,8 @@ def city_dept(address: str) -> tuple[str, str]:
     return (re.sub(r"\s+", " ", m.group(2)).strip().title(), m.group(1)[:2]) if m else ("", "")
 
 
-def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]:
-    """回傳 (job, 原因)：job 為 None 時原因是 malformed／old／expired／inactive。先做便宜的檢查再做文字處理。"""
+def parse_offer(raw, now: datetime, recent_days: int, min_start: datetime | None = None) -> tuple[dict | None, str]:
+    """回傳 (job, 原因)：job 為 None 時原因是 malformed／old／expired／inactive／early。先做便宜的檢查再做文字處理。"""
     if not isinstance(raw, dict):
         return None, "malformed"
     oid, title = offer_id(raw), _g(raw, "offer", "title")
@@ -376,6 +376,8 @@ def parse_offer(raw, now: datetime, recent_days: int) -> tuple[dict | None, str]
     address = address if isinstance(address, str) else ""
     city, dept = city_dept(address)
     start = parse_ts(_g(raw, "contract", "start"))
+    if min_start is not None and start is not None and start < min_start:
+        return None, "early"  # 開始日太早、Grace 來不及；沒寫開始日的照留
     ctypes = _g(raw, "contract", "type")
     ctypes = ", ".join(str(t) for t in ctypes) if isinstance(ctypes, list) else str(ctypes or "")
     desc = _g(raw, "offer", "description")
@@ -576,7 +578,8 @@ def run(args, now: datetime | None = None) -> int:
         # --- 串流篩選：年齡／過期 -> 重複 -> 已見 -> 關鍵字 -> 法文 ----------------
         kw = Keywords(cfg)
         recent = int(cfg.get("recent_days", 7))
-        counts = dict.fromkeys(("total", "recruiter", "malformed", "inactive", "old", "expired", "dup", "seen", "keyword",
+        min_start = parse_ts(cfg.get("min_start_date")) if cfg.get("min_start_date") else None
+        counts = dict.fromkeys(("total", "recruiter", "malformed", "inactive", "old", "expired", "early", "dup", "seen", "keyword",
                                 "french_d"), 0)
         ids: set[str] = set()
         kept: list[tuple[int, datetime, dict]] = []
@@ -588,7 +591,7 @@ def run(args, now: datetime | None = None) -> int:
                 if is_recruiter(raw):  # 沒有職缺的企業名單（candidature spontanée 用），不是職缺也不算資料不全
                     counts["recruiter"] += 1
                     continue
-                job, why = parse_offer(raw, now, recent)
+                job, why = parse_offer(raw, now, recent, min_start)
                 if job is None:
                     counts[why] += 1
                     continue
@@ -624,7 +627,7 @@ def run(args, now: datetime | None = None) -> int:
     kept.sort(key=lambda t: (-t[0], -t[1].timestamp()))  # 排序分高者先；同分較新者先
     max_new = args.max_new if args.max_new is not None else int(cfg.get("max_new_per_run", 30))
     cands = [j for _, _, j in kept[:max_new]]
-    print(f"匯出 {counts['total']} 筆：資料不全 {counts['malformed']}、超過 {recent} 天 {counts['old']}、已過期 {counts['expired']}、"
+    print(f"匯出 {counts['total']} 筆：資料不全 {counts['malformed']}、超過 {recent} 天 {counts['old']}、已過期 {counts['expired']}、開始太早 {counts['early']}、"
           f"匯出內重複 {counts['dup']}、已見 {counts['seen']}、關鍵字丟棄 {counts['keyword']}、法文 D {counts['french_d']}；"
           f"候選 {len(kept)}、本輪處理 {len(cands)}（其餘留待下輪）")
 

@@ -186,7 +186,7 @@ def test_fixture_end_to_end_paths_state_and_messages():
     with d:
         code, texts, out, _ = _fixture_run(sp)
         assert code == 0
-        assert "匯出 12 筆：資料不全 1、超過 7 天 1、已過期 1、匯出內重複 1、已見 0、關鍵字丟棄 2、法文 D 1" in out
+        assert "匯出 12 筆：資料不全 1、超過 7 天 1、已過期 1、開始太早 0、匯出內重複 1、已見 0、關鍵字丟棄 2、法文 D 1" in out
         allmsg = "\n".join(texts)
         assert "Supply Chain Analyst" in allmsg and "PMO" in allmsg and "管理控制" in allmsg
         for dropped in ("Community manager", "boulanger", "Acheteur junior", "doublon", "Chef de projet industriel"):
@@ -565,3 +565,20 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def test_min_start_date_drops_early_starts_but_keeps_unknown():
+    jobs = json.loads((FIX / "export.json").read_text(encoding="utf-8"))["jobs"]
+    base = next(j for j in jobs if j["offer"]["title"] == "Alternant Supply Chain Analyst (H/F)")
+    min_start = lba.parse_ts("2026-12-01")
+
+    def with_start(v):
+        j = json.loads(json.dumps(base))
+        j["contract"]["start"] = v
+        return j
+    assert lba.parse_offer(with_start("2026-09-01T00:00:00.000Z"), NOW, 7, min_start) == (None, "early")
+    assert lba.parse_offer(with_start("2026-11-30T23:59:59.000Z"), NOW, 7, min_start) == (None, "early")
+    assert lba.parse_offer(with_start("2026-12-01T00:00:00.000Z"), NOW, 7, min_start)[0] is not None  # 邊界：剛好 12/01 保留
+    assert lba.parse_offer(with_start("2027-01-04T00:00:00.000Z"), NOW, 7, min_start)[0] is not None
+    assert lba.parse_offer(with_start(None), NOW, 7, min_start)[0] is not None  # 沒寫開始日：保留
+    assert lba.parse_offer(with_start("2026-09-01T00:00:00.000Z"), NOW, 7)[0] is not None  # 沒設 min_start：不過濾
