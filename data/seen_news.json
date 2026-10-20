@@ -624,6 +624,11 @@
   "title": "Netflix Falls 3% as Peter Rice Takes Over Content After Layoffs; Disney and Spotify Hold Steady - 24/7 Wall St.",
   "ts": "2026-10-16T14:27:43.199718+00:00"
  },
+ "014f5a3b97614a60": {
+  "ticker": "TSLA",
+  "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger - MarketWatch",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "0150266552795a03": {
   "ticker": "MACRO",
   "title": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal - EnergyNow",
@@ -3683,6 +3688,11 @@
   "ticker": "SPCX",
   "title": "Why SpaceX Stock Is Sinking Today - The Globe and Mail",
   "ts": "2026-10-15T16:22:08.196233+00:00"
+ },
+ "082c0223977e0b91": {
+  "ticker": "SPCX",
+  "title": "Elon Musk wants to merge Tesla and SpaceX to create a $5 trillion giant - SMH.com.au",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "082f4b357db06adb": {
   "ticker": "NVDA",
@@ -19904,6 +19914,11 @@
   "title": "Tesla Flying Car vs. NVIDIA & Volvo: Who is Winning? - Brandsynario",
   "ts": "2026-10-16T11:31:18.557812+00:00"
  },
+ "2e692a7e114b53ff": {
+  "ticker": "TSLA",
+  "title": "Musk says backs SpaceX-Tesla merger as rocket firm turns profit - Yahoo Finance",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "2e69492ba1706da6": {
   "ticker": "TSLA",
   "title": "Tesla Rises on a Foundry Agreement With Intel as JPMorgan Upgrades the Stock - Yahoo Finance",
@@ -20323,6 +20338,11 @@
   "ticker": "NVDA",
   "title": "Nvidia standardizes HBM production at TSMC - Techzine Global",
   "ts": "2026-10-20T09:54:13.699998+00:00"
+ },
+ "2f7b4e0774779906": {
+  "ticker": "NVDA",
+  "title": "Rumor: NVIDIA RTX 6060 May Be Years Away, and Possibly Slower Than the PS6 - TechPowerUp",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "2f7be59778a4ac92": {
   "ticker": "NVDA",
@@ -32519,6 +32539,11 @@
   "title": "Tesla Shares Gain 3.8% Amid Wall Street Speculation Over SpaceX Combination : Finance : JKN - 재경일보",
   "ts": "2026-10-19T22:36:28.871917+00:00"
  },
+ "4c065c6b1c9ff542": {
+  "ticker": "NFLX",
+  "title": "Netflix reveals layoff costs, ad revenue shortfall - Sports Business Journal",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "4c06fc2fb6d64d64": {
   "ticker": "TSLA",
   "title": "Tesla Stocks Rise Ahead of a $323 Million Gross-Profit Forecast Gap - GuruFocus",
@@ -34983,6 +35008,11 @@
   "ticker": "MACRO",
   "title": "[MARKET UPDATE] Crude benchmarks lift to session highs, gains of c. USD 2.00/bbl for WTI and Brent, to the continued det",
   "ts": "2026-10-16T18:27:05.886296+00:00"
+ },
+ "51a2892ef4ec786f": {
+  "ticker": "NFLX",
+  "title": "Netflix Q3 Revenue Meets Wall Street Estimates, Q4 Earnings Will Be Crimped by Costs Associated With Mass Layoffs - IMDb",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "51a3422914af5f36": {
   "ticker": "MACRO",
@@ -49889,6 +49919,11 @@
   "title": "Netflix’s Wednesday season 3 to arrive soon? Check release timeline, plot and other details we know - Digit",
   "ts": "2026-10-15T02:57:40.089492+00:00"
  },
+ "73c62f623c716082": {
+  "ticker": "SMCI",
+  "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally - MarketWatch",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "73c9c1396d1b2324": {
   "ticker": "NFLX",
   "title": "Netflix names Peter Rice as Chief Content Officer - IBC.org",
@@ -54413,6 +54448,11 @@
   "ticker": "SPCX",
   "title": "Elon Musk outlines SpaceX share giveaway for children across the U.S. - Traders Union",
   "ts": "2026-10-19T08:54:31.103855+00:00"
+ },
+ "7ee0619c6f33b76c": {
+  "ticker": "MU",
+  "title": "CWI students compete for Micron jobs as semiconductor giant expands in Boise, adding thousands of positions - KIVI-TV",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "7ee5ffd149f5737e": {
   "ticker": "NVDA",
@@ -60609,6 +60649,11 @@
   "title": "Cantor Backs Rocket Lab’s Launch Momentum After 97th Electron Mission – Highlights These ‘Competitive Advantages’ - Stoc",
   "ts": "2026-10-19T10:49:12.539527+00:00"
  },
+ "8cebc742d036ea20": {
+  "ticker": "NFLX",
+  "title": "Netflix co-CEO Sarandos says 'we could do better' after weak forecast - The Lufkin Daily News",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "8cee465140de5018": {
   "ticker": "IBKR",
   "title": "Interactive Brokers raises dividend to USD 0.15 for Interactive Brokers stock - ad-hoc-news.de",
@@ -61663,6 +61708,11 @@
   "ticker": "NFLX",
   "title": "Netflix lays off 6% of its workforce worldwide - Plataforma Media",
   "ts": "2026-10-15T13:06:32.123911+00:00"
+ },
+ "8f7cf2807948cb2b": {
+  "ticker": "NET",
+  "title": "Cloudflare and OpenAI: Making AI discovery better for everyone - iTWire",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "8f815023c2c0c3a3": {
   "ticker": "NFLX",
@@ -66263,6 +66313,11 @@
   "ticker": "MACRO",
   "title": "Gold ETFs attracted $31 billion: why is bullion still struggling below $4,200 - Invezz",
   "ts": "2026-10-20T08:59:44.425191+00:00"
+ },
+ "9a06b0f56ea8cb54": {
+  "ticker": "SMCI",
+  "title": "AI Stocks Rally After Super Micro Preliminary Sales Bring Relief - Bloomberg.com",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "9a09c9975e7f3ffa": {
   "ticker": "MACRO",
@@ -73792,6 +73847,11 @@
   "ticker": "NFLX",
   "title": "8 new TV shows to watch this weekend on Netflix, Disney, and Paramount Plus (October 16-18) - Polygon.com",
   "ts": "2026-10-16T21:10:01.960650+00:00"
+ },
+ "ac59d40dd98fd161": {
+  "ticker": "TSLA",
+  "title": "SpaceX and Tesla have formed committees to discuss potential merger, Musk says - KVIA",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "ac5a3dbee6965bb5": {
   "ticker": "AAPL",
@@ -84482,6 +84542,11 @@
   "ticker": "NFLX",
   "title": "Netflix schedules third-quarter results. Netflix stock falls 4.76 percent - ad-hoc-news.de",
   "ts": "2026-10-19T07:48:47.768524+00:00"
+ },
+ "c50ee2471a316c40": {
+  "ticker": "NVDA",
+  "title": "Reflex Aerospace Secures Nvidia Investment - Via Satellite",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "c50f7d9b12731d03": {
   "ticker": "MACRO",
@@ -98083,6 +98148,11 @@
   "title": "NVIDIA RTX Spark With 128GB Memory Challenges Apple - NoobFeed",
   "ts": "2026-10-19T17:19:06.890671+00:00"
  },
+ "e4c425482fee205a": {
+  "ticker": "NFLX",
+  "title": "Netflix Q3 2026 Earnings: Live Updates of $NFLX Earnings Call, Stock Forecast - Yahoo Finance",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "e4c55348143b7321": {
   "ticker": "TSLA",
   "title": "Flying cars: Tesla's new Roadster uses SpaceX thrusters to turn in the air, can drive upside down - The Jerusalem Post",
@@ -100273,6 +100343,11 @@
   "title": "Here’s why the crypto market is going down today (Oct. 15) - Invezz",
   "ts": "2026-10-15T13:24:39.820229+00:00"
  },
+ "ea02bbbc123d13c8": {
+  "ticker": "MACRO",
+  "title": "【澳洲联储官员称紧缩政策正抑制经济，但通胀前景恶化】金十数据10月21日讯，澳洲联储副主席豪泽周三表示，紧缩性货币政策正在发挥作用，减缓经济增长，但通胀前景仍有所恶化，因此他尚不确定是否有必要进一步加息。豪瑟在花旗集团的一场会议上表示，央行",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "ea042f83c08d2d7e": {
   "ticker": "MACRO",
   "title": "Bond Yield Surge Points to Prolonged High-Rate Era - 조선일보",
@@ -102052,6 +102127,11 @@
   "ticker": "SPCX",
   "title": "Elon Musk says he will give SpaceX share to ‘every kid in America' - WEAU",
   "ts": "2026-10-20T11:13:15.515748+00:00"
+ },
+ "ee499ef8035f5b77": {
+  "ticker": "MACRO",
+  "title": "BOK Financial (BOKF) Q3 2026 Earnings Call Transcript - The Globe and Mail",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "ee4dd6c3780b2b20": {
   "ticker": "GOOGL",
@@ -107933,6 +108013,11 @@
   "title": "Nvidia's Rate Squeeze: Why the AI Trade Is Now a Financing Story - ad-hoc-news.de",
   "ts": "2026-10-15T12:48:20.138000+00:00"
  },
+ "fc05a76698ffe80c": {
+  "ticker": "SPCX",
+  "title": "SpaceX swings to a “surprise profit” in Q3 as satellite communications and computing rentals thrive - 파이낸셜뉴스",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
+ },
  "fc077fe5cd8f9a4a": {
   "ticker": "TSLA",
   "title": "TSLA Stock Slips — Investors Await Tesla’s Q2 Earnings And Semi Progress - Stocktwits",
@@ -108212,6 +108297,11 @@
   "ticker": "MACRO",
   "title": "September 2026 CPI inflation beats Wall Street forecasts - Quartz",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "fcb0a85782776bb5": {
+  "ticker": "SPCX",
+  "title": "Elon Musk says SpaceX, Tesla have begun exploring merger, but warns deal not guaranteed - The Business Times",
+  "ts": "2026-10-20T22:40:29.243787+00:00"
  },
  "fcb3af70b08a8599": {
   "ticker": "PLTR",
