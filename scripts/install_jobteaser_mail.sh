@@ -29,15 +29,46 @@ xml_escape() {
   printf '%s' "${s}"
 }
 
+# 找一個「Python >= 3.10 且已安裝 requests」的 python3：src/jobteaser_monitor.py 用了 `X | None` 型別寫法，3.9 以下會直接壞掉。
+# 依序試 PATH 上的 python3、Homebrew、/usr/local、系統內建；測試用 JOBTEASER_PYTHON_CANDIDATES（空白分隔）覆蓋清單。
+# 只把選中的絕對路徑印到 stdout；原因與修法印到 stderr。
 find_python() {
-  local p
-  p="$(command -v python3 || true)"
-  if [ -z "${p}" ]; then
-    echo "找不到 python3。請先安裝（例如 xcode-select --install 或 brew install python）。" >&2
-    exit 1
+  local cands c ver why="" first
+  if [ -n "${JOBTEASER_PYTHON_CANDIDATES:-}" ]; then
+    cands="${JOBTEASER_PYTHON_CANDIDATES}"
+  else
+    first="$(command -v python3 || true)"
+    cands="${first} /opt/homebrew/bin/python3 /usr/local/bin/python3 /usr/bin/python3"
   fi
-  # 取實際路徑（排除 shim／symlink），launchd 沒有你的 shell PATH，要用絕對路徑
-  "${p}" -c 'import os, sys; print(os.path.realpath(sys.executable))'
+  # 用 here-string 逐行讀，避免依賴「未加引號的變數會被斷字」（bash 會、zsh 不會）
+  while IFS= read -r c; do
+    [ -n "${c}" ] && [ -x "${c}" ] || continue
+    if ! "${c}" -c 'import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)' 2>/dev/null; then
+      ver="$("${c}" -c 'import sys; print("%d.%d" % sys.version_info[:2])' 2>/dev/null || echo '?')"
+      why="${why}  - ${c}：Python ${ver}，太舊（需要 3.10 以上）\n"
+      continue
+    fi
+    if ! "${c}" -c 'import requests' 2>/dev/null; then
+      why="${why}  - ${c}：版本夠新但沒裝 requests；修法：${c} -m pip install requests\n"
+      continue
+    fi
+    # 取實際路徑（排除 shim／symlink），launchd 沒有你的 shell PATH，要用絕對路徑
+    "${c}" -c 'import os, sys; print(os.path.realpath(sys.executable))'
+    return 0
+  done <<< "$(printf '%s\n' "${cands}" | tr ' ' '\n')"
+  {
+    echo "找不到可用的 Python：需要 3.10 以上，而且已安裝 requests。"
+    if [ -n "${why}" ]; then
+      echo "試過："
+      printf '%b' "${why}"
+    else
+      echo "（這台機器上找不到 python3。）"
+    fi
+    echo "修法（擇一）："
+    echo "  1. brew install python，然後 /opt/homebrew/bin/python3 -m pip install requests，再重跑本腳本"
+    echo "  2. 或到 https://www.python.org/downloads/ 安裝 3.10 以上，再 python3 -m pip install requests"
+  } >&2
+  return 1
 }
 
 print_plist() {
@@ -98,11 +129,6 @@ fi
 PY="$(find_python)"
 echo "Python：${PY}"
 echo "專案：${REPO}"
-if ! "${PY}" -c 'import requests' 2>/dev/null; then
-  echo "缺少 requests。請先執行：${PY} -m pip install requests   （或 pip3 install requests），再重跑本腳本。" >&2
-  exit 1
-fi
-
 echo
 echo "步驟 1/3：存 Telegram 憑證到 Keychain（-U＝已存在就更新）"
 echo "下面 security 會問 token：輸入時不會顯示，要輸入兩次。"
@@ -130,7 +156,23 @@ echo
 echo "步驟 3/3：載入排程"
 UIDN="$(id -u)"
 runq launchctl bootout "gui/${UIDN}/${LABEL}" || true
-run launchctl bootstrap "gui/${UIDN}" "${PLIST}"
+if [ "${DRY_RUN:-0}" != "1" ]; then
+  # bootout 是非同步的：輪詢到舊的 job 真的消失（最多約 10 秒）再 bootstrap，否則會得到「Input/output error」
+  gone=0
+  for _ in 1 2 3 4 5 6 7 8 9 10; do
+    if ! launchctl print "gui/${UIDN}/${LABEL}" >/dev/null 2>&1; then gone=1; break; fi
+    sleep 1
+  done
+  [ "${gone}" = "1" ] || echo "（舊排程 10 秒後還沒卸載完，仍嘗試載入。）" >&2
+fi
+if ! run launchctl bootstrap "gui/${UIDN}" "${PLIST}"; then
+  echo "bootstrap 第一次失敗，2 秒後重試……" >&2
+  sleep 2
+  if ! run launchctl bootstrap "gui/${UIDN}" "${PLIST}"; then
+    echo "載入排程失敗。plist 已寫好（${PLIST}）；可手動執行：launchctl bootstrap gui/${UIDN} \"${PLIST}\"" >&2
+    exit 1
+  fi
+fi
 
 cat <<MSG
 

@@ -23,13 +23,17 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
+from typing import NamedTuple
 from datetime import datetime, timedelta
 from email import message_from_bytes, policy
 from html.parser import HTMLParser
 from pathlib import Path
 
-from jobteaser_monitor import _cap, _e, kw_regex, norm, save_state, send_telegram
+import requests
+
+from jobteaser_monitor import _cap, _e, kw_regex, norm, send_telegram
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "jobteaser_mail_config.json"
@@ -39,9 +43,11 @@ DEFAULT_STATE_PATH = Path.home() / "Library" / "Application Support" / "jobtease
 KEYCHAIN_TOKEN = "jobteaser-mail-telegram-token"
 KEYCHAIN_CHAT = "jobteaser-mail-telegram-chat"
 SENDER_NEEDLE = "jobteaser"
-SUBJECT_NEEDLE = "offres correspondant"
+SUBJECT_NEEDLES = ("offres correspondant", "vos crit")  # 主旨用字曾經微調過，放寬成其中任一；一律不分大小寫
 BOUNDARY = "=====JTMAIL-MSG-BOUNDARY====="
 TG_HARD_LIMIT = 4096
+SEND_RETRY_DELAYS = (30, 60, 60)  # 網路暫時不通（例如睡眠醒來 Wi-Fi 還沒連上）時的重試間隔，秒
+CONTENT_ERRORS = (400, 413)  # Telegram 拒收「這則內容」；401／403／404 是 token／chat 的問題，不屬於這一類
 
 CONTRACT_LINE = re.compile(r"^(.+?)\s+-\s+(.+?)(?:\s+\((.+)\))?$")
 KNOWN_CONTRACT = re.compile(
@@ -73,7 +79,7 @@ on run argv
       on error
         set mb to mailbox "Inbox" of acct
       end try
-      set msgs to (messages of mb whose sender contains "{sender}" and subject contains "{subject}" and date received > cutoff)
+      set msgs to (messages of mb whose sender contains "{sender}" and (subject contains "{subject1}" or subject contains "{subject2}") and date received > cutoff)
       repeat with m in msgs
         set out to out & delim & (source of m)
       end repeat
@@ -117,6 +123,23 @@ def load_state(path: Path) -> dict:
     seen = data.get("seen")
     seen = {k: v for k, v in seen.items() if isinstance(v, str)} if isinstance(seen, dict) else {}
     return {"seen": seen, "last_alert_date": str(data.get("last_alert_date") or "")}
+
+
+def save_state(path: Path, state: dict) -> None:
+    """原子寫入：同資料夾寫暫存檔再 os.replace，中途被殺掉也不會留下半個 JSON。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
+            f.write("\n")
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def prune_state(state: dict, today: datetime, days: int) -> None:
@@ -203,7 +226,7 @@ def parse_cards(html_text: str) -> list[dict]:
 def is_alert(msg) -> bool:
     sender = str(msg.get("From", "")).casefold()
     subject = str(msg.get("Subject", "")).casefold()
-    return SENDER_NEEDLE in sender and SUBJECT_NEEDLE in subject
+    return SENDER_NEEDLE in sender and any(n in subject for n in SUBJECT_NEEDLES)
 
 
 def parse_message(raw: bytes):
@@ -268,7 +291,7 @@ def sync_mail(wait_s: float) -> None:
 
 
 def read_mail(cfg: dict, days: int) -> list[bytes]:
-    script = APPLESCRIPT.format(boundary=BOUNDARY, sender=SENDER_NEEDLE, subject=SUBJECT_NEEDLE,
+    script = APPLESCRIPT.format(boundary=BOUNDARY, sender=SENDER_NEEDLE, subject1=SUBJECT_NEEDLES[0], subject2=SUBJECT_NEEDLES[1],
                                 timeout=int(cfg["osascript_timeout_s"]))
     out = _osascript(script, [cfg["mail_account"], str(int(days))], int(cfg["osascript_timeout_s"]) + 30)
     parts = [p.strip("\r\n") for p in out.split(BOUNDARY)[1:]]
@@ -283,9 +306,22 @@ def read_fixtures(folder: Path) -> list[bytes]:
 # 篩選與訊息組裝
 # ---------------------------------------------------------------------------
 
-def collect_jobs(raws: list[bytes]) -> tuple[list[dict], list[str]]:
-    """所有通知信的卡片，新信優先；信內與跨信都以 job_hash 去重。回傳 (職缺, 通知信主旨)。"""
-    parsed = [parse_message(r) for r in raws]
+class Collected(NamedTuple):
+    jobs: list          # 去重後的卡片（新信優先）
+    subjects: list      # 成功解析的通知信主旨（新到舊）
+    newest_cards: int   # 最新一封通知信解析出幾張卡片（沒有通知信時為 -1）
+    errors: int         # 解析時丟出例外而被略過的信件數
+
+
+def collect_jobs(raws: list[bytes]) -> Collected:
+    """所有通知信的卡片，新信優先；信內與跨信都以 job_hash 去重。單封信解析失敗（未知字集等）只略過那一封並計數，
+    不往外丟例外（例外文字可能含信件內容，一律不印）。"""
+    parsed, errors = [], 0
+    for r in raws:
+        try:
+            parsed.append(parse_message(r))
+        except Exception:  # noqa: BLE001
+            errors += 1
     msgs = sorted(((m, c) for m, c in parsed if m is not None), key=lambda mc: -msg_sort_key(mc[0]))
     jobs, hashes = [], set()
     for _, cards in msgs:
@@ -294,7 +330,7 @@ def collect_jobs(raws: list[bytes]) -> tuple[list[dict], list[str]]:
             if card["hash"] not in hashes:
                 hashes.add(card["hash"])
                 jobs.append(card)
-    return jobs, [str(m["Subject"]) for m, _ in msgs]
+    return Collected(jobs, [str(m["Subject"]) for m, _ in msgs], len(msgs[0][1]) if msgs else -1, errors)
 
 
 def select_jobs(jobs: list[dict], seen: dict, cfg: dict) -> tuple[list[dict], dict]:
@@ -317,12 +353,15 @@ def select_jobs(jobs: list[dict], seen: dict, cfg: dict) -> tuple[list[dict], di
     return keep, stats
 
 
-def format_entry(job: dict, with_link: bool = True) -> str:
+def format_entry(job: dict, with_link: bool | None = True) -> str:
+    """with_link：True＝連結；False＝「連結過長」註記；None＝完全不放連結行（Telegram 拒收時的退路）。"""
     meta = [x for x in (_cap(job["company"], 60), _cap(job["city"], 40),
                         CONTRACT_LABEL.get(job["kind"]) or _cap(job["contract"], 20)) if x]
     line = f"{'✅' if job['priority'] else '▫️'} <b>{_e(_cap(job['title'], 160))}</b>"
     if meta:
         line += " — " + " · ".join(_e(x) for x in meta)
+    if with_link is None:
+        return line
     link = f'<a href="{_e(job["url"])}">查看職缺</a>' if with_link else "（連結過長，略）"
     return f"{line}\n{link}"
 
@@ -395,6 +434,7 @@ ALERT_TEXT = {
     "notfound": "在 Mail 找不到帳號或收件匣。請確認學校信箱在「郵件」裡的帳號名稱（預設 KEDGE，可改 jobteaser_mail_config.json）。",
     "timeout": "讀取 Mail 逾時。請打開「郵件」App 讓它完成同步後再試。",
     "layout": "找到 JobTeaser 通知信但解析不到任何職缺卡片，可能是信件版面改了。請把這封信的版面回報給維護者。",
+    "parse": "所有 JobTeaser 通知信都解析失敗（例如未知的編碼）。請在 Terminal 執行 python3 src/jobteaser_mail_digest.py --dry-run 看診斷。",
     "other": "讀取 Mail 失敗。請在 Terminal 執行 python3 src/jobteaser_mail_digest.py --dry-run 看診斷。",
 }
 
@@ -423,25 +463,42 @@ def run(args, now: datetime | None = None) -> int:
     where = "離線 fixture" if fixture else "Apple Mail 帳號 %s，最近 %d 天" % (cfg["mail_account"], days)
     print(f"模式：{'dry-run（不推播、不寫狀態）' if args.dry_run else 'Telegram 推播'}；{where}")
 
-    def send(text: str) -> bool:
-        try:
-            send_telegram(token, chat_id, text)
-            return True
-        except Exception as e:  # noqa: BLE001 - requests 例外訊息會回顯含 token 的網址，只印型別
-            print(f"  Telegram 傳送失敗：{type(e).__name__}")
-            return False
+    def send(text: str) -> str:
+        """回傳 "ok"／"content"（Telegram 回 400／413，這則內容被拒）／"fail"（其他）。
+        連線錯誤、逾時、HTTP 429 與 5xx 依 SEND_RETRY_DELAYS 退避重試；例外訊息會回顯含 token 的網址，只印型別與狀態碼。"""
+        for attempt in range(len(SEND_RETRY_DELAYS) + 1):
+            try:
+                send_telegram(token, chat_id, text)
+                return "ok"
+            except Exception as e:  # noqa: BLE001
+                status = getattr(getattr(e, "response", None), "status_code", None)
+                print(f"  Telegram 傳送失敗：{type(e).__name__}" + (f"（HTTP {status}）" if status else ""))
+                if status in CONTENT_ERRORS:
+                    return "content"
+                transient = (isinstance(e, (requests.exceptions.ConnectionError, requests.exceptions.Timeout))
+                             or status == 429 or (status or 0) >= 500)
+                if not transient or attempt == len(SEND_RETRY_DELAYS):
+                    return "fail"
+                print(f"  {SEND_RETRY_DELAYS[attempt]} 秒後重試（{attempt + 1}/{len(SEND_RETRY_DELAYS)}）")
+                time.sleep(SEND_RETRY_DELAYS[attempt])
+        return "fail"
 
-    def fail(kind: str, code: int | None = None) -> int:
-        """一行診斷（只有類別與錯誤碼）＋每天最多一則 Telegram 提醒；一律 exit 1。"""
-        print(f"[錯誤] {'讀取 Apple Mail 失敗' if kind != 'layout' else '解析失敗'}：{kind}"
-              f"{f'，錯誤碼 {code}' if code is not None else ''}。{ALERT_TEXT[kind]}", file=sys.stderr)
+    def alert_once(text: str) -> None:
+        """每天最多一則 Telegram 提醒（旗標存在狀態檔）。dry-run 不送。"""
         if args.dry_run:
             print("  （dry-run：不送 Telegram 警示）")
         elif state["last_alert_date"] == today:
             print("  今天已提醒過，不重複推播。")
-        elif send(f"⚠️ JobTeaser 通知信工具：{_e(ALERT_TEXT[kind])}"):
+        elif send(f"⚠️ JobTeaser 通知信工具：{_e(text)}") == "ok":
             state["last_alert_date"] = today
             save_state(state_path, state)
+
+    def fail(kind: str, code: int | None = None, detail: str = "") -> int:
+        """一行診斷（只有類別與錯誤碼）＋每天最多一則 Telegram 提醒；回傳 1。"""
+        text = ALERT_TEXT[kind] + detail
+        print(f"[錯誤] {'讀取 Apple Mail 失敗' if kind in ('permission', 'notfound', 'timeout', 'other') else '解析失敗'}："
+              f"{kind}{f'，錯誤碼 {code}' if code is not None else ''}。{text}", file=sys.stderr)
+        alert_once(text)
         return 1
 
     try:
@@ -454,31 +511,53 @@ def run(args, now: datetime | None = None) -> int:
     except MailError as e:
         return fail(e.kind, e.code)
 
-    jobs, subjects = collect_jobs(raws)
-    print(f"讀到 {len(raws)} 封信，其中 JobTeaser 通知信 {len(subjects)} 封" + ("：" + "｜".join(subjects) if subjects else ""))
-    if subjects and not jobs:
-        return fail("layout")
+    col = collect_jobs(raws)
+    jobs, subjects = col.jobs, col.subjects
+    print(f"讀到 {len(raws)} 封信，其中 JobTeaser 通知信 {len(subjects)} 封" + ("：" + "｜".join(subjects) if subjects else "")
+          + (f"；{col.errors} 封解析失敗已略過" if col.errors else ""))
+    rc = 0
+    if col.errors and not subjects:
+        return fail("parse", detail=f"（{col.errors} 封解析失敗）")
+    if subjects and col.newest_cards == 0:  # 只看最新那封：舊信有卡片不代表版面沒改
+        rc = fail("layout")
     fresh, st = select_jobs(jobs, state["seen"], cfg)
     print(f"職缺卡片（去重後）{st['cards']} 張：CDI／CDD 略過 {st['dropped_contract']}、已推過 {st['already_seen']}、"
           f"新職缺 {len(fresh)}（✅ {sum(j['priority'] for j in fresh)}）")
     if not fresh:
         print("沒有新職缺，不推播。")
-        return 0
+        return rc
 
+    by_hash = {j["hash"]: j for j in fresh}
     messages, hidden = build_messages(fresh, int(cfg["message_limit"]), int(cfg["max_messages"]))
+    skipped = 0
     for i, (text, hashes) in enumerate(messages, 1):
         if args.dry_run:
             print("-" * 40 + f"\n{text if args.show_urls else mask_urls(text)}\n" + "-" * 40)
             continue
-        if not send(text):
+        res = send(text)
+        if res == "content":  # 這則被 Telegram 拒收：去掉連結再試一次，免得一則壞訊息永遠卡住後面所有的
+            plain = (header(i, len(messages), len(fresh)) + "\n\n"
+                     + "\n\n".join(format_entry(by_hash[h], with_link=None) for h in hashes)
+                     + "\n\n（Telegram 拒收含連結的版本，連結略去；請到「郵件」開原信點選。）")
+            res = send(plain)
+            if res == "ok":
+                print(f"  第 {i}/{len(messages)} 則改用無連結版送出。")
+            elif res == "content":
+                skipped += len(hashes)
+                print(f"  第 {i}/{len(messages)} 則連無連結版也被拒收：略過 {len(hashes)} 個職缺並標記已見。")
+        if res == "fail":
             print(f"  第 {i}/{len(messages)} 則失敗：這則的職缺不標記已見，下次重試。")
             return 1
-        for h in hashes:  # 每則送成功就記，避免後面失敗時前面已送的下次又重送
+        for h in hashes:  # 每則送成功（或確定無法送）就記，避免後面失敗時前面已送的下次又重送
             state["seen"][h] = today
         save_state(state_path, state)
+    if skipped:
+        print(f"[警告] 共 {skipped} 個職缺因 Telegram 拒收（HTTP 4xx）而略過。")
+        alert_once(f"有 {skipped} 個職缺因 Telegram 拒收訊息（HTTP 4xx）而略過、已標記為已見。請到「郵件」查看原信。")
+        return 1
     print(f"完成：{'dry-run 印出' if args.dry_run else '已推播'} {len(messages)} 則訊息"
           + (f"，{hidden} 則留待下次" if hidden else ""))
-    return 0
+    return rc
 
 
 def main() -> None:

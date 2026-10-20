@@ -10,6 +10,7 @@ import io
 import json
 import os
 import plistlib
+import stat
 import re
 import subprocess
 import sys
@@ -27,6 +28,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 import jobteaser_mail_digest as jm  # noqa: E402
 import jobteaser_monitor  # noqa: E402
+import requests  # noqa: E402
 
 NOW = datetime(2026, 10, 20, 9, 30, tzinfo=timezone.utc)
 FIX = ROOT / "tests" / "fixtures" / "jobteaser_mail"
@@ -51,26 +53,36 @@ class Resp:
 
     def raise_for_status(self):
         if self.status_code >= 400:
-            # requests 的真實行為：訊息裡回顯含 token 的網址
-            raise RuntimeError(f"{self.status_code} Server Error for url: https://api.telegram.org/bot{TOKEN}/sendMessage")
+            # requests 的真實行為：訊息裡回顯含 token 的網址，且例外帶 response
+            raise requests.HTTPError(
+                f"{self.status_code} Error for url: https://api.telegram.org/bot{TOKEN}/sendMessage", response=self)
 
 
 class FakeNet:
-    """取代 requests.post：記下每次送出的 (網址, JSON)；fail_on 是要失敗的第幾次呼叫（從 1 算）。"""
+    """取代 requests.post：記下每次送出的 (網址, JSON)。
+    fail_on：要失敗（HTTP 500）的第幾次呼叫（從 1 算）；errors：{第幾次: "conn"／"timeout"／HTTP 狀態碼}。"""
 
-    def __init__(self, fail_on=()):
-        self.posts, self.fail_on = [], set(fail_on)
+    def __init__(self, fail_on=(), errors=None):
+        self.posts, self.fail_on, self.errors = [], set(fail_on), dict(errors or {})
 
     def post(self, url, json=None, **kw):
         self.posts.append((url, json))
-        return Resp(500 if len(self.posts) in self.fail_on else 200)
+        n = len(self.posts)
+        err = self.errors.get(n)
+        if err == "conn":
+            raise requests.ConnectionError(f"Max retries exceeded with url: /bot{TOKEN}/sendMessage")
+        if err == "timeout":
+            raise requests.Timeout(f"Read timed out. url=/bot{TOKEN}/sendMessage")
+        if isinstance(err, int):
+            return Resp(err)
+        return Resp(500 if n in self.fail_on else 200)
 
     @property
     def texts(self):
         return [p["text"] for _, p in self.posts]
 
 
-def _run(args, state_path, env=None, now=NOW, net=None, sp=None):
+def _run(args, state_path, env=None, now=NOW, net=None, sp=None, sleeps=None):
     """回傳 (exit code, FakeNet, stdout+stderr)。Telegram 走真的 send_telegram，只換掉底層 requests.post；
     subprocess.run 一律換掉（預設：任何呼叫都算錯誤），確保測試不會真的叫 osascript／security。"""
     net = net or FakeNet()
@@ -82,7 +94,7 @@ def _run(args, state_path, env=None, now=NOW, net=None, sp=None):
     base.update(env or {})
     out, err = io.StringIO(), io.StringIO()
     with mock.patch.dict(os.environ, base), mock.patch.object(jobteaser_monitor.requests, "post", net.post), \
-            mock.patch.object(jm.subprocess, "run", sp or no_subprocess), mock.patch.object(jm.time, "sleep"), \
+            mock.patch.object(jm.subprocess, "run", sp or no_subprocess), mock.patch.object(jm.time, "sleep", (sleeps.append if sleeps is not None else mock.Mock())), \
             contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
         code = jm.run(args, now=now)
     return code, net, out.getvalue() + err.getvalue()
@@ -99,7 +111,8 @@ def _state(path):
 
 def _fixture_jobs():
     raws = jm.read_fixtures(FIX)
-    return jm.collect_jobs(raws)
+    col = jm.collect_jobs(raws)
+    return col.jobs, col.subjects
 
 
 def _eml(subject=SUBJ, sender=SENDER, html="", when=NOW):
@@ -213,6 +226,17 @@ def test_select_drops_cdi_cdd_and_sorts_priority_first():
     assert prio[0].startswith("Analyste performance") and prio[-1] == "Stage - Fictive Pricing Analyst - H/F"
 
 
+def test_generic_title_words_are_not_priority():
+    assert not {"project", "projet", "operations", "data"} & set(CFG["extra_title_keywords"])
+    pos = jm.kw_regex(CFG["keywords_positive"])
+    for t in ("Project Assistant H/F", "Assistant Opérations", "Data Entry Intern", "Chargé de projet communication"):
+        assert not pos.search(jm.norm(t)), t
+    for t in ("Buyer Intern", "Acheteur junior", "Treasury Analyst", "Chef de projet SI"):
+        assert pos.search(jm.norm(t)), t
+    prio = sum(bool(pos.search(jm.norm(c["title"]))) for c in jm.parse_message((FIX / "alert_2026-10-20.eml").read_bytes())[1])
+    assert prio == 5  # 10 張合成卡片裡有 5 張 ✅
+
+
 def test_select_skips_seen():
     jobs, _ = _fixture_jobs()
     seen = {jobs[0]["hash"]: "2026-10-19"}
@@ -308,9 +332,9 @@ def test_state_retention_prunes_old_hashes():
 def test_telegram_failure_does_not_write_state_and_exits_1():
     d, sp = _tmp()
     with d:
-        code, net, out = _run(_args(), sp, net=FakeNet(fail_on={1}))
-        assert code == 1 and not sp.exists()
-        assert "Telegram 傳送失敗：RuntimeError" in out
+        code, net, out = _run(_args(), sp, net=FakeNet(fail_on={1, 2, 3, 4}))
+        assert code == 1 and not sp.exists() and len(net.posts) == 4  # 5xx 會退避重試 3 次才放棄
+        assert "Telegram 傳送失敗：HTTPError（HTTP 500）" in out
         assert TOKEN not in out  # 例外訊息裡有含 token 的網址，只能印型別
 
 
@@ -321,8 +345,8 @@ def test_partial_send_marks_only_delivered_chunks():
         fx.mkdir()
         cards = "".join(_html_card(_long_url(i), f"Fakeco{i}", f"Intern {i}", "Stage - Paris (France)") for i in range(4))
         (fx / "a.eml").write_bytes(_eml(html=cards))
-        code, net, _ = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(fail_on={2}))
-        assert code == 1 and len(net.posts) == 2
+        code, net, _ = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(fail_on={2, 3, 4, 5}))
+        assert code == 1 and len(net.posts) == 5
         assert len(_state(sp)["seen"]) == 2  # 第一則（2 個職缺）送成功才記；失敗的下次重送
         code, net, _ = _run(_args(fixture_dir=str(fx)), sp)
         assert code == 0 and len(net.posts) == 1 and net.texts[0].count("<a href=") == 2
@@ -363,7 +387,7 @@ def test_no_secret_or_url_leaks_in_output_or_state():
         card = _html_card(f"https://link.jobteaser.com/ls/click?upn={URL_SENTINEL}&x=1", "Fakeco", "Intern Analyst",
                           "Stage - Paris (France)")
         (fx / "a.eml").write_bytes(_eml(html=card))
-        for kw, net in (({}, FakeNet()), ({}, FakeNet(fail_on={1})), ({"dry_run": True}, FakeNet())):
+        for kw, net in (({}, FakeNet()), ({}, FakeNet(fail_on={1, 2, 3, 4})), ({"dry_run": True}, FakeNet())):
             code, net, out = _run(_args(fixture_dir=str(fx), **kw), sp, net=net)
             assert TOKEN not in out and URL_SENTINEL not in out
             if sp.exists():
@@ -532,3 +556,250 @@ def test_install_script_plist_and_shell_syntax():
     assert plist["ProgramArguments"] == ["/usr/bin/python3", str(ROOT / "src" / "jobteaser_mail_digest.py")]
     assert plist["StartCalendarInterval"] == {"Hour": 9, "Minute": 30} and "RunAtLoad" not in plist
     assert plist["StandardOutPath"].endswith("Library/Logs/jobteaser-mail.log")
+
+
+# --- 新增：重試、4xx 退路、主旨、版面、原子寫入、解析例外 -----------------------
+
+def _cards_fixture(d, n, extra_html="", when=NOW, name="a.eml", subject=SUBJ):
+    fx = Path(d.name) / "fx"
+    fx.mkdir(exist_ok=True)
+    cards = "".join(_html_card(_long_url(i), f"Fakeco{i}", f"Intern {i}", "Stage - Paris (France)") for i in range(n))
+    (fx / name).write_bytes(_eml(subject=subject, html=cards + extra_html, when=when))
+    return fx
+
+
+def test_telegram_retries_on_connection_error_and_timeout_with_backoff():
+    d, sp = _tmp()
+    with d:
+        fx = _cards_fixture(d, 1)
+        sleeps = []
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: "conn", 2: "timeout"}), sleeps=sleeps)
+        assert code == 0 and len(net.posts) == 3 and sleeps == [30, 60]  # 第三次成功
+        assert len(_state(sp)["seen"]) == 1 and TOKEN not in out and "ConnectionError" in out and "Timeout" in out
+        sp.unlink()
+        sleeps.clear()
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: "conn", 2: "conn", 3: "conn", 4: "conn"}),
+                              sleeps=sleeps)
+        assert code == 1 and len(net.posts) == 4 and sleeps == [30, 60, 60]  # 用完重試次數：不寫狀態
+        assert not sp.exists() and TOKEN not in out
+
+
+def test_persistent_4xx_retries_without_link_then_continues():
+    d, sp = _tmp()
+    with d:
+        fx = _cards_fixture(d, 3)  # 1500 字元連結：2 則訊息（2 + 1 個職缺）
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: 400}))
+        assert code == 0 and len(net.posts) == 3
+        plain = net.texts[1]
+        assert "href" not in plain and "link.jobteaser" not in plain and plain.count("<b>") == 3  # 標題＋2 個職缺的標題行
+        assert "Telegram 拒收含連結的版本" in plain and "href" in net.texts[2]  # 後面的訊息照常送
+        assert len(_state(sp)["seen"]) == 3 and TOKEN not in out and "link.jobteaser" not in out
+
+
+def test_unsendable_message_is_marked_seen_counted_and_alerted_once():
+    d, sp = _tmp()
+    with d:
+        fx = _cards_fixture(d, 3)
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: 400, 2: 400}))
+        assert code == 1 and len(net.posts) == 4  # 帶連結、無連結（都 400）、第二則、警示
+        st = _state(sp)
+        assert len(st["seen"]) == 3 and st["last_alert_date"] == "2026-10-20"  # 不再卡住：兩個壞的標已見
+        assert "略過 2 個職缺" in out and "有 2 個職缺因 Telegram 拒收" in net.texts[-1]
+        assert TOKEN not in out and "link.jobteaser" not in out and all(TOKEN not in t for t in net.texts)
+        # 同一天再有壞訊息：仍計數、exit 1，但不重複推警示
+        fx2 = _cards_fixture(d, 1, name="b.eml", when=NOW + timedelta(hours=1))
+        (fx / "a.eml").unlink()
+        (fx / "b.eml").write_bytes(_eml(html=_html_card(_long_url(9), "Fakeco9", "Intern 9", "Stage - Paris (France)")))
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: 400, 2: 400}))
+        assert code == 1 and len(net.posts) == 2 and "今天已提醒過" in out
+
+
+def test_auth_4xx_stops_without_marking_anything_seen():
+    d, sp = _tmp()
+    with d:
+        fx = _cards_fixture(d, 3)
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp, net=FakeNet(errors={1: 401}))
+        assert code == 1 and len(net.posts) == 1 and not sp.exists()  # token 壞了不是「這則內容」的問題：不能把職缺吃掉
+
+
+def test_looser_subject_match_case_insensitive():
+    ok = ["Il y a plus de 10 offres correspondant à vos critères", "VOS CRITÈRES : 5 nouvelles offres",
+          "Nouvelles OFFRES CORRESPONDANT à votre profil", "Mise à jour de vos critères de recherche"]
+    bad = ["Vos évènements « employabilité » à suivre cette semaine", "Bienvenue sur JobTeaser"]
+    page = _html_card(_long_url(1), "Fakeco", "Intern Analyst", "Stage - Paris (France)")
+    for subj in ok:
+        assert jm.parse_message(_eml(subject=subj, html=page))[0] is not None, subj
+    for subj in bad:
+        assert jm.parse_message(_eml(subject=subj, html=page)) == (None, []), subj
+    script = jm.APPLESCRIPT.format(boundary=jm.BOUNDARY, sender="jobteaser", subject1=jm.SUBJECT_NEEDLES[0],
+                                   subject2=jm.SUBJECT_NEEDLES[1], timeout=10)
+    assert 'subject contains "offres correspondant" or subject contains "vos crit"' in script
+
+
+def test_layout_check_uses_newest_alert_only():
+    d, sp = _tmp()
+    with d:
+        fx = Path(d.name) / "fx"
+        fx.mkdir()
+        old = _eml(html=_html_card(_long_url(1), "Fakeco1", "Intern 1", "Stage - Paris (France)"), when=NOW - timedelta(days=1))
+        new = _eml(html="<html><body><p>nouvelle mise en page</p></body></html>", when=NOW)
+        (fx / "old.eml").write_bytes(old)
+        (fx / "new.eml").write_bytes(new)
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp)
+        assert code == 1 and "layout" in out  # 最新的那封沒有卡片：舊信有卡片也要警示
+        assert len(net.posts) == 2 and "版面" in net.texts[0] and "Intern 1" in net.texts[1]  # 警示＋舊信的職缺照送
+        sp.unlink()
+        (fx / "old.eml").write_bytes(_eml(html="<p>vide</p>", when=NOW - timedelta(days=1)))  # 舊信沒卡片、新信有：正常
+        (fx / "new.eml").write_bytes(_eml(html=_html_card(_long_url(2), "Fakeco2", "Intern 2", "Stage - Paris (France)"), when=NOW))
+        code, net, out = _run(_args(fixture_dir=str(fx)), sp)
+        assert code == 0 and "layout" not in out and len(net.posts) == 1
+
+
+def test_save_state_is_atomic():
+    d, sp = _tmp()
+    with d:
+        jm.save_state(sp, {"seen": {"a" * 40: "2026-10-20"}, "last_alert_date": ""})
+        before = sp.read_text(encoding="utf-8")
+        with mock.patch.object(jm.os, "replace", side_effect=OSError("disk full")):
+            try:
+                jm.save_state(sp, {"seen": {}, "last_alert_date": "x"})
+                raise AssertionError("應該丟出 OSError")
+            except OSError:
+                pass
+        assert sp.read_text(encoding="utf-8") == before  # 原檔沒被動到
+        assert [p.name for p in sp.parent.iterdir()] == [sp.name]  # 暫存檔也清掉了
+        jm.save_state(sp, {"seen": {}, "last_alert_date": "x"})
+        assert _state(sp)["last_alert_date"] == "x" and [p.name for p in sp.parent.iterdir()] == [sp.name]
+
+
+BAD_MIME = (b"From: Kedge BS <no-reply@notification.prod.jobteaser.net>\r\nSubject: " + SUBJ.encode("ascii", "ignore")
+            + b" offres correspondant\r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=bogus-9\r\n"
+            b"Content-Transfer-Encoding: base64\r\n\r\nPGE+PC9hPg==\r\n")
+
+
+def test_one_unparsable_email_is_skipped_and_counted():
+    d, sp = _tmp()
+    with d:
+        fx = _cards_fixture(d, 1)
+        (fx / "bad.eml").write_bytes(BAD_MIME)
+        col = jm.collect_jobs([(fx / "a.eml").read_bytes(), BAD_MIME])  # 真的壞 MIME：不能丟例外
+        assert len(col.jobs) == 1 and col.errors in (0, 1)
+        real = jm.parse_message
+
+        def flaky(raw):
+            if b"bogus-9" in raw:
+                raise LookupError("unknown encoding: bogus-9 https://link.jobteaser.com/ls/click?upn=" + URL_SENTINEL)
+            return real(raw)
+        with mock.patch.object(jm, "parse_message", flaky):
+            code, net, out = _run(_args(fixture_dir=str(fx)), sp)
+        assert code == 0 and len(net.posts) == 1 and "1 封解析失敗已略過" in out
+        assert URL_SENTINEL not in out and "Traceback" not in out
+
+
+def test_all_alert_emails_unparsable_alerts_with_count():
+    d, sp = _tmp()
+    with d:
+        fx = Path(d.name) / "fx"
+        fx.mkdir()
+        (fx / "a.eml").write_bytes(BAD_MIME)
+        (fx / "b.eml").write_bytes(BAD_MIME)
+        def always(raw):
+            raise LookupError("unknown encoding https://link.jobteaser.com/ls/click?upn=" + URL_SENTINEL)
+        with mock.patch.object(jm, "parse_message", always):
+            code, net, out = _run(_args(fixture_dir=str(fx)), sp)
+        assert code == 1 and len(net.posts) == 1 and "（2 封解析失敗）" in net.texts[0] and "parse" in out
+        assert URL_SENTINEL not in out and "Traceback" not in out and TOKEN not in out
+        assert _state(sp)["last_alert_date"] == "2026-10-20"
+
+
+# --- 安裝腳本：找 python、重裝流程 ---------------------------------------------
+
+INSTALL = ROOT / "scripts" / "install_jobteaser_mail.sh"
+
+
+def _fake_python(folder, name, mode):
+    """mode：old＝版本檢查失敗；norequests＝版本過、import requests 失敗；ok＝轉給目前這個 python。"""
+    path = Path(folder) / name
+    real = sys.executable
+    if mode == "old":
+        body = "exit 1"
+    elif mode == "norequests":
+        body = f'case "$*" in *"import requests"*) exit 1;; esac\nexec "{real}" "$@"'
+    else:
+        body = f'exec "{real}" "$@"'
+    path.write_text(f"#!/bin/sh\n{body}\n")
+    path.chmod(path.stat().st_mode | stat.S_IXUSR)
+    return str(path)
+
+
+def _install_dry(candidates):
+    env = {**os.environ, "DRY_RUN": "1", "JOBTEASER_PYTHON_CANDIDATES": " ".join(candidates)}
+    return subprocess.run(["bash", str(INSTALL)], capture_output=True, text=True, timeout=60, env=env, stdin=subprocess.DEVNULL)
+
+
+def test_install_find_python_checks_version_and_requests():
+    with tempfile.TemporaryDirectory() as d:
+        old = _fake_python(d, "py_old", "old")
+        nor = _fake_python(d, "py_norequests", "norequests")
+        ok = _fake_python(d, "py_ok", "ok")
+        res = _install_dry([old, nor, ok])  # 前兩個不合格，退而用第三個
+        assert res.returncode == 0, res.stderr
+        assert f"Python：{os.path.realpath(sys.executable)}" in res.stdout
+        res = _install_dry([old])
+        assert res.returncode == 1 and "3.10" in res.stderr and "brew install python" in res.stderr
+        res = _install_dry([old, nor])
+        assert res.returncode == 1 and "pip install requests" in res.stderr and "步驟 1/3" not in res.stdout
+        res = _install_dry([str(Path(d) / "does_not_exist")])
+        assert res.returncode == 1 and "找不到" in res.stderr
+
+
+def test_install_waits_for_bootout_before_bootstrap_in_dry_run():
+    with tempfile.TemporaryDirectory() as d:
+        res = _install_dry([_fake_python(d, "py_ok", "ok")])
+        lines = [ln for ln in res.stdout.splitlines() if ln.startswith("[DRY_RUN] launchctl")]
+        assert res.returncode == 0 and "bootout" in lines[0] and "bootstrap" in lines[-1]
+
+
+def test_install_reinstall_waits_for_bootout_and_retries_bootstrap_with_stubs():
+    """用假的 launchctl／security 放在 PATH 最前面跑完整安裝流程（plist／log 路徑指到暫存資料夾）：不碰真的 launchd 與 Keychain。"""
+    with tempfile.TemporaryDirectory() as d:
+        stubs = Path(d) / "bin"
+        stubs.mkdir()
+        log = Path(d) / "calls.log"
+        counter = Path(d) / "print_count"
+        (stubs / "launchctl").write_text(f"""#!/bin/sh
+echo "launchctl $*" >> "{log}"
+case "$1" in
+  print)  n=$(cat "{counter}" 2>/dev/null || echo 0); n=$((n+1)); echo $n > "{counter}"
+          [ "$n" -le 3 ] && exit 0 || exit 113 ;;      # 前 3 次還找得到舊 job，之後消失
+  bootstrap) [ -e "{Path(d) / 'boot1'}" ] && exit 0; touch "{Path(d) / 'boot1'}"; echo "Bootstrap failed: 5: Input/output error" >&2; exit 5 ;;
+esac
+exit 0
+""")
+        (stubs / "security").write_text(f'#!/bin/sh\necho "security $*" >> "{log}"\nexit 0\n')
+        (stubs / "sleep").write_text("#!/bin/sh\nexit 0\n")
+        for f in stubs.iterdir():
+            f.chmod(0o755)
+        py = _fake_python(d, "py_ok", "ok")
+        env = {**os.environ, "PATH": f"{stubs}:{os.environ['PATH']}", "JOBTEASER_PYTHON_CANDIDATES": py,
+               "PLIST_PATH": str(Path(d) / "x.plist"), "LOG_PATH": str(Path(d) / "x.log")}
+        res = subprocess.run(["bash", str(INSTALL)], input="99887766\n", capture_output=True, text=True, timeout=60, env=env)
+        assert res.returncode == 0, res.stdout + res.stderr
+        calls = log.read_text().splitlines()
+        kinds = [c.split()[1] for c in calls if c.startswith("launchctl")]
+        assert kinds[0] == "bootout" and kinds.count("print") == 4 and kinds[1:5] == ["print"] * 4  # 輪詢到消失才往下
+        assert kinds[5:] == ["bootstrap", "bootstrap"]  # 第一次失敗，重試成功
+        assert "bootstrap 第一次失敗" in res.stderr and (Path(d) / "x.plist").exists()
+        assert any(c.startswith("security add-generic-password -U -s jobteaser-mail-telegram-token") and c.endswith(" -w") for c in calls)
+        # 兩次 bootstrap 都失敗時要明確失敗而不是默默結束
+        (Path(d) / "boot1").unlink()
+        (stubs / "launchctl").write_text(f"#!/bin/sh\ncase \"$1\" in bootstrap) exit 5;; print) exit 113;; esac\nexit 0\n")
+        res = subprocess.run(["bash", str(INSTALL)], input="1\n", capture_output=True, text=True, timeout=60, env=env)
+        assert res.returncode == 1 and "載入排程失敗" in res.stderr
+
+
+def test_uninstall_dry_run_does_not_claim_deletion():
+    res = subprocess.run(["bash", str(ROOT / "scripts" / "uninstall_jobteaser_mail.sh"), "--purge"], capture_output=True,
+                         text=True, timeout=30, stdin=subprocess.DEVNULL,
+                         env={**os.environ, "DRY_RUN": "1", "JOBTEASER_MAIL_STATE_DIR": "/nonexistent/jtmail-state"})
+    assert res.returncode == 0 and "已刪除" not in res.stdout and "（dry-run）會刪除" in res.stdout

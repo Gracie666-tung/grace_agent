@@ -26,8 +26,8 @@ for svc in "${SVC_TOKEN}" "${SVC_CHAT}"; do
 done
 if [ "${PURGE}" = "1" ]; then
   run rm -rf "${STATE_DIR}"
-  echo "已刪除去重狀態 ${STATE_DIR}"
+  if [ "${DRY_RUN:-0}" = "1" ]; then echo "（dry-run）會刪除去重狀態 ${STATE_DIR}"; else echo "已刪除去重狀態 ${STATE_DIR}"; fi
 else
   echo "保留去重狀態 ${STATE_DIR}（要連它一起刪請加 --purge）。log 在 ~/Library/Logs/jobteaser-mail.log，需要的話自己刪。"
 fi
-echo "解除安裝完成。"
+if [ "${DRY_RUN:-0}" = "1" ]; then echo "（dry-run）沒有實際變更任何東西。"; else echo "解除安裝完成。"; fi
