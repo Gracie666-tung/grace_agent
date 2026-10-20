@@ -1,7 +1,8 @@
 name: lba-monitor
 
 on:
-  # 排程暫時移除：第一次用真實 key 手動跑 dry-run 並確認輸出正確後，再加回 schedule（cron "0 7 * * *"，07:00 UTC，匯出檔巴黎 03:00 更新）。
+  schedule:
+    - cron: "0 7 * * *" # 07:00 UTC（巴黎 08:00／09:00）；匯出檔巴黎 03:00 更新。2026-10-20 真實 dry-run 驗證後啟用
   workflow_dispatch:
     inputs:
       dry_run:

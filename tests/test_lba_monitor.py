@@ -546,7 +546,7 @@ def test_workflow_references_only_known_secrets_and_inputs():
     code = "\n".join(ln for ln in wf.splitlines() if not ln.lstrip().startswith("#"))
     assert set(re.findall(r"secrets\.([A-Z_]+)", wf)) == {"LBA_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "ANTHROPIC_API_KEY"}
     assert set(re.findall(r"github\.event\.inputs\.([a-z_]+)", wf)) == {"max_new", "dry_run"}
-    assert "workflow_dispatch" in code and "schedule" not in code and "cron" not in code  # 第一次真實 dry-run 驗證前不排程
+    assert "workflow_dispatch" in code and re.search(r'cron: "0 7 \* \* \*"', code)  # 每天一次；排程觸發沒有 inputs，所以不是 dry-run
     assert re.search(r"dry_run:\s*\n(?:\s+.*\n)*?\s+type: boolean\n(?:\s+.*\n)*?\s+default: true", wf)
     assert "--dry-run" in wf and "[skip ci]" in wf and "src/lba_monitor.py" in wf and "data/seen_lba.json" in wf
     persist = wf[wf.index("Persist seen offers"):]
