@@ -505,8 +505,12 @@ def test_no_api_key_degrades_to_untranslated_digest():
 
 
 def test_state_is_json_and_cookie_flag_default():
-    s = json.loads((ROOT / "data" / "seen_jobteaser.json").read_text())
-    assert s == {"seen": {}, "cookie_alert_sent": False}
+    # 不讀 repo 裡的 seen_jobteaser.json：機器人跑起來會把 cookie_alert_sent 寫成 true，測試會跟著線上狀態變動。
+    # 這裡只驗「檔案存在且是合法的 state JSON」＋「沒有狀態檔時的預設值」。
+    committed = json.loads((ROOT / "data" / "seen_jobteaser.json").read_text())
+    assert isinstance(committed.get("seen"), dict) and isinstance(committed.get("cookie_alert_sent"), bool)
+    with tempfile.TemporaryDirectory() as d:
+        assert jm.load_state(Path(d) / "missing.json") == {"seen": {}, "cookie_alert_sent": False}
 
 
 def main() -> None:

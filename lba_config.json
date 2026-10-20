@@ -1,0 +1,24 @@
+{
+  "inherit_from": "jobteaser_config.json",
+  "recent_days": 7,
+  "max_export_mb": 400,
+  "max_new_per_run": 30,
+  "max_messages_per_run": 10,
+  "state_retention_days": 30,
+  "push_threshold": 70,
+  "digest_min": 60,
+  "model": "claude-sonnet-5-5",
+  "priority_departments": ["75", "77", "78", "91", "92", "93", "94", "95", "33"],
+  "keywords_positive_extra": [
+    "analyste financier",
+    "analyste d'affaires",
+    "ordonnancement",
+    "tresorerie",
+    "planificateur",
+    "approvisionneur",
+    "gestion de projets",
+    "lean",
+    "six sigma",
+    "transformation"
+  ]
+}

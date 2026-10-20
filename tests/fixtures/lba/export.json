@@ -1,0 +1,791 @@
+{
+ "jobs": [
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b01",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b01",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Semicorp France",
+    "legal_name": "SEMICORP FRANCE SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "12 Rue de la Paix 75002 PARIS",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b01/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Supply Chain Analyst (H/F)",
+    "description": "<p>Rattaché au Supply Planning, vous analysez la demande, participez au S&OP mensuel et construisez des tableaux de bord KPI sous Excel, SQL et Power BI. Environnement international, anglais courant exigé. Le français est un plus.</p>",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b02",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b02",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Aéro Gironde",
+    "legal_name": "AÉRO GIRONDE SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "5 Cours du Chapeau Rouge 33000 BORDEAUX",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b02/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Contrôleur de gestion en alternance",
+    "description": "Vous soutenez le contrôle de gestion du site : budget, reporting mensuel, suivi des KPI de performance industrielle. Bon niveau de français exigé (B2).",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b03",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b03",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Transports Rhône",
+    "legal_name": "TRANSPORTS RHÔNE SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "8 Avenue Berthelot 69007 LYON",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b03/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Assistant planification logistique",
+    "description": "Planification des transports et suivi des tournées de livraison depuis l'entrepôt. Permis B apprécié.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b04",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b04",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Buzz Agency",
+    "legal_name": "BUZZ AGENCY SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "3 Rue Oberkampf 75011 PARIS",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b04/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Community manager en alternance",
+    "description": "Animation des réseaux sociaux et création de contenu pour la marque.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b05",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b05",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Boulangerie Dupont",
+    "legal_name": "BOULANGERIE DUPONT SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "1 Place du Marché 31000 TOULOUSE",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b05/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Aide boulanger en alternance",
+    "description": "Préparation des pains et viennoiseries, service en boutique.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b06",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b06",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Retail Group",
+    "legal_name": "RETAIL GROUP SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "20 Rue Lafayette 75009 PARIS",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b06/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Acheteur junior",
+    "description": "Vous participez aux appels d'offres achats et au pilotage des fournisseurs. Français courant exigé, anglais professionnel apprécié.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b07",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b07",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Banque Nord",
+    "legal_name": "BANQUE NORD SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "9 Quai de Bercy 75012 PARIS",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b07/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Business Analyst",
+    "description": "Analyse des processus et tableaux de bord pour la DSI. Anglais courant.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-10-19T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b08",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b08",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Alpes Industrie",
+    "legal_name": "ALPES INDUSTRIE SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "2 Rue des Forges 38000 GRENOBLE",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b08/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Chef de projet industriel",
+    "description": "Pilotage de projet d'amélioration continue en usine. Environnement international.",
+    "publication": {
+     "creation": "2026-09-20T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b01",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b01",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Semicorp France",
+    "legal_name": "SEMICORP FRANCE SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "12 Rue de la Paix 75002 PARIS",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b01/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Supply Chain Analyst (H/F)",
+    "description": "doublon",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": null,
+    "partner_job_id": "FT-889900",
+    "partner_label": "france_travail"
+   },
+   "workplace": {
+    "name": "Aerotech",
+    "legal_name": "AEROTECH SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "Immeuble Horizon 92100 BOULOGNE-BILLANCOURT",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/FT-889900/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage",
+     "Professionnalisation"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant PMO - communication projet",
+    "description": "Support PMO : planning, reporting, suivi des risques et animation du comité de pilotage, outils Excel et Power Automate. Anglais courant, environnement international.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": "2026-12-31T00:00:00.000Z"
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b09",
+    "partner_job_id": "x",
+    "partner_label": "offres_emploi_lba"
+   },
+   "offer": {
+    "title": "",
+    "publication": {
+     "creation": "2026-10-18T08:00:00Z",
+     "expiration": null
+    }
+   }
+  },
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b0a",
+    "partner_job_id": "pj-a1b2c3d4e5f60718293a4b0a",
+    "partner_label": "offres_emploi_lba"
+   },
+   "workplace": {
+    "name": "Airframe SA",
+    "legal_name": "AIRFRAME SA SAS",
+    "brand": null,
+    "siret": "12345678901234",
+    "description": null,
+    "website": null,
+    "size": "1000-1999",
+    "location": {
+     "address": "30 Rue du Lac 31000 TOULOUSE",
+     "geopoint": {
+      "type": "Point",
+      "coordinates": [
+       2.35,
+       48.85
+      ]
+     }
+    },
+    "domain": {
+     "idcc": null,
+     "opco": null,
+     "naf": {
+      "code": "2611Z",
+      "label": "Fabrication de composants électroniques"
+     }
+    }
+   },
+   "apply": {
+    "phone": null,
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/lba/a1b2c3d4e5f60718293a4b0a/x",
+    "recipient_id": null
+   },
+   "contract": {
+    "start": "2027-01-04T00:00:00.000Z",
+    "duration": 24,
+    "type": [
+     "Apprentissage"
+    ],
+    "remote": "hybrid",
+    "start_type": "precise_date",
+    "start_is_flexible": false
+   },
+   "offer": {
+    "title": "Alternant Procurement Analyst",
+    "description": "Analyse des dépenses, appels d'offres achats et inventory optimization. English is required, French is a plus.",
+    "publication": {
+     "creation": "2026-10-18T08:00:00.000Z",
+     "expiration": null
+    },
+    "rome_codes": [
+     "M1702"
+    ],
+    "desired_skills": [],
+    "to_be_acquired_skills": [],
+    "access_conditions": [],
+    "opening_count": 1,
+    "target_diploma": {
+     "european": "7",
+     "label": "Master"
+    }
+   },
+   "is_delegated": false
+  }
+ ],
+ "recruiters": [
+  {
+   "identifier": {
+    "id": "a1b2c3d4e5f60718293a4b0b",
+    "partner_job_id": "r",
+    "partner_label": "recruteurs_lba"
+   },
+   "workplace": {
+    "name": "Entreprise sans offre"
+   }
+  }
+ ],
+ "warnings": []
+}

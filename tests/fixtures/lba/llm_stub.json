@@ -1,0 +1,59 @@
+{
+ "a1b2c3d4e5f60718293a4b01": {
+  "functional": 29,
+  "career": 19,
+  "industry": 14,
+  "skills": 9,
+  "language": 14,
+  "international": 5,
+  "location": 5,
+  "reason_zh": "供應鏈規劃，半導體，英文為主",
+  "title_zh": "供應鏈分析師（Alternance）",
+  "summary_zh": "支援需求規劃與 S&OP\\n使用 Excel、SQL、Power BI\\n國際團隊",
+  "start_date": "2027-01",
+  "contract": "alternance"
+ },
+ "a1b2c3d4e5f60718293a4b02": {
+  "functional": 24,
+  "career": 14,
+  "industry": 10,
+  "skills": 5,
+  "language": 7,
+  "international": 2,
+  "location": 5,
+  "reason_zh": "控制管理屬財務方向，但需 B2 法文",
+  "title_zh": "管理控制（Alternance）",
+  "summary_zh": "預算與月報\\nKPI 追蹤",
+  "start_date": "2027-01",
+  "contract": "alternance"
+ },
+ "a1b2c3d4e5f60718293a4b03": {
+  "functional": 10,
+  "career": 6,
+  "industry": 6,
+  "skills": 2,
+  "language": 7,
+  "international": 0,
+  "location": 3,
+  "reason_zh": "偏實體物流，方向不符",
+  "title_zh": "物流規劃助理",
+  "summary_zh": "運輸排程",
+  "start_date": "2027-01",
+  "contract": "alternance"
+ },
+ "a1b2c3d4e5f60718293a4b0a": "this is not json",
+ "france_travail:FT-889900": {
+  "functional": 28,
+  "career": 18,
+  "industry": 13,
+  "skills": 8,
+  "language": 14,
+  "international": 5,
+  "location": 4,
+  "reason_zh": "PMO，航太，英文為主",
+  "title_zh": "PMO 專案支援（Alternance）",
+  "summary_zh": "規劃與風險追蹤\\n使用 Excel、Power Automate",
+  "start_date": "",
+  "contract": "alternance"
+ }
+}

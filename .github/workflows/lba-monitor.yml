@@ -1,0 +1,49 @@
+name: lba-monitor
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # 07:00 UTC = 巴黎 08:00/09:00；LBA 匯出檔每天巴黎 03:00 更新，之後才跑（GitHub cron 熱門時段可能延遲 10-20 分鐘）
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "本輪最多評分／列入摘要幾則（留空用 lba_config.json 的預設）"
+        required: false
+        default: ""
+
+concurrency:
+  group: lba-monitor # 避免兩輪同時改 data/seen_lba.json
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 執行後要把 data/seen_lba.json 提交回 repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests # 本工具只依賴 requests
+
+      - name: Download export, score and notify
+        env:
+          LBA_API_KEY: ${{ secrets.LBA_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_NEW: ${{ github.event.inputs.max_new }}
+        run: |
+          python src/lba_monitor.py ${MAX_NEW:+--max-new "$MAX_NEW"}
+
+      - name: Persist seen offers
+        if: always() # 就算上一步中途失敗，已推播的職缺也要記下來，避免明天重複推
+        run: |
+          git config user.name "lba-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/seen_lba.json
+          git diff --cached --quiet || git commit -m "chore: update seen lba [skip ci]"
+          git pull --rebase # 先 commit 再 rebase，避免 dirty tree；其他 workflow 也會 commit
+          git push

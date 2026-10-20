@@ -486,3 +486,29 @@ D 流利以上，D 不推），再由 Claude 翻成繁中、摘要並依 Grace �
   從 GitHub Actions 的 IP 連線是否會被擋**尚未驗證**；列表頁 HTML 與詳情頁 JSON-LD 的欄位只驗證過
   `datePosted`／`description`，其餘欄位缺漏時退回 `<h1>` 與頁面文字；分數是 AI 的估計，翻譯與摘要請以原文為準，
   法文等級是關鍵字規則，沒寫等級的法文 JD 會標 N（未標明）而不是 D。
+
+## La Bonne Alternance 職缺推播（官方 API）
+
+每天 07:00 UTC（GitHub Actions）從官方 La Bonne Alternance（LBA，`api.apprentissage.beta.gouv.fr`）下載**全部 alternance 職缺匯出檔**
+（一輪只呼叫一次 export、網站每天巴黎 03:00 更新），在本機篩出**最近 7 天新發布、尚未過期**的職缺：
+關鍵字粗篩（沿用 `jobteaser_config.json` 的中英法關鍵字與 persona／rubric，另有幾個法文補充字；負面字只看標題）、
+規則式判定法文要求（A／B／C／D，D 不推）、Paris／Île-de-France（75、77、78、91、92、93、94、95）與 Gironde（33）排序加權、
+其他地區不排除。有 `ANTHROPIC_API_KEY` 就由 Claude 打 0-100 分：**≥70 即時推**、**60–69 合併成一則摘要**、<60 只記錄；
+沒有就只送**一則**未評分摘要（標題、公司、城市、法文等級、連結）。訊息一律顯示法文要求等級。這個來源**只有 alternance，沒有 stage**。
+
+- **API key 怎麼拿**：自己到 <https://api.apprentissage.beta.gouv.fr> 註冊並登入 → `/compte/profil` 建立個人 API key（免費；
+  選 **production** 類型，sandbox 回的是測試資料）。**絕對不要貼到聊天視窗、commit、或 repo 裡的任何檔案。**
+- **設進 GitHub secret**（先把 key 複製到剪貼簿，這樣不會留在 shell history 也不會顯示在畫面上）：
+  `pbpaste | gh secret set LBA_API_KEY --repo Gracie666-tung/grace_agent`
+- **其他 Secrets**：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`、`ANTHROPIC_API_KEY`（可選）。
+- **本機試跑**：`read -s LBA_API_KEY; export LBA_API_KEY`（貼上後按 Enter；跑完 `unset LBA_API_KEY`），再
+  `python src/lba_monitor.py --dry-run`（只印出，不推播、不寫狀態；`--max-new N` 限制本輪處理數量；`--no-llm` 不呼叫 Claude）。
+  離線：`python src/lba_monitor.py --dry-run --fixture-dir tests/fixtures/lba`；測試 `python -m pytest tests/test_lba_monitor.py -q`。
+- **調整**：天數、每輪上限（預設 30 則評分）、每輪訊息上限（預設 10）、匯出檔大小上限、優先地區、推播門檻全在 `lba_config.json`
+  （關鍵字、persona、rubric 繼承自 `jobteaser_config.json`）；去重狀態在 `data/seen_lba.json`（只存處理過的職缺，保留 30 天，Actions 每天 commit 回來）。
+  超過每輪上限的職缺不會記為已見，隔天（仍在 7 天內）會再處理。
+- **Key 無效**：HTTP 401／403（或 secret 沒設）只推**一則**提醒並結束（exit 0），更新 secret 後自動恢復；HTTP 429／419（限流）立刻停止並提醒，不重試。
+  其他錯誤（5xx、下載失敗）exit 1 讓 Actions 顯示失敗，log 會有一行 `[診斷] HTTP 狀態碼 主機+路徑`（不含 query 與標頭）。
+- **安全**：key 只放在對 API 主機的 `Authorization` 標頭；匯出檔下載連結是預簽名連結，**不帶 key**、不跟轉址；key 不會寫入狀態檔、log 或 Telegram。
+- 已知限制：export 回應與匯出檔的結構是依 swagger 文件寫的，**尚未用真實 key 驗證**（解析兩種外層結構都吃，解析不到任何職缺會 exit 1）；
+  匯出檔大小未知（超過 `max_export_mb` 會中止）；沒有建立日期的職缺會被略過；描述全是法文，法文等級是關鍵字規則，沒寫等級的標 N 而不是 D；分數是 AI 的估計。
