@@ -1724,6 +1724,11 @@
   "title": "Samsung collaborates with TSMC for Nvidia’s custom HBM chips - Verdict",
   "ts": "2026-10-19T09:18:27.884188+00:00"
  },
+ "036598a627539960": {
+  "ticker": "NVDA",
+  "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale - NVIDIA Developer",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "03659e4bb6038a2a": {
   "ticker": "MACRO",
   "title": "Gold recovers as Treasury yields fall, US PPI and Retail Sales loom | FXStreet - شبكة تواصل الإخبارية",
@@ -10044,6 +10049,11 @@
   "title": "Nvidia appears to have removed the RTX 5090 from its official sales platform, and retailers are also gradually clearing ",
   "ts": "2026-10-17T06:25:18.270270+00:00"
  },
+ "14fa440314f6ce06": {
+  "ticker": "HOOD",
+  "title": "Mizuho reiterates Robinhood stock rating on futures demand By Investing.com - Investing.com South Africa",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "14fbee352e37c88f": {
   "ticker": "SPCX",
   "title": "Elon Musk’s promise to give SpaceX stock to kids is no gift - Deccan Herald",
@@ -16809,6 +16819,11 @@
   "title": "Germany plans AI cooperation deal with Nvidia, Handelsblatt says - KELO-AM",
   "ts": "2026-10-15T19:56:30.556312+00:00"
  },
+ "23962b8835686c4e": {
+  "ticker": "NFLX",
+  "title": "Netflix Stock Drops. Why Wall Street Is Still Worried After Earnings Beat. - Barron's",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "239674b27af7445b": {
   "ticker": "TSM",
   "title": "TSMC strikes cautious tone on 2027 after posting sixth straight quarter of record profit - The Globe and Mail",
@@ -17153,6 +17168,11 @@
   "ticker": "TSLA",
   "title": "'There's no point': Tesla Roadster's splashy reveal doesn't mean a merger with SpaceX - Yahoo Finance",
   "ts": "2026-10-16T15:46:46.327571+00:00"
+ },
+ "245f0f84ddd46644": {
+  "ticker": "MU",
+  "title": "Micron and Nvidia Are the 2 Biggest Drivers of S&P 500 Earnings Growth. Are Their Stocks Buys? - AOL.com",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "245fb4828f8666fd": {
   "ticker": "NFLX",
@@ -20273,6 +20293,11 @@
   "ticker": "AAPL",
   "title": "Apple shares rise after iPhone Duo pre-orders sell out within minutes - Invezz",
   "ts": "2026-10-16T17:05:47.058165+00:00"
+ },
+ "2af7c5e108e0eb24": {
+  "ticker": "MACRO",
+  "title": "Sticky Inflation Is Testing the Fed’s Resolve - Bloomberg.com",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "2b0025203888ece6": {
   "ticker": "NFLX",
@@ -30019,6 +30044,11 @@
   "title": "Wall Street muscles higher despite more swings for AI stocks - BNN Bloomberg",
   "ts": "2026-10-15T22:47:06.040093+00:00"
  },
+ "3feb47b1b7d062af": {
+  "ticker": "SMCI",
+  "title": "Asia stocks rebound as SpaceX, Super Micro results lift chipmakers By Investing.com - Investing.com Nigeria",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "3febd42983857d5a": {
   "ticker": "MACRO",
   "title": "US PPI jumps 1.3% in September, raising: Full Details - JournalArta",
@@ -31963,6 +31993,11 @@
   "ticker": "TSLA",
   "title": "TSLA Stock Revives as Tesla and SpaceX Merger Speculation Builds Ahead of Q3 Earnings - FXLeaders",
   "ts": "2026-10-19T22:42:35.205917+00:00"
+ },
+ "440616c0ce6b2dff": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Faces Twin Tests in November as Mars Burn and Q3 Numbers Diverge - AD HOC NEWS",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "440d27ab6a3f6930": {
   "ticker": "NFLX",
@@ -34874,6 +34909,11 @@
   "title": "One of Ray Liotta’s Last Movies Is Now on Netflix & It’s One of the Best Horror Comedies - Men's Journal",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "4a780a2bbec563fc": {
+  "ticker": "NFLX",
+  "title": "David Tennant's Near-Perfect 24-Episode Crime Thriller Is Officially Being Cut From Netflix - MovieWeb",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "4a7b6ba05ee9c9f1": {
   "ticker": "SPCX",
   "title": "Elon Musk's SpaceX stock giveaway: Wealth building or political play? - Yahoo Finance UK",
@@ -35963,6 +36003,11 @@
   "ticker": "NVDA",
   "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Central Oregon Daily",
   "ts": "2026-10-19T20:34:53.768422+00:00"
+ },
+ "4ce0626e520449fb": {
+  "ticker": "NFLX",
+  "title": "Netflix slides as weak profit, ad outlook intensify investor anxiety - The Globe and Mail",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "4ce08312df2611c8": {
   "ticker": "MACRO",
@@ -37788,6 +37833,11 @@
   "ticker": "MU",
   "title": "Micron Stock Slides As Legal And China DRAM Risks Mount - StocksToTrade",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "5067cfd7bce9da9b": {
+  "ticker": "NET",
+  "title": "How I Built a Secure LaTeX-to-PDF Service for Cloudflare Workers - HackerNoon",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "506b0883465947ae": {
   "ticker": "MU",
@@ -41994,6 +42044,11 @@
   "title": "Oil Pushes to $110 a Barrel While Treasury Yields Post Biggest Weekly Drop in Six Months — What Is the Bond Market Betti",
   "ts": "2026-10-20T04:33:25.142403+00:00"
  },
+ "59361b7695ca9101": {
+  "ticker": "MACRO",
+  "title": "UK Stock Market Today: Inflation Surprise and 110-Dollar Oil Split the FTSE 100 Trade - TechStock²",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "593791b8be92d68b": {
   "ticker": "NFLX",
   "title": "Netflix Cuts 1,000 Jobs as Stock Sinks 40%: Is a Bottom Near? - BeInCrypto",
@@ -42238,6 +42293,11 @@
   "ticker": "NFLX",
   "title": "Netflix's Yellowstone Meets Taken Movie Officially Releases Next Month - ScreenRant",
   "ts": "2026-10-20T14:33:47.755710+00:00"
+ },
+ "59ba3b21961f66e7": {
+  "ticker": "NET",
+  "title": "Cloudflare developers top 10 million, up 35% in one quarter - The Next Web",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "59bea9d7e6c046af": {
   "ticker": "MACRO",
@@ -47093,6 +47153,11 @@
   "ticker": "TSLA",
   "title": "Is a SpaceX-Tesla Merger in the Cards? -- WSJ - Moomoo",
   "ts": "2026-10-20T19:44:15.370820+00:00"
+ },
+ "63a9a4acb087fe70": {
+  "ticker": "MACRO",
+  "title": "Silver Price Today: Here’s Why Silver Is Falling Again Before the Fed Decision - CaptainAltcoin",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "63abd9fc29e22f53": {
   "ticker": "LITE",
@@ -66904,6 +66969,11 @@
   "title": "Barclays Adjusts Price Target on Interactive Brokers Group to $117 From $115 - Moomoo",
   "ts": "2026-10-16T12:07:45.663475+00:00"
  },
+ "8e18c1f88db31c10": {
+  "ticker": "MACRO",
+  "title": "A new surge: Oil climbs above $110 amid threats in the Strait of Hormuz - صوت الإمارات",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "8e19c28a3ff20e5a": {
   "ticker": "MACRO",
   "title": "Crude Oil Surges Toward $110 a Barrel on Middle East Turmoil and Plunging U.S. Inventories - BigGo Finance",
@@ -71358,6 +71428,11 @@
   "ticker": "MACRO",
   "title": "美联储主席沃什：美联储将于11月16日在旧金山湾区就人工智能举行现场听证会。",
   "ts": "2026-10-16T03:49:58.394867+00:00"
+ },
+ "9772a15c451c8886": {
+  "ticker": "NVDA",
+  "title": "Nvidia wraps OpenShell around full-stack silicon to stop AI agents going rogue - SDxCentral",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "9773ac35e59134dd": {
   "ticker": "MACRO",
@@ -89263,6 +89338,11 @@
   "title": "Coherent Stock Slips As AI Valuation Fears Bite - TipRanks",
   "ts": "2026-10-15T18:00:07.333123+00:00"
  },
+ "bd89c0101e6a5136": {
+  "ticker": "TSLA",
+  "title": "Tesla Earnings: Deliveries Surge, but Can Margins, Robotaxis Keep Momentum Going? - Investing.com Canada",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "bd8db17fc4e2e3d4": {
   "ticker": "MACRO",
   "title": "【美联储古尔斯比：通胀数据令人失望，但仍抱有希望】金十数据10月16日讯，芝加哥联储主席古尔斯比表示，本周公布的数据显示消费者价格和生产者价格通胀均高于预期，这“令人失望”。古尔斯比表示：“我仍抱有一些乐观态度。如果推动通胀的因素能够在短期",
@@ -91688,6 +91768,11 @@
   "title": "Customers Bank and Palantir Collaborate to Bu - Moomoo",
   "ts": "2026-10-15T14:37:51.670676+00:00"
  },
+ "c2b4c5aec1a0d497": {
+  "ticker": "TSLA",
+  "title": "US Market: Musk backs Tesla-SpaceX merger idea, envisioning a $3.5 trillion giant - inkl",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "c2b579b0bdb6b82c": {
   "ticker": "MACRO",
   "title": "Semiconductor Stocks Surge, Leading Tech (XLK) Rebound As Earnings Season Kicks Off - www.foreignpolicyjournal.com",
@@ -91922,6 +92007,11 @@
   "ticker": "MACRO",
   "title": "Bond Market Tumult Heightens Appeal of This Income ETF - ETF Database",
   "ts": "2026-10-16T15:52:50.273032+00:00"
+ },
+ "c344e01174207230": {
+  "ticker": "NFLX",
+  "title": "Netflix and its 99 problems: Shocking firings, declining stocks - Qazinform",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "c347c5d51f3d679f": {
   "ticker": "NFLX",
@@ -92192,6 +92282,11 @@
   "ticker": "TSM",
   "title": "TSMC Reports Record Q3 Profit of $23.55 Billion as AI Demand Drives Growth and US Expansion Plans - Yahoo Finance",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "c3cbf6e8228c326d": {
+  "ticker": "NVDA",
+  "title": "NVIDIA expands DSX platform adoption in Europe to cut AI factory water and power use - Traders Union",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "c3cd7a1ff7b2961d": {
   "ticker": "NVDA",
@@ -97573,6 +97668,11 @@
   "title": "Netflix show inspired by Stanford Prison Experiment releases - The Stanford Daily",
   "ts": "2026-10-21T04:09:38.141005+00:00"
  },
+ "ced36216cfd93b2b": {
+  "ticker": "SNDK",
+  "title": "Mizuho keeps USD 2,050 target. Sandisk stock is valued at USD 197.3 billion - AD HOC NEWS",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "ced5e546dd0bf0d1": {
   "ticker": "NVDA",
   "title": "NVIDIA says RTX Spark can run local coding agents on one Windows machine — check the benchmark details - OpenTools",
@@ -100993,6 +101093,11 @@
   "title": "Meghan Markle's friends accuse Netflix of 'using' her to promote The Gentlemen as Guy Richie gives verdict - LADbible",
   "ts": "2026-10-19T02:39:15.873631+00:00"
  },
+ "d603baa197fa569e": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents - NVIDIA Newsroom",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "d60463429752b615": {
   "ticker": "AAPL",
   "title": "Why Apple shares are down on Tuesday? - Invezz",
@@ -102723,6 +102828,11 @@
   "title": "Nvidia and Apple Donate Millions for Planned White House Project - TIKR.com",
   "ts": "2026-10-16T14:15:36.706433+00:00"
  },
+ "d9daafcd4a9d423c": {
+  "ticker": "NFLX",
+  "title": "‘I Watch Something on YouTube Every Day’ but Netflix a ‘Dormant Subscription,’ Says Chamath Palihapitiya Underlining a F",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "d9dd8c28aa982300": {
   "ticker": "MACRO",
   "title": "FDVV ETF - ETF ($61.42) Slips as 5.13% Treasuries Outyield Its 2.79% Dividend — Hold, $64.54 Target - TradingNEWS",
@@ -103057,6 +103167,11 @@
   "ticker": "NFLX",
   "title": "Netflix ‘The Diplomat’ Season 4: Where to Get All the Outfits - Femestella",
   "ts": "2026-10-15T07:06:46.183951+00:00"
+ },
+ "da80c518d929bdd4": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘The Widower’ True Story Explained: Who Is Thomas Randolph & Where Is He Now? - IMDb",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "da80da54a7be3740": {
   "ticker": "NFLX",
@@ -118028,6 +118143,11 @@
   "title": "Form DEF 14A TESLA For: 19 October By Investing.com - Investing.com UK",
   "ts": "2026-10-19T10:55:10.153015+00:00"
  },
+ "fac2c108d2e44db1": {
+  "ticker": "NFLX",
+  "title": "高盛：将奈飞公司目标价从90美元下调至84美元。",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "fac6e9470e426ac3": {
   "ticker": "TSM",
   "title": "Opinion: The Most Important Number in Taiwan Semiconductor's Earnings Report Was 68% - The Motley Fool",
@@ -118438,10 +118558,20 @@
   "title": "China’s Answer to Micron Just Made Nearly $20 Billion - Yahoo Finance",
   "ts": "2026-10-17T18:27:27.062063+00:00"
  },
+ "fb8c1941f7065977": {
+  "ticker": "NFLX",
+  "title": "JPMorgan cuts Netflix stock price target on 2026 revenue outlook By Investing.com - Investing.com India",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
+ },
  "fb8d971f9fec1563": {
   "ticker": "TSM",
   "title": "AI Trade Bleeds Out As TSMC, Anthropic Updates Are Damp Squib - Heisenberg Report",
   "ts": "2026-10-15T14:25:41.008215+00:00"
+ },
+ "fb912be0a2a6a39a": {
+  "ticker": "NFLX",
+  "title": "Netflix Stock Price Forecast: Q3 Earnings Beat Expectations but Shares Drop Over 6% Pre-Market, $65 Support Becomes Key ",
+  "ts": "2026-10-21T10:02:43.540398+00:00"
  },
  "fb921f373f222986": {
   "ticker": "TSLA",
