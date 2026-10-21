@@ -539,6 +539,11 @@
   "title": "Bovespa heads into Thursday after CPI shock and 382-point loss - ad-hoc-news.de",
   "ts": "2026-10-15T11:17:40.778677+00:00"
  },
+ "00dffef372179e91": {
+  "ticker": "SPCX",
+  "title": "Musk: SpaceX, Tesla merger a ‘good idea’ - The Hill",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "00e278b598cbbd94": {
   "ticker": "NFLX",
   "title": "Emma Mackey’s Big Breakout Movie Ahead of Narnia Role Is Now Streaming on Netflix - Yahoo",
@@ -1728,6 +1733,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Slide: Brent Falls 1.30%, US Crude Dips 0.52% - MM News",
   "ts": "2026-10-19T06:36:59.589851+00:00"
+ },
+ "02fc39cdae5f4d17": {
+  "ticker": "NET",
+  "title": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know - FinancialContent",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "02ff72a6a2a92f27": {
   "ticker": "NFLX",
@@ -14733,6 +14743,11 @@
   "ticker": "NFLX",
   "title": "Netflix film is so good viewers can't help but watch it over 4 times in one day - The Mirror",
   "ts": "2026-10-19T11:01:07.790039+00:00"
+ },
+ "1bc3d9fe0495f7b4": {
+  "ticker": "TSM",
+  "title": "TSMC slows construction after accident kills four - Taipei Times",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "1bc4d084bcc14682": {
   "ticker": "NVDA",
@@ -30849,6 +30864,11 @@
   "title": "One of three Jensen Huang-signed RTX Spark laptops won at NVIDIA launch event is already listed for $17,150 - VideoCardz",
   "ts": "2026-10-20T10:43:06.182019+00:00"
  },
+ "3b3859263507b8b2": {
+  "ticker": "NFLX",
+  "title": "Chris Rock’s A24 Pic ‘Misty Green’ To Stream On Netflix In Early November - IMDb",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "3b38e439e439967d": {
   "ticker": "SPCX",
   "title": "Harvard Endowment Returns 27% on SpaceX Bet - Seoul Economic Daily",
@@ -39479,6 +39499,11 @@
   "title": "Volvo Cars extends Nvidia automated driving partnership - Just Auto",
   "ts": "2026-10-16T08:52:53.413800+00:00"
  },
+ "4c0cd6776aa6f63b": {
+  "ticker": "HAG",
+  "title": "HENSOLDT Aktie News: HENSOLDT wird am Nachmittag ausgebremst - finanzen.ch",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "4c0d3353004133f2": {
   "ticker": "MACRO",
   "title": "Asia FX ticks higher; yuan hits 4-yr high after China Q3 GDP beat - Yahoo Finance UK",
@@ -47399,6 +47424,11 @@
   "title": "Nvidia Says Optimistic. Bonds Say 15% - The Tech Buzz",
   "ts": "2026-10-16T09:11:07.777147+00:00"
  },
+ "5b1e52e4d2cb3f8c": {
+  "ticker": "SPCX",
+  "title": "Musk's SpaceX helps launch stock market gains - Yahoo Finance Singapore",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "5b1f2a691d2e590f": {
   "ticker": "NVDA",
   "title": "Amazon’s Nvidia AI Racks Are Running Into Power Limits - Finimize",
@@ -49348,6 +49378,11 @@
   "ticker": "NVDA",
   "title": "Smuggling Nvidia Chips Into China Is About to Become a Crime in Taiwan - 24/7 Wall St.",
   "ts": "2026-10-17T12:25:42.767906+00:00"
+ },
+ "5ea2fbd9668d315c": {
+  "ticker": "SPCX",
+  "title": "Wall Street drifts as SpaceX climbs and Netflix falls - McAlester News-Capital",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "5ea728a0d86b26b4": {
   "ticker": "NFLX",
@@ -52989,6 +53024,11 @@
   "title": "Why are Micron, SK Hynix, SanDisk stocks falling on Wednesday? - Invezz",
   "ts": "2026-10-14T21:06:14.754912+00:00"
  },
+ "65986a75c81d848a": {
+  "ticker": "SPCX",
+  "title": "Wall Street ticks higher after SpaceX helps lift AI stocks - New Haven Register",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "659b5636077b1c7c": {
   "ticker": "NFLX",
   "title": "Chicago acting student appears in Netflix’s “A Different World” - CBS News",
@@ -53858,6 +53898,11 @@
   "ticker": "AAOI",
   "title": "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall",
   "ts": "2026-10-19T17:06:50.354389+00:00"
+ },
+ "6736f080c6eae82d": {
+  "ticker": "TSLA",
+  "title": "Tesla stock third-quarter 2026 earnings: Can results spark further gains? - Traders Union",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "6737413221248358": {
   "ticker": "MACRO",
@@ -57504,6 +57549,11 @@
   "title": "Micron Stock Falls Again as Memory-Chip Slump Persists. What Can Turn It Around. - Barron's",
   "ts": "2026-10-15T11:53:59.558884+00:00"
  },
+ "6e39da56f0b2b38a": {
+  "ticker": "TSLA",
+  "title": "Tesla Rises 4% Ahead of Q3 Report as Musk Backs SpaceX Merger Idea; Rivian and Lucid Inch Higher - Yahoo Finance",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "6e3b27119229e24a": {
   "ticker": "NVDA",
   "title": "SUSE Brings Sovereign Control to Enterprise Agentic AI with NVIDIA - Yahoo Finance",
@@ -58358,6 +58408,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Boosts Federal Lobbying Cash in Q3 While AI Debates Surge - Bloomberg Government News",
   "ts": "2026-10-20T15:22:35.684717+00:00"
+ },
+ "701eab5013698004": {
+  "ticker": "NFLX",
+  "title": "Netflix Touts International Success Amid Content Leadership Shake-Up, Eyes More Broadcaster Deals After TF1 and Globo Pa",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "701f82d28e984267": {
   "ticker": "NFLX",
@@ -74814,6 +74869,11 @@
   "title": "Stock of the Day: Where is the Support for SpaceX? - TradingView",
   "ts": "2026-10-19T17:25:15.217996+00:00"
  },
+ "8fa4bbe4e5cf6fe0": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Huang hails Europe's AI potential, flanked by robot ducks - Tacoma News Tribune",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "8fa884ac4a66bb7d": {
   "ticker": "MACRO",
   "title": "\"KOSPI Could Fall to 5,000... Foreign Selling Must Ease\" [Weekend Money] - 아시아경제",
@@ -76948,6 +77008,11 @@
   "ticker": "SPCX",
   "title": "Tesla share price drops after unveiling Roadster Sports Car: Check Elon Musk's SpaceX backed flying car's - The Economic",
   "ts": "2026-10-16T22:58:22.459370+00:00"
+ },
+ "93c4814ed3830246": {
+  "ticker": "SPCX",
+  "title": "Why SpaceX Stock Popped After Earnings - The Globe and Mail",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "93c5fd3412f24a2b": {
   "ticker": "TSLA",
@@ -81174,6 +81239,11 @@
   "title": "SpaceX and Tesla mega-merger under discussion - Semafor",
   "ts": "2026-10-21T11:57:25.249065+00:00"
  },
+ "9b98be30a6d96cd1": {
+  "ticker": "GOOGL",
+  "title": "Why Alphabet Stock Is Down Today, While SMCI Jumps — and Which One Wall Street Sees as a Strong Buy - TipRanks",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "9ba01e71fedfaf16": {
   "ticker": "ANET",
   "title": "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation - ChartMill",
@@ -82638,6 +82708,11 @@
   "ticker": "NVDA",
   "title": "英伟达：预计在美国、中国台湾和新加坡产能扩建的支持下，2027年半导体测试总产能将较2026年翻一番。",
   "ts": "2026-10-21T10:44:57.608606+00:00"
+ },
+ "9e93b5d4200c0637": {
+  "ticker": "NFLX",
+  "title": "Olivia Colman teases the upcoming Netflix ‘Pride & Prejudice’ series, where she’ll portray Mrs. Bennet Read more details",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "9e944a1ba1515d80": {
   "ticker": "MACRO",
@@ -93053,6 +93128,11 @@
   "title": "Micron Workers in Taiwan to Strike in Push for Bigger Profit Share - شبكة تواصل الإخبارية",
   "ts": "2026-10-20T09:54:13.699998+00:00"
  },
+ "b2cf495605d21e7c": {
+  "ticker": "NVDA",
+  "title": "Nvidia launches DSX POD AI factory in Europe: Can NVDA sustain upside progress? - Traders Union",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "b2cfebaa5479baeb": {
   "ticker": "TSLA",
   "title": "Why is Tesla stock climbing today? By Investing.com - Investing.com Nigeria",
@@ -100732,6 +100812,11 @@
   "ticker": "NVDA",
   "title": "Nvidia expands supply chain capacity with multiple partners - Investing.com",
   "ts": "2026-10-21T10:44:57.608606+00:00"
+ },
+ "c17ce879616e8006": {
+  "ticker": "PLTR",
+  "title": "PLTR Stock Rebounds to $200 as Palantir Technologies Partners with Knox Systems for Federal Software - FXLeaders",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "c1813b9a43b070bf": {
   "ticker": "TSM",
@@ -110162,6 +110247,11 @@
   "ticker": "SPCX",
   "title": "Elon Musk pledges SpaceX shares to every American child in 2027 - Profit by Pakistan Today",
   "ts": "2026-10-20T05:17:42.858161+00:00"
+ },
+ "d3476d65f43d1992": {
+  "ticker": "TSLA",
+  "title": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger - Yahoo Finance",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "d34827ae75cacb83": {
   "ticker": "NFLX",
@@ -128883,6 +128973,11 @@
   "title": "NVIDIA stuck below 200 SMA with bearish momentum: Live levels By Investing.com - Investing.com India",
   "ts": "2026-10-19T14:52:11.026612+00:00"
  },
+ "f7bf0f19a8ef849a": {
+  "ticker": "NVDA",
+  "title": "The Cheapest NVIDIA Has Looked All Month: What the Price Target Says - Yahoo Finance",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
+ },
  "f7bfe25df3bb0664": {
   "ticker": "TSM",
   "title": "Alibaba and Taiwan Semiconductor Included as U.S. Equity Options Trading Hours Expand Next Week - 富途牛牛",
@@ -129527,6 +129622,11 @@
   "ticker": "HAG",
   "title": "HENSOLDT TRS-4D Naval Radar: Germany’s K130 Corvette AESA Multifunction System - Envanter Medya",
   "ts": "2026-10-19T03:38:46.311667+00:00"
+ },
+ "f91904e3bd4e2b7c": {
+  "ticker": "NFLX",
+  "title": "Netflix’s Taken Trailer Revisits the Natalee Holloway Case - Mezha.net",
+  "ts": "2026-10-21T17:16:22.906239+00:00"
  },
  "f919d02ba289b4dd": {
   "ticker": "PLTR",
