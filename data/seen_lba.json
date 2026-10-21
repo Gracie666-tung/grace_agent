@@ -1,1 +1,185 @@
-{"seen": {}, "key_alert_sent": false}
+{
+ "key_alert_sent": false,
+ "seen": {
+  "69cc493d8e98c08f34b4d0f3": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Contrôleur de Gestion Social en alternance F/H"
+  },
+  "6a346e5c7f27726a04971118": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Assistant Chef de Projet Digital Performance H/F"
+  },
+  "6a3f0141d78c2c043467c34b": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti assistant manager (environnement technique / industriel)"
+  },
+  "6a5805406a281b681b482357": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Chef de Projet Expérience Utilisateur & Digital H/F"
+  },
+  "6a63e37a9e972c0713e9b09c": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti Amélioration Continue H/F"
+  },
+  "6a7f91f34bf3c06efe333e0b": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Assistant Pmo Transformation Supply Chain F - M - X - Vannes 56 H/F"
+  },
+  "6a84d833dadca948717059e7": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de Projet Technique H/F"
+  },
+  "6a8f68b8e075d4e1ad80edb7": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance-INGÉNIEUR INDUSTRIEL TRAITEMENT DES EAUX - ASSISTANT CHEF DE PROJET MARCHÉS À BORDEREAU H/F"
+  },
+  "6aa9c16b9dceff7dd4b9471d": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Assistant Coordinateur Supply Chain H/F"
+  },
+  "6aac64a46b0f1ab1a51ecaa1": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de Projet Digital en Alternance H/F"
+  },
+  "6ab4517868233dbb8f6a4464": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti/e contrôleur de gestion F/H H/F"
+  },
+  "6ab6f489debdfaef5884d62e": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de projet transformation H/F - Alternance"
+  },
+  "6acfa75522ce23a2ad444319": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Ingénieur Excellence Opérationnelle & Data F/H"
+  },
+  "6acfa805eb1fb948b46abaa8": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Coordinateur de bureau d'études - Alternance (H/F)"
+  },
+  "6acfa86a22ce23a2ad44445f": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Business Analyst SAP Retail - Alternance F/H"
+  },
+  "6acfb3e7eb1fb948b46ac5d6": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Stage Contrôle de Gestion Industriel"
+  },
+  "6ad14e4518139f73ced8aa62": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Assistant Chef de Projets Amélioration Contiue H/F"
+  },
+  "6ad29fa275ec98a5c1144d85": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de Produits Prêt à Manger en Alternance H/F"
+  },
+  "6ad29fb375ec98a5c114518f": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Contrôleur de Gestion H/F"
+  },
+  "6ad29fb575ec98a5c11451f4": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Contrôleur de Gestion H/F"
+  },
+  "6ad2a2930ae368bc8d5b7138": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Contrôleur de gestion H/F"
+  },
+  "6ad2a35175ec98a5c11498a6": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Stagiaire Chef de projet Formation Digitale H/F 6 mois Laval (53)"
+  },
+  "6ad3f11fcc1761c8ae02d84d": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de Projet Transverse - Alternance H/F"
+  },
+  "6ad54337cc1761c8ae038994": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Digital marketing & IA"
+  },
+  "6ad6943ce0503c9d67337185": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chargé d'Approvisionnement - Industrie Alternance H/F"
+  },
+  "6ad6943ee0503c9d673371de": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Contrôleur de Gestion Opérationnel H/F"
+  },
+  "6ad6972be2d92300cfde6a2c": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chef de Projet Digital Learning - EdTech (H/F)"
+  },
+  "6ad7e497fcd8db4ee3ec3d5c": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "CONTROLEUR DE GESTION SOCIAL EN ALTERNANCE F/H"
+  },
+  "6ad7e5bb76e8f92c0ea5269f": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chargé de Mission Data - Service Lad en Alternance H/F"
+  },
+  "6ad7e97776e8f92c0ea56f16": {
+   "first_seen": "2026-10-21T12:49:44.761702+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance (12 mois) - Chargé(e) de Projet Digital & SIRH - Carrières Pilotes F/H"
+  }
+ }
+}
