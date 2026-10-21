@@ -2109,6 +2109,11 @@
   "title": "Hot US CPI Sends Japan’s Bond Yields Lower - Finimize",
   "ts": "2026-10-15T02:28:28.369986+00:00"
  },
+ "03d8f27714d48067": {
+  "ticker": "SPCX",
+  "title": "US futures mostly higher as Wall Street digests earnings from SpaceX, Netflix - RiverBender.com",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "03d90795543165ff": {
   "ticker": "MACRO",
   "title": "U.S. PPI Inflation Surges to 6.3%, Exceeding Forecasts and Raising Fed Rate Concerns - Hokanews",
@@ -4034,6 +4039,11 @@
   "title": "AI shares recover as investors look to Meta and Tesla - Business Post",
   "ts": "2026-10-21T06:30:33.902975+00:00"
  },
+ "076ab537efcc2d49": {
+  "ticker": "TSLA",
+  "title": "Tesla Bulls Eying Merger Bump Find Stock Needs More Than Rockets - Yahoo Finance UK",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "076e6080dad4de02": {
   "ticker": "NFLX",
   "title": "WWE Raw (10/12) Scores 2.5 Million Global Views On Netflix - Fightful",
@@ -5383,6 +5393,11 @@
   "ticker": "TSLA",
   "title": "Elon Musk think ‘its a good idea’ to merge Tesla and SpaceX. But one makes cars and other rockets. How will this merger ",
   "ts": "2026-10-21T09:26:38.932307+00:00"
+ },
+ "0a16e0c736bd0294": {
+  "ticker": "MACRO",
+  "title": "Claude AI Predicts Bitcoin and XRP Prices After the October FOMC Meeting - CaptainAltcoin",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "0a1784d7089d0bfd": {
   "ticker": "MACRO",
@@ -7974,6 +7989,11 @@
   "title": "Rocket Lab stock tumbles as first Neutron launch slips to 2027 - Yahoo Finance",
   "ts": "2026-10-15T13:48:55.337769+00:00"
  },
+ "0f4c0596aa6348ae": {
+  "ticker": "NVDA",
+  "title": "Germany’s Agile to make up to 2,000 humanoid robots with Nvidia, CEO says - SRN News",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "0f4c78a241c55f0c": {
   "ticker": "MACRO",
   "title": "U.S. stocks end mixed on upbeat earnings - 巴士的報",
@@ -7988,6 +8008,11 @@
   "ticker": "MACRO",
   "title": "Oil prices surge above $110 as Goldman Sachs predicts $90 Brent: is $20 crash coming? - Invezz",
   "ts": "2026-10-20T06:20:51.093709+00:00"
+ },
+ "0f53327dd3e201e7": {
+  "ticker": "NFLX",
+  "title": "Netflix Ads Suite Has Better Buying, Better Planning, Better Results - WebWire",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "0f53a9bbd99e7ec4": {
   "ticker": "NFLX",
@@ -17219,6 +17244,11 @@
   "title": "Jensen Huang Declares NVIDIA Can Win “in the Absence of Any AI Labs” - TIKR.com",
   "ts": "2026-10-19T16:30:00.379597+00:00"
  },
+ "2194695a3ddddce8": {
+  "ticker": "NVDA",
+  "title": "Abu Dhabi based Aleria to Deploy 3,000 NVIDIA Blackwell Ultra GPUs with DDN High-Performance Storage in Switzerland - EI",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "2195bfad8024e971": {
   "ticker": "NET",
   "title": "Cloudflare brings Asana, Box, Canva, GitHub, and more into Cloudflare OS, its AI workspace for enterprises - Tech Critte",
@@ -18108,6 +18138,11 @@
   "ticker": "MACRO",
   "title": "Copper hits 10-day low on profit-taking as supply worries ease - The Economic Times",
   "ts": "2026-10-15T17:11:12.184875+00:00"
+ },
+ "236f0906c3088de9": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Releases GeForce 621.01 Driver with Phantom Blade Zero and Modern Warfare 4 Support - GameGPU",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "237356f8e8ff4431": {
   "ticker": "LITE",
@@ -19208,6 +19243,11 @@
   "ticker": "NVDA",
   "title": "英伟达CEO黄仁勋：人工智能不只是软件技术。",
   "ts": "2026-10-21T09:14:35.850721+00:00"
+ },
+ "25a1b53e57c01359": {
+  "ticker": "APP",
+  "title": "AppLovin vs. Pinterest: Which Stock Is a Better Buy in 2026? - The Motley Fool",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "25a2c59494c101bb": {
   "ticker": "NFLX",
@@ -24658,6 +24698,11 @@
   "ticker": "NVDA",
   "title": "ASUS ProArt P16 brings NVIDIA RTX Spark and up to 128GB memory to Singapore - Tech Edition",
   "ts": "2026-10-16T12:01:44.011388+00:00"
+ },
+ "309370ecf9fac893": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang sends in the robot ducks to sell Nvidia's AI-everywhere vision - The Register",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "30944499365c70c2": {
   "ticker": "MACRO",
@@ -34944,6 +34989,11 @@
   "title": "Netflix November 2026 Schedule Announced - Vital Thrills",
   "ts": "2026-10-21T15:01:15.228412+00:00"
  },
+ "44fc17a58d25f58f": {
+  "ticker": "SPCX",
+  "title": "Space stocks rally as SpaceX's strong Q3 results boost Intuitive Machines, Redwire, and Planet Labs. - Pluang",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "450372aac3a17e72": {
   "ticker": "SMCI",
   "title": "Super Micro reports Q1 2027 revenue guidance of $18.5–19.5 billion, exceeding expectations. - KuCoin",
@@ -36768,6 +36818,11 @@
   "ticker": "NVDA",
   "title": "Dan Ives Says 'Buy the Dip' in Nvidia Stock After Brutal Sell-Of - GuruFocus",
   "ts": "2026-10-16T17:05:47.058165+00:00"
+ },
+ "4895084f7eb614fa": {
+  "ticker": "SPCX",
+  "title": "Wall Street opens in green as SpaceX earnings lift investor confidence - TradingView",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "48958bc25c978505": {
   "ticker": "SPCX",
@@ -42178,6 +42233,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation - Cryptonews.net",
   "ts": "2026-10-14T19:03:49.996414+00:00"
+ },
+ "52fa9278c7e897e8": {
+  "ticker": "NFLX",
+  "title": "Wall Street drifts as SpaceX climbs and Netflix falls - WPLG Local 10",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "52fe297b8ed07aca": {
   "ticker": "SPCX",
@@ -48109,6 +48169,11 @@
   "title": "UK CPI set to accelerate, paving the way for a BoE interest rate hike in November - www.tmgm.com",
   "ts": "2026-10-21T05:04:43.395094+00:00"
  },
+ "5e88eca3e319648a": {
+  "ticker": "SMCI",
+  "title": "Nasdaq leads gains as SpaceX, Super Micro results improve AI appetite - Reuters",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "5e89368abc6d0fbd": {
   "ticker": "NFLX",
   "title": "Estrenos en streaming del 12 al 18 de octubre de 2026: 14 series y películas en Netflix, Disney+, HBO Max, Prime Video y",
@@ -49323,6 +49388,11 @@
   "ticker": "MACRO",
   "title": "5 reasons why markets are rallying today: Sensex up 1,000 points, Nifty above 22,900 - The Financial Express",
   "ts": "2026-10-15T06:37:48.485305+00:00"
+ },
+ "60e1544675a19ec4": {
+  "ticker": "MACRO",
+  "title": "British Pound Technical Outlook: GBP/USD Bulls Fight to Stabilize at Critical Support - StoneX",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "60e20681649c321b": {
   "ticker": "NFLX",
@@ -51884,6 +51954,11 @@
   "title": "Elon Musk makes an odd new promise about the Tesla Roadster - Yahoo Finance",
   "ts": "2026-10-18T20:45:21.034717+00:00"
  },
+ "660ce6bf4239dcce": {
+  "ticker": "TSLA",
+  "title": "Stocks Higher as SpaceX Hints at Tesla Deal Talks - WSJ",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "660d4ea0144c184b": {
   "ticker": "GLW",
   "title": "NHC Commissioners approve incentive for Corning Inc. to expand in Wilmington - WECT | TV6",
@@ -53408,6 +53483,11 @@
   "ticker": "MACRO",
   "title": "German envoy for stronger economic ties with Pakistan - Business Recorder",
   "ts": "2026-10-20T02:59:55.639686+00:00"
+ },
+ "68c25145674e1c29": {
+  "ticker": "NFLX",
+  "title": "‘Insidious,’ ‘Smile,’ and ‘Resident Evil’ Keep Halloween Going on Netflix This November - Dread Central",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "68c5e515c534ad7e": {
   "ticker": "SPCX",
@@ -70629,6 +70709,11 @@
   "title": "标普500指数E-mini期货和纳斯达克100指数期货跌幅扩大，最新分别下跌0.25%和0.66%。",
   "ts": "2026-10-20T12:07:37.502568+00:00"
  },
+ "8b5503c3f099ed5a": {
+  "ticker": "SPCX",
+  "title": "Space Stocks Gain After SpaceX Reports Surging Revenue - Moomoo",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "8b586e172ba19312": {
   "ticker": "NFLX",
   "title": "Netflix Replaces Bela Bajaria, Names Ex-Disney TV Chair Rice Chief Content Officer - News India Times",
@@ -76859,6 +76944,11 @@
   "title": "US import prices increase; post largest annual gain in more than four years - Business Recorder",
   "ts": "2026-10-18T01:07:01.838096+00:00"
  },
+ "97471dda2f0bfebe": {
+  "ticker": "AMD",
+  "title": "Why is Advanced Micro Devices stock climbing today? By Investing.com - Investing.com Australia",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "974b06219969c271": {
   "ticker": "TSLA",
   "title": "Elon Musk Says Tesla–SpaceX Merger Is Under Consideration - News of Bahrain",
@@ -81667,6 +81757,11 @@
   "ticker": "NVDA",
   "title": "“I sold Nvidia Corporation (Nvidia) after a 300% return”: Why Nam Bo-ra’s confession drew sighs - 파이낸셜뉴스",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "a0bc51d058582c7d": {
+  "ticker": "MU",
+  "title": "BROADCOM GAINS 1%, MARVELL UP 3.3%, MICRON UP 3.5% - Moomoo",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "a0bea606cee71a37": {
   "ticker": "MACRO",
@@ -87823,6 +87918,11 @@
   "title": "SpaceX Q3FY26 Results: Analysts eye $12.94 billion revenue and 16c profit - scanx.trade",
   "ts": "2026-10-19T20:34:53.768422+00:00"
  },
+ "ad45d6873d4e186c": {
+  "ticker": "NVDA",
+  "title": "Schneider Electric Teams With Nvidia, HPE on Industrial AI - Advanced Manufacturing",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "ad46d91c33138e07": {
   "ticker": "IONQ",
   "title": "Why IonQ Stock Just Crashed - The Globe and Mail",
@@ -88092,6 +88192,11 @@
   "ticker": "SPCX",
   "title": "SpaceX stock rises as revenue jumps 161% on AI and Starlink growth - Invezz",
   "ts": "2026-10-20T21:09:14.799678+00:00"
+ },
+ "adbe71296f73660a": {
+  "ticker": "AAPL",
+  "title": "苹果(AAPL.O)涨超1%，触及盘中高点。",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "adbe9536e12c9c4f": {
   "ticker": "SMCI",
@@ -89097,6 +89202,11 @@
   "ticker": "AAPL",
   "title": "Form 4 Apple Inc: Kevan Parekh (Senior Vice President, CFO) For: 15 October - Investing.com Canada",
   "ts": "2026-10-19T23:12:53.517952+00:00"
+ },
+ "afbf68929f792287": {
+  "ticker": "NFLX",
+  "title": "Jamie Dornan’s new Netflix thriller could spell trouble for Harlan Coben’s The Woods - Netflix Life",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "afc2fdce474109c0": {
   "ticker": "MACRO",
@@ -93318,6 +93428,11 @@
   "title": "Rocket Lab Just Delayed Its Big New Rocket to 2027. The Stock Is Down 10% After Hours - Yahoo Finance",
   "ts": "2026-10-15T13:18:37.705575+00:00"
  },
+ "b7e3cb13cecfc305": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Inc. Earnings Report Preview: Mixed Signals Ahead of October Release - SSBCrack",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "b7e3f01468d8db61": {
   "ticker": "MACRO",
   "title": "MDAX closes 1.5 percent higher as Nordex leads - ad-hoc-news.de",
@@ -95227,6 +95342,11 @@
   "ticker": "NFLX",
   "title": "U2 to headline Netflix’s first NFL Thanksgiving Eve Halftime show - The News International",
   "ts": "2026-10-20T13:45:20.581854+00:00"
+ },
+ "bb7786513a83ea67": {
+  "ticker": "NFLX",
+  "title": "‘My Brilliant Career’ Star Philippa Northeast Replaces Quintessa Swindell in Netflix Drama ‘Feral’ (EXCLUSIVE) - Variety",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "bb785819aaf8b237": {
   "ticker": "MACRO",
@@ -114823,6 +114943,11 @@
   "title": "Streaming, October 19: Content expiring on Netflix, Prime Video, and other platforms - Napolike.com",
   "ts": "2026-10-19T10:12:56.833874+00:00"
  },
+ "e19b0714d95a1354": {
+  "ticker": "LITE",
+  "title": "Total operating expenses of Lumentum Holdings Inc. Shs Canadian Depositary Receipt Repr Shs Reg S – TSX:LUME - TradingVi",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "e19d2f2535b4e73f": {
   "ticker": "NFLX",
   "title": "Warning! Netflix Has Tainted the Beloved Narnia Story in Upcoming Film - American Family Association",
@@ -119943,6 +120068,11 @@
   "title": "Brent Crude Could Hit $140 In 2027 Amid Gulf Supply Risks, Extreme Weather: Report - Times Now",
   "ts": "2026-10-21T07:25:10.399198+00:00"
  },
+ "ec5ed11da87b2c5f": {
+  "ticker": "SPCX",
+  "title": "Why Did SpaceX Stock Soar Today? - AOL.com",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "ec5f4b6b4b93573c": {
   "ticker": "NFLX",
   "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go fre",
@@ -120042,6 +120172,11 @@
   "ticker": "MACRO",
   "title": "Gold falls on US inflation fears - The Express Tribune",
   "ts": "2026-10-15T00:08:24.414745+00:00"
+ },
+ "ec9a3755ad278e81": {
+  "ticker": "SMCI",
+  "title": "Nasdaq rises as SpaceX, Super Micro boost AI appetite - Hunter Valley News",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "ec9cb8b74156170d": {
   "ticker": "TSM",
@@ -121823,6 +121958,11 @@
   "title": "Netflix stock drops 3% as Peter Rice takes over content amid layoffs and growth concerns - Pluang",
   "ts": "2026-10-16T15:28:35.914466+00:00"
  },
+ "effa0895cd5309f8": {
+  "ticker": "COHR",
+  "title": "Total revenue of Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S – NEO:COHR - TradingView",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
+ },
  "effa38eb20c49712": {
   "ticker": "NVDA",
   "title": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com - Investing.com India",
@@ -123087,6 +123227,11 @@
   "ticker": "SPCX",
   "title": "Analysts Raise SpaceX Targets Ahead of Third Quarter Earnings - SuaraGarut.ID",
   "ts": "2026-10-19T11:01:07.790039+00:00"
+ },
+ "f2825edf0101ec29": {
+  "ticker": "NFLX",
+  "title": "Taylor Sheridan’s Record-Breaking Western Is Getting a Surprising New Life on Netflix - Collider",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "f28a530fbdae01b7": {
   "ticker": "NFLX",
@@ -129107,6 +129252,11 @@
   "ticker": "MU",
   "title": "Semiconductor Index Slides for Second Day; Nvidia Down 1.8%, Micron Rebounds - BigGo Finance",
   "ts": "2026-10-15T22:29:02.303234+00:00"
+ },
+ "fe8cd8d4f2e88af7": {
+  "ticker": "COHR",
+  "title": "Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S Revenue Breakdown – NEO:COHR - TradingView",
+  "ts": "2026-10-21T15:07:32.139708+00:00"
  },
  "fe8cf9fb200f1f23": {
   "ticker": "MACRO",
