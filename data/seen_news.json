@@ -2389,6 +2389,11 @@
   "title": "Tankers, Talk and Trade-offs: Interest Rate Drivers - TD Economics",
   "ts": "2026-10-20T19:26:05.995342+00:00"
  },
+ "04043700f5c1fb5a": {
+  "ticker": "TSLA",
+  "title": "TSLA, SPCX Slip Overnight: Musk Reportedly Pushes Merger Before Trump’s Exit — ARK Sees Tesla Holders ‘5x Better Off’ By",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "0406813f151679bf": {
   "ticker": "NVDA",
   "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations - HPCwire",
@@ -23354,6 +23359,11 @@
   "title": "‘Below’ tops Netflix’s global Top 10 as props from hit show draw attention - ntv.ca",
   "ts": "2026-10-14T22:52:27.022279+00:00"
  },
+ "29ddfc77d1a86620": {
+  "ticker": "MU",
+  "title": "Micron skips 4F² for 3D DRAM as CXMT pushes ahead - digitimes",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "29e1e94aab3d9162": {
   "ticker": "NVDA",
   "title": "NVIDIA Is Finally “Too Big to Fail.” Here’s Why Meta and Google Aren’t. - Yahoo Finance",
@@ -29558,6 +29568,11 @@
   "ticker": "PLTR",
   "title": "Cathie Wood trims Palantir to buy this AI stock after a brutal 16% crash - Invezz",
   "ts": "2026-10-15T09:20:46.577697+00:00"
+ },
+ "35180bec4b99e556": {
+  "ticker": "TSLA",
+  "title": "TSLA, SPCX Slip Overnight: Musk Reportedly Pushes Merger Before Trump’s Exit — ARK Sees Tesla Holders ‘5x Better Off’ By",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "3518dbc4884bdbdc": {
   "ticker": "NVDA",
@@ -42879,6 +42894,11 @@
   "title": "Elon Musk Announces Plan to Give One SpaceX Share to Every Child in America in 2027; Stock Gift Could Be Worth Over $10 ",
   "ts": "2026-10-19T08:42:35.011425+00:00"
  },
+ "4d6b9237eadbefc6": {
+  "ticker": "NVDA",
+  "title": "Nvidia's DGX Spark can now join forces with seven others to deliver 1 TB of memory - Notebookcheck",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "4d6eaba6a87a52ae": {
   "ticker": "NFLX",
   "title": "Casting Alert: ‘Freefall,’ Netflix’s ‘Temptation Island,’ and More Seek Talent! - Casting Networks",
@@ -51713,6 +51733,11 @@
   "ticker": "TSLA",
   "title": "Tesla-SpaceX deal: Wall St says inevitable but Musk says it's not certain - Yahoo! Finance Canada",
   "ts": "2026-10-21T10:50:58.271047+00:00"
+ },
+ "5ccec658958523f5": {
+  "ticker": "SPCX",
+  "title": "Tesla Stock Dips 3.3% Amid Flat Q3 Revenue and SpaceX Merger Wariness - Coinpedia",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "5cd5de6a3a4fe45f": {
   "ticker": "P",
@@ -61458,6 +61483,11 @@
   "ticker": "NFLX",
   "title": "Netflix faces questions on user engagement ahead of third-quarter report - Reuters",
   "ts": "2026-10-19T10:30:50.251557+00:00"
+ },
+ "6de3ca73a54bbb03": {
+  "ticker": "TSLA",
+  "title": "Tesla's Q3 Order Backlog Hits Four-Year High as Musk Reaffirms 5 Million Vehicle Target by 2030, But Capex Cut 20% - Big",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "6de4e5f3cd20fe4e": {
   "ticker": "NVDA",
@@ -101478,6 +101508,11 @@
   "title": "Current price of oil as of Oct. 16, 2026 - Fortune",
   "ts": "2026-10-16T12:14:04.703883+00:00"
  },
+ "b60897d3270c78d2": {
+  "ticker": "SMCI",
+  "title": "US Equity Markets End Higher Amid Rally Led by SpaceX, Super Micro Following Better-Than-Expected Quarterly Results - Bi",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "b6092dac53313919": {
   "ticker": "MACRO",
   "title": "U.S. Treasury yields decline as investors await fresh economic data - Traders Union",
@@ -105518,6 +105553,11 @@
   "title": "Hewlett Packard Enterprise Falls 5% as AI Financing Worries Extend Hardware Selloff; Super Micro Sinks 7%, Dell Drops 3%",
   "ts": "2026-10-16T16:04:57.080955+00:00"
  },
+ "bd1004e7c064ceaa": {
+  "ticker": "TSLA",
+  "title": "Tesla Delays Unsupervised FSD to Q2 2027, Robotaxi-Only - https://tech-insider.org/",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "bd11ca4703d14c33": {
   "ticker": "AAPL",
   "title": "Apple Stock And AI Demand Are Shaping US Tech Watchlists - Simply Wall Street",
@@ -107942,6 +107982,11 @@
   "ticker": "NVDA",
   "title": "Nvidia expands supply chain capacity with multiple partners - Investing.com",
   "ts": "2026-10-21T10:44:57.608606+00:00"
+ },
+ "c17a0ec2247cd116": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Stall Near Multi-Month Highs as Ukraine Peace Talks Offset Hormuz Attacks - BigGo Finance",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "c17ce879616e8006": {
   "ticker": "PLTR",
@@ -113677,6 +113722,11 @@
   "ticker": "MACRO",
   "title": "Stock Market Today: AI Selloff Sends Wall Street to Worst Week Since June - Eurasia Business News",
   "ts": "2026-10-17T19:53:41.014287+00:00"
+ },
+ "cb8c69bb5e94f2ff": {
+  "ticker": "NVDA",
+  "title": "Nvidia lines up six suppliers to expand substrate, packaging, and testing capacity - digitimes",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "cb8d857d3df20521": {
   "ticker": "NFLX",
@@ -132528,6 +132578,11 @@
   "title": "ByteDance, Alibaba, Tencent order over $35 billion in Nvidia chips, but supply may fall short - Moneycontrol.com",
   "ts": "2026-10-20T12:50:47.803684+00:00"
  },
+ "ed9e8e0aeefc1cbb": {
+  "ticker": "TSLA",
+  "title": "Tesla Stock Drops After Earnings as Gary Black Says CFO Vaibhav Taneja ‘Didn't Help Matters,' While Bulls - Benzinga",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "ed9f21751836f840": {
   "ticker": "NVDA",
   "title": "Why Nvidia, AMD and Intel stocks are surging up to 2% in premarket today - Invezz",
@@ -135878,6 +135933,11 @@
   "title": "Nvidia (NVDA) Expands Nemotron As $4 Billion Texas Supply Push Meets Customer Debt Stress - Yahoo Finance",
   "ts": "2026-10-16T15:28:35.914466+00:00"
  },
+ "f40a8504d7af8a18": {
+  "ticker": "MACRO",
+  "title": "Gold eases as investors await Fed signals on rate path - The Economic Times",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
+ },
  "f40b978789e1506e": {
   "ticker": "GOOGL",
   "title": "Alphabet's Waymo plans first Canada robotaxi service in Toronto in 2028 - Reuters",
@@ -136382,6 +136442,11 @@
   "ticker": "MACRO",
   "title": "US Dollar Bulls Got Everything They Wanted. Except a Rally. - FOREX.com",
   "ts": "2026-10-15T01:41:39.242860+00:00"
+ },
+ "f4ee28b16be42af2": {
+  "ticker": "NVDA",
+  "title": "Nvidia brings accelerated computing to telecom networks for AI applications - Communications Today",
+  "ts": "2026-10-22T02:05:42.897376+00:00"
  },
  "f4ee7c9fd55f48f0": {
   "ticker": "MACRO",
