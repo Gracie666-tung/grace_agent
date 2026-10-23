@@ -1799,6 +1799,11 @@
   "title": "WEEKLY FUEL REPORT - KBOE Radio",
   "ts": "2026-10-15T10:42:31.714689+00:00"
  },
+ "021f9f44cff0a440": {
+  "ticker": "NVDA",
+  "title": "Iran Threatens U.S. Blackout After Trump's Hormuz Threat; Amazon, Google & Nvidia On Notice - The Times of India",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "0221e286f21709e0": {
   "ticker": "NVDA",
   "title": "Leaker believes NVIDIA GeForce RTX 6060 may not arrive until 2029 - VideoCardz.com",
@@ -12359,6 +12364,11 @@
   "title": "NVIDIA RTX 5090 Discontinued? Cards Vanish From Stores - EGW News",
   "ts": "2026-10-17T11:19:51.185584+00:00"
  },
+ "10bc81e4e674ad0f": {
+  "ticker": "NFLX",
+  "title": "Netflix - Netflix",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "10bc99df16b96767": {
   "ticker": "NFLX",
   "title": "Netflix has an unusual problem: People won’t cancel, but they’re watching less. The company claims the industry’s lowest",
@@ -15778,6 +15788,11 @@
   "ticker": "MACRO",
   "title": "Market News Today Australia: Gold Rallies, Oil Climbs as US Inflation Surges - Mitrade",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "158944a75ccf9d6f": {
+  "ticker": "SPCX",
+  "title": "SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price - The Globe and Mail",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "158a8a05791a0df2": {
   "ticker": "SPCX",
@@ -22469,6 +22484,11 @@
   "title": "Global tech rout loses steam - WTAQ",
   "ts": "2026-10-15T21:28:33.753026+00:00"
  },
+ "1f12ec96d5c30a60": {
+  "ticker": "NFLX",
+  "title": "8 Best New Movies and Shows to Stream This Weekend on Netflix, HBO Max and More - IMDb",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "1f138925062d34a1": {
   "ticker": "NVDA",
   "title": "NVIDIA Cuts AI Factory Deployment to 14 Days With DSX POD at GTC Berlin - Tech Times",
@@ -24118,6 +24138,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Q3 Earnings Countdown: 5 Debates to Watch - Benzinga",
   "ts": "2026-10-16T15:58:55.978201+00:00"
+ },
+ "217e61e71a2e6fb9": {
+  "ticker": "NFLX",
+  "title": "3 Best Movies To Watch On Netflix This Weekend (#1 Is Chris Evans' New R-Rated Thriller) - ScreenRant",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "218027ea6cfe9732": {
   "ticker": "MACRO",
@@ -54519,6 +54544,11 @@
   "title": "Trump's Oil Price Strategy Faces Two Major Tests This Weekend - Crude Oil Prices Today | OilPrice.com",
   "ts": "2026-10-16T14:15:36.706433+00:00"
  },
+ "4ce322643dbbdf2e": {
+  "ticker": "NFLX",
+  "title": "OTT releases this weekend: Gajab Raat, Nobody Wants This Season 3, The Paradise and more on Netflix, Prime Video - Livem",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "4ce6fc4c549ee42b": {
   "ticker": "TSM",
   "title": "Taiwan Semiconductor Manufacturing: 3 Key Takeaways for Long-Term Investors - The Globe and Mail",
@@ -71309,6 +71339,11 @@
   "title": "Vertiv Targets Up to 30% More Cumulative AI Token Output in First 12 Months Using NVIDIA DSX, Polar Deploys Approach at ",
   "ts": "2026-10-21T11:51:24.303505+00:00"
  },
+ "642dda10b5939aaf": {
+  "ticker": "SMMT",
+  "title": "Summit Therapeutics partners with Lunit on AI pathology research By Investing.com - Investing.com India",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "642e78e70728211a": {
   "ticker": "NVDA",
   "title": "NVIDIA Nemotron 3.5 Super VL vs InternLumina U2: one reads everything, one reads and draws - OrcaRouter",
@@ -74268,6 +74303,11 @@
   "ticker": "NVDA",
   "title": "Nvidia's RTX Spark Laptops Impress on AI Tasks, Falter on Gaming - BigGo Finance",
   "ts": "2026-10-16T19:51:44.936995+00:00"
+ },
+ "684035557997d6ba": {
+  "ticker": "NFLX",
+  "title": "‘The Mosquito Bowl’ Review: Nicholas Galitzine and Bill Skarsgard in Peter Berg’s Technically Impressive, Emotionally Ho",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "68406e798f1a6ea1": {
   "ticker": "MACRO",
@@ -85114,6 +85154,11 @@
   "title": "Gold slides as safe-haven demand shifts to US Treasuries despite lower yields - www.tmgm.com",
   "ts": "2026-10-22T21:40:57.367222+00:00"
  },
+ "779c175b6c81bd78": {
+  "ticker": "SPCX",
+  "title": "US telecom operators wobble after report SpaceX in talks for cell sites - WDEZ",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "779e1e0299c482cf": {
   "ticker": "TSLA",
   "title": "Tesla unveils next-gen Roadster, but shares nee... - Pluang",
@@ -86744,6 +86789,11 @@
   "title": "‘The Diplomat’ Season 4 Leads 41 New Releases on Netflix UK This Week - IMDb",
   "ts": "2026-10-16T12:14:04.703883+00:00"
  },
+ "7a1ade682e090ac1": {
+  "ticker": "NVDA",
+  "title": "CrowdStrike Jumps As Nvidia AI Security Deal Lifts Outlook - Timothy Sykes",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "7a1d0622115082fb": {
   "ticker": "SPCX",
   "title": "Elon Musk pledges one SpaceX share to every kid in America - News24",
@@ -87538,6 +87588,11 @@
   "ticker": "NVDA",
   "title": "Nvidia stock pre-market at EUR 191.06: GPU computing group trades - AD HOC NEWS",
   "ts": "2026-10-23T07:15:49.457138+00:00"
+ },
+ "7b4164073eb7839a": {
+  "ticker": "MACRO",
+  "title": "Treasury Yields Snapshot: October 23, 2026 - Advisor Perspectives",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "7b42dfe9a2296dd0": {
   "ticker": "NFLX",
@@ -92809,6 +92864,11 @@
   "title": "Yield On ‘The Most Important Financial Asset In The World’ Forecast To Stay High Through 2026 - Investopedia",
   "ts": "2026-10-20T19:50:17.617104+00:00"
  },
+ "82fbbe25c99e30a0": {
+  "ticker": "TSLA",
+  "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He’s Staying Out Of - Decrypt",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "82fc1423f807fbd8": {
   "ticker": "NFLX",
   "title": "What to Watch on Netflix: October 16, 2026 | Nobody Wants This to Sacrifice - IMDb",
@@ -93073,6 +93133,11 @@
   "ticker": "SPCX",
   "title": "SpaceX plans $400B compute expansion to lead AI superintelligence race, says Altimeter's Gerstner - Pluang",
   "ts": "2026-10-22T17:31:15.916751+00:00"
+ },
+ "835d4fd6c42b97e0": {
+  "ticker": "NVDA",
+  "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years - The Motley Fool",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "8361d53acaa45a4a": {
   "ticker": "TSLA",
@@ -95003,6 +95068,11 @@
   "ticker": "MACRO",
   "title": "Asian Stocks Plunge on AI Skepticism; KOSPI Tumbles 4%, SK Hynix Sinks 7% - BigGo Finance",
   "ts": "2026-10-20T02:47:37.121995+00:00"
+ },
+ "8601f9b7aeca8f1a": {
+  "ticker": "MACRO",
+  "title": "【对冲基金看空欧元押注升至2020年3月以来最高】金十数据10月24日讯，截至10月20日当周，杠杆基金持有的欧元净空头头寸增加1305份合约，达到9.41万份，为2020年3月以来最高水平，对应看空押注约118亿欧元。法国政局动荡、债务压",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "86038e7f1b0da5b5": {
   "ticker": "NVDA",
@@ -99298,6 +99368,11 @@
   "ticker": "NVDA",
   "title": "CrowdStrike stock rises on expanded NVIDIA AI security partnership - Yahoo Finance Singapore",
   "ts": "2026-10-21T12:27:57.529551+00:00"
+ },
+ "8c03e9d29aa1cbd0": {
+  "ticker": "NVDA",
+  "title": "inDrive et Pony.ai annoncent une collaboration visant à explorer la mobilité autonome au Kazakhstan, en s’appuyant sur l",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "8c05d4959fa8bbfb": {
   "ticker": "NFLX",
@@ -112618,6 +112693,11 @@
   "ticker": "NFLX",
   "title": "Netflix, hoichoi announce partnership; 14 Bengali titles to stream in multiple languages - Moneycontrol.com",
   "ts": "2026-10-22T06:30:43.770094+00:00"
+ },
+ "9eb90377e41c6569": {
+  "ticker": "NVDA",
+  "title": "Containerized AI Data Centers Emerge: Nvidia Accelerates European Expansion : Global : JKN - 재경일보",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "9ebd6ad43c6d5bfa": {
   "ticker": "RKLB",
@@ -130542,6 +130622,11 @@
   "ticker": "NFLX",
   "title": "Let THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH Take You Back to 1977 - Netflix",
   "ts": "2026-10-21T17:04:04.697405+00:00"
+ },
+ "b85dff085e367565": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor (TSMC) Posted Record Profit and the Stock Still Fell. Here's What the Market Is Worried About. - Th",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "b85e1b0f298fa75e": {
   "ticker": "MACRO",
@@ -149293,6 +149378,11 @@
   "title": "Stop Clinging to the Magnificent Seven! Hedge Fund Veteran Bets on the \"Unmagnificent 493\" Brewing a Monster Bull Market",
   "ts": "2026-10-19T09:06:28.703752+00:00"
  },
+ "d25cb142a33bdbe1": {
+  "ticker": "MU",
+  "title": "Micron Bets on 3D DRAM Instead of Rivals' 4F Path - TradingView",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "d25ccc8527f97460": {
   "ticker": "TSLA",
   "title": "【美股开盘 存储板块全周低开】金十数据10月16日讯，美股开盘，道指涨0.35%，标普500指数涨0.1%，纳指跌0.23%。特斯拉涨1.6%，“会飞”的Roadster正式亮相。苹果涨1%，iPhone Duo开启预售即售罄。 存储板块本",
@@ -161573,6 +161663,11 @@
   "title": "英国央行货币政策委员格林：需进一步降低工资涨幅，才能实现CPI目标。",
   "ts": "2026-10-20T18:06:58.850668+00:00"
  },
+ "e385e4b623585c79": {
+  "ticker": "SPCX",
+  "title": "T-Mobile US falls 8% amid SpaceX competition concerns (TMUS:NASDAQ) - Seeking Alpha",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
+ },
  "e389c9a85182537d": {
   "ticker": "NFLX",
   "title": "Netflix (NFLX) Announces 6% Workforce Reduction Amid Strategic R - GuruFocus",
@@ -168407,6 +168502,11 @@
   "ticker": "MACRO",
   "title": "Treasury Haven Trade Bounces Back as Stocks Sink, Yields Entice - Bloomberg.com",
   "ts": "2026-10-15T10:42:31.714689+00:00"
+ },
+ "ed8159ebdb4ab8fb": {
+  "ticker": "NFLX",
+  "title": "Son Suk Ku and Eita Nagayama investigate cross-border serial murders in Netflix series 'The Blue Road,' premiering Novem",
+  "ts": "2026-10-23T20:48:39.460470+00:00"
  },
  "ed81bdffe3649e96": {
   "ticker": "MACRO",
