@@ -5099,6 +5099,11 @@
   "title": "US wholesale inflation surges to four-year high as energy prices remain elevated - Invezz",
   "ts": "2026-10-15T19:19:35.589975+00:00"
  },
+ "07313ff8e2f857b6": {
+  "ticker": "MU",
+  "title": "Micron stock falls 5%, why this analyst gave it a $3000 target price - Invezz",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "0731afd4ebb67523": {
   "ticker": "TSLA",
   "title": "A Potential Tesla-SpaceX Merger Could Create ‘Orbit-To-Ground’ AI Powerhouse With Over $1 Trillion In Chip Savings, Says",
@@ -31849,6 +31854,11 @@
   "title": "First Light News: Tech Cheer Fades & Oil Attempts to Regain Ground Above US$110 - FXEmpire",
   "ts": "2026-10-22T06:43:05.117618+00:00"
  },
+ "311c07292149a37a": {
+  "ticker": "MACRO",
+  "title": "1. 多家巨头出手，易方达、华夏、富国、汇添富基金各斥资2亿元自购。 2. 美股市场重新评估AI热潮的可持续性，纳指创6月以来最大跌幅。 3. 战争影响本国供应的情况下，卡塔尔同意向美国采购液化天然气至2054年。 4. 宜春市生态环境局发",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "312121c29d28b27c": {
   "ticker": "MU",
   "title": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2% - Livemint",
@@ -55423,6 +55433,11 @@
   "ticker": "TSM",
   "title": "What is lifting Taiwan Semiconductor (NYSE:TSM) as AI-chip orders accelerate? - Kalkine Media",
   "ts": "2026-10-22T20:28:14.547392+00:00"
+ },
+ "558fc57bb593efc7": {
+  "ticker": "MACRO",
+  "title": "日本10年期国债收益率下跌11.0个基点至2.770%。",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
  },
  "559209e70ee4e043": {
   "ticker": "NVDA",
@@ -81614,6 +81629,11 @@
   "title": "DC Studios Could Face Major Shake-Up Before Superman Sequel, All Because Of Netflix - SlashFilm",
   "ts": "2026-10-22T18:20:53.328910+00:00"
  },
+ "7e287069bf3064d7": {
+  "ticker": "NFLX",
+  "title": "Netflix Viewing Time Drops an Estimated 26%. A Bored Retiree Trades the Couch for a $40,000 Job That Could Boost His Soc",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "7e289186d629063f": {
   "ticker": "SMCI",
   "title": "Increased AI demand lifts Super Micro (SMCI) Q1 revenue estimate above guidance. - Stock Titan",
@@ -105397,6 +105417,11 @@
   "ticker": "APP",
   "title": "Bronstein, Gewirtz & Grossman LLC Urges AppLovin - GlobeNewswire",
   "ts": "2026-10-20T17:48:46.504533+00:00"
+ },
+ "a2a4e07532322802": {
+  "ticker": "MACRO",
+  "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - Global Banking & Finance Review",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
  },
  "a2a61e98643f05bd": {
   "ticker": "NFLX",
@@ -137613,6 +137638,11 @@
   "title": "Truist Books $1.45B Bond Loss, Then Sells LightStream to Carlyle - The Eastern Herald",
   "ts": "2026-10-17T03:36:26.879374+00:00"
  },
+ "d3fc2617bb3669c2": {
+  "ticker": "MACRO",
+  "title": "Japan inflation tops 2% for first time in 9 months. Is another rate hike coming? - Firstpost",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "d3fd1f6a2ae23d35": {
   "ticker": "TSLA",
   "title": "Elon Musk says SpaceX, Tesla exploring possible merger - Jagonews24",
@@ -160033,6 +160063,11 @@
   "title": "Musk Says SpaceX and Tesla Committees Are Weighing a Merger as SpaceX Revenue Jumps 161% - The South Shore Press",
   "ts": "2026-10-21T23:32:53.602508+00:00"
  },
+ "f6fc96a0cdcb0566": {
+  "ticker": "NFLX",
+  "title": "Nobody Wants This Season 3 Review: The Netflix Romcom Finds Its Spark Again - CultureCues",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "f7018970fd27835d": {
   "ticker": "PLTR",
   "title": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027. - The Globe and Mail",
@@ -162093,6 +162128,11 @@
   "title": "Netflix Renews Hit Drama Series After Almost 2 Years —With One Major Change - Men's Journal",
   "ts": "2026-10-19T11:07:06.188939+00:00"
  },
+ "fa6725deafc482d8": {
+  "ticker": "TSLA",
+  "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director - Yahoo Finance",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
+ },
  "fa6773a032eb0187": {
   "ticker": "MACRO",
   "title": "Stocks drop as Meta fans AI worries, Treasuries gain - شبكة تواصل الإخبارية",
@@ -163757,6 +163797,11 @@
   "ticker": "TSLA",
   "title": "Tesla earnings: margins, Cybercab, Optimus in focus as SpaceX merger talks intensify - Invezz",
   "ts": "2026-10-21T09:32:40.312082+00:00"
+ },
+ "fce8fe7c07dfff8d": {
+  "ticker": "SPCX",
+  "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director - BeInCrypto",
+  "ts": "2026-10-23T01:15:39.987520+00:00"
  },
  "fce9eefc3dba2e27": {
   "ticker": "MACRO",
