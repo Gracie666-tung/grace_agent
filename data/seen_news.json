@@ -6289,6 +6289,11 @@
   "title": "Illinois Unemployment Rate Falls to 4.6% for Third Straight Month - RiverBender.com",
   "ts": "2026-10-16T22:10:16.759929+00:00"
  },
+ "0834f24ce7e1a9f7": {
+  "ticker": "MACRO",
+  "title": "美国商品期货交易委员会（CFTC）：截至10月20日当周，WTI原油投机者净多头头寸增加311手，至110,930手。",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "0835bbc2e8695c99": {
   "ticker": "SNDK",
   "title": "SanDisk Stock Price Forecast: SNDK Plunges 15% in Five Days, Risks Further Drop Toward $1,000 Mark - TradingKey",
@@ -12313,6 +12318,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX 5090 Discontinued? Cards Vanish From Stores - EGW News",
   "ts": "2026-10-17T11:19:51.185584+00:00"
+ },
+ "10bc99df16b96767": {
+  "ticker": "NFLX",
+  "title": "Netflix has an unusual problem: People won’t cancel, but they’re watching less. The company claims the industry’s lowest",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "10bd4318ec173455": {
   "ticker": "NVDA",
@@ -20289,6 +20299,11 @@
   "title": "SSE Composite Slips to 3,797.24 as Mainland Selling Outweighs Regulator Support Pledge - BBN Times",
   "ts": "2026-10-16T04:26:38.577240+00:00"
  },
+ "1c1cb080e7d9979b": {
+  "ticker": "NFLX",
+  "title": "The Best Movies to Watch on Netflix Right Now (Oct. 23-30, 2026) - PCMag",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "1c1d38010d38b270": {
   "ticker": "TSLA",
   "title": "Ferrari's Forgotten 2018 Patent Just Stole The Tesla Roadster's Thunder - HotCars",
@@ -28113,6 +28128,11 @@
   "ticker": "NFLX",
   "title": "Atlantic Records announces official soundtrack for Netflix’s ‘Nobody Wants This’ season 3 - Inquirer.net",
   "ts": "2026-10-23T09:50:07.557386+00:00"
+ },
+ "2786b36fa01e9b0f": {
+  "ticker": "MACRO",
+  "title": "美国商品期货交易委员会（CFTC）：截至10月20日当周，CME标普500指数期货股票基金投机者净空头头寸减少42,221手，至348,674手。",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "27878adada7c1010": {
   "ticker": "MACRO",
@@ -36374,6 +36394,11 @@
   "title": "After Memory Duo's Share Prices Halved, P/E Ratios Sit at Just 2x; Bank of America Says the Cycle Isn't Over - BigGo Fin",
   "ts": "2026-10-20T07:28:25.296759+00:00"
  },
+ "336366b1806d4845": {
+  "ticker": "SPCX",
+  "title": "Not Starlink. Not Starship. Not Grok. $561 Million of SpaceX's $4.4 Billion Profit Came From an Unexpected Source. - The",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "33648f85cacf16c9": {
   "ticker": "NVDA",
   "title": "Zesty Launches Automated Fractional GPUs, Bringing Automation to NVIDIA CUDA-Native GPU Fractioning - Yahoo Finance",
@@ -40808,6 +40833,11 @@
   "ticker": "TSLA",
   "title": "SpaceX-Tesla Combination 'Extremely Tangible,' Ferragu Says - Moomoo",
   "ts": "2026-10-21T14:11:19.259534+00:00"
+ },
+ "398d0edd4517720e": {
+  "ticker": "SPCX",
+  "title": "Tesla, SpaceX form committees to discuss potential merger - Big News Network.com",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "398eabe3d653fe66": {
   "ticker": "NFLX",
@@ -46673,6 +46703,11 @@
   "ticker": "NFLX",
   "title": "Netflix to cut about 1,000 jobs amid slower growth - Inquirer.net",
   "ts": "2026-10-15T05:28:21.269952+00:00"
+ },
+ "41eddfd60a085402": {
+  "ticker": "MACRO",
+  "title": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill - Nikkei Asia",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "41eec54348abaf71": {
   "ticker": "SPCX",
@@ -59494,6 +59529,11 @@
   "title": "Could a $10,000 Investment in Micron Set You Up for Life? - AOL.com",
   "ts": "2026-10-23T12:53:06.409611+00:00"
  },
+ "544d0869de2a3c6b": {
+  "ticker": "CORT",
+  "title": "Why is Corcept Therapeutics stock tumbling today? By Investing.com - Investing.com Canada",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "544f5c9935b2eaa2": {
   "ticker": "MACRO",
   "title": "EUR/USD Analysis: Euro Loses Ground After a Stronger-Than-Expected U.S. CPI Report - FOREX.com",
@@ -62854,6 +62894,11 @@
   "title": "Option traders moderately bearish in Micron with shares down 6.15% - TipRanks",
   "ts": "2026-10-22T21:34:54.549589+00:00"
  },
+ "590e2a5acac2165f": {
+  "ticker": "MACRO",
+  "title": "【国际油价23日显著上涨】金十数据10月24日讯，国际油价23日显著上涨。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨3.80美元，收于每桶103.27美元，涨幅为3.82%；12月交货的伦敦布伦特原油期货价格上涨3.55美",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "59116d55910c4c90": {
   "ticker": "GOOGL",
   "title": "1. 10月LPR报价出炉：1年期和5年期以上利率均保持不变。 2. 央行：将在10月21日至11月2日开展隔夜逆回购操作，每日操作量不超过10000亿元。 3. 扩大常备借贷便利的适用机构范围等，央行公布系列措施。 4. 潘功胜：人民银行",
@@ -64978,6 +65023,11 @@
   "ticker": "NVDA",
   "title": "ByteDance, Alibaba, Tencent place over US$35 billion worth of Nvidia chip orders - The Standard (HK)",
   "ts": "2026-10-20T14:33:47.755710+00:00"
+ },
+ "5c14848f43bb43f4": {
+  "ticker": "NFLX",
+  "title": "Can Netflix (NASDAQ:NFLX) Stand Out as AI Worries Ripple Through Markets? - Kalkine Media",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "5c150cff0fce24ec": {
   "ticker": "TSLA",
@@ -82354,6 +82404,11 @@
   "title": "Canadian Dollar Technical Outlook: USD/CAD Five-Week Rally Sets Up Major Breakout Test - StoneX",
   "ts": "2026-10-15T14:50:06.490117+00:00"
  },
+ "7482e27f4eafb85c": {
+  "ticker": "NVDA",
+  "title": "RBC Just Downgraded Mobileye, Citing the Threat From Nvidia. What This Means for MBLY Stock. - Barchart.com",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "74850cb62c5b7d25": {
   "ticker": "TSLA",
   "title": "Tesla's new flying Roadster did exactly what Elon Musk said it would in a post 8 years ago - Business Insider",
@@ -88088,6 +88143,11 @@
   "ticker": "NVDA",
   "title": "Why Nvidia, AMD and Intel stocks are surging up to 2% in premarket today - Invezz",
   "ts": "2026-10-21T12:52:05.446833+00:00"
+ },
+ "7cd735f971976524": {
+  "ticker": "CORT",
+  "title": "Why is Corcept Therapeutics stock tumbling today? By Investing.com - Investing.com Australia",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "7cd73fc39bf2bb15": {
   "ticker": "TSLA",
@@ -95393,6 +95453,11 @@
   "ticker": "MACRO",
   "title": "Stock Market Dow Jumps as Treasury Yields: Explained - JournalArta",
   "ts": "2026-10-16T15:52:50.273032+00:00"
+ },
+ "875ed2eb7973564f": {
+  "ticker": "NFLX",
+  "title": "Tantara Netflix Release Date: Song Hye-kyo, Gong Yoo Dec. 11 : K-WAVE - Korea Portal (English Edition)",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "875ed66f9e67e5e1": {
   "ticker": "NVDA",
@@ -107299,6 +107364,11 @@
   "title": "Nvidia wins fast-growing AI startup Modal for new central processors By Reuters - Investing.com",
   "ts": "2026-10-19T17:19:06.890671+00:00"
  },
+ "97ff103a981b3407": {
+  "ticker": "MACRO",
+  "title": "US Dollar Price Action Setups: EUR/USD, USD/JPY, GBP/USD, USD/CAD - FOREX.com",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "9802661dc5a9012f": {
   "ticker": "MACRO",
   "title": "Oil Prices Diverge as Brent Slips and US Crude Gains More than 3% - Qatar news agency",
@@ -115497,6 +115567,11 @@
   "ticker": "TSM",
   "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Keeps Buy Rating at DA Davidson - MarketBeat",
   "ts": "2026-10-21T09:20:36.984717+00:00"
+ },
+ "a397fdb0fbaee9d6": {
+  "ticker": "SPCX",
+  "title": "SpaceX and Anthropic Could Rewrite the IPO Record — Here’s What It Means for Investors - Clark Howard",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "a39992942f57d453": {
   "ticker": "NFLX",
@@ -130157,6 +130232,11 @@
   "ticker": "NVDA",
   "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation - Bluefield Daily Telegraph",
   "ts": "2026-10-15T17:41:50.142713+00:00"
+ },
+ "b8cce598bd3e8d38": {
+  "ticker": "NFLX",
+  "title": "3 Best World War II Movies To Watch on Netflix This Weekend (Oct 24-25) - Collider",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "b8cd05455366fc59": {
   "ticker": "NVDA",
@@ -151508,6 +151588,11 @@
   "title": "Nvidia (NVDA) Is Trading Like Growth Will Stop. The Numbers Say Otherwise. - Insider Monkey",
   "ts": "2026-10-21T15:19:48.739007+00:00"
  },
+ "d667b368ec845422": {
+  "ticker": "MACRO",
+  "title": "Growth to remain strong despite inflation headwinds - www.rbc.com",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
+ },
  "d668c9e606c44117": {
   "ticker": "MACRO",
   "title": "Oil Prices Rise on U.S. Crude Draw, but Gasoline Stock Build Clouds Demand - FXEmpire",
@@ -155322,6 +155407,11 @@
   "ticker": "TSLA",
   "title": "Tesla Roadster: 3 Trims, Only 2 Street-Legal [2026] - https://tech-insider.org/",
   "ts": "2026-10-19T11:07:06.188939+00:00"
+ },
+ "dbf027779acb9975": {
+  "ticker": "SPCX",
+  "title": "Musk Blasts Ukraine Elites as Starlink Disrupts Drones - SpaceX (NASDAQ:SPCX) - Benzinga",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "dbf0c73d41163099": {
   "ticker": "NFLX",
@@ -168352,6 +168442,11 @@
   "ticker": "TSLA",
   "title": "Bitcoin advances as SpaceX, Tesla explore a merger holding 30,000 BTC: Crypto Markets Today - CoinDesk",
   "ts": "2026-10-21T11:15:07.952694+00:00"
+ },
+ "eed292c927769b8a": {
+  "ticker": "MACRO",
+  "title": "US Stock Market LIVE: Dow Jones Slips 600 Points, S&P 500 Falls 0.40% and Nasdaq Edges Lower as Oil Tops $117, Nvidia, I",
+  "ts": "2026-10-23T19:33:44.657376+00:00"
  },
  "eed5a43af0bcce3f": {
   "ticker": "COHR",
