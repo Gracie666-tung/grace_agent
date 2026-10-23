@@ -3719,6 +3719,11 @@
   "title": "Micron Technology stock announces supply-chain investment, rises pre-market - AD HOC NEWS",
   "ts": "2026-10-21T07:55:37.694288+00:00"
  },
+ "05034083b2600fc0": {
+  "ticker": "TSLA",
+  "title": "Tesla Gross Profit Beat: $1.2B Tariff Refund [2026] - tech-insider.org",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "05045580c12198ff": {
   "ticker": "TSLA",
   "title": "Wall Street Week Ahead - Earnings expectations: All eyes on Meta, Tesla, Netflix, and SpaceX; this survey also in focus ",
@@ -4468,6 +4473,11 @@
   "ticker": "TSM",
   "title": "China's CXMT Flags Up to Sevenfold Revenue Jump as Samsung Turns to TSMC for Next HBM - Seoul Economic Daily",
   "ts": "2026-10-19T01:27:45.399436+00:00"
+ },
+ "05c536f0fdfd4c8e": {
+  "ticker": "MACRO",
+  "title": "Germany to Tighten B1 Language Test Rules for Migrants From November 1 - Arbiterz",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "05c647afee44852f": {
   "ticker": "MACRO",
@@ -7723,6 +7733,11 @@
   "ticker": "MACRO",
   "title": "5 Things to Know Before the Stock Market Opens on Thursday - AOL.com",
   "ts": "2026-10-22T12:38:40.035015+00:00"
+ },
+ "0a76cfd0c2c7ec57": {
+  "ticker": "NVDA",
+  "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the Euro - FXStreet",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "0a7a1554d99133f4": {
   "ticker": "MACRO",
@@ -14329,6 +14344,11 @@
   "title": "Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend - Yahoo Finance Singapore",
   "ts": "2026-10-22T14:15:59.221165+00:00"
  },
+ "14308f71f8a1694f": {
+  "ticker": "NVDA",
+  "title": "King Apple is taking Wall Street’s top spot back from Nvidia — for the fifth time - Yahoo Finance",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "1433e890a3a0085c": {
   "ticker": "SPCX",
   "title": "Elon Musk promises to give away $10 billion in SpaceX stock in 2027 - Finbold",
@@ -15058,6 +15078,11 @@
   "ticker": "NVDA",
   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool - TechCrunch",
   "ts": "2026-10-19T20:16:25.640328+00:00"
+ },
+ "1559466ec7acec5f": {
+  "ticker": "MACRO",
+  "title": "US Equity Funds Post Inflows for a 2nd Straight Week - Newsmax",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "155b89e3869fdb63": {
   "ticker": "GOOGL",
@@ -16008,6 +16033,11 @@
   "ticker": "SPCX",
   "title": "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
   "ts": "2026-10-19T10:12:56.833874+00:00"
+ },
+ "16a7b8824744a958": {
+  "ticker": "NFLX",
+  "title": "\"A Nostalgic Cocktail of Sisterhood and the Sacredly Supernatural\": Netflix’s New Horror Series Is a Twisted Mix of Mean",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "16a800eb714d0107": {
   "ticker": "NFLX",
@@ -34764,6 +34794,11 @@
   "title": "Oil News: WTI Rallies on U.S. Draw as Brent Stalls on Shadow Fleet Talk - FXEmpire",
   "ts": "2026-10-15T20:33:34.862392+00:00"
  },
+ "328cd9868b31f512": {
+  "ticker": "NFLX",
+  "title": "The Gentlemen season 3 cast adds Once Upon a Time and Lord of the Rings stars - Netflix Life",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "328d434ca96f264b": {
   "ticker": "TSLA",
   "title": "Tesla's Cybercab robotaxi fleet in Austin grows eightfold to 300+ vehicles, with Dallas expansion planned. - Pluang",
@@ -36693,6 +36728,11 @@
   "ticker": "NFLX",
   "title": "Download shows from Netflix, Hulu, and more with this $100 lifetime tool - Mashable",
   "ts": "2026-10-20T21:09:14.799678+00:00"
+ },
+ "3571fca5e2eb3917": {
+  "ticker": "NFLX",
+  "title": "'Beat Luke Littler' Backlash: Netflix’s “Amateur” Darts Event Features 12 Ranked PDC Players - What's on Netflix",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "35725fbe4e9c075a": {
   "ticker": "NFLX",
@@ -42208,6 +42248,11 @@
   "ticker": "AAOI",
   "title": "Applied Optoelectronics Cratered 50% Over 6 Months: It’s Going to Triple According to 2 Wall Street Pros - Yahoo Finance",
   "ts": "2026-10-21T17:04:04.697405+00:00"
+ },
+ "3d612bc779590930": {
+  "ticker": "MACRO",
+  "title": "Brent crude hits more than five-month high on concern over Middle East escalation - Investify",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "3d64dd27f2f08efc": {
   "ticker": "IONQ",
@@ -48729,6 +48774,11 @@
   "title": "Flint Hills restarts Minnesota refinery coker after repairs - Quantum Commodity Intelligence",
   "ts": "2026-10-22T20:34:19.017609+00:00"
  },
+ "4725964bcac2d07f": {
+  "ticker": "TSLA",
+  "title": "Tesla’s Mysterious Profit Beat Is Solved. A Tariff Refund Boosted Margins. - Barron's",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "4728208078a01105": {
   "ticker": "SPCX",
   "title": "SpaceX (NASDAQ:SPCX) Stock Rating Reaffirmed as \"Buy\" by Needham & Company LLC - MarketBeat",
@@ -52128,6 +52178,11 @@
   "ticker": "TSLA",
   "title": "Tesla and SpaceX Are Trading Like a Merger Is Coming - Inc.com",
   "ts": "2026-10-22T11:38:09.902460+00:00"
+ },
+ "4c25c9a245c2b9b9": {
+  "ticker": "GOOGL",
+  "title": "Pre-Q3 Earnings: Is Alphabet Stock a Portfolio Must-Have? - Yahoo Finance",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "4c266f45f046a1a9": {
   "ticker": "SPCX",
@@ -75449,6 +75504,11 @@
   "title": "Bridgerton Season 5's Return Timeline On Netflix Gets Major New Update From Star - IMDb",
   "ts": "2026-10-21T23:44:55.206502+00:00"
  },
+ "6d88f97c489e8d4b": {
+  "ticker": "NFLX",
+  "title": "Netflix Ad Subs Rise, Time Spent Does Not 10/23/2026 - MediaPost",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "6d88fec42823887d": {
   "ticker": "MACRO",
   "title": "Euro zone bond yields rise as French borrowing costs hit 24-year high - Yahoo Finance",
@@ -93099,6 +93159,11 @@
   "title": "Micron unveils global profit-linked bonus plan after Taiwan union pressure - Devdiscourse",
   "ts": "2026-10-22T15:29:13.258966+00:00"
  },
+ "880853e07c90fd29": {
+  "ticker": "NVDA",
+  "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA - Yahoo! Finance Canada",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "8808b8ed2161a408": {
   "ticker": "NFLX",
   "title": "The Juicy True Story Behind the Nobody Wants This Proposal - Netflix",
@@ -98328,6 +98393,11 @@
   "ticker": "SPCX",
   "title": "据美国财经媒体Semafor：SpaceX(SPCX.O)评级较低的债券发行利率约为8.3%。",
   "ts": "2026-10-22T20:16:08.458133+00:00"
+ },
+ "8f78ec0cc242cebd": {
+  "ticker": "NVDA",
+  "title": "2026-10-23 | Newegg Now Offers NVIDIA RTX Spark Laptops in the U.S. and Canada | NDAQ:NEGG | Press Release - Stockhouse",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "8f7c0669d3bc45a3": {
   "ticker": "MACRO",
@@ -111173,6 +111243,11 @@
   "title": "Intel and AMD Rise 4% as JPMorgan Upgrades Intel After Steep Pullback; NVIDIA Edges Higher - 24/7 Wall St.",
   "ts": "2026-10-19T13:39:07.601871+00:00"
  },
+ "a24b2c20eb0b3536": {
+  "ticker": "NVDA",
+  "title": "Apple (AAPL) Surpasses Nvidia to Become World’s Most Valuable Public Company - TipRanks",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "a24f2db61cd8f03e": {
   "ticker": "HOOD",
   "title": "Robinhood Markets Inc (HOOD) Stock Up 3.8% but GF Value Says Overvalued -- GF Score: 78/100 - GuruFocus",
@@ -116358,6 +116433,11 @@
   "title": "Pound Slips as Traders Eye UK CPI and BoE Rate Outlook - TradingPedia",
   "ts": "2026-10-21T06:24:33.917514+00:00"
  },
+ "a9d92a04cd9cfdee": {
+  "ticker": "GOOGL",
+  "title": "Google Cloud Revenue Surges: Alphabet Focuses on $100 Billion TPU Opportunity Ahead of Q3 Earnings - Benzinga",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "a9d9dcc83b270886": {
   "ticker": "MACRO",
   "title": "XRP Falls After Hot US CPI Report as Inflation Fears Pressure Crypto Markets - Hokanews",
@@ -117072,6 +117152,11 @@
   "ticker": "MACRO",
   "title": "Brent tops $113 on Saudi supply risk — but the diesel line in the EIA report is the tell - Mitrade",
   "ts": "2026-10-23T07:40:00.062409+00:00"
+ },
+ "aafc2157fe144614": {
+  "ticker": "MACRO",
+  "title": "No more N1,342: Relief as depots cut petrol, diesel rates nationwide - Legit News",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "ab017f1a5117c7a8": {
   "ticker": "NET",
@@ -127468,6 +127553,11 @@
   "title": "Why Netflix Finally Learned To Share Its Movies With Movie T - ИФЗ РАН",
   "ts": "2026-10-22T02:11:45.616210+00:00"
  },
+ "ba0dc82fdbbfeace": {
+  "ticker": "NFLX",
+  "title": "‘Netflix Effect’ Resurrects 'Apocalyptic-Looking' Abandoned Lot With New Homes - Realtor.com",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "ba0e2796d5287a07": {
   "ticker": "NFLX",
   "title": "What Time Does Lupin Part 4 Come Out on Netflix UK? Release Date and Episode Count - CultureCues",
@@ -133037,6 +133127,11 @@
   "ticker": "NFLX",
   "title": "What is the Stanford Prison Experiment — and why did Netflix turn it into a reality show? - AOL.com",
   "ts": "2026-10-21T16:39:37.742504+00:00"
+ },
+ "c20ee0f5e4bfb8c6": {
+  "ticker": "SPCX",
+  "title": "Moderna, Meta, SpaceX, Bloom Energy, AT&T, and More Stocks That Explain Today’s Market - Barron's",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "c210f8c2b4c45e65": {
   "ticker": "TSLA",
@@ -147553,6 +147648,11 @@
   "title": "Petrol, Diesel Unchanged; Crude Slips After Hormuz Attacks - HDFC Sky",
   "ts": "2026-10-15T04:53:38.089599+00:00"
  },
+ "d6c3bcb7303c3f44": {
+  "ticker": "MACRO",
+  "title": "MCX Gold Falls 0.99% to Rs. 1,41,885 Amid Rising Oil Prices, Brent at USD 113.7 - Analytics Insight",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
+ },
  "d6c4dee80769d872": {
   "ticker": "NVDA",
   "title": "Nvidia says the RTX 5090 is not discontinued, though supply is constrained - MIXED Reality News",
@@ -153757,6 +153857,11 @@
   "ticker": "MU",
   "title": "Micron (MU): Can Data Center Storage Become Another Durable Profit Engine? - Yahoo Finance Singapore",
   "ts": "2026-10-15T15:20:47.801644+00:00"
+ },
+ "dfa5b240f145bf4e": {
+  "ticker": "MACRO",
+  "title": "Rupee falls 12 paise to close at 94.93 against US dollar - DT Next",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "dfa5cba1d61a75d2": {
   "ticker": "NFLX",
@@ -161907,6 +162012,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Launch Creates Stunning ‘Jellyfish’ Over East Coast: Here’s What Happened - Benzinga",
   "ts": "2026-10-20T12:13:40.258010+00:00"
+ },
+ "ec0770c835596c58": {
+  "ticker": "MACRO",
+  "title": "Expect The Fed To Start Cutting Rates - As Soon As Next Week - Seeking Alpha",
+  "ts": "2026-10-23T14:29:44.897520+00:00"
  },
  "ec08174fbe5a7923": {
   "ticker": "MACRO",
