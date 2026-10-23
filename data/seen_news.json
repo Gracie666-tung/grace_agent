@@ -5544,6 +5544,11 @@
   "title": "Gold prices fall as dollar strengthens, US Treasury yields rise - برق الإمارات",
   "ts": "2026-10-20T05:23:48.530455+00:00"
  },
+ "07cafbc8fce7e33d": {
+  "ticker": "TSLA",
+  "title": "Tesla 2026.38.3.2 Rollout: 600 Installs, 0.1% Fleet - tech-insider.org",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "07cc9b1eed397752": {
   "ticker": "TSLA",
   "title": "Tesla sees EV output more than doubling to 5 million by 2030 behind self-driving demand - Automotive News",
@@ -10703,6 +10708,11 @@
   "ticker": "NFLX",
   "title": "Netflix morphs into same couch potato it smashed - TradingView",
   "ts": "2026-10-21T12:09:31.854370+00:00"
+ },
+ "0faa10c18484d99d": {
+  "ticker": "SPCX",
+  "title": "What Is SpaceX (SPCX) Considering With A $3.5 Trillion Merger Review? - Yahoo Finance",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "0faa94c9bc1939c3": {
   "ticker": "SPCX",
@@ -39919,6 +39929,11 @@
   "title": "Lite-On Technology unveils NVIDIA rack. Analysts target Lite-On Technology stock at TWD 265.00 - ad-hoc-news.de",
   "ts": "2026-10-19T07:36:53.679652+00:00"
  },
+ "3cef95d1b7546f11": {
+  "ticker": "MACRO",
+  "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - Business Recorder",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "3cf06781484cdd1b": {
   "ticker": "MACRO",
   "title": "Why is US Stock Market Down Today? Dow Jones Falls 0.17%, S&P 500 Drops 0.94% & Nasdaq Slumps 1.30% as Hot US CPI Inflat",
@@ -49878,6 +49893,11 @@
   "ticker": "MACRO",
   "title": "法国10年期国债收益率首次高出意大利同类债券50个基点。",
   "ts": "2026-10-22T16:05:30.071926+00:00"
+ },
+ "4c8c0a1b53b8208a": {
+  "ticker": "MACRO",
+  "title": "【经济学家：欧洲央行在下周暂停加息后，于12月进行最后一次加息】金十数据10月23日讯，经济学家预计，在下周暂停加息后，欧洲央行将于12月进行最后一次加息。这一观点与市场押注——即未来还将有更多次加息——存在分歧。在机构的一项调查中，绝大多",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "4c9194f7b92701d2": {
   "ticker": "NVDA",
@@ -62924,6 +62944,11 @@
   "title": "NVIDIA RTX 6060 May Not Arrive Until 2029, and PS6 Could Be Faster - ThePCEnthusiast",
   "ts": "2026-10-20T22:16:10.524697+00:00"
  },
+ "60018be339f80eda": {
+  "ticker": "MU",
+  "title": "Micron announces global profit-sharing plan as Taiwan union strikes - Taiwan News",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "6001ee3c917fcef6": {
   "ticker": "NFLX",
   "title": "Netflix planning film on fake 49er Daejon Love as part of ‘Untold’ sports doc series - KRON4",
@@ -70898,6 +70923,11 @@
   "ticker": "IONQ",
   "title": "IONQ Oct 2026 46.500 put (IONQ261023P00046500) stock price, news, quote and history - Yahoo Finance Australia",
   "ts": "2026-10-22T16:12:05.631381+00:00"
+ },
+ "6c38d1b5c4c0346a": {
+  "ticker": "NVDA",
+  "title": "Cal Poly reveals new NVIDIA powered AI Factory system for student research - KSBY News",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "6c3cc480fcb78ee6": {
   "ticker": "ASTS",
@@ -81453,6 +81483,11 @@
   "ticker": "NFLX",
   "title": "Digital Services Tax: Banks to Charge 20% on Netflix, Spotify and ChatGPT Subscriptions - 3News",
   "ts": "2026-10-19T19:21:35.409133+00:00"
+ },
+ "7cc50befe3431225": {
+  "ticker": "MACRO",
+  "title": "Nasdaq faces a higher hurdle as inflation and yields test the AI trade - Al-Bawaba",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "7cc8c3486687f997": {
   "ticker": "SPCX",
@@ -107423,6 +107458,11 @@
   "title": "US wholesale inflation surges to four-year high as energy prices remain elevated - Invezz",
   "ts": "2026-10-15T16:52:53.348385+00:00"
  },
+ "a433c0e91c316039": {
+  "ticker": "NVDA",
+  "title": "Amkor Technology (AMKR) Lands $1.3 Billion Nvidia Deal As Fair Value Stays In Focus - Simply Wall Street",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "a4340f57c445e7d8": {
   "ticker": "PLTR",
   "title": "Palantir names Aplos Data to top tier partner network By Investing.com - Investing.com South Africa",
@@ -117147,6 +117187,11 @@
   "ticker": "NVDA",
   "title": "Nvidia stock drops as seller pressure persists and downside momentum builds - Traders Union",
   "ts": "2026-10-19T14:21:40.070548+00:00"
+ },
+ "b369dd46a6551103": {
+  "ticker": "MACRO",
+  "title": "Gold rebounds from three-month low; not out of the woods yet amid Fed hike bets - www.tmgm.com",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "b36aca665562328a": {
   "ticker": "SPCX",
@@ -130223,6 +130268,11 @@
   "title": "Fed’s Warsh sees AI boosting productivity but gives no signal on next rate hike - AOL.co.uk",
   "ts": "2026-10-16T10:41:44.094949+00:00"
  },
+ "c721d5a291195eab": {
+  "ticker": "NVDA",
+  "title": "Quandela Demonstrates Live Hybrid Photonic GPU-QPU Architecture via NVIDIA NVQLink at GTC Berlin - Quantum Computing Rep",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "c72262b797ab81d8": {
   "ticker": "RKLB",
   "title": "RKLB Stock’s Slide Hits Day 7: Cathie Wood’s ARK Buys The Dip As Rocket Lab Touts Mars Record Amid Neutron Delay - Asian",
@@ -140823,6 +140873,11 @@
   "title": "SpaceX stock soars, raising the AI trade: how high can it go? - Invezz",
   "ts": "2026-10-21T22:26:21.453823+00:00"
  },
+ "d6fd63798d4cd3c7": {
+  "ticker": "SPCX",
+  "title": "Crown Castle Shares Surge 9.46% After Hours on SpaceX Cell Site Talks - Crown Castle (NYSE:CCI) - Benzinga",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "d70184f22ec258c1": {
   "ticker": "MACRO",
   "title": "WTI prices slip below $100.00 amid profit-taking and easing supply fears - Traders Union",
@@ -144142,6 +144197,11 @@
   "ticker": "TSLA",
   "title": "Elon Musk Says Optimus, Cybercab Will Be ‘the Vast Majority’ of Tesla’s Value - Yahoo Finance",
   "ts": "2026-10-20T13:08:53.545297+00:00"
+ },
+ "dc3343852c529221": {
+  "ticker": "TSLA",
+  "title": "Tesla Discloses Third-Quarter Business Direction, Musk Completes Large Investment in Film and Television Company - NAI50",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "dc33691ff9f30b2f": {
   "ticker": "MACRO",
@@ -157738,6 +157798,11 @@
   "title": "Report: Inflation Rises More Than Half-Percent Across IE - Patch",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "f174105f7a9164a4": {
+  "ticker": "TSM",
+  "title": "TSMC plans to introduce rare-earth-free factory equipment to reduce supply chain risks - Global Sources",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
+ },
  "f17410b0631e12cf": {
   "ticker": "TSLA",
   "title": "Tesla Sets December 3 Shareholder Meeting Amid Rumors of an Imminent SpaceX Merger - autoevolution",
@@ -162567,6 +162632,11 @@
   "ticker": "MACRO",
   "title": "Yen shines as AI jitters spur safe-haven rush - Reuters",
   "ts": "2026-10-23T02:21:36.753802+00:00"
+ },
+ "f8d2a7897c7229a3": {
+  "ticker": "TSLA",
+  "title": "AXED: Tesla pulls plug on most controversial EV for Aus - Drive",
+  "ts": "2026-10-23T04:28:32.881738+00:00"
  },
  "f8d3a1986f9af402": {
   "ticker": "MACRO",
