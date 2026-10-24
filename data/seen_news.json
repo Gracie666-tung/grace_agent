@@ -12484,6 +12484,11 @@
   "title": "Update: Wall Street Caps Choppy Week Lower as Oil Prices Soar - Yahoo Finance",
   "ts": "2026-10-23T23:06:13.813312+00:00"
  },
+ "1051001ccc8ef0e4": {
+  "ticker": "NVDA",
+  "title": "NVIDIA RTX 5090 GPU Exceeds RMB 60,000 in Huaqiangbei Amid Production Rumors - KuCoin",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
+ },
  "1056bd1faef5566f": {
   "ticker": "MACRO",
   "title": "GBP/USD, Gold Forecasts: Two trades to watch - FOREX.com",
@@ -22028,6 +22033,11 @@
   "ticker": "MACRO",
   "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month - CoinDesk",
   "ts": "2026-10-20T11:25:18.190304+00:00"
+ },
+ "1d76ee0f3b3a4756": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab (NASDAQ: RKLB) Deploys Three HawkEye 360 Satellites In Latest Electron Mission - Foreign Policy Journal",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
  },
  "1d7718fab4ff5def": {
   "ticker": "NFLX",
@@ -44648,6 +44658,11 @@
   "ticker": "MU",
   "title": "Why Micron Technology (MU) Stock Is Up Today - Quiver Quantitative",
   "ts": "2026-10-23T15:47:26.969951+00:00"
+ },
+ "3c98d9c58098f34c": {
+  "ticker": "TSLA",
+  "title": "Tesla (TSLA) Q3 Earnings Reveal A Sharper Margin Squeeze - Yahoo Finance",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
  },
  "3c99f24cd01f6e31": {
   "ticker": "NFLX",
@@ -68158,6 +68173,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Rise.. Brent Set for Third Consecutive Weekly Gain - Qatar news agency",
   "ts": "2026-10-23T08:16:23.938558+00:00"
+ },
+ "5cd14596580a81e8": {
+  "ticker": "TSLA",
+  "title": "Tesla upgraded to Buy on AI growth, FSD adoptio... - Pluang",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
  },
  "5cd50283063e2dce": {
   "ticker": "MACRO",
@@ -158958,6 +158978,11 @@
   "title": "NVIDIA (NVDA) Faces Sell-Off Amid AI Stock Decline - GuruFocus",
   "ts": "2026-10-17T01:59:54.794964+00:00"
  },
+ "d891be677c7ff2a4": {
+  "ticker": "NFLX",
+  "title": "Netflix Layoffs, 'You Can See Everything's Oscar Prospects & More - Deadline",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
+ },
  "d891e9ff54ec3825": {
   "ticker": "NVDA",
   "title": "NVIDIA Unveils OpenShell Reference Architecture to Enforce Hardware-Level Security Boundaries for AI Agents - OODA Loop",
@@ -165282,6 +165307,11 @@
   "ticker": "NFLX",
   "title": "Netflix slides as weak outlook deepens worries on viewership, revenue growth - BNN Bloomberg",
   "ts": "2026-10-21T13:04:09.720008+00:00"
+ },
+ "e1202bb0957bf114": {
+  "ticker": "MACRO",
+  "title": "Oil prices rise to $117 a barrel, highest since May - The Financial Express",
+  "ts": "2026-10-24T14:32:06.840629+00:00"
  },
  "e123b3ebd8ebb511": {
   "ticker": "NVDA",
