@@ -22399,6 +22399,11 @@
   "title": "Evening digest: oil jumps to 5 month high, Treasury yield falls below 5% - Invezz",
   "ts": "2026-10-22T21:53:04.704910+00:00"
  },
+ "1e7977e11cca7cbf": {
+  "ticker": "NFLX",
+  "title": "Weekly Equities Outlook: Meta, Tesla & Netflix - StoneX",
+  "ts": "2026-10-24T05:48:53.034117+00:00"
+ },
  "1e79f740f391ae79": {
   "ticker": "SPCX",
   "title": "S&P 500 Rebounds as Big Bank Stocks Climb, SpaceX Results Loom - Advisor Perspectives",
@@ -29573,6 +29578,11 @@
   "ticker": "MACRO",
   "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street - Bay to Bay News",
   "ts": "2026-10-20T20:44:50.088942+00:00"
+ },
+ "28a1e45e0adde800": {
+  "ticker": "NVDA",
+  "title": "Vadzo Imaging Positions Bolt-521CRS: Onsemi AR0521 Color 5MP Low-Noise MIPI Camera with NVIDIA Jetson AGX Orin for Medic",
+  "ts": "2026-10-24T05:48:53.034117+00:00"
  },
  "28a3c989bf513441": {
   "ticker": "MU",
@@ -156592,6 +156602,11 @@
   "ticker": "MACRO",
   "title": "Oil edges down as investors weigh possible US sanctions on ‘shadow fleet’ - 927thevan.com",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "d8c06636ab12f124": {
+  "ticker": "NVDA",
+  "title": "inDrive Eyes 2027 Robotaxi Tests With Pony.ai and NVIDIA - CIOL",
+  "ts": "2026-10-24T05:48:53.034117+00:00"
  },
  "d8c3801a6d381a7b": {
   "ticker": "MACRO",
