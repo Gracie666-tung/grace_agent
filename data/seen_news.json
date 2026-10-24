@@ -2154,6 +2154,11 @@
   "title": "Why SpaceX Stock Dropped on Thursday - The Motley Fool",
   "ts": "2026-10-22T22:55:20.425846+00:00"
  },
+ "0290f6d0376a2369": {
+  "ticker": "AMD",
+  "title": "What Is Advanced Micro Devices (AMD) Proving With These Global AI Infrastructure Wins? - Simply Wall Street",
+  "ts": "2026-10-24T05:12:44.213907+00:00"
+ },
  "02911935a36bfd6e": {
   "ticker": "TSLA",
   "title": "Tesla shares rose 5% after Elon Musk showcased the Roadster - KuCoin",
@@ -132792,6 +132797,11 @@
   "ticker": "NVDA",
   "title": "Nvidia's China Shipments Fall 44% as Investment Spree Faces a Reckoning - ad-hoc-news.de",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "b86db70f0a526684": {
+  "ticker": "NVDA",
+  "title": "QCentroid Unveils “Missions” on NVIDIA CUDA-Q to Benchmark Classical, Quantum-Inspired, and QPU Workloads - Quantum Comp",
+  "ts": "2026-10-24T05:12:44.213907+00:00"
  },
  "b8708597c334687e": {
   "ticker": "MACRO",
