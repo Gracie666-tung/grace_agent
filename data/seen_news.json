@@ -5809,6 +5809,11 @@
   "title": "Micron Stock Falls but Stock Price Could Triple Says Analyst - Barron's",
   "ts": "2026-10-22T16:24:20.748939+00:00"
  },
+ "070a706e1cc8319b": {
+  "ticker": "GOOGL",
+  "title": "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings - TradingKey",
+  "ts": "2026-10-25T06:08:53.279877+00:00"
+ },
  "070ba55abc6400e3": {
   "ticker": "NVDA",
   "title": "Adobe expands Nvidia partnership to optimize creative tools - Investing.com",
@@ -6403,6 +6408,11 @@
   "ticker": "PLTR",
   "title": "Palantir Rebuts Maven Shutdown Fears as Wall Street Splits on What's Already Priced In - AD HOC NEWS",
   "ts": "2026-10-23T12:18:48.012088+00:00"
+ },
+ "07db1a1e3651e1cd": {
+  "ticker": "NET",
+  "title": "Cloudflare (NYSE:NET) Downgraded by Wall Street Zen to \"Hold\" - MarketBeat",
+  "ts": "2026-10-25T06:08:53.279877+00:00"
  },
  "07dd0cb446d97c24": {
   "ticker": "MACRO",
@@ -123568,6 +123578,11 @@
   "title": "Elon Musk Plans to Donate SpaceX Stock Into Every Kid's Trump Account - money.com",
   "ts": "2026-10-21T17:34:55.446646+00:00"
  },
+ "a52d05cccfaf0a0c": {
+  "ticker": "NVDA",
+  "title": "NVIDIA CEO Jensen Huang: US chip curbs boost China semiconductors - NewsBytes",
+  "ts": "2026-10-25T06:08:53.279877+00:00"
+ },
  "a52f87ac5936dd9b": {
   "ticker": "TSM",
   "title": "AI Watch: Anthropic IPO valuation, TSMC’s record earnings and the risks of autonomous AI agents - CNBC TV18",
@@ -150377,6 +150392,11 @@
   "ticker": "MACRO",
   "title": "Global Economic Outlook: October 2026 - Seeking Alpha",
   "ts": "2026-10-20T07:28:25.296759+00:00"
+ },
+ "c93df8acdb1dae2b": {
+  "ticker": "MACRO",
+  "title": "Moody's Keeps France at Aa3, Negative Outlook, but Flags Worsening Conditions - Seoul Economic Daily",
+  "ts": "2026-10-25T06:08:53.279877+00:00"
  },
  "c93e3a6148f0621e": {
   "ticker": "NFLX",
