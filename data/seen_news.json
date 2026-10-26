@@ -9909,6 +9909,11 @@
   "title": "Summit Therapeutics plc (SMMT) stock price, news, quote and history - Yahoo Finance UK",
   "ts": "2026-10-17T09:01:46.805430+00:00"
  },
+ "0b633b06104d6d10": {
+  "ticker": "SPCX",
+  "title": "Hedge Fund Veteran: SpaceX Is the “Most Egregiously Overpriced Company” in Market History - Yahoo Finance",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
+ },
  "0b63be55f72e7525": {
   "ticker": "NVDA",
   "title": "Dow Jones Today LIVE: Index Falls 1% as Oil Prices Surge & AI Stock Sell-Off Hits Wall Street; Nvidia, Microsoft & Telec",
@@ -28039,6 +28044,11 @@
   "title": "Elon Musk Wants to Give Every American Child a Share of SpaceX. Here's What It Would Cost -- and What It Means for Every",
   "ts": "2026-10-25T09:18:13.101450+00:00"
  },
+ "21bbf0e82b428fa6": {
+  "ticker": "MACRO",
+  "title": "Is an Atlantic Basin crude glut on the cards? - Vortexa",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
+ },
  "21bca169128dfb3f": {
   "ticker": "AMD",
   "title": "Advanced Micro Devices (NASDAQ:AMD) Stock Rating Reaffirmed as Outperform by Wedbush - MarketBeat",
@@ -33698,6 +33708,11 @@
   "ticker": "MACRO",
   "title": "Gold steady as investors await fed rate signals - Yahoo Finance",
   "ts": "2026-10-20T18:13:00.687065+00:00"
+ },
+ "28c1a8ed3876107a": {
+  "ticker": "NVDA",
+  "title": "Why Nvidia shares are rising on Monday? - Invezz",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "28c393df7df756f9": {
   "ticker": "MACRO",
@@ -92629,6 +92644,11 @@
   "title": "SpaceX and Tesla form special committees to evaluate potential merger, Musk says - Investing.com Australia",
   "ts": "2026-10-20T22:16:10.524697+00:00"
  },
+ "70daaab1792b7688": {
+  "ticker": "NVDA",
+  "title": "Intel Rises 5% as New Street Upgrade Cites Server CPU Shortage; AMD and NVIDIA Gain 3% - 24/7 Wall St.",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
+ },
  "70e0379bacda64d7": {
   "ticker": "MACRO",
   "title": "Oil Prices Hit $110 Amid Fiscal Gridlock! French Debt Risk Premium Hits 15-Year High, Is a New \"European Debt Crisis\" Lo",
@@ -97958,6 +97978,11 @@
   "ticker": "MU",
   "title": "Wall Street Gave Micron Back Its $1 Trillion Crown Just One Session Later - AOL.com",
   "ts": "2026-10-20T12:13:40.258010+00:00"
+ },
+ "77600a37737a7636": {
+  "ticker": "NFLX",
+  "title": "Prosecutors Deny Pooh Shiesty Being Treated Inhumanely In Jail, Point to 12,000 Emails & Netflix Access - AllHipHop",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "77612f408df96ef9": {
   "ticker": "NFLX",
@@ -121928,6 +121953,11 @@
   "ticker": "MACRO",
   "title": "T-Bills Yield Up to 4.45%. Why Would Retirees Choose Dividend Stocks? - 24/7 Wall St.",
   "ts": "2026-10-25T20:06:54.782224+00:00"
+ },
+ "952f6eee3da7370d": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Agent Knowledge Foundation connects company data with agent controls - OpenTools",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "952fb39aef1f4570": {
   "ticker": "MACRO",
@@ -151113,6 +151143,11 @@
   "title": "Netflix Price Prediction: Where the Stock Goes After a Year of Doubts - 24/7 Wall St.",
   "ts": "2026-10-26T17:37:56.379076+00:00"
  },
+ "b914a10051241b11": {
+  "ticker": "NVDA",
+  "title": "Elon Musk's SpaceX agrees to a $40 billion financing lease with an Apollo-managed firm for Nvidia's next- - The Times of",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
+ },
  "b914e334431ad7ed": {
   "ticker": "NVDA",
   "title": "Can DeepSeek help Huawei take on Nvidia? China deepens AI chip push - Business Upturn",
@@ -153467,6 +153502,11 @@
   "ticker": "NFLX",
   "title": "Casey Bloys, the Netflix Factor and How He Beat Cindy Holland - The Ankler",
   "ts": "2026-10-15T01:53:28.429530+00:00"
+ },
+ "bbc00d2a4c5535e5": {
+  "ticker": "MU",
+  "title": "Micron says its AI memory chips are sold out through 2026 and into 2028 - Startup Fortune",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "bbc0aa4af3360be0": {
   "ticker": "NET",
@@ -156567,6 +156607,11 @@
   "ticker": "TSM",
   "title": "TSMC raises 2026 growth outlook again, driven b... - Pluang",
   "ts": "2026-10-23T14:05:27.153018+00:00"
+ },
+ "bf530c0f0e132b66": {
+  "ticker": "MACRO",
+  "title": "Oil inches higher, stays near six-month highs on Saudi attacks - The Korea Times",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "bf537378582193be": {
   "ticker": "RKLB",
@@ -160567,6 +160612,11 @@
   "ticker": "TSLA",
   "title": "Wall Street is going into Tesla's Q3 earnings looking for fresh merger clues and AI updates - Business Insider",
   "ts": "2026-10-21T09:26:38.932307+00:00"
+ },
+ "c43382427846b671": {
+  "ticker": "TSLA",
+  "title": "Tesla surges to its highest level in more than three months - Seeking Alpha",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "c4387c4cf55b36ce": {
   "ticker": "MACRO",
@@ -178052,6 +178102,11 @@
   "ticker": "TSLA",
   "title": "Tesla launches Supercharger for Business and Semi Charging for Business in Canada - Drive Tesla Canada",
   "ts": "2026-10-23T16:12:22.731078+00:00"
+ },
+ "d98b11882c05e969": {
+  "ticker": "MU",
+  "title": "Micron Climbs 4% as Bank of America Grows More Positive on Memory; Western Digital Rises 5%, SanDisk Gains 3% - 24/7 Wal",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "d98c241fc5c43fe4": {
   "ticker": "MU",
@@ -203032,6 +203087,11 @@
   "ticker": "MACRO",
   "title": "Mortgage rates: Why has long term US home loan rate hit highest level in 3 years. Check impact on home loa - The Economi",
   "ts": "2026-10-15T21:40:44.332676+00:00"
+ },
+ "f86e175bd3ee3ab2": {
+  "ticker": "TSLA",
+  "title": "Why is Tesla stock gaining 5% today? - Invezz",
+  "ts": "2026-10-26T17:56:16.718347+00:00"
  },
  "f8754ea1c899e86a": {
   "ticker": "MACRO",
