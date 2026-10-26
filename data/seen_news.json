@@ -914,6 +914,11 @@
   "title": "Global Markets Crash Today as Gold, Silver, Nikkei and KOSPI Fall - Coinpedia",
   "ts": "2026-10-22T07:49:48.660975+00:00"
  },
+ "00fcfc4258e838d4": {
+  "ticker": "NFLX",
+  "title": "Netflix’s Ouster of Top Executives Capped Two Weeks of Turmoil - Bloomberg.com",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "00fee1f9c2eeb51d": {
   "ticker": "MACRO",
   "title": "US stock funds attract strong inflows for the second consecutive week - المتداول العربي",
@@ -5414,6 +5419,11 @@
   "title": "Goldman Sachs reiterates Nvidia stock rating on AI deployment outlook By Investing.com - Investing.com Canada",
   "ts": "2026-10-21T17:04:04.697405+00:00"
  },
+ "05fc3c2e835eba72": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab stock gains almost 4% after reporting 137% increase in order backlog and successful satellite launches - Trad",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "05ff56a4bb119b64": {
   "ticker": "TSLA",
   "title": "Two New China A-Share IPOs Open for Subscription This Week: Crown New Materials and Tianyuan Heavy Industry Tap Apple, T",
@@ -6618,6 +6628,11 @@
   "ticker": "MACRO",
   "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia - www.thenationalnews.com",
   "ts": "2026-10-23T10:08:21.119415+00:00"
+ },
+ "078ad72fccf2481b": {
+  "ticker": "NVDA",
+  "title": "Nvidia Could Exploit “Completely Legal” China Loophole Worth Billions. But It (Probably) Won’t. - TIKR.com",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "078c1df763f34b9d": {
   "ticker": "SPCX",
@@ -12544,6 +12559,11 @@
   "title": "Global Market Today: Stock selloff extends to Asia as chip rout deepens - The Economic Times",
   "ts": "2026-10-15T01:00:52.695100+00:00"
  },
+ "0ee57ecb99bbaeb9": {
+  "ticker": "TSLA",
+  "title": "Tesla Jumps 6.1% After Barclays Upgrades to Overweight - AlphaStreet",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "0ee6f928cbafc96b": {
   "ticker": "NFLX",
   "title": "Harlan Coben’s The Woods Wraps Production, Set for Early 2027 Netflix Premiere - SSBCrack",
@@ -15364,6 +15384,11 @@
   "title": "Market Minutes - RSM US",
   "ts": "2026-10-24T23:32:50.026751+00:00"
  },
+ "1257fa7e2677322a": {
+  "ticker": "NFLX",
+  "title": "Why is Netflix stock sliding today? - Investing.com",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "1259df1c78beffea": {
   "ticker": "MACRO",
   "title": "Higher Rates Are Forcing a More Selective Approach to AI Infrastructure - Investing.com",
@@ -17128,6 +17153,11 @@
   "ticker": "IBKR",
   "title": "Interactive Brokers: The Valuation Is High, But Growth Is Stronger - Seeking Alpha",
   "ts": "2026-10-16T13:20:53.219551+00:00"
+ },
+ "148bfe2657727bcf": {
+  "ticker": "RKLB",
+  "title": "Net income of Rocket Lab Corp. Shs Canadian Depositary Receipt Repr Shs Reg S – FWB:4XF - TradingView",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "148de3eaf5a5428f": {
   "ticker": "APP",
@@ -28524,6 +28554,11 @@
   "title": "TIER IV and Technical University of Munich Bring NVIDIA Hyperion to Level 4 Autonomous Driving in Germany - The Manila T",
   "ts": "2026-10-22T05:42:36.984880+00:00"
  },
+ "22afbfc6c0405bda": {
+  "ticker": "SNDK",
+  "title": "SanDisk Faces Supply Chain Squeeze as Memory Production Tightens - GuruFocus",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "22b0b67ac22cdd35": {
   "ticker": "HCLTECH",
   "title": "HCL Technologies, Tech Mahindra overtake TCS in net hiring adds - BusinessLine",
@@ -30218,6 +30253,11 @@
   "ticker": "NFLX",
   "title": "Citigroup Adjusts Netflix Price Target to $85 From $100 - marketscreener.com",
   "ts": "2026-10-21T15:26:01.145635+00:00"
+ },
+ "24f65a2edb7de27f": {
+  "ticker": "NFLX",
+  "title": "Netflix stock falls as weak momentum dominates the session - Traders Union",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "24f7c04f33825c31": {
   "ticker": "MACRO",
@@ -32033,6 +32073,11 @@
   "ticker": "MACRO",
   "title": "Microsoft Pays Cash For AI. CoreWeave Borrows. - Trefis",
   "ts": "2026-10-20T10:00:18.825051+00:00"
+ },
+ "27131143c909932a": {
+  "ticker": "SPCX",
+  "title": "SpaceX (Space Exploration Technologies) : Gets a Buy rating from Deutsche Bank - www.marketscreener.com",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "2713dc78a567d487": {
   "ticker": "MACRO",
@@ -37223,6 +37268,11 @@
   "ticker": "NFLX",
   "title": "The Diplomat season 4 (Netflix): the G7 stays at Viesca Toscana - La Revue des Hôtels",
   "ts": "2026-10-20T17:24:24.824240+00:00"
+ },
+ "2da80be334858e78": {
+  "ticker": "NFLX",
+  "title": "18 Years in the Making, Netflix's Long-Awaited Sci-Fi Action Adaptation Gets Official Status Update - MovieWeb",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "2dabe2b6408e97a4": {
   "ticker": "MACRO",
@@ -47588,6 +47638,11 @@
   "ticker": "MACRO",
   "title": "【路透调查：近乎所有经济学家均认为美联储将跳过10月，并于12月加息】金十数据10月20日讯，路透社采访的经济学家几乎均预测，美联储本月将暂不加息，并将在12月再次行动。尽管顽固的通胀形势要求采取更强硬的应对措施，但政策制定者仍释放出保持耐",
   "ts": "2026-10-20T12:56:49.450395+00:00"
+ },
+ "3a56d969d9ecd09c": {
+  "ticker": "NFLX",
+  "title": "How the iPhone Duo forced Netflix to rethink its mobile apps - Lowpass",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "3a58127dbf28e2bc": {
   "ticker": "NVDA",
@@ -68629,6 +68684,11 @@
   "title": "SpaceX, Tesla might merge | Los Angeles Times - newspaper - Magzter",
   "ts": "2026-10-22T09:25:53.855077+00:00"
  },
+ "54648fcd73e762a9": {
+  "ticker": "GOOGL",
+  "title": "Mag 7 Stocks Spotlight: What to Expect From Microsoft, Alphabet, Amazon - Alphabet (NASDAQ:GOOGL) - Benzinga",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "54675537a94cea07": {
   "ticker": "HAG",
   "title": "Rüstungsaktien beflügelt: Was hinter dem Kurssprung von Rheinmetall, RENK, HENSOLDT und TKMS steckt - finanzen.ch",
@@ -82069,6 +82129,11 @@
   "title": "The 4 Year Wait Is Over, Season 2 Of Netflix's Official Blade Runner Replacement Is Here - ScreenRant",
   "ts": "2026-10-20T12:32:26.600723+00:00"
  },
+ "64c303af22a76546": {
+  "ticker": "SPCX",
+  "title": "Musk’s $1 Trillion SpaceX Revenue Goal: “They Had Better Get Going” says Jim Chanos - Yahoo Finance",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "64c6fd8213e6fb1c": {
   "ticker": "MACRO",
   "title": "印尼央行行长：我们在5月至6月已将基准利率上调100个基点，这足以锚定通胀预期。",
@@ -87844,6 +87909,11 @@
   "title": "Volvo and NVIDIA Expand Partnership to Bring Advanced AI Safety to Future Cars - Electric Cars Report",
   "ts": "2026-10-16T17:30:08.141034+00:00"
  },
+ "6bc0d0b25d875ca0": {
+  "ticker": "NFLX",
+  "title": "“A Sherlock rival”: 7 “5-star” mystery series to watch this week on ITV, Netflix, the BBC and more - Good Housekeeping",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "6bc539236772e886": {
   "ticker": "TSLA",
   "title": "Tesla-SpaceX Merger Talk Has Elon Musk 'Tap-Dancing Through A Minefield' - Patch",
@@ -90849,6 +90919,11 @@
   "title": "Tesla Roadster Tricks: All 4 Stunts Explained [2026] - tech-insider.org",
   "ts": "2026-10-17T10:26:13.717600+00:00"
  },
+ "6fa6aee2f07423a4": {
+  "ticker": "NFLX",
+  "title": "‘The Watcher’ Is Finally Back: Netflix Brings Naomi Watts, Bobby Cannavale and Jennifer Coolidge Home for More Dread - I",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "6fa7089fa973d36f": {
   "ticker": "NFLX",
   "title": "You, Me, Us: What to expect from Netflix’s upcoming Italian romantic comedy - K24 Digital",
@@ -92038,6 +92113,11 @@
   "ticker": "MACRO",
   "title": "South African rand steady with local economic data, Fed decision in focus - Business Recorder",
   "ts": "2026-10-26T07:10:58.564804+00:00"
+ },
+ "711b9de613f9c709": {
+  "ticker": "NVDA",
+  "title": "Berlin: NVIDIA CEO Jensen Huang Offers Hope for Germany - Berliner Morgenpost",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "711c45d3cda34698": {
   "ticker": "MACRO",
@@ -106328,6 +106408,11 @@
   "ticker": "SPCX",
   "title": "Why SpaceX Stock Fell 9.14% After Earnings: What Traders Watch Next - Coin Gabbar",
   "ts": "2026-10-23T04:48:26.019886+00:00"
+ },
+ "833a490a79fea296": {
+  "ticker": "MU",
+  "title": "Micron Technology Tokenised Stock Climbs On Speculative Bets - MarketForces Africa",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "833bde0a17a17ee0": {
   "ticker": "NFLX",
@@ -153328,6 +153413,11 @@
   "title": "日本央行副行长冰见野良三：基础通胀率已相当接近日本央行2%的目标。",
   "ts": "2026-10-21T04:34:00.078645+00:00"
  },
+ "bd43ebc201c3ae23": {
+  "ticker": "NVDA",
+  "title": "Not AMD. Not Marvell. Here's Which Company Nvidia Needs to Be Worried About. - The Globe and Mail",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "bd4680c29fbb3db9": {
   "ticker": "NVDA",
   "title": "Germany to unveil Nvidia AI agreement next week, government sources say - Central Oregon Daily",
@@ -160603,6 +160693,11 @@
   "title": "IonQ and Cavendish Lab open Quantum innovation Centre - Electronics Weekly",
   "ts": "2026-10-16T05:27:01.749099+00:00"
  },
+ "c6012cda53d593b7": {
+  "ticker": "MACRO",
+  "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "c60375a06250f162": {
   "ticker": "GLW",
   "title": "Corning Inc Stock (GLW) Moved Down by 3.26% on Oct 16: Facts Behind the Movement - TradingKey",
@@ -162962,6 +163057,11 @@
   "ticker": "NFLX",
   "title": "Netflix stock sinks as Wall Street lowers price targets following Q4 revenue forecast miss - Yahoo Finance",
   "ts": "2026-10-21T14:30:05.253446+00:00"
+ },
+ "c9107b75e39addb2": {
+  "ticker": "NFLX",
+  "title": "Netflix Offered $500 Million for Xbox Film and TV Rights, but Microsoft’s Price Tag Got in the Way - Beebom",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "c912b2326c062763": {
   "ticker": "MACRO",
@@ -178297,6 +178397,11 @@
   "ticker": "NFLX",
   "title": "Netflix, Inc. $NFLX Holdings Raised by Robeco Institutional Asset Management B.V. - MarketBeat",
   "ts": "2026-10-21T09:50:43.326874+00:00"
+ },
+ "dbc738915808cdaa": {
+  "ticker": "MACRO",
+  "title": "布伦特原油转涨，突破112美元/桶。",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "dbc84dbec53db195": {
   "ticker": "MACRO",
@@ -195363,6 +195468,11 @@
   "title": "Nvidia CEO encourages Europe's lagging AI sector and offers tools to accelerate data center buildout - Audacy",
   "ts": "2026-10-21T13:59:02.273982+00:00"
  },
+ "f14ea8fa44d30822": {
+  "ticker": "MU",
+  "title": "After Two Spectacular Micron Buy Ratings, I’m Calling It Quits (Downgrade To Sell) (MU) - Seeking Alpha",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
+ },
  "f14eba9f15dd7962": {
   "ticker": "SMCI",
   "title": "Super Micro jumps on strong prelim Q1 results; Wedbush calls it a 'clear positive' (SMCI:NASDAQ) - Seeking Alpha",
@@ -204322,6 +204432,11 @@
   "ticker": "TSLA",
   "title": "Tesla Stock vs. the S&P 500: Which Investment Wins Through 2030? - The Motley Fool",
   "ts": "2026-10-19T12:26:07.983728+00:00"
+ },
+ "fc68c9584f4add6f": {
+  "ticker": "RDDT",
+  "title": "Why Is Reddit Stock Falling on Monday? - Benzinga",
+  "ts": "2026-10-26T15:57:51.491711+00:00"
  },
  "fc6aa6fae398aadb": {
   "ticker": "SPCX",
