@@ -4544,6 +4544,11 @@
   "title": "$NVIDIA (NVDA.US)$ - Moomoo",
   "ts": "2026-10-16T13:14:48.729315+00:00"
  },
+ "054784f12ebb4530": {
+  "ticker": "MACRO",
+  "title": "Global anxieties as crude price hits six-month high at $117 - The Nation Newspaper",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "05478863193416c8": {
   "ticker": "AMD",
   "title": "After an $8.68M September sale, AMD (NASDAQ: AMD) officer Norrod proposes another. - Stock Titan",
@@ -7013,6 +7018,11 @@
   "ticker": "MU",
   "title": "Why Is Micron Stock Still Dropping? - The Globe and Mail",
   "ts": "2026-10-15T15:39:11.911094+00:00"
+ },
+ "0852718416dffcc4": {
+  "ticker": "NFLX",
+  "title": "Ted Sarandos Visits Seoul for Netflix’s 10-Year Celebration in Korea - Chennaionline",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "08538a7251ae18a6": {
   "ticker": "MACRO",
@@ -55144,6 +55154,11 @@
   "title": "Nvidia Has 80% of Its Portfolio Invested in 2 Artificial Intelligence (AI) Stocks - The Globe and Mail",
   "ts": "2026-10-22T09:38:19.149117+00:00"
  },
+ "463498557481d11c": {
+  "ticker": "NVDA",
+  "title": "NVIDIA RTX Spark is official: a big boost for Windows on Arm - Softonic",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "46354876ee2ff910": {
   "ticker": "NFLX",
   "title": "Netflix co-CEO Sarandos says ‘we could do better’ after weak forecast - شبكة تواصل الإخبارية",
@@ -79469,6 +79484,11 @@
   "title": "Oil prices rebound on Saudi attack fears - Newswav",
   "ts": "2026-10-22T01:35:27.416002+00:00"
  },
+ "65121305c9b02e83": {
+  "ticker": "MACRO",
+  "title": "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Arab News",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "6513e57161193595": {
   "ticker": "MACRO",
   "title": "Gold prices today, October 17th: Slight increase globally, domestic prices remain unchanged. - Vietnam.vn",
@@ -93569,6 +93589,11 @@
   "title": "Silver ETFs dip nearly 3% as rate hike fears overshadow safe-haven appeal - Business Standard",
   "ts": "2026-10-22T10:14:06.159428+00:00"
  },
+ "7721fa86ef1c14e8": {
+  "ticker": "MU",
+  "title": "Here’s What a $10,000 Investment in Micron Stock Will Be Worth by 2030 - The Motley Fool",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "77238072b465d041": {
   "ticker": "MACRO",
   "title": "Higher CPI Inflation In September, But Rate Hike Unlikely (SP500) - Seeking Alpha",
@@ -96503,6 +96528,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs - NVIDIA Newsroom",
   "ts": "2026-10-16T12:07:45.663475+00:00"
+ },
+ "7b14b0e69af5445c": {
+  "ticker": "MACRO",
+  "title": "Why the Fed may hold off on another rate hike despite high inflation - USA Today",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "7b16f50fadf2cd7d": {
   "ticker": "NFLX",
@@ -100774,6 +100804,11 @@
   "title": "Analyst predicts Netflix will buy NBCUniversal post-spinoff - Awful Announcing",
   "ts": "2026-10-21T13:40:33.808404+00:00"
  },
+ "80ba4080ec4004b3": {
+  "ticker": "MACRO",
+  "title": "Sensex, Nifty begin trade lower amid IT stock sell-off - The Assam Tribune",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "80bbe10a175924d1": {
   "ticker": "NFLX",
   "title": "Netflix on the ropes? Subscribers are in decline as streaming service hunts for ways to keep you hooked - Yahoo Finance",
@@ -101958,6 +101993,11 @@
   "ticker": "NFLX",
   "title": "Akka trailer: Radhika Apte takes on Keerthy Suresh’s crime empire in Netflix series - Cinema Express",
   "ts": "2026-10-17T09:37:54.233692+00:00"
+ },
+ "825e7cabe556f7d9": {
+  "ticker": "MACRO",
+  "title": "Crypto Market Outlook This Week as Fed Rate Decision and US GDP Data Loom - Coinpedia",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "825f562e659dfc28": {
   "ticker": "NVDA",
@@ -121954,6 +121994,11 @@
   "title": "Elon Musk promises to give 'every kid in America' SpaceX share - Intel Region",
   "ts": "2026-10-19T10:30:50.251557+00:00"
  },
+ "9bc8c51c391bcf4c": {
+  "ticker": "AAPL",
+  "title": "Apple Inc. $AAPL Stock: Union Savings Bank Raises Position - MarketBeat",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "9bcbdb38d5c158e3": {
   "ticker": "NFLX",
   "title": "Cyberpunk 2077's Night City Is Back On Netflix This Week As Edgerunners 2 Brings In Maelstrom And Arasaka - GameFragger.",
@@ -131282,6 +131327,11 @@
   "ticker": "SPCX",
   "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges - marketscreener.com",
   "ts": "2026-10-20T20:14:24.088666+00:00"
+ },
+ "a7b5a297bc4319b8": {
+  "ticker": "NVDA",
+  "title": "Samsung Prepares 8-Layer HBM4 as Nvidia Rethinks Its Memory Plans - SammyGuru",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "a7b95aab9ba62086": {
   "ticker": "MU",
@@ -147273,6 +147323,11 @@
   "title": "Thanks to a Netflix show, this Newfoundland knitter is struggling to keep her kits in stock - CTV News",
   "ts": "2026-10-19T11:01:07.790039+00:00"
  },
+ "bc3fd7fd96bbc482": {
+  "ticker": "HOOD",
+  "title": "Robinhood Stock Fell 15% in October Before Its Q3 Report. Here’s Where It Could Go by 2030 - TIKR.com",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "bc409642bedcdda6": {
   "ticker": "NFLX",
   "title": "‘In Waves’ Trailer: Will Sharpe And Stephanie Hsu Are Sun-Kissed Soulmates In Netflix’s Animated Romance - Punch Drunk C",
@@ -152857,6 +152912,11 @@
   "ticker": "NVDA",
   "title": "Nemotron 3.5 Bolt E4B Arrives, NVIDIA's Model for Robots and Games - Pasquale Pillitteri",
   "ts": "2026-10-24T13:19:53.336542+00:00"
+ },
+ "c363b2b7fb0bf765": {
+  "ticker": "AAPL",
+  "title": "Apple Inc. $AAPL Stock: Tempus Wealth Planning LLC Increases Stake - MarketBeat",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "c364d2aa8b137b48": {
   "ticker": "MACRO",
@@ -164368,6 +164428,11 @@
   "title": "Have we hit AI IPO fatigue? More Netflix woes, and airlines try to stay afloat - Yahoo Finance",
   "ts": "2026-10-20T18:49:38.185696+00:00"
  },
+ "d20dea12f0f1148a": {
+  "ticker": "MACRO",
+  "title": "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Yahoo! Finance Canada",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "d210ecc6c24ea3ff": {
   "ticker": "NFLX",
   "title": "The South African Indian family-centered comedy, How to Ruin Diwali: Meet The Parents on Netflix October 30th! - BollySp",
@@ -167463,6 +167528,11 @@
   "title": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries - CNBC",
   "ts": "2026-10-16T18:02:51.318144+00:00"
  },
+ "d5d5868e47155e2a": {
+  "ticker": "MACRO",
+  "title": "Gold gains on softer oil prices; Fed decision in focus - Ammon News",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "d5d5e11d3155e642": {
   "ticker": "MACRO",
   "title": "Tokyo stocks fall on AI losses amid investment concerns, dip-buying trims - 毎日新聞",
@@ -168072,6 +168142,11 @@
   "ticker": "TSLA",
   "title": "JPMorgan reiterates Tesla stock rating, keeps $415 price target By Investing.com - Investing.com India",
   "ts": "2026-10-16T11:55:41.554885+00:00"
+ },
+ "d6a5d956e78a7e88": {
+  "ticker": "MACRO",
+  "title": "Rahul Gandhi Accident Raises Eyebrows! Convoy Cars Clash On Purvanchal Expressway, Several Injured - DNP India",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "d6a7a30592f2fc6f": {
   "ticker": "HAG",
@@ -178878,6 +178953,11 @@
   "title": "Netflix sales growth to slow for fourth quarter - The Irish Times",
   "ts": "2026-10-21T06:36:48.174372+00:00"
  },
+ "e48a87f4bfbbb89c": {
+  "ticker": "NVDA",
+  "title": "E2E Networks Expands Capacity By 5.4 MW For NVIDIA HGX B300 Systems - Sahi",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
+ },
  "e48d1a70e9bd7fb5": {
   "ticker": "MACRO",
   "title": "P&G Posts Biggest One-Day Gain in Six Years as Defensive Qualities Shine and Attract Rotation of Funds - NAI500",
@@ -189072,6 +189152,11 @@
   "ticker": "MACRO",
   "title": "BSP seen hiking rates by 25 bps in December—think tank - ABS-CBN",
   "ts": "2026-10-23T06:51:24.936974+00:00"
+ },
+ "f1e4812cdddd40af": {
+  "ticker": "TSLA",
+  "title": "Fevicol Swipes at Tesla’s Oct. 15 Roadster Demo [2026] - https://tech-insider.org/",
+  "ts": "2026-10-26T09:11:13.870131+00:00"
  },
  "f1e4bab66c6ca5c5": {
   "ticker": "MACRO",
