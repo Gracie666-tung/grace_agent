@@ -4464,6 +4464,11 @@
   "title": "Nasdaq 100 Forecast: NDX falls after hotter inflation data - StoneX",
   "ts": "2026-10-19T01:45:37.522166+00:00"
  },
+ "04e46e755e0d00be": {
+  "ticker": "GOOGL",
+  "title": "Will Alphabet Stock Surge After Oct. 28? - The Globe and Mail",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
+ },
  "04e4b3c5b73ea20a": {
   "ticker": "IONQ",
   "title": "Not IonQ. Not Rigetti Computing. This Quantum Computing Stock Is the One I'd Buy and Hold Through 2030. - Yahoo Finance",
@@ -9568,6 +9573,11 @@
   "ticker": "NFLX",
   "title": "Allen | Premiering on Netflix November 12 - Spotlight Report",
   "ts": "2026-10-15T04:18:54.159100+00:00"
+ },
+ "0ab711836515926c": {
+  "ticker": "MACRO",
+  "title": "【AI热潮推动出口扩张 韩国第三季度经济增长1%】金十数据10月27日讯，随着AI热潮持续推动科技产品需求增长，韩国央行周二公布的初步预估数据显示，第三季度经济增长1.0%，高于市场预期的0.7%。第三季度出口增长2.3%，主要受半导体、机",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
  },
  "0ab7f57f409e743c": {
   "ticker": "NFLX",
@@ -46083,6 +46093,11 @@
   "ticker": "MACRO",
   "title": "Nasdaq rises as tech stocks begin the week with optimism (SP500:) - Seeking Alpha",
   "ts": "2026-10-19T17:43:35.378232+00:00"
+ },
+ "370c6f2ca556be6e": {
+  "ticker": "MACRO",
+  "title": "Gold prices today, October 27th: Recovering, escaping a 3-month low. - Vietnam.vn",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
  },
  "370c8bedb449bf72": {
   "ticker": "MU",
@@ -83479,6 +83494,11 @@
   "title": "Netflix Q3 Net Profit Rises Nearly 44 Pct - bernama",
   "ts": "2026-10-21T08:26:18.065891+00:00"
  },
+ "63b5543ed371bbe4": {
+  "ticker": "NET",
+  "title": "Cloudflare Says GLM-5.3 Bug Leaked 155 Responses Across Tenant Sessions - Unite.AI",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
+ },
  "63b57a52ec5b5fe6": {
   "ticker": "TSLA",
   "title": "Tesla (TSLA) Sets Huge 2030 Vehicle Goal as Musk Flags Optimus Delays - TipRanks",
@@ -104479,6 +104499,11 @@
   "title": "Wall Street ticks higher after SpaceX helps lift AI stocks - Pittsburgh Post-Gazette",
   "ts": "2026-10-21T21:01:34.093765+00:00"
  },
+ "7d5120f3a673a781": {
+  "ticker": "NVDA",
+  "title": "Comau integrates Nvidia technology to accelerate development of AI-powered robots - Robotics & Automation News",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
+ },
  "7d526add347bae03": {
   "ticker": "MACRO",
   "title": "【中国驻英国使馆发言人：欧洲产业的困境根源在于其自身的结构性问题】金十数据10月26日讯，中国驻英国使馆发言人就部分媒体炒作所谓“中国制造业崛起对西方高端产业形成冲击”答记者问表示，欧洲产业的困境根源在于其自身的结构性问题——产业空心化、经",
@@ -123044,6 +123069,11 @@
   "title": "Mackenzie Shirilla Drove into a Brick Wall at 100 MPH Without Braking, and Netflix’s the Crash Has Her First Interview f",
   "ts": "2026-10-17T17:45:13.888708+00:00"
  },
+ "93e42c3b4f55a363": {
+  "ticker": "NFLX",
+  "title": "Keanu Reeves Takes a 33-Year-Old ‘Die Hard in a Hurricane’ Script to Netflix - Around Prague",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
+ },
  "93e5f51ffa429ddb": {
   "ticker": "NFLX",
   "title": "5 New Shows to Stream This Week on Netflix, Prime Video and More - Yahoo",
@@ -123568,6 +123598,11 @@
   "ticker": "NVDA",
   "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote - NVIDIA Blog",
   "ts": "2026-10-21T09:44:43.359026+00:00"
+ },
+ "9479f4a29aefe4b9": {
+  "ticker": "MACRO",
+  "title": "Series of economic data impacts gold prices this week - Laodong.vn",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
  },
  "947a70c209905e31": {
   "ticker": "NFLX",
@@ -143962,6 +143997,11 @@
   "ticker": "MACRO",
   "title": "Brent Crude Price at $104 as Washington Weighs Easing Sanctions on Tankers: Bull and Bear Case - FinanceFeeds",
   "ts": "2026-10-15T07:12:33.453138+00:00"
+ },
+ "ad1cd1f0d56cd7f8": {
+  "ticker": "HCLTECH",
+  "title": "HCLTech and Rapidus partner open new semiconductor centres in India - Digital Watch Observatory",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
  },
  "ad1d83dc4a148867": {
   "ticker": "TSLA",
@@ -185182,6 +185222,11 @@
   "ticker": "TSM",
   "title": "Why TSMC's $64 billion spending plan shouldn't deter investors - Invezz",
   "ts": "2026-10-15T19:44:10.763203+00:00"
+ },
+ "de001961c56895de": {
+  "ticker": "RKLB",
+  "title": "Could Rocket Lab (NASDAQ:RKLB) Turn Launch Success Into Momentum? - Kalkine Media",
+  "ts": "2026-10-26T23:12:56.304063+00:00"
  },
  "de00577e86b751c4": {
   "ticker": "LITE",
