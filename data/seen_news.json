@@ -4614,6 +4614,11 @@
   "title": "Interactive Brokers stock trades at EUR 71.83 in weekend trading - ad-hoc-news.de",
   "ts": "2026-10-24T08:26:45.186973+00:00"
  },
+ "04aea2f66a69b5d9": {
+  "ticker": "AMD",
+  "title": "I'd Own a Small Position in AMD Stock Through 2030, but I Wouldn't Expect It to Triple Again - The Globe and Mail",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
+ },
  "04af3f2d3a9efdeb": {
   "ticker": "NVDA",
   "title": "Shah Wealth Advisors LLC Acquires New Holdings in NVIDIA Corporation $NVDA - MarketBeat",
@@ -35614,6 +35619,11 @@
   "title": "Trump, Biden Reportedly Asked SpaceX To Toggle SpaceX’s Starlink Services In Ukraine, Middle East — 'Elon Will Never Do ",
   "ts": "2026-10-24T08:44:42.179285+00:00"
  },
+ "272ff3372b08b863": {
+  "ticker": "SPCX",
+  "title": "SpaceX: Q3 ESP Reversal And Starship Scale Drives Rating Upgrade (NASDAQ:SPCX) - Seeking Alpha",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
+ },
  "273018e28d253f6f": {
   "ticker": "RKLB",
   "title": "Rocket Lab Electron Launches HawkEye 360 Cluster 16 to Expand Radio-Frequency Constellation - SatNews Publishers",
@@ -38173,6 +38183,11 @@
   "ticker": "ASTS",
   "title": "AST SpaceMobile to Host Third Quarter 2026 Business Update Call on November 9, 2026 - Business Wire",
   "ts": "2026-10-26T23:06:50.424199+00:00"
+ },
+ "2a1a48e3df0186fe": {
+  "ticker": "COHR",
+  "title": "Here’s How Much You Would Have Made Owning Coherent Stock In The Last 10 Years - Benzinga",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "2a1a93d63954d16d": {
   "ticker": "NFLX",
@@ -61534,6 +61549,11 @@
   "title": "World’s most valuable company Nvidia was once ‘dying’ for a chip deal; Jensen Huang recalls the night TSM - The Times of",
   "ts": "2026-10-16T11:05:56.225888+00:00"
  },
+ "4452a1ab15a38c98": {
+  "ticker": "MACRO",
+  "title": "KOSPI Jumps 3% as AI Chip Demand Lifts Samsung, SK Hynix; GDP Beats Forecasts - finance.biggo.com",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
+ },
  "445400a86e7a6773": {
   "ticker": "MACRO",
   "title": "In 2019, Purdue began growing corn and soybeans around solar panels in Indiana; after 4 years, even the mo - The Economi",
@@ -66888,6 +66908,11 @@
   "ticker": "NET",
   "title": "Cloudflare schedules third-quarter results as Cloudflare stock trades at EUR 263.25 - ad-hoc-news.de",
   "ts": "2026-10-18T15:18:29.806931+00:00"
+ },
+ "4a60075074529a68": {
+  "ticker": "NFLX",
+  "title": "TYSON on Netflix – Mike Tyson tells the story of his own turbulent life - Metro Mode",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "4a629b74ea3eb93c": {
   "ticker": "MACRO",
@@ -72723,6 +72748,11 @@
   "ticker": "NVDA",
   "title": "Anthropic Files for IPO, Revealing Up to $165 Billion in NVIDIA GPU Compute Deals and a Warning About Memory Supply - Th",
   "ts": "2026-10-26T16:41:17.453228+00:00"
+ },
+ "50aa3978d507fd11": {
+  "ticker": "MACRO",
+  "title": "US consumer confidence recovers in October as gas prices eased a bit - Western Mass News",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "50aa7e06644c4d1c": {
   "ticker": "NVDA",
@@ -143349,6 +143379,11 @@
   "title": "Nasdaq, S&P 500 Futures Climb After SpaceX’s Blowout Quarter: SMCI, NFLX, GE Stocks In Focus - Yahoo Finance",
   "ts": "2026-10-21T04:27:46.335406+00:00"
  },
+ "9f8653d7990b56ba": {
+  "ticker": "HOOD",
+  "title": "Form 4 Robinhood Ventures Fund For: Oct 23 Filed by: Robinhood Markets, Inc. - StreetInsider",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
+ },
  "9f86baaa4fb54f85": {
   "ticker": "AMD",
   "title": "How much AMD stock does CEO Lisa Su actually own? - Yahoo Finance",
@@ -145062,6 +145097,11 @@
   "ticker": "MACRO",
   "title": "Gold Holds Above 3-Month Low Ahead of Fed Decision - TradingPedia",
   "ts": "2026-10-27T08:01:16.566843+00:00"
+ },
+ "a1770f0a7fcb6ce2": {
+  "ticker": "TSLA",
+  "title": "3 Types of Investors Who Should Avoid SpaceX and Tesla Stocks as the Companies Explore a Potential Merger - The Globe an",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "a1774a084fb73e5f": {
   "ticker": "TSM",
@@ -167603,6 +167643,11 @@
   "title": "Cadence unveils Nvidia-backed AI models that chipmakers can run in-house - The Economic Times",
   "ts": "2026-10-26T15:01:09.843211+00:00"
  },
+ "baba184bbed378fd": {
+  "ticker": "HOOD",
+  "title": "Robinhood Markets (HOOD) Releases Q3 2026 Earnings: Revenue Growth but EPS Miss - Quiver Quantitative",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
+ },
  "babe155e85f0086f": {
   "ticker": "RKLB",
   "title": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission - Carroll County Mirror-Democrat",
@@ -174457,6 +174502,11 @@
   "ticker": "TSLA",
   "title": "Tesla and SpaceX Just Formed Special Committees to Weigh a Merger - 24/7 Wall St.",
   "ts": "2026-10-21T11:39:14.706548+00:00"
+ },
+ "c238801a834e3cf7": {
+  "ticker": "TSLA",
+  "title": "Tesla Stock Rises In A Buy Range; Musk Touts Cybercab Fleet Expansion - Investor's Business Daily",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "c2388f0ec026137b": {
   "ticker": "MACRO",
@@ -184082,6 +184132,11 @@
   "ticker": "NFLX",
   "title": "Netflix Stocks Drop Ahead of Earnings and a $13.53 Billion Sales Hurdle - TradingView",
   "ts": "2026-10-20T20:08:23.203472+00:00"
+ },
+ "ccd913766d70e6a6": {
+  "ticker": "MACRO",
+  "title": "Oil Futures Retreat as Middle East Diplomacy Gains Momentum on - Eurasia Business News",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "ccda0843ea925ebf": {
   "ticker": "NFLX",
@@ -222287,6 +222342,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts about 6% of jobs in biggest layoff since 2022 - GMA Network",
   "ts": "2026-10-14T23:09:59.828940+00:00"
+ },
+ "f7db3729a932a7cd": {
+  "ticker": "HOOD",
+  "title": "Robinhood shares fall on Q3 revenue miss even as EPS beats - Investing.com Australia",
+  "ts": "2026-10-27T20:52:44.901356+00:00"
  },
  "f7de1876134cd2b1": {
   "ticker": "NFLX",
