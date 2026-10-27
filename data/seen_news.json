@@ -2504,6 +2504,11 @@
   "title": "BBC breaks silence over extending TV licence to Amazon, Netflix, Disney+ - Birmingham Live",
   "ts": "2026-10-19T10:18:53.560766+00:00"
  },
+ "0263b39f38f026b2": {
+  "ticker": "NVDA",
+  "title": "Nvidia stock rises after Meta deal, but AI financing risks linger - Invezz",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "0264ffb55b75114b": {
   "ticker": "NVDA",
   "title": "Nvidia chief backs California wealth tax as billionaires contest levy - Traders Union",
@@ -7873,6 +7878,11 @@
   "ticker": "MACRO",
   "title": "Illinois Unemployment Rate Falls to 4.6% for Third Straight Month - RiverBender.com",
   "ts": "2026-10-16T22:10:16.759929+00:00"
+ },
+ "083177d59da0a1ba": {
+  "ticker": "MACRO",
+  "title": "CRUDE WRAP: WTI (Z6) SETTLES USD 1.86 LOWER AT 99.90/BBL; BRENT (F7) SETTLES USD 1.33 LOWER AT 109.41/BBL - Newsquawk",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "0834f24ce7e1a9f7": {
   "ticker": "MACRO",
@@ -18173,6 +18183,11 @@
   "ticker": "NFLX",
   "title": "Netflix's third-quarter earnings failed to excite investors, a week after a major content executive shuffle and its bigg",
   "ts": "2026-10-20T21:33:19.425542+00:00"
+ },
+ "13b5ae46bf0ccd96": {
+  "ticker": "GOOGL",
+  "title": "Alphabet & Microsoft Earnings Preview: AI Cloud Growth Takes Center Stage - Yahoo! Finance Canada",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "13b61f7d7042dbe9": {
   "ticker": "MACRO",
@@ -36734,6 +36749,11 @@
   "title": "NVIDIA CEO calls Kazakhstan first country to pursue ‘AI nation’ status - Kursiv Media",
   "ts": "2026-10-23T09:01:37.240264+00:00"
  },
+ "287e98d6178b8575": {
+  "ticker": "HOOD",
+  "title": "Robinhood Markets Q3 Net Funded Accounts at 28,7 Million Vs Consensus of 28.9 Million - Moomoo",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "287f28c2d2b9250e": {
   "ticker": "NFLX",
   "title": "‘Stranger Things: Tales from ’85’ Season 3: Netflix Renewal Status & What to Expect - IMDb",
@@ -49704,6 +49724,11 @@
   "title": "SpaceX Analyst Sees an Empire Taking Shape in Orbit - Benzinga",
   "ts": "2026-10-22T17:37:31.746551+00:00"
  },
+ "3712a8805daff980": {
+  "ticker": "GOOGL",
+  "title": "Top Research Reports for Alphabet, ExxonMobil & Toyota Motor - Yahoo Finance",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "3713c24280861bcf": {
   "ticker": "TSM",
   "title": "TSMC $TSM just moved from Golden Breakout to Euphoria on the - KuCoin",
@@ -49823,6 +49848,11 @@
   "ticker": "NFLX",
   "title": "Lights, camera, action! All episodes of hit Netflix drama starring Burghley House now streaming - Peterborough Telegraph",
   "ts": "2026-10-19T14:46:05.273484+00:00"
+ },
+ "3732bd53ef5ee8f5": {
+  "ticker": "RKLB",
+  "title": "Lincoln Electric, Rocket Lab, Fluence Energy, ChargePoint, and American Superconductor shares skyrocket, what you need t",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "3733064015756b5a": {
   "ticker": "APP",
@@ -69204,6 +69234,11 @@
   "title": "Netflix Is Down 38% Since Completing Its 10-For-1 Stock Split. Here's Why the Sell-Off Is Worsening After Its Latest Ear",
   "ts": "2026-10-21T23:20:50.154262+00:00"
  },
+ "4d10f79adf06a8d7": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab climbs 9%, continuing a recent rebound (RKLB:NASDAQ) - Seeking Alpha",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "4d13052dd44dd789": {
   "ticker": "NFLX",
   "title": "Report: Netflix fails with $500m offer to adapt Xbox gaming IP to film and TV - PocketGamer.biz",
@@ -72208,6 +72243,11 @@
   "ticker": "NFLX",
   "title": "Darts Fans Fume as 24 Contestants Trying to Beat Luke Littler in Netflix Show Revealed - GiveMeSport",
   "ts": "2026-10-23T07:40:00.062409+00:00"
+ },
+ "503a381f94b3717f": {
+  "ticker": "CORT",
+  "title": "Corcept Therapeutics to Announce Third Quarter Financial Results, Provide Corporate Update and Host Conference Call - Ya",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "503b4cc518dd6afe": {
   "ticker": "MACRO",
@@ -80173,6 +80213,11 @@
   "ticker": "MACRO",
   "title": "US stock market today: Dow futures edge higher as AI stocks recover from weekly losses - CNBC TV18",
   "ts": "2026-10-19T14:39:59.514776+00:00"
+ },
+ "5943c5a58ea8c49f": {
+  "ticker": "MU",
+  "title": "Investors Anticipate Micron Stock Rally as AI Memory Shortage Gains Attention Ahead of Earnings Reports - SSBCrack",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "594455e64e9fa3a7": {
   "ticker": "NET",
@@ -114479,6 +114524,11 @@
   "title": "Broadcom, Nvidia, Boeing, GM, UPS, JetBlue, and More Stocks That Explain Today’s Market - Barron's",
   "ts": "2026-10-27T16:29:50.439990+00:00"
  },
+ "7f6fef549e7d5697": {
+  "ticker": "NFLX",
+  "title": "Netflix (NFLX) director exercises 17,980 stock options and sells the shares. - Stock Titan",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "7f712e23e5f36b96": {
   "ticker": "MU",
   "title": "Why Micron and SanDisk Stocks Are Climbing Today - TradingView",
@@ -124504,6 +124554,11 @@
   "title": "Radhika Apte reveals Netflix has named an office meeting room after her - hungamaexpress.com",
   "ts": "2026-10-22T21:16:45.214953+00:00"
  },
+ "8ab5f35bb4223fd8": {
+  "ticker": "NFLX",
+  "title": "Inside the rift at Netflix as the company faces layoffs and executive shake-ups - Los Angeles Times",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "8ab8c91aa82a5386": {
   "ticker": "NFLX",
   "title": "‘Money Heist’ Star Rodrigo de la Serna Returns to Netflix in the 1970s Crime Series ‘Gordon’ - What's on Netflix",
@@ -130928,6 +130983,11 @@
   "ticker": "NFLX",
   "title": "Can a Feminist Girl and a Self-Described “Nice Guy” Learn to Love Each Other? ‘My Crazy Feminist Girlfriend’ Main Traile",
   "ts": "2026-10-27T00:13:29.993621+00:00"
+ },
+ "91d93c4f0447bf8d": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer Inc. stock outperforms competitors on strong trading day - MarketWatch",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "91e24831822ff0a7": {
   "ticker": "MACRO",
@@ -143359,6 +143419,11 @@
   "title": "Netflix Stock Falls After Hours as Q4 Guidance Misses Consensus - AskTraders.com",
   "ts": "2026-10-20T20:20:24.452147+00:00"
  },
+ "9fd4fe7edaa85aa9": {
+  "ticker": "IONQ",
+  "title": "IonQ (IONQ) Just Gave Investors Something To Think About - Simply Wall Street",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "9fd573055789d779": {
   "ticker": "MACRO",
   "title": "Wall Street ended deep in the red after the latest CPI print - TradingView",
@@ -148163,6 +148228,11 @@
   "title": "Netflix Cut Its Ad Revenue Forecast by $300 Million. Does That Matter More Than Its Earnings Beat? - The Globe and Mail",
   "ts": "2026-10-20T23:53:33.594977+00:00"
  },
+ "a50ae19e9b3006a4": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Next Act: Cloud Deployments, Leased GPUs and a $3 Billion Equity Ticket - ad-hoc-news.de",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "a50c4938eccb303c": {
   "ticker": "SNDK",
   "title": "U.S. Stock Market Moves | Memory Chip Stocks Rise Broadly; SanDisk (SNDK.US) Up Over 5% - Moomoo",
@@ -148327,6 +148397,11 @@
   "ticker": "ASTS",
   "title": "AST SpaceMobile targets service launch in five countries by year-end - Investing.com Nigeria",
   "ts": "2026-10-20T13:27:08.859129+00:00"
+ },
+ "a5381b20d57768dd": {
+  "ticker": "HOOD",
+  "title": "Earnings Flash (HOOD) Robinhood Markets, Inc. Reports Q3 Revenue $1.42B, vs. FactSet Est of $1.44B - marketscreener.com",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "a53b4806491c82ad": {
   "ticker": "TSLA",
@@ -151397,6 +151472,11 @@
   "ticker": "MACRO",
   "title": "US Inflation 3.7%: The Level That Counts for Bitcoin - CryptoTicker",
   "ts": "2026-10-14T21:12:08.305827+00:00"
+ },
+ "a8c74ae23ba70721": {
+  "ticker": "MACRO",
+  "title": "Australia CPI forecast to increase in September, supporting RBA hawkish stance - FXStreet",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "a8c9aff5447f5ea4": {
   "ticker": "AXTI",
@@ -164133,6 +164213,11 @@
   "title": "【金十数据整理：每日科技要闻速递（10月21日）】 人工智能： 1. 外交部回应美政府禁用中国AI。 2. Fireworks AI寻求最高以400亿美元估值融资。 3. Anthropic IPO文件：上半年营收163亿美元 未来算力承诺",
   "ts": "2026-10-20T23:29:18.398112+00:00"
  },
+ "b744bba61fb8a1ad": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer options signal 11% post-earnings move By Investing.com - Investing.com Nigeria",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
+ },
  "b74aa594ee59e2f2": {
   "ticker": "NVDA",
   "title": "Huang Says Nvidia GPUs Last 8 Years, Could Back AI Loans - FourWeekMBA",
@@ -166547,6 +166632,11 @@
   "ticker": "MACRO",
   "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day - 24/7 Wall St.",
   "ts": "2026-10-17T12:49:35.099623+00:00"
+ },
+ "b9e832989622ecd9": {
+  "ticker": "NVDA",
+  "title": "NVIDIA and Oracle Plan Multi-Gigawatt Vera Rubin Expansion on OCI - HPCwire",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "b9e9bf01183bf777": {
   "ticker": "NVDA",
@@ -177847,6 +177937,11 @@
   "ticker": "MACRO",
   "title": "Dollar-Yen Holds Firm Above 158, Climbs to 158.18 on U.S. Yields - BigGo Finance",
   "ts": "2026-10-19T08:48:33.464604+00:00"
+ },
+ "c61858084ebcd146": {
+  "ticker": "IONQ",
+  "title": "IonQ Secures $7.5 Million Phase 2 AFRL Allocation to Expand Rome, NY Quantum Network with Free-Space Optics and Frequenc",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "c6198795bc55b52c": {
   "ticker": "MACRO",
@@ -228907,6 +229002,11 @@
   "ticker": "NFLX",
   "title": "Netflix's New 8-Part Harlan Coben Mystery Thriller Hits Major Milestone While Breaking 3-Year Trend - IMDb",
   "ts": "2026-10-17T17:27:10.048804+00:00"
+ },
+ "ffe5d13126b49366": {
+  "ticker": "HCLTECH",
+  "title": "HCLTech Tracked in Nifty IT Move Amid Improving Sentiment - Kalkine India",
+  "ts": "2026-10-27T20:34:33.380054+00:00"
  },
  "ffe6378b29177dcf": {
   "ticker": "TSLA",
