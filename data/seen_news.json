@@ -30689,6 +30689,11 @@
   "title": "U.S. Stocks Slip as Treasurys Retreat From Recent Highs - WSJ",
   "ts": "2026-10-16T06:09:15.050839+00:00"
  },
+ "22f353d2fe1f5ae8": {
+  "ticker": "PLTR",
+  "title": "The AI ROI Panic Is Palantir's Best Sales Pitch (NASDAQ:PLTR) - Seeking Alpha",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
+ },
  "22f4d93ae6a76c67": {
   "ticker": "SMCI",
   "title": "Supermicro partners with Nokia to deploy AI-RAN infrastructure By Investing.com - Investing.com UK",
@@ -47033,6 +47038,11 @@
   "ticker": "NFLX",
   "title": "Ben Affleck’s New Netflix Thriller Holds Off ‘East of Eden,’ ‘Ted Lasso’ Finale at No. 1 on Streaming | Charts - Yahoo N",
   "ts": "2026-10-16T18:51:33.294407+00:00"
+ },
+ "3607166e358cc675": {
+  "ticker": "NVDA",
+  "title": "NVIDIA-backed Simplismart raises $14 million after 10-fold revenue surge - Moneycontrol.com",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "36073eb093951bb0": {
   "ticker": "NVDA",
@@ -66904,6 +66914,11 @@
   "title": "SpaceX-Tesla Merger: Antitrust Risks Emerge, S&P Inclusion May Bring About 10% Passive Buying - TradingKey",
   "ts": "2026-10-23T14:47:53.125371+00:00"
  },
+ "4d25e56598fef5e9": {
+  "ticker": "MACRO",
+  "title": "Bond-Market Doubts Grow Over Gridlock as Cure for Deficit Angst - Bloomberg.com",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
+ },
  "4d28cc79c0cc6777": {
   "ticker": "NFLX",
   "title": "New OTT releases this weekend: 9 new movies and shows coming on Netflix, JioHotstar, Prime Video and more - The Economic",
@@ -76653,6 +76668,11 @@
   "ticker": "MU",
   "title": "Micron Posted a $54.23 Billion Quarter and Guided to $61.5 Billion for Next Quarter - 24/7 Wall St.",
   "ts": "2026-10-22T11:20:15.140102+00:00"
+ },
+ "584677595ae3ab9e": {
+  "ticker": "NVDA",
+  "title": "Nvidia to Invest $3B in Meta’s Equity Offering, Expands Muse AI Partnership - TipRanks",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "5848982b191af0e0": {
   "ticker": "NFLX",
@@ -86504,6 +86524,11 @@
   "title": "25 years ago, Netflix learned a lesson about 'talent density.' New cuts test whether it still works - Fortune",
   "ts": "2026-10-14T20:19:22.815809+00:00"
  },
+ "636383ac54726c6e": {
+  "ticker": "NFLX",
+  "title": "Netflix is hiring a former Apple Podcasts executive to lead its podcast push - Quartz",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
+ },
  "6364fe3ddef87721": {
   "ticker": "MACRO",
   "title": "Canada Expands US Treasury Holdings as China Questions Grow - SuaraGarut.ID",
@@ -92888,6 +92913,11 @@
   "ticker": "NFLX",
   "title": "18 Globo Titles Heading to Netflix in Unprecedented Licensing Agreement - About Netflix",
   "ts": "2026-10-19T15:47:03.022093+00:00"
+ },
+ "6ab30b7f91a090cf": {
+  "ticker": "NFLX",
+  "title": "‘The One About Matthew Perry’ Review: Netflix’s Intimate and Sincere but Overly Padded Docuseries - IMDb",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "6ab52868572108da": {
   "ticker": "NVDA",
@@ -121898,6 +121928,11 @@
   "ticker": "SMCI",
   "title": "Super Micro Computer Stock Surges on Increased AI Demand - Benzinga",
   "ts": "2026-10-20T20:57:02.584738+00:00"
+ },
+ "8c9dd38fc206b69f": {
+  "ticker": "MACRO",
+  "title": "Why are gold and silver prices falling today? Silver breaks its July low, and gold could drop toward $3,90 - The Economi",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "8c9dea055a37437b": {
   "ticker": "MACRO",
@@ -158863,6 +158898,11 @@
   "title": "TSMC Q3 FY 2026 Earnings Beat and Raise on AI and HPC Demand - The Futurum Group",
   "ts": "2026-10-20T16:35:45.559138+00:00"
  },
+ "b7f27b440af7c06f": {
+  "ticker": "NFLX",
+  "title": "Netflix taps former Apple Podcasts executive Steve Wilson for acquisitions - afaqs!",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
+ },
  "b7f2919838e8564a": {
   "ticker": "MACRO",
   "title": "Brent Gains More Than 4% on U.S.-Iran Tensions, Hurricane Isaias - WSJ",
@@ -167113,6 +167153,11 @@
   "title": "Anthropic, SpaceX, Meta: $77.5B of AI’s $235B Day Is Signed - FourWeekMBA",
   "ts": "2026-10-27T09:57:28.511713+00:00"
  },
+ "c114c0f35b399e1f": {
+  "ticker": "MACRO",
+  "title": "Business Conditions Monthly August 2026 - The Daily Economy",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
+ },
  "c115007b8c82ac82": {
   "ticker": "IBKR",
   "title": "Is Interactive Brokers Group Inc (IBKR) Overvalued After Q3 Earn - GuruFocus",
@@ -172312,6 +172357,11 @@
   "ticker": "MACRO",
   "title": "Stocks post worst day since July on inflation data and AI selloff - Quartz",
   "ts": "2026-10-15T12:12:04.955007+00:00"
+ },
+ "c723e532d7d2c9bc": {
+  "ticker": "MACRO",
+  "title": "RBI may hike repo rate to 6.25% by H1 2027, warns Deutsche Bank as inflation risks persist - Livemint",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "c724644f0ac772d3": {
   "ticker": "TSM",
@@ -202167,6 +202217,11 @@
   "ticker": "PLTR",
   "title": "Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive - Yahoo Finance",
   "ts": "2026-10-16T11:49:37.562292+00:00"
+ },
+ "e9c383c4047bf2c1": {
+  "ticker": "MACRO",
+  "title": "RBI may raise repo rate to 6.25% by 2027 amid inflation risks: Deutsche Bank - India's News.Net",
+  "ts": "2026-10-27T12:05:45.617140+00:00"
  },
  "e9c3ef61b38a1c8b": {
   "ticker": "MACRO",
