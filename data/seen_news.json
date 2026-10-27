@@ -4109,6 +4109,11 @@
   "title": "Oil Prices Surge Over $2 as US-Iran Diplomatic Hopes Fade - Fana News -",
   "ts": "2026-10-21T19:32:27.466226+00:00"
  },
+ "0437e8547fd75e86": {
+  "ticker": "SPCX",
+  "title": "SpaceX ($SPCX) Locks in $40B GPU Financing Commitment as Elon Musk Expects Widespread Failures Among Specialized AI Clou",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "04381d7efcc5de6d": {
   "ticker": "NFLX",
   "title": "Netflix is telling investors not to worry, even though you’re watching less and less - The Verge",
@@ -20683,6 +20688,11 @@
   "ticker": "TSLA",
   "title": "Tesla Roadster Hits 0-60 in Under One Second and Can Literally Fly - Autoguide.com",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "16dd3c1199be7040": {
+  "ticker": "NFLX",
+  "title": "Netflix Grapples With Digital-Ad Squeeze Amid Widening Glut of Streaming Commercials - IMDb",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "16dd8f0826853e4b": {
   "ticker": "IONQ",
@@ -61254,6 +61264,11 @@
   "title": "Alphabet's Google, Accenture Unveil Gemini Launchpads to Help Agencies Build, Scale AI Agents - marketscreener.com",
   "ts": "2026-10-19T13:26:54.873431+00:00"
  },
+ "4550ad10728814c6": {
+  "ticker": "NFLX",
+  "title": "‘Narnia’ Fans Revolt: Petition Demands Netflix Remove Greta Gerwig - Faithwire",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "4551803a99cb1767": {
   "ticker": "NFLX",
   "title": "Creator of Netflix’s Nobody Wants This Responds to Adam Brody’s Support for Palestine - SSBCrack",
@@ -67693,6 +67708,11 @@
   "ticker": "SMCI",
   "title": "Supermicro launches 256-CPU liquid-cooled rack for agentic AI - StreetInsider",
   "ts": "2026-10-22T10:02:07.737386+00:00"
+ },
+ "4cb61675f969f30e": {
+  "ticker": "MACRO",
+  "title": "December hike expectations: BNY on the Federal Reserve - www.tmgm.com",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "4cb672bce6266750": {
   "ticker": "TSLA",
@@ -75793,6 +75813,11 @@
   "ticker": "NET",
   "title": "Cloudflare and OpenAI: Making AI discovery better for everyone - businessnewsthisweek.com",
   "ts": "2026-10-19T10:55:10.153015+00:00"
+ },
+ "55c1bb430bf397dc": {
+  "ticker": "NVDA",
+  "title": "Modders unlock hidden AI power on Nvidia RTX 20-, 30-, and 40-series GPUs, nearly doubling some benchmarks - TechSpot",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "55c25c0f9bf024f0": {
   "ticker": "TSLA",
@@ -97954,6 +97979,11 @@
   "title": "“Charity starts at home”: Musk’s SpaceX share pledge leaves SA out - Briefly News",
   "ts": "2026-10-20T10:24:27.911858+00:00"
  },
+ "6ecea6dc59791e18": {
+  "ticker": "SNDK",
+  "title": "SanDisk Corporation (SNDK) Stock Analysis & Forecast - TradingKey",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "6ed2b96cdd3f9dbd": {
   "ticker": "TSLA",
   "title": "Why would Musk merge SpaceX and Tesla? By Reuters - Investing.com Canada",
@@ -110399,6 +110429,11 @@
   "title": "How Is NVIDIA Expanding AI-Powered Telecom Networks Following T-Mobile’s First AI-RAN Call? - Yahoo Finance",
   "ts": "2026-10-21T15:19:48.739007+00:00"
  },
+ "7d160ea99798158a": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘Cyberpunk’ Universe Is Officially Back With a New Release - IMDb",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "7d1740d32bb6d546": {
   "ticker": "NFLX",
   "title": "Netflix Stock Is Down 40%. Can Q3 Earnings Spark a Comeback? - Cabot Wealth Network",
@@ -116638,6 +116673,11 @@
   "ticker": "NFLX",
   "title": "How to Save Netflix Episodes as MP4 Files on Windows and Mac - TechStory",
   "ts": "2026-10-27T04:36:54.313338+00:00"
+ },
+ "8455d97a17ded578": {
+  "ticker": "NFLX",
+  "title": "Why did the ‘Friends’ cast decline to appear in Matthew Perry’s Netflix documentary? Director explains - The Express Tri",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "8457713fc333cdfe": {
   "ticker": "MU",
@@ -125383,6 +125423,11 @@
   "ticker": "NVDA",
   "title": "Germany Partners With NVIDIA to Expand Industrial AI - SuaraGarut.ID",
   "ts": "2026-10-19T22:30:28.578360+00:00"
+ },
+ "8e3afdfa645336a9": {
+  "ticker": "MACRO",
+  "title": "Canadian Dollar Technical Outlook: USD/CAD Plunge Tests Critical Support Ahead of BoC, Fed - FOREX.com",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "8e3b9a2f3b8295ca": {
   "ticker": "PLTR",
@@ -169803,6 +169848,11 @@
   "title": "Bitcoin Slips Below $82,000 as Surging Treasury Yields Create Divergence in Risk Assets - BigGo Finance",
   "ts": "2026-10-19T23:25:11.409804+00:00"
  },
+ "c0c19180d635a20b": {
+  "ticker": "MU",
+  "title": "Phison Receives Micron Global Supplier Awards - Yahoo Finance",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "c0c2b0801d587d1e": {
   "ticker": "TSM",
   "title": "TSMC: Irrational Fears Don't Make Much Sense (NYSE:TSM) - Seeking Alpha",
@@ -182147,6 +182197,11 @@
   "ticker": "MU",
   "title": "History Says Micron Stock Gains 28% During the Fourth Quarter. Here's Why I Think Shares Will Surge Even More Before 202",
   "ts": "2026-10-20T17:12:11.670875+00:00"
+ },
+ "ce99ca1c1d8bd1f3": {
+  "ticker": "NFLX",
+  "title": "You're wasting Netflix subscription if you don't watch 3 gripping films this week - The Mirror",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "ce9b7b5fe0e58c95": {
   "ticker": "NFLX",
@@ -194628,6 +194683,11 @@
   "title": "Elon Musk Just Delivered Spectacular News for SpaceX Stock Investors - AOL.com",
   "ts": "2026-10-25T11:49:40.069822+00:00"
  },
+ "dccae2b4995e4d11": {
+  "ticker": "MACRO",
+  "title": "本田高管表示，如果美加今年年底前无法达成新的贸易协议，汽车行业将面临灾难性的局面。特朗普此前威胁称，如果两国未能达成协议，将于1月1日起将加拿大汽车及零部件的关税从25%提高到50%。",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "dcce2918b33712a7": {
   "ticker": "GOOGL",
   "title": "Alphabet's Constellation Energy (NASDAQ: CEG) Deal Sends Oklo (NYSE: OKLO) and NuScale (NYSE: SMR) Shares Soaring Despit",
@@ -200733,6 +200793,11 @@
   "title": "能源： 1. 中国国家统计局：9月份原煤生产降幅收窄，原油生产增速加快。 2. 中国国家统计局：前三季度规模以上工业增加值同比增长5.3%。 3. 美国能源部长：柴油交易旨在激励俄罗斯缓和对乌冲突。特朗普暂停对俄制裁但未解除。 4. 美国财",
   "ts": "2026-10-19T05:25:41.694507+00:00"
  },
+ "e3c0d64d87d99a7f": {
+  "ticker": "GOOGL",
+  "title": "Zscaler vs. Alphabet: Which Cloud Security Stock Has the Edge? - Yahoo Finance",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
+ },
  "e3c24a7d0c43328e": {
   "ticker": "MACRO",
   "title": "US Shale Producer EOG Resources Beats Quarterly Profit Estimates on Higher Crude Prices - EnergyNow.com",
@@ -205512,6 +205577,11 @@
   "ticker": "MACRO",
   "title": "Are bonds safe again…? - Investors' Chronicle",
   "ts": "2026-10-23T10:20:29.515057+00:00"
+ },
+ "e976d1625b7a0313": {
+  "ticker": "NFLX",
+  "title": "This Michigan Bartender Stirs Up Trouble in Netflix's New Experiment - Cars 108",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "e977657741c70136": {
   "ticker": "NFLX",
@@ -216377,6 +216447,11 @@
   "ticker": "MACRO",
   "title": "BMO says U.S. Treasury yields may break out ahead of Fed meeting - Traders Union",
   "ts": "2026-10-22T06:36:54.705828+00:00"
+ },
+ "f60be8faf0970b30": {
+  "ticker": "IONQ",
+  "title": "Ionq, Inc Receives $7.5 Million in Follow-On Funding from the Air Force Research Laboratory - marketscreener.com",
+  "ts": "2026-10-27T15:53:17.359758+00:00"
  },
  "f60c38a4a085d5cb": {
   "ticker": "NFLX",
