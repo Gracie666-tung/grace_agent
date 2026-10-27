@@ -9319,6 +9319,11 @@
   "title": "GOOG, GOOGL Deadline Reminder: Alphabet Investors are - GlobeNewswire",
   "ts": "2026-10-19T10:36:59.575227+00:00"
  },
+ "0a022d7b6bb330bc": {
+  "ticker": "NVDA",
+  "title": "NVIDIA says the RTX 5090 isn't being discontinued, but its partners can no longer order it - Instant Gaming News",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "0a0467ec3bc433f4": {
   "ticker": "NVDA",
   "title": "Nvidia and Apple each pledged $25 million to Trump's White House ballroom - Quartz",
@@ -9583,6 +9588,11 @@
   "ticker": "NVDA",
   "title": "Germany's Agile Robots Launches Agile ONE SN Humanoid Research Platform Built on Nvidia GR00T - AI Insider",
   "ts": "2026-10-22T11:56:11.997035+00:00"
+ },
+ "0a5f7c0bb47025a4": {
+  "ticker": "MACRO",
+  "title": "DAX, Oil Forecast: Two trades to watch - FOREX.com",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "0a646b8e7e16da00": {
   "ticker": "APP",
@@ -23994,6 +24004,11 @@
   "title": "Australian Natural Gas Prices Reflect Pipeline Constraints and LNG Demand - Kalkine",
   "ts": "2026-10-15T10:25:00.696741+00:00"
  },
+ "1b14cd565d9c2c31": {
+  "ticker": "NVDA",
+  "title": "[Robinhood onchain] Tokenized stocks total $154.47 million as Nvidia adds 394 holder wallets - www.tokenpost.com",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "1b14ecd5afb7670c": {
   "ticker": "HOOD",
   "title": "Robinhood Markets schedules October 27 results for Robinhood Markets stock - ad-hoc-news.de",
@@ -27313,6 +27328,11 @@
   "ticker": "PLTR",
   "title": "Ondas and Palantir Launch Regna AI for Sovereign Edge Operations - Unmanned Systems Technology",
   "ts": "2026-10-16T06:39:45.020971+00:00"
+ },
+ "1edd56cc92668f4a": {
+  "ticker": "MU",
+  "title": "38 ETFs Add to Micron (MU) Holdings on Oct. 23 - Yahoo Finance",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "1edfdfa20abb86a9": {
   "ticker": "MACRO",
@@ -42089,6 +42109,11 @@
   "title": "Amadeus IT Group (BME:AMS) Deepens NVIDIA Partnership, Is The 14% Undervaluation Still Compelling? - Simply Wall Street",
   "ts": "2026-10-23T08:28:33.977626+00:00"
  },
+ "305100a45a5cd434": {
+  "ticker": "MU",
+  "title": "Plans by a Micron competitor to build chip plants in CNY have been in the works for months - Syracuse.com",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "3052063f2a0d1984": {
   "ticker": "AAPL",
   "title": "Why is Apple stock climbing today? - Investing.com",
@@ -50409,6 +50434,11 @@
   "title": "Rocket Lab Just Had Another Setback. Here’s Why I’m Finally Buying the Stock Anyway - Yahoo Finance",
   "ts": "2026-10-21T11:03:04.266656+00:00"
  },
+ "39c87e86d79a994a": {
+  "ticker": "MACRO",
+  "title": "Britain issues costliest 5-year debt since 2008 before budget - Yahoo Finance UK",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "39c980b646ac2a66": {
   "ticker": "MU",
   "title": "SKHY Stock Slides Premarket: Retail Eyes Buying Opportunity As Rival Micron’s Taiwan Strike Plan Adds Uncertainty To Mem",
@@ -57144,6 +57174,11 @@
   "title": "NVIDIA Keeps Falling and Wall Street Won’t Move Its Target. Is It Time To Buy? - Yahoo Finance",
   "ts": "2026-10-20T12:20:04.380881+00:00"
  },
+ "41a88374158e9317": {
+  "ticker": "NVDA",
+  "title": "Nvidia is in talks to lead a $20 million round for Simplismart - Startup Fortune",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "41aa31120196efec": {
   "ticker": "MACRO",
   "title": "美联储主席沃什：如果我之前没有在美联储工作，我会对引入新想法感到犹豫。",
@@ -58473,6 +58508,11 @@
   "ticker": "NVDA",
   "title": "News | Nvidia co-founder pays his fortune forward - CoStar",
   "ts": "2026-10-21T20:16:22.051731+00:00"
+ },
+ "433ac6a8fa453042": {
+  "ticker": "MACRO",
+  "title": "Ripple Price Forecast: Why XRP is grinds lower? - FXStreet",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "433dfb75e46be521": {
   "ticker": "NVDA",
@@ -71439,6 +71479,11 @@
   "title": "Tesla Stock Jumps 5.6% as Barclays Upgrade Caps a Week of Mixed Signals - ad-hoc-news.de",
   "ts": "2026-10-26T14:42:44.138569+00:00"
  },
+ "524ad9f2635706ac": {
+  "ticker": "NVDA",
+  "title": "Nvidia to invest $3b in Meta as AI partnership expands - Tech in Asia",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "524bb7e7d205328a": {
   "ticker": "MU",
   "title": "Micron's Sold-Out Capacity Meets a Market That Won't Take Yes for an Answer - ad-hoc-news.de",
@@ -74508,6 +74553,11 @@
   "ticker": "NVDA",
   "title": "CariGenetics Partners with DNAnexus to Launch First Caribbean Collaborative Genomics Research Infrastructure with NVIDIA",
   "ts": "2026-10-22T14:15:59.221165+00:00"
+ },
+ "55c93762e46116e3": {
+  "ticker": "NFLX",
+  "title": "The One About Matthew Perry on Netflix: Sad portrait of a much-loved actor who couldn’t love himself - The Irish Times",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "55ca3592cdd40e4c": {
   "ticker": "NVDA",
@@ -102789,6 +102839,11 @@
   "title": "Kospi Index outlook: Headwinds pile up as the selloff deepens, what next? - Invezz",
   "ts": "2026-10-19T07:07:03.803717+00:00"
  },
+ "7670860b03f28144": {
+  "ticker": "NFLX",
+  "title": "\"All of Us Are Dead\" Season 2: Cheong-san’s Fate Confirmed and Netflix Release Date Updated! - Dojeon Media",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "767172816dbd908d": {
   "ticker": "GOOGL",
   "title": "Alphabet Balances OpenAI Cloud Win Against European Regulator's Outage Questions - AD HOC NEWS",
@@ -106488,6 +106543,11 @@
   "ticker": "NVDA",
   "title": "Nvidia, Mercedes-Benz to extend partnership - Breakingthenews.net",
   "ts": "2026-10-16T08:34:48.135271+00:00"
+ },
+ "7abc11e649624191": {
+  "ticker": "MACRO",
+  "title": "Will Brent Lead to Stagflation? - Action Forex",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "7abd623e354b6afa": {
   "ticker": "NFLX",
@@ -121099,6 +121159,11 @@
   "title": "Netflix Needs 'Buzzy' Movie,TV Franchises 10/20/2026 - MediaPost",
   "ts": "2026-10-20T12:07:37.502568+00:00"
  },
+ "8bd9185d0135a063": {
+  "ticker": "NVDA",
+  "title": "Schneider Electric, Nscale and Start Campus Bring the NVIDIA Omniverse DSX Blueprint into a Live AI Factory Environment ",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "8bda16f725e075a3": {
   "ticker": "TSLA",
   "title": "Meta and Tesla Q3 reports show why Big Tech investors face an AI spending catch-22 - Business Insider",
@@ -133049,6 +133114,11 @@
   "title": "Nvidia wins fast-growing AI startup Modal for new central processors - 927thevan.com",
   "ts": "2026-10-19T21:05:27.673205+00:00"
  },
+ "99b1690e5db46706": {
+  "ticker": "HCLTECH",
+  "title": "HCLTech completes Robotiq.ai acquisition to add RPA to UnO Agentic - DQ",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "99b1963bc65d920d": {
   "ticker": "NVDA",
   "title": "Lenders Are Getting Nervous About CoreWeave. I'd Still Buy Nvidia Stock. - The Motley Fool",
@@ -134698,6 +134768,11 @@
   "ticker": "TSLA",
   "title": "In Texas, a Powerwall owner says 'free nights' could beat Tesla's $800 credit - Yahoo Finance",
   "ts": "2026-10-26T07:34:39.194586+00:00"
+ },
+ "9b8899365fa50053": {
+  "ticker": "TSLA",
+  "title": "Musk Mocks Waymo as Tesla’s Latest Austin Week Tops Waymo’s Q2 Average - Electric Vehicles",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "9b889f328860de0b": {
   "ticker": "NVDA",
@@ -178998,6 +179073,11 @@
   "title": "Rosenblatt Sees 45% Upside in Super Micro Stock - GuruFocus",
   "ts": "2026-10-16T19:39:46.457388+00:00"
  },
+ "cea8d4e708758c74": {
+  "ticker": "AAOI",
+  "title": "Applied Optoelectronics (NASDAQ:AAOI) Stock Price Target Lowered at Needham & Company LLC - MarketBeat",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "cea95325ae6da813": {
   "ticker": "TSLA",
   "title": "SpaceX, Netflix, Super Micro Computer, Tesla and Meta: Why These 5 Stocks Are on Investors' Radars Today - Benzinga",
@@ -206048,6 +206128,11 @@
   "title": "Tesla's Giga Texas Meeting Lottery Gives Winners 17 Days to Get There - EVXL.co",
   "ts": "2026-10-19T16:54:25.616807+00:00"
  },
+ "ee5931e29136b13f": {
+  "ticker": "NFLX",
+  "title": "OTT Releases This Week: From Baththa to Akka, What’s New on Netflix, Prime Video and ZEE5 - The Live Nagpur",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "ee594b6b075ad927": {
   "ticker": "NVDA",
   "title": "Nvidia, Meta partner on Muse agent as Nvidia invests $3 billion - marketscreener.com",
@@ -208037,6 +208122,11 @@
   "ticker": "NFLX",
   "title": "Netflix Revenue Growth Hits Three-Year Low - The Information",
   "ts": "2026-10-20T21:57:59.941138+00:00"
+ },
+ "f0bdfb43f1a59f9e": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stock: Supply Is Cracking The Case (NASDAQ:SNDK) - Seeking Alpha",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "f0bff48ff3d6994d": {
   "ticker": "MACRO",
@@ -214338,6 +214428,11 @@
   "title": "Catch up quickly: Elon Musk; melanoma breakthrough; Netflix experiment - The Washington Post",
   "ts": "2026-10-23T11:12:41.810713+00:00"
  },
+ "f7f9aa00b0471843": {
+  "ticker": "SPCX",
+  "title": "Hiltzik: Who would gain from a merger of Musk's SpaceX and Musk's Tesla? Take a wild guess - Yahoo Finance Australia",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
+ },
  "f7fb01133f64f4b4": {
   "ticker": "AMD",
   "title": "$1000 Invested In Advanced Micro Devices 15 Years Ago Would Be Worth This Much Today - Benzinga",
@@ -214387,6 +214482,11 @@
   "ticker": "NVDA",
   "title": "Danaher partners with NVIDIA as Danaher Corporation stock trades at EUR 206.90 - ad-hoc-news.de",
   "ts": "2026-10-16T08:22:45.572996+00:00"
+ },
+ "f80fb5c229faf2df": {
+  "ticker": "NVDA",
+  "title": "Why Are AI Chip Stocks Broadcom, AMD, and Nvidia Rising in Premarket Today, October 27? - TipRanks",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "f810a30a6f299102": {
   "ticker": "TSLA",
@@ -215472,6 +215572,11 @@
   "ticker": "MACRO",
   "title": "Brent Crude Rises Above $110: Middle East Tensions Raise Concerns Over India's Import Bill - Trade Brains",
   "ts": "2026-10-22T11:44:16.819232+00:00"
+ },
+ "f961ee062b82460a": {
+  "ticker": "MACRO",
+  "title": "Analysis-Bond investors are thinking less about the Fed and more about AI, deficits - SRN News",
+  "ts": "2026-10-27T12:11:52.665524+00:00"
  },
  "f964174c75b71bc7": {
   "ticker": "MACRO",
