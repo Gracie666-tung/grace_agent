@@ -11739,6 +11739,11 @@
   "title": "Brent oil slips as Russian tanker sanctions relief outweighs geopolitical risks - Traders Union",
   "ts": "2026-10-15T13:24:39.820229+00:00"
  },
+ "0c2adfe4d5462c1d": {
+  "ticker": "MACRO",
+  "title": "Unilever India posts higher profit on healthy demand - Business Recorder",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "0c2bfefbba78bcfd": {
   "ticker": "NVDA",
   "title": "INVESCO QQQ Trust (QQQ) Sells $14.3 Million More NVIDIA on Thursday - Yahoo Finance",
@@ -18664,6 +18669,11 @@
   "title": "Interactive Brokers’ Record Margins and AI-Fueled Expansion - The Globe and Mail",
   "ts": "2026-10-19T02:33:19.189789+00:00"
  },
+ "13c9287ec49df323": {
+  "ticker": "MACRO",
+  "title": "Asian stocks rise after a rally on Wall Street, while oil prices edge higher - WRAL",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "13c9ba4c932f5561": {
   "ticker": "MACRO",
   "title": "Five Key Market Events Next Week: Jensen Huang's GTC Keynote, Cancer Vaccine Data, and Big Tech Earnings - BigGo Finance",
@@ -22808,6 +22818,11 @@
   "ticker": "MACRO",
   "title": "Gold, silver rise as dollar weakens - ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
   "ts": "2026-10-26T15:01:09.843211+00:00"
+ },
+ "184bdfc391973cdd": {
+  "ticker": "MACRO",
+  "title": "Gold slips on oil-fuelled inflation fears ahead of Fed meeting - BusinessLine",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "184d8f0d5dc91dcf": {
   "ticker": "ANET",
@@ -44914,6 +44929,11 @@
   "title": "Rocket Lab Delays First Launch of New Rocket - Orange County Business Journal",
   "ts": "2026-10-15T16:15:59.099522+00:00"
  },
+ "30a6345fc5185994": {
+  "ticker": "MACRO",
+  "title": "Sensex drops over 600 points dragged by IT stocks, rising crude oil prices - Kashmir Dot Com",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "30a7ce7f038c9d76": {
   "ticker": "SPCX",
   "title": "Musk’s comments complicate $3.5 trillion SpaceX-Tesla merger talks - Cyprus Mail",
@@ -46743,6 +46763,11 @@
   "ticker": "MACRO",
   "title": "Oil Drops from Near Six-Month Highs on Hopes Iran War Hostilities to Ease - ASHARQ AL-AWSAT English",
   "ts": "2026-10-26T11:38:41.246930+00:00"
+ },
+ "329d963f68dd458e": {
+  "ticker": "MACRO",
+  "title": "UAE Business: Oil prices rise as Houthi attacks renew concerns over supply - Gulf Daily News (Bahrain)",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "329ec534a0fd7a9f": {
   "ticker": "ANET",
@@ -104834,6 +104859,11 @@
   "title": "Apple Closes In on Nvidia as Market Value Gap Narrows to About $40 Billion - AppleMagazine - AppleMagazine",
   "ts": "2026-10-23T19:15:41.986478+00:00"
  },
+ "71f64eecf64e4657": {
+  "ticker": "MACRO",
+  "title": "Bitcoin may sway on Fed remarks amid inflation survey gaps - 디지털투데이",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "71f89af54c1dc7a9": {
   "ticker": "NET",
   "title": "7 Best Cloudflare AI Gateway Alternatives in 2026 - Yonkers Times",
@@ -105728,6 +105758,11 @@
   "ticker": "IONQ",
   "title": "IonQ vs. Nebius Group: Which Technology Stock Is a Better Buy in 2026? - The Globe and Mail",
   "ts": "2026-10-14T20:01:57.157511+00:00"
+ },
+ "7301c3e56ddae78b": {
+  "ticker": "MACRO",
+  "title": "StanChart third-quarter profit surges 27%, lifts income target - Business Recorder",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "730274b850a6b09e": {
   "ticker": "NVDA",
@@ -145839,6 +145874,11 @@
   "title": "Oil Prices Set to Rise Further on Monday as Mideast War Escalates - EnergyNow",
   "ts": "2026-10-15T18:42:51.344861+00:00"
  },
+ "9ece96f2bafd7a8c": {
+  "ticker": "NVDA",
+  "title": "Nvidia seeks to expand capacity with Asian partners in chip supply chain - 디지털투데이",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "9ecf7a3d9b5593de": {
   "ticker": "TSLA",
   "title": "Tesla Stock Plunges After Earnings as Profit Drops 43% - Yahoo Finance",
@@ -166832,6 +166872,11 @@
   "ticker": "TSM",
   "title": "TSMC Reports a 69% Jump in Profits for Q3 2026, Driven by 2- and 3-nm Process Nodes - Overclocking.com",
   "ts": "2026-10-19T09:18:27.884188+00:00"
+ },
+ "b5fd4516ad7ef97f": {
+  "ticker": "MACRO",
+  "title": "Aluminium gains on supply uncertainty, broad risk-on mood - Business Recorder",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "b5ffa7545ba08860": {
   "ticker": "NVDA",
@@ -201678,6 +201723,11 @@
   "title": "【华福证券陈兴：A股估值已充分消化谨慎预期，权益资产配置价值逐步凸显】金十数据10月24日讯，华福证券宏观首席分析师陈兴表示，当前A股核心资产估值已较充分反映市场谨慎预期，权益市场配置价值逐步凸显，后续只要盈利端边际企稳、流动性预期温和修复",
   "ts": "2026-10-24T13:56:05.861887+00:00"
  },
+ "db8bd85395be65a4": {
+  "ticker": "NFLX",
+  "title": "Lee Hee Jun Jokes on Joining Netflix's 'Dead-End Job': \"Director's Promise to Make Me Sexy Won Me Over\" - news.sbs.co.kr",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "db8cbb3be8f0d231": {
   "ticker": "NFLX",
   "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More - IMDb",
@@ -204177,6 +204227,11 @@
   "ticker": "SMCI",
   "title": "Super Micro climbs after upbeat forecast shows robust AI demand - Central Oregon Daily",
   "ts": "2026-10-21T17:34:55.446646+00:00"
+ },
+ "de38e3e7ad381989": {
+  "ticker": "MACRO",
+  "title": "China's yuan hovers near 4-year high ahead of Fed decision - Business Recorder",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "de3b35f050fb3d9d": {
   "ticker": "NFLX",
@@ -211897,6 +211952,11 @@
   "ticker": "MACRO",
   "title": "Australian Stock Market Today: ASX Futures Flat As Sticky US Inflation Tempers Risk Appetite - Simply Wall Street",
   "ts": "2026-10-26T21:47:36.425984+00:00"
+ },
+ "e6ec70619990b015": {
+  "ticker": "SPCX",
+  "title": "Anthropic's IPO could make SpaceX billions | Here's how | TechPulse - The Economic Times",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "e6ede8ad2f27bdd4": {
   "ticker": "MACRO",
@@ -221998,6 +222058,11 @@
   "title": "Solo dev's tool lets you tweak Nvidia RTX 30-50 series vBIOS without flashing - news.lavx.hu",
   "ts": "2026-10-19T18:08:28.079106+00:00"
  },
+ "f25f960bdc45cd00": {
+  "ticker": "ANET",
+  "title": "Arista Networks (ANET) Raises 2026 Outlook Following Record Revenue, But Is It Fully Valued? - Simply Wall Street",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
+ },
  "f260051108ca8e94": {
   "ticker": "NVDA",
   "title": "Micron and Nvidia Are the 2 Biggest Drivers of S&P 500 Earnings Growth. Are Their Stocks Buys? - The Globe and Mail",
@@ -230137,6 +230202,11 @@
   "ticker": "MACRO",
   "title": "Japanese Yen advances to one-week high as sliding US bond yields weigh on USD - Mitrade",
   "ts": "2026-10-15T04:47:51.806699+00:00"
+ },
+ "fb2adebba679e880": {
+  "ticker": "NFLX",
+  "title": "Kim Minha Shows Off Her Chic Charm at Netflix's 'Dead-End Job' Press Conference - news.sbs.co.kr",
+  "ts": "2026-10-28T05:11:20.356680+00:00"
  },
  "fb2b6a1a9e0970d7": {
   "ticker": "NVDA",
