@@ -709,6 +709,11 @@
   "title": "Fund Update: 817,780 ALPHABET (GOOG) shares added to Cardano Risk Management B.V. portfolio - Quiver Quantitative",
   "ts": "2026-10-20T13:39:16.981179+00:00"
  },
+ "00a9fc970130a716": {
+  "ticker": "GOOGL",
+  "title": "谷歌(GOOG.O)业务主管：第三季度AI广告更新提升了满意度、点击量和转化率。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "00aa91825b6be836": {
   "ticker": "NFLX",
   "title": "Netflix’s The Diplomat: Season 4 Review - IGN",
@@ -10483,6 +10488,11 @@
   "ticker": "SPCX",
   "title": "Phillip Securities Upgrades SpaceX to Buy From Sell, $250 Price Target - www.marketscreener.com",
   "ts": "2026-10-23T11:30:39.874499+00:00"
+ },
+ "0a24ac51ea8104d6": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Stock: Google Earnings Miss As Cloud Computing Booms, Search Growth Slows - Investor's Business Daily",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "0a26a23e779b87a1": {
   "ticker": "MACRO",
@@ -20593,6 +20603,11 @@
   "ticker": "MACRO",
   "title": "Gold eyes another run at $4,200 but the bond market still holds the key - investingLive",
   "ts": "2026-10-19T07:13:02.509637+00:00"
+ },
+ "14a11a45a9a6cebf": {
+  "ticker": "MACRO",
+  "title": "Fed Holds Rates Steady Despite ‘Elevated’ Inflation - The New York Times",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "14a1ec2586b8b0ca": {
   "ticker": "MACRO",
@@ -36479,6 +36494,11 @@
   "title": "Netflix Couldn’t Bring ‘Revival’ Back to Life as Syfy’s Supernatural Drama Is Officially Canceled - IMDb",
   "ts": "2026-10-24T03:03:49.905320+00:00"
  },
+ "25350503635f73cf": {
+  "ticker": "GOOGL",
+  "title": "Alphabet(GOOG.O)CEO皮查伊：AI正帮助我们提高模型和训练的发布速度。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "25358a78de3db8e3": {
   "ticker": "NFLX",
   "title": "Netflix Shakeup Puts WWE’s Streaming Future Under Fresh Scrutiny - eWrestlingNews.com",
@@ -46049,6 +46069,11 @@
   "title": "Micron Stock Faces Unexpected Threat Amid Memory Boom - TradingView",
   "ts": "2026-10-20T16:47:50.349105+00:00"
  },
+ "2f0f5626b2797cf9": {
+  "ticker": "NFLX",
+  "title": "What Is Pulling Attention Toward Netflix (NASDAQ:NFLX) Right Now? - Kalkine Media",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "2f0fd0359970ad5e": {
   "ticker": "TSM",
   "title": "TSMC Gets Fresh Pricing Power From AI Chip Boom - GuruFocus",
@@ -50513,6 +50538,11 @@
   "ticker": "TSLA",
   "title": "The Tesla Roadster could have stayed vaporware - The Verge",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "33a724c77624c862": {
+  "ticker": "NVDA",
+  "title": "Prediction: This Will Be Nvidia's Stock Price by the End of 2027 - AOL.co.uk",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "33a923cdd970f44c": {
   "ticker": "SMCI",
@@ -61018,6 +61048,11 @@
   "ticker": "NFLX",
   "title": "Aslan Will Remain Male in Netflix’s ‘Narnia: The Magician’s Nephew’ - Knight Edge Media",
   "ts": "2026-10-17T22:24:55.492620+00:00"
+ },
+ "3e2d1a2b6ed720d7": {
+  "ticker": "GOOGL",
+  "title": "Alphabet(GOOG.O)CEO皮查伊：新AI模型Carbon首先向网络安全合作伙伴推出。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "3e2d8259bfad9a51": {
   "ticker": "IONQ",
@@ -93634,6 +93669,11 @@
   "title": "Micron's 29% Retreat From Its Peak Draws a Buy Call as Chip Selloff Spreads - ad-hoc-news.de",
   "ts": "2026-10-18T21:45:23.481133+00:00"
  },
+ "5fb83623a69713d0": {
+  "ticker": "GOOGL",
+  "title": "Alphabet(GOOG.O)CEO皮查伊：搜索查询量正以五年来最快速度增长。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "5fbaff44591c9d1c": {
   "ticker": "NFLX",
   "title": "Netflix earnings land tonight: the $70 line that decides whether the AI rebound has legs - Mitrade",
@@ -97949,6 +97989,11 @@
   "title": "Summit Therapeutics partners with Lunit on AI pathology research By Investing.com - Investing.com India",
   "ts": "2026-10-23T20:48:39.460470+00:00"
  },
+ "642e2fb261f88cb5": {
+  "ticker": "NVDA",
+  "title": "Injective SICI Perpetual: 5 Nvidia GPUs, 10x [2026] - shattered.io",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "642e469c813be6c9": {
   "ticker": "NVDA",
   "title": "Nvidia, Meta partner on Muse agent as Nvidia invests $3 billion - Business Recorder",
@@ -100893,6 +100938,11 @@
   "ticker": "MACRO",
   "title": "10-Year Treasury Yield Falls to 5.10% as September Inflation Rises - TOKENPOST",
   "ts": "2026-10-22T09:07:47.913113+00:00"
+ },
+ "672ae1709d005ec3": {
+  "ticker": "TSLA",
+  "title": "U. Of Buffalo Prof Skeptical Of SpaceX-Tesla Merger Benefits - Law360",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "672b045f2e87e36b": {
   "ticker": "PLTR",
@@ -108733,6 +108783,11 @@
   "ticker": "MU",
   "title": "Micron stock continues slump, analysts are saying it's a buying opportunity - Invezz",
   "ts": "2026-10-16T19:27:43.660058+00:00"
+ },
+ "6f4fd0c1752e98bb": {
+  "ticker": "MACRO",
+  "title": "AI-generated political ads fuel debate over deception and free speech ahead of midterms - WJLA",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "6f50cbe151777052": {
   "ticker": "NFLX",
@@ -120493,6 +120548,11 @@
   "ticker": "MACRO",
   "title": "CRUDE WRAP: WTI (X6) SETTLES USD 0.95 HIGHER AT 95.09/BBL; BRENT (Z6) SETTLES USD 0.37 HIGHER AT 106.06/BBL - Newsquawk",
   "ts": "2026-10-14T21:29:59.258270+00:00"
+ },
+ "7b74fdf7ebae1e0e": {
+  "ticker": "MACRO",
+  "title": "'I didn't hear an utterance about politics': Warsh bats away midterm talk following rate decision - Yahoo Finance",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "7b762024a6e767af": {
   "ticker": "MU",
@@ -140214,6 +140274,11 @@
   "title": "Robinhood stock rises as analysts see growth beyond its brokerage business - Invezz",
   "ts": "2026-10-21T20:54:46.464364+00:00"
  },
+ "8fd5e06021c5f2f4": {
+  "ticker": "GOOGL",
+  "title": "Alphabet(GOOG.O)CEO皮查伊：新AI模型Carbon正与美国政府进行测试。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "8fd65b5e84172ce3": {
   "ticker": "NFLX",
   "title": "U2 will headline halftime show for Packers-Rams Thanksgiving eve game on Netflix - AOL.com",
@@ -142363,6 +142428,11 @@
   "ticker": "SPCX",
   "title": "SpaceX earnings: AI revenue, financing needs and Tesla merger talks in focus - Invezz",
   "ts": "2026-10-20T08:29:33.657707+00:00"
+ },
+ "9205862e4dfdc337": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Shares Plunge 8% After Hours as Q3 Revenue, Net Income Miss Estimates, Free Cash Flow Hits Negative $9.065 Bill",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "9207a4a6e0fc0388": {
   "ticker": "NFLX",
@@ -146008,6 +146078,11 @@
   "ticker": "PLTR",
   "title": "Westpac silent on petition calling on bank to cut ties with Palantir - Cyber Daily",
   "ts": "2026-10-16T04:26:38.577240+00:00"
+ },
+ "95cebdc46d84cd93": {
+  "ticker": "GOOGL",
+  "title": "Alphabet(GOOG.O)CEO皮查伊：Waymo的自动驾驶里程已超过3亿英里。",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "95d29209a69c40a1": {
   "ticker": "SPCX",
@@ -170108,6 +170183,11 @@
   "title": "Move Over, Tesla: This Robotics Stock Is the Better Buy - The Globe and Mail",
   "ts": "2026-10-26T19:51:50.386537+00:00"
  },
+ "aeb9aa57c00052fd": {
+  "ticker": "MACRO",
+  "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information' | Gulf Times - Gulf Times",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "aeb9f8ab7e394c3d": {
   "ticker": "TSLA",
   "title": "Is Tesla Stock Safer Or Riskier Than A Year Ago? - Trefis",
@@ -177368,6 +177448,11 @@
   "title": "【缅甸炼油厂恢复运营，以减少对燃料进口的依赖】金十数据10月16日讯，缅甸一座长期停运的炼油厂在近十年来首次恢复运营，这是该国减少对进口汽油和航空燃油依赖计划的一部分。位于缅甸最大城市仰光附近的丹林炼油厂第一阶段工程于周三开始商业运营。该项",
   "ts": "2026-10-16T01:06:22.667105+00:00"
  },
+ "b63925bf62442989": {
+  "ticker": "MACRO",
+  "title": "US Tells Gulf States of Post-Midterm Military Operation Against Iran; WTI Jumps 2.96% to $102.78 - BigGo Finance",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "b63ab8022e2d7f53": {
   "ticker": "MACRO",
   "title": "Agricultural commodity prices today, October 17, 2026: Coffee prices surge at the end of the week, supply chain instabil",
@@ -177587,6 +177672,11 @@
   "ticker": "MACRO",
   "title": "Yen Carry Trade Unwind: Japan Inflation and US Stocks - www.equiti.com",
   "ts": "2026-10-23T11:42:36.538677+00:00"
+ },
+ "b6717ba59b038b65": {
+  "ticker": "MACRO",
+  "title": "Stock Market Today: SPY, QQQ Rallied After Fed Left Rates Unchanged; Warsh Switched Up FOMC Schedule - TipRanks",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "b671a0694287707d": {
   "ticker": "MU",
@@ -188388,6 +188478,11 @@
   "title": "【机构：预计韩国央行将在本轮周期内再逐步加息两次】金十数据10月22日讯，韩华投资证券策略师Sung-soo在一份报告中指出，韩国央行在维持利率不变后未提供明确的前瞻性指引，这表明政策制定者对市场定价的利率路径感到满意。Sung-soo表示",
   "ts": "2026-10-22T11:02:20.019924+00:00"
  },
+ "c11c1eb6f075130b": {
+  "ticker": "MACRO",
+  "title": "ANALYSIS: The Fed Holds Steady but the Cost of Capital Does Not - https://www.connectmoney.com/",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
+ },
  "c11f017e4c191128": {
   "ticker": "SPCX",
   "title": "A possible SpaceX-Tesla merger? Here’s what people are saying - WTVB",
@@ -189627,6 +189722,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Plans $3 Billion Meta Investment as AI Partnership Expands - www.tokenpost.com",
   "ts": "2026-10-27T07:49:19.060083+00:00"
+ },
+ "c27812661ead5107": {
+  "ticker": "TSLA",
+  "title": "Interstate 880 in Hayward Reopens After Tesla Semitruck Fire, CHP Says - KQED",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "c278f272c7f9eb91": {
   "ticker": "MU",
@@ -199367,6 +199467,11 @@
   "ticker": "AAPL",
   "title": "Why Apple shares are down on Tuesday? - Invezz",
   "ts": "2026-10-20T16:23:40.178627+00:00"
+ },
+ "cc4ce5c75725c36d": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile, Inc. (ASTS) - Milk Road",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "cc4d90baacd76d62": {
   "ticker": "TSLA",
@@ -237247,6 +237352,11 @@
   "ticker": "NFLX",
   "title": "Why Friends cast WON'T be in Matthew Perry Netflix doc as family breaks silence - The Sun",
   "ts": "2026-10-26T19:39:25.510379+00:00"
+ },
+ "f3a0e04a5eb1ed17": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Disappoints Wall Street Despite Record Results. Shares Plunge Over 8% and Test $300 ✂️ - XTB.com",
+  "ts": "2026-10-28T20:45:00.032866+00:00"
  },
  "f3a2876a089434e8": {
   "ticker": "NVDA",
