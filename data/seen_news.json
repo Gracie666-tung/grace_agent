@@ -15649,6 +15649,11 @@
   "title": "Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push - The Lufkin Daily News",
   "ts": "2026-10-22T14:09:56.892536+00:00"
  },
+ "108f56154e15d3e5": {
+  "ticker": "NVDA",
+  "title": "AMD vs Nvidia AI Chips: 432 GB vs 288 GB [2026] - shattered.io",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "109094f1bc91f57b": {
   "ticker": "SMCI",
   "title": "Super Micro Is Up 22% in 2026 but It’s Down Today: Take Profits, or Hold On for the Ride? - 24/7 Wall St.",
@@ -20423,6 +20428,11 @@
   "ticker": "MACRO",
   "title": "美国5年期国债收益率跌至4.825%，创9月23日以来最低水平，日内下跌14.33个基点。",
   "ts": "2026-10-22T14:46:18.430495+00:00"
+ },
+ "15d6d22a054451f6": {
+  "ticker": "MACRO",
+  "title": "市场普遍预期美联储本周将暂停加息，现货黄金买进信号略微回升；美媒曝美国警告海湾国家，中期选举后或对伊朗发动袭击，美国原油买进情绪仍强。后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
  },
  "15d6d62dcb32fda3": {
   "ticker": "PLTR",
@@ -48434,6 +48444,11 @@
   "title": "Hensoldt-Aktie vorbörslich: 79,36 Euro, Xetra-Schluss 79,18 Euro - ad-hoc-news.de",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "34c7268ac34d635c": {
+  "ticker": "MACRO",
+  "title": "【道明证券：澳大利亚CPI数据为再次加息扫清道路】金十数据10月28日讯，澳大利亚最新公布的CPI数据促使道明证券调整利率预测，目前该机构预计澳洲联储将在下周加息。道明证券分析师Prashant Newnaha在一份报告中表示，第三季度通胀",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "34c76d0c82f421f1": {
   "ticker": "MACRO",
   "title": "Nifty, Sensex investors alert! US bond yields remain above 5% - 5 ways this could impact your investments, portfolio - L",
@@ -67438,6 +67453,11 @@
   "ticker": "TSM",
   "title": "Taiwan chipmaker TSMC explores Texas investment to expand production in the US - The Washington Post",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "49bb26f78e5af519": {
+  "ticker": "NVDA",
+  "title": "Oracle expands AI chip deals with Nvidia, Google, Cerebras - electronics.economictimes.indiatimes.com",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
  },
  "49bbff1acfce926a": {
   "ticker": "SPCX",
@@ -96908,6 +96928,11 @@
   "ticker": "NVDA",
   "title": "Navan deploys NVIDIA model to power AI travel agents By Investing.com - Investing.com South Africa",
   "ts": "2026-10-16T14:52:00.726057+00:00"
+ },
+ "69955af9e2ac5061": {
+  "ticker": "MACRO",
+  "title": "1. 美债收益率仍处于高位 ：美国财政部数据显示，10年期美债收益率10月5日一度达到5.31%，截至10月27日回落至4.99%。尽管近期有所下降，但今年以来10年期美债收益率累计上涨约84个基点，意味着长期融资成本依然处于高位。 2. ",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
  },
  "6995685ed144b990": {
   "ticker": "NVDA",
@@ -129904,6 +129929,11 @@
   "title": "Rocket Lab's Neutron Won't Launch Until 2027. Is the Stock a Buy 65% Below Its Record? - The Globe and Mail",
   "ts": "2026-10-16T00:53:53.566111+00:00"
  },
+ "8e14e292a7f1408d": {
+  "ticker": "NFLX",
+  "title": "Kim Min-ha, director Kim Da-min, chief planner Han Jun-hee, Lee Hee-joon, Netflix's 'Dead-End Job' - 스포츠조선",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "8e1555967359a210": {
   "ticker": "NFLX",
   "title": "Netflix Stock Has Been on a Roll. Here’s Where It Could Go Next. - 24/7 Wall St.",
@@ -154058,6 +154088,11 @@
   "title": "Musk says will give SpaceX share to ‘every kid in America’ - Daily Lead Pakistan",
   "ts": "2026-10-20T01:09:14.930333+00:00"
  },
+ "a893cc5e9024ad0f": {
+  "ticker": "AMD",
+  "title": "Advanced Micro Devices Tokenized bStocks price today, AMDB to USD chart, marketcap and volume - CryptoSlate",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "a896bbf7705539b7": {
   "ticker": "NVDA",
   "title": "Nebius Stock: A 600 MW Rotterdam Handshake, an NVIDIA Classroom, and the $304 Question Hanging Over - ad-hoc-news.de",
@@ -173497,6 +173532,11 @@
   "ticker": "MACRO",
   "title": "Crude Oil Weekly Outlook: Brent Tests September Highs, WTI Tops $100, and XLE Reclaims 18-Year Resistance - FOREX.com",
   "ts": "2026-10-18T16:29:19.069252+00:00"
+ },
+ "bdef4e6a3d5d77f2": {
+  "ticker": "NVDA",
+  "title": "OpenAI Weighs Buying Google TPUs, Easing Nvidia Reliance - Seoul Economic Daily",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
  },
  "bdf1a3f7318a8533": {
   "ticker": "NVDA",
@@ -203403,6 +203443,11 @@
   "title": "Apple stock pre-market at EUR 309.00 ahead of the Xetra open - ad-hoc-news.de",
   "ts": "2026-10-26T07:28:44.269232+00:00"
  },
+ "de79b263652fac14": {
+  "ticker": "NFLX",
+  "title": "Netflix’s New Sci-Fi Movie Brings An Alien Back To Earth 20 Years Later With A Dangerous Secret - IMDb",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "de7ab85991cf208f": {
   "ticker": "NVDA",
   "title": "This Nvidia-Backed Cloud Computing Firm Is Reportedly In Talks To Sign A $45B Compute Deal With Anthropic - TradingView",
@@ -214678,6 +214723,11 @@
   "title": "This Netflix series is repellant. It’s also one of the most thought-provoking shows I’ve seen - The Age",
   "ts": "2026-10-22T00:09:03.044761+00:00"
  },
+ "eb495d4793bf3213": {
+  "ticker": "NFLX",
+  "title": "Beyond Chandler Bing: 7 key takeaways from Netflix’s Matthew Perry docuseries that show the man behind the jokes - The S",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
+ },
  "eb4ca61b17b408ec": {
   "ticker": "SMCI",
   "title": "Hewlett Packard Enterprise Climbs 4% While AI Server Peers Lag; Dell Rises 2%, Super Micro Unchanged - 24/7 Wall St.",
@@ -223457,6 +223507,11 @@
   "ticker": "TSLA",
   "title": "Tesla drops as spending pullback clouds AI, robotics ambitions - ET Enterprise AI",
   "ts": "2026-10-22T21:16:45.214953+00:00"
+ },
+ "f51f607da465dbb0": {
+  "ticker": "MACRO",
+  "title": "【因通胀担忧打压市场情绪，铜价下跌】金十数据10月28日讯，亚盘时段，铜价走低，伦敦金属交易所（LME）三个月期铜下跌0.2%，报每吨14442美元。分析师表示，通胀上升和货币政策收紧的担忧正在打压市场情绪。市场对美联储本周维持利率不变的预",
+  "ts": "2026-10-28T02:51:05.580641+00:00"
  },
  "f51fe3c8fd49211b": {
   "ticker": "NFLX",
