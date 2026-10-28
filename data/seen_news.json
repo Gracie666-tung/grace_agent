@@ -11729,6 +11729,11 @@
   "title": "纳指ETF富国：将于2026年10月20日开市起至当日10:30停牌。",
   "ts": "2026-10-19T11:07:06.188939+00:00"
  },
+ "0c0370649a068be3": {
+  "ticker": "NVDA",
+  "title": "Nvidia executive Madison Huang visits South Korea to expand physical AI cooperation - Global Sources",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "0c08893dee350a21": {
   "ticker": "NFLX",
   "title": "Curtain Up: ‘La Bola Negra’ Shines As Netflix Shares Grosses In Historic First — Specialty Box Office - Deadline",
@@ -11908,6 +11913,11 @@
   "ticker": "TSLA",
   "title": "Both Tesla And SpaceX Shares Rise Ahead Of Anticipated Merger - AutoSpies.com",
   "ts": "2026-10-21T09:02:36.237022+00:00"
+ },
+ "0c3e2b4e6cb1dbc7": {
+  "ticker": "MACRO",
+  "title": "Focus on covering more people, not just higher premiums: Irdai - The Times of India",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "0c405916deebde26": {
   "ticker": "TSLA",
@@ -36184,6 +36194,11 @@
   "title": "United States 2-Year Bond Yield (US2Y) Stock Price, Quote, News & Analysis - Seeking Alpha",
   "ts": "2026-10-20T09:17:49.346695+00:00"
  },
+ "269a366b30038732": {
+  "ticker": "MACRO",
+  "title": "印度信息部长：内阁批准2000亿卢比用于通胀挂钩补贴。",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "269cefee4aa6f5d0": {
   "ticker": "SPCX",
   "title": "Bitcoin Price up 26% Since SpaceX Debut as Anthropic IPO Looms - Bitcoin News",
@@ -46028,6 +46043,11 @@
   "ticker": "NFLX",
   "title": "Netflix's New Star-Studded War Epic Hailed as \"Powerful & Poignant\" in First Reviews - IMDb",
   "ts": "2026-10-26T19:57:53.021208+00:00"
+ },
+ "3136bd5c1ccbe314": {
+  "ticker": "MU",
+  "title": "Micron Technology (NASDAQ:MU) Clears Eight Growth Tests as Fundamentals Improve - ChartMill",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "313b3a736c05e582": {
   "ticker": "SPCX",
@@ -72613,6 +72633,11 @@
   "ticker": "NVDA",
   "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports - Macon Telegraph",
   "ts": "2026-10-15T16:09:50.642493+00:00"
+ },
+ "4e0bb1e0098291db": {
+  "ticker": "NVDA",
+  "title": "NVIDIA to invest $3 billion in Meta, expand Muse AI partnership - Storyboard18",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "4e0d6ba7da00593b": {
   "ticker": "TSLA",
@@ -113879,6 +113904,11 @@
   "title": "Lloyds, Barclays, NatWest, HSBC Top 10,092 UK Crypto-Transfer Complaints, ‘Blocked’ Report Finds - The Crypto Times",
   "ts": "2026-10-21T09:08:36.368668+00:00"
  },
+ "7a6604379ebd2a31": {
+  "ticker": "NFLX",
+  "title": "Meghan Markle Faces a New Challenge as Netflix ‘Safety Net’ Disappears — Report - AOL.com",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "7a67f36c9977fd93": {
   "ticker": "MACRO",
   "title": "U.S. 10-year Treasury yield sees worst day in over a year as bonds rally - Investing.com",
@@ -148414,6 +148444,11 @@
   "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
   "ts": "2026-10-16T12:07:45.663475+00:00"
  },
+ "9fc5b6e4cda1339d": {
+  "ticker": "SNDK",
+  "title": "One-Chart Preview | SanDisk's earnings report to be released after the market closes on October 29: With Seagate and SK ",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "9fc70cdf4c86c012": {
   "ticker": "AMD",
   "title": "Is There A Risk Hiding In AMD Stock’s Big Run? - Trefis",
@@ -162997,6 +163032,11 @@
   "ticker": "TSLA",
   "title": "Tesla begins production of Optimus humanoid rob... - Pluang",
   "ts": "2026-10-21T21:13:42.153992+00:00"
+ },
+ "afaf3334de67ac51": {
+  "ticker": "MACRO",
+  "title": "Silver Price Forecast: XAG/USD keeps downward bias below $55.00 as traders await FOMC - www.tmgm.com",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "afaf518c670e64de": {
   "ticker": "NFLX",
@@ -201048,6 +201088,11 @@
   "title": "Taron Egerton delivers impeccable Aussie accent in Netflix survival thriller - The Canberra Times",
   "ts": "2026-10-15T14:07:17.220036+00:00"
  },
+ "d8433b689ea4dba9": {
+  "ticker": "MACRO",
+  "title": "Brent crude oil prices rose to $115.98 per barrel following the attack on the refinery. - Vietnam.vn",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "d843de399850667a": {
   "ticker": "APP",
   "title": "Kaplan Fox announces AppLovin lawsuit deadline for AppLovin stock - ad-hoc-news.de",
@@ -210238,6 +210283,11 @@
   "title": "Sandisk Stock Has Been Cut Nearly in Half Since June. Should You Buy It Before Thursday's Report? - The Motley Fool",
   "ts": "2026-10-27T17:00:22.160166+00:00"
  },
+ "e20daf5671d7f728": {
+  "ticker": "MACRO",
+  "title": "At 2:00 a.m. tonight, the Federal Reserve will announce its decision: With inflation running hotter than ever, will it h",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "e211abbee5507840": {
   "ticker": "MACRO",
   "title": "Fed's Kevin Warsh: \"AI Will Boost Productivity\"... Mum on October Rate Hike - 아시아경제",
@@ -215252,6 +215302,11 @@
   "ticker": "RKLB",
   "title": "Did ASTS Miss Its Rocket Lab Moment? Analyst Warns Deal Window May Be Closing, Floats Firefly As A Target - TradingView",
   "ts": "2026-10-16T04:44:45.441381+00:00"
+ },
+ "e7d31ca4aab803f4": {
+  "ticker": "SPCX",
+  "title": "5 Stocks Poised to Win Big as SpaceX Ramps Up AI Infrastructure - The Motley Fool",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "e7d3dbe9dd7a2769": {
   "ticker": "TSLA",
@@ -222653,6 +222708,11 @@
   "title": "Why Is Netflix (NFLX) Stock Falling? 3 Key Factors to Watch - Coinpedia",
   "ts": "2026-10-17T13:07:36.806088+00:00"
  },
+ "f0280ba790fb7d50": {
+  "ticker": "MACRO",
+  "title": "Gold holds intraday losses below $4,050 as USD stays firm before FOMC - FXStreet",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "f0283aa6f7d3c1a2": {
   "ticker": "SPCX",
   "title": "SpaceX to Announce Q3 Results Amidst Starlink Growth and AI Investments - Lokmat Times",
@@ -223693,6 +223753,11 @@
   "title": "Nvidia Plays Kingmaker Again. Why the Meta Deal Is a Winning Move. - Yahoo Finance",
   "ts": "2026-10-27T19:32:43.763914+00:00"
  },
+ "f15bf9a500428e6c": {
+  "ticker": "MACRO",
+  "title": "Pakistan Embassy observes Kashmir Black Day, reaffirms unwavering support for Kashmiris’ right to self-determination - B",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
+ },
  "f15dce98776d3168": {
   "ticker": "MACRO",
   "title": "US Dollar Technical Outlook: DXY, Treasury Yields Retreat Despite Hot CPI - FOREX.com",
@@ -224152,6 +224217,11 @@
   "ticker": "MACRO",
   "title": "【US Pre-Market】Brent Crude Nears $115, Chip Stocks Rebound, SK Hynix Rises Over 4% - TradingKey",
   "ts": "2026-10-23T12:12:41.406746+00:00"
+ },
+ "f1cc86449a9d9ada": {
+  "ticker": "MU",
+  "title": "The MACD golden cross pattern is gradually forming—can Micron \"regain\" the crucial 100-day moving average support? - 富途牛",
+  "ts": "2026-10-28T09:38:06.583488+00:00"
  },
  "f1ccaa4284a11753": {
   "ticker": "NFLX",
