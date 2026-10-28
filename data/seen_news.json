@@ -1794,6 +1794,11 @@
   "title": "Fantastic News for SpaceX Stock Investors - AOL.com",
   "ts": "2026-10-23T15:35:01.063192+00:00"
  },
+ "01a77e5cd578b896": {
+  "ticker": "GOOGL",
+  "title": "Alphabet, Microsoft to report; Fed decision ahead - what’s moving markets - Yahoo! Finance Canada",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "01a87f08b744299c": {
   "ticker": "MACRO",
   "title": "Platinum Price Forecast: Oil Above $110 Keeps Fed Hike Risks in Focus - FXEmpire",
@@ -4508,6 +4513,11 @@
   "ticker": "MACRO",
   "title": "US Market Open: Trump said Iran had asked for a halt to US attacks and negotiations are still ongoing; TSLA +5% after Mu",
   "ts": "2026-10-16T11:37:20.563504+00:00"
+ },
+ "04658db9c688f02b": {
+  "ticker": "GOOGL",
+  "title": "Alphabet, Microsoft, SK Hynix, Robinhood, and More Stocks That Explain Today’s Market - Barron's",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "0467060156f269a6": {
   "ticker": "NFLX",
@@ -17504,6 +17514,11 @@
   "title": "Why is Netflix stock sliding today? - Investing.com",
   "ts": "2026-10-26T15:57:51.491711+00:00"
  },
+ "12595458c3506e02": {
+  "ticker": "HCLTECH",
+  "title": "HCL Technologies Launches AWS AI Centers For GCCs And Mid-Market Enterprise Scaling - Sahi",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "1259df1c78beffea": {
   "ticker": "MACRO",
   "title": "Higher Rates Are Forcing a More Selective Approach to AI Infrastructure - Investing.com",
@@ -17888,6 +17903,11 @@
   "ticker": "NVDA",
   "title": "Nvidia to make Run:ai GPU management platform fully open source - 디지털투데이",
   "ts": "2026-10-19T06:49:09.986712+00:00"
+ },
+ "12c7d5b0d63b6a15": {
+  "ticker": "MACRO",
+  "title": "10月FOMC会议前，美联储12位票委有何观点？：美联储12名票委，对加息各自是何立场？一图看懂！",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "12c86147637f679e": {
   "ticker": "NFLX",
@@ -39774,6 +39794,11 @@
   "title": "SpaceX Wins a Buy Call as Spectrum, Sites and Satellite Launches Stack Up - ad-hoc-news.de",
   "ts": "2026-10-25T11:13:49.180571+00:00"
  },
+ "2a7270f814ffe90a": {
+  "ticker": "SPCX",
+  "title": "Ex-Clinton official urges Democrats to prepare for nationalizing SpaceX, now worth $2 trillion. - Pluang",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "2a74ed6045496300": {
   "ticker": "MACRO",
   "title": "Turkish Capacity Utilization (Oct) 74.5% (Prev. 74.2%) - Newsquawk",
@@ -39793,6 +39818,11 @@
   "ticker": "MACRO",
   "title": "UAE Fuel Prices In November: Oil Hits $110 Amid Middle East War Fears - Menafn",
   "ts": "2026-10-21T09:08:36.368668+00:00"
+ },
+ "2a7d0afbdb98dde6": {
+  "ticker": "AAPL",
+  "title": "Apple unveils M6 MacBook Pro and iMac as Apple stock costs EUR 310.83 - ad-hoc-news.de",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "2a818bc42d87a5cf": {
   "ticker": "NFLX",
@@ -51778,6 +51808,11 @@
   "ticker": "MACRO",
   "title": "Prime Minister Le Minh Hung: Determined to achieve GDP growth of 10% or more in 2027. - Vietnam.vn",
   "ts": "2026-10-17T12:25:42.767906+00:00"
+ },
+ "3778e39e4b1129ab": {
+  "ticker": "SPCX",
+  "title": "5 Stocks Poised to Win Big as SpaceX Ramps Up AI Infrastructure - The Globe and Mail",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "377c4761ae7d1886": {
   "ticker": "SNDK",
@@ -102624,6 +102659,11 @@
   "title": "Netflix Revenue by Region 2026: US, EMEA, LatAm, APAC - FourWeekMBA",
   "ts": "2026-10-17T08:37:40.119673+00:00"
  },
+ "6de8fb7c1507f772": {
+  "ticker": "NVDA",
+  "title": "Otto Group and Sereact Bring NVIDIA-Powered Physical AI to Returns Processing - IT Business Net",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "6ded36d09dc8b03e": {
   "ticker": "NVDA",
   "title": "NVIDIA Corporation $NVDA Stock: SVB Wealth LLC Reduces Holdings - MarketBeat",
@@ -107379,6 +107419,11 @@
   "title": "Meghan Markle makes surprise announcement amid Netflix’s ‘The Gentlemen’ row - Jang",
   "ts": "2026-10-20T07:16:23.791848+00:00"
  },
+ "735addbb396715b5": {
+  "ticker": "SPCX",
+  "title": "American billionaire Elon Musk’s SpaceX could get up to $120.5 billion from Anthropic - Billionaires.Africa",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "735b0e45621f9b7f": {
   "ticker": "TSLA",
   "title": "Tesla, Micron among market cap stock movers on Monday By Investing.com - Investing.com Canada",
@@ -108798,6 +108843,11 @@
   "ticker": "PLTR",
   "title": "Rosenblatt raises Palantir stock price target to $260 on AI growth - Investing.com Australia",
   "ts": "2026-10-27T11:59:40.934210+00:00"
+ },
+ "74da7e7b6c271a64": {
+  "ticker": "MU",
+  "title": "SK Hynix's AI Gold Rush Sends Profits Soaring 632% — but One Analyst Says Buy Micron or Samsung Instead - Benzinga",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "74dbbe39803d3d48": {
   "ticker": "NVDA",
@@ -120723,6 +120773,11 @@
   "ticker": "TSLA",
   "title": "Tesla Inc Single Stock futures, (STSLAH27.CME) - Yahoo! Finance Canada",
   "ts": "2026-10-16T12:20:12.964068+00:00"
+ },
+ "81dc5aaaa4c68797": {
+  "ticker": "NVDA",
+  "title": "NVIDIA RTX 5080 is now selling for nearly $2,000 at US retailers, $800 higher in just two months - VideoCardz.com",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "81dcbc928a13317b": {
   "ticker": "NVDA",
@@ -179798,6 +179853,11 @@
   "title": "Why you might not be getting what you pay for with Netflix, Disney+, or other 'Premium' 4K streaming subscriptions - Mon",
   "ts": "2026-10-15T18:42:51.344861+00:00"
  },
+ "c145d5df9c949d7b": {
+  "ticker": "NVDA",
+  "title": "HIVE Digital secures $129M loan to fund Nvidia GPU cluster for Cohere - StreetInsider",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "c1469c6317e85cdd": {
   "ticker": "TSLA",
   "title": "Bernie Sanders Says ‘Stop Musk’ as Tesla CEO Spends $366 Million to Keep GOP in Control — Elon Musk Got $696 Billion Ric",
@@ -187262,6 +187322,11 @@
   "ticker": "TSLA",
   "title": "Tesla Pivots From EV Sales to Autonomy as SpaceX Merger Talk Heats Up - BigGo Finance",
   "ts": "2026-10-26T21:04:13.442226+00:00"
+ },
+ "c93ec9e38ba4af54": {
+  "ticker": "MACRO",
+  "title": "Bitcoin FOMC Hope Wobbles, Oil Surges, Ukraine Seeks Peace - 99Bitcoins",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "c9408f2095814b83": {
   "ticker": "MACRO",
@@ -209623,6 +209688,11 @@
   "title": "Oil prices rise to $117 a barrel, highest since May - The Financial Express",
   "ts": "2026-10-24T14:32:06.840629+00:00"
  },
+ "e123643b42145d1e": {
+  "ticker": "NVDA",
+  "title": "Nvidia partners with PreussenElektra to explore deployment of AI data centers at former nuclear sites in Germany - Data ",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "e123b3ebd8ebb511": {
   "ticker": "NVDA",
   "title": "Form 4 NVIDIA Corporation For: 20 October By Investing.com - Investing.com Canada",
@@ -210167,6 +210237,11 @@
   "ticker": "MU",
   "title": "Micron labor union stages Taiwan’s first-ever industry strike, Nikkei Asia says - TipRanks",
   "ts": "2026-10-23T12:06:34.920524+00:00"
+ },
+ "e1b63cb91fbf8f83": {
+  "ticker": "NFLX",
+  "title": "Keanu Reeves Replaces Alan Ritchson in Netflix’ Action Thriller ‘Maelstrom’ - What's on Netflix",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "e1ba11bf2a3ba5af": {
   "ticker": "NFLX",
@@ -217878,6 +217953,11 @@
   "title": "Elon Musk’s $1.7 billion SpaceX stock pledge: Who could qualify for a share, what we know - MassLive.com",
   "ts": "2026-10-20T16:11:32.700609+00:00"
  },
+ "ea8abf122bbdf0d5": {
+  "ticker": "MU",
+  "title": "SK Hynix Earnings Boost Memory Stocks; SKHY Jumps Over 8% Pre-Market, SanDisk and Micron Gain Over 4% - TradingKey",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "ea8c6f4a090f8cf6": {
   "ticker": "TSLA",
   "title": "Tesla-SpaceX merger is 'not so easy': Analyst - شبكة تواصل الإخبارية",
@@ -224263,6 +224343,11 @@
   "title": "Fed Rate Verdict Wednesday: What It Means for the Mexican Peso and Your Family's Money - inkl",
   "ts": "2026-10-26T22:30:27.479985+00:00"
  },
+ "f19d53d9446c3e1f": {
+  "ticker": "NVDA",
+  "title": "What Renting an NVIDIA H100 Costs per Hour in 2026, and When Renting Beats Buying - https://tech-insider.org/",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
  "f19e53385bdd1636": {
   "ticker": "MACRO",
   "title": "US stocks: Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - The Economic Times",
@@ -229442,6 +229527,11 @@
   "ticker": "MACRO",
   "title": "Brent crude holds near five-month high on Middle East tension | Business News - Hindustan Times",
   "ts": "2026-10-20T10:30:58.764837+00:00"
+ },
+ "f7207c0cb272479a": {
+  "ticker": "MACRO",
+  "title": "With the Bank of Canada's rate decision and the FOMC meeting approaching, the USD/CAD pair has staged a continuous rebou",
+  "ts": "2026-10-28T10:01:52.685381+00:00"
  },
  "f7224a25b21a90f9": {
   "ticker": "GOOGL",
