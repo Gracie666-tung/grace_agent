@@ -13589,6 +13589,11 @@
   "title": "BBC and Netflix composer up for national award - Yahoo",
   "ts": "2026-10-24T11:23:41.663525+00:00"
  },
+ "0dc2b663dc2287df": {
+  "ticker": "NFLX",
+  "title": "Netflix Is Already Releasing A ‘Jane Doe V. Cornell’ Documentary - Forbes",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "0dc45b13e2e54c96": {
   "ticker": "MACRO",
   "title": "Core CPI moves higher while core PCE drops, Greg Ip notes - Traders Union",
@@ -15238,6 +15243,11 @@
   "ticker": "MACRO",
   "title": "WTI drops to near $97.50 as US waives Russia oil sanctions - Mitrade",
   "ts": "2026-10-19T02:45:12.216098+00:00"
+ },
+ "0f79b5dc5a30d349": {
+  "ticker": "NFLX",
+  "title": "T-Mobile’s new T-Mix plans: How to get Netflix, Apple TV, Xbox Game Pass, and more for free - Mashable",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "0f7c667e2a82427f": {
   "ticker": "TSM",
@@ -24204,6 +24214,11 @@
   "title": "Nvidia and Meta joins hands to supercharge Muse AI agents - Geo News",
   "ts": "2026-10-27T14:14:07.871857+00:00"
  },
+ "18fcf297814b29a1": {
+  "ticker": "MACRO",
+  "title": "美国至10月23日当周EIA原油产量引伸需求数据 2063.6万桶/日，前值1946.4万桶/日。",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "18fe91779b1e73d9": {
   "ticker": "SPCX",
   "title": "SpaceX stocks drop 2.59% as Barclays flags potential merger before December 6 - Geo News",
@@ -32759,6 +32774,11 @@
   "title": "Nvidia's Huang heads to Kazakhstan for the first time — and he's not the only one with big plans - CNBC",
   "ts": "2026-10-23T09:44:04.595098+00:00"
  },
+ "221d12ff579c4064": {
+  "ticker": "MACRO",
+  "title": "美国至10月23日当周EIA原油库存 -189.2万桶，预期1.5万桶，前值-306万桶。",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "221d5d2597061b8b": {
   "ticker": "MACRO",
   "title": "Oil tightens as US crude stocks drop and Gulf s... - Pluang",
@@ -34523,6 +34543,11 @@
   "ticker": "IONQ",
   "title": "IonQ prices $2 billion equity offering at $40 per share - StreetInsider",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "242ef62433f64fe3": {
+  "ticker": "GOOGL",
+  "title": "Wall Street rises as traders await Fed decision, Alphabet and Microsoft earnings (COMP:IND:) - Seeking Alpha",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "242f25c5da6edb6a": {
   "ticker": "MACRO",
@@ -47198,6 +47223,11 @@
   "ticker": "NVDA",
   "title": "12 points for Nvidia: chip giant wants to make itself indispensable in Europe - ITdaily",
   "ts": "2026-10-23T13:23:15.913266+00:00"
+ },
+ "3178b7ab0076dc74": {
+  "ticker": "NVDA",
+  "title": "SpaceX keeps BBB+ credit rating after $40 billion Nvidia AI chip lease deal - Business Upturn",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "317992d68c305ac6": {
   "ticker": "MACRO",
@@ -61774,6 +61804,11 @@
   "title": "Cyberpunk Edgerunners 2 Ending Explained & Does It Set Up Season 3? - What's on Netflix",
   "ts": "2026-10-21T22:32:26.517371+00:00"
  },
+ "40c6f126d5c44711": {
+  "ticker": "MACRO",
+  "title": "【金十数据整理：美国当周EIA库存数据六大看点一览】 1. EIA报告：10月23日当周美国原油出口增加141.2万桶/日至485.4万桶/日。 2. EIA报告：10月23日当周美国国内原油产量增加72.3万桶至1399.2万桶/日。 3",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "40c9c114cf12b1b9": {
   "ticker": "NFLX",
   "title": "Clint Eastwood’s Highest-Grossing Movie Is Leaving Netflix on November 1 - Men's Journal",
@@ -67989,6 +68024,11 @@
   "title": "Oil prices rise over 2% after attack on Saudi oil field fuels supply concerns - The Chronicle PH",
   "ts": "2026-10-22T09:25:53.855077+00:00"
  },
+ "47899b20114b80b3": {
+  "ticker": "MACRO",
+  "title": "【金十数据整理：美国当周EIA数据最值一览】 1. 美国至10月23日当周EIA汽油库存增幅录得2026年1月16日当周以来最大。 2. 美国至10月23日当周国内原油产量增幅录得2021年3月5日当周以来最大。 3. 美国至10月23日当",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "478b54a3cc991eac": {
   "ticker": "NVDA",
   "title": "ASUS ProArt P16 and P14, Powered by NVIDIA RTX Spark, Now Shipping in Canada - GlobeNewswire",
@@ -72843,6 +72883,11 @@
   "ticker": "IONQ",
   "title": "IonQ and the University of Cambridge Open the IonQ Quantum Innovation Centre at Cavendish Laboratory's Ray Dolby Centre ",
   "ts": "2026-10-15T15:02:22.941713+00:00"
+ },
+ "4cbdf26cef7a7bb3": {
+  "ticker": "TSLA",
+  "title": "Is Tesla's Narrative Shifting? Why the Stock Deserves a Second Look - Zacks Investment Research",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "4cc1bce5ca5eba4c": {
   "ticker": "MACRO",
@@ -78318,6 +78363,11 @@
   "ticker": "HCLTECH",
   "title": "HCLTech Expands Climate Action Grant to 24 Countries Globally - The CSR Universe",
   "ts": "2026-10-27T08:19:18.418476+00:00"
+ },
+ "526ec23209e33517": {
+  "ticker": "AAPL",
+  "title": "If You'd Invested $10,000 in Apple Stock 10 Years Ago, Here's How Much You'd Have Today - The Globe and Mail",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "5270aba1af0c39c4": {
   "ticker": "TSLA",
@@ -95474,6 +95524,11 @@
   "title": "Interactive Brokers Q3 Adjusted Earnings, Revenue Rise; Dividend Increases - www.marketscreener.com",
   "ts": "2026-10-15T20:14:57.517775+00:00"
  },
+ "6459998a342728ff": {
+  "ticker": "HOOD",
+  "title": "Robinhood Markets Inc (HOOD) Q3 2026 Earnings Call Highlights: Record $1. ... By GuruFocus - Investing.com Canada",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "645b28796536b824": {
   "ticker": "MACRO",
   "title": "Oil hits near six-month high as Houthi attacks rattle Saudi Arabia - The Hindu",
@@ -96308,6 +96363,11 @@
   "ticker": "MACRO",
   "title": "RBNZ’s hawkish hold – UK Budget, BoC and Fed loom - FXStreet",
   "ts": "2026-10-28T07:31:36.525369+00:00"
+ },
+ "654e5edf90d34344": {
+  "ticker": "MACRO",
+  "title": "Federal Reserve: October hold likely, December hike expected - ABN AMRO - FXStreet",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "654f5e1412ce8e36": {
   "ticker": "ANET",
@@ -112874,6 +112934,11 @@
   "title": "BOK rate hike still on table even as Fed set to hold - 헤럴드경제",
   "ts": "2026-10-28T02:21:05.107432+00:00"
  },
+ "76f1b0b5a38167b7": {
+  "ticker": "MACRO",
+  "title": "美国至10月23日当周EIA原油进口 -79.6万桶，前值83.7万桶。",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "76f1e6aaf5d27ce5": {
   "ticker": "NVDA",
   "title": "Nvidia's Order Book and Its Balance Sheet Are Telling Two Different Stories - ad-hoc-news.de",
@@ -122474,6 +122539,11 @@
   "title": "Lumentum rises 8% on StoneX buy initiation, AI optimism (LITE:NASDAQ) - Seeking Alpha",
   "ts": "2026-10-26T20:33:56.312969+00:00"
  },
+ "81421934cf0e48b9": {
+  "ticker": "TSLA",
+  "title": "Musk Likes a Tesla-SpaceX Merger. Then He Admitted It Needs a Majority of ALL Tesla Shares, Not Just Votes Cast - Yahoo ",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "81441438c1deb58f": {
   "ticker": "NFLX",
   "title": "Flipkart partnership helps Netflix achieve record paid subscriber additions in India - CNBC TV18",
@@ -126493,6 +126563,11 @@
   "ticker": "MACRO",
   "title": "US Stock Market today: Why have S&P 500, Nasdaq, Dow… - inkl",
   "ts": "2026-10-17T00:05:09.848179+00:00"
+ },
+ "85801dc5cea6030a": {
+  "ticker": "SNDK",
+  "title": "The AI Trade Is Back. Why Sandisk Stock Is Rising Before Big Tech Earnings. - Barron's",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "8582542ff7f4caa3": {
   "ticker": "MACRO",
@@ -132424,6 +132499,11 @@
   "title": "Industrial development is path to country’s economic progress: Muktadir - The Daily Star",
   "ts": "2026-10-22T00:45:44.905099+00:00"
  },
+ "8badc527bf2efe26": {
+  "ticker": "MACRO",
+  "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - FOREX.com",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "8bb12ec809a3117c": {
   "ticker": "MACRO",
   "title": "Brent, WTI Crude Prices, Oct. 22, 2026 - Energy Intelligence",
@@ -133338,6 +133418,11 @@
   "ticker": "NVDA",
   "title": "Taiwan Is Planning $4 Billion Industrial Parks in Texas for Nvidia’s Suppliers - 24/7 Wall St.",
   "ts": "2026-10-16T13:08:45.456951+00:00"
+ },
+ "8c7c9ea318f984f6": {
+  "ticker": "MACRO",
+  "title": "美国至10月23日当周EIA俄克拉荷马州库欣原油库存 -62.4万桶，前值98.7万桶。",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "8c7d0f78da618264": {
   "ticker": "LITE",
@@ -186203,6 +186288,11 @@
   "title": "NFLX Stock Tumbles Overnight: Co-CEO Wants Netflix To Be Last Service Customers 'Ever Cancel', Says Live Events 'Drive N",
   "ts": "2026-10-21T02:13:37.857534+00:00"
  },
+ "c4597b82b1be3db0": {
+  "ticker": "NFLX",
+  "title": "Inside the $100 Million Netflix Showdown: Jennifer Lopez Reportedly Clashes With Director Robert Zemeckis in the Editing",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "c459a72d9d52ab5b": {
   "ticker": "NVDA",
   "title": "NVIDIA leads Magnificent 7 on earnings upside and valuation By Investing.com - Investing.com Nigeria",
@@ -214928,6 +215018,11 @@
   "title": "NVIDIA RTX Spark Laptops Launch From $2,599 With 128GB Memory and Local AI - Gogi Tech",
   "ts": "2026-10-17T05:07:13.962420+00:00"
  },
+ "e275ee9c3808f798": {
+  "ticker": "MACRO",
+  "title": "Cryptos Rise While Markets Wait For FOMC - RTTNews",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
+ },
  "e2764a14e094df3d": {
   "ticker": "MACRO",
   "title": "UKOIL|Brent|Price:109.450|Chg%:-2.130 - TradingKey",
@@ -226962,6 +227057,11 @@
   "ticker": "MACRO",
   "title": "Gold slips below $4,000 for first time since July, why? - Howl.link",
   "ts": "2026-10-23T07:33:57.151559+00:00"
+ },
+ "efd16545760b01bc": {
+  "ticker": "NFLX",
+  "title": "NSFW Liv Morgan Moment From RAW Censored On Netflix - ITR Wrestling",
+  "ts": "2026-10-28T14:33:41.361738+00:00"
  },
  "efd4f3c153d3a11f": {
   "ticker": "MACRO",
