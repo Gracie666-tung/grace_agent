@@ -51084,6 +51084,11 @@
   "title": "US stocks tick higher as oil prices ease a bit - WRAL",
   "ts": "2026-10-26T15:01:09.843211+00:00"
  },
+ "34693cac8c57d367": {
+  "ticker": "MACRO",
+  "title": "【美联储主席沃什的“鹰言”和“鸽语”同时减少】金十数据10月29日讯，机构AI模型显示，美联储主席沃什在新闻发布会开场白中所传达的情绪，较此前几次会议略微没那么“鹰派”。虽然偏向“鸽派”的表述有所减少，但偏向“鹰派”的表述也同样有所减少。",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "3469fe7395d435ba": {
   "ticker": "SMCI",
   "title": "Super Micro climbs after upbeat forecast shows robust AI demand By Reuters - Investing.com",
@@ -70879,6 +70884,11 @@
   "title": "iShares Core S&P 500 (IVV) Adds NVIDIA and Apple on Oct. 16 - Yahoo Finance",
   "ts": "2026-10-20T12:07:37.502568+00:00"
  },
+ "48cdb037c2e946e0": {
+  "ticker": "MACRO",
+  "title": "Global Gold Prices Fall to US$4,039 Today, Markets Anxious Awaiting The Fed's Decision - Aktualita.co",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "48cdce42e0ebce0a": {
   "ticker": "TSLA",
   "title": "A Quick Look at Today's Ratings for Tesla(TSLA.US), With a Forecast Between $400 to $491 - Moomoo",
@@ -84354,6 +84364,11 @@
   "title": "Corcept Therapeutics director Wilson sells $1.15 million in shares By Investing.com - Investing.com Canada",
   "ts": "2026-10-16T22:52:23.831012+00:00"
  },
+ "56c2dadeee542e06": {
+  "ticker": "MACRO",
+  "title": "Fed Says More Data Will Help Next Rate Decision as It Stands Pat - Bloomberg.com",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "56c51bd44e87c373": {
   "ticker": "TSLA",
   "title": "Tesla's Full Self-Driving Business Is Growing Fast. But There's a Catch for Investors - The Globe and Mail",
@@ -86979,6 +86994,11 @@
   "title": "Netflix’s ‘In Waves’ Trailer Teases Touching, True-Life Romance - TheWrap",
   "ts": "2026-10-20T19:50:17.617104+00:00"
  },
+ "59785a388253445b": {
+  "ticker": "NFLX",
+  "title": "Jennifer Lopez Accused of Taking Over $100M Netflix Movie in Alleged 'Blake Lively Situation' - Complex",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "59792a21e50e9dd4": {
   "ticker": "NVDA",
   "title": "HUMAIN：双方计划合作部署最高84兆瓦的AI算力基础设施，约相当于2.7万颗英伟达GPU。英伟达Blackwell Ultra芯片的部署将于2026年第四季度开始。计划于2027年部署英伟达Vera Rubin系列芯片。",
@@ -87888,6 +87908,11 @@
   "ticker": "MACRO",
   "title": "Oil slips from near six-months highs despite supply concerns - Reuters",
   "ts": "2026-10-26T01:02:51.271837+00:00"
+ },
+ "5a7a9205ffe2c82f": {
+  "ticker": "MACRO",
+  "title": "Iran is in close contact with mediators on seven-day plan, foreign minister says - Business Recorder",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "5a7b9e46a01de4e2": {
   "ticker": "GOOGL",
@@ -95028,6 +95053,11 @@
   "ticker": "SPCX",
   "title": "T-Mobile (TMUS) Faces a SpaceX Selloff. What Is Its Cash Flow Worth? - Yahoo Finance",
   "ts": "2026-10-20T04:02:38.991115+00:00"
+ },
+ "619b8105d8efa053": {
+  "ticker": "MACRO",
+  "title": "Mona Lisa’s Smirk - Heisenberg Report",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "619c080cc1c5594f": {
   "ticker": "MU",
@@ -130084,6 +130114,11 @@
   "title": "NVIDIA expands Isaac tools for humanoid robot development - Engineering.com",
   "ts": "2026-10-23T13:35:17.728673+00:00"
  },
+ "860b43abb55d09a6": {
+  "ticker": "NFLX",
+  "title": "The Body: A dance troupe’s initiation takes a horrifying turn on Netflix - Sortir à Paris",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "860c358036da442b": {
   "ticker": "MU",
   "title": "Micron Technology stock pre-market at EUR 825.85 - ad-hoc-news.de",
@@ -157158,6 +157193,11 @@
   "title": "Micron, SanDisk and SK Hynix Stocks Climb as AI Memory Demand Takes Center Stage - Yahoo Finance",
   "ts": "2026-10-26T14:12:12.299695+00:00"
  },
+ "a1d732dc9dec0613": {
+  "ticker": "NET",
+  "title": "Matthew Prince, the Cloudflare boss who says no one should have his power - Martin Cid Magazine",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "a1dac4941918f374": {
   "ticker": "NFLX",
   "title": "Netflix Beats Q3 Earnings Estimates. Why Stock Is Tumbling - Yahoo Finance",
@@ -161677,6 +161717,11 @@
   "ticker": "MACRO",
   "title": "Brent crude hits 6-month high above $116 per barrel as Houthi strikes fuel supply fears - Dunya News",
   "ts": "2026-10-24T09:52:18.020798+00:00"
+ },
+ "a6635aefbe3ca48e": {
+  "ticker": "NFLX",
+  "title": "‘Extraction 3’ Wraps Filming in Thailand Ahead of a Huge Year for the Franchise on Netflix - IMDb",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "a667ab7e7e5b357e": {
   "ticker": "PLTR",
@@ -168778,6 +168823,11 @@
   "title": "Nvidia Launches Open AI Models for PCs and Enterprises - innovation-village.com",
   "ts": "2026-10-19T17:56:03.927964+00:00"
  },
+ "ae0bf8a3232f19e0": {
+  "ticker": "NFLX",
+  "title": "Netflix’s New Documentary ‘Jane Doe v. Cornell’ Examines the Harrowing Cornell 7 Case - Parade Magazine",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "ae0c4bdd2de2522c": {
   "ticker": "NVDA",
   "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to - GlobeNewswire",
@@ -170873,6 +170923,11 @@
   "title": "Brent crude grows over 2% - Report.az",
   "ts": "2026-10-22T06:06:49.213390+00:00"
  },
+ "b053554283cfa7bf": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rise as Houthis Claim Missile Strike on Saudi Refinery - Brand Icon Image",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "b05401491c14254f": {
   "ticker": "NVDA",
   "title": "Qblox Integrates NVIDIA DGX Spark With Quantum System Controller - The Quantum Insider",
@@ -172422,6 +172477,11 @@
   "ticker": "NET",
   "title": "Researchers Uncover 20,000 Malicious Cloudflare Pages Domains Used in Tech Support Scams - GBHackers News",
   "ts": "2026-10-16T10:59:52.921154+00:00"
+ },
+ "b1d375affb987b8d": {
+  "ticker": "MACRO",
+  "title": "按兵不动后沃什淡化前瞻指引，美联储12月政策路径再添悬念：沃什没有给市场期待中的12月路线图，反而继续淡化前瞻指引。他同时强调，2%的通胀目标没有“软版本”，“没有任何借口或条件”。点击查看...",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "b1d5c974a7df827f": {
   "ticker": "GLW",
@@ -188912,6 +188972,11 @@
   "ticker": "PLTR",
   "title": "Palantir drops City Hall legal fight over Met deal - BBC",
   "ts": "2026-10-14T17:48:17.864808+00:00"
+ },
+ "c29cfbeaa25956c1": {
+  "ticker": "IBKR",
+  "title": "Coinbase vs. Interactive Brokers: Which Financial Stock Has More Long-Term Upside? - The Globe and Mail",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "c29e2b44fdd80b71": {
   "ticker": "GOOGL",
@@ -205928,6 +205993,11 @@
   "title": "Micron Says Rival DRAM Design Has ‘Fundamental Problems’: Targets Next-Gen Memory With 3D DRAM, New Chips Planned For 20",
   "ts": "2026-10-21T16:45:43.400450+00:00"
  },
+ "d3fb3c23b8651922": {
+  "ticker": "MACRO",
+  "title": "Fed Chair Warsh Reiterates Opposition to Forward Guidance As December Rate Hike Odds Remain as High as 83% - TradingKey",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "d3fb54e30e10a2a1": {
   "ticker": "MACRO",
   "title": "Truist Books $1.45B Bond Loss, Then Sells LightStream to Carlyle - The Eastern Herald",
@@ -213497,6 +213567,11 @@
   "ticker": "MACRO",
   "title": "“Borrowing to Fund AI Investment”: U.S. Big Tech’s Debt Buildup Puts Upward Pressure on Corporate Bond and Treasury Yiel",
   "ts": "2026-10-27T22:53:58.921269+00:00"
+ },
+ "dbbc00661afb476e": {
+  "ticker": "MACRO",
+  "title": "Federal Reserve issues FOMC statement - Forex Factory",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "dbbc85cc2fb99767": {
   "ticker": "TSLA",
@@ -226088,6 +226163,11 @@
   "title": "Altera’s 100G FPGA-Based Holoscan Sensor Bridge Solution on Display at NVIDIA GTC Berlin - Business Wire",
   "ts": "2026-10-21T11:03:04.266656+00:00"
  },
+ "e8f06b83e10ae14e": {
+  "ticker": "NFLX",
+  "title": "Matthew Perry’s Life Beyond Friends Takes Center Stage in New Netflix Documentary - Mix 93.3 Kansas City",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
+ },
  "e8f8037c797ea236": {
   "ticker": "NFLX",
   "title": "Hit Netflix Show ‘The Diplomat’ Honors Hersh Goldberg-Polin - Kveller",
@@ -226572,6 +226652,11 @@
   "ticker": "NFLX",
   "title": "How to watch The Gift of Deceit (Dom de Iludir) on Netflix – Full Guide - UpNext by Reelgood",
   "ts": "2026-10-28T10:07:48.793202+00:00"
+ },
+ "e9829a0c2243e138": {
+  "ticker": "MACRO",
+  "title": "Govt hikes petrol price by Rs1.85, diesel by Rs1.75 per litre - Business Recorder",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "e983072a994eb3c7": {
   "ticker": "NFLX",
@@ -227302,6 +227387,11 @@
   "ticker": "SMCI",
   "title": "Super Micro Computer, Inc. CAD hedged- Canadian Depositary Receipt Repr Shs Reg S Estimates – TSX:SMCI - TradingView",
   "ts": "2026-10-23T12:59:08.956093+00:00"
+ },
+ "ea44b80e594ec078": {
+  "ticker": "NFLX",
+  "title": "‘A Couple of Lies’ Release Date, Trailer, Plot, and Cast for Netflix’s Swedish Thriller - IMDb",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "ea493c9d5c85fc6c": {
   "ticker": "NVDA",
@@ -243842,6 +243932,11 @@
   "ticker": "NFLX",
   "title": "3 best new to Netflix movies you should stream this weekend (October 16-18) - Tom's Guide",
   "ts": "2026-10-16T10:35:41.850175+00:00"
+ },
+ "fb6975a872588ae2": {
+  "ticker": "MACRO",
+  "title": "Refiner Stocks Just Had Their Worst Day Since the Tariff Shock - 24/7 Wall St.",
+  "ts": "2026-10-28T19:43:46.190231+00:00"
  },
  "fb6afa58e6114ec3": {
   "ticker": "SPCX",
