@@ -1139,6 +1139,11 @@
   "title": "AT&T Stock Tumbles as SpaceX Eyes 80,000 Cell Sites - Benzinga",
   "ts": "2026-10-23T14:47:53.125371+00:00"
  },
+ "0110b33d63df903d": {
+  "ticker": "GOOGL",
+  "title": "Alphabet shares tumble 8.5% as earnings miss overshadows cloud boom - Investing.com",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
+ },
  "011177cfea85aa87": {
   "ticker": "NFLX",
   "title": "Meghan Markle's friends accuse Netflix of 'using' her to promote The Gentlemen as Guy Richie gives brutal verdict - LADb",
@@ -4673,6 +4678,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet, Microsoft, SK Hynix, Robinhood, and More Stocks That Explain Today’s Market - Barron's",
   "ts": "2026-10-28T10:01:52.685381+00:00"
+ },
+ "0465ce49a3152546": {
+  "ticker": "GOOGL",
+  "title": "Alphabet's heavy cloud spending drives bigger-than-expected cash burn - marketscreener.com",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "0467060156f269a6": {
   "ticker": "NFLX",
@@ -10458,6 +10468,11 @@
   "ticker": "MACRO",
   "title": "IWD report: Iowa unemployment remains steady at 3.2% in September - Quad Cities Business Journal",
   "ts": "2026-10-23T14:05:27.153018+00:00"
+ },
+ "0a0667db1213b1c5": {
+  "ticker": "NVDA",
+  "title": "Nvidia bets on personal agents in new Meta partnership - TechTarget",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "0a06ee4dec7d94f6": {
   "ticker": "MACRO",
@@ -40139,6 +40154,11 @@
   "title": "SpaceX Jumps 9% to Break Above Its Call Wall as Profit Fires Up Bulls: Options Chatter - Moomoo",
   "ts": "2026-10-21T15:56:42.206881+00:00"
  },
+ "28a712fa807b6718": {
+  "ticker": "GOOGL",
+  "title": "Alphabet's YouTube Ad Sales Miss Estimates at $11.2 Billion as Growth Cools to 9% - BigGo Finance",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
+ },
  "28a7377ca3a3eaf8": {
   "ticker": "NFLX",
   "title": "Beyond the Punchline, Netflix India Puts the Spotlight on Comedy That Connects at CII Big Picture Summit 2026 - Passiona",
@@ -44933,6 +44953,11 @@
   "ticker": "MACRO",
   "title": "Oil prices decline on global markets - Apa.az",
   "ts": "2026-10-26T04:52:54.222009+00:00"
+ },
+ "2d9fe1fa8527cd07": {
+  "ticker": "GOOGL",
+  "title": "Alphabet down 11% on weaker-than-expected earnings - Breakingthenews.net",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "2da4a650a242e710": {
   "ticker": "NVDA",
@@ -80689,6 +80714,11 @@
   "title": "Palantir Is Not C3.ai, But C3.ai Wrote Its Watch List - Downgrade Palantir To Hold, Sell C3.ai - Seeking Alpha",
   "ts": "2026-10-14T12:08:20.352127+00:00"
  },
+ "524638f8ec54a1f2": {
+  "ticker": "NVDA",
+  "title": "US Justice Department reviews Nvidia’s $12.9 billion deal with Hugging Face — CNBC - UA.NEWS",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
+ },
  "52464c86d621c5ca": {
   "ticker": "PLTR",
   "title": "With Robust Growth, Palantir Stock Is Worth Considering at a Premium - Barchart.com",
@@ -81088,6 +81118,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX 5080 24GB rumour, RTX 5090 discontinuation - HardwareZone Singapore",
   "ts": "2026-10-15T11:23:37.993409+00:00"
+ },
+ "52a4de8c70cf6d4c": {
+  "ticker": "MACRO",
+  "title": "With the U.S. Federal Reserve (Fed) freezing its key interest rate for the first time in more than t.. - 매일경제",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "52a6374f50b3b19c": {
   "ticker": "MACRO",
@@ -94788,6 +94823,11 @@
   "ticker": "NFLX",
   "title": "Francis Ngannou is reportedly the only star who can convince Netflix to stage another MVP MMA event - Bloody Elbow",
   "ts": "2026-10-22T22:05:11.502225+00:00"
+ },
+ "60906d6def656cd9": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Q3 Search & Other Revenue at $63.4 Billion Vs FactSet Analyst Consensus of $65 Billion - Moomoo",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "609071c2f052081c": {
   "ticker": "SMCI",
@@ -129628,6 +129668,11 @@
   "ticker": "NFLX",
   "title": "The Diplomat season 4 is now on Netflix: a shocking death sparks a power struggle - Softonic",
   "ts": "2026-10-15T09:14:54.794267+00:00"
+ },
+ "846a17f434c3daec": {
+  "ticker": "NFLX",
+  "title": "‘Pride and Prejudice’ trailer: Netflix brings Jane Austen to life - Breitbart News",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "846e9bebbd942822": {
   "ticker": "TSLA",
@@ -167273,6 +167318,11 @@
   "title": "Brent tops $113 on Saudi supply risk — but the diesel line in the EIA report is the tell - Mitrade",
   "ts": "2026-10-23T07:40:00.062409+00:00"
  },
+ "aaf979a22aaefa53": {
+  "ticker": "MACRO",
+  "title": "Fed holds interest rates steady even as inflation remains stubborn - Oregon Public Broadcasting - OPB",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
+ },
  "aafc2157fe144614": {
   "ticker": "MACRO",
   "title": "No more N1,342: Relief as depots cut petrol, diesel rates nationwide - Legit News",
@@ -189378,6 +189428,11 @@
   "title": "Rocket Lab's Neutron Slips to 2027: Wall Street Trims Targets, Not Ratings - ad-hoc-news.de",
   "ts": "2026-10-18T06:54:48.282444+00:00"
  },
+ "c15ef03b73f5d30e": {
+  "ticker": "NFLX",
+  "title": "Ridley Scott's $460M Action Movie Flop Is Officially a Netflix Success Story - Polygon.com",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
+ },
  "c1624887c55e099e": {
   "ticker": "MACRO",
   "title": "Equity falls, but won hits two-year high and bonds stronger - Aju Press",
@@ -191877,6 +191932,11 @@
   "ticker": "MU",
   "title": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 - Yahoo Finance",
   "ts": "2026-10-20T19:44:15.370820+00:00"
+ },
+ "c3dd1d4c5f181eb7": {
+  "ticker": "NFLX",
+  "title": "Netflix November 2026: Complete Release Schedule - Davidson County Source",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "c3de62d197bd9c08": {
   "ticker": "NFLX",
@@ -194447,6 +194507,11 @@
   "ticker": "TSLA",
   "title": "A Tesla-SpaceX Merger Could Be Announced Within Weeks, Barclays Says - TipRanks",
   "ts": "2026-10-15T14:43:55.993639+00:00"
+ },
+ "c6560ff11e68ca47": {
+  "ticker": "MACRO",
+  "title": "US VP Vance contacted top Iran security official: report - Business Recorder",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "c65ac2096208bc7a": {
   "ticker": "MACRO",
@@ -235677,6 +235742,11 @@
   "ticker": "TSM",
   "title": "TSMC Stocks Rise 2.5% as Its $53.3 Billion Sales Target Tests Margins - Yahoo Finance",
   "ts": "2026-10-20T18:06:58.850668+00:00"
+ },
+ "f110d9c6e2704f41": {
+  "ticker": "MACRO",
+  "title": "Fed pause won’t lower mortgage rates, economists say - Dailyfly News",
+  "ts": "2026-10-28T21:33:57.760430+00:00"
  },
  "f1132c35ee4c8be0": {
   "ticker": "NVDA",
