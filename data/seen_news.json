@@ -1334,6 +1334,11 @@
   "title": "Netflix Falls 3% as Peter Rice Takes Over Content After Layoffs; Disney and Spotify Hold Steady - 24/7 Wall St.",
   "ts": "2026-10-16T14:27:43.199718+00:00"
  },
+ "014d16aefe6862f9": {
+  "ticker": "NVDA",
+  "title": "Oracle Expands AI Compute Options With NVIDIA, Google TPUs and Cerebras - Analytics India Magazine",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "014ea31a2c307a8d": {
   "ticker": "MACRO",
   "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115 - The Times of India",
@@ -25563,6 +25568,11 @@
   "ticker": "NFLX",
   "title": "Sydney Sweeney’s Major R-Rated Sleeper Hit Adaptation Is Officially Netflix’s Newest Streaming Phenomenon - IMDb",
   "ts": "2026-10-16T17:05:47.058165+00:00"
+ },
+ "1b72cc5a9b8f536b": {
+  "ticker": "NFLX",
+  "title": "Scarlett Johansson's 108-Minute Sci-Fi Thriller Is the Perfect Watch Before It's Cut From Netflix - Collider",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "1b75b9ebea73ac2c": {
   "ticker": "NFLX",
@@ -61654,6 +61664,11 @@
   "title": "SanDisk stock prediction: $2,481.99 bull, $681.22 bear - FinanceFeeds",
   "ts": "2026-10-21T11:45:17.049150+00:00"
  },
+ "4317826ce398fb5e": {
+  "ticker": "GOOGL",
+  "title": "1. 据悉Meta 250亿美元股票发行获约5倍超额认购。 2. 甲骨文扩大英伟达芯片合作，引入谷歌、Cerebras等供应商。 3. 毕马威调查：全球CEO对经济前景信心创五年新低，对AI投资意愿仍强劲。 4. SK海力士Q3营业利润创新",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "4317ada387badca5": {
   "ticker": "MACRO",
   "title": "法国10年期国债收益率日内一度下跌10.56个基点，至4.9158%。",
@@ -93503,6 +93518,11 @@
   "ticker": "NFLX",
   "title": "Netflix shares under pressure as chief content officer departs - Yahoo Finance",
   "ts": "2026-10-16T15:28:35.914466+00:00"
+ },
+ "65c88b0296b1180b": {
+  "ticker": "NFLX",
+  "title": "‘Nobody Wants This’ Posts Netflix’s Best Returning Comedy Debut of the Year Despite a Dip in Viewers - IMDb",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "65ce90f2eef39783": {
   "ticker": "MACRO",
@@ -133664,6 +133684,11 @@
   "title": "Super Micro Computer Inc. stock outperforms competitors on strong trading day - MarketWatch",
   "ts": "2026-10-27T20:34:33.380054+00:00"
  },
+ "91d9402c9cda0dc9": {
+  "ticker": "TSLA",
+  "title": "Is SpaceX’s acquisition of Tesla a bailout? A prominent scholar remarks: It is akin to trading a Buick for a Gulfstream.",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "91e24831822ff0a7": {
   "ticker": "MACRO",
   "title": "Treasury Yields Slide as Investors Swap Stocks for the Safety of Bonds - StoneX",
@@ -153618,6 +153643,11 @@
   "title": "Crypto Today: Bitcoin, Ethereum and XRP on edge as sell-side pressure intensifies - www.tmgm.com",
   "ts": "2026-10-27T13:55:49.621441+00:00"
  },
+ "a7a149076cb64de9": {
+  "ticker": "SPCX",
+  "title": "Anthropic's IPO Could Make SpaceX Billions | Here's How | TechPulse - The Economic Times",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "a7a17656896c8957": {
   "ticker": "ANET",
   "title": "TD Cowen cuts target for Arista Networks stock to USD 205 - AD HOC NEWS",
@@ -171548,6 +171578,11 @@
   "title": "SpaceX Reaches $40 Billion Financing Agreement With Apollo-Managed Entity -- Update - www.marketscreener.com",
   "ts": "2026-10-26T14:42:44.138569+00:00"
  },
+ "bb7a18fb43f883ad": {
+  "ticker": "NVDA",
+  "title": "Blockmate Enters AI Neocloud Market with Acquisition of NVIDIA B200 Compute Node - Investing News Network",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "bb7a2fb11a3299d0": {
   "ticker": "TSM",
   "title": "TSMC Breaks Silence on Terafab, Hints at Tenant Role in Texas - https://www.culpium.com/",
@@ -181322,6 +181357,11 @@
   "ticker": "NVDA",
   "title": "Angry protestors 'interrupt' Nvidia CEO Jensen Huang's event in Berlin, shout: 'What about technology fou - The Times of",
   "ts": "2026-10-22T05:12:35.509379+00:00"
+ },
+ "c5d71912200aa5b0": {
+  "ticker": "NVDA",
+  "title": "Apple Nibbles Away at Nvidia - The Daily Upside",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "c5d7bd40ac5d42c0": {
   "ticker": "TSLA",
@@ -199017,6 +199057,11 @@
   "ticker": "TSLA",
   "title": "Fact File: Tesla says Canadian demand used up import quota; numbers suggest otherwise - CTV News",
   "ts": "2026-10-16T17:30:08.141034+00:00"
+ },
+ "d92fa288cac5270d": {
+  "ticker": "MACRO",
+  "title": "Australian Inflation Exceeds Estimate Ahead of RBA Meeting - Bloomberg",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "d92fd2fde32d0feb": {
   "ticker": "NFLX",
@@ -219723,6 +219768,11 @@
   "title": "Shafaq News..Brent tops $110 as Middle East tensions escalate - شفق نيوز",
   "ts": "2026-10-20T06:33:19.479888+00:00"
  },
+ "f06620a347b4fa7e": {
+  "ticker": "MACRO",
+  "title": "1999 Vs. These IPOs Is Apples to Bowling Balls - Bloomberg",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "f068c768510fcff1": {
   "ticker": "MACRO",
   "title": "Stocks to watch, Oct 21: PC Jeweller, RIL, Bajaj Finance, Schaeffler India, oil-sensitives, IHCL, SRF, HZL - Dailyhunt",
@@ -225793,6 +225843,11 @@
   "title": "Disney Narnia Star Reacts To Netflix’s Bold New Movie After Record-Breaking Trailer - IMDb",
   "ts": "2026-10-27T04:30:59.336506+00:00"
  },
+ "f70151f10aaf5e7d": {
+  "ticker": "NVDA",
+  "title": "Oracle expands AI chip offerings with Google, Nvidia, and Cerebras - Tech Wire Asia",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
+ },
  "f7018970fd27835d": {
   "ticker": "PLTR",
   "title": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027. - The Globe and Mail",
@@ -225932,6 +225987,11 @@
   "ticker": "SPCX",
   "title": "Worrying News For SpaceX Stock Investors - Yahoo Finance",
   "ts": "2026-10-26T12:33:05.378885+00:00"
+ },
+ "f7352982af5f06ab": {
+  "ticker": "MACRO",
+  "title": "The Fed's AI dilemma: Tomorrow's productivity, today's inflation - Moneycontrol.com",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "f736f7332d647e99": {
   "ticker": "TSLA",
@@ -232552,6 +232612,11 @@
   "ticker": "NVDA",
   "title": "LSEG Accelerates Tick History Analysis With NVIDIA - Black Hills Pioneer",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "fe9b6805fdd44bde": {
+  "ticker": "NVDA",
+  "title": "Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market - Bloomberg",
+  "ts": "2026-10-28T04:05:03.526435+00:00"
  },
  "fe9da8056dbe0ac2": {
   "ticker": "NVDA",
