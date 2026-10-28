@@ -3999,6 +3999,11 @@
   "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia - Reuters",
   "ts": "2026-10-19T13:20:52.918040+00:00"
  },
+ "03d4498dc9ff0747": {
+  "ticker": "MACRO",
+  "title": "Ras Tanura attack claim lifts Brent and WTI prices - Minute Mirror",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "03d62e5d87a1850a": {
   "ticker": "MACRO",
   "title": "Decoding Bitcoin’s midterm setup amid hawkish Fed risks - AMBCrypto",
@@ -10118,6 +10123,11 @@
   "ticker": "MACRO",
   "title": "Oil prices heady at 5-month highs as M.East supply jitters persist - Investing.com",
   "ts": "2026-10-23T04:16:40.572961+00:00"
+ },
+ "0a26ed369259a385": {
+  "ticker": "HOOD",
+  "title": "Robinhood Markets Is Maintained at Buy by Truist Securities - Moomoo",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "0a293c81dd9bcb62": {
   "ticker": "GOOGL",
@@ -19058,6 +19068,11 @@
   "ticker": "SPCX",
   "title": "Larry Ellison Pledged Oracle, Tesla and SpaceX Shares for Loans Before Son’s Warner Deal Closed - TechStory",
   "ts": "2026-10-22T17:00:46.423695+00:00"
+ },
+ "13bba40123aa9108": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rebound as Houthi Attack on Saudi Refinery Renews Supply Fears - WTI Climbs Above $101, Brent Near $115 - Ene",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "13bcabd773ab2be0": {
   "ticker": "MACRO",
@@ -33099,6 +33114,11 @@
   "title": "investingLive Americas market news wrap: Yields continue to fall even after hot PPI data - investingLive",
   "ts": "2026-10-15T20:21:17.974166+00:00"
  },
+ "22d37b1ac5942846": {
+  "ticker": "MACRO",
+  "title": "With High Treasury Yields, the Details Matter - ETF Database",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "22d47f817f83e0e2": {
   "ticker": "MACRO",
   "title": "美国至10月23日当周API原油库存将于十分钟后公布。",
@@ -33123,6 +33143,11 @@
   "ticker": "MACRO",
   "title": "Yen Firms to 158.08 as Katayama’s Warning and Ueda’s 2% Inflation Signal Cap Dollar Below 160 - TradingNEWS",
   "ts": "2026-10-20T20:14:24.088666+00:00"
+ },
+ "22d9ecef07954fef": {
+  "ticker": "NVDA",
+  "title": "OpenAI looks beyond Nvidia, plans to buy Google’s AI chips: report - Invezz",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "22dc09f623352712": {
   "ticker": "TSLA",
@@ -40834,6 +40859,11 @@
   "title": "Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares. - 24/7 Wall St.",
   "ts": "2026-10-28T11:07:34.617832+00:00"
  },
+ "2b201edd9b74fb14": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor raising prices could mean less competition from Intel: Wedbush (TSM:NYSE) - Seeking Alpha",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "2b21c51ee790428a": {
   "ticker": "MACRO",
   "title": "MK Sons Fine Jewels IPO Opens: Rs 275 crore issue, price band, dates and key details - Zee Business",
@@ -48039,6 +48069,11 @@
   "title": "Netflix’s Q3 Beat Didn’t Change The Story For Wall Street - Finimize",
   "ts": "2026-10-21T15:26:01.145635+00:00"
  },
+ "32e64549d0e2ee11": {
+  "ticker": "MACRO",
+  "title": "Hyundai Motor India Q2 Results: Stan Net Profit Falls 24% to Rs 11,962 Crore, Revenue Rises 19% - APAC Media",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "32e653ab2fe9b4f8": {
   "ticker": "MACRO",
   "title": "冲突情况： 1. 特朗普：不会向伊派地面部队，不会使用核武。 2. 沙特民防部门：对海米斯穆谢特、吉赞等地启动防控警报并随后解除。 3. 胡塞称沙特袭击月余致114死305伤。 4. 胡塞武装称沙特使用集束炸弹空袭也门，致3死9伤。 5. ",
@@ -49888,6 +49923,11 @@
   "ticker": "MACRO",
   "title": "Petrol, diesel prices today (October 17): Check latest rates in Delhi, Mumbai, Chennai, Kolkata & more - Business Today",
   "ts": "2026-10-17T03:42:29.325242+00:00"
+ },
+ "34ecfeed8a22e3b5": {
+  "ticker": "MACRO",
+  "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone - The Standard-Speaker",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "34ee51b711f90ade": {
   "ticker": "NFLX",
@@ -52383,6 +52423,11 @@
   "ticker": "GOOGL",
   "title": "Is Alphabet (GOOGL) Undervalued After Its Unity AI Platform Deal? - Simply Wall Street",
   "ts": "2026-10-14T20:25:13.566947+00:00"
+ },
+ "378616c2f72864f2": {
+  "ticker": "MACRO",
+  "title": "‘Meaningful risk’: Why a former US Treasury secretary and Wall Street banker sees trouble for investors after the midter",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "378655c770105a6c": {
   "ticker": "MACRO",
@@ -68434,6 +68479,11 @@
   "title": "FirstQFM Foundation Model Cuts Quantum Gate Times by 33% on QuantWare QPU via NVIDIA Computing - Quantum Computing Repor",
   "ts": "2026-10-15T23:35:16.715784+00:00"
  },
+ "48a9300d610c018b": {
+  "ticker": "MACRO",
+  "title": "A historically awful 5-year TIPS matured Oct. 15. How did it do as an investment? - https://tipswatch.com/",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "48a97720bba314ae": {
   "ticker": "MACRO",
   "title": "Analyst Makes Strong Call on Occidental Petroleum Stock - TradingView",
@@ -78529,6 +78579,11 @@
   "title": "Nvidia CEO Jensen Huang: 'We have to accelerate AI safety' - AOL.com",
   "ts": "2026-10-21T13:04:09.720008+00:00"
  },
+ "536acac70d7c5f61": {
+  "ticker": "NVDA",
+  "title": "Prediction: $10,000 Invested in Nvidia Will Be Worth This Much by Late 2029 -- If the AI Spending Boom Continues - The G",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "536d018ebb16b210": {
   "ticker": "TSLA",
   "title": "Will Tesla’s New Flying Roadster Send the Stock Flying? - The Globe and Mail",
@@ -82723,6 +82778,11 @@
   "ticker": "NVDA",
   "title": "ASUS ProArt P16 & P14, Powered by NVIDIA RTX Spark, Now Available for Purchase in North America - TechPowerUp",
   "ts": "2026-10-16T15:34:38.241012+00:00"
+ },
+ "57e37cae1dc72bcb": {
+  "ticker": "HOOD",
+  "title": "Why Is Robinhood Markets (HOOD) Stock Down Today? - Coinpedia",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "57e48de95d50c1ab": {
   "ticker": "MACRO",
@@ -120139,6 +120199,11 @@
   "title": "SpaceX Will Try to Catch Starship on Flight 15 - KeepTrack",
   "ts": "2026-10-21T09:20:36.984717+00:00"
  },
+ "7fc0908247dddbf1": {
+  "ticker": "MACRO",
+  "title": "U.S. dollar steady ahead of Fed decision; focus on U.K. budget - BNN Bloomberg",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "7fc0a40cc301d56f": {
   "ticker": "NFLX",
   "title": "Detective Conan Anime's 4th Collection of Episodes 'Clash of the Red and Black' Streams on Crunchyroll, Netflix on Novem",
@@ -134808,6 +134873,11 @@
   "ticker": "NFLX",
   "title": "Netflix's Narnia Is 'Mega Woke Slop Insanity': Development Frozen, More Firings Coming (Exclusive) - Cosmic Book News",
   "ts": "2026-10-19T20:04:14.877714+00:00"
+ },
+ "8f7179332ca0aa03": {
+  "ticker": "SPCX",
+  "title": "Hidden Gems in the SpaceX Filing: Soaring Compute Rates and Deep Tesla Ties - Moomoo",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "8f755fd5e6c1682f": {
   "ticker": "NVDA",
@@ -162828,6 +162898,11 @@
   "title": "Higher Energy Prices Pushed U.S. Inflation Up to 3.7% Ahead of Midterm Elections - The New York Times",
   "ts": "2026-10-14T22:11:20.211106+00:00"
  },
+ "ad824d08337a0a6e": {
+  "ticker": "HOOD",
+  "title": "Scotiabank cuts Robinhood stock price target on margin concerns - Investing.com",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "ad824e86ef8aa85a": {
   "ticker": "NET",
   "title": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know - FinancialContent",
@@ -188668,6 +188743,11 @@
   "title": "Space Stocks Rally as SpaceX Results Lift Sector: Intuitive Machines Advances 5%, Redwire and Planet Labs Climb 4% - 24/",
   "ts": "2026-10-21T14:55:08.947130+00:00"
  },
+ "c8c43e34e8f7a63c": {
+  "ticker": "HOOD",
+  "title": "Robinhood Stock Drops Despite Mizuho's $130 Price Target As Crypto Revenue Falls 55% - TradingView",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "c8c625a84811e2b2": {
   "ticker": "MACRO",
   "title": "Opening Bell: Nifty 50 Falls 0.33%, Sensex Drops 0.18% as IT and PSU Bank Stocks Drag Markets - Dalal Street Investment ",
@@ -190197,6 +190277,11 @@
   "ticker": "MACRO",
   "title": "Update: US Equity Indexes Fall, Treasury Yields Jump as Iran Tensions Send Crude Oil Sharply Higher - Yahoo! Finance Can",
   "ts": "2026-10-23T20:40:32.101442+00:00"
+ },
+ "ca5777f06ddb7b99": {
+  "ticker": "NVDA",
+  "title": "NVIDIA backs Indian AI startup Simplismart in $14 mn Series B | Tap to know more | Inshorts - Inshorts",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "ca57e2adc1223d02": {
   "ticker": "MACRO",
@@ -203748,6 +203833,11 @@
   "title": "Oil edges down as investors weigh possible US sanctions on ‘shadow fleet’ - 927thevan.com",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "d8ba146d5ab01deb": {
+  "ticker": "MACRO",
+  "title": "I Bonds Are About to Pay Their Highest Fixed Rate in 20 Years. Here’s Why All Income Investors Should Pay Attention on N",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "d8bd5f3904ec780d": {
   "ticker": "NFLX",
   "title": "‘Israel’ targets Netflix’s \"Nobody Wants This\" after rabbi actor backs Palestine - Roya News",
@@ -206857,6 +206947,11 @@
   "ticker": "SMCI",
   "title": "Form 8K Super Micro Computer Inc For: 20 October By Investing.com - Investing.com Australia",
   "ts": "2026-10-21T02:01:33.406048+00:00"
+ },
+ "dc1809be842867f8": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Bounces, but Fed and Inflation Data Loom - CryptoDaily",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "dc19c8dca8e8e541": {
   "ticker": "MACRO",
@@ -213663,6 +213758,11 @@
   "title": "VAST Data Introduces New Foundation Stack for Secure, Production-Ready AI Agent Sandboxes with NVIDIA - iTWire",
   "ts": "2026-10-22T00:03:02.164409+00:00"
  },
+ "e349a4f48925c92e": {
+  "ticker": "MACRO",
+  "title": "【金十期货热图】历史数据揭示美国中期选举前原油大概率下跌？在2026年的通胀与地缘变局下，大宗商品或面临与历史不同的变局！美国中期选举将如何影响大宗商品？一图了解。",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "e34a06a4300b7c2a": {
   "ticker": "NVDA",
   "title": "Samsung Electro-Mechanics gets $2.8 billion chip investment from Tesla, Nvidia, report says By Reuters - Investing.com",
@@ -218212,6 +218312,11 @@
   "ticker": "MACRO",
   "title": "JPMorgan Says One Big Headwind for Stocks May Be Fading - TradingView",
   "ts": "2026-10-20T17:06:02.344760+00:00"
+ },
+ "e862719e2e2bea72": {
+  "ticker": "NFLX",
+  "title": "Netflix unveils trailer for sci-fi comedy Allen - Flickering Myth",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "e8638f496f113a29": {
   "ticker": "NVDA",
@@ -222883,6 +222988,11 @@
   "title": "Wedbush reiterates Outperform rating on Advanced Micro Devices, $600 price target - TradingView",
   "ts": "2026-10-20T15:10:18.096907+00:00"
  },
+ "ed99e2a909a39ca8": {
+  "ticker": "HOOD",
+  "title": "Barclays Adjusts Price Target on Robinhood Markets to $115 From $132 - www.marketscreener.com",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
+ },
  "ed99e32440b30422": {
   "ticker": "RKLB",
   "title": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission - The Daily Tribune News",
@@ -224412,6 +224522,11 @@
   "ticker": "TSLA",
   "title": "Elon Musk backs SpaceX and Tesla merger - GB News",
   "ts": "2026-10-21T07:49:37.100412+00:00"
+ },
+ "ef47ca5af7aa0933": {
+  "ticker": "MACRO",
+  "title": "Fed likely to go into wait-and-see mode on rates - KSL News",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "ef4ae9a4c8bb9d44": {
   "ticker": "NVDA",
@@ -231162,6 +231277,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Invests $3 Billion in Meta as AI Partnership Expands - News Mobile",
   "ts": "2026-10-27T11:11:04.306768+00:00"
+ },
+ "f66e56fbf7f65fc5": {
+  "ticker": "HOOD",
+  "title": "Robinhood shares fall as crypto markets chill drives profit miss - KELO-AM",
+  "ts": "2026-10-28T12:31:33.878736+00:00"
  },
  "f672b5d86e24dc12": {
   "ticker": "MACRO",
