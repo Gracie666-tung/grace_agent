@@ -624,6 +624,11 @@
   "title": "IONQ Oct 2026 47.500 put (IONQ261023P00047500) stock price, news, quote and history - Yahoo Finance UK",
   "ts": "2026-10-19T11:43:11.022067+00:00"
  },
+ "009e6406f6ca4ca8": {
+  "ticker": "TSM",
+  "title": "Key facts: TSMC (2330) ups CoWoS prices 10–20%; U.S. interposers - TradingView",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "009fe7801b86cbed": {
   "ticker": "IONQ",
   "title": "IONQ Nov 2026 28.000 put (IONQ261113P00028000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
@@ -1033,6 +1038,11 @@
   "ticker": "MACRO",
   "title": "White House press secretary Katie Zacharia says she did not pass bar exam - Business Recorder",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "01083fb7325d8597": {
+  "ticker": "MACRO",
+  "title": "纳指ETF富国：将于2026年10月28日开市起至当日10:30停牌。",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "0108758b39bf036a": {
   "ticker": "MACRO",
@@ -22829,6 +22839,11 @@
   "title": "Oil prices fall as investors weigh supply outlook, Middle East tensions - 102.7 WBOW",
   "ts": "2026-10-15T04:53:38.089599+00:00"
  },
+ "1896f99e298dee1f": {
+  "ticker": "MACRO",
+  "title": "新西兰联储：随着汇率下降以及部分定期贷款利率走低，国内金融状况的某些方面已有所放松。",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "1899b054773bff58": {
   "ticker": "SPCX",
   "title": "SpaceX：今天猎鹰9号Bandwagon-5将进行拼车发射任务，发射工位为佛罗里达州40号发射台。目标发射时间为美国东部时间早上7:04，气象条件适宜概率95%。",
@@ -24574,6 +24589,11 @@
   "title": "AMD Stock Plunges 20% From Record Highs as ASML Warns of Chip Supply Constraints - FXLeaders",
   "ts": "2026-10-16T00:11:35.935065+00:00"
  },
+ "1aa02b7bc96cab43": {
+  "ticker": "MACRO",
+  "title": "新西兰联储：委员会聚焦中期通胀前景。",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "1aa12f9eccfd1372": {
   "ticker": "SMCI",
   "title": "Super Micro Says AI Demand Is So Strong It Blew Past Its Own Forecast by 25% - 24/7 Wall St.",
@@ -24623,6 +24643,11 @@
   "ticker": "TSM",
   "title": "TSMC Stocks Rise as Record Profit Meets 2027 Caution - GuruFocus",
   "ts": "2026-10-23T18:36:12.652815+00:00"
+ },
+ "1aa6ecec31348463": {
+  "ticker": "MACRO",
+  "title": "新西兰联储：尽管此前已两次上调官方现金利率（OCR），但仍存在一种风险，即在常规预期指标作出反应之前，通胀就已根深蒂固。",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "1aa7fb951c948484": {
   "ticker": "NFLX",
@@ -42308,6 +42333,11 @@
   "ticker": "MACRO",
   "title": "Can You Stake XRP? What 10,000 XRP Could Earn You Instead - 24/7 Wall St.",
   "ts": "2026-10-27T23:54:31.876023+00:00"
+ },
+ "2e4fc22ee2e280aa": {
+  "ticker": "RKLB",
+  "title": "Why Did Rocket Lab Hike Its Iridium Bid By 30%? Analyst Says ASTS May Have Been Mystery Rival - Stocktwits",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "2e50993305c8c506": {
   "ticker": "IONQ",
@@ -85679,6 +85709,11 @@
   "title": "Global equity funds draw inflows for fourth week as Treasury yields ease - StreetInsider",
   "ts": "2026-10-16T10:05:38.312219+00:00"
  },
+ "5df47ecc23d80351": {
+  "ticker": "TSLA",
+  "title": "Chinese Tech Firms Confident in Challenging NVIDIA, Tesla - 조선일보",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "5df4b6bae5e67692": {
   "ticker": "NVDA",
   "title": "Nvidia, Microsoft, Adelson family lead $330M Trump ballroom fundraising drive: Report - Anadolu Ajansı",
@@ -104918,6 +104953,11 @@
   "ticker": "NFLX",
   "title": "NFLX Stock Dips Overnight: Netflix Faces Analyst Downgrade As Margin Concerns Persist Ahead Of Earnings - Yahoo Finance",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "734a0bea1d9533bd": {
+  "ticker": "TSLA",
+  "title": "Tesla's Q3 Profit Slumps 43% as Musk Pitches SpaceX Merger and Robot Future - BigGo Finance",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "734cc74c1f8bdc74": {
   "ticker": "TSM",
@@ -126964,6 +127004,11 @@
   "title": "Tesla, Inc. (TSLA.NE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
   "ts": "2026-10-22T11:26:14.196356+00:00"
  },
+ "8ba169ffeb3aad44": {
+  "ticker": "MACRO",
+  "title": "新西兰联储：国内工资增长乏力，中期通胀预期稳定。",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "8ba38ae71dfbcfad": {
   "ticker": "MACRO",
   "title": "Average long-term US mortgage rate eases to 7.32% in first pullback since late August - KTVQ",
@@ -128533,6 +128578,11 @@
   "ticker": "SNDK",
   "title": "SanDisk Analysts Split on Price Targets, Not on the Buy Case - ad-hoc-news.de",
   "ts": "2026-10-27T03:28:56.779031+00:00"
+ },
+ "8d165bf79d695226": {
+  "ticker": "NFLX",
+  "title": "The Sci-Fi Action Movie That Fought A Stallone Disaster And Won, Stream It Without Netflix - Giant Freakin Robot",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "8d1a0bfe5c16b8b7": {
   "ticker": "NFLX",
@@ -156143,6 +156193,11 @@
   "title": "Warsh speaks in Bangkok after hot CPI: is a second Fed hike coming in October? - investingLive",
   "ts": "2026-10-15T22:29:02.303234+00:00"
  },
+ "abe57a6766edd595": {
+  "ticker": "MACRO",
+  "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "abe725bdd9541bde": {
   "ticker": "PLTR",
   "title": "Palantir Stocks Fall 6.6% Although Mizuho Raises Target to $245 - GuruFocus",
@@ -157378,6 +157433,11 @@
   "title": "Nasdaq 100 Rallies 1.2% as SpaceX Delivers Its First Profit and Super Micro Raises Guidance - AD HOC NEWS",
   "ts": "2026-10-21T18:30:59.235120+00:00"
  },
+ "ad50f37916df64a3": {
+  "ticker": "MACRO",
+  "title": "Dollar-yen stuck just shy of 158 as market eyes FOMC chair's press conference for December rate hike clues - BigGo Finan",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "ad522cac1b19d413": {
   "ticker": "MACRO",
   "title": "【分析师：美联储会议焦点转向沃什如何释放信号】金十数据10月26日讯，如果美联储本周维持利率不变，美联储主席沃什将面临一个熟悉的挑战：他既要让投资者相信美联储致力于遏制通胀，又要解释为何官员们选择不加息。这与7月的情况如出一辙——当时，投资",
@@ -158152,6 +158212,11 @@
   "ticker": "NFLX",
   "title": "Love is Blind season 14 full release schedule, as the new season drops today on Netflix - The Tab",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "ae2faa58f5559e6c": {
+  "ticker": "MACRO",
+  "title": "Bitcoin Reclaims $80,000 as AI Tech Rally, Middle East De-escalation Revive Risk Appetite - BigGo Finance",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "ae30a42eab93dc60": {
   "ticker": "TSLA",
@@ -206433,6 +206498,11 @@
   "title": "The paradox of foreign capital flows in the stock market: FDI increases, FII withdraws capital. - Vietnam.vn",
   "ts": "2026-10-20T07:28:25.296759+00:00"
  },
+ "e2f405b323ad0556": {
+  "ticker": "NVDA",
+  "title": "Could Nvidia's worst nightmare be coming? Anthropic's semiconductor strategy in IPO filing - 디지털투데이",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "e2f55f540c6fce95": {
   "ticker": "MACRO",
   "title": "MCX Gold Falls 1.27% to Rs. 1,44,226 Ahead of Fed Policy Meeting, Brent at USD 110.8 - Analytics Insight",
@@ -221278,6 +221348,11 @@
   "title": "【美联储本周维持利率不变的概率为90%】金十数据10月26日讯，据CME“美联储观察”：美联储本周维持利率不变的概率为90%，累计加息25个基点的概率为10%。美联储到12月维持利率不变的概率为23.8%，累计加息25个基点的概率68.9%",
   "ts": "2026-10-25T22:01:32.004878+00:00"
  },
+ "f3f11c8b330779f1": {
+  "ticker": "MACRO",
+  "title": "Yemen's Houthis say they hit Saudi Arabia’s Ras Tanura oil refinery with missile - Mitrade",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
+ },
  "f3f15656a3e3988f": {
   "ticker": "MACRO",
   "title": "New Zealand plot downfall of 'incredible' India teen Sooryavanshi - Business Recorder",
@@ -221712,6 +221787,11 @@
   "ticker": "SPCX",
   "title": "【Anthropic据称选定摩根大通牵头IPO美国散户配售】金十数据10月28日讯，据知情人士透露，Anthropic已选定摩根大通负责其IPO面向美国散户的股票销售。摩根大通CEO戴蒙预计将参与该行的IPO活动。Anthropic已考虑将",
   "ts": "2026-10-28T00:55:06.981725+00:00"
+ },
+ "f47c994903e2588b": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer delivers blockbuster Q1 guidance! Is th... - Futubull Community - 富途牛牛",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "f47caf7b739f0b0f": {
   "ticker": "MACRO",
@@ -223892,6 +223972,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab will conduct third dedicated Hawkeye 360 launch after stock ends session down 4.5% - Traders Union",
   "ts": "2026-10-23T04:42:28.678484+00:00"
+ },
+ "f6c1520cfeb366dd": {
+  "ticker": "NVDA",
+  "title": "Schneider Electric, Nscale and Start Campus Bring the NVIDIA Omniverse DSX Blueprint into a Live AI Factory Environment ",
+  "ts": "2026-10-28T01:13:17.844236+00:00"
  },
  "f6c259b396a900fd": {
   "ticker": "NFLX",
