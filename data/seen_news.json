@@ -7439,6 +7439,11 @@
   "title": "Netflix stock is falling after earnings: why Morningstar sees it rising 30% - Invezz",
   "ts": "2026-10-28T18:03:30.853472+00:00"
  },
+ "06fe2ece1e0618ab": {
+  "ticker": "NVDA",
+  "title": "Red-Hot Nvidia Just Received A 100% Buy Rating… But Is That A Bad Thing? - 24/7 Wall St.",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "06ff216b8a373b81": {
   "ticker": "LITE",
   "title": "Lumentum (NASDAQ:LITE) Stock Price Up 8.2% - Time to Buy? - MarketBeat",
@@ -8034,6 +8039,11 @@
   "title": "Rocket lab pushes 1st launch of next-gen neutron rocket to 2027 - Nagaland Post",
   "ts": "2026-10-17T07:25:21.329497+00:00"
  },
+ "079a8cd3c136ab4c": {
+  "ticker": "NVDA",
+  "title": "Nvidia schedules Q3 fiscal 2027 earnings call for Nov. 17 - Investing.com",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "079abcb7ce9c2bd8": {
   "ticker": "NVDA",
   "title": "Samsung to use TSMC’s 3nm process for Nvidia’s next-generation HBM chips: Report - Firstpost",
@@ -8593,6 +8603,11 @@
   "ticker": "NVDA",
   "title": "Nvidia launches RTX Spark laptops starting at $2,599 - StreetInsider",
   "ts": "2026-10-16T12:07:45.663475+00:00"
+ },
+ "0830cc6d8f3b5233": {
+  "ticker": "MACRO",
+  "title": "Fed holds interest rates at 3.75%-4% as inflation risks persist - Invezz",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "08310d3a7d3b2652": {
   "ticker": "MACRO",
@@ -46449,6 +46464,11 @@
   "title": "Wall St opens higher as SpaceX, Super Micro results lift AI stocks - KSL",
   "ts": "2026-10-21T13:46:51.430915+00:00"
  },
+ "2f456f7cbc3fc91c": {
+  "ticker": "MACRO",
+  "title": "Flint Hills shuts diesel desulfurizer at Corpus Christi, Texas refinery - Quantum Commodity Intelligence",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "2f494dd291ed81df": {
   "ticker": "TSLA",
   "title": "US Market: Musk backs Tesla-SpaceX merger idea, envisioning a $3.5 trillion giant - The Economic Times",
@@ -80428,6 +80448,11 @@
   "ticker": "NFLX",
   "title": "Natalee Holloway, Karen Read and Dane Cook Lead Netflix’s 9 New Documentaries in November 2026 - What's on Netflix",
   "ts": "2026-10-26T12:27:05.207832+00:00"
+ },
+ "51fdb87040de63f4": {
+  "ticker": "GOOGL",
+  "title": "Alphabet talks cloud strength, capex, and AI mode upside on its earnings call (GOOG:NASDAQ) - Seeking Alpha",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "51fe532fbb49e4e3": {
   "ticker": "AAPL",
@@ -115509,6 +115534,11 @@
   "title": "3 Big Reasons to Love AppLovin (APP) - Yahoo Finance",
   "ts": "2026-10-15T14:37:51.670676+00:00"
  },
+ "75f8d7fb83d93af4": {
+  "ticker": "MU",
+  "title": "Micron Stock Rises 5.5% as SK Hynix Says DRAM and HBM Sold Out Through 2029 - FinanceFeeds",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "75f9e26972c540c8": {
   "ticker": "NVDA",
   "title": "NVIDIA and Oracle expand Vera Rubin to multi-gigawatt OCI scale - Blockchain News",
@@ -125599,6 +125629,11 @@
   "title": "Apple stock in red: why this analyst thinks iPhone demand will weaken - Invezz",
   "ts": "2026-10-19T18:02:17.725523+00:00"
  },
+ "805817fb41521f23": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘Allen’ Trailer Turns a Childhood Alien Friendship Into a Very Grown-Up Problem - IMDb",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "8058839cfaab7dee": {
   "ticker": "HOOD",
   "title": "Robinhood Markets stock pre-market at EUR 87.44 ahead of Xetra open - AD HOC NEWS",
@@ -127448,6 +127483,11 @@
   "ticker": "MACRO",
   "title": "【日本拟加强海关执法，严打黄金走私与骗取退税】金十数据10月18日讯，据日经新闻报道，日本财务省计划加强海关执法权限，以遏制黄金走私，防止来源不明、可能被用于逃税的黄金出口。日本贸易统计数据显示，2025年日本申报进口黄金总量为10吨，出口",
   "ts": "2026-10-17T20:18:09.912790+00:00"
+ },
+ "82509efba46d453d": {
+  "ticker": "NVDA",
+  "title": "Nvidia Stocks Rise With Vera CPUs Available on Oracle Cloud - GuruFocus",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "82516cd5fdef600c": {
   "ticker": "NVDA",
@@ -133273,6 +133313,11 @@
   "ticker": "MACRO",
   "title": "US Inflation 3.7%: The Level That Counts for Bitcoin - CryptoTicker",
   "ts": "2026-10-14T21:17:57.164903+00:00"
+ },
+ "883446cd27e122db": {
+  "ticker": "NVDA",
+  "title": "DOJ Probes Whether Nvidia's $12.93 Billion Hugging Face Deal Would Cement AI Chokehold - BigGo Finance",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "88372955f40a7465": {
   "ticker": "TSM",
@@ -148784,6 +148829,11 @@
   "title": "Amazon vs. Alphabet: Is GOOGL’s Cloud Growth Being Undervalued? - Yahoo! Finance Canada",
   "ts": "2026-10-21T16:15:18.583409+00:00"
  },
+ "981119584a228ead": {
+  "ticker": "MACRO",
+  "title": "The bond market swings, but US stocks remain steady after the Fed says it won’t raise interest rates - Boston Herald",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "981275d2ca6320e7": {
   "ticker": "MACRO",
   "title": "US 10-year yields fall, near 5% level but it's for the wrong reasons - investingLive",
@@ -160108,6 +160158,11 @@
   "title": "What time is this week's Fed meeting? - Yahoo Finance",
   "ts": "2026-10-26T18:20:34.708754+00:00"
  },
+ "a37ecf35d7f10bd2": {
+  "ticker": "NVDA",
+  "title": "Companies announce successful NVIDIA Omniverse DSX pilot at SIN01 - NeoTeo",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "a37f46773c96d2b7": {
   "ticker": "TSLA",
   "title": "After Nearly 7 Years, Tesla Confirms the Cybertruck Isn't Coming to Australia - autoevolution",
@@ -170462,6 +170517,11 @@
   "ticker": "MACRO",
   "title": "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today - Benzinga",
   "ts": "2026-10-22T17:55:42.423116+00:00"
+ },
+ "ae5c26543cf18eed": {
+  "ticker": "NFLX",
+  "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series - Cryptonews.net",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "ae5d12b485f6141b": {
   "ticker": "TSLA",
@@ -186978,6 +187038,11 @@
   "title": "Nvidia Plans $3 Billion Meta Investment as AI Partnership Expands - www.tokenpost.com",
   "ts": "2026-10-27T07:01:03.465481+00:00"
  },
+ "bf0b4dfe4c3c5c0b": {
+  "ticker": "MACRO",
+  "title": "Fed Reaffirms 2% PCE Inflation Target Amid Elevated Price Pressures - Sahi",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "bf0bef178a355992": {
   "ticker": "SPCX",
   "title": "Elon Musk Promises to Give Every Child in the US a SpaceX Share - BGNES",
@@ -192273,6 +192338,11 @@
   "title": "Micron Stock Falls Below $900; Taiwan President Urges Talks to Avert Strike - The Crypto Basic",
   "ts": "2026-10-15T11:05:59.803810+00:00"
  },
+ "c449cc15c2a1e1d7": {
+  "ticker": "NFLX",
+  "title": "‘Her in Frame’ (2026) Netflix Movie Review - Between Dreams and Memories | MOVIESR.NET - Midgard Times",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "c44b07d84628ee46": {
   "ticker": "MACRO",
   "title": "通胀超预期撞上中期选举，沃什敢不敢再次打破历史惯例？：美国9月通胀超预期，直接把美联储推到了棘手的两难路口。白宫官员公开喊话等10月数据，进一步放大了美联储本月会议决策的政治压力。点击查看...",
@@ -194082,6 +194152,11 @@
   "ticker": "MACRO",
   "title": "Fed to hit pause on rate hikes, but maybe not for long - StreetInsider",
   "ts": "2026-10-26T15:13:25.611813+00:00"
+ },
+ "c608a6f5f00010cb": {
+  "ticker": "NVDA",
+  "title": "Nvidia Supply Chain Stocks Tied To AI Chip Packaging Demand - Simply Wall St",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "c608c7503071de56": {
   "ticker": "NFLX",
@@ -198372,6 +198447,11 @@
   "ticker": "NFLX",
   "title": "Websites Go Offline, Protests in France, Netflix Downsizes - NPR",
   "ts": "2026-10-24T13:56:05.861887+00:00"
+ },
+ "ca777f43a6b54709": {
+  "ticker": "NFLX",
+  "title": "Netflix's new mega-money Pride and Prejudice launches with Jack Lowden as Mr Darcy - The Mirror",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "ca78c3867ca89d4c": {
   "ticker": "RKLB",
@@ -225103,6 +225183,11 @@
   "title": "Netflix Has New Warning Signs Ahead of Q3 Earnings as U.S. App Churn Jumps by 16.6% - TipRanks",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "e5fe2ba7d5aefde3": {
+  "ticker": "GOOGL",
+  "title": "Alphabet's Q3 revenue up by 25% to $127.6B, missing estimates - Howl.Link",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
+ },
  "e60045ffd157a4e3": {
   "ticker": "NFLX",
   "title": "Netflix Says One Dubbed Language Takes 50 to 60 People. AI, It Says, Is Only a Tool - Voice Over Herald",
@@ -233767,6 +233852,11 @@
   "ticker": "PLTR",
   "title": "Palantir Technologies Inc. Estimates – NASDAQ:PLTR - TradingView",
   "ts": "2026-10-23T14:56:02.885111+00:00"
+ },
+ "ef195f75981edbe7": {
+  "ticker": "NFLX",
+  "title": "5 Biggest Reveals From Netflix's Matthew Perry Documentary Series - www.looper.com",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "ef1e28c4af24e0ca": {
   "ticker": "GOOGL",
@@ -243797,6 +243887,11 @@
   "ticker": "MACRO",
   "title": "Gold Price Analysis Today | Forex Gold Analysis | XAU/USD Analysis - October 26, 2026 - Mitrade",
   "ts": "2026-10-28T04:29:18.578210+00:00"
+ },
+ "f94b5fcceb81c99e": {
+  "ticker": "NVDA",
+  "title": "DOJ Inquires About Nvidia’s Hugging Face Deal, Reuters Says - Yahoo Finance",
+  "ts": "2026-10-28T21:27:52.918426+00:00"
  },
  "f94d93c3a6b10239": {
   "ticker": "MU",
