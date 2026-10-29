@@ -21094,6 +21094,11 @@
   "title": "WTI Tops $102; Brent Above $116 - bloomingbit",
   "ts": "2026-10-23T13:41:18.195618+00:00"
  },
+ "13a8aac45cd00620": {
+  "ticker": "AMD",
+  "title": "AMD stock slides as overbought conditions cap further upside - Traders Union",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "13a8f2566b7a8a21": {
   "ticker": "MACRO",
   "title": "美国通胀推高加息押注，英国增长乏力仍难摆脱价格压力 | 每日市场观察10.15：美国核心通胀高于预期，市场把十月加息概率推近一半，但仍有等待十二月的判断。英国经济虽勉强增长，能源涨价却可能重新点燃通胀，让家庭和企业继续承受利率压力。",
@@ -21188,6 +21193,11 @@
   "ticker": "IONQ",
   "title": "IonQ's Weak Session Traces Back to Lam Research, Not Its Own Order Book - AD HOC NEWS",
   "ts": "2026-10-23T04:42:28.678484+00:00"
+ },
+ "13bb742f75373947": {
+  "ticker": "MACRO",
+  "title": "FOMC’s forward guidance has caused more problems than it has solved, says Jim Bianco - Seeking Alpha",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "13bb90fa055ef5b3": {
   "ticker": "SPCX",
@@ -29963,6 +29973,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA GeForce RTX 6060 Is Unlikely To Match PS6 GPU & May Launch In 2029, It Is Claimed - TwistedVoxel",
   "ts": "2026-10-20T12:44:44.654766+00:00"
+ },
+ "1c05e63fbc6a0023": {
+  "ticker": "SPCX",
+  "title": "Nvidia Just Disclosed an $18 Billion Stake in SpaceX. Here's What Jensen Huang Sees That the Market Doesn't. - The Globe",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "1c07128b5b76f217": {
   "ticker": "MACRO",
@@ -62929,6 +62944,11 @@
   "title": "The Zacks Analyst Blog Highlights Intel, Alphabet, NVIDIA and AMD - The Globe and Mail",
   "ts": "2026-10-27T15:34:51.381259+00:00"
  },
+ "3bb459ff205aa05e": {
+  "ticker": "AAPL",
+  "title": "Apple stock rises as new macbook launch draws analyst support - Invezz",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "3bb4ff9f9e64f4a5": {
   "ticker": "MACRO",
   "title": "Oil slips from near six-months highs despite supply concerns - Business Recorder",
@@ -71443,6 +71463,11 @@
   "ticker": "MACRO",
   "title": "Are You Worrying Much About Inflation? Growth ETFs in Focus - TradingView",
   "ts": "2026-10-19T13:20:52.918040+00:00"
+ },
+ "441bf64263c6ca66": {
+  "ticker": "PLTR",
+  "title": "Palantir Technologies Inc. Class A Revenue Breakdown – TURQUOISE:PTXD - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "441f3185ae15b00e": {
   "ticker": "NVDA",
@@ -94024,6 +94049,11 @@
   "title": "Cloudflare developers top 10 million, up 35% in one quarter - The Next Web",
   "ts": "2026-10-21T10:02:43.540398+00:00"
  },
+ "59bab7b38ba9db46": {
+  "ticker": "GOOGL",
+  "title": "Google-parent Alphabet sees nearly $500Bn AI-led market cap wipeout, largest in company history - The Tech Portal",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "59bea9d7e6c046af": {
   "ticker": "MACRO",
   "title": "New York Gold Falls Back to $4,159 as Rising Long-Term Yields Above 5.1% and Higher Crude Weigh - BigGo Finance",
@@ -99808,6 +99838,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA has officially denied rumors about the discontinuation of the GeForce RTX 5090. - GameGPU",
   "ts": "2026-10-17T12:31:39.007946+00:00"
+ },
+ "5f120a9c1a93eefa": {
+  "ticker": "MACRO",
+  "title": "Why are Builders FirstSource (BLDR) shares soaring today - StockStory",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "5f14149a08f28618": {
   "ticker": "PLTR",
@@ -107534,6 +107569,11 @@
   "title": "Elon Musk wants to give every US child a SpaceX share. Here’s what it could be worth - The Financial Express",
   "ts": "2026-10-19T17:19:06.890671+00:00"
  },
+ "66702bec7decf3d2": {
+  "ticker": "NVDA",
+  "title": "Breast cancer: This Nvidia-powered AI tool predicts cancer recurrence risk before surgery — here's how it works - Livemi",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "6670968d04004836": {
   "ticker": "GOOGL",
   "title": "Google's 1-Gigawatt Energy Bet Meets a Cloud Reliability Test Ahead of Alphabet's Q3 Report - AD HOC NEWS",
@@ -108199,6 +108239,11 @@
   "title": "SNL's Michael Che on creating new Netflix special - Modern Ghana",
   "ts": "2026-10-20T01:27:44.937897+00:00"
  },
+ "670c1b1e7503499f": {
+  "ticker": "NFLX",
+  "title": "‘The Diplomat’ Renewed for Season 5 at Netflix - IMDb",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "6711662f7687a2e5": {
   "ticker": "SPCX",
   "title": "Scottish Mortgage stock on edge ahead of SpaceX and Meta Platforms earnings - Invezz",
@@ -108253,6 +108298,11 @@
   "ticker": "MACRO",
   "title": "Fed Rate Decision: Hawkish Hold at 3.75%-4% in 10-2 Vote - Admirals",
   "ts": "2026-10-28T23:41:55.736808+00:00"
+ },
+ "671f5edc868253fe": {
+  "ticker": "MACRO",
+  "title": "Mortgage rates could still rise after Fed holds rates steady - TheStreet",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "6720c1f040520653": {
   "ticker": "NFLX",
@@ -113523,6 +113573,11 @@
   "ticker": "ANET",
   "title": "Arista issues PHP security advisory for Arista Networks stock - ad-hoc-news.de",
   "ts": "2026-10-29T10:22:53.082777+00:00"
+ },
+ "6c2306c7f439a3aa": {
+  "ticker": "SMCI",
+  "title": "Non-operating income (total) of Super Micro Computer, Inc. – BSESOF:MS51 - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "6c25433f5ec49ef0": {
   "ticker": "MACRO",
@@ -130019,6 +130074,11 @@
   "title": "3 stimulating Netflix shows I put on for my pets when I leave the house - How-To Geek",
   "ts": "2026-10-17T18:15:12.158567+00:00"
  },
+ "7c26a5bb1869333b": {
+  "ticker": "AMD",
+  "title": "Was There Any Sign AMD Stock Would Run? - Yahoo Finance",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "7c26c55336a9e595": {
   "ticker": "MACRO",
   "title": "Goldman Sachs sees AI buildout adding to inflation pressures - Investing.com",
@@ -140903,6 +140963,11 @@
   "ticker": "NVDA",
   "title": "Key facts: NVIDIA Corporation $96.2B; Meta deal; GPU rental spikes - TradingView",
   "ts": "2026-10-27T07:13:00.251740+00:00"
+ },
+ "86a89868e2c187a0": {
+  "ticker": "NVDA",
+  "title": "Iluvatar Says GPU Matches Nvidia H200; Racks Cut Costs 40% - FourWeekMBA",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "86a8d6c551a3ae51": {
   "ticker": "NET",
@@ -156839,6 +156904,11 @@
   "title": "Day 2 : Ahead of the October FOMC Rate Decision with Moomoo AI - Moomoo",
   "ts": "2026-10-22T14:46:18.430495+00:00"
  },
+ "95d4906103b7d1ae": {
+  "ticker": "MACRO",
+  "title": "WESCO (WCC) stock trades up, here is why - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "95d588f7515265a4": {
   "ticker": "MACRO",
   "title": "Trump waives new Russia sanctions and tariffs on energy buyers - Quantum Commodity Intelligence",
@@ -157738,6 +157808,11 @@
   "ticker": "MACRO",
   "title": "US Stock Market Today LIVE: Dow Jones Slips 0.13%, S&P 500 Rises 0.38% & Nasdaq Edges Higher as Oil Surge, Treasury Yiel",
   "ts": "2026-10-19T15:10:31.487206+00:00"
+ },
+ "96b39e9793b370ea": {
+  "ticker": "PLTR",
+  "title": "Non-operating income (total) of Palantir Technologies Inc. Class A – TURQUOISE:PTXD - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "96b3d57b136bcf91": {
   "ticker": "NFLX",
@@ -167064,6 +167139,11 @@
   "title": "I Bonds Are About to Pay Their Highest Fixed Rate in 20 Years. Here’s Why All Income Investors Should Pay Attention on N",
   "ts": "2026-10-28T14:21:25.956914+00:00"
  },
+ "9f745337e4996326": {
+  "ticker": "MACRO",
+  "title": "September US PCE Price Index Rises 0.5% Vs. Expected 0.5% Gain, Prior 0.3% Gain - www.marketscreener.com",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "9f75647652b773bb": {
   "ticker": "MACRO",
   "title": "North Dakota Oil Companies Speed Up Well Completions as Prices Rise, State Regulator Says - EnergyNow.com",
@@ -173933,6 +174013,11 @@
   "title": "Two Pallets of Nvidia RTX 5090 Graphics Cards Worth $470,000 Go Missing in Brazil - GujaratSamachar English",
   "ts": "2026-10-19T11:55:12.844018+00:00"
  },
+ "a5bf035abe305659": {
+  "ticker": "RKLB",
+  "title": "What Happens to Rocket Lab Stock if Neutron Slips Further? - The Globe and Mail",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "a5bf6f2f749d287b": {
   "ticker": "SPCX",
   "title": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks - CNBC",
@@ -177587,6 +177672,11 @@
   "ticker": "TSLA",
   "title": "Tesla Robotaxi vs. Google Waymo: Who Has the Advantage in Autonomous Taxi Commercialization? - TradingKey",
   "ts": "2026-10-24T04:10:22.078652+00:00"
+ },
+ "a972a72b53a4b282": {
+  "ticker": "SPCX",
+  "title": "Neptune Highlights SpaceX Liquidity and Derivative Strategy, Provides Treasury Update - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "a973d8df1aa2206f": {
   "ticker": "MACRO",
@@ -193803,6 +193893,11 @@
   "title": "QumulusAI Expands Closed Lease Financing With TFC to $123.6 Million, Funding Its NVIDIA Blackwell GPUs Without New Equit",
   "ts": "2026-10-22T15:41:18.357089+00:00"
  },
+ "b937711f8c0d029d": {
+  "ticker": "MU",
+  "title": "Micron shares dip as Samsung’s post-earnings selloff spreads to memory peers - StreetInsider",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "b937b430b319621c": {
   "ticker": "NVDA",
   "title": "Volvo Cars expands automated driving partnership with Nvidia - StreetInsider",
@@ -197827,6 +197922,11 @@
   "ticker": "TSLA",
   "title": "Tesla shows off a flying Roadster that can drive upside down (TSLA:NASDAQ) - Seeking Alpha",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "bce0bd6ac285a5c4": {
+  "ticker": "NFLX",
+  "title": "Semi-Truck Driver Who Was Allegedly Watching Netflix at the Time of a Fatal Crash Changes Plea to Guilty - People.com",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "bce13e6bd419aab3": {
   "ticker": "MACRO",
@@ -214448,6 +214548,11 @@
   "title": "Why the Treasury’s financing plans are sparking anxiety on Wall Street - MarketWatch",
   "ts": "2026-10-19T19:52:00.550940+00:00"
  },
+ "cc8132cfba3a88a1": {
+  "ticker": "MACRO",
+  "title": "Why FTAI Aviation (FTAI) stock is up today - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "cc82cd11d0d54735": {
   "ticker": "MACRO",
   "title": "Oil prices fall sharply in global markets - 24 News HD",
@@ -227492,6 +227597,11 @@
   "ticker": "MU",
   "title": "Micron's Buyback Armoury Meets a Market That Wants Proof, Not Promises - ad-hoc-news.de",
   "ts": "2026-10-19T12:38:16.198489+00:00"
+ },
+ "d90811c6a7fcaa74": {
+  "ticker": "SPCX",
+  "title": "SpaceX Insiders Could Sell Nearly 4 Billion Shares. Why Isn’t Wall Street Worried? - Yahoo Finance",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "d908a27dbe5df427": {
   "ticker": "NVDA",
@@ -242763,6 +242873,11 @@
   "title": "Customers Bank announces collaboration with Palantir Technologies - The Times Herald",
   "ts": "2026-10-16T04:20:35.705853+00:00"
  },
+ "e7eab807e5a0bac5": {
+  "ticker": "MACRO",
+  "title": "Gold Slips as Hotter PCE Reading Hardens Bets on a December Hike - ad-hoc-news.de",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "e7ed8cbd065e5b90": {
   "ticker": "SNDK",
   "title": "Sandisk schedules results for October 29 and what it means for Sandisk stock - ad-hoc-news.de",
@@ -244797,6 +244912,11 @@
   "ticker": "NFLX",
   "title": "+@@((Netflix]FREE)) UFC 333: Volkanovski vs Evloev 𝐋𝐈𝐕𝐄 Ｆｒｅｅ Ｓｔｒｅａｍｓ ＯＮ Ｔｖ Ｃｈａｎｎｅ - FC東京オフィシャルホームページ",
   "ts": "2026-10-24T18:14:56.718598+00:00"
+ },
+ "e9f149437266c6ad": {
+  "ticker": "NFLX",
+  "title": "‘The Diplomat’ Renewed for Season 5 at Netflix - Yahoo News UK",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "e9f254f90f75014a": {
   "ticker": "MACRO",
@@ -260683,6 +260803,11 @@
   "title": "Micron Stock Rises. Here's What Investors Are Watching Next - GuruFocus",
   "ts": "2026-10-21T11:39:14.706548+00:00"
  },
+ "f948066af0d97dce": {
+  "ticker": "MACRO",
+  "title": "Bitcoin rebounds above $80K as US Q3 GDP growth beats forecasts amid persistent inflation. - Pluang",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
+ },
  "f9482b565beca31d": {
   "ticker": "IONQ",
   "title": "Can IonQ's $1.3B Elisity Deal Address Quantum-Era Security Threats? - TradingView",
@@ -265997,6 +266122,11 @@
   "ticker": "NFLX",
   "title": "Netflix shares slide as weaker ad outlook and softer fourth-quarter forecast overshadow Q3 results - Quiver Quantitative",
   "ts": "2026-10-20T21:33:19.425542+00:00"
+ },
+ "fe85429c858f7f79": {
+  "ticker": "MACRO",
+  "title": "Why DoorDash (DASH) stock is trading up today - TradingView",
+  "ts": "2026-10-29T15:26:53.777965+00:00"
  },
  "fe855724abc78d41": {
   "ticker": "NVDA",
