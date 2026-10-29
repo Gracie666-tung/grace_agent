@@ -15644,6 +15644,11 @@
   "title": "俄罗斯统计局：俄罗斯截至10月12日的当周消费者通胀率为0.11%，而前一周为0.96%。",
   "ts": "2026-10-14T16:03:21.875466+00:00"
  },
+ "0e93eee15282ce27": {
+  "ticker": "MACRO",
+  "title": "September PCE inflation rises 3.6% annually, matching expectations - Fox Business",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "0e95c9937488eaa9": {
   "ticker": "NVDA",
   "title": "Volvo Cars and NVIDIA expand partnership to advance safe automated driving - Volvo",
@@ -23124,6 +23129,11 @@
   "title": "Netflix has a problem layoffs can't solve - Yahoo Finance UK",
   "ts": "2026-10-14T18:23:06.361647+00:00"
  },
+ "15c53a600e0e3791": {
+  "ticker": "APP",
+  "title": "Is AppLovin (APP) a Buy as Wall Street Analysts Look Optimistic? - Yahoo Finance",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "15c5f818ea2c4a8f": {
   "ticker": "RDDT",
   "title": "Citizens reiterates Reddit stock rating on user growth acceleration - Investing.com",
@@ -26868,6 +26878,11 @@
   "ticker": "MACRO",
   "title": "Update: US Equity Indexes Mixed as Technology Attempts Recovery Amid Surging Crude Oil - Yahoo Finance",
   "ts": "2026-10-23T20:28:23.167850+00:00"
+ },
+ "1945ff3456763329": {
+  "ticker": "MACRO",
+  "title": "【瑞银：欧洲央行此次决策或可视为“鹰派暂停”，预计12月再加息】金十数据10月29日讯，瑞银欧元区和英国经济学家迪恩·特纳表示，欧洲央行维持利率不变的决定符合市场普遍预期，但应被视为一次“鹰派暂停”，而非加息周期的结束。·特纳表示：“能源价",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "19464d3c40caf3fd": {
   "ticker": "MACRO",
@@ -30778,6 +30793,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin extends consolidation as neutral FOMC decision fails to spark a relief rally. What's next? - investingLive",
   "ts": "2026-10-29T10:11:01.799907+00:00"
+ },
+ "1ce7ed8a165a9bdd": {
+  "ticker": "MACRO",
+  "title": "US Q3 GDP Growth Hits 3.4%, Beats Forecast as Core PCE Inflation Edges Higher - Hokanews",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "1ce8337c24b30887": {
   "ticker": "MACRO",
@@ -45024,6 +45044,11 @@
   "title": "Scotiabank upgrades ‘bargain’ AST SpaceMobile after 70% pullback - TipRanks",
   "ts": "2026-10-23T18:12:08.079744+00:00"
  },
+ "2aeb6b0558174d23": {
+  "ticker": "MACRO",
+  "title": "Inflation heats up again, data shows, days before midterm elections where cost of living dominates - Syracuse.com",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "2aec7f083f603ab2": {
   "ticker": "MACRO",
   "title": "India bonds may open steady after relief rally from near 7.50% levels - Business Recorder",
@@ -57504,6 +57529,11 @@
   "title": "Netflix defends growth strategy amid advertising downgrade - Broadband TV News",
   "ts": "2026-10-21T09:50:43.326874+00:00"
  },
+ "371a4730e3bd3657": {
+  "ticker": "NFLX",
+  "title": "Meghan Markle’s Camp Thinks Netflix ‘Got What It Wanted’ From Casting Buzz — Source - AOL.com",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "371a4a9a0b759a69": {
   "ticker": "GOOGL",
   "title": "Alphabet Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Ben",
@@ -68414,6 +68444,11 @@
   "title": "Scarlett Johansson’s New Netflix Sci-Fi Movie Officially Breaks 5 Year Record - IMDb",
   "ts": "2026-10-15T02:57:40.089492+00:00"
  },
+ "4179318d68c2cbb1": {
+  "ticker": "MU",
+  "title": "Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet - TradingView",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "4179409eaa4e9d4f": {
   "ticker": "MACRO",
   "title": "Silver's Slide Isn't a Buy Signal: Charts, Rates and Portfolio Math All Say Wait - ad-hoc-news.de",
@@ -73088,6 +73123,11 @@
   "ticker": "NFLX",
   "title": "Netflix reports USD 12.87 billion revenue. Netflix stock costs EUR 58.79 in weekend trading. - ad-hoc-news.de",
   "ts": "2026-10-24T09:03:47.534044+00:00"
+ },
+ "460f71609a01e3d9": {
+  "ticker": "MACRO",
+  "title": "US economy posts strong growth, inflation stubbornly high in challenge to Trump - AFP.com",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "461142a35fbf0921": {
   "ticker": "NVDA",
@@ -84284,6 +84324,11 @@
   "title": "US PCE Inflation Expected to Accelerate - TradingView",
   "ts": "2026-10-29T09:29:37.718326+00:00"
  },
+ "50db029d0353dffd": {
+  "ticker": "GOOGL",
+  "title": "Alphabet earnings miss signals AI may be encroaching on its search business - 디지털투데이",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "50e1ca7e97a2b9e9": {
   "ticker": "TSLA",
   "title": "SpaceX and Tesla’s Terafab targets 2028 for volume chip production, Musk says - WHBL News",
@@ -94264,6 +94309,11 @@
   "title": "Silver's Physical Signals Diverge as Charts Point Lower and the Fed Looms - ad-hoc-news.de",
   "ts": "2026-10-24T04:47:02.683583+00:00"
  },
+ "5a9b755920fd7d2d": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile, Inc. Class A News — BSESOF:3ZU0 - TradingView",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "5a9c1abb408ee162": {
   "ticker": "HCLTECH",
   "title": "The future of semiconductors will require engineers to think beyond the chip. Watch Ramanuja Vedantam, Head of Delivery,",
@@ -98558,6 +98608,11 @@
   "ticker": "NFLX",
   "title": "Estrenos en streaming del 12 al 18 de octubre de 2026: 14 series y películas en Netflix, Disney+, HBO Max, Prime Video y",
   "ts": "2026-10-15T13:24:39.820229+00:00"
+ },
+ "5e89584aa52ad52b": {
+  "ticker": "GOOGL",
+  "title": "Potentially historic drop for Alphabet's stock drags U.S. market lower - The Tribune-Democrat",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "5e89e0fe154548cd": {
   "ticker": "MACRO",
@@ -110539,6 +110594,11 @@
   "title": "SpaceX (NASDAQ:SPCX) Stock Falls 2.3% - What's Next? - MarketBeat",
   "ts": "2026-10-15T21:28:33.753026+00:00"
  },
+ "69edc9f5ed8a67fc": {
+  "ticker": "GOOGL",
+  "title": "Dow Retreats as PCE Inflation Hits 3.6%, Alphabet Slump Offsets Microsoft Strength - BigGo Finance",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "69ee4f64010aeb1f": {
   "ticker": "MACRO",
   "title": "NZ dollar nears pandemic low as CPI, election loom - Briefs Finance",
@@ -114118,6 +114178,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet Q3 Cloud Revenue at $30.7 Billion vs FactSet Analyst Consensus of $28.8 Billion - marketscreener.com",
   "ts": "2026-10-28T20:14:24.266829+00:00"
+ },
+ "6d6edb1287d4ba99": {
+  "ticker": "MACRO",
+  "title": "Gold Retreats Below $4,050 as Federal Reserve Policy Uncertainty Keeps US Inflation Data in Focus - Yahoo Finance UK",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "6d7141328a732018": {
   "ticker": "NFLX",
@@ -121879,6 +121944,11 @@
   "title": "Apple stock staged a rally to $5T \"that no one liked\": Melius - Investing.com Nigeria",
   "ts": "2026-10-19T13:39:07.601871+00:00"
  },
+ "7547d4a45de5acbd": {
+  "ticker": "MACRO",
+  "title": "Euro slides to 17-month low as ECB stands pat, PCE boosts US Dollar | FXStreet - شبكة تواصل الإخبارية",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "754b0933717c6857": {
   "ticker": "TSLA",
   "title": "Tesla's Roadster Reveal Hints at 2 Much Bigger Moves - MarketBeat",
@@ -129589,6 +129659,11 @@
   "title": "Yelp (YELP) Stock Is Up, What You Need To Know - Yahoo Finance",
   "ts": "2026-10-20T21:33:19.425542+00:00"
  },
+ "7cb1a4ad89c34ec6": {
+  "ticker": "NVDA",
+  "title": "A Chinese businesswoman who had a close relationship with Nvidia’s CEO, Jensen Huang, was found to be passing intelligen",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "7cb328c7bb8a51cb": {
   "ticker": "MACRO",
   "title": "UK Dealers See More Treasury Bills Coming to Cut Debt Costs - Bloomberg.com",
@@ -129928,6 +130003,11 @@
   "ticker": "MACRO",
   "title": "Bond market is a buy right now, JP Morgan Asset Management’s fixed income head says - Y100 WNCY",
   "ts": "2026-10-27T06:37:11.645223+00:00"
+ },
+ "7d08e185fe631671": {
+  "ticker": "MACRO",
+  "title": "Fed holds, Warsh hedges, and traders dial back the tightening - TradingView",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "7d08f7a84923a2c1": {
   "ticker": "NVDA",
@@ -135509,6 +135589,11 @@
   "title": "World shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint - The Batesville Daily Guard",
   "ts": "2026-10-29T11:34:30.323020+00:00"
  },
+ "827fac42a7465a4b": {
+  "ticker": "MACRO",
+  "title": "The Fed Is Cutting Back on Rate Votes for the First Time Since 1981 - 24/7 Wall St.",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "82820d946c5d6487": {
   "ticker": "MACRO",
   "title": "Apart from central banks, US PCE and US and EU GDP fill out a packed week of data - FXStreet",
@@ -135683,6 +135768,11 @@
   "ticker": "MACRO",
   "title": "美联储主席沃什：美联储已经实施了“新型货币疗法”。从通胀互换合约衡量的通胀补偿指标来看，走势正朝着有利方向发展。",
   "ts": "2026-10-28T18:46:31.663966+00:00"
+ },
+ "82a556ad52bdf817": {
+  "ticker": "ASTS",
+  "title": "ASTS UPCOMING DEADLINE: SueWallSt Alerts AST SpaceMobile, Inc. Stockholders of Securities Class Action - PR Newswire",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "82a5e08b44c4371e": {
   "ticker": "MACRO",
@@ -157249,6 +157339,11 @@
   "title": "CAC 40 Falls to 7,811.26 as Hermès Slumps and France's 10-Year Yield Climbs Above 5% - BBN Times",
   "ts": "2026-10-23T00:08:18.924071+00:00"
  },
+ "975a3cdcd4e11c87": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Inc Class A Stock (GOOGL) Opened Down by 12.82% on Oct 29: A Full Analysis - TradingKey",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "975f604b26aa39c7": {
   "ticker": "SPCX",
   "title": "Sneako claims Elon Musk is laying the groundwork for a “new world order” after Trump praises his pledge to give a SpaceX",
@@ -160279,6 +160374,11 @@
   "title": "'Letters To Our Sons' Advances The Conversation Started By Netflix Original ‘Adolescence’ - ELLE India",
   "ts": "2026-10-26T19:21:16.336131+00:00"
  },
+ "9a240a915631cd04": {
+  "ticker": "MACRO",
+  "title": "Wall Street breaks winning streak as Alphabet shares slump, inflation concerns reignite - TradingView",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "9a2490aa00b2a0ad": {
   "ticker": "MACRO",
   "title": "Stock Market Today: Sensex gains 120 points, Nifty near 23,150; PSU banks shine - Zee Business",
@@ -161758,6 +161858,11 @@
   "ticker": "TSLA",
   "title": "South Korea's September Auto Exports Fall 5.5% to approximately $6.1 Billion; Tesla Model Y Tops Domestic Sales - BigGo ",
   "ts": "2026-10-19T03:32:50.129360+00:00"
+ },
+ "9b85b47d34aabe31": {
+  "ticker": "MACRO",
+  "title": "Silver at 2025 Lows - TradingView",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "9b86d5de59fa0e74": {
   "ticker": "MACRO",
@@ -190563,6 +190668,11 @@
   "title": "Netflix faces questions on user engagement ahead of third-quarter report - Central Oregon Daily",
   "ts": "2026-10-19T11:13:07.482150+00:00"
  },
+ "b7858714f8901d38": {
+  "ticker": "NFLX",
+  "title": "‘The Diplomat’ Renewed for Season 5 at Netflix - IMDb",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "b785b2b041bf67a2": {
   "ticker": "MACRO",
   "title": "Opinion: In six decades of public life, I never thought I would write this piece - The Salt Lake Tribune",
@@ -198667,6 +198777,11 @@
   "ticker": "GOOGL",
   "title": "Dow Futures Slip as Alphabet Drag, Consumer Staples Weakness Weigh - FX Leaders",
   "ts": "2026-10-22T07:55:44.254498+00:00"
+ },
+ "bf1e028321360998": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO Huang caught up in reported Chinese spy probe as AI stocks slide - Yahoo Finance",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "bf1e3873d000cc22": {
   "ticker": "SPCX",
@@ -211658,6 +211773,11 @@
   "title": "US wholesale inflation hits four-year high of 6.3% in September as gas prices surge - Livemint",
   "ts": "2026-10-15T16:15:59.099522+00:00"
  },
+ "cb6e9aacf7350d41": {
+  "ticker": "NFLX",
+  "title": "Before starring in Netflix’s Baby Reindeer, Shoreditch Town Hall hid illegal Kray twins card games in its toilets and Ja",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "cb6f5812472b10fe": {
   "ticker": "MACRO",
   "title": "Oil Reversal Lifts Markets as Stocks and Treasury Yields Respond - Global Banking & Finance Review",
@@ -216517,6 +216637,11 @@
   "ticker": "MACRO",
   "title": "First Light News: AI Trade Boosted on Anthropic IPO Filing as Brazil Slumps - FXEmpire",
   "ts": "2026-10-27T09:07:17.366451+00:00"
+ },
+ "d01f70b098147eaa": {
+  "ticker": "PLTR",
+  "title": "Baird reiterates Palantir stock rating ahead of Q3 results By Investing.com - Investing.com Australia",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "d02065fd0fde9ff8": {
   "ticker": "LITE",
@@ -232918,6 +233043,11 @@
   "title": "AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses - TIKR.com",
   "ts": "2026-10-26T14:24:22.821612+00:00"
  },
+ "dfe3b5ef9b3cf4d6": {
+  "ticker": "ASTS",
+  "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against AST SpaceMobile, Inc. and Certain Officers - ASTS - PR",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "dfe5efe0763d96e2": {
   "ticker": "TSLA",
   "title": "S&P 500 Forecast: SPX Falls 1.10% on Meta, Tesla [2026] - https://tech-insider.org/",
@@ -235958,6 +236088,11 @@
   "title": "Jon Gosselin Filming Netflix Tell-All Documentary About ‘Jon & Kate Plus 8’ With Kids Collin and Hannah - IMDb",
   "ts": "2026-10-21T17:53:07.297469+00:00"
  },
+ "e2ea82a0037bbd15": {
+  "ticker": "PLTR",
+  "title": "JPMorgan starts Palantir at Overweight, calls it a disruptive AI leader - Yahoo Finance",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "e2eae3c1c01db8f1": {
   "ticker": "SPCX",
   "title": "Elon Musk wants to share his SpaceX fortune with America’s children through a $10 billion plan - https://latination.com/",
@@ -237147,6 +237282,11 @@
   "ticker": "NFLX",
   "title": "Dhindora season 1 is now streaming on Netflix: Bhuvan Bam's comedy series, cast, plot and everything to know - Business ",
   "ts": "2026-10-28T10:25:54.540216+00:00"
+ },
+ "e4397e91190cf1e9": {
+  "ticker": "GOOGL",
+  "title": "Cantor Fitzgerald cuts Alphabet stock price target on weak earnings - Investing.com",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "e43ac6ebf2678367": {
   "ticker": "MACRO",
@@ -242827,6 +242967,11 @@
   "ticker": "TSLA",
   "title": "Tesla's new Roadster car can thrust itself in the air. But don't expect to drive it anytime soon - Yahoo! Finance Canada",
   "ts": "2026-10-16T14:09:32.887151+00:00"
+ },
+ "e9dbe166fc04d185": {
+  "ticker": "TSLA",
+  "title": "Elon Musk says the flying Tesla Roadster could refill its thrusters without special propellant, but the trillionaire fai",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "e9dc5cbbc1f4aca6": {
   "ticker": "NVDA",
@@ -252663,6 +252808,11 @@
   "title": "Micron's Road to 2027: A Union Rejection, a Materials Bet, and a NAND Timeline - AD HOC NEWS",
   "ts": "2026-10-23T12:36:59.946919+00:00"
  },
+ "f389f472ffe66f97": {
+  "ticker": "LITE",
+  "title": "Marvell Sinks 13%, Lumentum Jumps 6% on Reported Acquisition Talks; Coherent Holds Flat, Applied Optoelectronics Drops 3",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "f38a0b4d951bc911": {
   "ticker": "NFLX",
   "title": "Netflix's 'The Lincoln Lawyer' Gets Official Season 5 Release Window - MovieWeb",
@@ -256177,6 +256327,11 @@
   "ticker": "SNDK",
   "title": "Chip Stocks Find Support Before Key Reports From Intel, Sandisk - Investor's Business Daily",
   "ts": "2026-10-26T18:38:53.870927+00:00"
+ },
+ "f6d4d670d4ee8cb4": {
+  "ticker": "TSLA",
+  "title": "Tesla Wins South Korea FSD Refund Case - GuruFocus",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "f6d6227788ecdbd1": {
   "ticker": "NVDA",
@@ -263063,6 +263218,11 @@
   "title": "SpaceX Stock Gets a Shock as Elon Musk Reveals $4.4B Profit - Watcher Guru",
   "ts": "2026-10-21T08:56:37.036295+00:00"
  },
+ "fd8e417be75a7dc3": {
+  "ticker": "LITE",
+  "title": "Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks - TIKR.com",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
+ },
  "fd9053c3bb0ef474": {
   "ticker": "NVDA",
   "title": "Nvidia Expands Nemotron Family With New Open Multimodal and Edge AI Models - OODA Loop",
@@ -263842,6 +264002,11 @@
   "ticker": "TSLA",
   "title": "SpaceX-Tesla \"Merger Rumors\" Put \"RISE U.S. Space & Robot TOP 2 U.S. Treasury Balanced 50 ETF\" in Focus - 아시아경제",
   "ts": "2026-10-28T01:07:14.773661+00:00"
+ },
+ "fe741b67a81c77a7": {
+  "ticker": "MACRO",
+  "title": "September PCE rises to 3.6% as Fed holds rates steady - Yahoo Finance",
+  "ts": "2026-10-29T14:13:05.350807+00:00"
  },
  "fe75890a33cb05e6": {
   "ticker": "MACRO",
