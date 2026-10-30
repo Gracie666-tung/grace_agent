@@ -1389,6 +1389,11 @@
   "title": "日本40年期国债收益率下跌3.5个基点，至4.015%。",
   "ts": "2026-10-22T04:18:33.996030+00:00"
  },
+ "011e63bbc978d1a2": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab remains a buy despite a nearly one-y... - Pluang",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "0120368f433d54f3": {
   "ticker": "NFLX",
   "title": "Can Netflix turn a ₹149 plan into a ₹300-600 crore ad business in India? - Storyboard18",
@@ -23484,6 +23489,11 @@
   "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials | NVIDIA Technical Blog - NVIDIA Developer",
   "ts": "2026-10-29T17:05:21.830938+00:00"
  },
+ "1465daf3b0f80054": {
+  "ticker": "PLTR",
+  "title": "Columbus-based Aplos Data earns Palantir’s top partner designation - Ohio Tech News",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "146661a35c9011a4": {
   "ticker": "MACRO",
   "title": "5 things to watch from the Federal Reserve's next meeting - Huron Daily Tribune",
@@ -37214,6 +37224,11 @@
   "title": "Gold rebounds on weaker dollar, yield drop - The Straits Times",
   "ts": "2026-10-15T19:01:11.951864+00:00"
  },
+ "205f110b42827b00": {
+  "ticker": "AMD",
+  "title": "AMD stock falls after Intel Q3 earnings flag PC slump, supply limits - Quartz",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "20602339125d74bd": {
   "ticker": "SMCI",
   "title": "Super Micro Computer (SMCI) Q1 2027 Preliminary (USD): Net Sales 18.5bln-19.5bln (FactSet est. 14.99bln), Adj. Gross Mar",
@@ -48263,6 +48278,11 @@
   "ticker": "MACRO",
   "title": "Jennifer Lawrence confessed that she secretly argues with strangers on TikTok from an anonymous account - Українські Нац",
   "ts": "2026-10-29T05:18:05.908692+00:00"
+ },
+ "2a4c389d9f21a207": {
+  "ticker": "GOOGL",
+  "title": "Could Alphabet Actually Climb 67%? Or Is Pivotal Research Totally Wrong? - TIKR.com",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "2a4d2d1f5e2618f9": {
   "ticker": "MACRO",
@@ -70674,6 +70694,11 @@
   "title": "Oil Prices Mixed as Middle East Tensions Rattle Markets - Business Post Nigeria",
   "ts": "2026-10-20T04:39:42.565433+00:00"
  },
+ "3e56ebd30aedab96": {
+  "ticker": "NFLX",
+  "title": "Meet the Cast of Netflix’s ‘A Couple of Lies’ - Comic Basics",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "3e5785a02550a89a": {
   "ticker": "MACRO",
   "title": "【美联储维持利率不变，但两名官员主张再次加息】金十数据10月29日讯，美联储此次会议决定维持利率不变，此前该央行上月刚刚加息。此举为美联储争取了更多时间，以判断是否有必要进一步加息，防止能源成本上涨和人工智能建设热潮蔓延至更广泛的通胀领域。",
@@ -80429,6 +80454,11 @@
   "title": "Why Is Nvidia Stock Down Today? AI Spending Fears And China Probe Headlines - Coinpedia",
   "ts": "2026-10-30T13:24:14.442999+00:00"
  },
+ "471bcb85b32991f3": {
+  "ticker": "MACRO",
+  "title": "美联储巴尔金：人工智能投资正导致需求侧通胀，而这类情况正是美联储可以加以抑制的。",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "471c5bf14f22d029": {
   "ticker": "MU",
   "title": "Micron says it has reached agreement with Taiwan union - Reuters",
@@ -86653,6 +86683,11 @@
   "ticker": "SMCI",
   "title": "Supermicro launches 256-CPU liquid-cooled rack for agentic AI - StreetInsider",
   "ts": "2026-10-22T10:02:07.737386+00:00"
+ },
+ "4cb4d3f9a9b5fe92": {
+  "ticker": "MACRO",
+  "title": "美联储巴尔金：在通胀多年高企的背景下，企业更容易辩称自己需要涨价。",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "4cb61675f969f30e": {
   "ticker": "MACRO",
@@ -157424,6 +157459,11 @@
   "title": "Gold Price Forecast: XAU/USD Rejected at $4,074 Ahead of PCE After Hawkish Fed Hold - FXLeaders",
   "ts": "2026-10-29T06:19:00.182493+00:00"
  },
+ "8b36c035faf1e6e9": {
+  "ticker": "MACRO",
+  "title": "Strong GDP, Rising Inflation Test Fed's Warsh - Newsmax",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "8b36ced864c38618": {
   "ticker": "MACRO",
   "title": "Gold: Two-way risks near recent lows – OCBC - www.tmgm.com",
@@ -188278,6 +188318,11 @@
   "title": "Tesla Schedules Roadster Reveal After Years of Delays - SuaraGarut.ID",
   "ts": "2026-10-15T19:07:24.485504+00:00"
  },
+ "a65177e8f9302ece": {
+  "ticker": "NVDA",
+  "title": "Beijing Calls Nvidia Spy Report 'Groundless' as Chip Export Scrutiny Intensifies - BigGo Finance",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "a6517ef025d8d9c6": {
   "ticker": "MACRO",
   "title": "These 5 Dividend Stocks Raised Their Payouts. Are They Worth Buying in November? - 24/7 Wall St.",
@@ -203028,6 +203073,11 @@
   "title": "United States Dollar Index nears 102.00 as traders brace for central bank decisions - www.tmgm.com",
   "ts": "2026-10-26T15:21:04.560897+00:00"
  },
+ "b3d03baee41b9eab": {
+  "ticker": "MACRO",
+  "title": "Signs of a Tech Slowdown Are the Last Thing This Market Needs - Bloomberg",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "b3d0975450f0b78b": {
   "ticker": "MACRO",
   "title": "ASX 200 Claws Back Early Losses as Energy Stocks Rally on US$115 Oil and Rate Hike Fears Weigh on Banks - International ",
@@ -210157,6 +210207,11 @@
   "ticker": "SPCX",
   "title": "Evening digest: oil jumps to $117, SpaceX to enter wireless services - Invezz",
   "ts": "2026-10-24T01:55:50.213477+00:00"
+ },
+ "b9ff7b0e3af5c595": {
+  "ticker": "AMD",
+  "title": "金十数据10月30日讯，费城半导体指数跌5.7%，AMD(AMD.O)跌10%，Arm(ARM.O)跌9.5%，迈威尔科技(MRVL.O)跌5%，高通(QCOM.O)跌6.3%，英伟达(NVDA.O)跌3.3%，总市值跌破5万亿美元。",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "ba01aa9944b50b37": {
   "ticker": "NFLX",
@@ -218452,6 +218507,11 @@
   "ticker": "MACRO",
   "title": "US stocks remain steady after the Federal Reserve says it won't raise interest rates - WRAL",
   "ts": "2026-10-28T19:00:17.338116+00:00"
+ },
+ "c128ac300cbea3cf": {
+  "ticker": "GOOGL",
+  "title": "Google loses nearly half a trillion in market value: What went wrong with Alphabet? - The Economic Times",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "c12a9e8073cc48fb": {
   "ticker": "NVDA",
@@ -232683,6 +232743,11 @@
   "title": "Modder ports full Nvidia DLSS 5 suite to three generations of AMD Radeon GPUs - news.lavx.hu",
   "ts": "2026-10-19T01:33:42.804539+00:00"
  },
+ "cda5e8d5950f10e1": {
+  "ticker": "MACRO",
+  "title": "【机构：加拿大央行或无视GDP疲软，12月仍可能加息】金十数据10月30日讯，尽管GDP数据表现不佳，德斯雅丹集团仍预计加拿大央行将在12月再次加息。加拿大统计局最新数据显示，8月按行业划分的GDP环比停滞不前，未能如市场预期增长0.2%；",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "cda5eca8884e82d6": {
   "ticker": "MACRO",
   "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - AOL.com",
@@ -237832,6 +237897,11 @@
   "ticker": "TSLA",
   "title": "Stocks Fall Pre-Bell as Traders Digest Meta, Tesla Earnings - Yahoo! Finance Canada",
   "ts": "2026-10-22T12:08:13.172883+00:00"
+ },
+ "d22adb83ac4c6f43": {
+  "ticker": "NFLX",
+  "title": "15 Shows Like Netflix’s ‘A Couple of Lies’ You Will Absolutely Love - Comic Basics",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "d22d07adb1d281b9": {
   "ticker": "SPCX",
@@ -244317,6 +244387,11 @@
   "ticker": "MACRO",
   "title": "美联储只喊不动，市场开始失去耐心，债市迎来新买家！白银期货名义持仓价值回到2024年中附近水平，交易员重估当前仓位结构。究竟是谁在持续卖出？点击查看三分钟电报…",
   "ts": "2026-10-30T04:02:26.087460+00:00"
+ },
+ "d7f326bb717d5869": {
+  "ticker": "NFLX",
+  "title": "Netflix is making a live-action ‘PUBG’ series, and Donald Glover is doing basically everything - Yahoo",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "d7f5a1f03cea1a78": {
   "ticker": "MACRO",
@@ -257193,6 +257268,11 @@
   "title": "[News] SK hynix Eyes EUV-Driven 6F² Scaling, Keeps 4F² and 3D DRAM in Play as Micron Holds Back - TrendForce",
   "ts": "2026-10-28T09:32:10.706287+00:00"
  },
+ "e37e0a3d1d2fb4d9": {
+  "ticker": "MACRO",
+  "title": "Gold price crash accelerates as crude oil rises and odds of Fed rate hike jumps - Invezz",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "e37fa7c8548313e2": {
   "ticker": "NFLX",
   "title": "Netflix’s New Dinosaur Movie Released This Week Quickly Becomes a Streaming Hit - AOL.com",
@@ -269643,6 +269723,11 @@
   "title": "US economy posts strong growth, inflation stubbornly high in challenge to Trump - CNA",
   "ts": "2026-10-29T22:59:31.218656+00:00"
  },
+ "ef05926489590f97": {
+  "ticker": "SPCX",
+  "title": "SPCX Slips As SpaceX Faces Rising Competitive And Policy Heat - Timothy Sykes",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "ef08eb7bb57c95bb": {
   "ticker": "TSLA",
   "title": "SpaceX, Tesla Form Special Committees to Explore Potential Merger - Yahoo Finance",
@@ -274923,6 +275008,11 @@
   "title": "Samsung & SK hynix Reportedly Set To Ramp 8-Layer HBM4 Shipments For NVIDIA’s Rubin Ultra In Q2 2027, As Heat And Yield ",
   "ts": "2026-10-26T11:38:41.246930+00:00"
  },
+ "f3bcec5a215bb1d2": {
+  "ticker": "MACRO",
+  "title": "美联储巴尔金：鉴于收入相对持平，消费者支出的韧性令人意外。",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
+ },
  "f3bdb07b6c2a3ad7": {
   "ticker": "NFLX",
   "title": "Is Netflix losing the plot? | World News - Hindustan Times",
@@ -274952,6 +275042,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA’s latest 120-billion-parameter model completes agent tasks 5x faster than rivals - Interesting Engineering",
   "ts": "2026-10-15T18:00:07.333123+00:00"
+ },
+ "f3c2021d46a2584f": {
+  "ticker": "NFLX",
+  "title": "Netflix’s Beat Luke Littler in Manchester tonight: First look and how live darts event will work - Manchester Evening Ne",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "f3c23e6e3bfdbdff": {
   "ticker": "MACRO",
@@ -279672,6 +279767,11 @@
   "ticker": "HCLTECH",
   "title": "HCLTech launches NVIDIA-powered verification for auto software - scanx.trade",
   "ts": "2026-10-21T10:20:47.742594+00:00"
+ },
+ "f7cf81e9bbcab421": {
+  "ticker": "SNDK",
+  "title": "闪迪(SNDK.O)第一财季业绩公布后下跌7%。",
+  "ts": "2026-10-30T13:42:41.425217+00:00"
  },
  "f7cfa857d617bd2d": {
   "ticker": "NVDA",
