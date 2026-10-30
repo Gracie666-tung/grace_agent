@@ -13014,6 +13014,11 @@
   "title": "Why is Tesla stock climbing today? - Investing.com",
   "ts": "2026-10-26T11:06:01.615667+00:00"
  },
+ "0ac8d6a908fb5bfe": {
+  "ticker": "MU",
+  "title": "Micron Stock Price Forecast: Nvidia's Planned Rubin Ultra HBM Layer Cut and Declining Per-Unit Memory Usage May Drag on ",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
+ },
  "0ac94157dd67ae44": {
   "ticker": "NVDA",
   "title": "Supermicro Introduces the NVIDIA Vera CPU Rack, a 256 CPU, 100% Liquid-Cooled Rack-Scale Solution, Complementing the NVI",
@@ -20218,6 +20223,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet Disappoints Wall Street Despite Record Results. Shares Plunge Over 8% and Test $300 ✂️ - XTB.com",
   "ts": "2026-10-28T23:41:55.736808+00:00"
+ },
+ "11020c7086bb6860": {
+  "ticker": "MACRO",
+  "title": "Anthropic IPO Nears as Investors Sell AI Stocks to Buy More AI? - bloomingbit",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "1103c83c503ecede": {
   "ticker": "ANET",
@@ -41514,6 +41524,11 @@
   "title": "布伦特原油期货结算价为每桶108.82美元，上涨3美分，涨幅0.03%。",
   "ts": "2026-10-21T18:49:21.004196+00:00"
  },
+ "237167493cd4f111": {
+  "ticker": "LITE",
+  "title": "Lumentum Holdings Inc (LITE) Stock Down 8.6% but Still Overvalued -- GF Score: 70/100 - GuruFocus",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
+ },
  "23718ea4869b8bfe": {
   "ticker": "TSLA",
   "title": "Tesla: Too Big To Fail, Too Expensive To Justify - Reiterate Sell (NASDAQ:TSLA) - Seeking Alpha",
@@ -59058,6 +59073,11 @@
   "ticker": "NVDA",
   "title": "Embedl takes any Hugging Face model to NVIDIA Jetson in a single step - EIN News",
   "ts": "2026-10-21T11:33:12.982466+00:00"
+ },
+ "32c6e3afc3638a0d": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Reportedly Moves Up RTX 5080 24 GB Launch - TechPowerUp",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "32c6f45761f5a2d3": {
   "ticker": "MU",
@@ -89989,6 +90009,11 @@
   "title": "Federal Reserve poised to keep interest rates unchanged as inflation persists - www.tmgm.com",
   "ts": "2026-10-28T17:14:53.404743+00:00"
  },
+ "4d6cc2ddcec5a652": {
+  "ticker": "APP",
+  "title": "Is AppLovin Corp (APP) a Bargain After 10.4% Drop? GF Value Says Undervalued - GuruFocus",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
+ },
  "4d6d8b1dcd33ba38": {
   "ticker": "NFLX",
   "title": "Lupin Part 4 on Netflix: Omar Sy confronts a mysterious impersonator - Sortir à Paris",
@@ -93473,6 +93498,11 @@
   "ticker": "MACRO",
   "title": "【日本央行时隔13年首次宣布通胀整体达标，暗示将进一步加息】金十数据10月30日讯，日本央行周五维持利率不变，但上调了通胀预期，并再次强调，已做好继续提高借贷成本的准备，以防范不断加剧的通胀风险。在周五结束的为期两天的货币政策会议上，日本央",
   "ts": "2026-10-30T03:32:21.512220+00:00"
+ },
+ "50581ce646c7c023": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rise More Than 2 Percent to Highest Levels Since Last April - Qatar news agency",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "50590fb9562beeec": {
   "ticker": "IONQ",
@@ -100503,6 +100533,11 @@
   "ticker": "NFLX",
   "title": "Forget Cyberpunk: Edgerunners, Attack on Titan Studio’s 13-Part Sci-Fi Anime Is Now on Netflix - IMDb",
   "ts": "2026-10-19T17:56:03.927964+00:00"
+ },
+ "56888fa843ef79fa": {
+  "ticker": "HOOD",
+  "title": "Robinhood Markets Inc (HOOD) Shares Fall 7.2% -- What GF Score o - GuruFocus",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "568d2a2f9aeec4b4": {
   "ticker": "NFLX",
@@ -126213,6 +126248,11 @@
   "ticker": "NET",
   "title": "Cloudflare’s Volker Rath: As AI Weakens Traditional Defenses, Security Teams Must Stop Acting Like Police - Techsauce",
   "ts": "2026-10-19T00:21:19.405261+00:00"
+ },
+ "6c6601328c06eeb2": {
+  "ticker": "NFLX",
+  "title": "Netflix Canada signs exclusive creative deal with “Transplant” creator Joseph Kay - Señal News - Senal News",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "6c678a09d4173a17": {
   "ticker": "GOOGL",
@@ -152438,6 +152478,11 @@
   "ticker": "TSM",
   "title": "Prediction: TSMC Stock Is Going to $1,200 by 2030 - Yahoo Finance",
   "ts": "2026-10-21T16:02:58.973142+00:00"
+ },
+ "83530b67180c0ce3": {
+  "ticker": "TSLA",
+  "title": "Tesla Workers Testify to Persistent Racial Slurs as Trial Closes - Bloomberg Law News",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "8355f7709a8abd15": {
   "ticker": "NVDA",
@@ -183183,6 +183228,11 @@
   "ticker": "NVDA",
   "title": "AI is coming for every company: Nvidia boss - New Age BD",
   "ts": "2026-10-16T18:45:15.856531+00:00"
+ },
+ "9de591a06686a8d1": {
+  "ticker": "NFLX",
+  "title": "Fallon Sherrock beats Luke Littler to win £501,000 in Netflix show - AOL.com",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "9de7260a2f6e8812": {
   "ticker": "TSM",
@@ -257272,6 +257322,11 @@
   "ticker": "AAPL",
   "title": "Form 4 Apple Inc For: 29 October By Investing.com - Investing.com India",
   "ts": "2026-10-29T04:34:48.728181+00:00"
+ },
+ "dda2dc792a95ed55": {
+  "ticker": "NFLX",
+  "title": "2006 Christmas Comedy Starring Danny DeVito and Matthew Broderick Returns to Netflix Nov. 4 - Parade Magazine",
+  "ts": "2026-10-30T22:13:40.343959+00:00"
  },
  "dda43585d0db9a8d": {
   "ticker": "NVDA",
