@@ -794,6 +794,11 @@
   "title": "Fund Update: 817,780 ALPHABET (GOOG) shares added to Cardano Risk Management B.V. portfolio - Quiver Quantitative",
   "ts": "2026-10-20T13:39:16.981179+00:00"
  },
+ "00a935f33c725606": {
+  "ticker": "SNDK",
+  "title": "SanDisk stock falls despite 378% revenue surge: What's going wrong? - Invezz",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "00a9fc970130a716": {
   "ticker": "GOOGL",
   "title": "谷歌(GOOG.O)业务主管：第三季度AI广告更新提升了满意度、点击量和转化率。",
@@ -1048,6 +1053,11 @@
   "ticker": "TSLA",
   "title": "SpaceX merger with Tesla needs Elon Musk's appr... - Pluang",
   "ts": "2026-10-22T23:01:24.096437+00:00"
+ },
+ "00daf8d73742506e": {
+  "ticker": "LITE",
+  "title": "Lumentum stock slips as Marvell talks remain unconfirmed - ad-hoc-news.de",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "00db17a4fec34dc1": {
   "ticker": "MACRO",
@@ -4309,6 +4319,11 @@
   "title": "SpaceX investors, ahead of results, press Musk on Tesla merger - WTVB",
   "ts": "2026-10-20T23:35:22.804333+00:00"
  },
+ "038c0d16979bbc76": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO Jensen Huang Says Ties to Company in Spy Probe Were ‘Normal’ - Deccan Chronicle",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "038e8865a169515e": {
   "ticker": "NVDA",
   "title": "Nvidia's $180 Billion CEO Jensen Huang Fears Being 'Poor' But Calls an $8 Billion Tax a 'Privilege' - www.techtimes.co.u",
@@ -5623,6 +5638,11 @@
   "ticker": "MACRO",
   "title": "Stock Market LIVE: GIFT Nifty tanks 150 points as oil tops $115; Jio Platforms listing in focus - Business Standard",
   "ts": "2026-10-28T04:11:08.333394+00:00"
+ },
+ "04b6548baf23fc03": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab: Is It Finally Time to Buy Below $60? - AOL.com",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "04b7e2fa609b0f50": {
   "ticker": "MACRO",
@@ -8103,6 +8123,11 @@
   "ticker": "MACRO",
   "title": "Brent crude settles at $109.55 a barrel on Monday - Nation Thailand",
   "ts": "2026-10-20T00:26:31.234995+00:00"
+ },
+ "06d3981bc27b658f": {
+  "ticker": "MACRO",
+  "title": "South Korean Treasury Yields Fall Across the Board Amid Global Risk-Aversion - news.sbs.co.kr",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "06d4390fa893215e": {
   "ticker": "MACRO",
@@ -23343,6 +23368,11 @@
   "ticker": "TSLA",
   "title": "Barclays Upgrades Tesla(TSLA.US) to Buy Rating, Raises Target Price to $450 - Moomoo",
   "ts": "2026-10-26T11:32:11.604068+00:00"
+ },
+ "147c49d110822d79": {
+  "ticker": "SNDK",
+  "title": "Goldman Sachs lowers SanDisk stock price target on valuation By Investing.com - Investing.com Canada",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "1481a0ca0664f99d": {
   "ticker": "NFLX",
@@ -48163,6 +48193,11 @@
   "ticker": "MACRO",
   "title": "How meeting 6 times a year instead of 8 could arm the Fed with more data - AOL.com",
   "ts": "2026-10-16T18:15:01.215203+00:00"
+ },
+ "2aab4ea5b68b9b94": {
+  "ticker": "NVDA",
+  "title": "Nvidia Shares Drop Amid Chip Selloff: What's Happening? - Benzinga",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "2ab11de3b0632c48": {
   "ticker": "NVDA",
@@ -125374,6 +125409,11 @@
   "title": "美联储主席沃什：资产负债表工作组建议将于明年第一季度初提交至联邦公开市场委员会。",
   "ts": "2026-10-28T19:06:30.989950+00:00"
  },
+ "6fd143ffad0c0eb6": {
+  "ticker": "MACRO",
+  "title": "Ethereum price breaks $2,200 amid Binance hack: is a crash to $2,100 next? - Invezz",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "6fd3313252e1718d": {
   "ticker": "HAG",
   "title": "Hensoldt stock at EUR 83.71 ahead of the Xetra open: defense sensor group - AD HOC NEWS",
@@ -128383,6 +128423,11 @@
   "ticker": "NVDA",
   "title": "Morgan Stanley Launches Auto-Callable Note Linked to Apple (AAPL) and NVIDIA (NVDA) Stocks - Kalkine Media",
   "ts": "2026-10-21T17:28:32.475277+00:00"
+ },
+ "72924870778667a6": {
+  "ticker": "MACRO",
+  "title": "Preliminary GDP report shows strong 3.4% growth for US economy - fox42kptm.com",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "72924d347d6243cc": {
   "ticker": "MACRO",
@@ -144759,6 +144804,11 @@
   "title": "特斯拉(TSLA.O)股价在盘前交易中上涨4%，因公司发布新款跑车。",
   "ts": "2026-10-16T08:10:40.068546+00:00"
  },
+ "816a545287059d1c": {
+  "ticker": "TSM",
+  "title": "[News] Apple Debuts First Touchscreen OLED MacBook Pro; TSMC, Foxconn, Samsung in Supply Chain Spotlight - LEDinside",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "816aacce8d52f2bd": {
   "ticker": "NET",
   "title": "Cloudflare (NET) Faces Surge in PHP Exploit Attempts Amid Securi - GuruFocus",
@@ -152359,6 +152409,11 @@
   "title": "DOJ Probes Whether Nvidia's $12.93 Billion Hugging Face Deal Would Cement AI Chokehold - BigGo Finance",
   "ts": "2026-10-28T21:27:52.918426+00:00"
  },
+ "8835b7133b3888a0": {
+  "ticker": "AMD",
+  "title": "Should You Buy AMD Stock Before the Huge Investor Update? - The Globe and Mail",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "88364c77951226b0": {
   "ticker": "MACRO",
   "title": "Oil prices rise for the fourth consecutive month amid the war with Iran - Українські Національні Новини (УНН)",
@@ -156543,6 +156598,11 @@
   "ticker": "IONQ",
   "title": "IonQ, Inc. (IONQ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
   "ts": "2026-10-26T07:05:04.127175+00:00"
+ },
+ "8bead18272e79d97": {
+  "ticker": "SNDK",
+  "title": "Goldman Sachs lowers SanDisk stock price target on valuation - Investing.com",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "8beaf4e3bc3bd47d": {
   "ticker": "NVDA",
@@ -193318,6 +193378,11 @@
   "title": "Bond traders are backing off Fed rate hike bets — here's what it means for mortgage rates - AOL.com",
   "ts": "2026-10-22T20:16:08.458133+00:00"
  },
+ "acc95d070f59fc51": {
+  "ticker": "MACRO",
+  "title": "New economic data challenges Fed chief’s not-too-hot perspective - WKZO",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "accc7e62c4ce7afa": {
   "ticker": "GOOGL",
   "title": "Why Alphabet stock is up 1.7% on Monday? - Invezz",
@@ -218323,6 +218388,11 @@
   "title": "Euro gets much-needed reprieve as AI wobbles rock the dollar - Dunya News",
   "ts": "2026-10-16T04:26:38.577240+00:00"
  },
+ "c307afc1aaf03113": {
+  "ticker": "MACRO",
+  "title": "US Dollar Index (DX-Y.NYB) Charts, Data & News - Yahoo Finance - Yahoo! Finance Canada",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "c3092b04596c8819": {
   "ticker": "NVDA",
   "title": "Durabook R12 rugged tablet packs optional Nvidia graphics, but no price - Gagadget.com",
@@ -233017,6 +233087,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Reportedly Eyes 80,000 Cell Sites In Push To Become Fourth US Wireless Carrier: T, TMUS, VZ Stocks Slip After-Hou",
   "ts": "2026-10-23T01:51:41.593697+00:00"
+ },
+ "d0032ba85a12e05b": {
+  "ticker": "NFLX",
+  "title": "Meghan Markle & Netflix’s Bond Gets Brutal 3-Word Verdict From Expert - Crave Online",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "d0038429414ed696": {
   "ticker": "TSLA",
@@ -252027,6 +252102,11 @@
   "ticker": "MACRO",
   "title": "US inflation heats up in September; Fed rate hike this month back on table - Business Recorder",
   "ts": "2026-10-14T18:46:22.687972+00:00"
+ },
+ "e118f7f1edc68cc4": {
+  "ticker": "MACRO",
+  "title": "US Hotel Values Face 10% Declines as Borrowing Costs Rise - Asian Hospitality",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "e11c40e5d3bbee5f": {
   "ticker": "NVDA",
@@ -272578,6 +272658,11 @@
   "title": "No mention of orbital data centers on SpaceX call: should investors be concerned? - Invezz",
   "ts": "2026-10-21T21:13:42.153992+00:00"
  },
+ "f42158cd3d003991": {
+  "ticker": "MACRO",
+  "title": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
+ },
  "f421c16924bdbeb1": {
   "ticker": "MACRO",
   "title": "AI selloff pushes Asian money into gold, yen and bonds this week - Startup Fortune",
@@ -276122,6 +276207,11 @@
   "ticker": "APP",
   "title": "AppLovin (APP) - Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026 - The Economic Ti",
   "ts": "2026-10-24T12:55:48.056436+00:00"
+ },
+ "f73bc3236eba6916": {
+  "ticker": "NVDA",
+  "title": "Nvidia’s $1 billion investment fuels Naver’s AI factory pivot as search competition intensifies - Korea JoongAng Daily",
+  "ts": "2026-10-30T10:58:13.530380+00:00"
  },
  "f73bcd7378ad2407": {
   "ticker": "NFLX",
