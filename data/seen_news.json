@@ -11544,6 +11544,11 @@
   "title": "印度10月经济报告：近期通胀走势将受国内食品供应管理、全球能源波动及系统性流动性状况共同影响。",
   "ts": "2026-10-29T09:06:01.160438+00:00"
  },
+ "09498e3a4610de50": {
+  "ticker": "MACRO",
+  "title": "【韩国10月出口额同比增长93.7%，芯片出口激增259%】金十数据11月1日讯，在人工智能热潮持续推动下，韩国出口10月继续保持强劲增长，外贸依赖型经济的出口势头进一步增强。韩国贸易、工业和资源部周日公布的数据显示，经工作日差异调整后，韩",
+  "ts": "2026-11-01T02:02:04.204209+00:00"
+ },
  "094c5fcfaf929e80": {
   "ticker": "MACRO",
   "title": "日本央行行长植田和男：剔除特殊因素后的CPI一直保持较高增长。",
@@ -294122,6 +294127,11 @@
   "ticker": "TSLA",
   "title": "Rivian Acquires Startup Led by Former Tesla Autopilot Simulation Head - Electric Vehicles",
   "ts": "2026-10-23T09:01:37.240264+00:00"
+ },
+ "f7a2255ba9c6ddbb": {
+  "ticker": "MACRO",
+  "title": "When judges move markets: Ideological shifts in the Supreme Court and macroeconomic expectations - CEPR",
+  "ts": "2026-11-01T02:02:04.204209+00:00"
  },
  "f7a37d0cdbc6e2f5": {
   "ticker": "NVDA",
