@@ -151,6 +151,12 @@
    "status": "pushed_unscored",
    "title": "Alternant - Chargé de CRM H/F"
   },
+  "6a6d1dbdab2acc1970765bb6": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Amélioration Continue - Lean Management H/F"
+  },
   "6a6d230cab2acc197076ceae": {
    "first_seen": "2026-10-23T12:31:21.032372+00:00",
    "score": null,
@@ -192,6 +198,12 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternance-INGÉNIEUR INDUSTRIEL TRAITEMENT DES EAUX - ASSISTANT CHEF DE PROJET MARCHÉS À BORDEREAU H/F"
+  },
+  "6a974cfcdb6c731160e43121": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Supply Chain H/F"
   },
   "6a99f43cb7a03ff3606f2870": {
    "first_seen": "2026-10-26T14:04:10.029678+00:00",
@@ -324,6 +336,18 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Technicien Electronique en Alternance H/F"
+  },
+  "6ac02a970d871689a663b203": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Business Analyst H/F"
+  },
+  "6ac02ab50d871689a663b8be": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Assistant Manager d'Unite Marchande H/F"
   },
   "6ac422f51778092e497f923d": {
    "first_seen": "2026-10-29T14:02:07.928129+00:00",
@@ -1488,6 +1512,18 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Formation cariste (H/F)"
+  },
+  "6ae6731b1b7811ea8d93e94e": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti(e) Contrôle de Gestion F/H"
+  },
+  "6ae6748aec4f5594ab419a3c": {
+   "first_seen": "2026-11-01T14:10:55.863586+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "CHARGÉ(E) DE PROJETS DIGITALISATION & AMÉLIORATION CONTINUE (H/F)"
   }
  }
 }
