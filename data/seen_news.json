@@ -4204,6 +4204,11 @@
   "title": "AI Server Stocks Rally as Last Week's Selloff Reverses: Super Micro Jumps 4%, Hewlett Packard Enterprise Climbs 3%, Dell",
   "ts": "2026-10-19T14:58:16.341415+00:00"
  },
+ "03332899460471f9": {
+  "ticker": "GOOGL",
+  "title": "市场消息：Alphabet(GOOG.O)启动七期欧元债券发行。",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "03336d8ac2476d31": {
   "ticker": "MACRO",
   "title": "Tokyo stocks fall on AI losses amid investment concerns, dip-buying trims - 毎日新聞",
@@ -11743,6 +11748,11 @@
   "ticker": "MACRO",
   "title": "Stock Market Midday, Oct. 19: Tech Stocks Rebound as AI Confidence Returns - The Globe and Mail",
   "ts": "2026-10-19T18:33:03.765853+00:00"
+ },
+ "0937c8860c9ec41b": {
+  "ticker": "MACRO",
+  "title": "​Airline earnings under spotlight - 5 key global market themes investors will watch this week - The Economic Times",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "0937fbcdfc028e9e": {
   "ticker": "TSM",
@@ -105699,6 +105709,11 @@
   "title": "Super Micro climbs after upbeat forecast shows robust AI demand - KSL News",
   "ts": "2026-10-21T10:56:58.970030+00:00"
  },
+ "56907f22d1e4f92c": {
+  "ticker": "MACRO",
+  "title": "CAD Holds Steady as Oil Slide Offsets Softer USD Bid - TradingPedia",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "56907ff7508c5523": {
   "ticker": "MACRO",
   "title": "Stock Market Today Sees Cautious Recovery As Sensex Jumps 168 Points And Nifty Nears 22,750, Rising Oil Prices And US Fe",
@@ -107068,6 +107083,11 @@
   "ticker": "MACRO",
   "title": "If Rates Keep Rising, So Will These 5 ETFs. Introducing My Bond Hedge Roster (NASDAQ:TLT) - Seeking Alpha",
   "ts": "2026-10-20T12:01:33.698125+00:00"
+ },
+ "57b10abea3bc475f": {
+  "ticker": "MACRO",
+  "title": "Indonesia January-September coal export volume down 10.58% annually, government data shows - Business Recorder",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "57b2384fd366bf0c": {
   "ticker": "PLTR",
@@ -120593,6 +120613,11 @@
   "ticker": "MACRO",
   "title": "WTI Holds Near $98.60 as Risks Offset Diplomatic News - TradingPedia",
   "ts": "2026-10-21T06:12:30.770147+00:00"
+ },
+ "6277b7c4b713ae34": {
+  "ticker": "APP",
+  "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "6278256ff828fc30": {
   "ticker": "NVDA",
@@ -137989,6 +138014,11 @@
   "title": "3 best Netflix shows to watch this weekend (October 30-November 1) - How-To Geek",
   "ts": "2026-10-29T20:21:28.615305+00:00"
  },
+ "70d3a739d789f8e2": {
+  "ticker": "NFLX",
+  "title": "'Unforgettable' war film with perfect rating on Netflix now - OK! Magazine",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "70d3f67a600d4f9a": {
   "ticker": "MU",
   "title": "Here's What $6,000 Invested in Micron Could Be Worth in 2028 - The Globe and Mail",
@@ -145058,6 +145088,11 @@
   "ticker": "MACRO",
   "title": "Treasury Yields Fall on String of Weak Housing Data - WSJ",
   "ts": "2026-10-20T19:26:05.995342+00:00"
+ },
+ "76b78d4bd0f47ba2": {
+  "ticker": "MACRO",
+  "title": "Sensex Jumps Over 760 pts, Nifty Above 23,250 As Oil Eases, Reliance & Jio Earnings Lift Mood - HDFC Sky",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "76b9174cb0324e56": {
   "ticker": "TSLA",
@@ -153954,6 +153989,11 @@
   "title": "Netflix Revamps Mobile App for Apple's iPhone Duo, Plans Expanded Short-Form Video Features - Media Play News",
   "ts": "2026-10-26T20:58:10.833516+00:00"
  },
+ "7e1f0d3e4645aec1": {
+  "ticker": "MACRO",
+  "title": "Bulgaria's Iotova wins presidential runoff, near-final results show - Business Recorder",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "7e1fb29e94a0e9ec": {
   "ticker": "NFLX",
   "title": "Netflix Layoffs: Unscripted Casting & Development Execs Impacted - Deadline",
@@ -158738,6 +158778,11 @@
   "ticker": "MACRO",
   "title": "Gold, silver prices fall on MCX: Why precious metals are under pressure today - CNBC TV18",
   "ts": "2026-10-29T10:46:37.868756+00:00"
+ },
+ "82159bae2d72a57e": {
+  "ticker": "GOOGL",
+  "title": "Markets Brief: Alphabet Stock’s Worst Day in History, Signs of Strain Across the AI Trade - Morningstar",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "821796aa1326c2d9": {
   "ticker": "NET",
@@ -164603,6 +164648,11 @@
   "ticker": "PLTR",
   "title": "Prediction: This Is Where Palantir Stock Will Trade When Its Revenue Hits $10 Billion - The Globe and Mail",
   "ts": "2026-10-25T11:43:41.288268+00:00"
+ },
+ "86f7e7b73da87922": {
+  "ticker": "NFLX",
+  "title": "K-Drama 'The Midnight Studio' Rises to No. 2 on Netflix Global Chart - Kagit",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "86f7e7cbc47adf3d": {
   "ticker": "AAPL",
@@ -188254,6 +188304,11 @@
   "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Seasonal returns chart - Yahoo Finance Singapore",
   "ts": "2026-10-29T21:58:03.337870+00:00"
  },
+ "9a3d9effba0494c1": {
+  "ticker": "MACRO",
+  "title": "Kevin O'Leary Says AI Is Keeping US Economy Resilient Despite Rising Costs: ‘Earnings Don't Put Food on the Table’ - Ben",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "9a3f1b87dd2abf90": {
   "ticker": "MACRO",
   "title": "Gold slips as investors weigh Fed rate outlook - 102.7 WBOW",
@@ -196603,6 +196658,11 @@
   "title": "Elon Musk: SpaceX Revenue Could Hit \"Somewhere Between $500 Billion and a Trillion\" by 2027 - 24/7 Wall St.",
   "ts": "2026-10-22T13:57:53.340077+00:00"
  },
+ "a11973e99ce6e4d0": {
+  "ticker": "MACRO",
+  "title": "【阿布扎比国家石油公司：全球能源供应缓冲已被大幅削弱】金十数据11月2日讯，阿布扎比国家石油公司（ADNOC）首席执行官苏尔坦·贾比尔表示，自美国和以色列对伊朗开战、导致霍尔木兹海峡航运受阻以来，全球库存已消耗近10亿桶原油，能源供应缓冲空",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "a11aacda24ca389a": {
   "ticker": "GOOGL",
   "title": "Form 4 Alphabet Inc. For: Oct 25 Filed by: Porat Ruth - StreetInsider",
@@ -197787,6 +197847,11 @@
   "ticker": "NFLX",
   "title": "Ma première censure NETFLIX ! RÉCAP NXT 20 OCTOBRE 2026 - YouTube",
   "ts": "2026-10-22T12:50:44.413880+00:00"
+ },
+ "a1f371b2ed39e84a": {
+  "ticker": "NFLX",
+  "title": "Little-known war film hailed fans' 'favourite ever' now streaming on Netflix - Manchester Evening News",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "a1f419267161b1dc": {
   "ticker": "SPCX",
@@ -200337,6 +200402,11 @@
   "ticker": "NFLX",
   "title": "Netflix cuts 1,000 jobs as streaming giant seeks to boost engagement - Yahoo Finance",
   "ts": "2026-10-14T15:51:37.077622+00:00"
+ },
+ "a406978b55af02a6": {
+  "ticker": "MACRO",
+  "title": "马来西亚国家石油公司将10月马来西亚原油官方售价定为每桶139.82美元。",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "a406b16b90d17d2a": {
   "ticker": "NVDA",
@@ -216362,6 +216432,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Unveils AI Factory Solutions at Berlin GTC as Jensen Huang Advances Enterprise Agents and Robotics Applications -",
   "ts": "2026-10-21T14:36:14.882061+00:00"
+ },
+ "b186cd8c398cb712": {
+  "ticker": "NVDA",
+  "title": "ASRock Rack Shows Liquid-Cooled NVIDIA Vera Rubin NVL72 and HGX Rubin NVL8 at OCP 2026 - news.lavx.hu",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "b187c73aeeb44b95": {
   "ticker": "MACRO",
@@ -258178,6 +258253,11 @@
   "title": "Who Made Money on the SpaceX IPO? A Warning for Anthropic - Memeburn",
   "ts": "2026-10-21T00:42:00.570892+00:00"
  },
+ "d386a5fbd4ab88e6": {
+  "ticker": "MACRO",
+  "title": "Treasury Yields Little Changed in Asian Trade Ahead of Midterms, Key Data This Week - WSJ",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
+ },
  "d387afdfb23b800d": {
   "ticker": "SNDK",
   "title": "SanDisk Sinks 7.2% as Chip Selloff, Inflation Data and CXMT Fears Converge Ahead of October 29 Earni - ad-hoc-news.de",
@@ -294007,6 +294087,11 @@
   "ticker": "MACRO",
   "title": "Oil Prices Rise as Supply Concerns Linger amid Middle East Attacks - شبكة تواصل الإخبارية",
   "ts": "2026-10-23T06:19:07.668773+00:00"
+ },
+ "f1ad43f07dada33c": {
+  "ticker": "MACRO",
+  "title": "黄金重回4000美元概率升温，但12月加息概率仍居高不下｜市场赔率数据表：黄金上探押注升温、原油冲高预期降温，而美联储加息仍是主流情景，市场正在同时交易利率压力、避险需求与实物供需三条逻辑。",
+  "ts": "2026-11-02T07:11:24.108939+00:00"
  },
  "f1af906e8c82c90b": {
   "ticker": "NVDA",
