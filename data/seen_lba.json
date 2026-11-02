@@ -19,6 +19,12 @@
    "status": "pushed_unscored",
    "title": "Intermarche - Comptable H/F"
   },
+  "698e5c1a2ba5fc475eeb502b": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti Mecanicien H/F"
+  },
   "699f7f851e68753a541bffe9": {
    "first_seen": "2026-10-23T12:31:21.032372+00:00",
    "score": null,
@@ -66,6 +72,12 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternance - Assistant Chef de Projet Digital Performance H/F"
+  },
+  "6a346e667f27726a04971373": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Technicien de Laboratoire H/F"
   },
   "6a346e667f27726a04971375": {
    "first_seen": "2026-10-25T12:26:31.690356+00:00",
@@ -348,6 +360,12 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Assistant Manager d'Unite Marchande H/F"
+  },
+  "6ac02af90d871689a663c832": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Développement RH & Comp&Ben Groupe H/F"
   },
   "6ac422f51778092e497f923d": {
    "first_seen": "2026-10-29T14:02:07.928129+00:00",
@@ -1524,6 +1542,24 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "CHARGÉ(E) DE PROJETS DIGITALISATION & AMÉLIORATION CONTINUE (H/F)"
+  },
+  "6ae7c552ec4f5594ab467bc2": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Support Informatique H/F"
+  },
+  "6ae7c561ec4f5594ab467f2b": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Ordonnancement et Planification en Contrat d'Apprentissage H/F"
+  },
+  "6ae7c5f7ec4f5594ab46a165": {
+   "first_seen": "2026-11-02T16:56:31.189486+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance : Administrateur système et réseau (H/F)"
   }
  }
 }
