@@ -1,0 +1,5 @@
+[
+{"ts": "2026-11-02T00:00:00+00:00", "ticker": "NFLX", "name": "Netflix", "title": "Netflix's New Fantasy Franchise With 33 Years of Lore Is Already Much Bigger Than Peak 'Game of Thrones' - MovieWeb", "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6Ny1KQko3aTdCWi1QSExPVEpIZldGV1RwdmM2VDVJTzBkUGlpbFc5LUFiNEl1YWZGLUczMV9sZUxvWkpJLUM4UGdfMkJ4TWNHS3I4THdhNTFHWFptSU9LQU1SeW5UMnFGemdDLUFGZmtUcm8?oc=5", "source": "MovieWeb", "origin": "Google News", "label": "➖ 看不出方向", "types": [], "hard": false, "immediate": false, "key": "489a977364fb09b2"},
+{"ts": "2026-11-02T00:01:36+00:00", "ticker": "MACRO", "name": "", "title": "澳大利亚10月TD-MI通胀指数月率 0.5%，前值0.30%。", "link": "https://flash.jin10.com/detail/20261102080136600800", "source": "Jin10", "origin": "Jin10", "label": "➖ 看不出", "types": [], "hard": true, "immediate": false, "key": "d458548e532f66b4"},
+{"ts": "2026-11-02T00:01:41+00:00", "ticker": "MACRO", "name": "", "title": "澳大利亚10月TD-MI通胀指数年率 4.9%，前值4.80%。", "link": "https://flash.jin10.com/detail/20261102080141846800", "source": "Jin10", "origin": "Jin10", "label": "➖ 看不出", "types": [], "hard": true, "immediate": false, "key": "fcb3e6c5cad201b1"}
+]
