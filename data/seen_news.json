@@ -669,6 +669,11 @@
   "title": "美国10月费城联储制造业新订单指数 4.3，前值29.2。",
   "ts": "2026-10-15T12:30:10.880529+00:00"
  },
+ "0074fa7466750f2a": {
+  "ticker": "PLTR",
+  "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings - Rich Picks Daily",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "007578d6c5c9793c": {
   "ticker": "NFLX",
   "title": "Bill Ackman Lost $400 Million on Netflix. Now He Sees 20%-Plus Annual Returns - Benzinga",
@@ -1318,6 +1323,11 @@
   "ticker": "MACRO",
   "title": "Bovespa heads into Thursday after CPI shock and 382-point loss - ad-hoc-news.de",
   "ts": "2026-10-15T11:17:40.778677+00:00"
+ },
+ "00df60fd1a54f219": {
+  "ticker": "MACRO",
+  "title": "巴克莱：维持2026年布伦特原油100美元/桶、2027年85美元/桶的预测。",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "00dfb2abd7b75648": {
   "ticker": "SPCX",
@@ -13843,6 +13853,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA Cancels 24GB GeForce RTX 5080 SUPER Before Production Even Starts - GameGPU",
   "ts": "2026-11-02T06:28:58.950976+00:00"
+ },
+ "0a12ab1f47a6c2d4": {
+  "ticker": "TSLA",
+  "title": "I Checked Out Tesla’s New Model YL, Standard Y, Model 3 In Person — Here’s What Surprised Me - CleanTechnica",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "0a12bbf057050a2c": {
   "ticker": "MACRO",
@@ -66324,6 +66339,11 @@
   "title": "E2E Networks Proposes 59% Capacity Expansion To Support Nvidia GPUs - TradingView",
   "ts": "2026-10-26T23:06:50.424199+00:00"
  },
+ "31bbf94ccf744134": {
+  "ticker": "NFLX",
+  "title": "Exclusive: Dhruv Tripathi on Parineeti Chopra and disturbing reality behind Netflix's Reporting Live - India TV News",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "31bc3bd0fecbcac1": {
   "ticker": "NVDA",
   "title": "Goldman Sachs reiterates Nvidia stock rating on AI deployment outlook By Investing.com - Investing.com South Africa",
@@ -91028,6 +91048,11 @@
   "ticker": "MACRO",
   "title": "Gold hits over two-week low as oil rally fuels inflation worries - CNBC",
   "ts": "2026-10-22T10:32:28.576684+00:00"
+ },
+ "442943c9f1b0e10d": {
+  "ticker": "PLTR",
+  "title": "Palantir is one stock to look at once the sell-off settles - Yahoo Finance",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "442b2ccebe51f58e": {
   "ticker": "MACRO",
@@ -120694,6 +120719,11 @@
   "title": "South Africa keeps its fiscal ship afloat as Trump’s America takes on water - Daily Maverick",
   "ts": "2026-10-18T06:06:57.965244+00:00"
  },
+ "5a6f2f3f8d1a9b87": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘Dead-End Job’ Is the Next Addictive K-Drama You Must Watch - IMDb",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "5a6ffbcac45baf94": {
   "ticker": "TSLA",
   "title": "Tesla Bull Larry Goldberg wrote a long open letter to Bernie Sanders and everyone who say that Elon Musk - The Times of ",
@@ -123228,6 +123258,11 @@
   "ticker": "MU",
   "title": "Micron union in Taiwan to launch strike as bonus dispute escalates - ETHRWorld.com",
   "ts": "2026-10-21T04:15:34.597322+00:00"
+ },
+ "5c43333f5c3be23a": {
+  "ticker": "AAPL",
+  "title": "Apple shares drop after hours despite record qu... - Pluang",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "5c43792ec7a553c6": {
   "ticker": "MACRO",
@@ -135094,6 +135129,11 @@
   "title": "Nvidia NVDA Stock Rebounds Above $215 on Chip Sentiment Improvement but Data-Centre Risks Remain - FXLeaders",
   "ts": "2026-10-26T22:54:43.890110+00:00"
  },
+ "64fe1e086428894d": {
+  "ticker": "MACRO",
+  "title": "Stock market is mixed as investors await U.S. midterm results, tech trade pushes to recover - Seeking Alpha",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "64fe96b9a7f51cf3": {
   "ticker": "NVDA",
   "title": "NVIDIA AI partnership coincides with Adobe stock price upward move - Traders Union",
@@ -141099,6 +141139,11 @@
   "title": "Singapore Shares Open Higher, STI Gains 0.63% On Wall Street Rally - BusinessToday Malaysia",
   "ts": "2026-10-21T02:07:35.890769+00:00"
  },
+ "6954e9effea0c738": {
+  "ticker": "NFLX",
+  "title": "Action Star Jason Statham Co-Produces Guy Ritchie’s Netflix Revenge Movie ‘Dogfight’ - IMDb",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "695778e6eb56e015": {
   "ticker": "SNDK",
   "title": "Will Data Center Growth Remain Sandisk's Biggest Opportunity? - The Globe and Mail",
@@ -146833,6 +146878,11 @@
   "ticker": "MACRO",
   "title": "With the Federal Reserve's decision and tech sector earnings reports approaching, the calm in the bond market may merely",
   "ts": "2026-10-27T08:31:17.670637+00:00"
+ },
+ "6db94a16bef66e87": {
+  "ticker": "AMD",
+  "title": "AMD Earnings Prediction Market Preview: What Will Lisa Su Say? - Benzinga",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "6dbba223390ecabc": {
   "ticker": "HOOD",
@@ -159163,6 +159213,11 @@
   "ticker": "SPCX",
   "title": "Prediction: This Will Be SpaceX's Stock Price in 3 Years - Yahoo Finance",
   "ts": "2026-10-28T23:35:49.188024+00:00"
+ },
+ "774c8c59c9d78be2": {
+  "ticker": "COHR",
+  "title": "Coherent stock rises ahead of November 4 earnings release - ad-hoc-news.de",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "774d76f636cdf7e3": {
   "ticker": "MACRO",
@@ -183549,6 +183604,11 @@
   "title": "Here is What to Know Beyond Why Micron Technology, Inc. (MU) is a Trending Stock - Yahoo Finance",
   "ts": "2026-10-16T13:39:09.058362+00:00"
  },
+ "89ce6e9f2b29a84a": {
+  "ticker": "NVDA",
+  "title": "Samsung to make AMD, Nvidia chip parts at second Texas plant, Maeil Business reports - 102.7 WBOW",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "89ced0b0830db947": {
   "ticker": "SPCX",
   "title": "Tesla-SpaceX deal: Wall St says inevitable but Musk says it's not certain - StreetInsider",
@@ -186333,6 +186393,11 @@
   "ticker": "IONQ",
   "title": "IonQ, Inc. (IONQ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
   "ts": "2026-10-26T07:05:04.127175+00:00"
+ },
+ "8beac8735bd4d61a": {
+  "ticker": "NFLX",
+  "title": "Jason Statham, Guy Ritchie Set Reunion on Netflix’s Revenge Action Film ‘Dogfight’ - IMDb",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "8bead18272e79d97": {
   "ticker": "SNDK",
@@ -190053,6 +190118,11 @@
   "ticker": "MACRO",
   "title": "OIl surges to $116.72 as Mideast supply risks overshadow broader market losses - شبكة تواصل الإخبارية",
   "ts": "2026-10-24T03:10:00.266556+00:00"
+ },
+ "8ebd91939f055917": {
+  "ticker": "NFLX",
+  "title": "Netflix Officially Reveals Blue Eye Samurai Season 2 Premiere Date and Episode Count - Polygon.com",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "8ebed40f855e2a4a": {
   "ticker": "NVDA",
@@ -211384,6 +211454,11 @@
   "title": "Cloudflare Launches Clairic Preview for Extracting Typed Data - Technobezz",
   "ts": "2026-10-20T07:59:13.161236+00:00"
  },
+ "9ec35def1e53d76c": {
+  "ticker": "NFLX",
+  "title": "Jason Statham and Guy Ritchie Reunite — Again — for Netflix Revenge Action Movie ‘Dogfight’ - IMDb",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "9ec36d6323d86083": {
   "ticker": "NFLX",
   "title": "Netflix Cuts 6% Of Its Workforce In Major Layoffs - Dataconomy",
@@ -219777,6 +219852,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Stock Is 10% Below Its Record. Does Anthropic's IPO Filing Make It a Buy? - The Globe and Mail",
   "ts": "2026-10-28T00:30:52.389124+00:00"
+ },
+ "a503480b011f2d5f": {
+  "ticker": "MACRO",
+  "title": "Mortgage Rates Today, November 3, 2026: 30-Year Rates Drop to 7.26% - WSJ",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "a506411d43c17f7f": {
   "ticker": "NVDA",
@@ -257558,6 +257638,11 @@
   "title": "澳新银行上调油价预期至105美元，并称中东停战也难挡油价上涨：澳新银行将布伦特原油年末目标价上调10美元，认为中东运输瓶颈与库存消耗正加剧供应紧张，即使冲突不再升级，油市也难以迅速恢复平衡。点击查看...",
   "ts": "2026-10-30T07:18:47.103345+00:00"
  },
+ "c1adcaabaee83302": {
+  "ticker": "MACRO",
+  "title": "Crude Oil Prices Fall as Diesel Shortages Keep Fuel Costs High - Equiti Global",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "c1b038b4bc9104fd": {
   "ticker": "SPCX",
   "title": "SpaceX Stock Drops 9% After $200B Share Unlock Despite $500 Price Target - KuCoin",
@@ -266278,6 +266363,11 @@
   "title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
   "ts": "2026-10-29T15:45:14.557632+00:00"
  },
+ "c81acb7bcbfa6e32": {
+  "ticker": "NFLX",
+  "title": "After 3 Years, Netflix's Best Historical Action Series Lands Official Season 2 Release Date - ScreenRant",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "c81b30c8d446360e": {
   "ticker": "MACRO",
   "title": "Oil prices fall as US weighs easing sanctions on West Asian crude supply - Business Standard",
@@ -268737,6 +268827,11 @@
   "ticker": "MACRO",
   "title": "Gold prices decline in Pakistan amid losses in global bullion markets - ARYnews.tv",
   "ts": "2026-10-21T12:27:57.529551+00:00"
+ },
+ "c9eb8a91cffeb7fb": {
+  "ticker": "SNDK",
+  "title": "Nvidia, SK Hynix, SanDisk Spike Up To 7% Ahead Of AMD Earnings As Chips Rebound From Multi-Week Selloff - NDTV Profit",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "c9ec5ea6fd47688a": {
   "ticker": "MACRO",
@@ -280073,6 +280168,11 @@
   "title": "$SanDisk (SNDK.US)$ - Moomoo",
   "ts": "2026-10-20T10:30:58.764837+00:00"
  },
+ "d274d059df89b7c8": {
+  "ticker": "MACRO",
+  "title": "【高盛警告美股出现“隐性熊市” 标普500约60%成分股已陷入熊市】金十数据11月3日讯， 标普500指数距离最新历史高点仅约3%，但该指数约60%的成分股却已陷入熊市区域 。高盛集团交易员Bobby Molavi指出，这一市场格局相当惊人",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "d274dd579c924bbd": {
   "ticker": "GOOGL",
   "title": "Alphabet Raised $41 Billion in One Quarter to Pay for AI - Yahoo Finance",
@@ -283973,6 +284073,11 @@
   "title": "Micron unveils global profit-linked bonus plan after Taiwan union pressure - Reuters",
   "ts": "2026-10-22T15:59:26.558359+00:00"
  },
+ "d5487d8cf61ba753": {
+  "ticker": "MU",
+  "title": "Why is Micron Technology stock rallying today? By Investing.com - Investing.com India",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "d54a410b0c5c5cdd": {
   "ticker": "MACRO",
   "title": "Shafaq News..Basrah crudes fall despite rising Brent, WTI - شفق نيوز",
@@ -284012,6 +284117,11 @@
   "ticker": "IONQ",
   "title": "Prediction: IonQ Will Cross $100 Per Share in 2027 (It's Less Than $40 Per Share Now) - The Globe and Mail",
   "ts": "2026-10-15T23:41:21.491461+00:00"
+ },
+ "d54dff4dddc7b441": {
+  "ticker": "AAPL",
+  "title": "Apple Inc. : DZ Bank lowers to Sell rating - marketscreener.com",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "d54f96431adc8b6d": {
   "ticker": "TSLA",
@@ -289647,6 +289757,11 @@
   "ticker": "TSLA",
   "title": "Tesla, Inc. $TSLA Stock: Generate Investment Management Ltd Grows Stake - MarketBeat",
   "ts": "2026-10-14T17:13:24.148583+00:00"
+ },
+ "d9b0a39410810d76": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Rise More Than 1 Percent - Qatar news agency",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "d9b0c12d3d0f2d4e": {
   "ticker": "NET",
@@ -320628,6 +320743,11 @@
   "title": "88% Profit Surge Expected on Oct. 28: Why Peter Thiel-Backed Vista Energy is Wall Street's Favorite Shale Play - 24/7 Wa",
   "ts": "2026-10-25T15:52:10.020234+00:00"
  },
+ "f18388ca48f242e5": {
+  "ticker": "MACRO",
+  "title": "Treasury yields rise as investors weigh midterm vote, jobs data and Ir… - Rich Picks Daily",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "f183fa6bdd39c55c": {
   "ticker": "ASTS",
   "title": "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence. - AOL.com",
@@ -327758,6 +327878,11 @@
   "title": "Canadian Dollar Defies Soft CPI as Inflation Expectations Rise - FOREX.com",
   "ts": "2026-10-19T23:06:53.560523+00:00"
  },
+ "f6dd3f5bef58607e": {
+  "ticker": "NVDA",
+  "title": "LiveX Unveils AI City - Bringing Physical AI to Everyday Spaces with NVIDIA - Business Wire",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
+ },
  "f6ddfc8d8fb207f1": {
   "ticker": "MACRO",
   "title": "ING: Major Global Central Banks Diverge on Rate Paths, Fed Expected to Hike Again in December - BigGo Finance",
@@ -334432,6 +334557,11 @@
   "ticker": "SPCX",
   "title": "A strong profit report from SpaceX helps lift tech stocks and Wall Street - MySA",
   "ts": "2026-10-22T05:54:37.526620+00:00"
+ },
+ "fbdac3efe3e8b78c": {
+  "ticker": "MACRO",
+  "title": "Northern Trust Universe Data: Institutional Investor Returns Are Mixed in Third Quarter of 2026 - Business Wire",
+  "ts": "2026-11-03T15:15:37.038231+00:00"
  },
  "fbdb075689e150c4": {
   "ticker": "TSM",
