@@ -15004,6 +15004,11 @@
   "title": "新西兰联储主席布雷曼：未来几周，部分通胀数据将与劳动力数据一同成为重要参考。",
   "ts": "2026-10-28T02:33:09.501135+00:00"
  },
+ "0b26f3d828c5488c": {
+  "ticker": "MACRO",
+  "title": "瑞士10月CPI年率 1.5%，预期1.30%，前值1.00%。",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "0b2786794239b750": {
   "ticker": "MACRO",
   "title": "Tech jitters lead stocks lower, oil surges then slides - KMVU FOX 26 Medford",
@@ -24639,6 +24644,11 @@
   "title": "Palantir and London mayor’s office settle lawsuit over police contract — Channel NewsAsia - UA.NEWS",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "12971b9c4fcf2411": {
+  "ticker": "PLTR",
+  "title": "Palantir: 3 Key Takeaways for Long-Term Investors - The Globe and Mail",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "1297e6dabd270748": {
   "ticker": "NFLX",
   "title": "‘The Diplomat’ Renewed for Season 5 at Netflix - IMDb",
@@ -32649,6 +32659,11 @@
   "title": "Elon Musk says he plans to give a SpaceX share to every child in the U.S. - CBS News",
   "ts": "2026-10-19T11:55:12.844018+00:00"
  },
+ "18958b01c51c19c4": {
+  "ticker": "PLTR",
+  "title": "Palantir Revenue Surges to $2.31 Billion as US Commercial Sales Overtake Government - Hokanews",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "189595c0ceee7fc3": {
   "ticker": "SPCX",
   "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts - Reuters",
@@ -33693,6 +33708,11 @@
   "ticker": "MACRO",
   "title": "美联储褐皮书：大多数地区描述整体就业水平几乎没有变化。",
   "ts": "2026-10-14T18:05:42.399699+00:00"
+ },
+ "196c181f1d3b831d": {
+  "ticker": "MACRO",
+  "title": "瑞士10月CPI月率 0.2%，预期0.00%，前值0.00%。",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "196d35984d2f3679": {
   "ticker": "NET",
@@ -64534,6 +64554,11 @@
   "title": "12 points for Nvidia: chip giant wants to make itself indispensable in Europe - ITdaily",
   "ts": "2026-10-23T13:23:15.913266+00:00"
  },
+ "31764f0be9bd47db": {
+  "ticker": "AAPL",
+  "title": "Apple Shares Fall Despite Record $114.5 Billion Q4 Revenue as Tariff Refunds Boost Earnings - Hokanews",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "3178b7ab0076dc74": {
   "ticker": "NVDA",
   "title": "SpaceX keeps BBB+ credit rating after $40 billion Nvidia AI chip lease deal - Business Upturn",
@@ -94629,6 +94654,11 @@
   "title": "BP Lifts Guidance on Debt, Refining as Crude Surge Pushes Shares Toward 52-Week High - ad-hoc-news.de",
   "ts": "2026-10-17T17:51:12.833603+00:00"
  },
+ "48829cb879ba33d6": {
+  "ticker": "PLTR",
+  "title": "Morgan Stanley raises Palantir stock price target on AI growth momentum By Investing.com - Investing.com India",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "48841a19debf8493": {
   "ticker": "NVDA",
   "title": "Securitize lists Apple, Nvidia, Tesla as tokens on Solana platform - Crypto Briefing",
@@ -117109,6 +117139,11 @@
   "title": "Nvidia stock holds steady after Greenpeace scrutiny focuses on drone technology ethics - Traders Union",
   "ts": "2026-10-23T14:11:27.446909+00:00"
  },
+ "59c46c239640676f": {
+  "ticker": "ASTS",
+  "title": "Why AST SpaceMobile Stock Is Down 11.3% And What's Next After Boost Mobile Talks - Yahoo Finance",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "59c5d872b38c00d8": {
   "ticker": "SPCX",
   "title": "SpaceX (NASDAQ:SPCX) Shares Climb 1.9% After Analyst Upgrade - MarketBeat",
@@ -130763,6 +130798,11 @@
   "ticker": "MACRO",
   "title": "Oil prices fall as peace hopes offset fears of growing Middle East conflict - Investify",
   "ts": "2026-10-29T03:14:26.940829+00:00"
+ },
+ "6417492a22c205d1": {
+  "ticker": "TSLA",
+  "title": "Tesla Roadster Spotted | ₹5 Lakh Booking in India, But Will It Ever Launch? | TechPulse - The Economic Times",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "6417b715f1386561": {
   "ticker": "GOOGL",
@@ -165133,6 +165173,11 @@
   "ticker": "MACRO",
   "title": "Fed rate decision and oil inventories due Wednesday - Investing.com",
   "ts": "2026-10-27T18:07:18.544300+00:00"
+ },
+ "7ec389e07619a7bd": {
+  "ticker": "MACRO",
+  "title": "WTI原油跌破90美元押注一天猛增18.5个百分点，市场对“冲突降温”的信心能否维持？｜市场赔率数据表：伊朗释放求谈信号后，WTI跌破90美元的月内概率升至63%，上破110美元则由51%降至39%；但油价今日迅速回升，市场刚刚建立的下探预",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "7ec38e7fec331e7e": {
   "ticker": "NVDA",
@@ -225943,6 +225988,11 @@
   "title": "Mark Cuban Says Manufacturing Can Return If US Wins on AI - NVIDIA (NASDAQ:NVDA) - Benzinga",
   "ts": "2026-10-19T09:30:22.495723+00:00"
  },
+ "adf36c13c064dac0": {
+  "ticker": "MACRO",
+  "title": "Reserve Bank of India moves lift 10-year yield to 7.44% - Multibagg AI",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "adf48c591a7fc031": {
   "ticker": "MU",
   "title": "Micron Stock $983 After 5.9% Jump: Sandisk Reports Tonight - FinanceFeeds",
@@ -241212,6 +241262,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin Plunges Over $3K After $85K Rejection, Altcoins Get Hit Harder: Market Watch - CryptoPotato",
   "ts": "2026-10-22T09:25:53.855077+00:00"
+ },
+ "b9d6a58c860aa9cb": {
+  "ticker": "MACRO",
+  "title": "Crude oil prices rebound amid fresh Middle East tensions, supply disruption concerns - Telangana Today",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "b9d71af0a44dec92": {
   "ticker": "TSLA",
@@ -267143,6 +267198,11 @@
   "title": "Keanu Reeves Adds Netflix Action Thriller ‘Maelstrom’ To His Growing Slate - BusinessToday Malaysia",
   "ts": "2026-10-27T03:22:53.654669+00:00"
  },
+ "cd8e69ca17d1c152": {
+  "ticker": "MACRO",
+  "title": "【机构：美联储应更加关注核心通胀】金十数据11月3日讯，Infrastructure Capital Advisors首席执行官兼投资组合经理杰伊·哈特菲尔德表示，美联储应停止其“非理性的加息政策”，货币政策应聚焦核心通胀，而非由油价推动的",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
+ },
  "cd8eee881cfd1339": {
   "ticker": "SNDK",
   "title": "SanDisk Q1 FY2027 net profit exceeds $810M, up 17% QoQ - KuCoin",
@@ -271442,6 +271502,11 @@
   "ticker": "SNDK",
   "title": "RBC Capital maintains SanDisk at Sector Perform, lowers price target to $1400 from $1600 - TradingView",
   "ts": "2026-10-30T20:00:34.970856+00:00"
+ },
+ "d0dd57517c5840db": {
+  "ticker": "MACRO",
+  "title": "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms - FXEmpire",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "d0ddec7c75a69df6": {
   "ticker": "TSLA",
@@ -304427,6 +304492,11 @@
   "ticker": "NFLX",
   "title": "Forget ‘Wednesday,’ Netflix’s Twisted Haunted House Series Is Officially Back From the Dead - IMDb",
   "ts": "2026-10-20T10:49:06.368543+00:00"
+ },
+ "eade3177696aef00": {
+  "ticker": "AAPL",
+  "title": "Morgan Stanley cuts Apple stock price target on services slowdown By Investing.com - Investing.com UK",
+  "ts": "2026-11-03T07:36:03.756056+00:00"
  },
  "eade3cb725907b32": {
   "ticker": "MACRO",
