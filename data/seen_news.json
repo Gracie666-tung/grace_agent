@@ -4644,6 +4644,11 @@
   "title": "HUMNL 1QFY27 profit falls 87% - Investify",
   "ts": "2026-10-30T13:48:51.831404+00:00"
  },
+ "034d7698a286c820": {
+  "ticker": "PLTR",
+  "title": "Ark adds Netflix, trims Palantir as sales top $9.6M - scanx.trade",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "034e07438253a4c5": {
   "ticker": "TSM",
   "title": "Taiwan Semiconductor Manufactur (TSM) Stock Forecasts - Yahoo! Finance Canada",
@@ -21148,6 +21153,11 @@
   "ticker": "NVDA",
   "title": "Nvidia weighs billions in credit guarantees for Nscale’s Anthropic data center - report - TradingView",
   "ts": "2026-10-30T05:22:39.125432+00:00"
+ },
+ "0fbceebc887751a2": {
+  "ticker": "AAPL",
+  "title": "Apple shares slip amid guidance for tightening margins, slowing services growth - Investing.com",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "0fbd852b5875b0bd": {
   "ticker": "NVDA",
@@ -53888,6 +53898,11 @@
   "ticker": "MACRO",
   "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street - Bay to Bay News",
   "ts": "2026-10-20T20:44:50.088942+00:00"
+ },
+ "289f66bfb5e96c18": {
+  "ticker": "NVDA",
+  "title": "Nvidia Orders Partners to Reduce China Exposure - BGNES",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "28a1e45e0adde800": {
   "ticker": "NVDA",
@@ -92794,6 +92809,11 @@
   "title": "Oil prices jump over $2 amid Middle East tensions - Profit by Pakistan Today",
   "ts": "2026-10-22T08:49:20.189877+00:00"
  },
+ "469b3f9df93ab5d6": {
+  "ticker": "AMD",
+  "title": "AMD Q3 Earnings to Test CFO Jean Hu Data Center Growth Forecast - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "469bbe1a1ae433ea": {
   "ticker": "SPCX",
   "title": "Could $2,000 Invested in SpaceX Help You Retire Early? - The Globe and Mail",
@@ -107603,6 +107623,11 @@
   "ticker": "NVDA",
   "title": "Robotics Still Awaits Its ChatGPT Moment, Says Former NVIDIA Leader - NVIDIA (NASDAQ:NVDA), Eli Lilly (NY - Benzinga",
   "ts": "2026-10-17T05:49:12.933951+00:00"
+ },
+ "51e5cbfddc1a4642": {
+  "ticker": "TSLA",
+  "title": "Tesla's China-made EV sales rise 10.3% y/y in October - marketscreener.com",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "51e5e7967ac9a83d": {
   "ticker": "MACRO",
@@ -148019,6 +148044,11 @@
   "title": "Trump-Putin bromance is a Netflix series: Love in the Time of Geopolitics - ThePrint",
   "ts": "2026-10-20T12:20:04.380881+00:00"
  },
+ "70bbfa0e6a033c2b": {
+  "ticker": "NVDA",
+  "title": "Nvidia tells data centre partners to curb business with Chinese clients, FT reports - Malay Mail",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "70bc6dfebe3d3dd4": {
   "ticker": "SPCX",
   "title": "LIKE A SPACE JELLYFISH 🪼🌌 NASA shared a set of images showing a fuzzy jellyfish-shaped plume in the sky during the launc",
@@ -150273,6 +150303,11 @@
   "ticker": "MACRO",
   "title": "Oil prices surge above $110 as Goldman Sachs predicts $90 Brent: is $20 crash coming? - Invezz",
   "ts": "2026-10-20T09:17:49.346695+00:00"
+ },
+ "7292802e4c2d342a": {
+  "ticker": "MACRO",
+  "title": "Oil prices climb after U.S. reportedly strikes Iran's Qeshm Island - RichTV.io",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "729370aea5da70fe": {
   "ticker": "SPCX",
@@ -164764,6 +164799,11 @@
   "title": "What To Watch This Halloween? Netflix Releases ‘Netflix & Chills’ Guide - Ireland's Classic Hits Radio",
   "ts": "2026-10-31T08:22:37.013861+00:00"
  },
+ "7dc1136634912c60": {
+  "ticker": "NFLX",
+  "title": "New Anime Coming to Netflix in November 2026: ‘Fool Night’ and ‘Bass X Machina’ - What's on Netflix",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "7dc22cc899f7b133": {
   "ticker": "NVDA",
   "title": "NVIDIA Expands Operations in Armenia, Eyes Broader CIS Market - MassisPost",
@@ -165128,6 +165168,11 @@
   "ticker": "SNDK",
   "title": "Sandisk (SNDK) vs. Texas Instruments (TXN): How Much Cash-Yield Protection Does Memory Offer? - Insider Monkey",
   "ts": "2026-10-19T19:21:35.409133+00:00"
+ },
+ "7e128cb4403d42b6": {
+  "ticker": "SPCX",
+  "title": "Is SpaceX Stock Worth Buying While It's Below $140? - The Globe and Mail",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "7e135eea551b8c0c": {
   "ticker": "MACRO",
@@ -167923,6 +167968,11 @@
   "ticker": "TSLA",
   "title": "Tesla, Dell, and Apple Have Become the 'Weaker Party'… Samsung Electronics' Negotiating Power Grows Stronger [Into the I",
   "ts": "2026-10-20T10:18:27.407970+00:00"
+ },
+ "8027da2b64eece38": {
+  "ticker": "SNDK",
+  "title": "Sandisk Lost 14% in a Week on Kioxia’s Warning. Wedbush Still Sees $2,000 - TIKR.com",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "802a112033936a2c": {
   "ticker": "NFLX",
@@ -175378,6 +175428,11 @@
   "ticker": "NVDA",
   "title": "Nvidia RTX Spark Review: The Little Engine That Couldn’t ⭐ - Thurrott.com",
   "ts": "2026-10-31T19:37:27.139684+00:00"
+ },
+ "85f797ca6d2cf6b5": {
+  "ticker": "MACRO",
+  "title": "Commodity market: Crude oil plummets, MXV-Index loses nearly 2%. - Vietnam.vn",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "85f9ea0829e1ac96": {
   "ticker": "MACRO",
@@ -247378,6 +247433,11 @@
   "title": "SanDisk stock falls despite 378% revenue surge: What's going wrong? - Invezz",
   "ts": "2026-10-30T10:28:06.348363+00:00"
  },
+ "bd60857aa42aa1c1": {
+  "ticker": "NVDA",
+  "title": "NVIDIA GeForce RTX 50-Series Scheduled for a Price Hike This Week, Up to $500 - TechPowerUp",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "bd61547cca285494": {
   "ticker": "NET",
   "title": "Cloudflare expands AI partnerships. Cloudflare stock trades at EUR 292.30 - ad-hoc-news.de",
@@ -261013,6 +261073,11 @@
   "title": "Tesla-SpaceX Merger: AI and Robotics Synergy - Intellectia AI",
   "ts": "2026-10-22T08:13:31.828610+00:00"
  },
+ "c7a595520aa8e6e2": {
+  "ticker": "NVDA",
+  "title": "Nvidia ordering data centre clients to reduce China exposure — FT - The Edge Malaysia",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
+ },
  "c7a6f0fd80a8cc73": {
   "ticker": "SPCX",
   "title": "Musk pledges one SpaceX share to every US child next year - Yahoo Finance",
@@ -271532,6 +271597,11 @@
   "ticker": "LITE",
   "title": "Lumentum (LITE) Stock Looks Like A Bargain On Its Huge Run - Yahoo Finance",
   "ts": "2026-10-27T01:39:55.355002+00:00"
+ },
+ "cfb79f5d8c5bcb37": {
+  "ticker": "SPCX",
+  "title": "SpaceX Stock: Buying Boost Mobile Won't Unlock Wireless for Musk - Barron's",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "cfb81fc01962eb47": {
   "ticker": "NFLX",
@@ -329722,6 +329792,11 @@
   "ticker": "MACRO",
   "title": "Punjab CM assures LCCI of support for industrial growth - Business Recorder",
   "ts": "2026-10-30T02:25:29.480916+00:00"
+ },
+ "fcefeb7a974320e8": {
+  "ticker": "IONQ",
+  "title": "IonQ vs. Rigetti Computing: Which Is the Better Quantum Computing Stock to Own for the Next 5 Years - The Motley Fool",
+  "ts": "2026-11-03T09:54:23.466781+00:00"
  },
  "fcf086e0480061e3": {
   "ticker": "MACRO",
