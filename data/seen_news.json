@@ -2194,6 +2194,11 @@
   "title": "Netflix Grapples With Digital-Ad Squeeze Amid Widening Glut of Streaming Commercials - Variety",
   "ts": "2026-10-27T14:44:48.062258+00:00"
  },
+ "016480a722df111a": {
+  "ticker": "NVDA",
+  "title": "Phil Rosen: AI stocks like Nvidia, Micron and Google are trading cheaper than dot-com names at peak bubble - Traders Uni",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "01652dd30329c0c9": {
   "ticker": "AMD",
   "title": "英特尔：AMD(AMD.O)与英特尔(INTC.O)合作，利用PyTorch简化在x86 CPU上的AI开发。",
@@ -8723,6 +8728,11 @@
   "ticker": "MACRO",
   "title": "Gold Falls 3% as Fed Tightening Expectations Weigh; Indian Equities Rebound Strongly: Aetram Group - TheWire.in",
   "ts": "2026-11-03T08:52:22.705503+00:00"
+ },
+ "05dd6869cfa8eb7c": {
+  "ticker": "NVDA",
+  "title": "Nvidia Is Telling Cloud Clients to Sell at Least 51% to Non-Chinese Customers - 24/7 Wall St.",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "05de8afadc21720e": {
   "ticker": "NET",
@@ -44229,6 +44239,11 @@
   "title": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know - FinancialContent",
   "ts": "2026-10-16T18:57:35.291327+00:00"
  },
+ "1ead33d9c0a4fd03": {
+  "ticker": "SMCI",
+  "title": "Nutanix, Supermicro take on runaway AI costs with jointly engineered system for private inference - TahawulTech.com",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "1eae7ec1f25aff73": {
   "ticker": "MACRO",
   "title": "Brent and WTI diverging? Forex trading three reasons for bearish Gold [Video] - FXStreet",
@@ -44698,6 +44713,11 @@
   "ticker": "MACRO",
   "title": "The 5% Price Tag on Everything - Money & Markets",
   "ts": "2026-10-14T23:21:50.387464+00:00"
+ },
+ "1f07968a45dcf35a": {
+  "ticker": "MACRO",
+  "title": "U.S. private payrolls rise by 86,000 in October, ADP says - Yahoo Finance Singapore",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "1f07adc564f0baf2": {
   "ticker": "GOOGL",
@@ -84044,6 +84064,11 @@
   "title": "Harvard Endowment Returns 27% on SpaceX Bet - Seoul Economic Daily",
   "ts": "2026-10-16T09:17:10.448432+00:00"
  },
+ "3b3a1cfc4d247cdf": {
+  "ticker": "MACRO",
+  "title": "【期货热点追踪】美国中期选举初步结果打破了政策预期、美元指数与美债收益率同步深跌，贵金属期货夜盘大幅上涨！反弹行情开始了吗？点击了解。",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "3b3a97b56eb2b47d": {
   "ticker": "NVDA",
   "title": "Nvidia Stock NVDA Extends Slide Toward $200 as ASML Warns of Chipmaking Capacity - FXLeaders",
@@ -101423,6 +101448,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA has released the RTX Remix 1.6 update with path tracing support in Minecraft. - GameGPU",
   "ts": "2026-10-28T14:09:10.248427+00:00"
+ },
+ "476c42c9350d393c": {
+  "ticker": "MACRO",
+  "title": "US Treasury shifts language, opening door to auction size changes - WTVB",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "476cda027b6ba2e6": {
   "ticker": "MACRO",
@@ -124944,6 +124974,11 @@
   "title": "Japanese Yen surges as risk-off mood drives safe-haven demand | FXStreet - شبكة تواصل الإخبارية",
   "ts": "2026-10-22T16:12:05.631381+00:00"
  },
+ "581deeb75814f89f": {
+  "ticker": "IONQ",
+  "title": "Wedbush Cuts Price Target on IonQ to $50 From $75, Keeps Outperform Rating - www.marketscreener.com",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "581e397af4737ae0": {
   "ticker": "SMCI",
   "title": "Super Micro Computer Teams Up With Nokia to Deploy Artificial Intelligence-Radio Access Networks - marketscreener.com",
@@ -129923,6 +129958,11 @@
   "ticker": "SPCX",
   "title": "Steve Bannon Warns of Republican Civil War After Midterms - SpaceX (NASDAQ:SPCX) - Benzinga",
   "ts": "2026-11-01T06:07:43.327702+00:00"
+ },
+ "5b96e9cea512a767": {
+  "ticker": "HCLTECH",
+  "title": "Market wrap: BEL, Adani Ent, TCS, HCL Tech top gainers and losers on Nifty and Sensex on Wednesday - The Economic Times",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "5b99a0d308b63fa4": {
   "ticker": "MU",
@@ -144753,6 +144793,11 @@
   "ticker": "ASTS",
   "title": "AST SpaceMobile's Ground Game Advances While Wall Street Squares Off Over the Launch Clock - AD HOC NEWS",
   "ts": "2026-10-23T04:16:40.572961+00:00"
+ },
+ "65c45b2e616280e7": {
+  "ticker": "NVDA",
+  "title": "ModelOp Unveils Industry-First Full-Stack AI Policy Enforcement With NVIDIA OpenShell - Yahoo Finance",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "65c4a57b056e5302": {
   "ticker": "SPCX",
@@ -185029,6 +185074,11 @@
   "title": "Bernstein reiterates AMD stock rating on datacenter strength By Investing.com - Investing.com Canada",
   "ts": "2026-11-04T08:32:36.801076+00:00"
  },
+ "82a4ce05760aebdb": {
+  "ticker": "NFLX",
+  "title": "Netflix Deploys Beta ‘AI Discover’ Feature - TVTechnology",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "82a4d3d90af58687": {
   "ticker": "MACRO",
   "title": "Energy prices soar as Brent hits highest level since May - US Muslims",
@@ -203819,6 +203869,11 @@
   "title": "Netflix Report Suggests Why Bela Bajaria Got Replaced - Crave Online",
   "ts": "2026-10-16T13:45:11.280126+00:00"
  },
+ "90087da8c6333a5d": {
+  "ticker": "MACRO",
+  "title": "【从债务上限到贸易协议 民主党掌控国会或为美两党合作创造空间】金十数据11月4日讯，特朗普将于明年1月面对一个由民主党牢牢掌控的国会，这可能导致未来两年政策陷入长期僵局，并伴随着激烈的调查和弹劾行动。但 两党也可能达成一些对美国经济产生广泛",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "9008b618f4054549": {
   "ticker": "TSLA",
   "title": "Good News For Tesla Stock Fans - TradingView",
@@ -206913,6 +206968,11 @@
   "ticker": "MACRO",
   "title": "PCE Inflation Report: Prices Are 3.6% Higher Than a Year Ago - Stock Titan",
   "ts": "2026-10-29T12:41:13.143658+00:00"
+ },
+ "9234fbbabf1cc8ac": {
+  "ticker": "IONQ",
+  "title": "IonQ enters partnership with QuantumCT - TipRanks",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "9237d5f2a8a0f9e6": {
   "ticker": "NVDA",
@@ -219348,6 +219408,11 @@
   "ticker": "PLTR",
   "title": "Here's What a $10,000 Investment in Palantir Could Be Worth in 10 Years - The Motley Fool",
   "ts": "2026-10-25T12:33:03.426906+00:00"
+ },
+ "9af73fc7f317a3eb": {
+  "ticker": "NFLX",
+  "title": "10 Years Ago Today: Netflix Premiered One Of The Most Decorated Drama Shows In Streaming History - IMDb",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "9af78bc46ef336ae": {
   "ticker": "MACRO",
@@ -240477,6 +240542,11 @@
   "ticker": "MU",
   "title": "Unfortunate News for Micron Stock and Sandisk Stock Investors - The Motley Fool",
   "ts": "2026-10-15T03:49:50.838920+00:00"
+ },
+ "aa05d6c9c9e4fbbf": {
+  "ticker": "NFLX",
+  "title": "‘Trinity’: Netflix Series With Richard Madden and Gugu Mbatha-Raw Gets Release Date & Reduced Episode Count - What's on ",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "aa060a5e9b743011": {
   "ticker": "LITE",
@@ -264158,6 +264228,11 @@
   "title": "Wall Street Expectations for Treasury Yields: Higher - Econbrowser",
   "ts": "2026-10-19T03:26:53.042308+00:00"
  },
+ "baed3ea38f5bde5f": {
+  "ticker": "IONQ",
+  "title": "From Magic States to Full-Stack Accounting: How Resource Estimation for Fault-Tolerant Quantum Computing Is Growing Up -",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "baed69fbb93c4aa3": {
   "ticker": "SPCX",
   "title": "Why Did SpaceX Stock Just Pop? - The Motley Fool",
@@ -279257,6 +279332,11 @@
   "ticker": "MACRO",
   "title": "US rate hike in focus as markets await inflation data - Ammon News",
   "ts": "2026-10-19T06:25:07.353840+00:00"
+ },
+ "c54f0797db609a9c": {
+  "ticker": "NVDA",
+  "title": "Does Nvidia's Liquid Cooling Make Data Centers Use Less Water? - BGR",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "c54f92aebacfc5df": {
   "ticker": "GOOGL",
@@ -294458,6 +294538,11 @@
   "title": "Netflix Partners With Rob Lowe on Documentary, Brings Podcast to the Platform - Yahoo News Canada",
   "ts": "2026-10-20T18:49:38.185696+00:00"
  },
+ "d0275aea1fda3401": {
+  "ticker": "ANET",
+  "title": "Truist raises Arista Networks stock price target on AI growth By Investing.com - Investing.com Nigeria",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "d028f8b6d995efbb": {
   "ticker": "MACRO",
   "title": "澳洲联储主席布洛克：家庭支出增长仅呈逐步放缓态势。",
@@ -307843,6 +307928,11 @@
   "title": "Cloudflare launches AI model that extracts information from emails, receipt photos in under 1 second - 디지털투데이",
   "ts": "2026-10-20T02:41:28.978016+00:00"
  },
+ "d9b11c1d99fb0c22": {
+  "ticker": "PLTR",
+  "title": "Palantir stock slides as downward price move accelerates - Traders Union",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "d9b1aed938084638": {
   "ticker": "TSLA",
   "title": "Tesla Tailwinds Could Propel This New ETF - ETF Database",
@@ -314882,6 +314972,11 @@
   "ticker": "LITE",
   "title": "Lumentum Earnings Preview: The AI Boom Is Already Priced In - Seeking Alpha",
   "ts": "2026-11-01T18:36:07.031012+00:00"
+ },
+ "deb6f587d166c191": {
+  "ticker": "AAOI",
+  "title": "Applied Optoelectronics Lost 17% in a Week. Northland Sees 88% Upside From Here - TIKR.com",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "deb7f6f66601f8ce": {
   "ticker": "TSLA",
@@ -327568,6 +327663,11 @@
   "title": "Netflix, hoichoi announce partnership; 14 Bengali titles to stream in multiple languages - Moneycontrol.com",
   "ts": "2026-10-22T07:49:48.660975+00:00"
  },
+ "e7fb2d10c5964352": {
+  "ticker": "SMCI",
+  "title": "Super Micro's strong earnings spark 11% rally, but analysts remain cautious with mixed ratings. - Pluang",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "e7fb50b350e39daa": {
   "ticker": "MACRO",
   "title": "#anthropicttmrevenuegrewabout1200% Community Insights & Market Sentiment | Binance Square - Binance",
@@ -334977,6 +335077,11 @@
   "ticker": "MU",
   "title": "Analyst sets Micron (MU) stock price target for the next 12 months - Finbold",
   "ts": "2026-10-28T11:43:38.437062+00:00"
+ },
+ "ed5540fb35eebfc1": {
+  "ticker": "NFLX",
+  "title": "Druski’s Megachurch Satire Heads to Netflix Ahead of ‘SNL’ Debut - Word In Black",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "ed554c04ea69610d": {
   "ticker": "SMCI",
@@ -349873,6 +349978,11 @@
   "title": "Son Suk Ku and Nagayama Eita launch tense joint investigation in Netflix's 'The Blue Road' - MyDramaList News",
   "ts": "2026-11-04T10:39:47.273732+00:00"
  },
+ "f7ceb7e92317521a": {
+  "ticker": "PLTR",
+  "title": "Top Bank Revamps Palantir Price Target After Stunning 96% Revenue Growth - Yahoo Finance",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
+ },
  "f7cec44e18a57cd8": {
   "ticker": "SNDK",
   "title": "Chip Stocks Rally, SanDisk Surges Over 7%: Has the AI Infrastructure Stock Correction Ended? - NewsBreak: Local News & A",
@@ -353202,6 +353312,11 @@
   "ticker": "NFLX",
   "title": "Sylvester Stallone’s 113-Minute Thriller Officially Lands on Netflix Ahead of Pierce Brosnan Reboot - FandomWire",
   "ts": "2026-11-02T07:42:08.952830+00:00"
+ },
+ "fa38e4d2b44e3b5a": {
+  "ticker": "MACRO",
+  "title": "U.S. Private Payrolls Rise 86,000 in October, Topping Forecasts - Seoul Economic Daily",
+  "ts": "2026-11-04T14:24:34.313006+00:00"
  },
  "fa3ab1cb2044ec44": {
   "ticker": "NFLX",
