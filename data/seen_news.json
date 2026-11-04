@@ -3379,6 +3379,11 @@
   "title": "Dollar eases on lower oil prices - Oman Observer",
   "ts": "2026-10-26T07:10:58.564804+00:00"
  },
+ "021947ef64355334": {
+  "ticker": "MACRO",
+  "title": "【夜盘主力合约收盘】金十数据11月5日讯，截至2:30收盘，沪金主力合约收涨2.61%，报875元/克，沪银主力合约收涨4.80%，报12575元/千克，SC原油主力合约收跌7.07%，报628元/桶。",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "0219a121f8d71453": {
   "ticker": "MACRO",
   "title": "Trump rules out Iran strike today; oil prices retreat, Dow futures rise - scanx.trade",
@@ -20524,6 +20529,11 @@
   "title": "Four great films to watch on Netflix this week - The Times",
   "ts": "2026-10-28T13:01:27.616086+00:00"
  },
+ "0e10a5f7e85aef3e": {
+  "ticker": "NFLX",
+  "title": "Sick of scrolling Netflix for something good? You’re not alone - WAtoday",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "0e10de7b8e7b9bc6": {
   "ticker": "SMCI",
   "title": "Super Micro Computer's revenue beats guidance; AI cloud share strong but margin risks remain. - Pluang",
@@ -25703,6 +25713,11 @@
   "ticker": "NVDA",
   "title": "Nvidia stock loses $365 billion in a week: could the AI boom be running out of money? - Invezz",
   "ts": "2026-10-19T10:12:56.833874+00:00"
+ },
+ "1188eb66d4dd9fcf": {
+  "ticker": "MACRO",
+  "title": "Housing stocks rally following midterm elections, Treasury yields dip lower - Yahoo! Finance Canada",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "118a6750f028a008": {
   "ticker": "NVDA",
@@ -34068,6 +34083,11 @@
   "ticker": "AAPL",
   "title": "Apple Inc. $AAPL Holdings Raised by Strata Wealth Advisors LLC - MarketBeat",
   "ts": "2026-11-02T11:41:12.215278+00:00"
+ },
+ "17672d732659097b": {
+  "ticker": "IONQ",
+  "title": "IonQ Partners with QuantumCT to Expand Quantum Computing Access Across Connecticut - Yahoo Finance",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "1769e49513ac1b00": {
   "ticker": "TSLA",
@@ -99319,6 +99339,11 @@
   "title": "Microsoft, Nvidia launch AI support scheme in UK and Ireland - Yahoo Finance",
   "ts": "2026-11-04T11:43:14.281324+00:00"
  },
+ "45094b427f89b260": {
+  "ticker": "NFLX",
+  "title": "Sick of scrolling Netflix for something good? You’re not alone - Brisbane Times",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "450976cefcd65a05": {
   "ticker": "NET",
   "title": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks - TIKR.com",
@@ -140179,6 +140204,11 @@
   "title": "Tyler Perry’s Beauty in Black Season 4 Starts Production - Netflix",
   "ts": "2026-10-21T19:20:03.652650+00:00"
  },
+ "61504287e011ffe9": {
+  "ticker": "ASTS",
+  "title": "ASTS Deadline in 9 Days: AST SpaceMobile, Inc. Investors: November 13, 2026, Filing Deadline in Securities Fraud Class A",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "6150dc897f1d8a83": {
   "ticker": "MACRO",
   "title": "Is This the Best Economy Ever? The White House Thinks So - Liberty Nation News",
@@ -177559,6 +177589,11 @@
   "title": "WTI Price Forecast: Pulls back from multi-month top near 104.00 as bullish bias holds - Mitrade",
   "ts": "2026-10-30T08:01:24.472408+00:00"
  },
+ "7bb0e4be5d5a3b96": {
+  "ticker": "MACRO",
+  "title": "Euro Technical Outlook: EUR/USD Support Reversal Sets Up Breakout Test Ahead of NFP - FOREX.com",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "7bb10517d2367b1a": {
   "ticker": "NFLX",
   "title": "Sumukhi Suresh Discusses Global Reach of Stand-Up Special Hoemonal on Netflix - www.zoomtventertainment.com",
@@ -209739,6 +209774,11 @@
   "title": "Sandisk shares drop 9% despite strong earnings, buyback, and 8-for-1 stock split amid sector selloff - Pluang",
   "ts": "2026-10-30T14:19:30.131809+00:00"
  },
+ "92621c271c248214": {
+  "ticker": "AMD",
+  "title": "AMD Stock Forecast – Top Analysts Raise Price Targets on Solid Q3 Beat and Guidance - TipRanks",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "9263ec5195a3da83": {
   "ticker": "NVDA",
   "title": "Nvidia releases GeForce hotfix for video freezes and black screens - OC3D",
@@ -214733,6 +214773,11 @@
   "ticker": "SPCX",
   "title": "SpaceX stock drops on merger concerns and policy risks - StreetInsider",
   "ts": "2026-10-22T14:40:15.137203+00:00"
+ },
+ "95f519b90cc2e71b": {
+  "ticker": "MACRO",
+  "title": "Oil prices plunge as Trump’s midterm defeat raises hopes of peace - Business Day",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "95f5981cd404049e": {
   "ticker": "AAPL",
@@ -224403,6 +224448,11 @@
   "ticker": "MACRO",
   "title": "Warsh Reshapes Fed Procedures While Two Dissenting Votes Signal Tightening Pressure - London Insider",
   "ts": "2026-10-29T03:20:32.705495+00:00"
+ },
+ "9c9a6608a41c1631": {
+  "ticker": "IONQ",
+  "title": "IonQ Partners With QuantumCT to Expand Quantum Computing Access in Connecticut - The Quantum Insider",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "9c9b4a7d0e8d35cb": {
   "ticker": "NFLX",
@@ -236222,6 +236272,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Forward P/E Under 17x: Margin Risk [2026] - tech-insider.org",
   "ts": "2026-10-25T06:14:50.843562+00:00"
+ },
+ "a4dcdb9e35319beb": {
+  "ticker": "SPCX",
+  "title": "AT&T’s vulnerability to a SpaceX mobile network push - Yahoo Finance Singapore",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "a4dd812277129f0e": {
   "ticker": "MACRO",
@@ -278913,6 +278968,11 @@
   "title": "Semiconductor Stocks Surge, Leading Tech (XLK) Rebound As Earnings Season Kicks Off - www.foreignpolicyjournal.com",
   "ts": "2026-10-19T22:12:18.588903+00:00"
  },
+ "c2b5c1439c0c8949": {
+  "ticker": "MACRO",
+  "title": "Vance Admits GOP Lost Election Because of War; Global Oil Prices Plunge More Than 10% in a Single Day, WTI Falls Below $",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "c2b68640d5a6d2fa": {
   "ticker": "MACRO",
   "title": "US Treasury may cut 20-year bond sales as borrowing costs hit record highs - Bilyonaryo Business",
@@ -294312,6 +294372,11 @@
   "ticker": "APP",
   "title": "AppLovin Corp. stock trades pre-market at EUR 235.53: ad platform - AD HOC NEWS",
   "ts": "2026-10-23T06:57:34.853668+00:00"
+ },
+ "cd75905f3cdfe3b8": {
+  "ticker": "TSM",
+  "title": "TSMC Stocks Move Lower as November Sales Data Face a $53.3 Billion Quarterly Hurdle - GuruFocus",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "cd75a39a2f8df286": {
   "ticker": "NFLX",
@@ -310673,6 +310738,11 @@
   "title": "SpaceX's Falcon 9 Nails Another Landing While a $40 Billion Chip Lease Redraws the Risk Map - ad-hoc-news.de",
   "ts": "2026-11-02T13:01:25.741621+00:00"
  },
+ "d9037fe3df5f0b61": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab Launches iQPS Radar Satellite Into Already-Occupied Orbit for First Time - Tech Times",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "d90447387e0d08b9": {
   "ticker": "MACRO",
   "title": "Gold Price Forecast: Softer Dollar Fuels Rebound After Hot CPI - FXEmpire",
@@ -319432,6 +319502,11 @@
   "ticker": "NVDA",
   "title": "Higgsfield extends Series B with TCV and NVIDIA investment; new amount undisclosed - OpenTools",
   "ts": "2026-10-26T23:43:16.293670+00:00"
+ },
+ "df19890c526b065c": {
+  "ticker": "ANET",
+  "title": "Arista Networks, Inc. Stock 12‑Month Price Target Raised to $251.25, Implies 48% Upside - TradingView",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "df1993ce4dd9ee13": {
   "ticker": "NVDA",
@@ -355488,6 +355563,11 @@
   "title": "3 Reasons Micron Stock Could Keep Climbing From Here - The Globe and Mail",
   "ts": "2026-10-28T19:25:26.252685+00:00"
  },
+ "f8aec8f8e1e3ae58": {
+  "ticker": "NVDA",
+  "title": "Recursion Pharmaceuticals (NDQ:RXRX): Why Is Nvidia An Investor? Because Its AI Platform Could Change Drug Discovery, Or",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
+ },
  "f8b05b7f9c47be5c": {
   "ticker": "NVDA",
   "title": "Alleged Jensen Huang spy plot highlights Nvidia export concerns ... - eeNews Europe",
@@ -360147,6 +360227,11 @@
   "ticker": "MACRO",
   "title": "Naqvi informs NA: 326,341 fake CNICs cancelled in five years - Business Recorder",
   "ts": "2026-10-28T23:41:55.736808+00:00"
+ },
+ "fbeacd4f175dc187": {
+  "ticker": "NET",
+  "title": "Cloudflare Slides Over 3% as Peer Weakness Pressures Sector : 기업주식정보 : JKN - 재경일보",
+  "ts": "2026-11-04T18:33:44.907424+00:00"
  },
  "fbeb69a44c8d695c": {
   "ticker": "NFLX",
