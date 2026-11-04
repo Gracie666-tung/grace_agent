@@ -6884,6 +6884,11 @@
   "title": "Fed leaves interest rates unchanged despite inflation in the US - Al Jazeera",
   "ts": "2026-10-28T19:25:26.252685+00:00"
  },
+ "04cbc86a9f3393f7": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab CFO Adam Spice sells $7.4M in company stock - Investing.com",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
+ },
  "04ccbc5705c26c9a": {
   "ticker": "NVDA",
   "title": "Nvidia CEO Jensen Huang Reaffirms His $4 Trillion Projection for AI Spending. Here's Why That Makes Nvidia a Screaming B",
@@ -27479,6 +27484,11 @@
   "title": "Could 'Under Siege' become the next 'Narcos'? Netflix's ambitious new series revisits one of Colombia’s darkest chapters",
   "ts": "2026-11-01T11:59:43.387581+00:00"
  },
+ "13aaa7afbb9a315a": {
+  "ticker": "NFLX",
+  "title": "‘Prep’: Everything We Know About the YA Adaptation Headed to Netflix - IMDb",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
+ },
  "13aac8fe247b85c7": {
   "ticker": "MACRO",
   "title": "巴克莱：维持对布伦特原油价格的预测，预计2026年和2027年分别为每桶100美元和85美元。",
@@ -40088,6 +40098,11 @@
   "ticker": "MACRO",
   "title": "【德银分析师：沃什将极力避免释放不愿采取必要行动的信号】金十数据10月29日讯，市场普遍预计，美联储将在今夜维持利率不变，此时距离中期选举已不足一周。一个关键问题是：在最新通胀报告显示物价重现升温迹象之际，美联储主席沃什将如何为“维持利率不",
   "ts": "2026-10-28T17:51:26.211423+00:00"
+ },
+ "1c8ee38787daa07a": {
+  "ticker": "RKLB",
+  "title": "Insider Selling: Rocket Lab (NASDAQ:RKLB) Director Sells $576,674.28 in Stock - MarketBeat",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "1c913083c4b0b7c2": {
   "ticker": "MU",
@@ -54783,6 +54798,11 @@
   "ticker": "TSLA",
   "title": "Tesla, Inc. $TSLA Stock: Citizens Financial Group Inc. RI Boosts Position - MarketBeat",
   "ts": "2026-10-26T08:11:59.028066+00:00"
+ },
+ "2771e31a9edf495e": {
+  "ticker": "SMCI",
+  "title": "Earnings call transcript: Supermicro beats Q1 2026 estimates, raises outlook By Investing.com - Investing.com Canada",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "2773be8707dd0d49": {
   "ticker": "NFLX",
@@ -90693,6 +90713,11 @@
   "ticker": "NFLX",
   "title": "Netflix Chiefs Concede That Slowdown in U.S. Viewing Sparked the Content Leadership Shakeup: ‘We’re Focusing on Executio",
   "ts": "2026-10-21T01:00:23.834171+00:00"
+ },
+ "41d8b504ba200b2c": {
+  "ticker": "SMCI",
+  "title": "Super Micro Stock Price Forecast: SMCI Soars Over 10% Post-Earnings, Could Gain Another 30% - TradingKey",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "41d8e36917a00ae1": {
   "ticker": "NFLX",
@@ -189304,6 +189329,11 @@
   "title": "Here is What to Know Beyond Why Micron Technology, Inc. (MU) is a Trending Stock - Yahoo Finance",
   "ts": "2026-10-16T13:39:09.058362+00:00"
  },
+ "89ce0cab33610ec8": {
+  "ticker": "NFLX",
+  "title": "‘Blue Eye Samurai’ Sets Season 2 Release Date At Netflix - IMDb",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
+ },
  "89ce6e9f2b29a84a": {
   "ticker": "NVDA",
   "title": "Samsung to make AMD, Nvidia chip parts at second Texas plant, Maeil Business reports - 102.7 WBOW",
@@ -191083,6 +191113,11 @@
   "ticker": "SPCX",
   "title": "Musk says he will give SpaceX share to every child in US - The Hill",
   "ts": "2026-10-19T16:48:14.555396+00:00"
+ },
+ "8b1ea10da7da9b36": {
+  "ticker": "ANET",
+  "title": "Arista Networks (NYSE:ANET) Major Shareholder Sells $45,860,431.48 in Stock - MarketBeat",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "8b1ec0e812c1994f": {
   "ticker": "NVDA",
@@ -230518,6 +230553,11 @@
   "title": "Gold falls toward hourly moving averages. Can sellers keep control? - investingLive",
   "ts": "2026-10-18T02:19:07.101100+00:00"
  },
+ "a7cfbf5e24213a0f": {
+  "ticker": "SPCX",
+  "title": "Can SpaceX Build In 18 Months What Took Google 27 Years? SemiAnalysis Says It’s Possible - Stocktwits",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
+ },
  "a7cfc531d9d0c31c": {
   "ticker": "SPCX",
   "title": "No mention of orbital data centers on SpaceX call: should investors be concerned? - Invezz",
@@ -253152,6 +253192,11 @@
   "ticker": "SPCX",
   "title": "AT&T stock falls 6% despite earnings beat; SpaceX is the reason - TradingView",
   "ts": "2026-10-21T20:23:54.487733+00:00"
+ },
+ "b8992bd2639da224": {
+  "ticker": "AMD",
+  "title": "What Advanced Micro Devices (AMD) Said on Its Q3 Earnings Call - MarketBeat",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "b8995eebaf07c31b": {
   "ticker": "NVDA",
@@ -343982,6 +344027,11 @@
   "ticker": "MACRO",
   "title": "FCNR(B) Scheme Strong Insurance Policy For India: Uday Kotak - Free Press Journal",
   "ts": "2026-10-26T12:39:08.081005+00:00"
+ },
+ "fae1e3054f7c88b4": {
+  "ticker": "MACRO",
+  "title": "Oil edges down as investors await US midterm election results - NST Online",
+  "ts": "2026-11-04T02:18:39.453632+00:00"
  },
  "fae3f35124a33623": {
   "ticker": "SNDK",
