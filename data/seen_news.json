@@ -9399,6 +9399,11 @@
   "title": "Breaking Bad’s Direct 6-Season Crime Drama Rival Officially Hits Netflix This Month - FandomWire",
   "ts": "2026-11-01T22:28:15.430193+00:00"
  },
+ "05dc2210a77afccb": {
+  "ticker": "MACRO",
+  "title": "纳指期货周五盘初跌超1%。",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "05dca496f5bedd37": {
   "ticker": "MACRO",
   "title": "Gold Falls 3% as Fed Tightening Expectations Weigh; Indian Equities Rebound Strongly: Aetram Group - TheWire.in",
@@ -15194,6 +15199,11 @@
   "title": "AI is coming for every company, Nvidia boss says - Japan Today",
   "ts": "2026-10-16T20:52:02.649962+00:00"
  },
+ "099e57df436fc157": {
+  "ticker": "NVDA",
+  "title": "NVIDIA sale by Daniel Meuser reported in Schwab account - Investing.com India",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "099eda283579730d": {
   "ticker": "NVDA",
   "title": "Google TorchTPU Hits Nvidia’s 85% PyTorch Grip [2026] - shattered.io",
@@ -19908,6 +19918,11 @@
   "ticker": "TSLA",
   "title": "Tesla Stock Gains on Flying Roadster Demo, but Gene Munster Sees ‘No Commercial Value’ - TipRanks",
   "ts": "2026-10-16T15:04:11.822798+00:00"
+ },
+ "0cba4742c0d48b0f": {
+  "ticker": "MACRO",
+  "title": "AUD/USD breaks 0.6950 as NASDAQ rout threatens key 0.6900 support - FXStreet",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "0cbc4e4b67a16709": {
   "ticker": "MACRO",
@@ -27693,6 +27708,11 @@
   "ticker": "NFLX",
   "title": "Netflix (NASDAQ:NFLX) Given Hold Rating at Needham & Company LLC - MarketBeat",
   "ts": "2026-10-21T12:46:03.195401+00:00"
+ },
+ "11d696a9c092e63b": {
+  "ticker": "NET",
+  "title": "Cloudflare Announces Third Quarter 2026 Financial Results - Yahoo Finance",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "11d7fd3ab6943890": {
   "ticker": "MACRO",
@@ -63379,6 +63399,11 @@
   "title": "Netflix’s New 6-Part Series That Beat Cyberpunk: Edgerunners Is Perfect for Taylor Sheridan Fans - IMDb",
   "ts": "2026-11-04T06:16:46.686437+00:00"
  },
+ "2904bb680e642385": {
+  "ticker": "RDDT",
+  "title": "Options Traders Show Bearish Sentiment as Reddit Inc (RDDT) Stoc - GuruFocus",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "2904c6571c6cae53": {
   "ticker": "SMMT",
   "title": "Lunit and Summit Therapeutics Announce Agreement to Apply AI-powered SCOPE IO Platform for Tumor Microenvironment Analys",
@@ -86509,6 +86534,11 @@
   "title": "Dan Lin Exits Netflix as Film Chief in Another Shock Move After a Week of Layoffs - Comic Basics",
   "ts": "2026-10-19T16:30:00.379597+00:00"
  },
+ "388bc87f9b70a6a0": {
+  "ticker": "SNDK",
+  "title": "Sandisk: This Is A Golden Opportunity (NASDAQ:SNDK) - Seeking Alpha",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "388cf8bfa4e848fe": {
   "ticker": "NVDA",
   "title": "Germany Nvidia - Goshen News",
@@ -105553,6 +105583,11 @@
   "ticker": "TSM",
   "title": "Is AI Demand Behind Taiwan Semiconductor Manufacturing's (NYSE:TSM) Rebound? - Kalkine Media",
   "ts": "2026-10-20T03:37:52.629092+00:00"
+ },
+ "44e2e072c49171fb": {
+  "ticker": "AMD",
+  "title": "Why AMD Stock Weakness Puts AI Semiconductor Leaders Back On Watch - Simply Wall St",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "44e3279132fef585": {
   "ticker": "GOOGL",
@@ -128244,6 +128279,11 @@
   "title": "Nvidia denies GeForce RTX 5090 cancellation rumours - KitGuru",
   "ts": "2026-10-19T18:39:12.737670+00:00"
  },
+ "53d343d7b339a4ac": {
+  "ticker": "IONQ",
+  "title": "IonQ climbs 3% on earnings beat and raised guidance By Investing.com - Investing.com South Africa",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "53d49f7da7f03859": {
   "ticker": "NFLX",
   "title": "New OTT releases to watch this week: 9 new movies and shows on Netflix, JioHotstar, Prime Video, ZEE5 and more - The Eco",
@@ -147139,6 +147179,11 @@
   "title": "谷歌：Gemini 4 ARGON在发现漏洞、开发利用程序、检测攻击以及验证补丁方面作出了贡献。",
   "ts": "2026-10-21T14:23:52.823973+00:00"
  },
+ "5fe96e9a52ac585c": {
+  "ticker": "NVDA",
+  "title": "NVIDIA purchases by Maria Elvira Salazar disclosed By Investing.com - Investing.com South Africa",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "5fe97cabb3815e5b": {
   "ticker": "ANET",
   "title": "Arista Networks (NYSE:ANET) Stock Falls 7.19%: P/E, EPS Growth and RSI Review - Kalkine India",
@@ -148998,6 +149043,11 @@
   "ticker": "NVDA",
   "title": "With Attractive Valuations and Robust Growth, Nvidia Stock Is Positioned to Create Value - Barchart.com",
   "ts": "2026-10-22T12:38:40.035015+00:00"
+ },
+ "611b16ebafb487fd": {
+  "ticker": "MACRO",
+  "title": "JSBL Competitors - JS Bank Ltd - Investify",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "611b27fb52ef4e6a": {
   "ticker": "MACRO",
@@ -205439,6 +205489,11 @@
   "title": "‘Yu Yu Hakusho’ Season 2 Is Happening at Netflix With New Production Details Revealed - What's on Netflix",
   "ts": "2026-10-20T13:33:13.199745+00:00"
  },
+ "866d38fac3a20018": {
+  "ticker": "NFLX",
+  "title": "Netflix's 4-Part Thriller With A New Season On The Way Hits 1.1 Billion Minutes Viewed - IMDb",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "866d48a9d9ad1e5a": {
   "ticker": "NFLX",
   "title": "Netflix's 'Worst Ever' docuseries is expanding to add in-laws and friends - Porterville Recorder",
@@ -244493,6 +244548,11 @@
   "title": "These High-Yield Dividend Stocks Could Be Traps for Retirement Investors - 24/7 Wall St.",
   "ts": "2026-10-26T15:51:44.980742+00:00"
  },
+ "a03ec660b842c780": {
+  "ticker": "NFLX",
+  "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More - Yahoo",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "a041ab242cc63a36": {
   "ticker": "MACRO",
   "title": "Bitcoin Sheds 14,942 Coins From Exchanges in a Single Day as Fed Hold and PCE Data Loom - BigGo Finance",
@@ -262583,6 +262643,11 @@
   "title": "AT&T and AST SpaceMobile: Engineering the Connected World, One Handoff at a Time - Rutland Herald",
   "ts": "2026-11-02T17:17:46.751785+00:00"
  },
+ "ac305f1cea15f9e4": {
+  "ticker": "NFLX",
+  "title": "New shows are on Netflix, Hulu, and more. Here's what you need to watch this weekend (November 6-8) - How-To Geek",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "ac3149ccb221dbc1": {
   "ticker": "SNDK",
   "title": "SANDISK CORP (NASDAQ:SNDK) EPS Beat With In-Line Revenue as Datacenter Surges - ChartMill",
@@ -269432,6 +269497,11 @@
   "ticker": "MACRO",
   "title": "Gold jumps back above $4,150 after CPI shock: why yields are suddenly helping bulls - Invezz",
   "ts": "2026-10-15T11:47:59.273293+00:00"
+ },
+ "b0de92342c78db71": {
+  "ticker": "SPCX",
+  "title": "SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook - DZRH",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "b0dee4c934b03238": {
   "ticker": "NFLX",
@@ -329743,6 +329813,11 @@
   "title": "Elon Musk confirms $40 billion SpaceX debt deal for AI chips, warns of neocloud shakeout - CoinDesk",
   "ts": "2026-10-26T03:17:10.952568+00:00"
  },
+ "d80d6dc1db483764": {
+  "ticker": "NFLX",
+  "title": "Netflix’s New Reboot Of $3.3B Fantasy Franchise Gets Shocking New Production Update - ScreenRant",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "d810789445e21b2e": {
   "ticker": "SPCX",
   "title": "Nearly 13% of SpaceX's $4.4 Billion Profit Came From This \"Boring\" Investment - The Motley Fool",
@@ -368208,6 +368283,11 @@
   "title": "Mike Epps teams up with Druski for new Netflix show - IndyStar",
   "ts": "2026-11-04T19:46:14.519635+00:00"
  },
+ "f195c560c793b8c1": {
+  "ticker": "MACRO",
+  "title": "Evening digest: Oil rebounds, OpenAI eyes 2027 IPO as Micron pauses Taiwan project - Invezz",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "f19665669877c77d": {
   "ticker": "SPCX",
   "title": "SpaceX revenue soars 161% as AI business grows - شبكة تواصل الإخبارية",
@@ -381303,6 +381383,11 @@
   "title": "Tough Obstacles, Long ROI Time Make SpaceX’s Mobile Network Plan Unappealing - Barchart.com",
   "ts": "2026-10-28T17:14:53.404743+00:00"
  },
+ "fa3cb03f75fdcb9a": {
+  "ticker": "NET",
+  "title": "Cloudflare Q3 2026 Earnings Call Transcript - Benzinga",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
+ },
  "fa3cbe3212117797": {
   "ticker": "MACRO",
   "title": "Oil prices slide about 2% to multi-week low amid peace talks - شبكة تواصل الإخبارية",
@@ -381407,6 +381492,11 @@
   "ticker": "HOOD",
   "title": "HOOD SEC 申報：144 - Report of proposed sale of securities",
   "ts": "2026-10-15T20:21:17.974166+00:00"
+ },
+ "fa4ec5bea7a83798": {
+  "ticker": "NVDA",
+  "title": "Nvidia and Qualcomm shares plunge over 9%... Nasdaq suffers biggest drop in 19 months : Global : JKN - 재경일보",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "fa4f379c426a138f": {
   "ticker": "NVDA",
@@ -381597,6 +381687,11 @@
   "ticker": "NFLX",
   "title": "Scarlett Johansson’s Most Unsettling Sci-Fi Movie Is Officially Getting Cut From Netflix - Polygon.com",
   "ts": "2026-10-29T00:55:23.480612+00:00"
+ },
+ "fa6e0af9e728e721": {
+  "ticker": "NET",
+  "title": "Cloudflare earnings beat by $0.04, revenue topped estimates - Investing.com UK",
+  "ts": "2026-11-05T23:22:43.155337+00:00"
  },
  "fa6e20e71242e9a8": {
   "ticker": "MACRO",
