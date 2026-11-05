@@ -21399,6 +21399,11 @@
   "title": "Nevada job market shows modest growth in September with 1,300 jobs added - FOX5 Vegas",
   "ts": "2026-10-16T05:33:01.441526+00:00"
  },
+ "0e4a6cd538066855": {
+  "ticker": "MACRO",
+  "title": "【商务部：对原产于美国的进口正丙醇继续征收反补贴税，实施期限为5年】金十数据11月5日讯，商务部公布对原产于美国的进口正丙醇所适用反补贴措施的期终复审裁定。2020年11月17日，商务部发布2020年第47号公告，决定自2020年11月18",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "0e4c1ca0aab6c16a": {
   "ticker": "NVDA",
   "title": "Nvidia says to invest in French medical website - AFP.com",
@@ -46538,6 +46543,11 @@
   "ticker": "ASTS",
   "title": "Can AST SpaceMobile (ASTS) Stay Reasonable After Its 7x Run? - Simply Wall St",
   "ts": "2026-11-05T07:32:37.956623+00:00"
+ },
+ "1f1b499c97cadbb3": {
+  "ticker": "MACRO",
+  "title": "The U.S. financial market is also fluctuating due to the \"Blue Tsunami\" that has reversed the power - 매일경제",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "1f1b4d4aaf045a31": {
   "ticker": "MACRO",
@@ -88039,6 +88049,11 @@
   "title": "Netflix’s Monster Show ‘Below’ Fends Off Classic Horror Characters to Take Top Streaming Spot | Charts - IMDb",
   "ts": "2026-10-22T16:48:37.569049+00:00"
  },
+ "3bb308a1657ca16f": {
+  "ticker": "MACRO",
+  "title": "Bitcoin rebounds as post-election optimism and falling Oil prices support risk-on sentiment - FXStreet",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "3bb37c9d5a29e2a7": {
   "ticker": "NVDA",
   "title": "The Zacks Analyst Blog Highlights Intel, Alphabet, NVIDIA and AMD - The Globe and Mail",
@@ -104669,6 +104684,11 @@
   "title": "Greta Gerwig Reportedly Clashed With Netflix Film Boss Over Narnia: The Magician’s Nephew - IGN",
   "ts": "2026-10-21T11:27:12.198108+00:00"
  },
+ "4700347b411f92f4": {
+  "ticker": "MACRO",
+  "title": "Dubai stocks post best day in seven months, m-cap tops Dh1 trillion again - Gulf News",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "4700ba4a1e7944dd": {
   "ticker": "MACRO",
   "title": "Brent Crude Plunges 10% Near $90 Level: What Caused the Rapid Drop in Oil Prices? - TradingKey",
@@ -120133,6 +120153,11 @@
   "ticker": "NFLX",
   "title": "There's a sneaky Disney+ free trial right now on Netflix - Pocket-lint",
   "ts": "2026-10-24T20:04:01.279567+00:00"
+ },
+ "519058e0f42aab8e": {
+  "ticker": "TSLA",
+  "title": "特斯拉(TSLA.O)与SpaceX(SPCX.O)延续跌势，盘前分别跌2.26%和2%。",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "51934b4191279a5f": {
   "ticker": "MU",
@@ -164989,6 +165014,11 @@
   "title": "Why is SanDisk stock sliding today? - Investing.com",
   "ts": "2026-10-30T08:38:01.228531+00:00"
  },
+ "6ff30bc99be0663f": {
+  "ticker": "NVDA",
+  "title": "Nvidia partner Foxconn expects AI momentum to drive Q4 growth after 46% sales jump (NVDA:NASDAQ) - Seeking Alpha",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "6ff43375d1cec2c6": {
   "ticker": "MACRO",
   "title": "美联储古尔斯比：如果通胀是由于人工智能导致的过热需求，那就更令人担忧，必须加以解决。",
@@ -166728,6 +166758,11 @@
   "ticker": "NVDA",
   "title": "Cadence unveils Nvidia-backed AI models that chipmakers can run in-house - marketscreener.com",
   "ts": "2026-10-26T13:15:25.079729+00:00"
+ },
+ "711318e37b8d0e61": {
+  "ticker": "MU",
+  "title": "市场消息：因劳资纠纷，美光科技(MU.O)暂停45亿美元的在台工厂建设项目。",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "711390db0d57f629": {
   "ticker": "GOOGL",
@@ -214949,6 +214984,11 @@
   "title": "NVIDIA Ties Hyperion to Bolt’s Madrid Robotaxi Data Plan - www.tokenpost.com",
   "ts": "2026-10-22T08:31:22.677547+00:00"
  },
+ "925f813975572caa": {
+  "ticker": "NVDA",
+  "title": "DayOne backs NVIDIA's AI data centre design standard - DataCenterNews Asia Pacific",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "925ffcadd4c48e66": {
   "ticker": "MACRO",
   "title": "Stocks to watch: eMudhra, Infosys, Swiggy, HPCL, Havells, Sun Pharma, JSL - Business Standard",
@@ -244187,6 +244227,11 @@
   "ticker": "NVDA",
   "title": "Nvidia nuclear site reuse targets AI data centers without restarting reactors - remio",
   "ts": "2026-10-27T03:48:36.378082+00:00"
+ },
+ "a6385c436e63e6be": {
+  "ticker": "HAG",
+  "title": "HENSOLDT-Aktie: Konzern profitert weiter vom Rüstungsboom - Prognose angehoben - Finanzen.net",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "a638b351fe1654fd": {
   "ticker": "TSM",
@@ -279168,6 +279213,11 @@
   "title": "Watch: Pat McAfee Talks Tough In Netflix’s ‘The Mosquito Bowl’ - eWrestlingNews.com",
   "ts": "2026-11-01T06:56:44.628172+00:00"
  },
+ "be37837603c23dd7": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Fall for Fourth Consecutive Day Amid Hopes of Reduced Iran War Tensions - https://newsalert.com.pk/",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "be380b30073a8b23": {
   "ticker": "MACRO",
   "title": "Current price of oil as of October 22, 2026 - Fortune",
@@ -298933,6 +298983,11 @@
   "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right? - Yahoo Finance",
   "ts": "2026-10-18T18:04:13.746068+00:00"
  },
+ "cb62ea60f7c94a12": {
+  "ticker": "MU",
+  "title": "Options Rent Collection | U.S. Midterm Elections Shake Data Center Demand Expectations, Micron Plunges 7% in One Day as ",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "cb64ae042083ba57": {
   "ticker": "NFLX",
   "title": "Yet Another Netflix Stunner: Dan Lin Out as Film Chief - IndieWire",
@@ -310788,6 +310843,11 @@
   "title": "CEO Confidential: 10 Priorities No Chief Executive Can Ignore - CEOWORLD magazine",
   "ts": "2026-10-24T06:18:51.862311+00:00"
  },
+ "d3a58f2623e917fc": {
+  "ticker": "HAG",
+  "title": "Hensoldt AG : JP Morgan gives a Neutral rating - www.marketscreener.com",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "d3a64c103272fd14": {
   "ticker": "GOOGL",
   "title": "ALPHABET INC. : OPPENHEIMER CUTS TARGET PRICE TO $355 FROM $440 - Moomoo",
@@ -313097,6 +313157,11 @@
   "ticker": "NFLX",
   "title": "‘Teen Wolf’ Leaving Netflix After Only a Year - IMDb",
   "ts": "2026-11-02T18:44:14.822333+00:00"
+ },
+ "d5176a76fc947a5a": {
+  "ticker": "TSLA",
+  "title": "ZAWYA: EV giant Tesla to launch operations in Oman - TradingView",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "d5181619ace83f46": {
   "ticker": "PLTR",
@@ -319687,6 +319752,11 @@
   "ticker": "SPCX",
   "title": "SPCX Slides Overnight: SpaceX’s $40B Chip Financing Reportedly Hits Market — Texas Senator Says Democrats Will ‘Go After",
   "ts": "2026-11-05T02:17:45.643030+00:00"
+ },
+ "d9bca91a20edc624": {
+  "ticker": "NFLX",
+  "title": "What is 'One Last Order' about, when does it arrive on Netflix, and what happened to the woman whose story - The Economi",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "d9bd48df43fb7191": {
   "ticker": "SMCI",
@@ -344348,6 +344418,11 @@
   "title": "First Look at What’s Coming to Netflix in December 2026 - What's on Netflix",
   "ts": "2026-11-04T13:59:45.950281+00:00"
  },
+ "eb124a5cf2249997": {
+  "ticker": "MACRO",
+  "title": "Jim Cramer Warns Friday's Jobs Report Could 'Repeal' Midterm Rally, Says Elections 'Did Not Upend' Busine - Benzinga",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
+ },
  "eb12d49c18db77ff": {
   "ticker": "IONQ",
   "title": "IonQ raises $2 billion from the buyer that paid $93 a share last year - TheStreet",
@@ -354332,6 +354407,11 @@
   "ticker": "NFLX",
   "title": "Netflix Has a New Problem: Subscribers Are Watching Less and Opening the App Less Often - | Cord Cutters News",
   "ts": "2026-10-27T15:47:11.689851+00:00"
+ },
+ "f1cdb18ae483a6d1": {
+  "ticker": "NFLX",
+  "title": "‘Black Doves’ season 2 filming locations: Where was Keira Knightley’s hit Netflix show filmed? - Time Out Worldwide",
+  "ts": "2026-11-05T09:15:58.806493+00:00"
  },
  "f1d2da404bc370d7": {
   "ticker": "TSLA",
