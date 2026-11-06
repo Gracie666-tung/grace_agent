@@ -10919,6 +10919,11 @@
   "title": "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks - Yahoo Finance",
   "ts": "2026-10-20T20:44:50.088942+00:00"
  },
+ "06928afad7e2a5a8": {
+  "ticker": "NET",
+  "title": "Cloudflare (NET) Shares Surge 12% After Q3 Revenue Beats, Highli - GuruFocus",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "0694a24146f5cad8": {
   "ticker": "MACRO",
   "title": "Fed rate hike call seen tight as inflation heats up - Reuters",
@@ -29323,6 +29328,11 @@
   "ticker": "SNDK",
   "title": "SanDisk stock drops 33% despite record contracts; one analyst predicts nearly triple price surge. - Pluang",
   "ts": "2026-10-23T15:54:12.817953+00:00"
+ },
+ "12198ebb86799a11": {
+  "ticker": "NVDA",
+  "title": "Nvidia stock oversold setup: Key levels after a 9% drop By Investing.com - Investing.com Canada",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "1219f9087fd9b79a": {
   "ticker": "NVDA",
@@ -56163,6 +56173,11 @@
   "ticker": "MACRO",
   "title": "Indian stocks poised to open lower as US midterm vote outcome looms - Investify",
   "ts": "2026-11-04T03:19:59.780768+00:00"
+ },
+ "22d3364d3247beed": {
+  "ticker": "NFLX",
+  "title": "‘Shifting Gears’ Heading to Netflix Globally Ahead of Season 3 Premiere - What's on Netflix",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "22d357cba1957a41": {
   "ticker": "MACRO",
@@ -126294,6 +126309,11 @@
   "title": "Asian bonds record biggest monthly foreign outflow since March 2020 - Bangkok Post",
   "ts": "2026-10-16T10:11:38.901761+00:00"
  },
+ "4edec0a7488bbc21": {
+  "ticker": "TSM",
+  "title": "TSMC considers making advanced memory chips, The Information reports - Idaho Statesman",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "4eded40da5f0cb04": {
   "ticker": "NFLX",
   "title": "Netflix Acquires Worldwide On Joel Coen’s ‘Jack Of Spades’ For Fall 2027 Theatrical Release - IMDb",
@@ -168329,6 +168349,11 @@
   "title": "Anthropic Grew Revenue 112x Pre-IPO; Nvidia Managed 40x - FourWeekMBA",
   "ts": "2026-10-28T16:42:43.306960+00:00"
  },
+ "68d38b380102a284": {
+  "ticker": "NVDA",
+  "title": "GE Vernova Has Something Nvidia Needs Under a Democratic Congress - 24/7 Wall St.",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "68d4a40bf92d867e": {
   "ticker": "NVDA",
   "title": "Nvidia's Next Test Is Paperwork, Not Demand: A 51% Cloud Clause and a $40 Billion Leasing Puzzle - ad-hoc-news.de",
@@ -175864,6 +175889,11 @@
   "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastruct",
   "ts": "2026-10-27T20:27:56.886465+00:00"
  },
+ "6da3521015f299df": {
+  "ticker": "TSM",
+  "title": "TSMC Soars 5% on Report It’s Weighing Advanced Memory Chips for Nvidia After Chip Rout - Yahoo Finance",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "6da3a2a7fb895922": {
   "ticker": "MACRO",
   "title": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know - TradingView",
@@ -182139,6 +182169,11 @@
   "title": "Netflix’s Mike Tyson docuseries offers an incomplete portrait of a troubling figure - The Guardian",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "71a46ca0acc76135": {
+  "ticker": "TSLA",
+  "title": "Tesla Cybertruck Will Die So Cybercab Can Live - Industrial Equipment News",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "71a4da92108a689f": {
   "ticker": "SPCX",
   "title": "Why SpaceX Stock Dropped After Earnings - The Globe and Mail",
@@ -188238,6 +188273,11 @@
   "ticker": "MACRO",
   "title": "Oil Rebounds but Still Set for 12% Weekly Drop; Strait of Hormuz Supply Fears Underpin Prices - BigGo Finance",
   "ts": "2026-11-06T04:12:58.277365+00:00"
+ },
+ "75b3638c18f0984e": {
+  "ticker": "NFLX",
+  "title": "Netflix reveals ‘Other Worlds,’ a new ‘Stranger Things’ prequel coming in 2028 - Diario AS",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "75b4e9e808e3940d": {
   "ticker": "NVDA",
@@ -196594,6 +196634,11 @@
   "title": "Netflix (NFLX) Research Report - StockStory",
   "ts": "2026-10-29T03:08:23.516332+00:00"
  },
+ "7b056f6ddb193393": {
+  "ticker": "MACRO",
+  "title": "The Big Four Recession Indicators: Employment - Advisor Perspectives",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "7b063db7bee2849b": {
   "ticker": "IONQ",
   "title": "$1,000 Split Between IonQ and D-Wave Today Could Be Worth This Much by 2029. - The Globe and Mail",
@@ -204943,6 +204988,11 @@
   "ticker": "TSLA",
   "title": "Tesla's new Roadster turns in air with SpaceX thrusters | The Business Guardian - newspaper - Magzter",
   "ts": "2026-10-18T05:01:10.473386+00:00"
+ },
+ "805250dc2284cfa6": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Corporation (NVDA) Is Taking AI Beyond Chips: Here’s What Could Drive Its Next Growth Phase - Yahoo Finance",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "805360f952af3bf9": {
   "ticker": "MACRO",
@@ -244079,6 +244129,11 @@
   "title": "Cliff Notes: the source and persistence of inflation - Westpac IQ",
   "ts": "2026-10-30T00:24:12.627981+00:00"
  },
+ "9916d2426e17bac1": {
+  "ticker": "NFLX",
+  "title": "Nobody Wants This Is Coming Back! Netflix Renews Hit Comedy for Season 4 - Age of The Nerd",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "99174683b63d45ac": {
   "ticker": "GOOGL",
   "title": "NiSource's NIPSCO unveils $57.5M customer savings plan, building on deals with Amazon, Alphabet, and Microsoft - Seeking",
@@ -273603,6 +273658,11 @@
   "title": "Space (NASDAQ: SPCX) stock forecast: Analysts see 45% upside after $8 bn spectrum deal - Beinsure",
   "ts": "2026-10-15T12:06:03.614808+00:00"
  },
+ "abd13bc8cd760415": {
+  "ticker": "TSM",
+  "title": "TSMC considers making advanced memory chips, The Information reports By Reuters - Investing.com",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "abd1b602e316e6f1": {
   "ticker": "MACRO",
   "title": "5-year TIPS auction gets real yield of 2.367% on a strong day for Treasurys - https://tipswatch.com/",
@@ -292738,6 +292798,11 @@
   "title": "Barclays raises target for Hensoldt stock to EUR 101.00 - AD HOC NEWS",
   "ts": "2026-10-21T09:44:43.359026+00:00"
  },
+ "b7d5ac46a230b8dc": {
+  "ticker": "MACRO",
+  "title": "Dow Jones Midday Report: DJIA Muted Despite Upbeat Jobs Report and Improving Consumer Sentiment - TipRanks",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "b7d6f997738bcb40": {
   "ticker": "TSLA",
   "title": "Tesla (TSLA) Is Nearing A Sellout Of Megapack Systems Through 2027 - Yahoo Finance",
@@ -296903,6 +296968,11 @@
   "title": "HMIM board approves merger with Sego Pakistan - Investify",
   "ts": "2026-11-03T10:38:20.648049+00:00"
  },
+ "ba5fe2bf78ad8638": {
+  "ticker": "IONQ",
+  "title": "IonQ (IONQ) Raises 2026 Revenue Guidance After Strong Q3, Surpas - GuruFocus",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "ba5ff6993328a38e": {
   "ticker": "NVDA",
   "title": "Nvidia invests 1.34 trillion won in Naver, takes 4.13% stake for AI factory - Chosunbiz",
@@ -297067,6 +297137,11 @@
   "ticker": "SNDK",
   "title": "GoPro MAX2 Bundle Now Costs Less Than the Camera Alone at Full Price, Even With 2 Batteries, a 64GB SanDisk microSD Card",
   "ts": "2026-10-20T13:14:58.724788+00:00"
+ },
+ "ba78729fb66c0464": {
+  "ticker": "TSLA",
+  "title": "Tesla to wind down Cybertruck production by mid-2027 as Cybercab takes centre stage | Hindustan Times - Hindustan Times",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "ba7a272fd38bb2eb": {
   "ticker": "NFLX",
@@ -302057,6 +302132,11 @@
   "ticker": "NFLX",
   "title": "All 6 Seasons of Starz's Best Ever Series 'Power' Are Coming to Netflix - Parade Magazine",
   "ts": "2026-10-16T19:57:45.081664+00:00"
+ },
+ "bd92eb3a79acf98f": {
+  "ticker": "NFLX",
+  "title": "Nobody Wants This Renewed For Season 4 At Netflix - IMDb",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "bd93f48d0cc86ecd": {
   "ticker": "MACRO",
@@ -336918,6 +336998,11 @@
   "title": "Netflix's 7-Season Comedy Is Perfect From Beginning to End - Collider",
   "ts": "2026-10-26T19:03:09.012854+00:00"
  },
+ "d357e1f485538c49": {
+  "ticker": "HAG",
+  "title": "Hensoldt's Record Backlog Meets a Negative Cash Flow: Execution Becomes the Shareholder Test - ad-hoc-news.de",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "d358bbfe49b9527d": {
   "ticker": "HAG",
   "title": "DEUTSCHE BANK RESEARCH: Hensoldt \"buy\" - boerse.de - boerse.de",
@@ -349408,6 +349493,11 @@
   "title": "21-Year-Old Johnny Depp Movie Is Now a Netflix Hit — And It's Perfect for Halloween Time with the Kids - Parade Magazine",
   "ts": "2026-10-16T14:58:06.215449+00:00"
  },
+ "db1e07d95ba812c1": {
+  "ticker": "NVDA",
+  "title": "【报道：微软逐步终止与甲骨文AI算力租赁协议】金十数据11月7日讯，据外媒援引知情人士报道，微软（MSFT.O）已不再续签与甲骨文（ORCL.N）的AI算力租赁合同，并于近几个月逐步关闭租用的计算资源。知情人士称，甲骨文提供的服务器采用较旧",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "db1e12225f42e155": {
   "ticker": "NFLX",
   "title": "Ben Affleck’s New Thriller Is the Most-Watched Movie on Netflix This Week - IMDb",
@@ -352287,6 +352377,11 @@
   "ticker": "MU",
   "title": "Nasdaq Falls to 27,245.90 as a Memory-Chip Rout Hits Micron and AMD After China's CXMT Breakthrough - BBN Times",
   "ts": "2026-10-16T06:57:47.345171+00:00"
+ },
+ "dcf8b2385a06968e": {
+  "ticker": "NFLX",
+  "title": "‘Stranger Things' prequel series ‘Other Worlds' coming to Netflix in 2028 - NBC 5 Chicago",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "dcf98a6a3ca5f11b": {
   "ticker": "TSLA",
@@ -380978,6 +381073,11 @@
   "title": "Bitget introduces rToken Stock Transfer feature with SpaceX reward campaign - Traders Union",
   "ts": "2026-10-20T07:04:18.042726+00:00"
  },
+ "ef441619eb7cdea9": {
+  "ticker": "NVDA",
+  "title": "Forget Nvidia. Here’s the Company Behind the Chips - AOL.com",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
+ },
  "ef46568933485b70": {
   "ticker": "TSLA",
   "title": "Elon Musk backs SpaceX and Tesla merger - GB News",
@@ -395592,6 +395692,11 @@
   "ticker": "MACRO",
   "title": "Euro rebounds as falling US yields outweigh hotter-than-expected PPI - FXStreet",
   "ts": "2026-10-15T14:43:55.993639+00:00"
+ },
+ "f875bfe79caef2f7": {
+  "ticker": "IONQ",
+  "title": "IONQ Reiterates by B. Riley Securities -- Price Target Lowered t - GuruFocus",
+  "ts": "2026-11-06T17:51:31.939014+00:00"
  },
  "f875e5628d872cb4": {
   "ticker": "NVDA",
