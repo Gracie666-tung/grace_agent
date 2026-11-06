@@ -16574,6 +16574,11 @@
   "title": "FTSE 100 Opens 27 Points Higher at 10,749 as Oil Holds at USD 117.2 - Analytics Insight",
   "ts": "2026-11-02T09:56:57.314354+00:00"
  },
+ "0a0b7de42d769d21": {
+  "ticker": "NFLX",
+  "title": "Stranger Things Prequel Gets Teaser Trailer, Reveals Title & More for Netflix Prequel Spin-Off Show - AOL.com",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "0a0bcb479f7cf506": {
   "ticker": "NVDA",
   "title": "NVIDIA Cancels 24GB GeForce RTX 5080 SUPER Before Production Even Starts - GameGPU",
@@ -31554,6 +31559,11 @@
   "title": "Not Space. Not Starlink. Here's My Top Reason to Buy SpaceX Stock. - The Globe and Mail",
   "ts": "2026-10-29T01:37:43.856978+00:00"
  },
+ "138c09352252c021": {
+  "ticker": "AAOI",
+  "title": "Applied Optoelectronics (NASDAQ:AAOI) Issues Q4 2026 Earnings Guidance - MarketBeat",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "138c0d0b7c57e92c": {
   "ticker": "MACRO",
   "title": "Gold prices today, October 16th: Global prices surge, SJC gold remains unchanged. - Vietnam.vn",
@@ -33918,6 +33928,11 @@
   "ticker": "NVDA",
   "title": "Nvidia appears to have removed the RTX 5090 from its official sales platform, and retailers are also gradually clearing ",
   "ts": "2026-10-17T06:25:18.270270+00:00"
+ },
+ "14f416908c940b4f": {
+  "ticker": "MACRO",
+  "title": "日本央行行长植田和男：非常规货币政策工具虽产生了一定积极效果，但无法完全替代利率处于正值区间时的降息措施。",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "14f4228ec924884f": {
   "ticker": "AMD",
@@ -43559,6 +43574,11 @@
   "title": "Supermicro, Nokia team up on AI-RAN network edge computing - StreetInsider",
   "ts": "2026-10-21T11:39:14.706548+00:00"
  },
+ "1af767fa5e59202d": {
+  "ticker": "TSLA",
+  "title": "Tesla Shares Up After Musk Says Cybertruck Production Will Wind Down - marketscreener.com",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "1af825df872624bb": {
   "ticker": "NFLX",
   "title": "Netflix viewers are hooked all night binge-watching every episode of thriller series - Wales Online",
@@ -45288,6 +45308,11 @@
   "ticker": "MACRO",
   "title": "Ukraine attacks Russian oil sector again and Brent hovers around US$ 109 - portalcripto.com.br",
   "ts": "2026-10-19T05:01:55.120609+00:00"
+ },
+ "1bf78bf8406dc2f1": {
+  "ticker": "MU",
+  "title": "Micron Shares Slide as Memory Shortages Pressure Chip Market - Cirebon Times",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "1bf8d91a7dab4f98": {
   "ticker": "MACRO",
@@ -57509,6 +57534,11 @@
   "title": "British Pound Technical Outlook: GBP/USD Reversal Threatens October Recovery - FOREX.com",
   "ts": "2026-10-28T20:14:24.266829+00:00"
  },
+ "23e7b8a46ae2276c": {
+  "ticker": "TSLA",
+  "title": "Cybertruck's Days Are Numbered. Here's What Tesla Has Planned. - Yahoo Finance",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "23e8a7fddbc08011": {
   "ticker": "NFLX",
   "title": "Donald Glover Developing 'PUBG' Netflix Series With Brother Stephen Glover - Complex",
@@ -65033,6 +65063,11 @@
   "ticker": "SMCI",
   "title": "Super Micro Computer Stock Jumps 12% Following Strong Revenue Forecast - Yahoo Finance",
   "ts": "2026-10-21T14:05:06.274613+00:00"
+ },
+ "2861d2ad03b35a64": {
+  "ticker": "TSLA",
+  "title": "Elon Musk's Tesla to 'wind down' Cybertruck production next year - Euronews.com",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "28652bdf8326b8c5": {
   "ticker": "SPCX",
@@ -72993,6 +73028,11 @@
   "ticker": "NVDA",
   "title": "Nvidia forges supplier agreements to expand capacity for AI - Yahoo Finance",
   "ts": "2026-10-28T14:51:57.008563+00:00"
+ },
+ "2d72cdeb796cd2ff": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stock Has The AI Infrastructure Case Changed After Regulatory Fears - Yahoo Finance",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "2d75266b15caf007": {
   "ticker": "MACRO",
@@ -101578,6 +101618,11 @@
   "ticker": "MACRO",
   "title": "With September PPI Coming in Red Hot — Is an October Rate Hike All But Assured? - 24/7 Wall St.",
   "ts": "2026-10-22T16:48:37.569049+00:00"
+ },
+ "3f8ce7bbeaee6c9b": {
+  "ticker": "NVDA",
+  "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks - NVIDIA Blog",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "3f8d8a291caf37c9": {
   "ticker": "MACRO",
@@ -153199,6 +153244,11 @@
   "title": "【金十数据整理：每日科技要闻速递（11月5日）】 人工智能： 1. 苹果将部分工程师的每日AI使用上限从300美元降至200美元。 2. 微软因云服务公司IREN的延迟交付而降低了数据中心支出。 3. OpenAI发布Images 2.6 ",
   "ts": "2026-11-05T00:00:18.186174+00:00"
  },
+ "5fead98778dd866b": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Stocks Jump 7.45% as Taiwan Slashes Short Selling After Rout - Yahoo Finance Singapore",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "5feb74ce115a6297": {
   "ticker": "MACRO",
   "title": "Israeli military withdraws from West Bank city of Hebron after 10-day operation - The Washington Post",
@@ -153953,6 +154003,11 @@
   "ticker": "APP",
   "title": "AppLovin Sank 12% in a Week to a New 52-Week Low: Citi Says It Could Double - TIKR.com",
   "ts": "2026-11-01T10:43:34.447781+00:00"
+ },
+ "6059e7029fc32ce3": {
+  "ticker": "MACRO",
+  "title": "Brazil to extend 12% crude export tax until year-end - Quantum Commodity Intelligence",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "605b5c005da7a36b": {
   "ticker": "NFLX",
@@ -157838,6 +157893,11 @@
   "ticker": "NFLX",
   "title": "Netflix Begins Layoffs, 1,000 Jobs Expected to Be Cut - Barrett Media",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "62b97949e425e37c": {
+  "ticker": "ASTS",
+  "title": "Firefly Lands $1.3B AST SpaceMobile Engine Deal [2026] - https://tech-insider.org/",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "62ba3d463ff016e8": {
   "ticker": "MACRO",
@@ -187793,6 +187853,11 @@
   "ticker": "MACRO",
   "title": "AI debt surge pushes Magnificent Seven borrowing to USD 578 billion, up 45%: SBI Research - ANI News",
   "ts": "2026-11-02T03:02:38.511943+00:00"
+ },
+ "75d3f54d025e09a2": {
+  "ticker": "NVDA",
+  "title": "CME Delays Nvidia GPU Rental Futures Again, to January - FourWeekMBA",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "75d4a97d454b1db6": {
   "ticker": "NVDA",
@@ -218329,6 +218394,11 @@
   "title": "“I’m a Bit Nervous”- Greta Gerwig Shares a Wholesome Daniel Craig Story From ‘Narnia’ - Netflix Junkie",
   "ts": "2026-10-15T00:37:30.070465+00:00"
  },
+ "8943d658b3bb1341": {
+  "ticker": "TSLA",
+  "title": "Tesla: Cybertruck Production Will End in Favor of Autonomous Cybercab - Morningstar",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "89450751c2849786": {
   "ticker": "TSLA",
   "title": "Tesla's new Roadster will be a tiny part of its business, but its launch sent the stock surging. Here's why. - AOL.com",
@@ -235628,6 +235698,11 @@
   "ticker": "SMCI",
   "title": "Why is Super Micro (SMCI) stock soaring today - Yahoo Finance",
   "ts": "2026-10-27T23:54:31.876023+00:00"
+ },
+ "944e378aeb911faa": {
+  "ticker": "NVDA",
+  "title": "Stock Market Today: Nasdaq Rebounds 1.7% as Nvidia Jumps 5.6% After Historic AI Selloff - Coinpaper",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "944e87c68ab7839b": {
   "ticker": "TSLA",
@@ -260688,6 +260763,11 @@
   "title": "Apple Stock Is the Best Performer in the Mag 7. An Analyst Downgrade Signals It’s Time to Pump the Brakes. - Barron's",
   "ts": "2026-10-20T15:10:18.096907+00:00"
  },
+ "a418fbc1e84b5615": {
+  "ticker": "NET",
+  "title": "Cloudflare Just Had Its “Best Quarter Ever” on the Day Tech Crashed - Yahoo Finance",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
+ },
  "a4197dda3c23e745": {
   "ticker": "NFLX",
   "title": "Netflix Is Making A Live-Action PUBG Show Written And Directed By Donald Glover - Engadget",
@@ -277122,6 +277202,11 @@
   "ticker": "SPCX",
   "title": "Tesla-SpaceX deal: Wall St says inevitable but Musk says it's not certain - Devdiscourse",
   "ts": "2026-10-21T12:15:53.108672+00:00"
+ },
+ "aea592732a80157f": {
+  "ticker": "SNDK",
+  "title": "Sandisk: 3.5x P/E And Robotics Potential Changed My Mind (Rating Upgrade) (NASDAQ:SNDK) - Seeking Alpha",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "aea5cb9db4994999": {
   "ticker": "SPCX",
@@ -318842,6 +318927,11 @@
   "ticker": "MACRO",
   "title": "Asia FX steadies as oil surge weighs on risk appetite, yen holds gains - Yahoo Finance",
   "ts": "2026-10-23T05:24:38.014952+00:00"
+ },
+ "c87c71292ae114d8": {
+  "ticker": "SNDK",
+  "title": "Sandisk: Cheap, But Cheap For A Reason - Seeking Alpha",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "c87d6b514f9269d5": {
   "ticker": "MACRO",
@@ -381477,6 +381567,11 @@
   "ticker": "MACRO",
   "title": "Stocks to watch, Oct 21: PC Jeweller, RIL, Bajaj Finance, Schaeffler India, oil-sensitives, IHCL, SRF, HZL - Dailyhunt",
   "ts": "2026-10-21T04:34:00.078645+00:00"
+ },
+ "f0699c72c3711aa9": {
+  "ticker": "MACRO",
+  "title": "October Jobs Report: 165,000 Payroll Gain, Unemployment at 4.1% - News and Statistics - IndexBox",
+  "ts": "2026-11-06T16:50:42.730894+00:00"
  },
  "f06a3dd195ecb1e9": {
   "ticker": "MACRO",
