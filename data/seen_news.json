@@ -21609,6 +21609,11 @@
   "title": "NVIDIA Gave Away the Model on October 15. Berlin Sold the Infrastructure on October 21. - forkast.news",
   "ts": "2026-10-21T19:07:54.669766+00:00"
  },
+ "0d326de21e1773b7": {
+  "ticker": "MACRO",
+  "title": "Oil Set For Double-Digit Weekly Drop As Increased Gulf Flows Contribute To Global Glut - Ship & Bunker",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "0d344c67e165c12f": {
   "ticker": "SPCX",
   "title": "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to $3.1 B per Month - NextBigFuture.com",
@@ -31828,6 +31833,11 @@
   "ticker": "SPCX",
   "title": "Musk Pledges SpaceX Share to Every US Kid: $10.5B [2026] - tech-insider.org",
   "ts": "2026-10-19T21:17:34.405058+00:00"
+ },
+ "1394bfd198d48f23": {
+  "ticker": "APP",
+  "title": "AppLovin stock jumps 8% after strong Q3 earnings and raised outlook, while Unity rises 7% and Trade Desk dips. - Pluang",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "139582f10d81c8eb": {
   "ticker": "APP",
@@ -64544,6 +64554,11 @@
   "title": "Confidence Up, Sentiment (Final) Flat - TalkMarkets - Howl.Link",
   "ts": "2026-10-27T19:26:36.725325+00:00"
  },
+ "27f2b8d5b5d14ed6": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab climbs 13%, rebounding from recent losses (RKLB:NASDAQ) - Seeking Alpha",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "27f36a9c847b4af1": {
   "ticker": "MACRO",
   "title": "Trump Administration Expected to Set Record High Average Gas Prices Ahead of Midterms - news.sbs.co.kr",
@@ -71558,6 +71573,11 @@
   "ticker": "MACRO",
   "title": "Jakarta Stocks Lose 41 Points on Global Risks, MSCI Uncertainty - Jakarta Globe",
   "ts": "2026-10-30T10:22:04.881234+00:00"
+ },
+ "2c36d2a38c8fb905": {
+  "ticker": "NFLX",
+  "title": "‘Shifting Gears’ Heading to Netflix Globally Ahead of Season 3 Premiere - IMDb",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "2c37d09963578626": {
   "ticker": "NFLX",
@@ -88853,6 +88873,11 @@
   "ticker": "NFLX",
   "title": "Netflix bewitches Jane Austen fans with ‘Pride and Prejudice’ trailer - KTLO",
   "ts": "2026-10-28T23:05:16.042761+00:00"
+ },
+ "3755b6e3cec84827": {
+  "ticker": "MACRO",
+  "title": "France sells 3.6M barrels of diesel from strategic reserves - Crypto Briefing",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "375831fb20cb9255": {
   "ticker": "MACRO",
@@ -112804,6 +112829,11 @@
   "title": "US Treasury traders bullish as October jobs report looms - Crypto Briefing",
   "ts": "2026-11-06T09:48:21.289325+00:00"
  },
+ "461eba439e005d1c": {
+  "ticker": "MACRO",
+  "title": "Can Gold overcome pressure below $4,100 as US Nonfarm Payrolls moves into focus? - www.tmgm.com",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "461f8396c8c8e9a1": {
   "ticker": "TSLA",
   "title": "Tesla Is Betting on a Flying Car to Combat Its Stock Slump - Barchart.com",
@@ -122323,6 +122353,11 @@
   "ticker": "PLTR",
   "title": "Palantir Stock Splits Wall Street as Bookings Cool and Revenue Soars - Benzinga",
   "ts": "2026-11-03T17:09:51.384943+00:00"
+ },
+ "4c2c3e3b1cbfe525": {
+  "ticker": "MU",
+  "title": "Micron Technology pauses Fab 11E project after labor dispute: Can MU continue its gains? - Traders Union",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "4c2d0480ec54bdbd": {
   "ticker": "NVDA",
@@ -133104,6 +133139,11 @@
   "title": "Musk announces one SpaceX share for every American kid in 2027 - Pasquale Pillitteri",
   "ts": "2026-10-19T10:18:53.560766+00:00"
  },
+ "52dbeed0219d62b1": {
+  "ticker": "TSLA",
+  "title": "A long-term Elon Musk backer is cashing out of Tesla — and cutting its SpaceX exposure - Rich Picks Daily",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "52dc051fa4615f06": {
   "ticker": "TSLA",
   "title": "Huge News For Tesla Stock Fans - GuruFocus",
@@ -133833,6 +133873,11 @@
   "ticker": "NVDA",
   "title": "Is NVIDIA's Cheap Valuation an Opportunity to Invest in the Stock? - The Globe and Mail",
   "ts": "2026-11-03T15:33:58.803890+00:00"
+ },
+ "534984e7b02b2f8b": {
+  "ticker": "NVDA",
+  "title": "TSMC Makes the Chips for Both Nvidia and AMD. Here's What a $5,000 Investment Could Be Worth by 2030. - AOL.com",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "53499b21c240fb1e": {
   "ticker": "IONQ",
@@ -157668,6 +157713,11 @@
   "ticker": "PLTR",
   "title": "Apple And Palantir To Kick Off Tech Earnings In Another Crucial Week, AMD To Settle Chip Debate After Intel’s Warning - ",
   "ts": "2026-11-02T09:03:05.369678+00:00"
+ },
+ "61ef1c31f09306f8": {
+  "ticker": "MACRO",
+  "title": "Equal Weight Leads as AI Funding Faces a Test. Can the Broadening Hold as Conditions Tighten? - ETF Database",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "61ef932e2adbf896": {
   "ticker": "NFLX",
@@ -189228,6 +189278,11 @@
   "ticker": "MACRO",
   "title": "Why Western Digital (WDC) Stock Is Up Today - FinancialContent",
   "ts": "2026-10-19T14:39:59.514776+00:00"
+ },
+ "75ea4c5fa13fd2c8": {
+  "ticker": "TSLA",
+  "title": "Tesla's Cybertruck to see end of production, company cites low sales - The Jerusalem Post",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "75eb0402bb7cde13": {
   "ticker": "NFLX",
@@ -266068,6 +266123,11 @@
   "title": "Crypto Prices Today: Bitcoin Climbs Near USD 82,140 as Zcash Surges 10.2% - Analytics Insight",
   "ts": "2026-10-16T09:17:10.448432+00:00"
  },
+ "a652efe8c2c75fcc": {
+  "ticker": "IONQ",
+  "title": "IonQ Raises 2026 Revenue Forecast to $515 Million as Quantum Computing Demand Accelerates - citybiz",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "a652f0271c5ee7a4": {
   "ticker": "MACRO",
   "title": "Gold prices today, October 20, 2026, fell across the board; pay attention to changes in domestic payment methods; global",
@@ -271797,6 +271857,11 @@
   "ticker": "MU",
   "title": "SpaceX, GE Aerospace, Micron, GM, CoreWeave, Braze, and More Stocks That Explain Today's Market -- Barrons.com - 富途牛牛",
   "ts": "2026-10-20T20:14:24.088666+00:00"
+ },
+ "aa12ee788ff9a449": {
+  "ticker": "NFLX",
+  "title": "Nobody Wants This Renewed For Season 4 At Netflix - IMDb",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "aa13a520ba8e39c9": {
   "ticker": "NFLX",
@@ -286952,6 +287017,11 @@
   "ticker": "NFLX",
   "title": "Netflix India Posts Record Paid Net Additions in Q3 2026; Revenue Grows 18% on Strong Content Slate - MediaNews4U",
   "ts": "2026-10-21T03:33:24.732267+00:00"
+ },
+ "b3c99b11a58d34ff": {
+  "ticker": "ASTS",
+  "title": "ASTS Deadline in 7 Days: AST SpaceMobile, Inc. Class Action Lawsu - The National Law Review",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "b3c9b70d212159b9": {
   "ticker": "SPCX",
@@ -306258,6 +306328,11 @@
   "title": "The RBNZ needs to revise their inflation forecasts higher - Interest.co.nz",
   "ts": "2026-10-25T19:36:43.986185+00:00"
  },
+ "bf972d665097eab3": {
+  "ticker": "MACRO",
+  "title": "US Dollar Weekly Forecast: Can CPI fuel further gains? - FXStreet",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
+ },
  "bf975dc26c3e41a8": {
   "ticker": "MACRO",
   "title": "Crude Oil Price Forecast: Oil Supplies Remain Tight - FXEmpire",
@@ -307962,6 +308037,11 @@
   "ticker": "MACRO",
   "title": "Wall Street mostly loses ground under pressure from rising oil prices - Huron Daily Tribune",
   "ts": "2026-10-23T20:15:55.019267+00:00"
+ },
+ "c0a4704afbb345ae": {
+  "ticker": "NFLX",
+  "title": "Minimum Wage on Netflix: Cast, Premiere and 14 vs. 28 Episodes - Totally The Bomb",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "c0a4ee167f8ea3e2": {
   "ticker": "ASTS",
@@ -373227,6 +373307,11 @@
   "ticker": "NFLX",
   "title": "Tech Layoffs Mount as Netflix and eBay Cut Around 2,000 Jobs - Newsweek",
   "ts": "2026-10-23T17:35:53.940017+00:00"
+ },
+ "e9a5e556528d2944": {
+  "ticker": "GOOGL",
+  "title": "市场消息：谷歌(GOOG.O)收购Crusoe位于怀俄明州的数据中心选址。",
+  "ts": "2026-11-06T18:52:34.046539+00:00"
  },
  "e9a69c043a2d8007": {
   "ticker": "SPCX",
