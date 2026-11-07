@@ -21969,6 +21969,11 @@
   "title": "日本央行行长植田和男：工资增长水平与2%通胀目标相符，我们正处于均衡状态。",
   "ts": "2026-11-06T16:38:37.522423+00:00"
  },
+ "0d1504727f0c924c": {
+  "ticker": "NVDA",
+  "title": "In October, AMD overtook NVIDIA in graphics card sales on Amazon for the first time. - GameGPU",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
+ },
  "0d159f3b3146800b": {
   "ticker": "IONQ",
   "title": "IonQ's Record Quarter Puts Delivery, Not Demand, in the Spotlight - ad-hoc-news.de",
@@ -61318,6 +61323,11 @@
   "ticker": "AMD",
   "title": "Morgan Stanley Adjusts Price Target on Advanced Micro Devices to $510 From $465 - marketscreener.com",
   "ts": "2026-11-02T11:05:06.624145+00:00"
+ },
+ "24fc73f9b2a8e724": {
+  "ticker": "MACRO",
+  "title": "Real estate stocks gain as the Blue Wave sends Treasury yields lower - TradingView",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
  },
  "24fd793e39f8c414": {
   "ticker": "MACRO",
@@ -169703,6 +169713,11 @@
   "ticker": "PLTR",
   "title": "What Palantir's Chart Says Heading Into Next Week's Earnings - Moomoo",
   "ts": "2026-10-29T17:05:21.830938+00:00"
+ },
+ "66abbbfe8edab6bc": {
+  "ticker": "NFLX",
+  "title": "How to Fix Netflix Playing Without Video - Technobezz",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
  },
  "66abefc829df2439": {
   "ticker": "MACRO",
@@ -383908,6 +383923,11 @@
   "title": "Market Turmoil: AI Stocks Plunge, Nvidia (NVDA) Hits Record Low - GuruFocus",
   "ts": "2026-11-06T17:57:36.299646+00:00"
  },
+ "e9b561bad05ac1e6": {
+  "ticker": "NFLX",
+  "title": "Kristen Bell, Adam Brody-starrer 'Nobody Wants This' Gets Renewed For Fourth Season By Netflix - NDTV Profit",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
+ },
  "e9b6c4878ecfe3ca": {
   "ticker": "NVDA",
   "title": "NVIDIA Shows Off DLSS 5 Graphics Improvements In Hogwarts Legacy - 80 Level",
@@ -413163,6 +413183,11 @@
   "title": "AI capabilities and safety are 'one and the same': Nvidia CEO Jensen Huang - Yahoo Finance",
   "ts": "2026-10-21T13:22:24.315947+00:00"
  },
+ "fb7db0ebc8fb59cf": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile Blacklift: 5 BlueBirds a Launch [2026] - https://tech-insider.org/",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
+ },
  "fb7e84589484b37b": {
   "ticker": "MU",
   "title": "SanDisk Surges 10%, Micron and Western Digital Jump 8% as Memory and Storage Stocks Rebound From AI Sell-Off - 24/7 Wall",
@@ -420297,5 +420322,10 @@
   "ticker": "AAPL",
   "title": "JPMorgan cuts Apple stock price target on services growth concerns By Investing.com - Investing.com India",
   "ts": "2026-11-03T11:09:47.837247+00:00"
+ },
+ "ffffd29cee8d22a8": {
+  "ticker": "AAOI",
+  "title": "Applied Optoelectronics expects AI demand to ex... - Pluang",
+  "ts": "2026-11-07T17:27:36.053837+00:00"
  }
 }
