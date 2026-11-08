@@ -7739,6 +7739,11 @@
   "title": "特斯拉(TSLA.O)盘前涨近2%，巴克莱将其评级从持股观望上调至超配。",
   "ts": "2026-10-26T10:54:09.366390+00:00"
  },
+ "047c8bbb232fde34": {
+  "ticker": "NVDA",
+  "title": "【英伟达超7600万元货物离奇失踪】金十数据11月8日讯，据美国媒体6日报道，美国加利福尼亚州奥克兰市警方，目前正在调查一起涉及科技企业英伟达的货物被盗案件。被盗物品为AI芯片和计算机硬件，价值高达1140万美元（约合7610万元人民币）。",
+  "ts": "2026-11-08T07:47:40.663438+00:00"
+ },
  "047c8f30ecfa2105": {
   "ticker": "NFLX",
   "title": "This Warning Signal Just Flashed Ahead of Netflix's Earnings -- Here's What It Means for the Stock - The Motley Fool",
@@ -53328,6 +53333,11 @@
   "ticker": "GOOGL",
   "title": "Nasdaq falls as Alphabet set for record loss amid AI spending woes By Reuters - Investing.com Canada",
   "ts": "2026-10-29T19:26:15.980896+00:00"
+ },
+ "1f9243366caef64a": {
+  "ticker": "MU",
+  "title": "Micron's AI Rebound Faces a $4.5 Billion Question in Taoyuan - ad-hoc-news.de",
+  "ts": "2026-11-08T07:47:40.663438+00:00"
  },
  "1f926723c4af6d2c": {
   "ticker": "LITE",
@@ -371068,6 +371078,11 @@
   "title": "Elf on the Shelf Company Lumistella Inks Licensing Deal With Netflix (Exclusive) - The Hollywood Reporter",
   "ts": "2026-10-20T15:04:11.564003+00:00"
  },
+ "dfa66d796ff94850": {
+  "ticker": "HAG",
+  "title": "Hensoldt Aktie: Prognose verfehlt Analystenerwartungen - Börse Express",
+  "ts": "2026-11-08T07:47:40.663438+00:00"
+ },
  "dfa68821541b4a2f": {
   "ticker": "NFLX",
   "title": "Netflix film division boss to exit in second senior departure in a week - The Economic Times",
@@ -395187,6 +395202,11 @@
   "ticker": "MACRO",
   "title": "US Treasury Yields Could Settle Around 4.75 Pc: SBI Report - Menafn",
   "ts": "2026-11-01T07:33:16.025245+00:00"
+ },
+ "eea0ccffb280b33e": {
+  "ticker": "NVDA",
+  "title": "US memo alleges Nvidia CEO Jensen Huang had romantic tie to suspected China spy - Dealroom",
+  "ts": "2026-11-08T07:47:40.663438+00:00"
  },
  "eea0e1ff4968d033": {
   "ticker": "MACRO",
