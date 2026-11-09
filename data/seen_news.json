@@ -5394,6 +5394,11 @@
   "title": "Silver price forecast: Fed decision sets the stage as US PCE and GDP loom - Invezz",
   "ts": "2026-10-29T11:34:30.323020+00:00"
  },
+ "02d5c6dea0110c9c": {
+  "ticker": "SPCX",
+  "title": "Why is SpaceX stock up over 6% on Monday? - Invezz",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "02d83b19015aaa2f": {
   "ticker": "NVDA",
   "title": "U.S. Memo Alleges Nvidia CEO Dated Suspected Chinese Spy - Seoul Economic Daily",
@@ -9558,6 +9563,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab Has Imploded For 3 Months: 145% Gains Are Coming According to This Pro Analyst - Yahoo Finance",
   "ts": "2026-10-16T14:58:06.215449+00:00"
+ },
+ "052bdaaa97b16a58": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO Jensen Huang disappears from ElevenLabs conference lineup after affair admission - Business Insider",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "052dd931371041ca": {
   "ticker": "GOOGL",
@@ -37714,6 +37724,11 @@
   "title": "Truist Securities maintains Robinhood Markets at Buy, lowers price target to $123 from $125 - TradingView",
   "ts": "2026-10-30T17:10:53.945877+00:00"
  },
+ "150aee2d9d08f930": {
+  "ticker": "IONQ",
+  "title": "Why IonQ Stock Plummeted 31.5% in October - The Globe and Mail",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "150b1dc2a4030bd7": {
   "ticker": "NFLX",
   "title": "NCIS: New York's Sean Sullivan Actor Starred On A Controversial Netflix Series - TVLine",
@@ -61118,6 +61133,11 @@
   "ticker": "SMCI",
   "title": "What Is Going on With Super Micro Stock on Tuesday? - Benzinga",
   "ts": "2026-10-27T16:05:31.075235+00:00"
+ },
+ "226185cfe08d25fd": {
+  "ticker": "NVDA",
+  "title": "A stunning allegation involving Nvidia, an affair, and suspected espionage has now sparked an internal investigation. - ",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "22628e6f754a5fc2": {
   "ticker": "NVDA",
@@ -88469,6 +88489,11 @@
   "title": "Micron’s $41M Call Sale: Betting on 2027 Upside? | Smart Money Option - Moomoo",
   "ts": "2026-10-29T18:00:08.748126+00:00"
  },
+ "3227175dc74e4fee": {
+  "ticker": "NFLX",
+  "title": "‘Steps’ Review: Netflix Animation’s Revisionist Fairy Tale Has Its Charms - IMDb",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "32278bdebdf4f2d9": {
   "ticker": "NET",
   "title": "TD Cowen raises target for Cloudflare stock from USD 355 to USD 375 - ad-hoc-news.de",
@@ -108288,6 +108313,11 @@
   "ticker": "NVDA",
   "title": "Nvidia may be backstopping Oracle data centers, TD Cowen says (NVDA:NASDAQ) - Seeking Alpha",
   "ts": "2026-10-20T15:59:07.745713+00:00"
+ },
+ "3d52d9a6442e03c8": {
+  "ticker": "MU",
+  "title": "BofA Securities Maintains Micron Technology(MU.US) With Buy Rating - 富途牛牛",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "3d53987bae594166": {
   "ticker": "NVDA",
@@ -149064,6 +149094,11 @@
   "title": "FACT FOCUS: When It Comes to Trump’s Economy, These Are the Numbers That Matter - The Well News",
   "ts": "2026-10-21T14:17:25.149464+00:00"
  },
+ "5482ceda1beb3fc5": {
+  "ticker": "NVDA",
+  "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5 - NVIDIA Developer",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "5482f7a3c04fd8de": {
   "ticker": "MU",
   "title": "Intel, Micron Urge Taiwanese Chip Suppliers to Invest in US - www.thelec.net",
@@ -149498,6 +149533,11 @@
   "ticker": "MACRO",
   "title": "美国至10月28日美联储利率决定(下限) 3.75%，预期3.75%，前值3.75%。",
   "ts": "2026-10-28T18:03:30.853472+00:00"
+ },
+ "54be63a3e437fa48": {
+  "ticker": "NVDA",
+  "title": "Nvidia's investigation into CEO Huang's affair puts a spotlight on chip billionaire's personal life - Newsday",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "54be7843afe5a643": {
   "ticker": "NVDA",
@@ -156043,6 +156083,11 @@
   "ticker": "NFLX",
   "title": "Netflix orders ‘Prep’ series based on Curtis Sittenfeld’s bestselling novel - MEAWW",
   "ts": "2026-11-04T03:26:03.505394+00:00"
+ },
+ "585f852bc47e07d6": {
+  "ticker": "TSLA",
+  "title": "Tesla Expands Robotaxi Map as Cybertruck Demand Forces Deposit Refunds - ad-hoc-news.de",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "585fcb096f7678d3": {
   "ticker": "MACRO",
@@ -201724,6 +201769,11 @@
   "title": "Netflix Adapting Gary Paulsen’s Iconic Wilderness Survival Thriller ‘Hatchet’ - HorrorFuel.com",
   "ts": "2026-10-14T17:25:02.734150+00:00"
  },
+ "722933bff0d6497c": {
+  "ticker": "GOOGL",
+  "title": "Alphabet stock rises as Google expands AI chip lineup to challenge Nvidia - Invezz",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "7229e8d400f68638": {
   "ticker": "NFLX",
   "title": "Netflix Woos Mattel Veteran Roberto Stanichi To Lead Consumer Products and Experiences - IMDb",
@@ -222319,6 +222369,11 @@
   "title": "Bernstein affirms Buy on SpaceX with $248 targe... - Pluang",
   "ts": "2026-10-19T08:18:42.172157+00:00"
  },
+ "7e30d515349dd5fd": {
+  "ticker": "NVDA",
+  "title": "Who Could Replace Jensen Huang? Nvidia Has No Formal Plan But 6 Possible Successors - Inc.com",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "7e3310947c4a3ec4": {
   "ticker": "ASTS",
   "title": "Amazon's FCC-Approved $11.5B Globalstar Deal Puts Fresh Pressure On Struggling AST SpaceMobile (NASDAQ: ASTS) Stock - Fo",
@@ -226414,6 +226469,11 @@
   "title": "Taiwan Is Planning $4 Billion Industrial Parks in Texas for Nvidia’s Suppliers - Yahoo Finance",
   "ts": "2026-10-16T11:25:16.349162+00:00"
  },
+ "808e1dfcc70f3420": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang’s Affair Rings Alarm Bells for Nvidia Investors - WSJ",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "808e917c9aa89960": {
   "ticker": "NVDA",
   "title": "Nvidia vs TSMC: Here’s Which One May Be the Biggest AI Winner. - The Globe and Mail",
@@ -228033,6 +228093,11 @@
   "ticker": "NVDA",
   "title": "What State Street SPDR Portfolio S&P 500 ETF (SPYM) Bought: NVIDIA Leads on Oct. 23 - Yahoo Finance",
   "ts": "2026-10-27T11:35:22.583091+00:00"
+ },
+ "817eba4a72edfd12": {
+  "ticker": "LITE",
+  "title": "Coherent Soars 18%, Lumentum Up 12% as AI Optics Rebound Extends Despite Nvidia Turmoil - Yahoo Finance",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "817efcc81f510755": {
   "ticker": "NFLX",
@@ -328318,6 +328383,11 @@
   "title": "Brent crude holds near five-month high on Middle East tension - CNBC Africa",
   "ts": "2026-10-20T10:00:18.825051+00:00"
  },
+ "bac59e65dc346d0b": {
+  "ticker": "NFLX",
+  "title": "Documentary Suzane von Richthofen: O que o Tempo Não Apaga premieres on November 11 on Netflix - About Netflix",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
+ },
  "bac605c5a9fb5e7c": {
   "ticker": "NFLX",
   "title": "The Lincoln Lawyer Season 5's Netflix Release Month Confirmed By Michael Connelly - IMDb",
@@ -360352,6 +360422,11 @@
   "ticker": "MU",
   "title": "美股半导体股盘前普涨，SK海力士(SKHY.O)涨5.5%，闪迪(SNDK.O)涨2.8%，美光科技(MU.O)涨2.62%。",
   "ts": "2026-10-23T08:10:21.665989+00:00"
+ },
+ "ccaa9f6f98dd0790": {
+  "ticker": "TSLA",
+  "title": "Tesla Laredo Semi Service Center Opening Nov. 12 - Hoodline",
+  "ts": "2026-11-09T19:31:43.953801+00:00"
  },
  "ccaacb1f456b5870": {
   "ticker": "ANET",
