@@ -11184,6 +11184,11 @@
   "title": "International gold prices, which plunged as U.S. inflation topped market expectations, rebounded in - 매일경제",
   "ts": "2026-10-15T06:26:14.271919+00:00"
  },
+ "06287e0e7e4a5923": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab earnings in focus as Neutron delay tests growth story - Investing.com",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "062a20736d856cbf": {
   "ticker": "NVDA",
   "title": "Oracle, Nvidia expand cloud AI infrastructure partnership By Investing.com - Investing.com Nigeria",
@@ -11788,6 +11793,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX Spark Elevates Windows on Arm, But Its CPU And Software Hold It Back - Howl.link",
   "ts": "2026-10-16T09:29:19.330526+00:00"
+ },
+ "068768b9a434fe75": {
+  "ticker": "MACRO",
+  "title": "美联储古尔斯比：消费支出一直是增长的主要驱动力。",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "06891e31f5ec7771": {
   "ticker": "MACRO",
@@ -28494,6 +28504,11 @@
   "title": "Chinese tech giants are buying Nvidia gaming chips for AI. Here's why. - Yahoo News Singapore",
   "ts": "2026-10-21T10:20:47.742594+00:00"
  },
+ "0fff35b8c5b81d63": {
+  "ticker": "NVDA",
+  "title": "Nvidia shares fall after investigation into CEO's relationship with alleged Chinese spy - Fox Business",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "1001c48d403d3303": {
   "ticker": "NVDA",
   "title": "Solcis launches open compliance layer for AI agents on NVIDIA OpenShell - Sin Chew Daily",
@@ -32988,6 +33003,11 @@
   "ticker": "HAG",
   "title": "Hensoldt-Aktie notiert im Wochenendhandel bei 84,67 Euro - ad-hoc-news.de",
   "ts": "2026-10-25T16:59:08.285210+00:00"
+ },
+ "12a9a59493703bae": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Plans to Launch Two New TPUs, May Push Stock Back to $300 Mark - TradingKey",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "12a9c58d2ecc71ca": {
   "ticker": "NFLX",
@@ -53794,6 +53814,11 @@
   "title": "WTI and Brent Crude Oil Prices Fall as U.S.-Iran Peace Talks Raise Hopes of De-escalation - FXLeaders",
   "ts": "2026-11-02T03:50:48.610257+00:00"
  },
+ "1e7f9cb815eaf7b6": {
+  "ticker": "NVDA",
+  "title": "Internal probe into CEO Jensen Huang and ‘foreign intelligence' weighs on high-flying Nvidia shares - NBC Bay Area",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "1e7fe41d930172f8": {
   "ticker": "MACRO",
   "title": "Euro steadies as traders weigh France’s budget risks and Fed outlook - www.tmgm.com",
@@ -63494,6 +63519,11 @@
   "title": "Latvia Approves Tesla FSD (Supervised), the 10th Country in Europe - TeslaNorth.com",
   "ts": "2026-10-26T17:00:00.655497+00:00"
  },
+ "2457c29ced15f76e": {
+  "ticker": "MACRO",
+  "title": "美联储古尔斯比：数据中心的情况看起来像传统意义上的经济过热。",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "2458cb3ad58e8066": {
   "ticker": "NFLX",
   "title": "All Eyes on Netflix’s Q3 Financials Following 6% Workforce Reduction, Market Challenges - Media Play News",
@@ -68179,6 +68209,11 @@
   "title": "USDJPY Recovers Above 157 as Traders Await Fed and BOJ Decisions - VT Markets",
   "ts": "2026-10-26T10:06:42.822774+00:00"
  },
+ "26dea844ef4be504": {
+  "ticker": "SMCI",
+  "title": "Why is Super Micro Computer stock climbing today? By Investing.com - Investing.com Canada",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "26df4823e88e5b0b": {
   "ticker": "MACRO",
   "title": "Oil Price Forecast: Yemen Tensions Fuel Supply Fears Despite Talks - FXEmpire",
@@ -72773,6 +72808,11 @@
   "ticker": "MU",
   "title": "Samsung joins SK Hynix and Micron declaring AI memory sold out for years - Startup Fortune",
   "ts": "2026-10-29T04:22:42.320467+00:00"
+ },
+ "2976aeac88492ba7": {
+  "ticker": "GOOGL",
+  "title": "Why is Alphabet stock rallying today? By Investing.com - Investing.com Canada",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "29778b2888e6ba62": {
   "ticker": "NFLX",
@@ -83074,6 +83114,11 @@
   "title": "Macro Risks Weigh On Markets; IT And Banking Stocks Offer Value, Says Emkay's Manish Sonthalia - NDTV Profit",
   "ts": "2026-10-22T09:56:11.621805+00:00"
  },
+ "2f97e5c7943fded8": {
+  "ticker": "MACRO",
+  "title": "Goldman Sachs stock weighs Treasury yields as volatility eases - ad-hoc-news.de",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "2f9810efced1db2b": {
   "ticker": "IONQ",
   "title": "Prediction: This Is How Much IonQ Stock Will Be Worth by the End of 2027 - Yahoo Finance",
@@ -84813,6 +84858,11 @@
   "ticker": "APP",
   "title": "APP Shareholder Alert: AppLovin Corporation Securities Class Action Lawsuit - Investors With Losses May Contact Levi & K",
   "ts": "2026-10-28T19:37:42.685016+00:00"
+ },
+ "309f2bb526b8e119": {
+  "ticker": "NVDA",
+  "title": "Google’s AI chip push adds more pressure on Nvidia - CoinDesk",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "30a0b37d91f149cc": {
   "ticker": "NFLX",
@@ -88648,6 +88698,11 @@
   "ticker": "TSLA",
   "title": "75% of new Tesla buyers are opting for FSD, TSLA Q3 2026 financial update and earnings call with Elon Musk - Tesla Oracl",
   "ts": "2026-10-22T19:45:57.406500+00:00"
+ },
+ "32f95adcc3ce08ad": {
+  "ticker": "APP",
+  "title": "Binance Lists AppLovin-Linked APPB bStock Separate From Futures - www.tokenpost.com",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "32f9a4c18e8e8fc9": {
   "ticker": "NFLX",
@@ -135249,6 +135304,11 @@
   "title": "Switzerland’s surveillance apparatus significantly expands, Palantir loses SLAPP case against investigative media - Civi",
   "ts": "2026-10-14T15:51:37.077622+00:00"
  },
+ "4d9ccde5046b5242": {
+  "ticker": "PLTR",
+  "title": "Why is Palantir Technologies stock rallying today? By Investing.com - Investing.com India",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "4d9cfdc00ba64e89": {
   "ticker": "AMD",
   "title": "What Is Putting Advanced Micro Devices (NASDAQ:AMD) On The Technical Radar? - Kalkine Media",
@@ -144904,6 +144964,11 @@
   "title": "Tesla surprises Wall Street with lower-than-expected AI spending as SpaceX merger talks heat up - New York Post",
   "ts": "2026-10-22T00:33:34.466136+00:00"
  },
+ "53102dd3cb046c16": {
+  "ticker": "NFLX",
+  "title": "'Fast paced' Thriller Black Doves 'keeps Netflix viewers guessing' with every episode - Daily Express",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "5310be2ce5426322": {
   "ticker": "MACRO",
   "title": "Deepening tech sell-off drags stocks lower as major markets slide - Yahoo Finance UK",
@@ -146754,6 +146819,11 @@
   "title": "Extreme Euro Shorts Meet Renewed US Dollar Strength | COT Report - FOREX.com",
   "ts": "2026-11-07T10:14:08.977588+00:00"
  },
+ "543c70d5e4d05bbd": {
+  "ticker": "NVDA",
+  "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation? - BBC",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "543e132beef88731": {
   "ticker": "NVDA",
   "title": "Nvidia CEO Huang Pitches Europe on All Industries Adopting AI - Bloomberg.com",
@@ -148338,6 +148408,11 @@
   "ticker": "AAPL",
   "title": "If You'd Invested $10,000 in Apple Stock 10 Years Ago, Here's How Much You'd Have Today - The Motley Fool",
   "ts": "2026-10-28T13:13:22.501264+00:00"
+ },
+ "5516d43a0de305f0": {
+  "ticker": "NVDA",
+  "title": "Nvidia earnings overhang: what the Nov. 17 report can and cannot resolve - Yahoo Finance Singapore",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "55191d9e7800c1c2": {
   "ticker": "MACRO",
@@ -157064,6 +157139,11 @@
   "title": "Wedbush raises AppLovin stock price target to $600 on strong Q3 - Investing.com UK",
   "ts": "2026-11-05T12:29:35.049820+00:00"
  },
+ "5a0706de6597b393": {
+  "ticker": "ASTS",
+  "title": "Rakuten and AST SpaceMobile Establish \"Rakuten AST\" Joint Ventur - GuruFocus",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "5a0711cd1e3aceae": {
   "ticker": "TSLA",
   "title": "Why a Merger With Tesla Could Be a Disaster for SpaceX - Yahoo Finance",
@@ -157648,6 +157728,11 @@
   "ticker": "SPCX",
   "title": "SpaceX in talks for 80,000 cell sites to build nationwide wireless network -report - Investing.com India",
   "ts": "2026-10-22T23:43:52.183417+00:00"
+ },
+ "5a618b823b102e94": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang: Nvidia launch investigation into CEO affair wit Chinese spy – Who she be? - BBC",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "5a62ce6640510ecd": {
   "ticker": "TSLA",
@@ -182103,6 +182188,11 @@
   "ticker": "MU",
   "title": "Is Micron Stock a Buy Right Now? - Yahoo Finance",
   "ts": "2026-11-08T08:46:58.785793+00:00"
+ },
+ "682be4f98c989411": {
+  "ticker": "MACRO",
+  "title": "Goldman Sachs Sees U.S. Treasury Yields Settling Into 4.75%-5% Range as Global Bond Markets Stabilize - BigGo Finance",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "682c0362c7e0d876": {
   "ticker": "NFLX",
@@ -218069,6 +218159,11 @@
   "title": "Gotrade Daily: Amazon, Intel, GDP and PCE Tonight - Gotrade",
   "ts": "2026-10-29T07:54:43.335210+00:00"
  },
+ "7d3b27dc1765833e": {
+  "ticker": "NFLX",
+  "title": "Cillian Murphy's Critically Acclaimed 2025 Netflix Movie Flew Under Everyone's Radar - IMDb",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "7d3c548e5024fb08": {
   "ticker": "TSLA",
   "title": "Tesla Megapacks Nearly Sold Out for 2027: 110 GWh [2026] - shattered.io",
@@ -221758,6 +221853,11 @@
   "ticker": "RKLB",
   "title": "Rocket Lab Just Built a Space Robot - Yahoo Finance",
   "ts": "2026-11-07T12:43:59.896594+00:00"
+ },
+ "7f6526f4ab487751": {
+  "ticker": "NVDA",
+  "title": "Nvidia’s Stock Drops After Board Opens Investigation Into CEO - GV Wire",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "7f668f5fca77d7aa": {
   "ticker": "SPCX",
@@ -255834,6 +255934,11 @@
   "title": "NVIDIA launches RTX Spark for Windows PCs with local AI - IT Brief UK",
   "ts": "2026-10-15T19:50:16.421790+00:00"
  },
+ "934778e31d6fad3f": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Board Is Investigating Its Own CEO. How It Responded Is a Master Class in Reputation Management - Inc.com",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "9347a2b8c195e3d4": {
   "ticker": "MACRO",
   "title": "【PCE数据公布后：美联储12月加息25个基点的概率为81.3%】金十数据10月29日讯，据CME“美联储观察”：美联储12月维持利率不变的概率为18.7%，累计加息25个基点的概率为81.3%。美联储到1月维持利率不变的概率为11.9%，",
@@ -273424,6 +273529,11 @@
   "title": "$1.7 billion Elon Musk SpaceX stock pledge: Who would qualify and what we know - Yahoo Finance",
   "ts": "2026-10-20T16:17:35.329470+00:00"
  },
+ "9d58df322594ef3d": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang: What we know about Nvidia CEO's affair with suspected Chinese spy - BBC",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "9d5909fe6ef58495": {
   "ticker": "MACRO",
   "title": "Global Market: South Korean shares fall over 1% as chip stocks retreat - The Economic Times",
@@ -276279,6 +276389,11 @@
   "title": "Details of the SpaceX-Tesla merger will be negotiated without Elon Musk - Universe Space Tech",
   "ts": "2026-10-21T14:42:21.154042+00:00"
  },
+ "9efd9149e8220159": {
+  "ticker": "NVDA",
+  "title": "You Could Already Own Nvidia Stock Without Buying It - Gadget Review",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "9efdeafd1c12ac46": {
   "ticker": "NFLX",
   "title": "Oxytoxin on Netflix: Cast, Story and Episode Dates - Papo de Dorama",
@@ -277108,6 +277223,11 @@
   "ticker": "MACRO",
   "title": "I Bonds Are About to Pay Their Highest Fixed Rate in 20 Years. Here’s Why All Income Investors Should Pay Attention on N",
   "ts": "2026-10-28T14:21:25.956914+00:00"
+ },
+ "9f744883152e0245": {
+  "ticker": "SPCX",
+  "title": "SpaceX's Wireless Ambitions Send AT&T, Verizon and T-Mobile Shares in Opposite Directions - BigGo Finance",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "9f745337e4996326": {
   "ticker": "MACRO",
@@ -281452,6 +281572,11 @@
   "ticker": "SPCX",
   "title": "Elon Musk promises a share of SpaceX stock to every child in the US - Daily Express US",
   "ts": "2026-10-24T15:39:18.684776+00:00"
+ },
+ "a205934253cfb094": {
+  "ticker": "MACRO",
+  "title": "美联储古尔斯比：开始看到服务业通胀抬头。",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "a205cc515998140f": {
   "ticker": "NFLX",
@@ -303538,6 +303663,11 @@
   "title": "AmeriLife and Palantir Announce Enterprise Partnership to Bring AI-Driven Transformation to Insurance and Retirement Dis",
   "ts": "2026-11-05T14:21:44.179826+00:00"
  },
+ "aecd1d5c132bb5f9": {
+  "ticker": "MACRO",
+  "title": "墨西哥央行委员会成员博尔哈：通胀风险仍偏向上行。",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "aecd56cf58276b71": {
   "ticker": "NET",
   "title": "Cloudflare Shares Extend Premarket Rally With a 20% Gain - www.tokenpost.com",
@@ -318652,6 +318782,11 @@
   "ticker": "NVDA",
   "title": "GPU-Accelerated Grid Calculations: envelio and NVIDIA Speed Up Power Grid Analysis - Trend Hunter",
   "ts": "2026-10-22T16:12:05.631381+00:00"
+ },
+ "b78e61064349e88c": {
+  "ticker": "NFLX",
+  "title": "Know Hanuman Ansh OTT release date and platform in India; it’s neither Netflix nor Amazon Prime Video - Livemint",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "b78e70d5c4d384d2": {
   "ticker": "MACRO",
@@ -359783,6 +359918,11 @@
   "title": "From Streaming Disruptor to TV Playbook: Is Netflix rethinking content? - Exchange4Media",
   "ts": "2026-10-21T03:45:31.418200+00:00"
  },
+ "cecff17b43bf2a45": {
+  "ticker": "GOOGL",
+  "title": "Alphabet (GOOGL) Jump 3% as Google Unveils Custom AI Silicon to Challenge Nvidia - FXLeaders",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "ced03e363e51c212": {
   "ticker": "TSM",
   "title": "Moody’s upgrades TSMC rating to Aa2 on booming AI demand and market dominance - Investing.com",
@@ -370638,6 +370778,11 @@
   "title": "Tesla receives approval for self-driving tech in Slovakia - Reuters",
   "ts": "2026-10-16T16:41:28.065228+00:00"
  },
+ "d52329293047e978": {
+  "ticker": "SMCI",
+  "title": "Why is Super Micro Computer stock climbing today? - Investing.com",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "d5234e0ab34319b5": {
   "ticker": "SPCX",
   "title": "SpaceX's Elon Musk reveals $40 billion in debt for AI chips, warns of neoclouds - Yahoo Finance",
@@ -375532,6 +375677,11 @@
   "ticker": "NVDA",
   "title": "Who Is Madison Huang? Age, Husband, Nvidia Career and Net Worth - poptvculture.com",
   "ts": "2026-11-08T03:47:08.089253+00:00"
+ },
+ "d8027f2c28b80a1d": {
+  "ticker": "NVDA",
+  "title": "Nvidia Sinks 8% as Board Probes Reports Huang Was “Target of a Foreign Intelligence Effort” - Yahoo Finance",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "d802cd76c23f0b3a": {
   "ticker": "MACRO",
@@ -399198,6 +399348,11 @@
   "title": "Netflix, Intuitive Surgical, Pegasystems And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session - Benzinga",
   "ts": "2026-10-21T12:21:54.788348+00:00"
  },
+ "e5b739289d260aad": {
+  "ticker": "ASTS",
+  "title": "Ast Spacemobile set to report as satellite delays test investor patience By Investing.com - Investing.com South Africa",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
+ },
  "e5b8a620c9fe5485": {
   "ticker": "NFLX",
   "title": "You wished for this. #Obsession is coming to Netflix in the US on November 17. - linitiative.ca",
@@ -407847,6 +408002,11 @@
   "ticker": "NFLX",
   "title": "Netflix Production Wraps Filming in Fair Lawn, Highlighting Town’s Growing Film Industry - TAPinto",
   "ts": "2026-10-30T01:37:04.521850+00:00"
+ },
+ "eaea5b35c68d9063": {
+  "ticker": "NVDA",
+  "title": "Nvidia shares drop after co. investigates whether CEO was 'target of a foreign intelligence effort' - AP News",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "eaea7734c4074827": {
   "ticker": "NVDA",
@@ -436912,6 +437072,11 @@
   "ticker": "MU",
   "title": "China’s Answer to Micron Just Made Nearly $20 Billion - Yahoo Finance",
   "ts": "2026-10-17T18:27:27.062063+00:00"
+ },
+ "fb87efe0f3d78753": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang Loses $7 Billion As Nvidia Investigates Affair With Suspected Chinese Spy - Forbes",
+  "ts": "2026-11-09T15:31:55.583894+00:00"
  },
  "fb888b7c5e702ef4": {
   "ticker": "TSLA",
