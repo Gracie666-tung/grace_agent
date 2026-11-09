@@ -13004,6 +13004,11 @@
   "title": "Anthropic Held More Cash Than Nvidia and Apple Combined Ahead of IPO - Yahoo Finance",
   "ts": "2026-10-28T01:25:24.145884+00:00"
  },
+ "073a5285965b4fa6": {
+  "ticker": "NVDA",
+  "title": "Nvidia Stock Falls on Report of CEO Probe Over Alleged Spy Effort - Yahoo Finance",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "073ac588bdad0b93": {
   "ticker": "NVDA",
   "title": "SpaceX Secures $40 Billion Lease Deal for Next-Gen Nvidia AI Chips - Israel Defense",
@@ -21683,6 +21688,11 @@
   "ticker": "NVDA",
   "title": "INVESCO QQQ Trust (QQQ) Sells $14.3 Million More NVIDIA on Thursday - Yahoo Finance",
   "ts": "2026-10-26T12:45:13.089753+00:00"
+ },
+ "0c2d1964ec808102": {
+  "ticker": "SPCX",
+  "title": "Alphabet Keeps Its Massive SpaceX Bet. Now It's Making a $548 Million Qualcomm Move - Yahoo Finance Australia",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "0c2e79554b35f3ab": {
   "ticker": "NFLX",
@@ -39334,6 +39344,11 @@
   "title": "Tesla to end Cybertruck production in 2027 - Trinidad Express Newspapers",
   "ts": "2026-11-09T02:41:12.159433+00:00"
  },
+ "16779f3afd6d5dda": {
+  "ticker": "NVDA",
+  "title": "Nvidia: Investigation Into CEO Huang Casts Dark Cloud Over Company's Bright AI Future - Morningstar",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "1677feeed3c2780c": {
   "ticker": "TSLA",
   "title": "Elon Musk’s SpaceX-Tesla merger covers up EV company’s decline - The Telegraph",
@@ -43903,6 +43918,11 @@
   "ticker": "SPCX",
   "title": "SpaceX price target raised to $345 from $246 at Cantor Fitzgerald - TipRanks",
   "ts": "2026-10-21T16:02:58.973142+00:00"
+ },
+ "1915d7f9f6935ee1": {
+  "ticker": "SPCX",
+  "title": "SpaceX: Buy - The Elon Effect Hasn't Landed Yet (NASDAQ:SPCX) - Seeking Alpha",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "19168864be7ae7aa": {
   "ticker": "MACRO",
@@ -56358,6 +56378,11 @@
   "ticker": "TSM",
   "title": "TSMC’s 3nm Kumamoto plan wins Japan’s approval, qualifying for up to $4.1 billion in aid - digitimes",
   "ts": "2026-10-17T10:08:00.684272+00:00"
+ },
+ "203c6eb097ced844": {
+  "ticker": "NVDA",
+  "title": "Only One Analyst Rates Nvidia a Sell. Is the Lone Bear Onto Something? - Yahoo Finance",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "203ceaf1f172bebe": {
   "ticker": "NVDA",
@@ -112239,6 +112264,11 @@
   "title": "Democrats take control of Congress, Tesla and SpaceX valuations drop - NewsBytes",
   "ts": "2026-11-04T14:44:03.867319+00:00"
  },
+ "40cc3e9e024bce41": {
+  "ticker": "NVDA",
+  "title": "Thieves stole $11.4 million in Nvidia hardware from Oakland shipment - Quartz",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "40cdad3342292b30": {
   "ticker": "NFLX",
   "title": "Jake Paul's Christmas Fight Loses Netflix Deal - boxingnews.com",
@@ -123044,6 +123074,11 @@
   "title": "CME vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027? - The Globe and Mail",
   "ts": "2026-11-03T13:40:18.391688+00:00"
  },
+ "4701ed0d88c8c409": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile, Rakuten Form JV to Build LEO Satellite Communications Network in Japan; Shares Up Pre-Bell - marketscre",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "4701fcf72fa6e65c": {
   "ticker": "MACRO",
   "title": "Binance Market Update | S&P 500 Near a Record While Half the Russell 3000 Is in a Bear Market — Bitcoin Held as AI Credi",
@@ -131738,6 +131773,11 @@
   "ticker": "NVDA",
   "title": "Samsung Electro-Mechanics partners with NVIDIA to support AI chip production - Sammy Fans",
   "ts": "2026-10-21T22:50:32.571387+00:00"
+ },
+ "4c2019494a50dfd3": {
+  "ticker": "NVDA",
+  "title": "Will Jensen Huang Survive Nvidia's Spy Scandal? What Prediction Markets Say - Benzinga",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "4c20d5c711cccd74": {
   "ticker": "NFLX",
@@ -152769,6 +152809,11 @@
   "title": "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence. - Yahoo Fina",
   "ts": "2026-10-21T19:45:31.123681+00:00"
  },
+ "5839348c3596e6e5": {
+  "ticker": "TSLA",
+  "title": "Tesla to pull the plug on Cybertruck after years of poor sales - nwitimes.com",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "5839bac80d4ae465": {
   "ticker": "MACRO",
   "title": "Wall Street in panic: Democrats tear down markets - Massive flight to bonds, alert for Trump's next day - Bankingnews",
@@ -162659,6 +162704,11 @@
   "title": "Quentin Tarantino has plenty of problems with Netflix. The one series he adores is the exception - Far Out Magazine",
   "ts": "2026-10-17T22:12:55.880693+00:00"
  },
+ "5dc4d21540ec3ae2": {
+  "ticker": "SPCX",
+  "title": "SpaceX Cratered 20% in The Last Month: This Wall Street Pro Predicts 500% Returns at Today's Price - 24/7 Wall St.",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "5dc5f1e33e236ea9": {
   "ticker": "SPCX",
   "title": "SpaceX Renames AI Unit SpaceXSI as Stock Jumps 5% [2026] - https://tech-insider.org/",
@@ -165343,6 +165393,11 @@
   "ticker": "ANET",
   "title": "Arista Networks stock heads into earnings with AI test - ad-hoc-news.de",
   "ts": "2026-10-30T15:39:45.577462+00:00"
+ },
+ "5f4729ee69e3c06b": {
+  "ticker": "NVDA",
+  "title": "Investors Watch Closely as NVIDIA Investigates CEO Huang - WJR-AM",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "5f474e17e2575456": {
   "ticker": "SPCX",
@@ -183028,6 +183083,11 @@
   "ticker": "APP",
   "title": "AppLovin Corporation (Coinbase Tokenized Stock) Price, APPC Price, Live Charts, and Marketcap - Coinbase Italy - Coinbas",
   "ts": "2026-10-29T23:53:56.564844+00:00"
+ },
+ "69490a04d6ac09a0": {
+  "ticker": "NVDA",
+  "title": "Analysts say Huang scandal could hang over Nvidia and chips industry for a while. Here's why - CNBC",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "6949fc3e313819e3": {
   "ticker": "NVDA",
@@ -206459,6 +206519,11 @@
   "title": "Complete Adrija Sinha Web Series List 2026: Netflix, Prime & More - EkSukoon",
   "ts": "2026-10-26T13:59:47.032499+00:00"
  },
+ "77315a2a4b05b15f": {
+  "ticker": "NFLX",
+  "title": "Oscar winner Jessica Chastain, co-stars preview Netflix country music thriller 'Heartland' - newscentermaine.com",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "7731ae6ad6e9405c": {
   "ticker": "NFLX",
   "title": "Indonesia Drafts New Film Law as Jakarta, Home to Four Netflix Productions, Courts International Shoots (EXCLUSIVE) - Va",
@@ -206478,6 +206543,11 @@
   "ticker": "SPCX",
   "title": "Musk’s SpaceX gift puts Trump Accounts’ stock rules to the test - InvestmentNews",
   "ts": "2026-10-21T14:48:59.953510+00:00"
+ },
+ "77341e77ca9a61fb": {
+  "ticker": "NVDA",
+  "title": "Wall St set to open higher after last week's AI rout; Nvidia down - The Lufkin Daily News",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "7734e39107e296ea": {
   "ticker": "MACRO",
@@ -212384,6 +212454,11 @@
   "title": "Corcept Therapeutics Incorporated (CORT) stock price, news, quote and history - Yahoo Finance Australia",
   "ts": "2026-10-27T15:03:37.648450+00:00"
  },
+ "7abe7d132ec7def0": {
+  "ticker": "MU",
+  "title": "Micron Has Lost Over 40% Since June. Where Does Its Price Target Stand Now? - 24/7 Wall St.",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "7abe870deb3e68bb": {
   "ticker": "NVDA",
   "title": "Trump says Nvidia's Huang is 'fine person' amid foreign spy probe - marketscreener.com",
@@ -215028,6 +215103,11 @@
   "ticker": "NVDA",
   "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU or",
   "ts": "2026-11-08T13:01:06.660230+00:00"
+ },
+ "7c3e9f946aecdb40": {
+  "ticker": "SPCX",
+  "title": "Wall Street sets SpaceX stock price target for 2027 - Finbold",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "7c3fa6dae8d2fbfd": {
   "ticker": "MACRO",
@@ -225883,6 +225963,11 @@
   "ticker": "MACRO",
   "title": "美国原油期货结算价为每桶97.15美元，下跌67美分，跌幅0.68%。",
   "ts": "2026-10-21T18:37:06.552140+00:00"
+ },
+ "82a0c2e88bb1ea6d": {
+  "ticker": "PLTR",
+  "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress - WNYC",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "82a0e4b5eac00d7a": {
   "ticker": "GOOGL",
@@ -260669,6 +260754,11 @@
   "title": "Oil supply risks grow as US eases Russia sancti... - Pluang",
   "ts": "2026-10-19T06:31:02.521888+00:00"
  },
+ "96e390d71d2bd4c3": {
+  "ticker": "MACRO",
+  "title": "Is PEP Overvalued? DCF Says Worth $105 - GuruFocus",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "96e3b094a6907485": {
   "ticker": "SPCX",
   "title": "Musk Pledges SpaceX Share For US Children, Australia MP Hit By Car, Paris Protesters Block Off Louvre: The Bulletin, Oct",
@@ -270243,6 +270333,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More - Wccftec",
   "ts": "2026-10-24T00:05:54.570171+00:00"
+ },
+ "9c6bfdcc65251f8b": {
+  "ticker": "NFLX",
+  "title": "Netflix Tokenized Stock Holds Support Amid Mixed Signal - TradingPedia",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "9c6cdc4e5cc8ad32": {
   "ticker": "NET",
@@ -297053,6 +297148,11 @@
   "title": "Earnings Results Wrap with Apple After the Close - TradingView",
   "ts": "2026-11-02T16:58:25.739379+00:00"
  },
+ "ac24a145d750f565": {
+  "ticker": "NVDA",
+  "title": "Trump calls Nvidia CEO ‘honorable guy’ amid probe into ties to suspected Chinese spy - KMPH Fox 26",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "ac24a7554434f240": {
   "ticker": "AAOI",
   "title": "(AAOI) Applied Optoelectronics, Inc. Expects Q4 Adjusted EPS Range $0.48 - $0.63 - marketscreener.com",
@@ -297647,6 +297747,11 @@
   "ticker": "NFLX",
   "title": "Netflix stock: Seaport cuts target for Netflix stock from USD 102 to USD 90 - ad-hoc-news.de",
   "ts": "2026-10-20T14:33:47.755710+00:00"
+ },
+ "ac7de1b76aa8fc47": {
+  "ticker": "SPCX",
+  "title": "Here's What Must Happen for SpaceX Stock to Rebound - Yahoo Finance",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "ac7f03bd46e21385": {
   "ticker": "ANET",
@@ -309598,6 +309703,11 @@
   "title": "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
   "ts": "2026-10-15T17:29:27.652198+00:00"
  },
+ "b3943f4adb79181a": {
+  "ticker": "APP",
+  "title": "APP Price Prediction: AppLovin’s blowout quarter lifts the stock, but momentum is stretched - Blockchain News",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "b3954c23fa1c355c": {
   "ticker": "NVDA",
   "title": "Nvidia: Financial Risks Behind AI Expansion (NASDAQ:NVDA) - Seeking Alpha",
@@ -314948,6 +315058,11 @@
   "title": "Netflix faces questions on user engagement ahead of third-quarter report - Euronext Markets: Real-time Stock Market Data",
   "ts": "2026-10-19T11:25:03.430838+00:00"
  },
+ "b69a9312e21a40dc": {
+  "ticker": "TSLA",
+  "title": "EV Stocks Stage Narrow Rebound Without Tesla as Charging and China Names Lead - ChartMill",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "b69c282837902b46": {
   "ticker": "NFLX",
   "title": "‘The Diplomat,’ ‘Nobody Wants This,’ ‘East of Eden’ Among Series to Take Part in Netflix’s ‘FYSee: The Fall Edit’ Awards",
@@ -319468,6 +319583,11 @@
   "title": "Ben Affleck Almost Cast Ex-Wife Jennifer Garner in His Netflix Film ‘Animals’: ‘We Don’t Want to Do That’ - IMDb",
   "ts": "2026-10-19T23:43:45.730094+00:00"
  },
+ "b93994ebf577009d": {
+  "ticker": "PLTR",
+  "title": "Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning - The Globe and Mai",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "b939b436a66a7aff": {
   "ticker": "NFLX",
   "title": "Netflix’s Cornell Seven documentary is pure activism - UnHerd",
@@ -320607,6 +320727,11 @@
   "ticker": "NFLX",
   "title": "Bridgerton star Nicola Coughlan transformed with huge prosthetic to film Netflix movie - Irish Star",
   "ts": "2026-10-28T20:38:53.034353+00:00"
+ },
+ "b9d623fe3ad22926": {
+  "ticker": "MACRO",
+  "title": "Bitcoin faces pressure after mass long liquidat... - Pluang",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "b9d65b846d7f9fe3": {
   "ticker": "TSLA",
@@ -333903,6 +334028,11 @@
   "title": "Firefly Aerospace (FLY) Thunders 20% Higher on $1.3B AST SpaceMobile Rocket Deal - TipRanks",
   "ts": "2026-11-06T15:43:42.197041+00:00"
  },
+ "c1587e463841d505": {
+  "ticker": "SPCX",
+  "title": "Why is Jim Cramer refusing to buy SpaceX stock despite its explosive growth? - Invezz",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "c158817f107ed33c": {
   "ticker": "NFLX",
   "title": "Chiranjeevi all set to make debut with Netflix series 'Chiranjeevi's Megaverse' - ANI News",
@@ -334857,6 +334987,11 @@
   "ticker": "NFLX",
   "title": "What I’m Hearing: Bela Out at Netflix & Jeff Shell Returns! - puck.news",
   "ts": "2026-10-15T23:35:16.715784+00:00"
+ },
+ "c1ecd480433f8e7d": {
+  "ticker": "APP",
+  "title": "The Trade Desk Jumps 8% Ahead of Earnings; Magnite Gains 2%, AppLovin Dips - 24/7 Wall St.",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "c1ecf642587b0ad5": {
   "ticker": "NFLX",
@@ -339818,6 +339953,11 @@
   "title": "Netflix's 'Black Doves' Season 2 Finale Recap & Ending Explained: Has Helen Webb Been Exposed? - Esquire",
   "ts": "2026-11-06T11:31:12.232115+00:00"
  },
+ "c48c0afe3b71c42c": {
+  "ticker": "TSLA",
+  "title": "Tesla China Sales Sink To Four-Year Low; Robotaxi Launches New Market - Investor's Business Daily",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "c48cb616e94d91c4": {
   "ticker": "IBKR",
   "title": "Interactive Brokers Group Inc (IBKR) Shares Fall 3.9% -- What GF Score of 81 Tells Investors - GuruFocus",
@@ -340462,6 +340602,11 @@
   "ticker": "HOOD",
   "title": "个股新闻 1. 市场消息：高盛(GS.N)承诺出资5亿美元，启动小企业人工智能研究所，并扩展1万家小企业。 2. 苹果(AAPL.O)：（就澳大利亚联邦法院要求其开放iOS系统的裁决）我们将申请暂缓执行并提起上诉。 3. Robinhood",
   "ts": "2026-10-22T12:14:13.041061+00:00"
+ },
+ "c4f5500a2ec9fdff": {
+  "ticker": "NVDA",
+  "title": "Google expands AI chip lineup as Nvidia faces CEO spy scandal - Investing.com",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "c4f7065d42abfe0c": {
   "ticker": "MACRO",
@@ -360383,6 +360528,11 @@
   "title": "Netflix Is Laying Off 6% of Its Workforce, in Biggest Round of Job Cuts at Streaming Giant in Years - Deccan Chronicle",
   "ts": "2026-10-14T20:19:22.815809+00:00"
  },
+ "d08b0980242dc32d": {
+  "ticker": "RKLB",
+  "title": "Top US stocks to watch this week: Cisco, Applied Materials, Rocket Lab - Invezz",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
+ },
  "d08bff96be39ab30": {
   "ticker": "TSLA",
   "title": "Gene Munster Says Tesla FSD Is at an ‘Inflection Point’ as TSLA AI Lead Says Rivals Can’t 'Match It' for Years—Dan Ives ",
@@ -367957,6 +368107,11 @@
   "ticker": "NFLX",
   "title": "‘PUBG’ live-action adaptation in works at Netflix with Donald Glover - ARYnews.tv",
   "ts": "2026-10-30T04:58:16.953684+00:00"
+ },
+ "d4ea070aa76c8415": {
+  "ticker": "NVDA",
+  "title": "Stocks find firmer ground but Nvidia woes pose fresh test, oil falls - Kitco",
+  "ts": "2026-11-09T13:52:55.661407+00:00"
  },
  "d4ea7e6f850d8268": {
   "ticker": "MACRO",
