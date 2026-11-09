@@ -29474,6 +29474,11 @@
   "title": "US futures mostly higher as Wall Street digests earnings from SpaceX, Netflix - Bluefield Daily Telegraph",
   "ts": "2026-10-21T11:51:24.303505+00:00"
  },
+ "110eca03d12de7ec": {
+  "ticker": "MACRO",
+  "title": "Oil Price Today (November 9): Crude oil falls below $100 again as Trump says fresh attacks ‘highly unlikel - The Economi",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "110f364fad6122b3": {
   "ticker": "NVDA",
   "title": "NVIDIA Corporation (NVDA.NE) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
@@ -37243,6 +37248,11 @@
   "ticker": "NVDA",
   "title": "英伟达用8192块GPU刷新量子模拟纪录，容错量子计算试图跨过“纠错成本墙”：英伟达利用8192块GPU完成104量子比特容错计算模拟，并验证了可将物理量子比特需求减少约90%的技术路线，试图直接压低未来实用量子计算系统最核心的资源开销。",
   "ts": "2026-10-20T14:15:39.677513+00:00"
+ },
+ "15b564d6c855b376": {
+  "ticker": "NVDA",
+  "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair - AOL.com",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "15b59294fe77a4c0": {
   "ticker": "RKLB",
@@ -65904,6 +65914,11 @@
   "title": "Saudi Arabia’s Ras Tanura oil refinery struck by missile, Yemen’s Houthis say - www.tmgm.com",
   "ts": "2026-10-28T01:32:05.083209+00:00"
  },
+ "26ad5c24afa04dd6": {
+  "ticker": "NVDA",
+  "title": "Nvidia NVHBM: 30% Bandwidth Claim, HBM4 Squeeze [2026] - https://tech-insider.org/",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "26add8f5854d7581": {
   "ticker": "SPCX",
   "title": "Deutsche Telekom: A Catalan Cloud Nod, a Raised Buyback Call and the SpaceX Question Mark - ad-hoc-news.de",
@@ -65988,6 +66003,11 @@
   "ticker": "MACRO",
   "title": "分析师克里斯·安斯蒂：我们此前已了解到，美联储主席沃什曾提议将利率决策会议的次数调整为每年六次，而另外两次政策会议则用于进行更广泛的经济与政策讨论。",
   "ts": "2026-10-28T18:40:25.529656+00:00"
+ },
+ "26b7455db9fdd1d8": {
+  "ticker": "MACRO",
+  "title": "Australian Dolllar edges lower to near 0.6850 on robust US jobs data - Mitrade",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "26b7c47319a9bc0f": {
   "ticker": "IONQ",
@@ -75703,6 +75723,11 @@
   "ticker": "NFLX",
   "title": "I went to the cinema for this Netflix movie, but now its 4K disc is possibly even better than that - T3",
   "ts": "2026-10-27T18:13:25.177700+00:00"
+ },
+ "2c71f00b2f5f90a9": {
+  "ticker": "MACRO",
+  "title": "Gold rebounds above $4,100 as traders await US inflation data after jobs beat - Investing.com",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "2c72e1f3b9b00715": {
   "ticker": "SPCX",
@@ -90009,6 +90034,11 @@
   "title": "AST SpaceMobile advances satellite-to-phone rollout amid legal risks: ASTS gains momentum - Traders Union",
   "ts": "2026-10-30T08:56:21.197964+00:00"
  },
+ "353fa20a65a1524f": {
+  "ticker": "NVDA",
+  "title": "What We Know About Megaspeed, the Nvidia Buyer in the Probe - FourWeekMBA",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "354050981a9350d9": {
   "ticker": "NFLX",
   "title": "Disney+ & Netflix Hoover Up Non-English Acquisitions As Fervor For Japanese & Korean Content Continues – Ampere - Deadli",
@@ -94918,6 +94948,11 @@
   "ticker": "MACRO",
   "title": "Oil News: Crude Oil Outlook Turns Cautious as Iran Talks Test War Premium - FXEmpire",
   "ts": "2026-11-02T10:47:22.463030+00:00"
+ },
+ "381ecdca0d4aa483": {
+  "ticker": "TSM",
+  "title": "台积电涨幅扩大至6%。",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "381f73792643b0ad": {
   "ticker": "TSLA",
@@ -248034,6 +248069,11 @@
   "title": "Nvidia stock rises after Meta deal, but AI financing risks linger - Invezz",
   "ts": "2026-10-27T19:02:12.359975+00:00"
  },
+ "9316feccb9cbac49": {
+  "ticker": "TSM",
+  "title": "TSMC Weighs Expanding Into Advanced Memory Chip Production - marketscreener.com",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "9318b07be1a0e947": {
   "ticker": "NVDA",
   "title": "Nvidia’s Huang highlights AI benefits in Berlin speech amid wider European tour - Yahoo Finance Singapore",
@@ -252833,6 +252873,11 @@
   "ticker": "MACRO",
   "title": "据路透调查：31位分析师中有17位认为，哥伦比亚央行将在10月加息25个基点至12.50%；一位分析师预计将加息75个基点至13%。",
   "ts": "2026-10-26T16:16:49.600385+00:00"
+ },
+ "95eb1299d923e418": {
+  "ticker": "NVDA",
+  "title": "AMD or Nvidia: Which AI Chip Stock Would I Buy With $1,000 Today? - The Globe and Mail",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "95ec3d3f60dcfc5b": {
   "ticker": "AAPL",
@@ -377898,6 +377943,11 @@
   "title": "Alphabet Is on the Ropes. It’s an Opening for Long-Term Investors. - Barron's",
   "ts": "2026-11-04T10:19:58.518345+00:00"
  },
+ "dfcce73a09c2154c": {
+  "ticker": "NFLX",
+  "title": "'Nobody Wants This' renewed for season 4 at Netflix - Hometown News Now",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "dfccffd45caeb57c": {
   "ticker": "HAG",
   "title": "Hensoldt-Aktie: Auftragsbestand mit 10,3 Mrd. Euro so hoch wie nie - Börse Express",
@@ -417068,6 +417118,11 @@
   "title": "Arista (NYSE:ANET) Cracks A Key Support: Is the AI Rally Over? - Kalkine Media",
   "ts": "2026-11-03T14:00:44.881147+00:00"
  },
+ "f76dbd5847308153": {
+  "ticker": "NVDA",
+  "title": "Billionaire Tech CEO Admits to Affair as Nvidia Investigates Whether He Had ‘Close Relationship’ with Suspected Chinese ",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
+ },
  "f76e0f6bcd7bccf3": {
   "ticker": "MACRO",
   "title": "Dow rises 556 points as investors rotate out of AI stocks on inflation fears - Invezz",
@@ -431297,6 +431352,11 @@
   "ticker": "NVDA",
   "title": "Watch Chinese spy agency reportedly targets Nvidia CEO - FNC - FOX One",
   "ts": "2026-11-07T21:24:42.764047+00:00"
+ },
+ "ffde982a33f3b7ae": {
+  "ticker": "NFLX",
+  "title": "\"Stopped Lectures Saying He Was Ill Just 3 Weeks Before the CSAT\"... Famous Instructor Appears on Netflix Variety Show, ",
+  "ts": "2026-11-09T02:23:06.453418+00:00"
  },
  "ffdff7afaa3b7f23": {
   "ticker": "NFLX",
