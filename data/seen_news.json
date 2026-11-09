@@ -33824,6 +33824,11 @@
   "title": "消息人士称，特斯拉收购SolarCity引发的股东诉讼，被视为评估SpaceX与特斯拉之间谈判的一个参考标尺。",
   "ts": "2026-10-22T04:30:41.254257+00:00"
  },
+ "135d8f38be02465d": {
+  "ticker": "MACRO",
+  "title": "【墨西哥通胀意外加速 央行降息决定遭质疑】金十数据11月9日讯，墨西哥10月年度通胀率加速上升，幅度超过预期，可能加剧外界对墨西哥央行上周在物价压力持续存在的情况下决定降息的质疑。墨西哥国家统计局周一公布，10月消费者价格指数同比上涨3.7",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "135e069f55d1a13c": {
   "ticker": "MACRO",
   "title": "British Pound little changed against Euro as BoE lifts rates to 4.00% - FXStreet",
@@ -62618,6 +62623,11 @@
   "ticker": "NFLX",
   "title": "Cinema chains turning their back on Netflix, and Cliff Booth film - IMDb",
   "ts": "2026-11-04T12:58:27.361369+00:00"
+ },
+ "242c467e63325e97": {
+  "ticker": "NVDA",
+  "title": "NVDA stock price today: Nvidia shares slide 5% after Jensen Huang’s affair admission as China spy probe pu - The Economi",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "242ca0741aa9fe89": {
   "ticker": "NFLX",
@@ -92449,6 +92459,11 @@
   "title": "Rand reverses early gains as Middle East tensions push oil prices higher - thenational.co.za",
   "ts": "2026-10-22T14:46:18.430495+00:00"
  },
+ "35a19c1dcf0b024c": {
+  "ticker": "NFLX",
+  "title": "‘Love Is Blind: South Africa’ release date reportedly set for 4 December on Netflix - The Citizen",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "35a19feabf0cb8b1": {
   "ticker": "TSLA",
   "title": "Production of Tesla’s Cybertruck will wind down soon with allure escaping most potential buyers - East Bay Times",
@@ -93328,6 +93343,11 @@
   "ticker": "ANET",
   "title": "Arista Networks Stock Pops on Q3 Earnings Beat, Strong Q4 Guidance - Benzinga",
   "ts": "2026-11-03T21:54:47.544069+00:00"
+ },
+ "36178c34db1f6a3f": {
+  "ticker": "MACRO",
+  "title": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks By Reuters - Investing.com",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "3617b5921a01e712": {
   "ticker": "NFLX",
@@ -102539,6 +102559,11 @@
   "title": "TSMC assesses US data center readiness for chipmaking expansion - ET Datacenters",
   "ts": "2026-10-16T06:39:45.020971+00:00"
  },
+ "3b513b795361a141": {
+  "ticker": "NVDA",
+  "title": "Dow Jones Futures Rise; Nvidia Tumbles As Board Probes CEO Jensen Huang Spying Case - Investor's Business Daily",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "3b514d135c22c428": {
   "ticker": "NVDA",
   "title": "HIVE Digital Technologies Ltd. (HIVE) Secures ~$129M 9% Debt to Fund NVIDIA GB200 Cluster - TradingView",
@@ -102743,6 +102768,11 @@
   "ticker": "MACRO",
   "title": "Stocks See Slight Rebound After Thursday's Rout But Remain Well Below Highs - inkl",
   "ts": "2026-11-06T23:05:19.900401+00:00"
+ },
+ "3b6d2f00c92d2a80": {
+  "ticker": "NVDA",
+  "title": "AI stocks fall after midterm results as Nvidia CEO faces investigation - WAFB",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "3b6dd1a16942073e": {
   "ticker": "NFLX",
@@ -119988,6 +120018,11 @@
   "ticker": "NVDA",
   "title": "Trump defends Nvidia CEO amid Chinese spying allegations - Al Jazeera",
   "ts": "2026-11-09T03:35:40.124727+00:00"
+ },
+ "456ae0994b48f458": {
+  "ticker": "SPCX",
+  "title": "Stifel Sees Opportunity For SpaceX In Stalled Data Center Projects — Reiterates ‘Buy’ Ahead Of Flight 15 - Stocktwits",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "456bbe7e9805b86b": {
   "ticker": "MU",
@@ -138954,6 +138989,11 @@
   "title": "Agile Robots Launches Agile ONE SN Humanoid at NVIDIA GTC Berlin and Pilots Humanoids with Audi - ACROFAN USA",
   "ts": "2026-10-27T13:00:52.103588+00:00"
  },
+ "506057a05343a621": {
+  "ticker": "PLTR",
+  "title": "Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning - AOL.com",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "5062a4b21cf047f6": {
   "ticker": "NFLX",
   "title": "Fallon Sherrock at centre of row after beating Luke Littler to win £501k live on Netflix - AOL.com",
@@ -143009,6 +143049,11 @@
   "title": "TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says - Stocktwits",
   "ts": "2026-10-16T11:43:24.846688+00:00"
  },
+ "52c5ad138a3f4fd6": {
+  "ticker": "TSLA",
+  "title": "Musk says Tesla will return Cybertruck deposits to many buyers (TSLA:NASDAQ) - Seeking Alpha",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "52c65ca7242cb14e": {
   "ticker": "MU",
   "title": "Micron reveals DDR6, LPDDR6, HBM and NAND roadmap as AI memory demand keeps climbing - TweakTown",
@@ -143708,6 +143753,11 @@
   "ticker": "MACRO",
   "title": "PCE Arrives After the Fed: Bitcoin Faces a Second Macro Test on October 29 - Coin Edition",
   "ts": "2026-10-26T10:18:33.996406+00:00"
+ },
+ "53261c86816ebda5": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Troubles, AMD's Boost, Nasdaq Futures | Barron's Daily November 9 - Barron's",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "5326b91f03806793": {
   "ticker": "MACRO",
@@ -144454,6 +144504,11 @@
   "title": "Dow jumps over 1,000 points after US midterm election results, Tesla and SpaceX slide - The Financial Express",
   "ts": "2026-11-04T15:58:01.293293+00:00"
  },
+ "539e26abb72bae88": {
+  "ticker": "NVDA",
+  "title": "China Rejects Espionage Claims Involving Nvidia C.E.O. Jensen Huang - The New York Times",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "53a0828be54ff350": {
   "ticker": "MU",
   "title": "Micron Technology (MU) Stock Falls 9.4% Today - 24/7 Wall St.",
@@ -145078,6 +145133,11 @@
   "ticker": "MACRO",
   "title": "澳洲联储：产能约束似乎比此前预想的略紧，有迹象显示燃料成本上升正反映在其他商品和服务的价格中。",
   "ts": "2026-11-03T03:36:21.880695+00:00"
+ },
+ "540d9d730cdf0b8c": {
+  "ticker": "MU",
+  "title": "Micron Technology stock faces Taiwan expansion test - ad-hoc-news.de",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "540da0684bfb2412": {
   "ticker": "MACRO",
@@ -165614,6 +165674,11 @@
   "title": "Suspected Chinese Spy Gained Access to Nvidia’s Jensen Huang - trendingtopics.eu",
   "ts": "2026-10-30T12:35:16.827023+00:00"
  },
+ "5fb1a7dd6e4b13f1": {
+  "ticker": "ASTS",
+  "title": "Rakuten and AST SpaceMobile Establish \"Rakuten AST\" Joint Venture to Build D2D Satellite Communications Network in Japan",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "5fb23bc496126a73": {
   "ticker": "MACRO",
   "title": "Naira Touches N1,395 To US Dollar As FX Order Book Surges - MarketForces Africa",
@@ -180629,6 +180694,11 @@
   "title": "Amazon (AMZN) Takes Aim at Nvidia with New AI Chip - TipRanks",
   "ts": "2026-10-20T14:46:02.540938+00:00"
  },
+ "6840c2fce28be197": {
+  "ticker": "NVDA",
+  "title": "Nvidia launches independent probe after CEO Jensen Huang was allegedly targeted by Chinese intelligence - KTNN",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "6841e1da3aba8083": {
   "ticker": "MACRO",
   "title": "金十期货11月9日讯，据上海国际能源交易中心：经研究决定，自2026年11月11日（即11月10日夜盘）交易起，非期货公司会员、境外特殊非经纪参与者、客户在原油、低硫燃料油期货相关合约的交易限额调整如下：原油期货SC2612、SC2701合",
@@ -185918,6 +185988,11 @@
   "ticker": "TSLA",
   "title": "Elon Musk Says Tesla’s Megapacks Are Nearly Sold Out Through 2027 as Energy Demand Surges: 'Ramping Production as Quickl",
   "ts": "2026-10-22T12:08:13.172883+00:00"
+ },
+ "6b60168930247e61": {
+  "ticker": "TSLA",
+  "title": "Tesla Plans to End Cybertruck Production by Mid-2027 and Refund Outstanding Customer Deposits - Yahoo Finance",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "6b615324a2c31d90": {
   "ticker": "NVDA",
@@ -224989,6 +225064,11 @@
   "title": "Google's Nvidia chip challenge boosts cloud sales, crimps cash flow - The Financial Express",
   "ts": "2026-10-29T19:50:44.639878+00:00"
  },
+ "827c6b66bee3dafb": {
+  "ticker": "MACRO",
+  "title": "Bitcoin and US Stocks Drop Amid AI Concerns and Rate Hikes - KuCoin",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "827cf8da99f56613": {
   "ticker": "TSLA",
   "title": "Elon Musk says Tesla will stop making iconic vehicles - Yahoo Finance Singapore",
@@ -236173,6 +236253,11 @@
   "ticker": "NVDA",
   "title": "Meta Draws 5 Times Demand for $25 Billion Stock Sale as Nvidia and AMD Invest $4 Billion - TipRanks",
   "ts": "2026-10-27T15:47:11.689851+00:00"
+ },
+ "890d7628629a89e6": {
+  "ticker": "NVDA",
+  "title": "The India Upside to Jensen Huang’s Nvidia Crisis - Bloomberg.com",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "890e5d02775d7c88": {
   "ticker": "AMD",
@@ -250404,6 +250489,11 @@
   "title": "Canadian Dollar strengthens as BoC delivers rate hike, US PCE data in focus | FXStreet - شبكة تواصل الإخبارية",
   "ts": "2026-10-29T02:01:52.118788+00:00"
  },
+ "916c3b3bf22e7b8c": {
+  "ticker": "MACRO",
+  "title": "S&P 500 Valuation Dives as Record Earnings Keep the Bull Market Intact - Investing.com",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "916d1d3b668921b1": {
   "ticker": "MACRO",
   "title": "Markets.com - Markets.com",
@@ -255608,6 +255698,11 @@
   "ticker": "TSLA",
   "title": "Tesla Shows Off Flying Roadster: Don’t Buy the Hype - GearJunkie",
   "ts": "2026-10-16T22:04:14.791547+00:00"
+ },
+ "9475b62175c3be35": {
+  "ticker": "MACRO",
+  "title": "3 Dividend Aristocrats Yielding More Than the 2027 COLA - 24/7 Wall St.",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "94766cd2f7db0b8a": {
   "ticker": "NVDA",
@@ -275717,6 +275812,11 @@
   "ticker": "NFLX",
   "title": "‘The Diplomat’ Renewed for Season 5 at Netflix - IMDb",
   "ts": "2026-10-29T15:08:31.563560+00:00"
+ },
+ "a02705d570c8f5e6": {
+  "ticker": "MACRO",
+  "title": "全球AI交易遭遇大考！花旗警告美股仍有下跌空间，欧洲成新宠：美国中期选举引发AI监管担忧，全球科技股遭遇剧烈震荡。花旗集团随即下调美股和全球科技股评级，并上调欧洲股票至“超配”，全球资金配置方向或迎来新一轮调整。点击查看",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "a0274d851e09b682": {
   "ticker": "NFLX",
@@ -322978,6 +323078,11 @@
   "title": "Palantir Technologies' Revenue Growth Offsets Flat Backlog, UBS Says - marketscreener.com",
   "ts": "2026-11-03T17:22:11.762612+00:00"
  },
+ "bb9e28951c013908": {
+  "ticker": "AMD",
+  "title": "Buy, Sell, or Hold? Monday's Top Upgrades and Downgrades: Advanced Micro Devices, Airbnb, DraftKings, L3 Harris Technolo",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "bb9f7ca1bdac5780": {
   "ticker": "NFLX",
   "title": "VIZ Media Announces Hirayasumi Anime Will Stream on Netflix in January 2027 - The Outerhaven",
@@ -338837,6 +338942,11 @@
   "ticker": "NFLX",
   "title": "'The Diplomat' Season 3 Recap: What To Remember Before Netflix's Political Thriller Returns - Collider",
   "ts": "2026-10-14T18:17:20.446112+00:00"
+ },
+ "c4889cd7ff51e5c8": {
+  "ticker": "MACRO",
+  "title": "Goldman Sachs stock weighs Treasury yield range as volatility eases - ad-hoc-news.de",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "c48b06f97ce51a64": {
   "ticker": "MACRO",
@@ -372183,6 +372293,11 @@
   "title": "Netflix’s New Reboot Of $3.3B Fantasy Franchise Gets Shocking New Production Update - ScreenRant",
   "ts": "2026-11-05T23:22:43.155337+00:00"
  },
+ "d80e91ab86050398": {
+  "ticker": "MACRO",
+  "title": "Stock Market News for Nov 9, 2026 - Yahoo Finance Singapore",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "d8105a04ab18e704": {
   "ticker": "NFLX",
   "title": "Netflix announces animated Twilight reboot: Here's everything we know so far - IndulgExpress",
@@ -372527,6 +372642,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA Korea confirms RTX Spark will not replace x86 gaming PCs - Pasquale Pillitteri",
   "ts": "2026-10-25T12:15:07.802883+00:00"
+ },
+ "d83deab83010e03d": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Fall as Trump Signals Reduced Likelihood of Iran Strikes Amid Hormuz Shipping Disruptions - Yahoo Finance UK",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "d83e0f7e324f8a86": {
   "ticker": "GOOGL",
@@ -381097,6 +381217,11 @@
   "ticker": "NFLX",
   "title": "Netflix (NASDAQ:NFLX) Posts Q3 2026 Sales In Line With Estimates But Quarterly Revenue Guidance Slightly Misses Expectat",
   "ts": "2026-10-20T21:09:14.799678+00:00"
+ },
+ "dd2fcca6db1ce586": {
+  "ticker": "PLTR",
+  "title": "Former Democratic Senator Jon Tester joins Palantir as advisor - Crypto Briefing",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "dd30e5d1572e0af6": {
   "ticker": "NVDA",
@@ -403273,6 +403398,11 @@
   "title": "S&P 500 Net Profits Surge 30% Led by NVIDIA, Micron - 조선일보",
   "ts": "2026-10-25T23:44:00.313826+00:00"
  },
+ "ea599f0fa167ab66": {
+  "ticker": "COHR",
+  "title": "Coherent stock raises FY2027 growth bar after record Q1 - ad-hoc-news.de",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "ea5a1d0400e0e044": {
   "ticker": "SPCX",
   "title": "SpaceX $SPCX Stock: Park Avenue Securities LLC Increases Stake - MarketBeat",
@@ -407057,6 +407187,11 @@
   "ticker": "NFLX",
   "title": "Josh Duhamel Breaks His Silence on 'Ransom Canyon' Cancellation, Admits He Was 'Upset' with Netflix - Just Jared",
   "ts": "2026-10-19T18:51:25.007081+00:00"
+ },
+ "ec93bead6e0acf90": {
+  "ticker": "AAPL",
+  "title": "Apple stock enters holiday season after record fiscal 2026 - ad-hoc-news.de",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "ec93e81edd056202": {
   "ticker": "LITE",
@@ -411993,6 +412128,11 @@
   "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2027 - The Globe and Mail",
   "ts": "2026-11-04T11:37:15.290706+00:00"
  },
+ "ef69cb6159050ac2": {
+  "ticker": "MACRO",
+  "title": "【卢拉连任引发通胀担忧 巴西利率预期连续上调】金十数据11月9日讯，随着巴西总统卢拉成功连任，市场押注高额公共支出将加剧通胀压力，巴西经济学家连续第二周上调2026年年底利率预期。巴西央行周一公布的每周经济学家调查显示，预计基准利率Seli",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
+ },
  "ef6cc6063d1a2cfe": {
   "ticker": "MACRO",
   "title": "Dow Jones Industrial Average rises on earnings, cheaper Crude Oil - FXStreet",
@@ -413127,6 +413267,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA Introduces DSX POD AI Factories to Accelerate Europe’s Infrastructure Deployment - HPCwire",
   "ts": "2026-10-21T14:36:14.882061+00:00"
+ },
+ "f01241e8b4621895": {
+  "ticker": "ASTS",
+  "title": "Rakuten and AST SpaceMobile Establish \"Rakuten AST\" Joint Venture to Build D2D Satellite Communications Network in Japan",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "f0127a73d875fa38": {
   "ticker": "MACRO",
@@ -417427,6 +417572,11 @@
   "ticker": "MACRO",
   "title": "Gold: Lower Real Yields Offer Support Before the Employment Test - FXEmpire",
   "ts": "2026-11-02T15:10:30.662568+00:00"
+ },
+ "f293ac32b553f9c4": {
+  "ticker": "MACRO",
+  "title": "Gold Tests a Fragile Recovery as Inflation Data and Iran Talks Set the Tone - ad-hoc-news.de",
+  "ts": "2026-11-09T12:46:19.727142+00:00"
  },
  "f29574e14e45e5ae": {
   "ticker": "NVDA",
