@@ -9494,6 +9494,11 @@
   "title": "AXTI SEC 申報：8-K - Current report",
   "ts": "2026-10-28T10:13:46.077525+00:00"
  },
+ "04f5e4f8a858180e": {
+  "ticker": "NVDA",
+  "title": "Nvidia Stock Has Its Lowest Price Compared With Profit in Over Seven Years - Stock Titan",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "04f5f2360242d14e": {
   "ticker": "MACRO",
   "title": "Weekly Commodity Wrap: Oil Prices Surge, Gold And Silver Fall As Inflation Concerns Rise - BW Businessworld",
@@ -49624,6 +49629,11 @@
   "title": "Tesla Stock: This Bearish Spread Will Pay Off If The EV Maker Trends Lower - Investor's Business Daily",
   "ts": "2026-10-26T18:20:34.708754+00:00"
  },
+ "1a7d4340770f73aa": {
+  "ticker": "MACRO",
+  "title": "Fed needs at least 2 more quarter-point rate hikes: Dallas Fed chief - Anadolu Ajansı",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "1a7d4dbc000da0ba": {
   "ticker": "MACRO",
   "title": "US aims to cool oil prices ahead of midterm; dips likely to be short-lived - Business Standard",
@@ -59003,6 +59013,11 @@
   "ticker": "AAPL",
   "title": "市场消息：美国民主党将在调查中把苹果(AAPL.O)、Meta Platforms(META.O)及马斯克旗下公司列为目标。",
   "ts": "2026-11-06T10:07:17.154751+00:00"
+ },
+ "1f7e1f43e444caa7": {
+  "ticker": "NVDA",
+  "title": "Analysis-Nvidia's clubby board faces a sticky 'honey pot' test - Idaho Statesman",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "1f7ebf638d1cf989": {
   "ticker": "MACRO",
@@ -75788,6 +75803,11 @@
   "ticker": "TSLA",
   "title": "Tesla: Paying Peak Multiples For Promises That Keep Slipping (Rating Downgrade) - Seeking Alpha",
   "ts": "2026-10-30T19:36:25.990638+00:00"
+ },
+ "289976b7a6523d8b": {
+  "ticker": "NVDA",
+  "title": "\"There'll Never Be One Like Me\": Jensen Huang's Nvidia Faces A Succession Crisis - NDTV",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "2899c914863d9687": {
   "ticker": "GOOGL",
@@ -100318,6 +100338,11 @@
   "ticker": "NFLX",
   "title": "How Workforce Cuts And Ad Guidance Will Impact Netflix (NFLX) Investors - Simply Wall St",
   "ts": "2026-11-02T21:34:48.748448+00:00"
+ },
+ "3629f6b884613da3": {
+  "ticker": "MACRO",
+  "title": "Investors boost odds of half-point Fed hike as core CPI rise meets Waller's bar - Raleigh News & Observer",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "362c706baa799f73": {
   "ticker": "MACRO",
@@ -127994,6 +128019,11 @@
   "title": "Naver Makes Bold Move with Three-Way 'AI Factory' Alliance with Nvidia and Brookfield (Wrap-up) - 아시아경제",
   "ts": "2026-10-28T02:33:09.501135+00:00"
  },
+ "44f6318bf17bc2aa": {
+  "ticker": "TSLA",
+  "title": "Tesla has a very Tesla reason for killing off its sunroof option - Business Insider",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "44f64a9d5cbb1c10": {
   "ticker": "NFLX",
   "title": "Netflix November 2026 Schedule Announced - Vital Thrills",
@@ -131933,6 +131963,11 @@
   "ticker": "MACRO",
   "title": "Gold price today: One analyst sees a slide to $3,500, two are watching friday's jobs report - FXStreet",
   "ts": "2026-11-04T10:26:46.986265+00:00"
+ },
+ "470f4d86f087a385": {
+  "ticker": "NFLX",
+  "title": "Netflix Is Officially Losing ‘The Last Kingdom’ in December But Only In The US - IMDb",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "470fb19d1b5ea187": {
   "ticker": "MACRO",
@@ -170034,6 +170069,11 @@
   "title": "$2.2M Micron Options Block Targets Recovery; Dispersion Rising Makes Stock Selection the Trade | Options Market Statisti",
   "ts": "2026-10-14T11:48:53.049066+00:00"
  },
+ "5b8cdee64a7b3aea": {
+  "ticker": "NFLX",
+  "title": "All movies and shows leaving Netflix by 15 November: Stream the popular David Fincher thriller and a Blake Lively movie ",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "5b8d0614202a4d4b": {
   "ticker": "NVDA",
   "title": "A 51% Rule? Nvidia's New Move Puts China on Edge - Analytics Insight",
@@ -187724,6 +187764,11 @@
   "title": "Musk pledges a share of his SpaceX company to ‘every kid in America’ - Wandsworth Times",
   "ts": "2026-10-19T12:56:30.948509+00:00"
  },
+ "64e852fcc11a868f": {
+  "ticker": "NFLX",
+  "title": "Netflix ‘The Empress’ Season 1 Recap: How Elisabeth’s Rise Reshaped the Austrian Court - IMDb",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "64e94a7a5aa3e84d": {
   "ticker": "MACRO",
   "title": "GBP/USD, DAX Forecast: Two trades to watch - FOREX.com",
@@ -191279,6 +191324,11 @@
   "title": "Prime Video has the first 3 movies in the stream. Series belong to Disney+, Netflix doesn't cut corners - Samsung Magazi",
   "ts": "2026-10-19T19:39:53.016218+00:00"
  },
+ "66c4f6f4dbdbe27c": {
+  "ticker": "AMD",
+  "title": "Why AMD shares are rallying on Tuesday? - Invezz",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "66c6c7de9425f4ee": {
   "ticker": "NFLX",
   "title": "New ‘KPop Demon Hunters’ Music Video Helps Set Another Netflix Record - Yahoo",
@@ -193793,6 +193843,11 @@
   "ticker": "NFLX",
   "title": "Netflix adds more World Cup rights, other stories you missed - IMDb",
   "ts": "2026-10-17T19:47:29.899501+00:00"
+ },
+ "6823ee4e3f566adb": {
+  "ticker": "NFLX",
+  "title": "The Age of Innocence First Look Unveiled by Netflix - IMDb",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "682469e7209f41b5": {
   "ticker": "MACRO",
@@ -207534,6 +207589,11 @@
   "title": "Chinese Stocks Fall as Nvidia Tightens China AI Access - marketscreener.com",
   "ts": "2026-11-03T07:48:17.905835+00:00"
  },
+ "6fa02e3902a3ceae": {
+  "ticker": "NFLX",
+  "title": "Millie Bobby Brown To Star In, Produce Netflix Comedy ‘Non-Refundable’; Jack Innanen Also Set - Deadline",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "6fa17c954be1dc4f": {
   "ticker": "NVDA",
   "title": "History of NVIDIA: From Graphics Cards to AI Giant - HDFC Sky",
@@ -216003,6 +216063,11 @@
   "ticker": "NFLX",
   "title": "“It’s Terrifying”: Theo James Opens Up About Raising a Son in Today’s Online World - Netflix Junkie",
   "ts": "2026-11-04T03:26:03.505394+00:00"
+ },
+ "74355222e883785d": {
+  "ticker": "NVDA",
+  "title": "Nvidia, CNRS and Quandela explore the simulability frontiers of photonic quantum computing - Quantum Zeitgeist",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "743604dca28ca5f5": {
   "ticker": "NVDA",
@@ -255929,6 +255994,11 @@
   "title": "SF Fed Chief Mary Daly Says More Rate Hikes Likely, Just Not This Month - Hoodline",
   "ts": "2026-10-16T13:20:53.219551+00:00"
  },
+ "8a515e55d6feed5b": {
+  "ticker": "NVDA",
+  "title": "Our Nvidia downgrade — plus, Cramer is looking to add to this position - CNBC",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "8a52cf23f222ace5": {
   "ticker": "NFLX",
   "title": "Naomi Watts' Unsettling Netflix Horror Show is Finally Back — With a 'Riverdale' Icon - Brit + Co",
@@ -288689,6 +288759,11 @@
   "title": "Why is TSMC suddenly looking at Texas? - digitimes",
   "ts": "2026-10-23T00:57:18.459575+00:00"
  },
+ "9be8ea0ccd591878": {
+  "ticker": "NFLX",
+  "title": "Netflix retains lead, HBO Max gains in new Parks Associates streaming rankings - TheDesk.net",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "9be8f5f708a0638e": {
   "ticker": "MU",
   "title": "Why is Micron Technology stock down today? By Investing.com - Investing.com UK",
@@ -300252,6 +300327,11 @@
   "ticker": "NVDA",
   "title": "Tech: Nvidia’s Huang has a big Washington problem - Punchbowl News",
   "ts": "2026-11-09T18:18:18.486702+00:00"
+ },
+ "a24c31c31db9d50d": {
+  "ticker": "SMCI",
+  "title": "Super Micro CFO: A 44% Customer Is “a Consequence of the Scale” of the AI Buildout - TIKR.com",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "a24dce6cb9a152f2": {
   "ticker": "SMMT",
@@ -323408,6 +323488,11 @@
   "title": "Premarket selloff hits CoreWeave, Rocket Lab and SK Hynix - NewsBytes",
   "ts": "2026-10-15T12:06:03.614808+00:00"
  },
+ "aeddbfab698646b5": {
+  "ticker": "PLTR",
+  "title": "Helsing Unveils German AI Military Software to Rival Palantir - Global Banking & Finance Review",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "aede324157aad5c6": {
   "ticker": "NFLX",
   "title": "Hideo Kojima has high praise for season 2 of Netflix's Keira Knightley-led spy thriller: \"I could watch this forever\" - ",
@@ -331632,6 +331717,11 @@
   "ticker": "MACRO",
   "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information' - Reuters",
   "ts": "2026-10-28T19:19:20.535311+00:00"
+ },
+ "b369c05d06915abb": {
+  "ticker": "NVDA",
+  "title": "Shareholder Sues Nvidia, Huang - Newser",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "b369dd46a6551103": {
   "ticker": "MACRO",
@@ -349957,6 +350047,11 @@
   "ticker": "MACRO",
   "title": "澳洲联储副主席豪泽：不认可有关委员会在会议上被逼入绝境的描述。",
   "ts": "2026-11-05T07:26:18.117641+00:00"
+ },
+ "bd214d14c70aea34": {
+  "ticker": "MACRO",
+  "title": "Pound to Dollar Forecast: Sterling Recovers as ING Warns of Dollar Correction - CurrencyNews.co.uk",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "bd21e8d8952720e2": {
   "ticker": "NVDA",
@@ -370648,6 +370743,11 @@
   "title": "美国民主党据称准备对苹果、Meta和马斯克旗下公司展开调查，苹果(AAPL.O)跌1%，Meta Platforms(META.O)仍涨超1%；SpaceX(SPCX.O)和特斯拉(TSLA.O)仍涨5%和2%。",
   "ts": "2026-11-06T14:36:54.983417+00:00"
  },
+ "c80cc8f66978ab94": {
+  "ticker": "NFLX",
+  "title": "‘Gordon,’ a Big Netflix Series From Argentina, Unpacked by Pablo Trapero and Star Rodrigo de la Serna - IMDb",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "c80d76ccab458eec": {
   "ticker": "AMD",
   "title": "Holding AMD Into 2027 Just Became a Harder Call - AOL.com",
@@ -380862,6 +380962,11 @@
   "ticker": "SMCI",
   "title": "Super Micro's AI Boom Faces a Margin Test in Q1 - GuruFocus",
   "ts": "2026-11-02T16:51:06.983571+00:00"
+ },
+ "cdabd3194949aa08": {
+  "ticker": "NFLX",
+  "title": "Gwyneth Paltrow Brings New Video Podcast To Spotify And Netflix. - www.podcastnewsdaily.com",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "cdacf34d6b7b7d9e": {
   "ticker": "MACRO",
@@ -416328,6 +416433,11 @@
   "title": "‘Squid Game’ and ‘KPop Demon Hunters’ Stars Mark Netflix’s Korea Anniversary as Sarandos Previews New Shows - Mezha.net",
   "ts": "2026-10-25T05:08:52.643906+00:00"
  },
+ "e0f886f7e2e95340": {
+  "ticker": "ASTS",
+  "title": "Why is AST SpaceMobile stock sliding today? By Investing.com - Investing.com India",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
+ },
  "e0f88f394d8493ed": {
   "ticker": "MACRO",
   "title": "All bets are off in gold prices! Iran's statement stirred the markets - Haberler.com",
@@ -445397,6 +445507,11 @@
   "ticker": "LITE",
   "title": "What Sent Lumentum Stock Higher? - Trefis",
   "ts": "2026-10-27T09:45:19.694143+00:00"
+ },
+ "f14212235fb85d99": {
+  "ticker": "MACRO",
+  "title": "Gold drops toward $4,050 as US CPI fuels speculation of larger Fed rate hike - FXStreet",
+  "ts": "2026-11-10T16:51:07.035926+00:00"
  },
  "f1434c440bc11f0a": {
   "ticker": "P",
