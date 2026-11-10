@@ -1209,6 +1209,11 @@
   "title": "Apple Stock (AAPL) Slips Despite $2.10 EPS Beat - TipRanks",
   "ts": "2026-11-02T22:36:02.968165+00:00"
  },
+ "008d7afbd566e144": {
+  "ticker": "GOOGL",
+  "title": "Alphabet makes $10 billion bet on Anthropic's massive IPO - Yahoo! Finance Canada",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "008e2f9ac279d8fc": {
   "ticker": "NVDA",
   "title": "Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled about spy affair - WPTZ",
@@ -51039,6 +51044,11 @@
   "title": "Australian Natural Gas Prices Reflect Pipeline Constraints and LNG Demand - Kalkine",
   "ts": "2026-10-15T10:25:00.696741+00:00"
  },
+ "1b14a0a0a3f4a5ed": {
+  "ticker": "GOOGL",
+  "title": "谷歌(GOOG.O)：Google Fi Wireless推出“超级网络”服务，可同时接入5G和Wi-Fi网络。",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "1b14cd565d9c2c31": {
   "ticker": "NVDA",
   "title": "[Robinhood onchain] Tokenized stocks total $154.47 million as Nvidia adds 394 holder wallets - www.tokenpost.com",
@@ -65809,6 +65819,11 @@
   "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security - BBC",
   "ts": "2026-11-10T09:41:14.348233+00:00"
  },
+ "2324aa047ca71acc": {
+  "ticker": "MACRO",
+  "title": "U.S. equities drift lower after a hotter CPI print - TradingView",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "23259fd4ee3dea1c": {
   "ticker": "NFLX",
   "title": "Netflix (NFLX) Adds Members And Ad Momentum, Is It Still Below Fair Value? - Simply Wall St",
@@ -68773,6 +68788,11 @@
   "ticker": "TSLA",
   "title": "Tesla posts $28B Q3 revenue with 1.74M FSD users but margins weaken after tariff refunds. - Pluang",
   "ts": "2026-10-27T15:03:37.648450+00:00"
+ },
+ "24bfe5c91cc66add": {
+  "ticker": "MACRO",
+  "title": "November 10, 2026: 10-Year U.S. Treasury 15 min · 12:45–1:00 PM EST Prediction Market - Robinhood",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "24c02ca8d06966ef": {
   "ticker": "SPCX",
@@ -100289,6 +100309,11 @@
   "title": "Fed Holds Rates Steady - Advancing American Freedom",
   "ts": "2026-11-02T15:16:29.308386+00:00"
  },
+ "35d3f16863b7b7bb": {
+  "ticker": "NVDA",
+  "title": "Kakao Mobility and Nvidia partner on L4 autonomous driving - Yahoo Finance",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "35d54d9a429f6150": {
   "ticker": "NFLX",
   "title": "Eli Lilly, Netflix, Zscaler - TradingView",
@@ -104928,6 +104953,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA's finance chief will post written results commentary before its Nov. 17 call. - Stock Titan",
   "ts": "2026-10-28T22:16:44.161090+00:00"
+ },
+ "38464759766fb291": {
+  "ticker": "TSM",
+  "title": "TSMC Rallies 7% in Taipei as Nvidia Reportedly Asks It to Draft 3D DRAM Plans - TIKR.com",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "38468f77f543e12c": {
   "ticker": "MACRO",
@@ -111033,6 +111063,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet Drops 9.6% After Top and Bottom Line in 3Q26 Miss Market Expectations - kaohoon international",
   "ts": "2026-10-29T04:52:58.372576+00:00"
+ },
+ "3b68f3969d38234a": {
+  "ticker": "NVDA",
+  "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins - MarketWatch",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "3b6b10e1665344c5": {
   "ticker": "NVDA",
@@ -121083,6 +121118,11 @@
   "ticker": "SPCX",
   "title": "Morgan Stanley Sees SpaceX Stock Hitting $300 as AI Forecasts Explode - Yahoo Finance Singapore",
   "ts": "2026-11-05T12:09:56.885275+00:00"
+ },
+ "40c82909a8b52a55": {
+  "ticker": "NVDA",
+  "title": "Statement From the Independent Members of the NVIDIA Board - Moomoo",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "40c8816ee7179e5a": {
   "ticker": "PLTR",
@@ -132088,6 +132128,11 @@
   "ticker": "TSLA",
   "title": "Tesla was supposed to burn $5 billion, but posted a positive result. Will Tesla still be a car company in a year? - XTB.",
   "ts": "2026-10-21T21:31:50.330352+00:00"
+ },
+ "46a67fe6cd27c88d": {
+  "ticker": "NVDA",
+  "title": "NVIDIA Releases Alpamayo 2 Edge Weights for Autonomous Driving - Unite.AI",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "46a6a974de9b6772": {
   "ticker": "IONQ",
@@ -178039,6 +178084,11 @@
   "title": "Musk pledges to give a share of his SpaceX company to 'every kid in America' - Japan Today",
   "ts": "2026-10-19T22:06:09.339958+00:00"
  },
+ "5f0dc6aa7f146cef": {
+  "ticker": "GOOGL",
+  "title": "谷歌(GOOG.O)：Google Fi“超级网络”将于今日起陆续向Pixel 9及更新型号手机推出。",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "5f0e7b613756f227": {
   "ticker": "MACRO",
   "title": "Brent Crude Price: $110 After Shaybah Strike, $113 or $105 - FinanceFeeds",
@@ -207879,6 +207929,11 @@
   "title": "Interactive Brokers Group Reports Brokerage Metrics and Other... - Quantisnow",
   "ts": "2026-11-02T17:42:28.609148+00:00"
  },
+ "6f07d52efa4fd2d7": {
+  "ticker": "AMD",
+  "title": "Why AMD shares are rallying on Tuesday? - Invezz",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "6f08c31f65001a98": {
   "ticker": "MU",
   "title": "Not Nvidia. Not Micron. This Dutch Company Controls a Key Bottleneck of AI Chip Production. - The Motley Fool",
@@ -218509,6 +218564,11 @@
   "title": "Cathie Wood trims Palantir to buy this AI stock after a brutal 16% crash - Invezz",
   "ts": "2026-10-15T08:57:22.249264+00:00"
  },
+ "74dbec28880c217d": {
+  "ticker": "NVDA",
+  "title": "Nasdaq Index and S&P500: Nvidia, Microsoft Slide as Hot CPI Fuels Fed Fears - FXEmpire",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "74dd8522c1074813": {
   "ticker": "NVDA",
   "title": "英伟达(NVDA.O)盘前涨1.7%。",
@@ -219313,6 +219373,11 @@
   "ticker": "TSLA",
   "title": "Tesla Inc (TSLA) stock price, chart and posts - X",
   "ts": "2026-10-29T22:40:56.231688+00:00"
+ },
+ "755601a16a0f0a61": {
+  "ticker": "MACRO",
+  "title": "Why PubMatic (PUBM) shares are sliding today - TradingView",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "755709326cc605c1": {
   "ticker": "NVDA",
@@ -251814,6 +251879,11 @@
   "title": "布伦特原油向上触及108美元/桶，日内涨1.01%。",
   "ts": "2026-10-20T06:00:42.718074+00:00"
  },
+ "871ee0a17a3b7bc9": {
+  "ticker": "SNDK",
+  "title": "Why is SanDisk stock sliding today? By Investing.com - Investing.com Nigeria",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "871f007ca05739e5": {
   "ticker": "SPCX",
   "title": "Elon Musk says he will give SpaceX shares to all children in America - Breitbart News",
@@ -261478,6 +261548,11 @@
   "ticker": "MACRO",
   "title": "【花旗：中石油季绩符预期 维持“买入”评级及目标价12港元】金十数据10月29日讯，花旗发表研究报告指，中国石油股份(00857.HK)第三季业绩符预期，纯利518亿元人民币，按季跌7%，按年比较则升22%，首三季纯利已达该行全年预测的83",
   "ts": "2026-10-29T03:02:21.532399+00:00"
+ },
+ "8c51f6105f7bd9a0": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Stocks Rise 0.34% as Google Lines Up $10 Billion Anthropic Stake Purchase - Yahoo Finance UK",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "8c522d534649d8c0": {
   "ticker": "RKLB",
@@ -274203,6 +274278,11 @@
   "ticker": "NVDA",
   "title": "Nvidia finalizes payment of $1 billion, acquires over 4% stake in Naver - Korea JoongAng Daily",
   "ts": "2026-11-06T08:53:58.652031+00:00"
+ },
+ "933da058ce3171c5": {
+  "ticker": "ASTS",
+  "title": "Why is AST SpaceMobile stock sliding today? By Investing.com - Investing.com Nigeria",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "933db7697b6dd941": {
   "ticker": "MACRO",
@@ -303997,6 +304077,11 @@
   "ticker": "NVDA",
   "title": "Nvidia reshapes AI memory market with TSMC - jawlah.co",
   "ts": "2026-10-18T22:57:19.623737+00:00"
+ },
+ "a344053c29535c1b": {
+  "ticker": "MACRO",
+  "title": "Treasuries Now Offer 2.66% Above Inflation. Are Dividend Stocks in Trouble? - 24/7 Wall St.",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "a344c70acae9258c": {
   "ticker": "PLTR",
@@ -335448,6 +335533,11 @@
   "title": "Stocks cut gains, dollar and yields up as US CPI cements December rate hike bets - AOL.com",
   "ts": "2026-11-10T14:42:10.762024+00:00"
  },
+ "b45df719731f0d04": {
+  "ticker": "NFLX",
+  "title": "The Age of Innocence First Look Unveiled by Netflix - IMDb",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "b45dfc4bcfa4a0ab": {
   "ticker": "MACRO",
   "title": "10-Year Treasury Yield Long-Term Perspective: October 2026 - Seeking Alpha",
@@ -344142,6 +344232,11 @@
   "ticker": "NFLX",
   "title": "Matthew Perry’s Sister Reveals What the ‘Friends’ Cast Did at His Funeral in New Netflix Doc - Men's Journal",
   "ts": "2026-10-28T18:09:35.438548+00:00"
+ },
+ "b8df5ccf824e1e5a": {
+  "ticker": "NVDA",
+  "title": "Trump says NVIDIA CEO Jensen Huang had no idea woman was a spy - Fox Business",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "b8e0b158d050c54b": {
   "ticker": "MACRO",
@@ -353992,6 +354087,11 @@
   "ticker": "MACRO",
   "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited - Investify",
   "ts": "2026-11-03T04:34:33.533424+00:00"
+ },
+ "be1fc3ca3e938983": {
+  "ticker": "MACRO",
+  "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds From Session Lows On Dip-Buying - FXEmpire",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "be20a0d998d8e859": {
   "ticker": "SNDK",
@@ -369338,6 +369438,11 @@
   "title": "Treasury yields are steady as investors await more economic data - richtv.io",
   "ts": "2026-11-09T12:28:11.816863+00:00"
  },
+ "c612ee7b5705e591": {
+  "ticker": "NVDA",
+  "title": "Chinese ‘spy’ Alice Huang flooded social media with pics of Nvidia boss lover — and bragged about her access to him - Ne",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "c6131a1148c16c78": {
   "ticker": "SPCX",
   "title": "Elon Musk wants to give a SpaceX share to every US child next year - www.thepost.co.nz",
@@ -380758,6 +380863,11 @@
   "title": "‘Most important strategic partner’: Mercedes’ Nvidia self-driving deal - The Next Web",
   "ts": "2026-10-16T13:20:53.219551+00:00"
  },
+ "cc392288f98d4709": {
+  "ticker": "NVDA",
+  "title": "Who is Nvidia CEO Jensen Huang's wife? What to know about his family - USA Today",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "cc397d9b748baa51": {
   "ticker": "TSLA",
   "title": "Harvest Tesla Enhanced High Income Shares ETF - Class A Units (TSLY.TO) Seasonal Returns Chart - Yahoo Finance - Yahoo! ",
@@ -382672,6 +382782,11 @@
   "ticker": "MACRO",
   "title": "Brent, WTI Crude Prices, Oct. 29, 2026 - Energy Intelligence",
   "ts": "2026-10-29T18:24:50.220201+00:00"
+ },
+ "cd4f3b14312a6839": {
+  "ticker": "NVDA",
+  "title": "Citigroup maintains NVIDIA at Buy, lowers price target to $285 from $315 - TradingView",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "cd513ec43221acd4": {
   "ticker": "ANET",
@@ -388012,6 +388127,11 @@
   "ticker": "RDDT",
   "title": "Reddit Stock: It's A Steal, I'm Upgrading To Strong Buy (NYSE:RDDT) - Seeking Alpha",
   "ts": "2026-11-07T13:09:14.896635+00:00"
+ },
+ "d033f2fdd249febc": {
+  "ticker": "NVDA",
+  "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019 - Yahoo Finance Singapore",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "d034139ee9356fec": {
   "ticker": "NVDA",
@@ -437258,6 +437378,11 @@
   "title": "SpaceX Kicks Off Yet Another Potential Fleecing of Retail Investors Today, Oct. 26 - The Globe and Mail",
   "ts": "2026-10-26T14:30:31.131586+00:00"
  },
+ "eb362cdc2007548c": {
+  "ticker": "NFLX",
+  "title": "Netflix’s ‘Better Than The Movies’ Film: Cast, Production and Release Date - Mezha.net",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
+ },
  "eb375ab636f96dd9": {
   "ticker": "NFLX",
   "title": "Form 4 Netflix Inc: Bradford L. Smith (Director) For: 2 November - Investing.com UK",
@@ -450852,6 +450977,11 @@
   "ticker": "NVDA",
   "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds Apple and Nvidia on Nov. 6 - Yahoo Finance",
   "ts": "2026-11-10T11:43:24.307026+00:00"
+ },
+ "f2a214ed0f2ea0f7": {
+  "ticker": "NFLX",
+  "title": "Netflix unveils period drama series The Age of Innocence that fans of East of Eden will love - Netflix Life",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "f2a246b0017656cf": {
   "ticker": "GOOGL",
@@ -468602,6 +468732,11 @@
   "ticker": "TSLA",
   "title": "How does Elon Musk’s new flying car hop and flip? Tech behind Tesla Roadster’s aerodynamics - ET Now",
   "ts": "2026-10-18T14:48:59.690453+00:00"
+ },
+ "fc0fa4659a1967e6": {
+  "ticker": "NVDA",
+  "title": "Nvidia Board Retains Joon H. Kim And Wachtell For Independent Investigation - TradingView",
+  "ts": "2026-11-10T19:19:47.732618+00:00"
  },
  "fc108bb752c572ff": {
   "ticker": "GOOGL",
