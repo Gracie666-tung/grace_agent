@@ -4129,6 +4129,11 @@
   "title": "Q4 Earnings Forecast for Arista Networks Issued By KeyCorp - MarketBeat",
   "ts": "2026-11-10T11:43:24.307026+00:00"
  },
+ "01feebfc1b80a790": {
+  "ticker": "GOOGL",
+  "title": "First Eagle Investment's Top Q3 2026 Move: Alphabet Inc at a -2. - GuruFocus",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "0200e64bb259e4f1": {
   "ticker": "TSLA",
   "title": "She studied mechanical engineering, worked at Tesla, and helped build ChatGPT: The unusual journey of Mir - The Times of",
@@ -14368,6 +14373,11 @@
   "ticker": "TSLA",
   "title": "AI shares recover as investors look to Meta and Tesla - Business Post",
   "ts": "2026-10-21T06:30:33.902975+00:00"
+ },
+ "076a101abb2e8996": {
+  "ticker": "NVDA",
+  "title": "Photos reveal NVIDIA CEO Jensen Huang with alleged 'sexpionage' mistress - USA Today",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "076a1af571f2bc93": {
   "ticker": "PLTR",
@@ -61564,6 +61574,11 @@
   "title": "NVIDIA Scandal: Board of Directors Investigates Jensen Huang’s Ties to an Alleged Chinese Spy - Incrypted",
   "ts": "2026-11-09T09:08:14.359830+00:00"
  },
+ "20b8bb434c298197": {
+  "ticker": "MU",
+  "title": "Micron stock falls 3%, why this analyst sees 140% upside for the stock? - Invezz",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "20b8e277125a4248": {
   "ticker": "TSLA",
   "title": "Tesla-SpaceX Merger Could Land Before Dec. 6 AGM [2026] - https://tech-insider.org/",
@@ -74538,6 +74553,11 @@
   "ticker": "NFLX",
   "title": "France's lower house narrowly votes a 5.5-cent-per-gigabyte tax on Netflix, Google and other content providers - Dealroo",
   "ts": "2026-10-30T22:19:34.607820+00:00"
+ },
+ "27b72c2c7b766ffd": {
+  "ticker": "MACRO",
+  "title": "Fed Official Warns Americans to Brace for Costlier Loans This Winter - Yahoo Finance",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "27b76abb2efdbb53": {
   "ticker": "IONQ",
@@ -91239,6 +91259,11 @@
   "title": "Oil prices rise on global markets - Apa.az",
   "ts": "2026-10-22T05:00:42.867017+00:00"
  },
+ "30c049d2eb32dd60": {
+  "ticker": "NVDA",
+  "title": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang - ABC News - Breaking News, Latest News and Video",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "30c0b827021ee3a8": {
   "ticker": "MACRO",
   "title": "Brent Slips 2% To $114 Amid Continuing Saudi Arabia-Houthi Tensions - Free Press Journal",
@@ -92403,6 +92428,11 @@
   "ticker": "MACRO",
   "title": "Tonbo Imaging IPO Allotment Date: When will shares be allotted? How to check status on NSE, BSE - Zee Business",
   "ts": "2026-10-20T08:53:42.405340+00:00"
+ },
+ "3168067c820a5abc": {
+  "ticker": "RKLB",
+  "title": "Rocket Lab's Record Quarter Sends Shares into Orbit - Yahoo Finance",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "3168a0dce6c39516": {
   "ticker": "NVDA",
@@ -107654,6 +107684,11 @@
   "title": "Netflix Adds AI Recommendation Option to TV App - IMDb",
   "ts": "2026-11-03T20:17:11.103587+00:00"
  },
+ "3997de8546bad6f9": {
+  "ticker": "TSM",
+  "title": "TSMC Is at the Center of an AI Boom That Flipped 25 Years of U.S. Trade. Is the Stock a Buy? - The Motley Fool",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "3998a0fa3140b969": {
   "ticker": "NVDA",
   "title": "Trump didn't read Rubio's memo on Nvidia CEO's affair with Chinese 'spy' - Rediff",
@@ -120904,6 +120939,11 @@
   "title": "AppLovin shares may move 14% on earnings release By Investing.com - Investing.com Nigeria",
   "ts": "2026-10-28T14:45:47.399577+00:00"
  },
+ "409535c9c8299fd0": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer Stocks Fall 2.01% as Cash Drain Shadows Fourfold Sales Jump - Yahoo Finance",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "4095b9719c406d78": {
   "ticker": "TSM",
   "title": "Taiwan Semiconductor Just Proved Why It's a Top AI Investment - Yahoo Finance",
@@ -126273,6 +126313,11 @@
   "ticker": "AAPL",
   "title": "苹果(AAPL.O)CFO：我们认为内存采购价格将继续上涨。",
   "ts": "2026-11-02T22:43:20.722660+00:00"
+ },
+ "4373e0b839d02754": {
+  "ticker": "APP",
+  "title": "What's behind AppLovin's latest 6.4% stock pullback? - Traders Union",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "43742baff36a5902": {
   "ticker": "MACRO",
@@ -133728,6 +133773,11 @@
   "ticker": "PLTR",
   "title": "Palantir says it cannot shut off NATO AI system as Europeans fear US tech dependence - The Economic Times",
   "ts": "2026-10-22T09:07:47.913113+00:00"
+ },
+ "4772daa455b673a6": {
+  "ticker": "NVDA",
+  "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation - Yahoo Finance",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "47744fbc93050bb7": {
   "ticker": "MACRO",
@@ -177534,6 +177584,11 @@
   "title": "纳指科技ETF景顺(159509)将于2026年10月20日开市起停牌，自2026年10月20日10:30起复牌，停牌期间赎回业务照常办理。",
   "ts": "2026-10-19T09:24:26.053362+00:00"
  },
+ "5eadf19fb123644c": {
+  "ticker": "SNDK",
+  "title": "Sandisk Corporation Tokenized Stock (SNDKC) vs Traditional Stocks: Key Differences - OneBullEx",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "5eaed211b729c12f": {
   "ticker": "NFLX",
   "title": "British gangster show on Netflix so good viewers say 'it's 'Shakespearean' - Coventry Telegraph",
@@ -215859,6 +215914,11 @@
   "title": "Netflix’s ‘Allen’ Trailer Turns a Childhood Alien Friendship Into a Very Grown-Up Problem - IMDb",
   "ts": "2026-10-28T22:16:44.161090+00:00"
  },
+ "734a80e0200dc970": {
+  "ticker": "NFLX",
+  "title": "‘The Circle’ Is Back! Netflix Hit Jumps to Rival Streamer for Live Season 8 Reboot With Major Fan Voting Twist - Parade ",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "734c20023053565a": {
   "ticker": "MACRO",
   "title": "Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada",
@@ -223523,6 +223583,11 @@
   "ticker": "SPCX",
   "title": "Musk supports potential SpaceX-Tesla merger, sparking investor interest - Crypto Briefing",
   "ts": "2026-10-27T02:46:34.210910+00:00"
+ },
+ "7772187e6811f2ad": {
+  "ticker": "NVDA",
+  "title": "Nvidia Pulled Strings to Shut Down a US Government Investigation Into Chip Smuggling - Futurism",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "77730ece14ee0fbd": {
   "ticker": "NFLX",
@@ -259299,6 +259364,11 @@
   "title": "Could Redwire Be the Next Rocket Lab? - AOL.com",
   "ts": "2026-10-24T16:20:50.735118+00:00"
  },
+ "8affafb7f61f3f39": {
+  "ticker": "MACRO",
+  "title": "Foreign-Linked Buyers Took Their Smallest Share of a 3-Year Treasury Auction in 15 Months - 24/7 Wall St.",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "8b00ad49ce6cdb81": {
   "ticker": "MACRO",
   "title": "科威特石油公司首席执行官：科威特原油出口量超过每日110万桶。",
@@ -291009,6 +291079,11 @@
   "title": "Form 4 NVIDIA Corporation For: 4 November By Investing.com - Investing.com India",
   "ts": "2026-11-04T21:54:16.920447+00:00"
  },
+ "9bf06fd4628d653f": {
+  "ticker": "SPCX",
+  "title": "Should You Forget SpaceX and Buy These 2 Artificial Intelligence (AI) Stocks Instead? - The Globe and Mail",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "9bf0739810e2ba96": {
   "ticker": "NFLX",
   "title": "3 things to remember before Nobody Wants This season 3 premieres - Netflix Life",
@@ -297819,6 +297894,11 @@
   "title": "Netflix announces release date for Love Is Blind: Netherlands - The Reunion - About Netflix",
   "ts": "2026-10-14T14:37:10.484470+00:00"
  },
+ "9faf4f5081598feb": {
+  "ticker": "NVDA",
+  "title": "Microsoft Tops Nvidia’s Market Cap, as Nvidia Drops More Than 6% - Yahoo Finance",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "9fb01829ec3aacb4": {
   "ticker": "NVDA",
   "title": "Nvidia may face a more hostile post-election Washington: Report - Cryptonews.net",
@@ -303683,6 +303763,11 @@
   "title": "Nvidia Shares Suffer Worst Day Since January 2025 -- AI Fears Trigger $450 Billion Rout - TradingView",
   "ts": "2026-11-06T11:25:04.101309+00:00"
  },
+ "a2e8cdd7088ba50c": {
+  "ticker": "NVDA",
+  "title": "据ABC新闻：美国众议院共和党人考虑向英伟达(NVDA.O)首席执行官黄仁勋发出传票。",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "a2e94286ad19b7ed": {
   "ticker": "TSLA",
   "title": "Ferrari CEO Benedetto Vigna praises Tesla Roadster launch - Quartz",
@@ -305912,6 +305997,11 @@
   "ticker": "NVDA",
   "title": "Nvidia CEO called in by US lawmakers over ties to alleged Chinese spy | The briefing has been requested for November 18 ",
   "ts": "2026-11-06T10:39:01.847765+00:00"
+ },
+ "a4140a2bcb0fb452": {
+  "ticker": "NVDA",
+  "title": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader - The New York Times",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "a4140cde0c261f33": {
   "ticker": "MACRO",
@@ -331418,6 +331508,11 @@
   "title": "Gold Price Today: $4,045 After Jobs Beat, CPI Next - FinanceFeeds",
   "ts": "2026-11-07T09:20:20.294200+00:00"
  },
+ "b1e3c90071f735ea": {
+  "ticker": "NVDA",
+  "title": "FBI investigates Nvidia CEO Jensen Huang's affair with a suspected Chinese spy - Fox News",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "b1e4330537987315": {
   "ticker": "AXTI",
   "title": "AXTI SEC 申報：SCHEDULE 13G/A [Amend] - Statement of Beneficial Ownership by Certain Investors",
@@ -353157,6 +353252,11 @@
   "ticker": "NFLX",
   "title": "'Surviving Hurricane Otis' on Netflix: True Story and Review - Decider",
   "ts": "2026-10-28T20:14:24.266829+00:00"
+ },
+ "bd685d1fd042a5c2": {
+  "ticker": "MU",
+  "title": "Micron Technology enters long-term agreements: Can MU recover from recent losses? - Traders Union",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "bd68d5a76f73c16e": {
   "ticker": "MACRO",
@@ -381388,6 +381488,11 @@
   "title": "Phantom Blade Zero launches on GeForce NOW as Nvidia adds nine games - Blockchain News",
   "ts": "2026-10-29T16:27:55.105131+00:00"
  },
+ "cc5740665071bcef": {
+  "ticker": "TSLA",
+  "title": "Lucid's $50,000 Tesla Model Y Rival Is Getting Closer To Production. Here's The Latest - InsideEVs",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "cc575264bcc76380": {
   "ticker": "MACRO",
   "title": "[Gianluca Benigno] Long-term rates and Greenspan's conundrum, inverted - The Korea Herald",
@@ -386687,6 +386792,11 @@
   "ticker": "MACRO",
   "title": "Week Ahead – Nonfarm Payrolls and US Midterm Elections Take Center Stage - Action Forex",
   "ts": "2026-10-30T13:54:58.421928+00:00"
+ },
+ "cf3aef2f852e191c": {
+  "ticker": "NVDA",
+  "title": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia's future - The Killeen Daily Herald",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "cf3bc734a8f07070": {
   "ticker": "NFLX",
@@ -448898,6 +449008,11 @@
   "title": "Micron Said to Pause $4.5B Taiwan Fab, 16% of a Year’s Capex - FourWeekMBA",
   "ts": "2026-11-05T10:13:08.075784+00:00"
  },
+ "f1493f6386513a70": {
+  "ticker": "MACRO",
+  "title": "Interest-Rate Hike Debate Sparked by Fed's Waller, Logan After Hot Inflation - Bloomberg.com",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
+ },
  "f14a21b2381ff5cc": {
   "ticker": "MACRO",
   "title": "美股三大股指期货周一高开，其中纳指期货涨0.3%。",
@@ -468502,6 +468617,11 @@
   "ticker": "SMCI",
   "title": "Nutanix and Supermicro plan joint AI inference system for 2027 - StreetInsider",
   "ts": "2026-10-21T11:33:12.982466+00:00"
+ },
+ "fbb95aec70019727": {
+  "ticker": "NVDA",
+  "title": "NVIDIA CORPORATION (NVDA) INVESTOR ALERT Investors With - GlobeNewswire",
+  "ts": "2026-11-10T19:44:32.093313+00:00"
  },
  "fbba000abf5f0764": {
   "ticker": "NFLX",
