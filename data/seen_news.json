@@ -2839,6 +2839,11 @@
   "title": "Streaming Weekend Showdown: Why Netflix Rom-Coms & Prime Action Rule - DailyDrama",
   "ts": "2026-10-24T14:44:11.830167+00:00"
  },
+ "016a7bcb26320a96": {
+  "ticker": "TSLA",
+  "title": "Tesla Cybertruck is EV pickup market's latest casualty - CNA",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "016a80fe7acfdff8": {
   "ticker": "TSLA",
   "title": "Tesla’s $10B solar factory could get 35 years of tax breaks in Texas - Electrek",
@@ -5903,6 +5908,11 @@
   "ticker": "NFLX",
   "title": "Netflix’s Costco Strategy Faces Another Earnings Test - Forbes",
   "ts": "2026-10-20T13:08:53.545297+00:00"
+ },
+ "03107ede72563d8d": {
+  "ticker": "MACRO",
+  "title": "Gold slides below $4,100 as Fed hike bets exert pressure ahead of US CPI - FXStreet",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "0311ad0c8605281c": {
   "ticker": "NFLX",
@@ -20433,6 +20443,11 @@
   "ticker": "NFLX",
   "title": "Love is Blind is my comfort show, but I have a bone to pick with season 11 - Netflix Life",
   "ts": "2026-10-22T12:20:12.855884+00:00"
+ },
+ "0adb12a90e00141b": {
+  "ticker": "NVDA",
+  "title": "富国银行：将英伟达(NVDA.O)目标价从315美元下调至300美元，同时维持“增持”评级。",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "0adb2b24063062e6": {
   "ticker": "RDDT",
@@ -42814,6 +42829,11 @@
   "title": "Citizens maintains Market Outperform rating on Alphabet, $450 price target - TradingView",
   "ts": "2026-10-22T14:58:42.250472+00:00"
  },
+ "174568520c9a9650": {
+  "ticker": "PLTR",
+  "title": "ETFs Are Buying Palantir (PLTR) on Nov. 6 - Yahoo Finance",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "1745b5f8db7713b9": {
   "ticker": "SPCX",
   "title": "马斯克公开唱空“新云”：200多家公司或迎淘汰潮，SpaceX明确不会收购：马斯克最新把矛头指向AI算力市场最火热的一批公司。他称，超过200家“新云”企业将迎来大规模淘汰和整合，但SpaceX不会趁低收购任何同行。",
@@ -62763,6 +62783,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Wins Fast-Growing AI Startup Modal for New Central Processors - ASHARQ AL-AWSAT English",
   "ts": "2026-10-19T18:08:28.079106+00:00"
+ },
+ "223eb7eac44476b1": {
+  "ticker": "NVDA",
+  "title": "CCP 'honeypot' strategy: From Nvidia CEO Jensen Huang & beyond - KOMO",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "223fdc515eefbc3f": {
   "ticker": "MACRO",
@@ -82964,6 +82989,11 @@
   "title": "Sandisk Just Dipped Below $1400 Which Means a Lot to Certain Investors - 24/7 Wall St.",
   "ts": "2026-10-16T16:53:40.816820+00:00"
  },
+ "2d35303be7ea2a30": {
+  "ticker": "NVDA",
+  "title": "CCP 'honeypot' strategy: From Nvidia CEO Jensen Huang & beyond - WTOV",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "2d3540fa2bb17699": {
   "ticker": "MACRO",
   "title": "U.S. Treasury Seen Shifting Debt Mix Toward Shorter Maturities - Seoul Economic Daily",
@@ -96359,6 +96389,11 @@
   "title": "After Another Blowout Quarter, Is Palantir Technologies Stock a Buy? - The Globe and Mail",
   "ts": "2026-11-03T16:12:06.289064+00:00"
  },
+ "34e3862aeef1983c": {
+  "ticker": "NVDA",
+  "title": "Proshares Trust (TQQQ) Sells Apple and Nvidia on Friday - Yahoo Finance UK",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "34e44e9dc3ba93d3": {
   "ticker": "GOOGL",
   "title": "奥本海默：将Alphabet(GOOG.O)目标价从440美元下调至355美元。",
@@ -99033,6 +99068,11 @@
   "ticker": "SPCX",
   "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom - TradingView",
   "ts": "2026-11-03T22:00:58.013932+00:00"
+ },
+ "365b8601b4da0eba": {
+  "ticker": "TSLA",
+  "title": "Elon Musk Ally Jason Calacanis Bets Another $1M On Uber — Says Waymo Team-Up Could Steal Tesla’s Driverless Crown - Asia",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "365c3d5be51c163e": {
   "ticker": "MACRO",
@@ -105443,6 +105483,11 @@
   "ticker": "MU",
   "title": "Micron pauses work on $4.5 billion Taiwan plant, Bloomberg News reports - StreetInsider",
   "ts": "2026-11-05T09:28:11.521921+00:00"
+ },
+ "39cb02c502030ae5": {
+  "ticker": "NVDA",
+  "title": "Suspected espionage at Nvidia - eurotopics.net",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "39cb8e8d9977b057": {
   "ticker": "LITE",
@@ -123084,6 +123129,11 @@
   "title": "哥伦比亚国家石油公司（Ecopetrol）预计第三季度原油日产量在74万至75万桶之间。",
   "ts": "2026-10-23T20:34:28.922277+00:00"
  },
+ "436825dc97f76c7b": {
+  "ticker": "MU",
+  "title": "ETFs Are Net Sellers of Micron (MU) on Friday - Yahoo Finance",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "43689afbb76a79c1": {
   "ticker": "MACRO",
   "title": "Australian Dollar plunges against US Dollar ahead of US NFP data - FXStreet",
@@ -130559,6 +130609,11 @@
   "title": "Micron pauses work on US$4.5bn Taiwan plant after labor spat - Taipei Times",
   "ts": "2026-11-05T18:39:32.420977+00:00"
  },
+ "478135cd1824e3e6": {
+  "ticker": "NVDA",
+  "title": "A Jensen Huang Exit From Nvidia Could Slow AI Dealmaking, Financing Across The Industry, Morningstar Warns - Stocktwits",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "478225bd85793896": {
   "ticker": "NFLX",
   "title": "Netflix's new action release 'Maelstrom' to star Keanu Reeves - Rediff",
@@ -131588,6 +131643,11 @@
   "ticker": "NFLX",
   "title": "Casting Alert: ‘Project Runway’, Netflix’s ‘Temptation Island’ and More Seek Talent! - Casting Networks",
   "ts": "2026-10-30T16:58:44.878400+00:00"
+ },
+ "4815eaf2ee8da28e": {
+  "ticker": "MACRO",
+  "title": "US Stock Futures Steady as Investors Await Key Inflation Report - SSBCrack",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "4816a6e6e450abae": {
   "ticker": "NFLX",
@@ -134548,6 +134608,11 @@
   "ticker": "MACRO",
   "title": "Diesel Prices Fall 12 Centimes on Average at 6,000 French Stations - energynews.pro",
   "ts": "2026-11-03T20:50:12.381319+00:00"
+ },
+ "49c25eabdba15959": {
+  "ticker": "MU",
+  "title": "BofA removes Lam Research, Micron, Nvidia from US 1 list By Investing.com - Investing.com India",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "49c282dde2cfc47a": {
   "ticker": "NET",
@@ -137673,6 +137738,11 @@
   "ticker": "SMCI",
   "title": "SK Hynix Adds 5.8% as Super Micro Lifts AI Server Bets and Dalian Gets a 240-Layer Upgrade - AD HOC NEWS",
   "ts": "2026-10-21T20:23:54.487733+00:00"
+ },
+ "4b73d8383ea7c79d": {
+  "ticker": "NFLX",
+  "title": "Why Netflix Stock Plunged 11% in October - شبكة تواصل الإخبارية",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "4b74b818fb9ef794": {
   "ticker": "GOOGL",
@@ -217419,6 +217489,11 @@
   "title": "Is Arista Networks Stock Really Expensive? - Trefis",
   "ts": "2026-10-30T22:19:34.607820+00:00"
  },
+ "77190d7ecfdbadfc": {
+  "ticker": "TSM",
+  "title": "ETFs Are Net Sellers of Taiwan Semiconductor (TSM) on Nov. 6 - Yahoo Finance",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "771965326b1f05f1": {
   "ticker": "MACRO",
   "title": "PEACE IN PERIL: Global Oil Price Gains 2% as US Military Strikes on Iran Add to Peace Deal Uncertainty - EnergyNow",
@@ -227413,6 +227488,11 @@
   "ticker": "NVDA",
   "title": "Nvidia Stock Forecast: Huang's Neocloud Funding Remarks Push NVDA Into the $206.89 Demand Zone - TradingKey",
   "ts": "2026-10-23T09:07:45.385476+00:00"
+ },
+ "7cbb12cb051c1800": {
+  "ticker": "SPCX",
+  "title": "Anthropic’s Retracted IPO Floor: 2x Aramco, 70% of SpaceX - FourWeekMBA",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "7cbb4c68d9075a92": {
   "ticker": "IONQ",
@@ -241478,6 +241558,11 @@
   "ticker": "NFLX",
   "title": "Netflix U.K. Layoffs Hit Up to 3% of London HQ, Production VP Anna Mallett Exits - IMDb",
   "ts": "2026-11-02T21:08:54.164477+00:00"
+ },
+ "84901ca3a4ea51da": {
+  "ticker": "SNDK",
+  "title": "What Explains The Move In SanDisk Stock? - Trefis",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "8491a0c3e395847e": {
   "ticker": "MACRO",
@@ -278334,6 +278419,11 @@
   "title": "Morning Wrap | U.S. Stocks Fall as Oil; Seatrium Secure S$500m Rig Deal - Moomoo",
   "ts": "2026-10-26T01:26:59.407947+00:00"
  },
+ "98ec5caa28055d9c": {
+  "ticker": "NVDA",
+  "title": "Watch Nvidia Lawyer Intervened in US AI Chip Smuggling Probe - Bloomberg.com",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "98ec8a3455532f54": {
   "ticker": "NFLX",
   "title": "Ted Sarandos Swoops Into Seoul as Netflix Celebrates 10 Years in Korea - IMDb",
@@ -300098,6 +300188,11 @@
   "title": "Anya Taylor-Joy's New 103-Minute Netflix Action-Adventure Gets Official Critics' Verdict on Rotten Tomatoes - IMDb",
   "ts": "2026-10-20T23:17:10.233760+00:00"
  },
+ "a500a5aca3a94620": {
+  "ticker": "TSLA",
+  "title": "What Triggered The Move In Tesla Stock? - Trefis",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "a50104f5092455ab": {
   "ticker": "GLW",
   "title": "Corning Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
@@ -308068,6 +308163,11 @@
   "title": "Tesla registrations surge across Northern Europe in October - Reuters",
   "ts": "2026-11-02T08:25:44.529831+00:00"
  },
+ "a9651b8a1a0f89db": {
+  "ticker": "NVDA",
+  "title": "Nvidia and Jensen Huang face class-action lawsuit after affair with alleged Chinese spy wipes $190 billion off company -",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "a9667027f90aeca3": {
   "ticker": "MACRO",
   "title": "NordFX Launches Oil Loss Insurance for New Brent and WTI Traders - Yahoo Finance",
@@ -314087,6 +314187,11 @@
   "ticker": "MACRO",
   "title": "EUR/USD seems to be forming a bottom as growth concerns and France budget vote come into focus - investingLive",
   "ts": "2026-10-19T11:07:06.188939+00:00"
+ },
+ "acced5118d8e41c5": {
+  "ticker": "TSM",
+  "title": "Taiwan Semiconductor Manufacturing (TSM) executive Chen bought 48 shares for $3,384 at $70.50 - Quantisnow",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "accf40d5abb57146": {
   "ticker": "MACRO",
@@ -324302,6 +324407,11 @@
   "ticker": "MACRO",
   "title": "India bonds may firm with Treasuries; crude, supply could cap gains - Business Recorder",
   "ts": "2026-10-29T07:42:48.750413+00:00"
+ },
+ "b2763c33e6429cf5": {
+  "ticker": "NVDA",
+  "title": "If Lori were to divorce Jensen Huang, his 811 million Nvidia shares would be split down the middle, and she would walk a",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "b27702fe6940500b": {
   "ticker": "HOOD",
@@ -341123,6 +341233,11 @@
   "title": "Will Trent Is on the Case: All About the Police Procedural - Netflix",
   "ts": "2026-11-03T20:30:20.848769+00:00"
  },
+ "bb88e82956c843ad": {
+  "ticker": "MACRO",
+  "title": "Foreign buying lifts bond holdings by RM7.2bil to RM325.5bil - KLSE Screener",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "bb898b0d58ca9be3": {
   "ticker": "MACRO",
   "title": "Brent crude hits $116, highest in 5 months: What is driving the rally and what comes next? - The Financial Express",
@@ -346022,6 +346137,11 @@
   "ticker": "TSLA",
   "title": "Watch as self-driving Tesla with sleeping driver inside rams into police patrol car, two officers seriousl - The Economi",
   "ts": "2026-10-17T10:26:13.717600+00:00"
+ },
+ "be4f10cd91238d51": {
+  "ticker": "NVDA",
+  "title": "What Are NVIDIA Investors Betting On? - Trefis",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "be4f529397ac2659": {
   "ticker": "MACRO",
@@ -361078,6 +361198,11 @@
   "title": "Form 4 Super Micro Computer Inc For: 29 October By Investing.com - Investing.com Australia",
   "ts": "2026-10-29T08:24:28.496320+00:00"
  },
+ "c641ad26eaa95886": {
+  "ticker": "APP",
+  "title": "Analyst recommendations: Applovin, Cognex, Humana, MetLife, RocketLab… - marketscreener.com",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "c642089731e11759": {
   "ticker": "NVDA",
   "title": "WWT and DDN Design Storage Architecture for NVIDIA Vera Rubin AI Factories - Konsulteer",
@@ -366222,6 +366347,11 @@
   "ticker": "TSLA",
   "title": "A SpaceX-Tesla Merger Could Happen Before the End of 2026. Here's What That Could Mean for the Stocks - The Motley Fool",
   "ts": "2026-10-19T15:28:47.050065+00:00"
+ },
+ "c91727d94322b060": {
+  "ticker": "MACRO",
+  "title": "国际黄金重新得到“聪明钱”的青睐！美国数据中心建设即将“中道崩殂”？| Live分析更新中：美联储12月加息预期恐难撼动，国际现货黄金今夜交易重点在于核心CPI，这一区间堆积的空头头寸或为逼空埋下伏笔，美元“避险地位”已有所恶化？",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "c91813a84d424975": {
   "ticker": "IBKR",
@@ -395028,6 +395158,11 @@
   "title": "Cathie Wood Just Sold AMD Stock and Bought This AI Chip Stock Instead - The Motley Fool",
   "ts": "2026-11-05T23:04:19.395465+00:00"
  },
+ "d924fcc890d04eb4": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports - www.marketscreene",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "d9257fedcd3df125": {
   "ticker": "TSLA",
   "title": "Tesla Roadster could be quickest car ever built - Carsales",
@@ -404632,6 +404767,11 @@
   "ticker": "TSLA",
   "title": "Tesla stock trades down amid proposed new US tariffs on Vietnamese goods - Traders Union",
   "ts": "2026-11-03T17:09:51.384943+00:00"
+ },
+ "de5dcf6442480a51": {
+  "ticker": "SPCX",
+  "title": "NASA Says Bezos' Blue Origin Can Compete For Up to $10 Billion in Moon Base Contracts, As Musk's SpaceX Soars - 24/7 Wal",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "de5f5f60b2301141": {
   "ticker": "TSLA",
@@ -438373,6 +438513,11 @@
   "title": "Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays - TradingView",
   "ts": "2026-10-15T00:25:53.716950+00:00"
  },
+ "f163eaaa7ff93007": {
+  "ticker": "NFLX",
+  "title": "Why Netflix Stock Plunged 11% in October - The Globe and Mail",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
+ },
  "f1642bf575c14595": {
   "ticker": "MACRO",
   "title": "USD/JPY forecast: Hot US CPI lifts the pair above its 200-day average - Forex Factory",
@@ -453977,6 +454122,11 @@
   "ticker": "TSLA",
   "title": "Tesla rolls out 'insane' rocket-powered flying Roadster, price yet unknown - Gulf News",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "fa0a5a3fe772f3f9": {
+  "ticker": "MU",
+  "title": "BofA removes Lam Research, Micron, Nvidia from US 1 list By Investing.com - Investing.com Canada",
+  "ts": "2026-11-10T11:25:03.331757+00:00"
  },
  "fa0a967601602db6": {
   "ticker": "MACRO",
