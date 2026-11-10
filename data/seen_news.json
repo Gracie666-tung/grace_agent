@@ -3599,6 +3599,11 @@
   "title": "Nvidia stock falls after probe into CEO’s affair with alleged foreign spy - KDRV",
   "ts": "2026-11-09T15:01:09.432439+00:00"
  },
+ "01c55408269aba60": {
+  "ticker": "MACRO",
+  "title": "Gold price in Pakistan falls Rs1,500 per tola - Investify",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "01c5ede20e85a756": {
   "ticker": "NVDA",
   "title": "Nvidia shares drop after co. investigates whether CEO was 'target of a foreign intelligence effort' - khbs",
@@ -7788,6 +7793,11 @@
   "ticker": "AAPL",
   "title": "Loop Capital Lowers Apple Stock Price Target on iPhone Shipment Concerns - Barchart.com",
   "ts": "2026-10-27T14:50:53.850570+00:00"
+ },
+ "040ff83d4d356120": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports - Reuters",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "0410c14dd669a114": {
   "ticker": "SPCX",
@@ -24129,6 +24139,11 @@
   "title": "Gold dips as accelerating U.S. inflation spurs Fed rate hike bets - Investing.com Nigeria",
   "ts": "2026-10-14T16:44:14.219087+00:00"
  },
+ "0cd9ef62f35d214a": {
+  "ticker": "MACRO",
+  "title": "East of Suez: Dubai extends slump, distillates lead product selloff - Quantum Commodity Intelligence",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "0cdb163cae9dc6fd": {
   "ticker": "SMCI",
   "title": "Rosenblatt Sees 45% Upside in Super Micro Stock - Yahoo Finance",
@@ -31259,6 +31274,11 @@
   "title": "Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP - FOREX.com",
   "ts": "2026-11-04T19:27:59.608160+00:00"
  },
+ "10b9774b91e2e7cb": {
+  "ticker": "TSLA",
+  "title": "Tesla Challenges $243 Million Florida Crash Verdict, Says Driver Ignored Autopilot Warnings - AOL.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "10b9779be5f5b43d": {
   "ticker": "TSLA",
   "title": "Robotaxis roll into Fort Worth as Tesla expands service - Fort Worth Report",
@@ -33238,6 +33258,11 @@
   "ticker": "TSLA",
   "title": "Tesla set to unveil next generation Roadster sports EV after years of delay - marketscreener.com",
   "ts": "2026-10-15T10:13:19.206140+00:00"
+ },
+ "11def0e503f2c55f": {
+  "ticker": "SPCX",
+  "title": "Anthropic Can’t Outrun SpaceX, Targets $1.3 Trillion IPO Valuation - TipRanks",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "11df99cf2dc67a03": {
   "ticker": "MACRO",
@@ -46899,6 +46924,11 @@
   "title": "The Good Lawyer: Netflix Sends Laurent Lafitte From Rehab to His Own Trial - Martin Cid Magazine",
   "ts": "2026-11-09T08:38:02.438660+00:00"
  },
+ "19515dfecb45fd3f": {
+  "ticker": "NVDA",
+  "title": "Google, Nvidia, AMD And Others To Invest $26B In Anthropic Alongside IPO - Yahoo Finance",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "1952505785441824": {
   "ticker": "TSLA",
   "title": "Here's how Tesla's new Roadster is a completely different car from the 2017 version - Business Insider",
@@ -50598,6 +50628,11 @@
   "ticker": "MACRO",
   "title": "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
   "ts": "2026-11-04T19:09:57.864735+00:00"
+ },
+ "1b59718ce933416c": {
+  "ticker": "NVDA",
+  "title": "$NVIDIA (NVDA.US)$ The biggest open interest strikes for November 20th: - Moomoo",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "1b5a6dbd959b55ec": {
   "ticker": "LITE",
@@ -59409,6 +59444,11 @@
   "title": "Key facts: Tesla (TSLA) Merger Talks; Cybercab Ops; Q3 Oct 21 - TradingView",
   "ts": "2026-10-21T07:31:08.303832+00:00"
  },
+ "202783cd1a6d89ee": {
+  "ticker": "SPCX",
+  "title": "Katie Miller quits SpaceX, sells shares as husband Stephen Miller reportedly cleared of White House ethic - The Times of",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "20294ffebc63e837": {
   "ticker": "SPCX",
   "title": "SpaceX in talks with Crown Castle to secure 80,000 US cell sites By Investing.com - Investing.com South Africa",
@@ -61333,6 +61373,11 @@
   "ticker": "NFLX",
   "title": "KRAFTON Confirms ‘PUBG’ Live Action Series in Development at Netflix - PlayDayOne",
   "ts": "2026-10-30T01:49:13.617769+00:00"
+ },
+ "21560a67ac96537d": {
+  "ticker": "SMCI",
+  "title": "Susquehanna raises Super Micro Computer stock price target to $18 - Investing.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "21561871abf5346d": {
   "ticker": "HAG",
@@ -68153,6 +68198,11 @@
   "ticker": "NFLX",
   "title": "Harrison Ford’s Intense 124-Minute Hijack Movie Officially Finds Netflix Streaming Home - IMDb",
   "ts": "2026-10-22T19:03:36.117826+00:00"
+ },
+ "2519d9f38dca0b2d": {
+  "ticker": "NVDA",
+  "title": "Nvidia's Jensen Huang Faces A Test: AMD, Amazon And Google Lurk (NYSEARCA:SPY) - Seeking Alpha",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "251a0099f4a21f1d": {
   "ticker": "MACRO",
@@ -84444,6 +84494,11 @@
   "title": "Winner winner, Netflix dinner: Donald Glover to star in a PUBG series - ThePrint",
   "ts": "2026-10-30T07:06:31.391427+00:00"
  },
+ "2e00dd723b29c6e7": {
+  "ticker": "MACRO",
+  "title": "GBP/USD Price Forecast: Trades near 1.3450 with gains intact, retains positive bias above 100-day SMA - www.tmgm.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "2e0173427c728916": {
   "ticker": "SPCX",
   "title": "SpaceX Investor Ross Gerber Says He's 'Disgusted' With Elon Musk Over Ukraine's Starlink Slowdown, Warns - Benzinga",
@@ -87758,6 +87813,11 @@
   "ticker": "SNDK",
   "title": "SanDisk Optimus GX Pro 8100 review: Fast enough to make your internet the bottleneck - Moneycontrol.com",
   "ts": "2026-10-29T09:06:01.160438+00:00"
+ },
+ "2fd3c7d6a07bc5fd": {
+  "ticker": "TSLA",
+  "title": "Tesla Financials - FourWeekMBA",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "2fd49743fe1998e8": {
   "ticker": "MACRO",
@@ -96554,6 +96614,11 @@
   "title": "Tesla FSD v14.3.13 gets involved in a crash and shows multiple regressions (review videos) - Tesla Oracle",
   "ts": "2026-11-02T08:25:44.529831+00:00"
  },
+ "34cb0505109b1707": {
+  "ticker": "NVDA",
+  "title": "What could NVIDIA’s latest risks mean for the AI chip ecosystem? - Investing.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "34cc1a1085fe8130": {
   "ticker": "AAPL",
   "title": "Apple shares slide as higher memory costs fuel margin concerns - marketscreener.com",
@@ -104204,6 +104269,11 @@
   "title": "Nvidia Packaging Deal Puts OSAT Stocks Like ASE Technology Holding In Focus - Yahoo Finance",
   "ts": "2026-10-26T08:59:21.849763+00:00"
  },
+ "38edb3c2372f7db5": {
+  "ticker": "SNDK",
+  "title": "Sandisk Stock Has Collapsed by 65%, but It's Still Undergoing an 8-for-1 Stock Split on Nov. 19. Here's Why I'm Still No",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "38ee0c97d6b73b50": {
   "ticker": "HOOD",
   "title": "Form 4 Robinhood Ventures Fund I: Robinhood Markets, Inc. (10% Owner) For: 13 October By Investing.com - Investing.com S",
@@ -104818,6 +104888,11 @@
   "ticker": "MACRO",
   "title": "GLOBAL MARKETS-Tech selloff slows in Asia, oil hits five-month high - Devdiscourse",
   "ts": "2026-10-23T08:55:30.123193+00:00"
+ },
+ "393dc09f18034d3a": {
+  "ticker": "NVDA",
+  "title": "The Nasdaq-100 Just Had Its Best Day Since March Without Nvidia’s Help - AOL.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "393dc607468405eb": {
   "ticker": "MU",
@@ -106599,6 +106674,11 @@
   "title": "Micron: Is the Recent Selloff a Buying Opportunity? - The Globe and Mail",
   "ts": "2026-11-05T16:45:14.348498+00:00"
  },
+ "3a3da4502f434878": {
+  "ticker": "MACRO",
+  "title": "Brent Crude Falls Below $90 for First Time Since August - Yahoo! Finance Canada",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "3a3db6918f83192e": {
   "ticker": "TSLA",
   "title": "Musk wants to merge SpaceX and Tesla: Here’s what to know - The Weekly Times",
@@ -107908,6 +107988,11 @@
   "ticker": "NFLX",
   "title": "International Business: Netflix to show the door to 6pc staff - Gulf Daily News (Bahrain)",
   "ts": "2026-10-14T22:58:18.685589+00:00"
+ },
+ "3ae794a1e3f199d9": {
+  "ticker": "NVDA",
+  "title": "Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled about spy affair - The Seattle Times",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "3ae7f75875253434": {
   "ticker": "MACRO",
@@ -111043,6 +111128,11 @@
   "ticker": "TSLA",
   "title": "This is the single-biggest obstacle to a SpaceX-Tesla merger: JPMorgan - Yahoo Finance",
   "ts": "2026-10-21T12:21:54.788348+00:00"
+ },
+ "3c8bd3a4a3594cce": {
+  "ticker": "MACRO",
+  "title": "US Dollar Index (DXY) trims losses ahead of US inflation data | FXStreet - شبكة تواصل الإخبارية",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "3c8d1cd759c228b1": {
   "ticker": "NVDA",
@@ -123803,6 +123893,11 @@
   "ticker": "TSLA",
   "title": "【三星电机获特斯拉、英伟达3.7万亿韩元投资】金十数据10月22日讯，据韩媒报道，特斯拉和英伟达将分别投资1.1万亿韩元和2.6万亿韩元，与三星电机合作建设用于人工智能（AI）芯片的下一代基板倒装芯片球栅格阵列（FC-BGA）生产设施。英伟",
   "ts": "2026-10-22T08:01:39.293006+00:00"
+ },
+ "438b5c5d3b926ba9": {
+  "ticker": "NVDA",
+  "title": "Trump Says Nvidia CEO Told Him He Was Unaware of Woman’s Alleged Spy Ties - Hungarian Conservative",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "438b7b2540e605c4": {
   "ticker": "TSLA",
@@ -138338,6 +138433,11 @@
   "ticker": "PLTR",
   "title": "RPT: HSBC Reviews Palantir Holding in $9Bn Is - Moomoo",
   "ts": "2026-10-20T12:56:49.450395+00:00"
+ },
+ "4b899a3196a1d288": {
+  "ticker": "NVDA",
+  "title": "🚨𝗨𝗣𝗗𝗔𝗧𝗘: Bank of America has dropped Nvidia $NVIDIA (NVDA.US)$ and Micron $Micron Technology (MU.US)$ from its list of t",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "4b89d7a58b8f3ca2": {
   "ticker": "MACRO",
@@ -153318,6 +153418,11 @@
   "ticker": "SNDK",
   "title": "Micron, Sandisk, and SK hynix Stocks Rise on Strong Earnings and AI Demand - KuCoin",
   "ts": "2026-11-04T04:16:24.748618+00:00"
+ },
+ "53a8f7faa206cbd2": {
+  "ticker": "MACRO",
+  "title": "Mysterious trader buys millions ahead of Nov. 10 inflation report - TheStreet",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "53a996e838ff0c92": {
   "ticker": "NFLX",
@@ -195534,6 +195639,11 @@
   "title": "NVIDIA’s Jensen Huang Expected To Weather Independent Board Probe As Analysts Give An 87% Probability Of Retaining CEO R",
   "ts": "2026-11-09T15:07:21.237969+00:00"
  },
+ "6a76116e2a9b483b": {
+  "ticker": "NFLX",
+  "title": "Maya Jama celebrates new Netflix deal after quitting Love Island - https://www.birmingham-now.co.uk/",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "6a77e82dd303ad04": {
   "ticker": "NVDA",
   "title": "Synopsys at Nvidia GTC Berlin: Delivering engineering precision with speed - DQ",
@@ -214339,6 +214449,11 @@
   "title": "Marvell agrees $115bn acquisition of Lumentum to expand AI data centre business - New Electronics",
   "ts": "2026-11-03T08:07:27.485061+00:00"
  },
+ "74ffccca496d4865": {
+  "ticker": "NVDA",
+  "title": "Flatkey Launches Flatkey Compute, a NeoCloud for Dedicated NVIDIA B300 Clusters - KTVO",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "750084148c047f59": {
   "ticker": "NVDA",
   "title": "Nvidia Geforce Now Xbox Game Pass - 19 Xbox Game Pass Titles Are Available on GeForce Now with More on the Way - aurorad",
@@ -222418,6 +222533,11 @@
   "ticker": "PLTR",
   "title": "Palantir Advances Over 4% as Top Funds Accumulate Shares : 기업주식정보 : JKN - 재경일보",
   "ts": "2026-11-06T17:15:03.711312+00:00"
+ },
+ "798a44ba8096d1e4": {
+  "ticker": "NFLX",
+  "title": "Netflix Is Officially Losing ‘The Last Kingdom’ in December But Only In The US - What's on Netflix",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "798a6f70473fd385": {
   "ticker": "NVDA",
@@ -251034,6 +251154,11 @@
   "title": "Why is Netflix stock rallying today? By Investing.com - Investing.com UK",
   "ts": "2026-11-04T15:39:28.616120+00:00"
  },
+ "897b0b2c5fc23728": {
+  "ticker": "NVDA",
+  "title": "Video New fallout amid investigation into alleged affair between Nvidia CEO and Chinese spy - ABC News - Breaking News, ",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "897b316b49b70fe1": {
   "ticker": "SPCX",
   "title": "VZ, TMUS, T Stocks Face Valuation Pressure From SpaceX Wireless Push, Says Citi - Stocktwits",
@@ -262624,6 +262749,11 @@
   "title": "Palantir's Partner Wins Give the Growth Story a Factory Floor - ad-hoc-news.de",
   "ts": "2026-11-07T04:18:48.494105+00:00"
  },
+ "8fe7e890949a8077": {
+  "ticker": "NFLX",
+  "title": "Tyler Perry’s The Gospel of Christmas on Netflix: Release Date, Cast and Story - EkSukoon",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "8fe7f27890ebdf5d": {
   "ticker": "NET",
   "title": "Jefferies cuts Cloudflare stock price target on valuation concerns By Investing.com - Investing.com India",
@@ -266138,6 +266268,11 @@
   "ticker": "MACRO",
   "title": "Bitcoin, Ethereum, XRP Gain, but Dogecoin Slips Amid Spike in Rate Hike Odds: Analyst Says Everything Is ‘Fine’ for BTC ",
   "ts": "2026-10-16T04:20:35.705853+00:00"
+ },
+ "91b82f0e6d84e970": {
+  "ticker": "MACRO",
+  "title": "IBN DCF Analysis: Intrinsic Value $42 vs Price $34 - GuruFocus",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "91b8536a490af90e": {
   "ticker": "AAOI",
@@ -296703,6 +296838,11 @@
   "title": "Treasury Yields Plunge Continue Despite Hot Inflation Reports - Investing.com South Africa",
   "ts": "2026-10-16T08:28:47.552111+00:00"
  },
+ "a298dee1f6305869": {
+  "ticker": "NVDA",
+  "title": "Nvidia stock falls amid probe of CEO Jensen Huang’s affair with alleged Chinese spy - KWXX - Hawaii",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "a29949deebfebf1a": {
   "ticker": "APP",
   "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock? - Yahoo Finance",
@@ -325518,6 +325658,11 @@
   "title": "【布油失守100美元/桶关口】金十数据11月4日讯，布伦特原油失守100美元/桶整数关口，为10月8日以来首次，日内跌幅3.60%。",
   "ts": "2026-11-04T13:59:45.950281+00:00"
  },
+ "b28c96e6a37bb6e6": {
+  "ticker": "SNDK",
+  "title": "Sandisk Appears a Highly Lucrative Investment After Recent AI Meltdown - Zacks Investment Research",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "b28cc8c932238125": {
   "ticker": "TSM",
   "title": "TSMC Sinks 10%, UMC Down 16% as Chip Rout Deepens After Democrats’ Midterm Wins - Yahoo Finance",
@@ -335657,6 +335802,11 @@
   "ticker": "SPCX",
   "title": "SpaceX Shares Lose 500 Billion as AI Sell-Off Deepens - Demokratis.co.id",
   "ts": "2026-11-02T07:23:45.323204+00:00"
+ },
+ "b813f0f11500cd4c": {
+  "ticker": "IONQ",
+  "title": "IonQ Positioned as a Market Shaper in Inaugural Gartner® Emerging Market Quadrant for Quantum Computing – Established Ve",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "b8146f428db816d9": {
   "ticker": "NVDA",
@@ -370128,6 +370278,11 @@
   "title": "HCLTech and Japan’s Rapidus open two semiconductor development centres in India - Indian Infrastructure Magazine",
   "ts": "2026-10-27T08:19:18.418476+00:00"
  },
+ "ca996dc88194f8fe": {
+  "ticker": "NVDA",
+  "title": "Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled about spy affair - Yahoo Finance",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "ca99ae6227e00323": {
   "ticker": "MACRO",
   "title": "Oil prices remained relatively stable as prospects for Russia-Ukraine peace talks improved. - Vietnam.vn",
@@ -389917,6 +390072,11 @@
   "ticker": "NVDA",
   "title": "Nvidia faces defining test as Jensen Huang probe adds to chip stock turbulence - South China Morning Post",
   "ts": "2026-11-09T14:53:32.167776+00:00"
+ },
+ "d5833d897c9484d7": {
+  "ticker": "NVDA",
+  "title": "Nvidia CEO's Affair With Alleged Spy Aided $7.5 Billion in China Chip Shipments, Information Reports - U.S. News - Money",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "d583a8d3d5993e91": {
   "ticker": "MACRO",
@@ -438438,6 +438598,11 @@
   "title": "Chiranjeevi makes OTT debut with Netflix’s ‘MEGAVerse’ talk show - Indian Broadcasting World",
   "ts": "2026-10-30T02:49:41.786676+00:00"
  },
+ "f0acbf3a42468484": {
+  "ticker": "NVDA",
+  "title": "FBI investigates Nvidia’s CEO over alleged Chinese spying - Semafor",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "f0ad949eee82af5d": {
   "ticker": "MACRO",
   "title": "美联储主席沃什：未来100天内将尽力对美联储的其他工作领域给予同等重视。",
@@ -444627,6 +444792,11 @@
   "ticker": "SPCX",
   "title": "Musk says will give SpaceX share to 'every kid in America' - The Korea Times",
   "ts": "2026-10-19T13:57:23.868386+00:00"
+ },
+ "f41574f671916ecb": {
+  "ticker": "MACRO",
+  "title": "Russell 2000 rebounds 3.15% ahead of US CPI release - ad-hoc-news.de",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "f416b87c0ca6b80b": {
   "ticker": "MACRO",
@@ -456488,6 +456658,11 @@
   "title": "Netflix’s Chief Content Officer Bela Bajaria Exiting - Deadline",
   "ts": "2026-10-15T21:46:46.054585+00:00"
  },
+ "fa8d3f016eee8333": {
+  "ticker": "NVDA",
+  "title": "Nvidia Loses $200B in Value Amid Alleged Chinese Spy Scandal - TODAY.com",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
+ },
  "fa8de288d401fd78": {
   "ticker": "MU",
   "title": "Micron funds critical minerals processing at Indium Corporation's New York facility - digitimes",
@@ -458492,6 +458667,11 @@
   "ticker": "GOOGL",
   "title": "Form 4 Alphabet Inc Class A: Marsida Saraci (VP, Chief Accounting Officer) For: 25 October - Investing.com Canada",
   "ts": "2026-10-28T02:21:05.107432+00:00"
+ },
+ "fba12ab8c7a94d86": {
+  "ticker": "MACRO",
+  "title": "DeepTalk：AI泡沫只是表象！华尔街老将真正担心的，是三场危机同时到来：AI估值未必已经脱离基本面，但资金过度集中可能引发连锁抛售。再叠加美联储加息和高油价的滞后影响，市场风险可能远超单一板块调整。点击查看...",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "fba16ee5c8bef13d": {
   "ticker": "SPCX",
@@ -462602,6 +462782,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet’s slide deepens as AI spending fears explode - Rolling Out",
   "ts": "2026-10-26T16:16:49.600385+00:00"
+ },
+ "fdf2bd7a80aaf7ab": {
+  "ticker": "MACRO",
+  "title": "Market Quick Take - Wall Street rebounds and Brent slides below USD 92 - 10 November 2026 - Saxo",
+  "ts": "2026-11-10T12:26:09.529934+00:00"
  },
  "fdf3ef73fa9afecd": {
   "ticker": "TSLA",
