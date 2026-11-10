@@ -301,6 +301,12 @@
    "status": "pushed_unscored",
    "title": "MECANICIEN ENGIN ET POIDS LOURD"
   },
+  "6aa1d8cb0d35903fc267c261": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Responsable Projets en Alternance H/F"
+  },
   "6aa1d8d40d35903fc267c44d": {
    "first_seen": "2026-10-22T12:52:43.134410+00:00",
    "score": null,
@@ -504,6 +510,12 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Stagiaire Contrôle de Gestion H/F"
+  },
+  "6acab6e3dab1251c1ae35e7f": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Employé de Rayon Alimentaire Titre Professionnel en Alternance H/F"
   },
   "6acfa75522ce23a2ad444319": {
    "first_seen": "2026-10-21T12:49:44.761702+00:00",
@@ -2184,6 +2196,54 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Chargé de missions promotion immobilière,projets urbains mixtes -Alternance F/H"
+  },
+  "6af251a5cc766074572b7614": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Opérateur Régleur Industriel H/F"
+  },
+  "6af251a5cc766074572b7615": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Chargé de Planification H/F"
+  },
+  "6af251a6cc766074572b7663": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Contrôleur de Gestion en Alternance Charleville H/F"
+  },
+  "6af251a6cc766074572b7667": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Acheteur Matériaux et Consommables de Chantier - Éléments de Construction H/F"
+  },
+  "6af251a9cc766074572b76cd": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Web Analytics H/F"
+  },
+  "6af25484cc766074572b783a": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Equilibreur Industriel (H/F)"
+  },
+  "6af25486cc766074572b78a9": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Conseiller de vente en alternance/apprentissage (H/F)"
+  },
+  "6af25487cc766074572b78e3": {
+   "first_seen": "2026-11-10T15:29:27.810466+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Achats (H/F)"
   }
  }
 }
