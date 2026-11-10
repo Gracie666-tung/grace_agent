@@ -5439,6 +5439,11 @@
   "title": "Silver price forecast: Fed decision sets the stage as US PCE and GDP loom - Invezz",
   "ts": "2026-10-29T11:34:30.323020+00:00"
  },
+ "02d51629bb3a479b": {
+  "ticker": "MACRO",
+  "title": "GBP/USD Price Forecast: Holds gains near 1.3450, maintains constructive bias above 100-day SMA | FXStreet - شبكة تواصل ا",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "02d5c6dea0110c9c": {
   "ticker": "SPCX",
   "title": "Why is SpaceX stock up over 6% on Monday? - Invezz",
@@ -8998,6 +9003,11 @@
   "ticker": "MACRO",
   "title": "US inflation rises before midterm elections, fuelling rate hike fears - Al Jazeera",
   "ts": "2026-10-14T16:55:52.574268+00:00"
+ },
+ "04de5d1ad2c3bc19": {
+  "ticker": "MACRO",
+  "title": "Bank of Japan's October summary shows members pushing for faster rate hikes as household spending slumps - MLQ.ai",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "04df1e50b7881cb8": {
   "ticker": "NFLX",
@@ -16708,6 +16718,11 @@
   "ticker": "MACRO",
   "title": "Cutting Live FOMC Meetings Is Silly - Forex Factory",
   "ts": "2026-10-30T16:04:14.398565+00:00"
+ },
+ "08f591359f86a990": {
+  "ticker": "NVDA",
+  "title": "Alice Huang, Chinese businesswoman tied to Nvidia CEO, went from finance to chips - marketscreener.com",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "08f610e4ec8257c6": {
   "ticker": "NFLX",
@@ -117749,6 +117764,11 @@
   "title": "Tesla Wins South Korea FSD Lawsuit as Refund Disputes Grow - TipRanks",
   "ts": "2026-10-29T07:24:51.976516+00:00"
  },
+ "41697e3e164de96d": {
+  "ticker": "MACRO",
+  "title": "Oil falls as Trump downplays prospect of escalation with Iran - Business Recorder",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "4169878d7755098f": {
   "ticker": "PLTR",
   "title": "Palantir, Knox Systems partner to expand federal cloud delivery in U.S. government markets - Traders Union",
@@ -160734,6 +160754,11 @@
   "title": "SpaceX Soars 5% as Stifel Calls It the “Buyer of Last Resort” for Stalled Data Centers - TIKR.com",
   "ts": "2026-11-09T23:22:40.404863+00:00"
  },
+ "595302544d2b7761": {
+  "ticker": "NVDA",
+  "title": "All we know about suspected spy at heart of Nvidia scandal after billionaire CEO admits affair - The Independent",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "59534bc8688a7163": {
   "ticker": "AAPL",
   "title": "Apple Inc. : Gets a Buy rating from JP Morgan - www.marketscreener.com",
@@ -166358,6 +166383,11 @@
   "ticker": "MU",
   "title": "A 1,012-share award for Micron (MU) accounting chief Scott R. Allen vests in three annual installments. - Stock Titan",
   "ts": "2026-10-16T00:47:52.972273+00:00"
+ },
+ "5c6ea39fed176012": {
+  "ticker": "MACRO",
+  "title": "US Dollar Index (DXY) flatlines near 101.70; awaits US CPI report amid Iran uncertainty - FXStreet",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "5c6f25f5b4e1060d": {
   "ticker": "TSM",
@@ -181518,6 +181548,11 @@
   "ticker": "MACRO",
   "title": "Global Market: Japanese investors extend foreign bond selling streak to six weeks - The Economic Times",
   "ts": "2026-10-29T09:53:16.462673+00:00"
+ },
+ "64b17dd569dd2a9c": {
+  "ticker": "MACRO",
+  "title": "Asian stocks rise after technology shares rally on Wall Street - The New Indian Express",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "64b1ab9ea4a8b083": {
   "ticker": "NFLX",
@@ -200788,6 +200823,11 @@
   "ticker": "NFLX",
   "title": "Netflix's New Near-Perfect 4-Part Crime Thriller Is Already a Certified Streaming Hit - IMDb",
   "ts": "2026-11-01T17:33:50.415093+00:00"
+ },
+ "6f78a2bd84aed7ca": {
+  "ticker": "NVDA",
+  "title": "Transcript: The fallout of Nvidia’s spying scandal - Financial Times",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "6f79605cc863d0f0": {
   "ticker": "MACRO",
@@ -269469,6 +269509,11 @@
   "title": "Netflix Sets Release Date for Rob Lowe Documentary ‘The Outsider’ - IMDb",
   "ts": "2026-10-20T17:36:38.494720+00:00"
  },
+ "96335f14df4e4813": {
+  "ticker": "MACRO",
+  "title": "Brent Slips To $91 As Trump Says Iran War Effectively Over - Free Press Journal",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "96355909a31c5690": {
   "ticker": "MACRO",
   "title": "FOMC Meeting: Fed Holds Rates as Expected Despite Inflation Concerns - CoinGape",
@@ -273873,6 +273918,11 @@
   "ticker": "IONQ",
   "title": "IonQ wins $7.5M follow-on US Air Force quantum networking contract - TradingView",
   "ts": "2026-10-27T13:37:31.310461+00:00"
+ },
+ "98a900a057ee9c36": {
+  "ticker": "NVDA",
+  "title": "NVIDIA stock falls amid reports CEO was target of alleged Chinese spy operation - WLUK",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "98a9481376043f33": {
   "ticker": "PLTR",
@@ -297708,6 +297758,11 @@
   "title": "A lawyer who raised suspicions of Netflix's \"Solo Hell 4\" actor Kook Dong-ho's participation in scho.. - 매일경제",
   "ts": "2026-11-06T02:15:09.703783+00:00"
  },
+ "a5f90f504a08382d": {
+  "ticker": "MACRO",
+  "title": "Asian stocks rise after technology shares advance on Wall Street - WPLG Local 10",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "a5fadccb3b37a0a2": {
   "ticker": "MACRO",
   "title": "Forex Today: British Pound struggles to benefit from hot inflation data - www.tmgm.com",
@@ -306678,6 +306733,11 @@
   "title": "Musk pledges SpaceX shares worth more than $10bn to US children - Euronews.com",
   "ts": "2026-10-19T14:39:59.514776+00:00"
  },
+ "ab1ad46833cdd6ac": {
+  "ticker": "MACRO",
+  "title": "Oil Prices Fall For Second Day as Trump Signals Restraint on Iran Strikes - News Mobile",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "ab1b4e64dccc0c4c": {
   "ticker": "MACRO",
   "title": "A hawkish repricing puts bitcoin's rate sensitivity back on display - ETF Database",
@@ -314757,6 +314817,11 @@
   "ticker": "MACRO",
   "title": "Brent oil price tops $111 as Middle East tensions escalate - Traders Union",
   "ts": "2026-10-20T13:27:08.859129+00:00"
+ },
+ "afa0b5582efc215b": {
+  "ticker": "NFLX",
+  "title": "ABC's Hit 4-Season Crime Drama Officially Returns With New Episodes After Netflix Debut - IMDb",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "afa3317224c52059": {
   "ticker": "MACRO",
@@ -339833,6 +339898,11 @@
   "title": "Quantum Leap: IonQ acquires cybersecurity company Elisity in $1.3B deal - TipRanks",
   "ts": "2026-10-14T22:17:10.232038+00:00"
  },
+ "bd91d270b9b574f4": {
+  "ticker": "MACRO",
+  "title": "US consumer prices expected to have risen at slower pace in October - Reuters",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "bd91ff4c02fa3626": {
   "ticker": "NFLX",
   "title": "ABC's Hit 4-Season Crime Drama Officially Returns With New Episodes After Netflix Debut - Comic Book Resources",
@@ -354803,6 +354873,11 @@
   "title": "Micron Is Down 23% From Its High. History Suggests This Is What Happens Next. - The Globe and Mail",
   "ts": "2026-10-16T07:58:30.243768+00:00"
  },
+ "c59f8678ac30c1be": {
+  "ticker": "MACRO",
+  "title": "Canadian Dollar enjoys a relief rally | CAD Daily Update - Knightsbridge Foreign Exchange",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "c59f9dcc14b87b78": {
   "ticker": "NFLX",
   "title": "Video: \"In Waves\" - Official Trailer - Netflix - The Futon Critic",
@@ -363677,6 +363752,11 @@
   "ticker": "SMCI",
   "title": "Bernstein Picks AMD Over Super Micro Ahead of Earnings - TradingView",
   "ts": "2026-11-03T17:03:42.125374+00:00"
+ },
+ "ca8c09b84f4ea0e7": {
+  "ticker": "NVDA",
+  "title": "‘I had no idea she was a Chinese spy’: Trump says Nvidia CEO told him amid FBI probe - The South First",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "ca8cc3e4a2dfc193": {
   "ticker": "MACRO",
@@ -417183,6 +417263,11 @@
   "title": "The IMDb Exclusive Portrait Studio at Netflix's FYSEE LA for 'Nobody Wants This' - IMDb",
   "ts": "2026-11-01T11:07:53.240966+00:00"
  },
+ "e8ce0efa84b8bce5": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Stock: Buy Under $300 (NASDAQ:GOOGL) - Seeking Alpha",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "e8ce6956fe249514": {
   "ticker": "GOOGL",
   "title": "Wells Fargo cuts Alphabet stock price target on lower revenue outlook By Investing.com - Investing.com India",
@@ -436483,6 +436568,11 @@
   "title": "Bund Yields Ease From Weekly High as ECB Hold Looms, Fed Dissent Steepens U.S. Curve - BigGo Finance",
   "ts": "2026-10-29T09:41:26.794587+00:00"
  },
+ "f3b5fed031b392b1": {
+  "ticker": "MACRO",
+  "title": "Nikkei reclaims 60,000 and SoftBank jumps 11% as Asian chip stocks track Wall Street's rebound - MLQ.ai",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
+ },
  "f3b62f82fec9999e": {
   "ticker": "MACRO",
   "title": "USD/JPY and Nasdaq Price Outlook: Key Levels to Watch - StoneX",
@@ -453672,6 +453762,11 @@
   "ticker": "MACRO",
   "title": "S&P 500 churns in countdown to Fed, tech earnings - The Edge Singapore",
   "ts": "2026-10-28T17:20:58.151146+00:00"
+ },
+ "fd44a613317d3e96": {
+  "ticker": "TSLA",
+  "title": "Tesla plans Cybertruck exit after Model S and Model X; raises stakes for Cybercab and Optimus - digitimes",
+  "ts": "2026-11-10T05:11:08.828742+00:00"
  },
  "fd44bd19dcf36791": {
   "ticker": "NFLX",
