@@ -84,6 +84,11 @@
   "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Monday - Yahoo Finance",
   "ts": "2026-11-04T12:33:55.899514+00:00"
  },
+ "000904b2c41228cb": {
+  "ticker": "TSLA",
+  "title": "Finland approves FSD Supervised, automaker renames it to 'Tesla Assisted Driving' in Europe - Tesla Oracle",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "0009231fa3568ef9": {
   "ticker": "MACRO",
   "title": "Scott Bessent May Be About To Rewrite The Rules Of The Treasury Market - The Wealth Advisor",
@@ -50849,6 +50854,11 @@
   "title": "Fed’s Hammack supports gradual rate hikes to manage inflation - Crypto Briefing",
   "ts": "2026-11-05T14:08:39.737078+00:00"
  },
+ "198591a9be8d89d6": {
+  "ticker": "NVDA",
+  "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia - Yahoo",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "1987d0caba5fd1de": {
   "ticker": "MACRO",
   "title": "us market good news dollar index drop trump iran crude view - Zee Business",
@@ -95514,6 +95524,11 @@
   "title": "Alphabet (NASDAQ:GOOGL) Posts Strong Revenue Growth Led by Cloud and Search Acceleration - Kalkine",
   "ts": "2026-11-11T04:31:34.405734+00:00"
  },
+ "3074fae91ea716f9": {
+  "ticker": "NFLX",
+  "title": "Why is Netflix stock gaining today? By Investing.com - Investing.com Canada",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "307524bcfe9aadd5": {
   "ticker": "NVDA",
   "title": "Nvidia's Huang hails Europe's AI potential, flanked by robot ducks - TradingView",
@@ -116178,6 +116193,11 @@
   "ticker": "NVDA",
   "title": "$NVIDIA (NVDA.US)$ - Moomoo",
   "ts": "2026-11-10T14:29:54.875474+00:00"
+ },
+ "3ae7f12a24dfa8ed": {
+  "ticker": "NFLX",
+  "title": "Lily Collins teases \"Emily in Paris\" final chapter as Netflix drops trailer - ARYnews.tv",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
  },
  "3ae7f75875253434": {
   "ticker": "MACRO",
@@ -181649,6 +181669,11 @@
   "title": "TSMC explores rare-earth-free equipment to counter China controls: Report - electronics.economictimes.indiatimes.com",
   "ts": "2026-10-22T10:50:17.987706+00:00"
  },
+ "5c127a8de6bd1e8a": {
+  "ticker": "NVDA",
+  "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - Morning Journal",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "5c129489d7c4972b": {
   "ticker": "NVDA",
   "title": "NVIDIA DLSS Preset C vs. Preset B: Performance and Image Quality - NoobFeed",
@@ -202968,6 +202993,11 @@
   "ticker": "NFLX",
   "title": "Netflix Film VP Doug Belgrad Out as Part of Layoffs - Yahoo",
   "ts": "2026-10-14T16:15:05.736883+00:00"
+ },
+ "66b5a815609e0e3e": {
+  "ticker": "NFLX",
+  "title": "Netflix Gearing Up For Russell Brand Doc In Wake Of Conviction & Prison Sentencing For Sexual Assault/Rape - The Playlis",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
  },
  "66b5c567dc046887": {
   "ticker": "NFLX",
@@ -235824,6 +235854,11 @@
   "title": "SpaceX (NASDAQ:SPCX) Stock Gets Price Target Increase from Wells Fargo & Company - MarketBeat",
   "ts": "2026-10-21T14:42:21.154042+00:00"
  },
+ "7793da12a5722f4f": {
+  "ticker": "GOOGL",
+  "title": "Alphabet's DeepMind unveils new AlphaGenome 2 model aimed at reading DNA cells (GOOG:NASDAQ) - Seeking Alpha",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "7793e76caba78083": {
   "ticker": "GLW",
   "title": "Corning stock may move 7.2% on earnings release next week By Investing.com - Investing.com Nigeria",
@@ -260554,6 +260589,11 @@
   "title": "Nvidia stock plunges 4% after CEO Jensen Huang admits to affair with alleged Chinese spy - New York Post",
   "ts": "2026-11-09T21:28:49.158599+00:00"
  },
+ "845d1d66157bd6b3": {
+  "ticker": "MACRO",
+  "title": "Bitcoin: Recovery Looks Fragile as Hot Inflation Threatens a Deeper Sell-Off - Investing.com",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "845ee497700996f2": {
   "ticker": "TSLA",
   "title": "Elon Musk Reveals the Real Reason He Hasn't Confirmed a SpaceX-Tesla Merger Will Happen - The Globe and Mail",
@@ -260573,6 +260613,11 @@
   "ticker": "SPCX",
   "title": "Musk backs SpaceX-Tesla merger as rocket firm turns profit - Citizen Digital",
   "ts": "2026-10-21T06:43:18.376645+00:00"
+ },
+ "845fbacf2966d940": {
+  "ticker": "COHR",
+  "title": "Analysts’ Top Technology Picks: Coherent Corp (COHR), Monday.com (MNDY) - The Globe and Mail",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
  },
  "845fe4f9099e493f": {
   "ticker": "MACRO",
@@ -274073,6 +274118,11 @@
   "ticker": "SPCX",
   "title": "SpaceX cell site talks rattle US telecom operators - Communications Today",
   "ts": "2026-10-24T07:26:46.882345+00:00"
+ },
+ "8b626c44b2c6a08e": {
+  "ticker": "MACRO",
+  "title": "Market positioning risks mount as macro hedge funds face worst stretch in years - Yahoo Finance Singapore",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
  },
  "8b630a19a610c2e7": {
   "ticker": "MACRO",
@@ -397728,6 +397778,11 @@
   "title": "US private payrolls rise in October, ADP says - ETHRWorld.com",
   "ts": "2026-11-06T02:53:47.431693+00:00"
  },
+ "ca7403b2e1a31869": {
+  "ticker": "MU",
+  "title": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement - GuruFocus",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "ca7417570ba679df": {
   "ticker": "MACRO",
   "title": "U.S. stock index futures slide after midterms rally as weak chip earnings weigh - Investing.com",
@@ -441828,6 +441883,11 @@
   "title": "Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears - 101 WIXX",
   "ts": "2026-11-02T04:41:27.935393+00:00"
  },
+ "e10dadff475c1561": {
+  "ticker": "ANET",
+  "title": "Arista’s Co-Founder Has Sold About $668 Million of Stock Since May - Yahoo Finance",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
+ },
  "e10e6d5b3cc55a5e": {
   "ticker": "NVDA",
   "title": "Not worried about Nvidia stock long term, says Taylor Group’s James Taylor - CNBC",
@@ -455252,6 +455312,11 @@
   "ticker": "SPCX",
   "title": "SpaceX says its capex could double this quarter as AI spending grows - Yahoo Finance UK",
   "ts": "2026-10-20T22:04:06.044597+00:00"
+ },
+ "e833a9ee23934686": {
+  "ticker": "NVDA",
+  "title": "Chip Roy says Nvidia situation ‘not good,’ urges pursuit of facts on Huang - Fox News",
+  "ts": "2026-11-11T19:56:48.896772+00:00"
  },
  "e833cd37d422cf55": {
   "ticker": "TSLA",
