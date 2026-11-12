@@ -65954,6 +65954,11 @@
   "title": "市场消息：美国民主党将在调查中把苹果(AAPL.O)、Meta Platforms(META.O)及马斯克旗下公司列为目标。",
   "ts": "2026-11-06T10:07:17.154751+00:00"
  },
+ "1f7ac84462ba938e": {
+  "ticker": "NFLX",
+  "title": "Radford Studio Lot Heads To Auction, Netflix Lined Up To Buy - Bisnow",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "1f7e1f43e444caa7": {
   "ticker": "NVDA",
   "title": "Analysis-Nvidia's clubby board faces a sticky 'honey pot' test - Idaho Statesman",
@@ -67418,6 +67423,11 @@
   "ticker": "MACRO",
   "title": "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers - AOL.com",
   "ts": "2026-10-24T19:16:13.408636+00:00"
+ },
+ "2038e60fcfdac025": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy - The New York Times",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "2038f76ea0963b14": {
   "ticker": "ANET",
@@ -223764,6 +223774,11 @@
   "title": "Rocket Lab Still Has a $2.4B Backlog While Neutron Waits - Benzinga",
   "ts": "2026-10-15T15:26:56.807752+00:00"
  },
+ "6b53cd4f08abc442": {
+  "ticker": "NVDA",
+  "title": "How Nvidia Jensen Huang’s resignation impacts the market - Deseret News",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "6b53fa0785c652cf": {
   "ticker": "NVDA",
   "title": "Did China Target Nvidia CEO Jensen Huang To Gain Access To America's AI Secrets? - NDTV",
@@ -224563,6 +224578,11 @@
   "ticker": "NVDA",
   "title": "AMD Adds $182B Since Nov. 5 Rout as Nvidia Sheds $306B - FourWeekMBA",
   "ts": "2026-11-11T11:34:35.131289+00:00"
+ },
+ "6badd09c23517b80": {
+  "ticker": "MACRO",
+  "title": "Fed says October 2027 meeting will not include a vote on rates - Rich Picks Daily",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "6bae84f83efaab4b": {
   "ticker": "NFLX",
@@ -228483,6 +228503,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet's Cloud Business Doubled, but the Stock Plunged. Here's What a $5,000 Investment Could Be Worth by 2030. - The ",
   "ts": "2026-11-12T12:55:46.998665+00:00"
+ },
+ "6d8bc103ea88b490": {
+  "ticker": "NVDA",
+  "title": "The rise and fall of former Nvidia CEO Jensen Huang - NBC News",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "6d8d0d1c815a118e": {
   "ticker": "MACRO",
@@ -252304,6 +252329,11 @@
   "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning | NVIDIA Technical Blog - NVIDIA Develo",
   "ts": "2026-10-15T15:08:35.175914+00:00"
  },
+ "794a9b8d6934bf1f": {
+  "ticker": "NVDA",
+  "title": "Trump floats Tim Cook as Nvidia's next CEO after Jensen Huang resigned - Quartz",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "794b0e09a20dee91": {
   "ticker": "HAG",
   "title": "Hensoldt's 5.9% Surge Ties Defense Rally to Bundeswehr Order Hopes as Q3 Report Looms - ad-hoc-news.de",
@@ -257878,6 +257908,11 @@
   "ticker": "NFLX",
   "title": "Netflix's Adults-Only Animated Series Officially Sets Release Date - Collider",
   "ts": "2026-11-03T14:08:10.964354+00:00"
+ },
+ "7bf6d3cafd9538aa": {
+  "ticker": "TSLA",
+  "title": "Finland’s green light for Tesla’s Assisted Driving supports potential European product adoption - Traders Union",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "7bf77202dff31f86": {
   "ticker": "MACRO",
@@ -321694,6 +321729,11 @@
   "title": "Nasdaq Composite Powers Past 26,600 as SpaceX Hits Historic Maiden Profit and Super Micro Rekindles AI Optimism Despite ",
   "ts": "2026-10-22T21:53:04.704910+00:00"
  },
+ "9afe15e02df389d3": {
+  "ticker": "MACRO",
+  "title": "【国际油价12日上涨】金十数据11月13日讯，截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨2.21美元，收于每桶88.74美元，涨幅为2.55%；1月交货的伦敦布伦特原油期货价格上涨3.06美元，收于每桶95.82美元，涨幅",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "9b0083733f4e7bb0": {
   "ticker": "MU",
   "title": "Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips - Asianet Newsable",
@@ -331953,6 +331993,11 @@
   "title": "【消息人士：日本央行将在下周会议上决定通胀率是否已达到2%的目标】金十数据10月21日讯，据日本共同社，知情人士周三透露，日本央行将在下周的政策会议上，评估潜在通胀率是否已达到2%的目标。若做出这一认定，将成为日本央行的一个象征性转折点，标",
   "ts": "2026-10-21T08:26:18.065891+00:00"
  },
+ "a01c9a8cbc095c21": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series B (GOOGN) Stock Price - Traders Unio",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "a01cb74f2f9578bf": {
   "ticker": "AMD",
   "title": "Rosenblatt maintains Advanced Micro Devices at Buy, keeps price target at $700 - TradingView",
@@ -332022,6 +332067,11 @@
   "ticker": "MU",
   "title": "Micron, Taichung union reach deal in labor talks - Focus Taiwan",
   "ts": "2026-10-21T09:50:43.326874+00:00"
+ },
+ "a02304c20f36c9e2": {
+  "ticker": "SPCX",
+  "title": "SpaceX, Tesla are said to move toward merger as soon as December (SPCX:NASDAQ) - Seeking Alpha",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "a024d21b6b2d9de8": {
   "ticker": "NFLX",
@@ -344187,6 +344237,11 @@
   "ticker": "GOOGL",
   "title": "Alphabet, Marvell, ServiceNow, Fortinet, Caterpillar, Lilly, and More Stocks That Explain Today’s Market - Barron's",
   "ts": "2026-10-29T16:40:07.711299+00:00"
+ },
+ "a619a7ca9530b72f": {
+  "ticker": "NVDA",
+  "title": "Reuters: Ex-Nvidia CEO Jensen Huang had a second relationship with a second employee - MS NOW",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "a61a07f18d4b62f1": {
   "ticker": "MACRO",
@@ -359687,6 +359742,11 @@
   "ticker": "NVDA",
   "title": "Nvidia to open Stockholm AI hub for start-ups tackling health and climate challenges - Yahoo News Australia",
   "ts": "2026-10-15T14:56:13.203265+00:00"
+ },
+ "adb5eee945b7bc37": {
+  "ticker": "NFLX",
+  "title": "Netflix drops its biggest K-drama cast of 2026 — and the writer's résumé says it all. - Tech Times",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "adb66185dcf3574b": {
   "ticker": "MACRO",
@@ -386132,6 +386192,11 @@
   "ticker": "NET",
   "title": "Cloudflare director Carl Ledbetter sells $1.52m in stock By Investing.com - Investing.com UK",
   "ts": "2026-10-19T23:55:54.434466+00:00"
+ },
+ "ba6bf90d233a7a29": {
+  "ticker": "MACRO",
+  "title": "【美国10月财政赤字达4040亿美元 同比扩大42%】金十数据11月13日讯，美国财政部数据显示，2027财年首月（2026年10月）美国财政赤字达到4040亿美元，同比扩大42%。当月政府支出同比增长12%至7730亿美元，税收收入下降9",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "ba6cf6e85ab60efc": {
   "ticker": "TSLA",
@@ -461378,6 +461443,11 @@
   "title": "‘La Bola Negra’ Earns $277,500 in Limited Release as Netflix Reports Box Office Results for the First Time in History - ",
   "ts": "2026-10-25T18:00:04.480259+00:00"
  },
+ "debae7b250d091eb": {
+  "ticker": "AMD",
+  "title": "Advanced Micro Devices (AMD) Stock Jumped, What Is Driving Attention Today? - Yahoo Finance Singapore",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "debc1a895df48da5": {
   "ticker": "MACRO",
   "title": "What Pushed US Stocks and SPDR Dow Jones Industrial Average ETF Trust (NYSEARCA:DIA) Lower After the Hot CPI Report? - k",
@@ -474823,6 +474893,11 @@
   "title": "Goldman Sachs reiterates Cloudflare stock rating on strong Q3 results By Investing.com - Investing.com India",
   "ts": "2026-11-06T12:38:57.992508+00:00"
  },
+ "e55a6e5568028c0b": {
+  "ticker": "NVDA",
+  "title": "Former CEO Jensen Huang conducted extramarital affair with second Nvidia employee, sources say - The Jerusalem Post",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
+ },
  "e55aa9d4162d06cf": {
   "ticker": "NVDA",
   "title": "NVIDIA Shader Cache Size: 13 Steps, 40 Min [2026] - https://tech-insider.org/",
@@ -479432,6 +479507,11 @@
   "ticker": "NVDA",
   "title": "ASUS Unveils Enterprise Agentic AI Solution and Full-Stack Agent Computer at NVIDIA GTC Berlin 2026 - ASUS Pressroom",
   "ts": "2026-10-21T12:03:25.941709+00:00"
+ },
+ "e79e1f3a513d7aa2": {
+  "ticker": "NFLX",
+  "title": "Teenage Girls Are the Real Horror in Netflix’s Vibe Heavy, Overlong The Body - reactormag.com",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "e79eac0006cc8de1": {
   "ticker": "TSM",
@@ -514717,6 +514797,11 @@
   "ticker": "IBKR",
   "title": "Interactive Brokers Group, Inc. (IBKR) stock price, news, quote and history - Yahoo Finance Australia",
   "ts": "2026-11-12T09:35:07.632900+00:00"
+ },
+ "f8e9a28049551eac": {
+  "ticker": "MACRO",
+  "title": "Here Are the New 401(k) And IRA Contribution Limits for 2027 - Bloomberg.com",
+  "ts": "2026-11-12T20:50:47.439104+00:00"
  },
  "f8eaedd2ddcf1103": {
   "ticker": "MACRO",
