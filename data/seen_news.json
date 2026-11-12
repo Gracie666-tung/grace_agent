@@ -5904,6 +5904,11 @@
   "title": "Watch CNBC's full interview with Interactive Brokers' Steve Sosnick and Fundstrat's Mark Newton - CNBC",
   "ts": "2026-10-15T18:48:57.451514+00:00"
  },
+ "02aa35aba095e6f7": {
+  "ticker": "MACRO",
+  "title": "美联储施密德：美联储仍未战胜通胀敌人。",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "02ab057a53e14722": {
   "ticker": "NVDA",
   "title": "NVIDIA has closed the option to remove hardware limits for tensor cores in the GeForce RTX 50 series. - GameGPU",
@@ -8148,6 +8153,11 @@
   "ticker": "TSLA",
   "title": "TSMC stock may take bigger role in Tesla Terafab project - ad-hoc-news.de",
   "ts": "2026-11-02T14:45:24.180111+00:00"
+ },
+ "03c687bfb0adbf38": {
+  "ticker": "ASTS",
+  "title": "AST SpaceMobile calls its planned rocket “simple” - but building one is anything but - Mezha.net",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "03c6976de4af42c1": {
   "ticker": "NET",
@@ -56124,6 +56134,11 @@
   "title": "$500 bn wiped out: What triggered Google Alphabet’s worst day ever - The Financial Express",
   "ts": "2026-10-30T08:56:21.197964+00:00"
  },
+ "1ad8a31c75024646": {
+  "ticker": "ANET",
+  "title": "The Zacks Analyst Blog Highlights iShares Semiconductor ETF, NVIDIA, Arista, TSMC and Micron - The Globe and Mail",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "1ada75ce0b6c678a": {
   "ticker": "MACRO",
   "title": "Marcus & Millichap (MMI) Q3 2026 Earnings Call Transcript - The Globe and Mail",
@@ -61923,6 +61938,11 @@
   "ticker": "MACRO",
   "title": "Brent rose to $116.72 per barrel, WTI to $103.27 — The Rio Times - UA.NEWS",
   "ts": "2026-10-24T03:46:13.410161+00:00"
+ },
+ "1d9fdbc25dba9f76": {
+  "ticker": "NVDA",
+  "title": "Nvidia’s interim CEO spent 13 years at Microsoft, far from the spotlight - GeekWire",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "1da00380b6e4eba4": {
   "ticker": "NVDA",
@@ -87234,6 +87254,11 @@
   "title": "Form 144 ROCKET LAB CORPORATION For: 18 October By Investing.com - Investing.com India",
   "ts": "2026-10-19T02:39:15.873631+00:00"
  },
+ "29e31ee8a512fc1d": {
+  "ticker": "MACRO",
+  "title": "Energy predictions from the federal government - Oklahoma Energy Today",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "29e4f578cd35cb80": {
   "ticker": "MACRO",
   "title": "纳斯达克100指数期货跌幅扩大，最新下跌1%，标普500指数期货下跌0.4%，道指期货现涨0.1%。",
@@ -92173,6 +92198,11 @@
   "ticker": "NVDA",
   "title": "Red Hat and Nvidia move agent security outside the AI agent - Techzine Global",
   "ts": "2026-10-22T07:25:45.263135+00:00"
+ },
+ "2c42a68c4f50b3e7": {
+  "ticker": "IONQ",
+  "title": "IonQ Is Up 3% in a Week. Is Its “Industry Record” Guidance Really That Good? - TIKR.com",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "2c432db04d42b64a": {
   "ticker": "MACRO",
@@ -116309,6 +116339,11 @@
   "title": "Pakistan water woes offer a test for startup Paani+ - Business Recorder",
   "ts": "2026-10-15T04:12:58.406446+00:00"
  },
+ "381ff9e450b48c04": {
+  "ticker": "SNDK",
+  "title": "Why Sandisk Stock Dropped on Thursday - The Globe and Mail",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "382034e7ae238858": {
   "ticker": "NFLX",
   "title": "Netflix movie chronicles two former Badgers - Chippewa Herald",
@@ -127289,6 +127324,11 @@
   "title": "Alphabet, Microsoft, Amazon, Meta, Tesla, Nvidia and Micron are part of Zacks Earnings Preview - The Globe and Mail",
   "ts": "2026-10-26T16:10:42.469999+00:00"
  },
+ "3d4c4af6d078b3da": {
+  "ticker": "NVDA",
+  "title": "Who will succeed Jensen Huang as Nvidia's CEO? We asked Wall Street analysts. - CBS News",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "3d4c65975acb670c": {
   "ticker": "NFLX",
   "title": "Can Netflix (NASDAQ:NFLX) Overcome Its Advertising Challenge? - Kalkine Media",
@@ -128123,6 +128163,11 @@
   "ticker": "NFLX",
   "title": "Netflix to reportedly lay off roughly 6% of its workforce, around 1000 employees: Details explored - Soap Central",
   "ts": "2026-10-17T07:37:23.093907+00:00"
+ },
+ "3db5c6787703a14a": {
+  "ticker": "MACRO",
+  "title": "美联储戴利：我们正处在招聘的完美风暴之中。",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "3db66f0de9d89241": {
   "ticker": "GOOGL",
@@ -155068,6 +155113,11 @@
   "ticker": "NVDA",
   "title": "Is Nvidia Stock a Buy After Its Historic $235 Billion Buyback? - The Motley Fool",
   "ts": "2026-10-19T16:54:25.616807+00:00"
+ },
+ "4ac8bfa203312111": {
+  "ticker": "SMCI",
+  "title": "DOJ working on probes into Nvidia, Supermicro, Semafor reports - TipRanks",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "4ac99491514f38d8": {
   "ticker": "NFLX",
@@ -210594,6 +210644,11 @@
   "title": "Nvidia Partner Vertiv Soars After AI Data Center Play's Blowout Earnings, Strong Guidance - Investor's Business Daily",
   "ts": "2026-10-28T12:13:38.427662+00:00"
  },
+ "65534e99fdcc70d6": {
+  "ticker": "NVDA",
+  "title": "Nvidia’s $10 Billion Anthropic IPO Pledge in Focus With CEO Exit - Bloomberg.com",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "6553d8e110150c01": {
   "ticker": "NFLX",
   "title": "'Stranger Things' prequel series coming to Netflix in 2028 - KRIS 6 News Corpus Christi",
@@ -229294,6 +229349,11 @@
   "title": "Marvell stock: StoneX reiterates Buy on Lumentum acquisition - Investing.com",
   "ts": "2026-11-03T17:09:51.384943+00:00"
  },
+ "6e6dc0a0c8907c46": {
+  "ticker": "MACRO",
+  "title": "【美联储2027年议息安排出炉 10月常规利率决议将改为货币政策讨论】金十数据11月13日讯，美联储周四公布2027年联邦公开市场委员会（FOMC）修订后的暂定会议日程。全年计划举行8次会议，分别于1月26-27日、3月16-17日、4月2",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "6e6e4064b37f4e84": {
   "ticker": "NFLX",
   "title": "Netflix Layoffs: TV Execs Lisa Lang McMullen, Andrew McQuinn and Carolina Garcia Among Cuts - IMDb",
@@ -243778,6 +243838,11 @@
   "ticker": "MACRO",
   "title": "E-mini S&P 500 futures stall as CPI pushes yields above 5%. - CME Group",
   "ts": "2026-11-11T01:10:46.114707+00:00"
+ },
+ "759936190938bcab": {
+  "ticker": "MACRO",
+  "title": "Fed releases meeting schedule for 2027, will not hold policy meeting next October - Yahoo Finance",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "75994bfd74b3ba80": {
   "ticker": "NFLX",
@@ -276074,6 +276139,11 @@
   "title": "Micron Technology, Inc. (MU) Options Chain - Yahoo! Finance Canada",
   "ts": "2026-10-19T09:24:26.053362+00:00"
  },
+ "8568cc4b263ebabc": {
+  "ticker": "NFLX",
+  "title": "Netflix To Release Russell Brand Documentary Days After Rape Conviction - The Daily Wire",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "8568fe4372ac381f": {
   "ticker": "MACRO",
   "title": "Adobe, HubSpot, Workday, Asana, and Workiva Shares Are Soaring, What You Need To Know - FinancialContent",
@@ -277938,6 +278008,11 @@
   "ticker": "PLTR",
   "title": "Palantir Is Not C3.Ai, But C3.Ai Wrote Its Watch List - Downgrade Palantir To Hold, Sell C3.Ai (NASDAQ:PLTR) - Seeking A",
   "ts": "2026-10-14T11:48:53.049066+00:00"
+ },
+ "865089cc387a6761": {
+  "ticker": "GOOGL",
+  "title": "Why is Alphabet stock rallying today? By Investing.com - Investing.com Canada",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "8650ac22824727ab": {
   "ticker": "NFLX",
@@ -368768,6 +368843,11 @@
   "title": "Stranger Things will return to Netflix in 2028 with Other Worlds and I'm fascinated by the teaser trailer - Stuff",
   "ts": "2026-11-06T19:29:21.738575+00:00"
  },
+ "b2d5bdfd116bd2ba": {
+  "ticker": "TSLA",
+  "title": "Unplugged Performance Adds Four Tesla Model Y L Suspension Packages - The EV Report",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "b2d6de01a12ad980": {
   "ticker": "LITE",
   "title": "Marvell to acquire Lumentum in $115bn AI connectivity deal - Scientific Computing World",
@@ -370797,6 +370877,11 @@
   "ticker": "NFLX",
   "title": "Here’s why Joanne McNally doesn’t think her Netflix special will air - Extra.ie",
   "ts": "2026-11-05T17:40:36.414447+00:00"
+ },
+ "b3d79cf3ab364516": {
+  "ticker": "MU",
+  "title": "Micron's Order Book Meets a Leadership Shock at Nvidia - ad-hoc-news.de",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "b3d94fdaa14b619b": {
   "ticker": "MACRO",
@@ -387257,6 +387342,11 @@
   "ticker": "MACRO",
   "title": "Gold ETFs attracted $31 billion: why is bullion still struggling below $4,200 - Invezz",
   "ts": "2026-10-20T07:46:59.730918+00:00"
+ },
+ "bb9e11de203e33aa": {
+  "ticker": "NVDA",
+  "title": "With an SMU grad now leading Nvidia, here is a look at the tech giant's massive North Texas footprint - WFAA",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "bb9e21405987a84d": {
   "ticker": "PLTR",
@@ -409967,6 +410057,11 @@
   "ticker": "NFLX",
   "title": "Meghan was 'used by Netflix to promote TV show' after latest Sussex Royal row - https://gnyouth.net/",
   "ts": "2026-10-20T15:34:51.102367+00:00"
+ },
+ "c66a2e55184487c9": {
+  "ticker": "NVDA",
+  "title": "'I am planning to buy more': Nvidia's retail bulls are hanging on after Jensen Huang resigns - Business Insider",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "c66c39012cfd0b90": {
   "ticker": "AMD",
@@ -438673,6 +438768,11 @@
   "title": "HCLTech Supercharge Your Game | Eugenio Chacarra reveals his top tips for using a driver - DP World Tour",
   "ts": "2026-10-22T17:49:38.420368+00:00"
  },
+ "d488b45498c4977a": {
+  "ticker": "MACRO",
+  "title": "Regional Banks Slipped As Treasury Yields Climbed - Finimize",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "d488b9e3858aba27": {
   "ticker": "TSLA",
   "title": "SpaceX, Tesla slide as election risks mount, Morgan Stanley turns bullish - Investing.com",
@@ -445327,6 +445427,11 @@
   "ticker": "MACRO",
   "title": "英国央行行长贝利：未来并非必然会出现一连串加息。",
   "ts": "2026-11-05T12:09:56.885275+00:00"
+ },
+ "d7c8dd4f521dfa7d": {
+  "ticker": "MACRO",
+  "title": "美联储戴利：你可以让经济放缓，同时仍保持良好增长。",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "d7c8e238d9a3fee2": {
   "ticker": "TSM",
@@ -471933,6 +472038,11 @@
   "title": "Flying cars: Tesla's new Roadster uses SpaceX thrusters to turn in the air, can drive upside down - The Jerusalem Post",
   "ts": "2026-10-16T06:09:15.050839+00:00"
  },
+ "e4c649b030e47206": {
+  "ticker": "MACRO",
+  "title": "Top 10@10: Markets gain for third day, inflation breaches 6%, Nvidia CEO resigns - LinkedIn",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
+ },
  "e4c6a5b7469d1fac": {
   "ticker": "NVDA",
   "title": "NVIDIA Corporation $NVDA Stock: Angeles Wealth Management LLC Grows Stake - MarketBeat",
@@ -475892,6 +476002,11 @@
   "ticker": "NVDA",
   "title": "Tech giants order over USD35B worth of Nvidia chips - Borneo Bulletin",
   "ts": "2026-10-20T21:09:14.799678+00:00"
+ },
+ "e6c1a1406d75b10f": {
+  "ticker": "NVDA",
+  "title": "What we know after Jensen Huang resigns as Nvidia’s CEO - WTOP News",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "e6c21b73dfa9d288": {
   "ticker": "MACRO",
@@ -518092,6 +518207,11 @@
   "ticker": "NVDA",
   "title": "Nvidia CEO's daughter cancels planned visit to Korea: sources - The Korea Times",
   "ts": "2026-11-07T16:33:24.018174+00:00"
+ },
+ "fb6d1372e1d59982": {
+  "ticker": "NFLX",
+  "title": "Netflix releases new trailer for Ray Gunn - Ars Technica",
+  "ts": "2026-11-12T18:49:28.729452+00:00"
  },
  "fb6e436a1e373269": {
   "ticker": "NVDA",
