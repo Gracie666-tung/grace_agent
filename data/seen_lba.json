@@ -337,6 +337,12 @@
    "status": "pushed_unscored",
    "title": "Alternance Ressources Humaines H/F"
   },
+  "6aa5cd59e3e77bdfae2a281b": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Consultant Alternant IT & Programmes de Transformation H/F"
+  },
   "6aa870049dceff7dd4b89f94": {
    "first_seen": "2026-11-04T15:17:14.896922+00:00",
    "score": null,
@@ -2388,6 +2394,60 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternance - Assistant chef de produit marketing services F/H"
+  },
+  "6af646246c7c8924df536cc6": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant CRM Intelligence Artificielle & Automatisation Commerciale H/F"
+  },
+  "6af646246c7c8924df536cc8": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Monteur Câbleur Industriel H/F"
+  },
+  "6af646256c7c8924df536ce1": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Chef de Projet Junior - Pmo H/F"
+  },
+  "6af646276c7c8924df536d18": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Technicien·ne Amélioration Continue - Alternance H/F"
+  },
+  "6af646286c7c8924df536d4b": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Gestion de Projet & Conduite du Changement H/F"
+  },
+  "6af649086c7c8924df536ea4": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Controleur de gestion H/F"
+  },
+  "6af649096c7c8924df536f04": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Assistant chef de projet Marketing Client & CRM (H/F)"
+  },
+  "6af649096c7c8924df536f06": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Chargé d'approvisionnement (H/F)"
+  },
+  "6af649096c7c8924df536f0e": {
+   "first_seen": "2026-11-13T15:14:16.590237+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Business Developer B2B en alternance - Sécurité électronique (H/F)"
   }
  }
 }
