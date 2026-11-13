@@ -84,6 +84,11 @@
   "title": "What's New On Netflix November 2026: 'Heartland,' 'The Altruists,' 'The Mosquito Bowl' And 'Black Doves S2' - Patch",
   "ts": "2026-10-31T02:10:35.540710+00:00"
  },
+ "00076a641a6c8878": {
+  "ticker": "NVDA",
+  "title": "Impact of Jensen Huang Stepping Down: NVIDIA Plunges 14.3% While AMD & Broadcom Surge 6% - Market Verdict - eu.36kr.com",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
+ },
  "0008f62cb5602a7b": {
   "ticker": "NVDA",
   "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Monday - Yahoo Finance",
@@ -27143,6 +27148,11 @@
   "ticker": "LITE",
   "title": "Lumentum (NASDAQ:LITE) Shares Gap Down - Here's Why - MarketBeat",
   "ts": "2026-11-12T17:06:20.639409+00:00"
+ },
+ "0c8d2977a141ce84": {
+  "ticker": "MACRO",
+  "title": "Stock Market Today: Sensex Sheds Over 400 Points, Nifty 50 Below 25,200; Shriram Finance, Hindalco, HDFC Top Losers - ND",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "0c8d79c8e8a3deab": {
   "ticker": "GOOGL",
@@ -54623,6 +54633,11 @@
   "ticker": "MACRO",
   "title": "'True great' Kane set to break England appearance record - Business Recorder",
   "ts": "2026-11-11T10:25:56.412517+00:00"
+ },
+ "19a23955286721ad": {
+  "ticker": "MACRO",
+  "title": "Crude oil prices surge past $95 amid fresh Houthi attacks on Saudi facilities; Brent, WTI gain - Moneycontrol.com",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "19a240c489338607": {
   "ticker": "NFLX",
@@ -109208,6 +109223,11 @@
   "ticker": "NFLX",
   "title": "Netflix posts higher Q3 profit but revenue growth worries pull shares lower - WTOP News",
   "ts": "2026-10-20T20:51:00.124223+00:00"
+ },
+ "33ee18c07968813d": {
+  "ticker": "NVDA",
+  "title": "Future of AI faces new questions after Nvidia CEO resigns - WKYT",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "33ee6299e4542edc": {
   "ticker": "SMCI",
@@ -170773,6 +170793,11 @@
   "ticker": "MACRO",
   "title": "5 Things Investors Need to Know About Thursday’s Markets - AOL.com",
   "ts": "2026-11-12T13:50:23.324757+00:00"
+ },
+ "50dc9c5c0237a3b9": {
+  "ticker": "MACRO",
+  "title": "Iran's IRGC says it targeted and destroyed a US early-warning radar in Bahrain - FXStreet",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "50e058d3eec39b96": {
   "ticker": "NVDA",
@@ -292859,6 +292884,11 @@
   "title": "Arista Networks earnings beat by $0.12, revenue topped estimates - Investing.com India",
   "ts": "2026-11-03T21:28:49.261091+00:00"
  },
+ "8b57e7ec696af2f8": {
+  "ticker": "MACRO",
+  "title": "XOM, CVX, COP: This Analyst Trims Price Targets, Warns Oil Stocks May 'Struggle To Appreciate' - TradingView",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
+ },
  "8b586e172ba19312": {
   "ticker": "NFLX",
   "title": "Netflix Replaces Bela Bajaria, Names Ex-Disney TV Chair Rice Chief Content Officer - News India Times",
@@ -311923,6 +311953,11 @@
   "ticker": "SMCI",
   "title": "Super Micro stock falls 4.7% on Thursday amid tech selloff - scanx.trade",
   "ts": "2026-11-03T11:15:55.774511+00:00"
+ },
+ "9489234e008ea81a": {
+  "ticker": "MACRO",
+  "title": "AUD/USD Outlook: Historic yield squeeze leaves Aussie bears in control - FOREX.com",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "948a1fedcf341154": {
   "ticker": "NVDA",
@@ -347793,6 +347828,11 @@
   "title": "China’s $35B Nvidia GPU Order Tests Export Limits [2026] - shattered.io",
   "ts": "2026-10-20T15:53:03.405906+00:00"
  },
+ "a5b9677f912b241b": {
+  "ticker": "NVDA",
+  "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO - Euronext Markets: Real-time Stock Market D",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
+ },
  "a5ba274218f6383c": {
   "ticker": "NVDA",
   "title": "Nvidia preparing to oust CEO Jensen Huang: US media - France 24",
@@ -350772,6 +350812,11 @@
   "ticker": "NVDA",
   "title": "Repubican senator Kevin Cramer says Nvidia CEO Jensen Huang ‘has got to go’ amid China spy probe: Report | World News - ",
   "ts": "2026-11-11T04:01:21.583710+00:00"
+ },
+ "a71fa3d2f99a3f07": {
+  "ticker": "MACRO",
+  "title": "Chipflation: Asia's New Inflation Wildcard - Nomura Connects",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "a7205040e3aea3c6": {
   "ticker": "TSM",
@@ -372328,6 +372373,11 @@
   "title": "Global oil prices drop nearly 6pc as US-Iran tension eases - Daily Observer",
   "ts": "2026-11-10T09:04:43.268941+00:00"
  },
+ "b1a2b10e3a218b77": {
+  "ticker": "MACRO",
+  "title": "日本10年期国债收益率上升8.5个基点，至2.875%。",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
+ },
  "b1a392f0d012b960": {
   "ticker": "MACRO",
   "title": "ECB, US Fed Hold Rates – Wealth Managers React - Family Wealth Report",
@@ -374972,6 +375022,11 @@
   "ticker": "MACRO",
   "title": "US stock market today: Dow, S&P 500 futures rise ahead of CPI report - CNBC TV18",
   "ts": "2026-10-14T14:37:10.484470+00:00"
+ },
+ "b2f35132b821618b": {
+  "ticker": "NVDA",
+  "title": "Video Assessing the threat: Nvidia fallout, Microsoft suffers massive outage - ABC News - Breaking News, Latest News and",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "b2f38b120f7b967a": {
   "ticker": "NVDA",
@@ -382542,6 +382597,11 @@
   "ticker": "NVDA",
   "title": "Nvidia is investing $3 billion in Meta's equity offering in expanded AI deal - Quartz",
   "ts": "2026-10-27T11:47:30.150503+00:00"
+ },
+ "b683582fb3db71d6": {
+  "ticker": "NVDA",
+  "title": "Asia stocks steady as chipmakers rebound after Nvidia leadership shock - Investing.com",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "b683fbdd76b3e001": {
   "ticker": "NVDA",
@@ -415122,6 +415182,11 @@
   "ticker": "NVDA",
   "title": "Who is Alice Huang? Inside Nvidia CEO Jensen Huang’s Affair and Chinese Spy Allegations - Oxygen Official Site",
   "ts": "2026-11-10T02:55:47.686795+00:00"
+ },
+ "c5bf968f4df3529e": {
+  "ticker": "NFLX",
+  "title": "GraniteShares 3x Short Netflix Daily ETP EUR (LSE: 3SNE) Stock Price, News & Analysis - kalkine.ca",
+  "ts": "2026-11-13T04:22:43.133144+00:00"
  },
  "c5bf9c0010277514": {
   "ticker": "SPCX",
