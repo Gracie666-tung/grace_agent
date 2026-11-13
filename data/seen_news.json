@@ -35579,6 +35579,11 @@
   "title": "Interest Rates Should Remain Unchanged Today, but at Least 3 Federal Reserve Rate Hikes Are Expected by September 2027 -",
   "ts": "2026-10-28T09:13:42.348904+00:00"
  },
+ "1089a302c500064b": {
+  "ticker": "TSLA",
+  "title": "Brown: As Tesla ends the Cybertruck, let’s pull the plug on the EV culture war - TheDailyNewsOnline.com",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "1089bc2f69292307": {
   "ticker": "MACRO",
   "title": "Dow Jones Forecast: DJIA rises as Oil slips and Treasury yields pause - StoneX",
@@ -47988,6 +47993,11 @@
   "ticker": "MU",
   "title": "Micron's 2.7% Bounce Is a Sector Story, Not a Company One - ad-hoc-news.de",
   "ts": "2026-10-24T09:03:47.534044+00:00"
+ },
+ "16835e5d9c64178b": {
+  "ticker": "MACRO",
+  "title": "Oil prices set for second weekly decline as Trump to stay with Iran blockade - Business Recorder",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "1683c8b649807302": {
   "ticker": "MACRO",
@@ -127769,6 +127779,11 @@
   "title": "SpaceX-Tesla Merger On The Cards? Musk Says Tie-Up 'Would Be A Good Idea' - News18",
   "ts": "2026-10-21T01:00:23.834171+00:00"
  },
+ "3c586b672bae33e0": {
+  "ticker": "MACRO",
+  "title": "Gasoline and oil prices today, November 13th: Turnaround - Laodong.vn",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "3c58a4c425e02b42": {
   "ticker": "NFLX",
   "title": "Netflix retains top spot in US streaming rankings as HBO Max climbs - Indian Television Dot Com",
@@ -135298,6 +135313,11 @@
   "ticker": "PLTR",
   "title": "Cathie Wood’s ARK buys Meta stock, sells Teradyne and Palantir By Investing.com - Investing.com South Africa",
   "ts": "2026-10-23T03:11:08.516971+00:00"
+ },
+ "3fe0b540955163c4": {
+  "ticker": "NVDA",
+  "title": "Nvidia has a big leather jacket to fill: Jensen’s out - Morning Brew",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "3fe0c13e5bd291f8": {
   "ticker": "MACRO",
@@ -149619,6 +149639,11 @@
   "title": "Why AMD Stock Fell on Thursday - The Motley Fool",
   "ts": "2026-10-22T22:55:20.425846+00:00"
  },
+ "46b6f59039fa0d5d": {
+  "ticker": "NVDA",
+  "title": "3 Indian-Origin Faces Among 11 Names In Jensen Huang Succession Search At Nvidia - NDTV",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "46b7d771ec6c5bd9": {
   "ticker": "TSLA",
   "title": "Tesla earnings: margins, Cybercab, Optimus in focus as SpaceX merger talks intensify - Invezz",
@@ -161473,6 +161498,11 @@
   "ticker": "NFLX",
   "title": "Meet the Cast of Netflix’s Spooky New Dance-Team Thriller ‘The Body’ - Yahoo",
   "ts": "2026-11-12T21:36:38.239475+00:00"
+ },
+ "4c6c5b6226619c4a": {
+  "ticker": "NVDA",
+  "title": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development - Yahoo Finance",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "4c6d512d970ebb9a": {
   "ticker": "MACRO",
@@ -211604,6 +211634,11 @@
   "title": "China Gives Tesla and General Motors a New Chance ᐉ News from Fakti.bg - Business - Fakti.bg",
   "ts": "2026-11-07T14:15:12.696389+00:00"
  },
+ "63d6c970bce3968e": {
+  "ticker": "NVDA",
+  "title": "SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs - South China Morning Post",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "63d6ca5867aa4c41": {
   "ticker": "PLTR",
   "title": "Palantir Controls EU Spy Agency Data: US Law Gives Washington Back-Door Access - Tech Times",
@@ -248929,6 +248964,11 @@
   "title": "Needham reiterates USD 300 target: Nvidia stock gains 1.61 percent - ad-hoc-news.de",
   "ts": "2026-10-27T17:24:44.034159+00:00"
  },
+ "75d3134434b59149": {
+  "ticker": "GOOGL",
+  "title": "Alphabet Board Accused Of Ignoring 'Blazing Red' AI Flags - Law360",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "75d32097d74fbdd1": {
   "ticker": "MACRO",
   "title": "Gold falls below $4,100 due to US inflation: Should you hold or sell? - Vietnam.vn",
@@ -271639,6 +271679,11 @@
   "title": "Netflix announce Stranger Things prequel series with release date set - LADbible",
   "ts": "2026-11-06T14:42:58.809139+00:00"
  },
+ "80c357009e5868e4": {
+  "ticker": "NVDA",
+  "title": "Jimmy Kimmel Cracks Up After Nearly Calling Trump Assistant Natalie Harp ‘Melania’ in Nvidia-Inspired Spy Joke - TheWrap",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
+ },
  "80c3f80f12e92909": {
   "ticker": "NVDA",
   "title": "华尔街日报：英伟达正准备罢免英伟达CEO黄仁勋。",
@@ -282188,6 +282233,11 @@
   "ticker": "NVDA",
   "title": "NVIDIA Announces Major Breakthrough: Powered by Over 8,000 GPUs, Record-Breaking Quantum Error-Correction Simulation Red",
   "ts": "2026-10-19T19:39:53.016218+00:00"
+ },
+ "85cf1fb3c88ffb5d": {
+  "ticker": "NVDA",
+  "title": "‘Still Early In Networking Super Cycle’: Cisco Delivers Beat And Raise Quarter But Shares Drop Amid Nvidia-Linked Volati",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "85cf313ecb83f2e2": {
   "ticker": "SPCX",
@@ -310603,6 +310653,11 @@
   "ticker": "MACRO",
   "title": "East of Suez: Dubai crude tumbles $10/b, gasoline selloff persists - Quantum Commodity Intelligence",
   "ts": "2026-11-02T11:05:06.624145+00:00"
+ },
+ "938712ccfabc682b": {
+  "ticker": "NVDA",
+  "title": "Flowers, tears, and tributes at Nvidia HQ: Internet reacts as Jensen Huang's exit after controversial aff - The Times of",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "9387da661fc964e6": {
   "ticker": "NFLX",
@@ -378782,6 +378837,11 @@
   "ticker": "NVDA",
   "title": "AI Rally Reverses Overnight: Jensen Huang Reportedly Facing Board Ouster, Nvidia Plunges More Than 8% After Hours - BigG",
   "ts": "2026-11-12T04:43:24.411544+00:00"
+ },
+ "b448d65f55f0556d": {
+  "ticker": "NVDA",
+  "title": "Nvidia Staff Post on Ex-CEO Huang Draws 1,600 Comments - FourWeekMBA",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "b44a96587215c426": {
   "ticker": "SMCI",
@@ -495112,6 +495172,11 @@
   "ticker": "NFLX",
   "title": "PUBG TV Series Adaptation Starring Donald Glover In The Works At Netflix - TVLine",
   "ts": "2026-10-29T17:42:01.908375+00:00"
+ },
+ "ebd1d9830cf82b7f": {
+  "ticker": "MACRO",
+  "title": "Fed's John Williams signals more rate hikes as inflation remains persistent - The Economic Times",
+  "ts": "2026-11-13T06:11:04.359284+00:00"
  },
  "ebd21a30c83acb2c": {
   "ticker": "IONQ",
