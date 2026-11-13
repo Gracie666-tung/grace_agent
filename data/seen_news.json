@@ -14694,6 +14694,11 @@
   "title": "Musk Says It “Will Take 2 or 3 Years” for SpaceX to Build a Mobile Carrier. Verizon CEO Disagrees. - TIKR.com",
   "ts": "2026-10-28T16:12:13.016824+00:00"
  },
+ "06ab89ab425997e4": {
+  "ticker": "MACRO",
+  "title": "【美联储洛根：美债市场运行良好，美联储需加强支持工具】金十数据11月13日讯，达拉斯联储主席洛根周五在达拉斯联储银行融资会议上发表讲话时表示，尽管经历了几轮利率波动，但美国国债市场运行“非常好”，且银行在过去三年中改善了获取应急资金的能力。",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "06ad4c00b19e051b": {
   "ticker": "IBKR",
   "title": "Interactive Brokers stock: UBS cuts target for IBKR stock to USD 97.00 - AD HOC NEWS",
@@ -15393,6 +15398,11 @@
   "ticker": "MACRO",
   "title": "Oil Rises Over 1% as Traders Assess Shipping Flows; Monthly Gains in Sight - EnergyNow.com",
   "ts": "2026-10-20T06:39:22.541352+00:00"
+ },
+ "06f1ff606f2fcb28": {
+  "ticker": "NVDA",
+  "title": "Bessent Publicly Throws Lutnick Under the Bus as Nvidia Scandal Grows - The New Republic",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "06f2f1ab169d2b98": {
   "ticker": "MACRO",
@@ -27903,6 +27913,11 @@
   "ticker": "AMD",
   "title": "Nvidia vs AMD stock forecast: What a 7.4-point gap implies - www.techi.com",
   "ts": "2026-11-09T11:27:57.000478+00:00"
+ },
+ "0cb9af9ef67d9f95": {
+  "ticker": "NVDA",
+  "title": "Lutnick Under Fire as Bessent Blames Commerce in Nvidia Crisis - Bloomberg Government News",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "0cba4742c0d48b0f": {
   "ticker": "MACRO",
@@ -55179,6 +55194,11 @@
   "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia - Yahoo",
   "ts": "2026-11-11T19:56:48.896772+00:00"
  },
+ "19862a3ca9503f36": {
+  "ticker": "NFLX",
+  "title": "Netflix renews Virgin River for season nine — Variety - UA.NEWS",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "1987d0caba5fd1de": {
   "ticker": "MACRO",
   "title": "us market good news dollar index drop trump iran crude view - Zee Business",
@@ -79879,6 +79899,11 @@
   "title": "Musk promised to give one SpaceX share to every child in the U.S. - Mezha",
   "ts": "2026-10-19T12:07:39.865844+00:00"
  },
+ "254c931e721ad60e": {
+  "ticker": "NVDA",
+  "title": "Jensen Huang Said 'People Don't Quit Easily From Nvidia.' Less Than 6 Months Later, He Did - Inc.com",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "254d7be5085da700": {
   "ticker": "MACRO",
   "title": "Indian shares set for positive start after Fed holds rates steady; elevated oil weighs - Business Recorder",
@@ -85139,6 +85164,11 @@
   "title": "Nvidia Has Been the Market’s Golden Goose. Now It’s in Crisis - Morningstar",
   "ts": "2026-11-12T22:07:26.323975+00:00"
  },
+ "27b26c39516e25e5": {
+  "ticker": "GOOGL",
+  "title": "If You Invest $1,000 in Alphabet Today, Here’s What It Could Be Worth by 2030 - AOL.com",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "27b28617e9670c08": {
   "ticker": "MACRO",
   "title": "同行纷纷转向“抄底”美债，千亿资管巨头清仓后坚持不回头：木星资产管理点出不买美债的核心逻辑：美国独有的AI投资热潮正持续给需求端施压，推高整体价格水平，通胀黏性远高于其他发达经济体，美债当前仍排不到第一梯队。点击查看",
@@ -86823,6 +86853,11 @@
   "ticker": "NVDA",
   "title": "Bernstein says Nvidia stock faces key man risk amid CEO scrutiny - Investing.com",
   "ts": "2026-11-09T12:28:11.816863+00:00"
+ },
+ "28620a08107135fa": {
+  "ticker": "NFLX",
+  "title": "Five most shocking moments in new Netflix Russell Brand documentary - London Evening Standard",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "2862dc33826f8904": {
   "ticker": "MACRO",
@@ -109289,6 +109324,11 @@
   "title": "Tesla and Arista Networks among market cap stock movers on Friday - Investing.com Australia",
   "ts": "2026-11-06T22:10:42.880562+00:00"
  },
+ "332b4af0770860c4": {
+  "ticker": "TSLA",
+  "title": "Tesla Leases More Than 29,000 Square Feet in Buda - Yahoo",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "332e6947b4cf7554": {
   "ticker": "MACRO",
   "title": "Chip Rout Sends Nasdaq to Worst Month Since March 2025 - RealMoney Pro",
@@ -110743,6 +110783,11 @@
   "ticker": "TSLA",
   "title": "消费者组织指控特斯拉(TSLA.O)误导韩国客户，销售多数特斯拉车型无法合法使用的驾驶软件。",
   "ts": "2026-11-04T00:05:55.221193+00:00"
+ },
+ "33e0649f414fa453": {
+  "ticker": "AAPL",
+  "title": "Apple Inc. : Bernstein reiterates its Buy rating - marketscreener.com",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "33e12f39ce2d3976": {
   "ticker": "NFLX",
@@ -133303,6 +133348,11 @@
   "ticker": "MACRO",
   "title": "Gold logs strongest weekly gain since August as crude oil plunges over 12 pc - DT Next",
   "ts": "2026-11-07T08:50:19.419519+00:00"
+ },
+ "3e413932f708de75": {
+  "ticker": "MACRO",
+  "title": "Social inflation adds up to $337bn to US liability losses, Triple-I finds - Intelligent Insurer",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "3e414cef57314b41": {
   "ticker": "MU",
@@ -210899,6 +210949,11 @@
   "title": "Pedro Pascal’s $462M Box Office Disappointment Is Suddenly Netflix’s No. 1 Movie - ComingSoon.net",
   "ts": "2026-10-23T14:11:27.446909+00:00"
  },
+ "62597c3dc240dce2": {
+  "ticker": "RKLB",
+  "title": "The Honeymoon Is Over Between Rocket Lab and Its Investors - The Globe and Mail",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "6259f27b506a79f8": {
   "ticker": "MU",
   "title": "Can Micron Stock Keep Climbing After a 10-Fold Run? Here's What Its Past Booms Say. - Yahoo Finance",
@@ -211923,6 +211978,11 @@
   "ticker": "NVDA",
   "title": "Chimera Linux Gets Proprietary NVIDIA Drivers Working on musl - Linuxiac",
   "ts": "2026-11-06T15:01:10.952750+00:00"
+ },
+ "62d498bb55215a6f": {
+  "ticker": "P",
+  "title": "Seeking Clues to Everpure (P) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics - Yahoo Finance",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "62d4f0619c11af53": {
   "ticker": "HCLTECH",
@@ -227134,6 +227194,11 @@
   "title": "Alphabet’s Post-Earnings Selloff Is The Best Buying Opportunity In Years (NASDAQ:GOOG) - Seeking Alpha",
   "ts": "2026-10-30T14:44:06.706424+00:00"
  },
+ "69f88904497407aa": {
+  "ticker": "SMCI",
+  "title": "Super Micro Computer's (NASDAQ:SMCI) Performance Raises Some Questions - Simply Wall St",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "69fa1e0fab36349e": {
   "ticker": "NFLX",
   "title": "Netflix Adds Season 2 of the “Cyberpunk 2077” Anime Series - Analytics Insight",
@@ -234823,6 +234888,11 @@
   "ticker": "NFLX",
   "title": "Netflix : quels films et séries regarder pour Halloween ? Notre top - Gameblog",
   "ts": "2026-10-31T08:52:22.018798+00:00"
+ },
+ "6d9c506f5818fb4d": {
+  "ticker": "MACRO",
+  "title": "布伦特原油站上97美元/桶，日内涨1.32%。",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "6d9d8e66945f95df": {
   "ticker": "ANET",
@@ -309364,6 +309434,11 @@
   "title": "NVIDIA CEO Admits Affair Linked to Chinese Intelligence - 조선일보",
   "ts": "2026-11-08T23:56:37.073616+00:00"
  },
+ "9124ca8c7a98c682": {
+  "ticker": "PLTR",
+  "title": "Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir - AOL.com",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "912548a00d518791": {
   "ticker": "NFLX",
   "title": "Netflix's \"twisty\" Harlan Coben thriller with Michelle Keegan and Mandeep Dhillon gets big update - Digital Spy",
@@ -311058,6 +311133,11 @@
   "ticker": "HOOD",
   "title": "Scotiabank Issues Pessimistic Forecast for Robinhood Markets (NASDAQ:HOOD) Stock Price - MarketBeat",
   "ts": "2026-10-28T12:55:29.647444+00:00"
+ },
+ "91e4c926d564572e": {
+  "ticker": "NVDA",
+  "title": "Lutnick Agrees To Testify Before Congress—As He Faces Bipartisan Blowback Over Nvidia’s Huang Fallout - Forbes",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "91e685cc246e472d": {
   "ticker": "NET",
@@ -389683,6 +389763,11 @@
   "title": "Netflix is great at making money – its problem is keeping viewers hooked - The Business Times",
   "ts": "2026-10-21T01:06:27.672882+00:00"
  },
+ "b72f904b16896c7b": {
+  "ticker": "NVDA",
+  "title": "Who Should Be Nvidia's Next CEO? - Yahoo Finance",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "b72fce9e3e29682b": {
   "ticker": "MACRO",
   "title": "纳指ETF国泰：本基金将于2026年11月5日开市起至当日10:30停牌。",
@@ -435858,6 +435943,11 @@
   "title": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives Below $3900 As Dollar Rallies - FXEmpire",
   "ts": "2026-11-12T21:05:32.133042+00:00"
  },
+ "cc97d755996ae6d9": {
+  "ticker": "NVDA",
+  "title": "Nvidia stock slips as investors digest CEO exit, broader chip sector falls - Yahoo Finance",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "cc98385d28442ad1": {
   "ticker": "TSLA",
   "title": "Citigroup Adds Lucid, Rivian, Nio, and Tesla in Q3, Cuts XPeng and Li Auto - Electric Vehicles",
@@ -455838,6 +455928,11 @@
   "title": "KeyBanc Cuts Rocket Lab Stock (RKLB) Price Target, But Stays Bullish. Here’s Why - TipRanks",
   "ts": "2026-10-15T22:35:05.123150+00:00"
  },
+ "d6064ebb5130e526": {
+  "ticker": "NVDA",
+  "title": "CoreWeave tunes out Nvidia noise, looks to raise $4B - Yahoo Finance",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "d606fe2f7afd5866": {
   "ticker": "GOOGL",
   "title": "Alphabet Stock And 2 More Undervalued Stocks To Watch - Yahoo! Finance Canada",
@@ -467372,6 +467467,11 @@
   "ticker": "MACRO",
   "title": "Copper is heading for a third straight daily loss as U.S. inflation fuels rate hike bets - Quartz",
   "ts": "2026-10-15T19:56:30.556312+00:00"
+ },
+ "db7db3312d823a48": {
+  "ticker": "AMD",
+  "title": "Advanced Micro Devices Inc Stock (AMD) Opened Down by 5.37% on Nov 13: Facts Behind the Movement - TradingKey",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "db7f59e03f46b103": {
   "ticker": "NFLX",
@@ -528488,6 +528588,11 @@
   "title": "SpaceX’s record opening gap leaves the space-stock rout behind — here are the levels bulls need to hold - Yahoo Finance ",
   "ts": "2026-10-21T14:36:14.882061+00:00"
  },
+ "f89cf8846ad108db": {
+  "ticker": "PLTR",
+  "title": "Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir - Yahoo Finance",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
+ },
  "f89d810ec649fde2": {
   "ticker": "MACRO",
   "title": "Canadian Natural Resources gains as crude rally appears to lift oil producers - Quiver Quantitative",
@@ -537137,6 +537242,11 @@
   "ticker": "MACRO",
   "title": "Hims & Hers Health, RadNet, and Henry Schein shares are soaring, what you need to know - StockStory",
   "ts": "2026-11-04T20:04:20.946306+00:00"
+ },
+ "fca0ef4eb64bfc1a": {
+  "ticker": "SMCI",
+  "title": "Super Micro Stock Bounces Back After a Denial Involving Megaspeed - TradingView",
+  "ts": "2026-11-13T14:54:44.201751+00:00"
  },
  "fca11864ecec4a17": {
   "ticker": "NFLX",
