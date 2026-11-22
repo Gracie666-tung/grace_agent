@@ -1,12 +1,6 @@
 {
  "key_alert_sent": false,
  "seen": {
-  "6968b84f2fd23d7ccdf72d68": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Gestionnaire de Stock - Magasinier H/F"
-  },
   "6968b8512fd23d7ccdf72ec7": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
    "score": null,
@@ -31,12 +25,6 @@
    "status": "pushed_unscored",
    "title": "Apprenti Mecanicien H/F"
   },
-  "699f7f851e68753a541bffe9": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Poissonnier - en Alternance H/F"
-  },
   "69bc810578c7fd0b52911169": {
    "first_seen": "2026-10-31T13:29:03.413558+00:00",
    "score": null,
@@ -55,12 +43,6 @@
    "status": "pushed_unscored",
    "title": "Intermarche - Alternance Comptable H/F"
   },
-  "6a12248a2561b976da1f03fc": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant Ingénieur Risques Industriels H/F"
-  },
   "6a1f5397767e173f574fcaa9": {
    "first_seen": "2026-11-18T16:19:35.416054+00:00",
    "score": null,
@@ -78,12 +60,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Apprenti Contrôleur de Gestion H/F"
-  },
-  "6a346e5a7f27726a049710c6": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant - Electricien Industriel H/F"
   },
   "6a346e5c7f27726a04971118": {
    "first_seen": "2026-11-20T15:59:07.157295+00:00",
@@ -180,12 +156,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternant Amélioration Continue - Lean Management H/F"
-  },
-  "6a6d230cab2acc197076ceae": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance – Chargé(e) de projet Énergie / ISO 50001 (H/F) H/F"
   },
   "6a7263821e39cbba1ed2a28a": {
    "first_seen": "2026-11-05T15:18:14.204033+00:00",
@@ -337,12 +307,6 @@
    "status": "pushed_unscored",
    "title": "Alternance - Chef.Fe de Projet Environnement - Services Généraux. H/F"
   },
-  "6ab4517868233dbb8f6a4443": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Technicien de maintenance 3x8 CDI (H/F)"
-  },
   "6ab59ee068233dbb8f6a9cca": {
    "first_seen": "2026-10-25T12:26:31.690356+00:00",
    "score": null,
@@ -402,12 +366,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Reporting Projets Eh&S Groupe HSE F - M - X - Issy-Les-Moulineaux 92 H/F"
-  },
-  "6abd8bd2d46e986892ba2d10": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Coordinateur Qualité système et environnement en alternance H/F"
   },
   "6abed978d46e986892bf0a60": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
@@ -631,18 +589,6 @@
    "status": "pushed_unscored",
    "title": "Monteur câbleur électronique en alternance - CQPM H/F"
   },
-  "6ad7e8b2697d75a5c9fd22f1": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Assistant qualité en contrat d'alternance (H/F)"
-  },
-  "6ad7e8b3697d75a5c9fd2334": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Acheteur Junior MRO (Alternance) (H/F)"
-  },
   "6ad7e8b6697d75a5c9fd23bc": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
    "score": null,
@@ -673,29 +619,11 @@
    "status": "pushed_unscored",
    "title": "Alternant électro technicien (H/F)"
   },
-  "6ad936286c0ce914bb7a9d27": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
+  "6ad937212b0b33f74bce1a4e": {
+   "first_seen": "2026-11-22T15:10:14.516390+00:00",
    "score": null,
    "status": "pushed_unscored",
-   "title": "Chargé de gestion des flux F/H"
-  },
-  "6ad93a13715e4cba3924e380": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Monteur câbleur électronique en alternance - CQPM H/F"
-  },
-  "6ad93a14715e4cba3924e384": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Acheteur approvisionneur / Acheteuse approvisionneuse de l'indust (H/F)"
-  },
-  "6ad93a17715e4cba3924e458": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "L'Opcommerce - Chargé / Chargée de projet et de développement territorial (H/F)"
+   "title": "Alternant Service Méthodes H/F"
   },
   "6ad93ad72b0b33f74bce626a": {
    "first_seen": "2026-11-14T14:01:40.980518+00:00",
@@ -709,83 +637,11 @@
    "status": "pushed_unscored",
    "title": "Apprentissage - chargé.e d'analyse de données de pilotage"
   },
-  "6ada1c781c256e6f3beeb880": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Business Developer / SDR Constellation en alternance (H/F)"
-  },
-  "6ada87901965492bdb88225e": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Apprenti(e) chargé(e) de projet événementiel F/H"
-  },
-  "6ada88bbd61b4915a03dca89": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant Planificateur et Analyste Supply Chain H/F"
-  },
-  "6ada88bbd61b4915a03dcabe": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Assistant Chef de Projet Développement Commercial H/F"
-  },
-  "6ada88bcd61b4915a03dcaed": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Peintre Industriel Montreverd H/F"
-  },
-  "6ada88bdd61b4915a03dcb01": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Peintre Industriel Bournezeau H/F"
-  },
-  "6ada88bdd61b4915a03dcb0b": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Carrefour Links Chef de Projet Data - Alternance H/F"
-  },
-  "6ada8926d61b4915a03de351": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Chef de projet Digital et Innovation F/H"
-  },
   "6ada892ad61b4915a03de44f": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternant service Méthodes H/F"
-  },
-  "6ada892ad61b4915a03de46c": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant Assistant Achats & Opérations DRESCO (F/H)"
-  },
-  "6ada8ba883cbc16d52243222": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "ALTERNANCE ELECTRONIQUE (H/F)"
-  },
-  "6ada8ba883cbc16d5224324c": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Chargé de mission QHSE H/F"
-  },
-  "6ada8bab83cbc16d522432e0": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "ALTERNANT(E) QSE/RSE/ENVIRONNEMENT (H/F)"
   },
   "6ada8bab83cbc16d522432fc": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
@@ -793,41 +649,11 @@
    "status": "pushed_unscored",
    "title": "Alternance en maintenance industrielle F/H - HMarket"
   },
-  "6ada8bab83cbc16d5224330b": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Assistant Chef.fe de produits solutions énergétiques H/F"
-  },
-  "6ada8bac83cbc16d52243348": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Apprenti(e) Business Developer (H/F)"
-  },
-  "6ada8c72d61b4915a03e12e5": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "APPRENTI - Technicien de maintenance Industriel H/F"
-  },
-  "6ada8c73d61b4915a03e12f3": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Monteur câbleur électronique en alternance H/F"
-  },
   "6ada8c74d61b4915a03e136c": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
    "score": null,
    "status": "pushed_unscored",
    "title": "CONDUCTEUR DE LIGNE EN ALTERNANCE"
-  },
-  "6ada8c74d61b4915a03e136d": {
-   "first_seen": "2026-10-23T12:31:21.032372+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Assistant Chef de Projet développement commercial (H/F)"
   },
   "6adbda06ec4f5594ab3cccb6": {
    "first_seen": "2026-10-24T11:55:03.993783+00:00",
@@ -2677,6 +2503,12 @@
    "status": "pushed_unscored",
    "title": "Chef de projet Boulangerie - En Alternance (F/H)"
   },
+  "6b00d1d4de83093b496ea7b0": {
+   "first_seen": "2026-11-22T15:10:14.516390+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternant Assistant Achats & Opérations Dresco H/F"
+  },
   "6b00d1fade83093b496ea822": {
    "first_seen": "2026-11-21T15:12:55.702465+00:00",
    "score": null,
@@ -2754,6 +2586,24 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Monteur-assembleur industriel en alternance H/F"
+  },
+  "6b015786f84716b7a1ff1062": {
+   "first_seen": "2026-11-22T15:10:14.516390+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Assistant Chef de Projet F/H F/H"
+  },
+  "6b01d14f879ca39b3c0c0845": {
+   "first_seen": "2026-11-22T15:10:14.516390+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "apprenti (e) boucherie/charcuterie"
+  },
+  "6b02234ede83093b496eb487": {
+   "first_seen": "2026-11-22T15:10:14.516390+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Assistant Chef de Projet F/H F/H"
   }
  }
 }
