@@ -1,6 +1,12 @@
 {
  "key_alert_sent": false,
  "seen": {
+  "68704593a2471b6c1f1da7ee": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Assistant Chef de Projet Digital & E-commerce (H/F)"
+  },
   "6968b84f2fd23d7ccdf72d68": {
    "first_seen": "2026-11-23T19:07:09.377366+00:00",
    "score": null,
@@ -109,12 +115,6 @@
    "status": "pushed_unscored",
    "title": "Alternance - Concepteur - Conceptrice 3D Industriel - Installation Générale H/F"
   },
-  "6a3b05ceaba467736d4ce62a": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Consultant Alternant Procurement Strategy & Transformation H/F"
-  },
   "6a3efa3dd78c2c0434671e15": {
    "first_seen": "2026-10-28T13:55:26.956407+00:00",
    "score": null,
@@ -126,12 +126,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternance Achats Alimentaires H/F"
-  },
-  "6a63e3aa9e972c0713e9bc47": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant Amélioration Continue - Assistant Production H/F"
   },
   "6a63e3ac9e972c0713e9bc99": {
    "first_seen": "2026-10-30T13:56:11.894204+00:00",
@@ -223,12 +217,6 @@
    "status": "pushed_unscored",
    "title": "Technicien Supérieur en Électronique ou Électricité H/F"
   },
-  "6a99f43cb7a03ff3606f2870": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Chargé(e) de méthodes maintenance H/F"
-  },
   "6a9f35f6200ee040c1191cc5": {
    "first_seen": "2026-11-09T17:19:58.317467+00:00",
    "score": null,
@@ -301,17 +289,11 @@
    "status": "pushed_unscored",
    "title": "Chef de Projet Digital en Alternance H/F"
   },
-  "6ab6f094debdfaef588483f6": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
+  "6ab59ee068233dbb8f6a9cca": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
    "score": null,
    "status": "pushed_unscored",
-   "title": "Mécanicien Industriel - Mécanicienne Industrielle H/F"
-  },
-  "6ab6f095debdfaef58848420": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Assistant Direction Alternance H/F"
+   "title": "Alternance - Assistant Sourcing et Licensing de Medicaments H/F"
   },
   "6ab841ffe1510c104cc356c9": {
    "first_seen": "2026-10-27T13:05:22.460551+00:00",
@@ -547,11 +529,11 @@
    "status": "pushed_unscored",
    "title": "Carrefour Links Chef de Projet Data - Alternance H/F"
   },
-  "6ade8af5ec4f5594ab3e08be": {
-   "first_seen": "2026-10-26T14:04:10.029678+00:00",
+  "6add2babec4f5594ab3d85f1": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
    "score": null,
    "status": "pushed_unscored",
-   "title": "Analyste Supply Chain - Gestionnaire de Stock H/F"
+   "title": "Alternant Supply Chain & Amélioration Continue Europe - Bourgbarré 35 H/F"
   },
   "6adfdb9f1b7811ea8d9279df": {
    "first_seen": "2026-10-27T13:05:22.460551+00:00",
@@ -2478,6 +2460,84 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Assistant Chef de Projet E-Commerce en alternance H/F"
+  },
+  "6b055209879ca39b3c0cfa2c": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Employé polyvalent / Employée polyvalente de libre-service"
+  },
+  "6b061730de83093b496ec4dc": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "ALTERNANCE - Chargé d'Affaires F/H"
+  },
+  "6b0617f1de83093b496ec575": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Data Analyst H/F"
+  },
+  "6b0617f5de83093b496ec62a": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Gestionnaire de Stock - Magasinier H/F"
+  },
+  "6b061836de83093b496ec692": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Assistant(e) Transport"
+  },
+  "6b061837de83093b496ec69f": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance Logisticien(ne) H/F"
+  },
+  "6b061ab8de83093b496eca93": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Technicien contrôle qualité (H/F)"
+  },
+  "6b061abbde83093b496ecb65": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Assistant Achats / Supply Chain H/F"
+  },
+  "6b061abfde83093b496ecc61": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Assistant chef de produit marketing services F/H"
+  },
+  "6b061b88de83093b496ecf25": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "FORMATION ELECTRICIEN INDUSTRIEL H/F"
+  },
+  "6b061b88de83093b496ecf26": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "FORMATION ELECTRICIEN INDUSTRIEL H/F"
+  },
+  "6b061b88de83093b496ecf2b": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Technicien contrôle qualité formation en industrie aéronautique (H/F)"
+  },
+  "6b061b88de83093b496ecf2c": {
+   "first_seen": "2026-11-25T17:53:20.975056+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Technicien contrôle qualité formation en industrie aéronautique (H/F)"
   }
  }
 }
