@@ -115,6 +115,12 @@
    "status": "pushed_unscored",
    "title": "Alternance - Concepteur - Conceptrice 3D Industriel - Installation Générale H/F"
   },
+  "6a3b05ceaba467736d4ce62a": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Consultant Alternant Procurement Strategy & Transformation H/F"
+  },
   "6a3efa3dd78c2c0434671e15": {
    "first_seen": "2026-10-28T13:55:26.956407+00:00",
    "score": null,
@@ -188,7 +194,7 @@
    "title": "Chef de Projet Technique H/F"
   },
   "6a8e12a54b5bbabffa34b315": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
    "score": null,
    "status": "pushed_unscored",
    "title": "Assistant·e Distribution Planner - Alternance Septembre 2026 H/F"
@@ -294,12 +300,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternance - Assistant Sourcing et Licensing de Medicaments H/F"
-  },
-  "6ab841ffe1510c104cc356c9": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Responsable Environnement Hygiene et Services H/F"
   },
   "6abae4ffc6b865ac2948af4f": {
    "first_seen": "2026-10-30T13:56:11.894204+00:00",
@@ -534,84 +534,6 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Alternant Supply Chain & Amélioration Continue Europe - Bourgbarré 35 H/F"
-  },
-  "6adfdb9f1b7811ea8d9279df": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Product owner F/H"
-  },
-  "6adfdbb01b7811ea8d92977d": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Agent de fabrication - Approvisionneur pousse de salade"
-  },
-  "6adfdc8eec4f5594ab3ea213": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Assistant Chef de Projet - Développement Logiciel H/F"
-  },
-  "6adfdc8fec4f5594ab3ea232": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant Projet Production H/F"
-  },
-  "6adfdc90ec4f5594ab3ea27b": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance - Stage - Chef de Projet IA & Innovation H/F"
-  },
-  "6adfdc90ec4f5594ab3ea290": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Assistant·e Chef de Projet Influence en Alternance H/F"
-  },
-  "6adfdc91ec4f5594ab3ea2ac": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance en Comptabilité & Finance - 2 à H/F"
-  },
-  "6adfdc92ec4f5594ab3ea2e9": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Ingénieure - Ingénieur Projet - Alternance H/F"
-  },
-  "6adfdc92ec4f5594ab3ea305": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Assistant Agent de Transit H/F"
-  },
-  "6adfdf57bfbdb64c1a693518": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "ALTERNANT AUTOMATIQME INFORMATIQUE INDUSTRIELLE (H/F)"
-  },
-  "6adfdf59bfbdb64c1a69357a": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "L'Opcommerce - Chef / Cheffe de projet marketing digital (H/F)"
-  },
-  "6adfdf5bbfbdb64c1a693605": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternant/e Assistant(e) Manager Commercial(e) (H/F)"
-  },
-  "6adfe01bec4f5594ab3ee8f2": {
-   "first_seen": "2026-10-27T13:05:22.460551+00:00",
-   "score": null,
-   "status": "pushed_unscored",
-   "title": "Alternance / Stage - Chef(fe) de Projet IA & Innovation"
   },
   "6ae07c6fbbefc38a6ced58b7": {
    "first_seen": "2026-10-28T13:55:26.956407+00:00",
@@ -2538,6 +2460,66 @@
    "score": null,
    "status": "pushed_unscored",
    "title": "Technicien contrôle qualité formation en industrie aéronautique (H/F)"
+  },
+  "6b0768c501bbb0090c4b380a": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance ingénieur(e) QSSE F/H"
+  },
+  "6b07695601bbb0090c4b3863": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Technicien de Laboratoire H/F"
+  },
+  "6b07695701bbb0090c4b38a5": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Technicien de Laboratoire H/F"
+  },
+  "6b07695801bbb0090c4b38ba": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Assistant Administratif en Alternance H/F"
+  },
+  "6b07695801bbb0090c4b38cd": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Apprenti Acheteur Hf H/F"
+  },
+  "6b07695801bbb0090c4b38d5": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Employé de Rayon Non Alimentaire Titre Professionnel en Alternance H/F"
+  },
+  "6b07695801bbb0090c4b38e3": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Technicien de Laboratoire H/F"
+  },
+  "6b07699d01bbb0090c4b39b8": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "ALTERNANCE - DATA ANALYST H/F"
+  },
+  "6b076c2b01bbb0090c4b3bb2": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Alternance - Technicien de laboratoire F/H - ITGA"
+  },
+  "6b076c3001bbb0090c4b3cf2": {
+   "first_seen": "2026-11-26T17:38:20.949810+00:00",
+   "score": null,
+   "status": "pushed_unscored",
+   "title": "Analyste d'étude informatique (10943) (H/F)"
   }
  }
 }
